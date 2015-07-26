@@ -1,4 +1,4 @@
-baseurl = "http://192.168.1.22/"
+baseurl = "http://kicad-pcb.org/"
 languageCode = "en-us"
 title = "KiCad EDA"
 canonifyurls = true
