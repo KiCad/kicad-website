@@ -1,0 +1,7 @@
++++
+title = "2015 Stable Release is Out!"
++++
+
+We've just released the long-awaited stable version of Kicad. Download
+for Windows, OSX and Linux!
+

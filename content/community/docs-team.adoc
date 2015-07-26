@@ -1,0 +1,25 @@
++++
+title = "Docs Team"
+categories = [ "Community" ]
++++
+
+The Docs Team is the short name for the Documentation Team which is documenation writers and maintainers. This group is all the people who care about the official documenation for KiCad. This includes the go to documenation on http://docs.kicad-pcb.org and this main webiste.
+
+We are always looking for volunteers who are interested in contributing to the KiCad documentation project.
+
+Most of the action takes place on on the two repositories on github.
+
+ - Official Documenation
+ - Website Source
+
+What are the tasks we are working on?
+
+ - Authoring
+ - Indexing
+ - Screenshot production
+ - Proofreading
+ - Translating
+ - Documenting undocumented new features
+
+We welcome everyone who can contribute in a positive way to the official documentation. This could be be any of the above mentioned points.
+

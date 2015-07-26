@@ -1,0 +1,10 @@
++++
+title = "Features"
++++
+
+features.adoc
+
+Features would have describe the eeschema, pcbnew, viewer, etc in more
+detail and thats where we would shove all the screenshots and
+examples.
+

@@ -1,0 +1,23 @@
+baseurl = "http://192.168.1.22/"
+languageCode = "en-us"
+title = "KiCad EDA"
+canonifyurls = true
+layoutdir = "layouts"
+
+[params]
+	DateForm = "Mon, Jan 2, 2006"
+	Description = "A Cross Platform and Open Source Electronics Design Automation Suite"
+	Author = "The KiCad editors"
+	email = "foo@bar.com"
+	Ganalytics = "XX-00000000-0"
+
+[[params.social]]
+  title = "twitter"
+  url = "https://twitter.com/kicad_pcb"
+[[params.social]]
+  title = "github"
+  url = "https://github.com/KiCad"
+[[params.social]]
+  title = "facebook"
+  url = "https://www.facebook.com/kicadpcb"
+

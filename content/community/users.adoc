@@ -1,0 +1,7 @@
++++
+title = "Users"
++++
+
+This pages is supposed to provide generic pointers for uses on where
+to get help, for example chris gammels forum, the users mailing list,
+IRC...

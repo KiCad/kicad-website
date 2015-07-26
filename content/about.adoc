@@ -1,0 +1,9 @@
++++
+title = "About"
+date = "2014-04-09"
+menu = "main"
++++
+
+about.adoc
+
+Test 123, it seems that menu = "main" makes this go in to the main menu...

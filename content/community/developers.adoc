@@ -1,0 +1,10 @@
++++
+title = "Developers"
+categories = [ "Community" ]
++++
+
+developers.adoc
+
+Developers would just have
+1. How to contribute
+2. Launchpad

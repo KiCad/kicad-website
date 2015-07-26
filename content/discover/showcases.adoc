@@ -1,0 +1,9 @@
++++
+title = "Showcases"
++++
+
+showcases.adoc
+
+This pages is intended to be stules sort of like on some of the
+startboost portfolio templates:
+http://startbootstrap.com/template-overviews/3-col-portfolio/

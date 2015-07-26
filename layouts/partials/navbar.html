@@ -1,0 +1,66 @@
+           <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- <li {{ if .IsHome }}class="active"{{ end }}><a href="{{ .Site.BaseURL }}/">Home</a></li> -->
+
+			        {{ if isset .Site.Params "mainMenu" }}
+				        {{ $url := .Permalink }}
+				        {{ range $item := .Site.Params.mainMenu }}
+					        {{ $itemUrl := printf "%s/%s/" .Site.BaseURL $item }}
+					        <li {{ if eq $url $itemUrl }}class="active"{{ end }}><a href="{{ .Site.BaseURL }}/{{ $item }}">{{ title $item }}</a></li>
+				        {{ end }}
+			        {{ end }}
+
+			        <li class="dropdown">
+				        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Discover<span class="caret"></span></a>
+				        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/community/features/">Features</a></li>
+                            <li><a href="/community/getting-started/">Getting Started</a></li>
+                            <li><a href="/community/showcases/">Showcases</a></li>
+                            <li><a href="/community/made-with-kicad/">Made with KiCad</a></li>
+				        </ul>
+			        </li>
+			        <li class="dropdown">
+				        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Community<span class="caret"></span></a>
+				        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/community/developers/">Developers</a></li>
+                            <li><a href="/community/docs-team/">Docs Team</a></li>
+                            <li><a href="/community/lib-team/">Library Team</a></li>
+                            <li><a href="/community/users/">Users</a></li>
+				        </ul>
+			        </li>
+
+
+<!--
+			        <li class="dropdown">
+				        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Discover<span class="caret"></span></a>
+				        <ul class="dropdown-menu" role="menu">
+                            {{ range where .Data.Pages.ByTitle "Section" "discover" }}
+                            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                            {{ end }}
+				        </ul>
+			        </li>
+			        <li class="dropdown">
+				        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Community<span class="caret"></span></a>
+				        <ul class="dropdown-menu" role="menu">
+                            {{ range where .Data.Pages.ByTitle "Section" "community" }}
+                            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                            {{ end }}
+				        </ul>
+			        </li>
+-->
+                    <li ><a href="http://docs.kicad-pcb.org/">Documentation</a></li>
+                    {{ range .Site.Menus.main }}
+                    <li>
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                    </li>
+                    {{end}}
+                    <li>
+                        <form>
+                            <a class="btn btn-primary btn-sm " style="margin-right: 26px;" href="https://giving.web.cern.ch/civicrm/contribute/transact?reset=1&id=6"> Donate via CERN </a>
+                        </form>
+                    </li>
+                  </ul>
+            </div>
+           <!-- /.navbar-collapse -->
+

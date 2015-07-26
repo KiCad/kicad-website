@@ -1,0 +1,20 @@
++++
+title = "Announcing the new webiste"
++++
+
+We are happy to announce a new webiste for KiCad, this instead of the
+old website system which was using Confluence, that has proved very
+unstable.
+
+The goal of this new website is to be the go to place for official
+KiCad information and should support some way of having regular KiCad
+users contribute to the site, let that be fixing typing mistakes or
+just improving the content in what ever way seems fit.
+
+This time around we have taken a new approach, instead of using the
+monster of confluence, we have choosen http://gohugo.io[Hugo], a
+static site generator. This should make sure that the requirements for
+the hosting server is quite low, and should help increasing the
+availability of the site. Although KiCad itself does not run on mobile
+devices (think smartphones and the like) the website should be way
+more appealing on theese platforms too.

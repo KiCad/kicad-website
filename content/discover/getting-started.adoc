@@ -1,0 +1,7 @@
++++
+title = "Getting Started"
++++
+
+getting-started.adoc
+
+Getting Started would be more or less simple guides.
