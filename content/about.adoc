@@ -4,6 +4,60 @@ date = "2014-04-09"
 menu = "main"
 +++
 
-about.adoc
+KiCad is an http://en.wikipedia.org/wiki/Open_source[open source] software suite for http://en.wikipedia.org/wiki/Electronic_design_automation[Electronic Design Automation] (EDA).
 
-Test 123, it seems that menu = "main" makes this go in to the main menu...
+KiCad provides a suite of programs for http://en.wikipedia.org/wiki/Schematic_capture[Schematic Capture], and http://en.wikipedia.org/wiki/Printed_circuit_board[PCB] Layout with http://en.wikipedia.org/wiki/Gerber_format[Gerber] output.
+
+The first release date was in 1992 by its original author, Jean-Pierre Charras, but is now currently under development by the https://launchpad.net/kicad[KiCad Developers Team]. The suite runs on Windows, Linux and OS X and is licensed under http://en.wikipedia.org/wiki/GNU_General_Public_License[GNU GPL v2].
+
+Some history of general information of KiCad is presented by Wayne in https://video.fosdem.org/2015/devroom-electronic_design_automation/kicad.mp4[his presentation at FOSDEM 2015].
+
+== Main Authors
+
+
+
+|===
+|Name | Email
+|Jean-Pierre Charras | <jean-pierre.charras[at]gipsa-lab-dot-inpg-dot-fr>
+|Dick Hollenbeck |<dick[at]softplc-dot-com>
+| Wayne Stambaugh (Project Leader) | <stambaughw[at]verizon-dot-net>
+|===
+
+
+== Corporate Supporters
+
+=== University of Grenoble and GIPSA-lab
+
+- http://iut-tice.ujf-grenoble.fr
+- http://iut-tice.ujf-grenoble.fr/kicad/
+- http://www.gipsa-lab.grenoble-inp.fr/
+	
+The university where Jean-Pierre Charras, the original author of KiCad worked as a teacher before his retirement.
+
+They still provide hosting for the binary releases of KiCad which results in a large amount of bandwidth being available for the large release downloads.
+
+Jean-Pierre has also been able to invest large amounts of time into developing KiCad
+
+=== SoftPLC
+
+- http://www.softplc.com/
+
+Employer of Dick Hollenbeck.
+
+SoftPLC sponsored Dick to improve KiCad's functionality immensely which resulted in an extremely intesive and prolific era for KiCad in which Dick committed an extremely generous amount of work.
+
+SoftPLC sponsored Dick to the equivalent of 450,000USD for the time he spent working on KiCad.
+
+=== CERN
+
+- http://home.web.cern.ch/
+
+Employer of Javier Serrano, Maciej Suminski and Tomasz Wlostowski who all work heavily on KiCad.
+
+CERN have already contributed greatly to KiCad, and have already advanced the Graphics Abstraction Layer and introduced Push + Shove router capabilities.
+
+=== The Raspberry Pi Foundation
+
+- http://www.raspberrypi.org/
+
+Donated to the CERN and Society Foundation to support the development of the differential pair routing and track length control in the KiCad board editor Pcbnew.
