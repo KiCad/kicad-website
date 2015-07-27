@@ -11,5 +11,5 @@ git submodule update
 Then execute the hugo command in the repository root.
 
 ```
-hugo -w -v -t startbootstrap-clean-blog -b http://localhost/
+hugo -w -v -b http://localhost/
 ```
