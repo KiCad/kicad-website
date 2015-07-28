@@ -1,5 +1,8 @@
 +++
 title = "Users"
+[menu.main]
+    parent = "Community"
+    name   = "Users"
 +++
 
 This pages is supposed to provide generic pointers for uses on where

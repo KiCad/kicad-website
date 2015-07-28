@@ -22,3 +22,32 @@ theme = "startbootstrap-clean-blog"
   title = "facebook"
   url = "https://www.facebook.com/kicadpcb"
 
+[[menu.main]]
+  name = "Documentation"
+  url = "http://docs.kicad-pcb.org/"
+  weight = 0
+
+[[menu.main]]
+    parent = "Documentation"
+    name   = "KiCad"
+    weight = 10
+[[menu.main]]
+    parent = "Documentation"
+    name   = "Eeschema"
+    weight = 20
+[[menu.main]]
+    parent = "Documentation"
+    name   = "Pcbnew"
+    weight = 30
+[[menu.main]]
+    parent = "Documentation"
+    name   = "GerbView"
+    weight = 40
+[[menu.main]]
+    parent = "Documentation"
+    name   = "Bitmap2Component"
+    weight = 50
+[[menu.main]]
+    parent = "Documentation"
+    name   = "Pl_editor"
+    weight = 60

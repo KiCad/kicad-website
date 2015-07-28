@@ -1,5 +1,8 @@
 +++
 title = "Getting Started"
+[menu.main]
+    parent = "Discover"
+    name   = "Getting Started"
 +++
 
 getting-started.adoc

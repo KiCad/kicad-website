@@ -1,5 +1,8 @@
 +++
 title = "Showcases"
+[menu.main]
+    parent = "Discover"
+    name   = "Showcases"
 +++
 
 showcases.adoc

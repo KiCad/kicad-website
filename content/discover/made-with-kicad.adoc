@@ -1,5 +1,8 @@
 +++
 title = "Made with KiCad"
+[menu.main]
+    parent = "Discover"
+    name   = "Made With KiCad"
 +++
 
 The followings are different projects made with KiCad. If you want to be featured on this page please make a pull request http://this-is-not-known-yet[here].

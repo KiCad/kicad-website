@@ -1,6 +1,10 @@
 +++
 title = "Developers"
 categories = [ "Community" ]
+[menu.main]
+    parent = "Community"
+    name   = "Developers"
+weight = 20
 +++
 
 developers.adoc
@@ -8,3 +12,6 @@ developers.adoc
 Developers would just have
 1. How to contribute
 2. Launchpad
+
+
+

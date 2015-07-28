@@ -1,6 +1,9 @@
 +++
 title = "Docs Team"
 categories = [ "Community" ]
+[menu.main]
+    parent = "Community"
+    name   = "Docs Team"
 +++
 
 The Docs Team is the short name for the Documentation Team which is documenation writers and maintainers. This group is all the people who care about the official documenation for KiCad. This includes the go to documenation on http://docs.kicad-pcb.org and this main webiste.

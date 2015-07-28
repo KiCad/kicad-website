@@ -2,6 +2,7 @@
 title = "About"
 date = "2014-04-09"
 menu = "main"
+weight = 30
 +++
 
 KiCad is an http://en.wikipedia.org/wiki/Open_source[open source] software suite for http://en.wikipedia.org/wiki/Electronic_design_automation[Electronic Design Automation] (EDA).

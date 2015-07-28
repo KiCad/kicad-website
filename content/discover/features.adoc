@@ -1,5 +1,8 @@
 +++
 title = "Features"
+[menu.main]
+    parent = "Discover"
+    name   = "Features"
 +++
 
 features.adoc

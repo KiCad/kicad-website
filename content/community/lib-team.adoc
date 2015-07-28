@@ -1,6 +1,9 @@
 +++
 title = "Library Maintainers"
 categories = [ "Community" ]
+[menu.main]
+    parent = "Discover"
+    name   = "Library Maintainers"
 +++
 
 lib-team.adoc
