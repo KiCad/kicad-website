@@ -13,3 +13,14 @@ Then execute the hugo command in the repository root.
 ```
 hugo -w -v -b http://localhost/
 ```
+
+== Prerequisites
+You will need theese packages:
+
+- http://gohugo.io/[hugo]
+- http://asciidoctor.org/[asciidoctor]
+
+Using asciidoctor is a requirement, because using bare asciidoc will
+not work in parsing the asciidoc files, because of the TOML headers.
+This might be a bug upstream in asciidoc, but I have not investigated
+this further.
