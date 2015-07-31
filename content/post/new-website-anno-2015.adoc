@@ -1,5 +1,6 @@
 +++
 title = "Announcing the new webiste"
+date = "2015-07-31"
 +++
 
 We are happy to announce a new webiste for KiCad, this instead of the
