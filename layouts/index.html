@@ -4,34 +4,97 @@
     <!-- <header class="intro-header" style="background-image: url('{{ .Site.BaseURL }}/img/home-bg.jpg')"> -->
     <!-- <header class="intro-header" style="background-image: url('{{ .Site.BaseURL }}/img/3d-full.png')"> -->
     <header class="intro-header" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url('http://misc.c4757p.com/fe.png');">
-     <div class="container">
-       <div class="row">
-         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-           <div class="site-heading">
-             <h1>{{ title .Site.Title }}</h1>
-             <hr class="small">
-             {{ if isset .Site.Params "Description" }}<span class="subheading">{{ title .Site.Params.Description }}</span>{{ end }}
-           </div>
-         </div>
-       </div>
-     </div>
-    </header>
-
-    <!-- Main Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          {{ range first 4 (where .Data.Pages "Type" "post") }}
-              {{ .Render "summary"}}
-          {{ end }}
-          <!-- Pager -->
-          <ul class="pager">
-            <li class="next">
-              <a href="{{ .Site.BaseURL }}/post/">Older Posts &rarr;</a>
-            </li>
-          </ul>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="site-heading">
+              <h1>{{ title .Site.Title }}</h1>
+              {{ if isset .Site.Params "Description" }}<h3>{{ title .Site.Params.Description }}</h3>{{ end }}
+              <hr class="intro-divider">
+              <ul class="list-inline intro-social-buttons">
+                <li>
+                  <a href="#" class="btn btn-default btn-lg"><i class="fa fa-book fa-fw"></i> <span class="network-name">Docs</span></a>
+                </li>
+                <li>
+                  <a href="/download" class="btn btn-default btn-lg"><i class="fa fa-download fa-fw"></i> <span class="network-name">Install</span></a>
+                </li>
+                <li>
+                  <a href="#" class="btn btn-default btn-lg"><i class="fa fa-comments fa-fw"></i> <span class="network-name">Community</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </header>
+
+    <!-- Page Content -->
+    <!-- Theese content sections could potentially be adoc's later on for easy translation. We could then place them in a folder an loop through that to add it here. The image can be specified in the adoc also. Maybe even show some of the latests posts? -->
+	  <a  name="services"></a>
+      <div class="content-section-a">
+
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-5 col-sm-6">
+                      <hr class="section-heading-spacer">
+                      <div class="clearfix"></div>
+                      <h2 class="section-heading">2015 Stable Release is Out!
+<span class="text-muted">It'll blow your mind.</span></h2>
+                      <p class="lead">We've just released the long-awaited stable version of Kicad. Download for Windows, OSX and Linux!</p>
+                  </div>
+                  <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                      <img class="img-responsive" src="http://placehold.it/900x753" alt="">
+                  </div>
+              </div>
+
+          </div>
+          <!-- /.container -->
+
+      </div>
+      <!-- /.content-section-a -->
+
+      <div class="content-section-b">
+
+          <div class="container">
+
+              <div class="row">
+                  <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                      <hr class="section-heading-spacer">
+                      <div class="clearfix"></div>
+                      <h2 class="section-heading">High Speed design with High Speed Tools!</h2>
+                      <p class="lead">Kicad is now capable of routing differential pairs and interactively tuning trace lengths.</p>
+                  </div>
+                  <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                      <img class="img-responsive" src="http://placehold.it/900x753" alt="">
+                  </div>
+              </div>
+
+          </div>
+          <!-- /.container -->
+
+      </div>
+      <!-- /.content-section-b -->
+
+      <div class="content-section-a">
+
+          <div class="container">
+
+              <div class="row">
+                  <div class="col-lg-5 col-sm-6">
+                      <hr class="section-heading-spacer">
+                      <div class="clearfix"></div>
+                      <h2 class="section-heading">foo bar baz</h2>
+                      <p class="lead">Wow. So happy. What am I doing? Much gracias.</p>
+                  </div>
+                  <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                      <img class="img-responsive" src="http://placehold.it/900x753" alt="">
+                  </div>
+              </div>
+
+          </div>
+          <!-- /.container -->
+
+      </div>
+      <!-- /.content-section-a -->
 
 {{ partial "footer.html" .}}
