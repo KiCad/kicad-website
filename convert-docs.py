@@ -6,8 +6,10 @@ from git import Repo
 
 KICADDOC_PATH = "kicad-doc"
 REMOTE_URL = "https://github.com/ciampix/kicad-doc.git"
-DEST_PATH = "./content/docs"
-BASE_IMAGE_PATH = "docs"
+
+CONTENT_PATH = "content"
+DOCS_PATH = "docs"
+DEST_PATH = CONTENT_PATH+"/"+DOCS_PATH
 
 def main():
 	pull_repo()
@@ -59,9 +61,12 @@ def update_adoc_path(root, file):
 	filePath = os.path.join(root, file)
 	replaceIncludeText = "include::" + root + "\\"
 	print replaceIncludeText
+	replaceImageText = "image:" + root.replace(CONTENT_PATH,'') + "\\"
+	print replaceImageText
 
 	for line in fileinput.input(filePath, inplace=True):
 		line = line.replace('include::', replaceIncludeText)
+		line = line.replace('image:', replaceImageText)
 		print(line)
 	
 
