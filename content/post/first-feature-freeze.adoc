@@ -1,0 +1,20 @@
++++
+title = "First Feature Freeze"
+date = "30 Mar 2015"
++++
+
+It is time. Wayne, the current project leader, has now called the
+development status a feature freeze. See the
+https://lists.launchpad.net/kicad-developers/msg17606.html[announcement].
+
+This is to satisfy the road map and finally make a real realease of
+KiCad since the latest release, the so called "Old Stable" also knows
+as the "4022 release". The number is reffering to the bazaar revision
+number for that release.
+
+The task is now to make KiCad stable, which means
+https://lists.launchpad.net/kicad-developers/msg17653.html[bug
+fixing].
+
+Bugs that needs fixing for a release are the bugs marked with high or
+critical importance. http://goo.gl/wsQPgH[High and critical bugs].
