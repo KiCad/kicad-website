@@ -38,14 +38,19 @@ theme = "startbootstrap-clean-blog"
     weight = 10
 [[menu.main]]
     parent = "Community"
-    name   = "Forum"
+    name   = "User Forum"
     url    = "http://forum.kicad.info/"
     weight = 10
 [[menu.main]]
     parent = "Community"
+    name   = "User Mailing List"
+    url    = "http://groups.yahoo.com/group/kicad-users/"
+    weight = 15
+[[menu.main]]
+    parent = "Community"
     name   = "kicad.jp"
     url    = "http://kicad.jp/"
-    weight = 10
+    weight = 20
 
 
 [[menu.main]]

@@ -8,3 +8,11 @@ title = "Users"
 This pages is supposed to provide generic pointers for uses on where
 to get help, for example chris gammels forum, the users mailing list,
 IRC...
+
+There exists various resources for KiCad users. The most obvious ones are probably theese user communites.
+
+- Chris Gammels http://forum.kicad.info/[user forum].
+- http://groups.yahoo.com/group/kicad-users/[Yahoo user mailing list]
+- http://kicad.jp/[Japanese fan site]
+
+In addition to this there is also an IRC help channel, which is used by both users and contributing developers. irc://irc.freenode.net/#kicad[#kicad@freenode].

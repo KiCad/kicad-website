@@ -2,5 +2,48 @@
 title = "Download"
 +++
 
+== Ubuntu
+Old stable should be in the official Ubuntu repo. Daily builds are available in https://code.launchpad.net/~js-reynaud/+archive/ubuntu/ppa-kicad[js-reynaud's PPA].
 
-download.adoc
+== OpenSUSE
+Daily builds for openSUSE are available as _kicad-unstable_ in the http://software.opensuse.org/download.html?project=electronics&package=kicad-unstable[openSUSE repo] and for power users on the https://build.opensuse.org/package/show/electronics/kicad-unstable[OBS page].
+
+== Fedora
+Daily builds for fedora are available via the copr build service.
+
+This build can be installed on fedora with:
+
+----
+dnf copr enable mangelajo/kicad
+dnf install kicad
+----
+
+If you don't have copr install with:
+
+----
+yum install dnf-plugins-core
+----
+
+As a side note, the wxwidgets build in the copr build is forcing `--with=gtk2` on wxgtk, otherwise eeschema and the legacy canvas does not work properly. This could be problematic if you have other applications depending on wxgtk already. This is a workaround so far to bring kicad to fedora easily.
+
+== Debian
+Old stable should be in the official Debian repo. Of course you should be able to use the kicad-install.sh helper script to build your own, if you don't know what cmake is.
+
+== Arch Linux
+Old stable is available in `community/kicad`, whilst a pkgbuild on https://aur.archlinux.org/packages/kicad-bzr/[aur/kicad-bzr] is available to build and install from source and get latest development branch.
+
+== OS X
+downloads.kicad-pcb.org
+
+== Windows
+Old stable is available from http://iut-tice.ujf-grenoble.fr/cao/ (don't use for new designs). Recent builds can be found on http://www2.futureware.at/~nickoe/ (testing builds, feedback welcome on IRC, will soon be available completely officially).
+
+== Source tar
+To be announced
+
+
+
+== Feedback and Support
+
+If you have any feedback  please ping nickoe via IRC on irc://chat.freenode.net/kicad[#kicad@freenode]. If you need help with installing, you are welcome to ask in the channel. If you think you have found a bug, you can report it at https://bugs.launchpad.net/kicad.
+
