@@ -12,7 +12,7 @@ DOCS_PATH = "docs"
 DEST_PATH = CONTENT_PATH+"/"+DOCS_PATH
 
 def main():
-	pull_repo()
+#	pull_repo()
 	copy_adocs()
 	update_adoc_paths()
 
@@ -41,6 +41,9 @@ def copy_adocs():
 			if file.endswith(".adoc") or file.endswith(".png"):
 				src_path = os.path.join(root, file)
 				dest_path = os.path.join(DEST_PATH, src_path.replace(search_path,''))
+				if not os.path.exists(os.path.dirname(dest_path)):
+					os.makedirs(os.path.dirname(dest_path))
+
 				shutil.copyfile(src_path, dest_path)
 				
 
