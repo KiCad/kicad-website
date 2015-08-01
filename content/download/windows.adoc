@@ -1,0 +1,6 @@
++++
+title = "Windows"
++++
+
+== Windows
+Old stable is available from http://iut-tice.ujf-grenoble.fr/cao/ (don't use for new designs). Recent builds can be found on http://www2.futureware.at/~nickoe/ (testing builds, feedback welcome on IRC, will soon be available completely officially).

@@ -1,0 +1,22 @@
++++
+title = "Fedora"
++++
+
+== Fedora
+	
+Daily builds for fedora are available via the copr build service.
+
+This build can be installed on fedora with:
+
+----
+dnf copr enable mangelajo/kicad
+dnf install kicad
+----
+
+If you don't have copr install with:
+
+----
+yum install dnf-plugins-core
+----
+
+As a side note, the wxwidgets build in the copr build is forcing `--with=gtk2` on wxgtk, otherwise eeschema and the legacy canvas does not work properly. This could be problematic if you have other applications depending on wxgtk already. This is a workaround so far to bring kicad to fedora easily.

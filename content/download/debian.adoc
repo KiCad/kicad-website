@@ -1,0 +1,3 @@
+
+Old stable should be in the official Debian repo. Of course you should be able to use the kicad-install.sh helper script to build your own, if you don't know what cmake is.
+	

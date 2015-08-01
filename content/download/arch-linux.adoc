@@ -1,0 +1,7 @@
++++
+title = "Arch Linux"
++++
+
+== Arch Linux
+
+Old stable is available in `community/kicad`, whilst a pkgbuild on https://aur.archlinux.org/packages/kicad-bzr/[aur/kicad-bzr] is available to build and install from source and get latest development branch.
