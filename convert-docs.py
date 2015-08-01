@@ -24,8 +24,8 @@ def pull_repo():
 		o.pull()
 	else:
 		print "KiCad Docs folder does not exist, attempting to clone"
-		Repo.clone_from(REMOTE_URL, KICADDOC_PATH)
-		assert cloned_repo.__class__ is Repo
+		repo = Repo.clone_from(REMOTE_URL, KICADDOC_PATH)
+		assert repo.__class__ is Repo
 
 #
 #	Copy over adocs from the git folder to the hugo content folder
