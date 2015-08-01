@@ -12,7 +12,7 @@ DOCS_PATH = "docs"
 DEST_PATH = CONTENT_PATH+"/"+DOCS_PATH
 
 def main():
-#	pull_repo()
+	pull_repo()
 	copy_adocs()
 	update_adoc_paths()
 
