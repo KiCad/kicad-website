@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "KiCad EDA"
 canonifyurls = true
 layoutdir = "layouts"
-theme = "startbootstrap-clean-blog"
 
 [params]
 	DateForm = "Mon, Jan 2, 2006"
