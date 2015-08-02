@@ -1,4 +1,7 @@
-* Make the frontpage not list the posts, but rather be an overview
-somehow, like: http://startbootstrap.com/template-overviews/landing-page/
 * Add more content
 * Tables and list are rendered quite horrible with lot of space
+* Merge "Made with KiCad" with the "Showcases", page should look
+  something like:
+	http://startbootstrap.com/template-overviews/3-col-portfolio/
+* Fill in the front page with
+  http://startbootstrap.com/template-overviews/3-col-portfolio/
