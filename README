@@ -1,14 +1,6 @@
 This the source for the new KiCad webiste, anno 2015.
 
-
-Start by grabbing the theme, which is added as a submodule:
-
-----
-git submodule init
-git submodule update
-----
-
-Then execute the hugo command in the repository root.
+Execute the hugo command in the repository root.
 
 ----
 hugo -w -v -b http://localhost/
