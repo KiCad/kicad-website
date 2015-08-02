@@ -1,8 +1,6 @@
 +++
 title = "Fedora"
 +++
-
-== Fedora
 	
 Daily builds for fedora are available via the copr build service.
 

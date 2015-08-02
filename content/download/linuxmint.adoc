@@ -1,5 +1,5 @@
 +++
-title = "Ubuntu"
+title = "Linux Mint"
 +++
 
 Old stable should be in the official Ubuntu repo. Daily builds are available in https://code.launchpad.net/~js-reynaud/+archive/ubuntu/ppa-kicad[js-reynaud's PPA].

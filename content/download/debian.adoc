@@ -1,3 +1,6 @@
++++
+title = "Debian"
++++
 
-Old stable should be in the official Debian repo. Of course you should be able to use the kicad-install.sh helper script to build your own, if you don't know what cmake is.
+Old stable should be in the official Debian repo. Of course you should be able to build it manually, if you know what cmake is. There exist a helper script, http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/view/head:/scripts/kicad-install.sh[kicad-install.sh], but is is deprecated by the developers.
 	
