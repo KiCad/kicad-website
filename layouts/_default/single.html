@@ -6,7 +6,9 @@
 	{{ .Scratch.Set "sidemenu" false }}
 	{{ range .Site.Menus.main }}
 		{{ if eq $currentNode.Section (.Name | lower) }}
-			{{ $currentNode.Scratch.Set "sidemenu" true }}
+			{{ if .HasChildren }}
+				{{ $currentNode.Scratch.Set "sidemenu" true }}
+			{{ end }}
 		{{ end }}
 	{{ end }}
 	<div class="row {{ if .Scratch.Get "sidemenu" }} col-sm-10 margin-20{{end}}">
@@ -43,29 +45,16 @@
 		<aside>
 			<nav class="secondary">
 				<!-- sidebar menu start-->
-				<ul class="list-unstyled side-links">
 				  {{ range .Site.Menus.main }}
 						{{ if eq $currentNode.Section (.Name | lower) }}
 							{{ if .HasChildren }}
-								<li class="sub-menu{{if $currentNode.HasMenuCurrent "main" . }} active{{end}}">
-									<a href="javascript:;" class="">
-										{{ .Pre }}
-										<span>{{ .Name }}</span>
-										<span class="menu-arrow arrow_carrot-right"></span>
-									</a>
-									<ul class="sub">
-										{{ range .Children }}
-											<li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
-										{{ end }}
-									</ul>
-							{{else}}
-								<li>
-									<a class="" href="{{.URL}}">
-										{{ .Pre }}
-										<span>{{ .Name }}</span>
-									</a>
+								<h3>{{ .Name }}</h3>
+								<ul class="list-unstyled side-links">
+									{{ range .Children }}
+										<li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
+									{{ end }}
+								</ul>
 							{{end}}
-							</li>
 					  {{end}}
 				  {{end}}
 				</ul>
