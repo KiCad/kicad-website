@@ -70,7 +70,7 @@ def update_adoc_path(root, file):
 	for line in fileinput.input(filePath, inplace=True):
 		line = line.replace('include::', replaceIncludeText)
 		line = line.replace('image:', replaceImageText)
-		print(line)
+		print(line.rstrip())
 	
 
 if __name__ == '__main__':
