@@ -1,36 +1,81 @@
 {{ partial "header.html" . }}
 
-    <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
-    <div class="container">
-		<div class="page-heading">
-			<h1>{{ title .Title }}</h1>
-			<hr class="small">
-			<span class="subheading">{{ title .Description }}</span>
-		</div>
-	</div>
+<div class="container">
 
-    <!-- Main Content -->
-    <div class="container">
-		{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-		{{ $.Scratch.Add "path" .Site.BaseURL }}
-		<ol class="breadcrumb">
-			<li><a href="/">home</a></li>
-			{{ range $index, $element := split $url "/" }}
-				{{ $.Scratch.Add "path" $element }}
-					{{ if ne $element "" }}
-					<li><a href='{{ $.Scratch.Get "path" }}'>{{ . }}</a></li>
-					{{ $.Scratch.Add "path" "/" }}
+	{{ $currentNode := . }}
+	{{ .Scratch.Set "sidemenu" false }}
+	{{ range .Site.Menus.main }}
+		{{ if eq $currentNode.Section (.Name | lower) }}
+			{{ $currentNode.Scratch.Set "sidemenu" true }}
+		{{ end }}
+	{{ end }}
+	<div class="row {{ if .Scratch.Get "sidemenu" }} col-sm-10 margin-20{{end}}">
+		<!-- Main Content -->
+			{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+			{{ $.Scratch.Add "path" .Site.BaseURL }}
+			<ol class="breadcrumb">
+				<li><a href="/">Home</a></li>
+				{{ range $index, $element := split $url "/" }}
+					{{ $.Scratch.Add "path" $element }}
+						{{ if ne $element "" }}
+						<li><a href='{{ $.Scratch.Get "path" }}'>{{ title . }}</a></li>
+						{{ $.Scratch.Add "path" "/" }}
+					{{ end }}
 				{{ end }}
-			{{ end }}
-		</ol>
+			</ol>
 
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              {{ .Content }}
-            </div>
-        </div>
-    </div>
+			<div class="page-heading">
+				<h1>{{ title .Title }}</h1>
+				<hr class="small">
+				<span class="subheading">{{ title .Description }}</span>
+			</div>
 
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				  {{ .Content }}
+				</div>
+			</div>
+	</div>
+	
+	<!--sidebar start-->
+	{{ if .Scratch.Get "sidemenu" }} 
+	<div class="col-sm-2">
+		<aside>
+			<nav class="secondary">
+				<!-- sidebar menu start-->
+				<ul class="list-unstyled side-links">
+				  {{ range .Site.Menus.main }}
+						{{ if eq $currentNode.Section (.Name | lower) }}
+							{{ if .HasChildren }}
+								<li class="sub-menu{{if $currentNode.HasMenuCurrent "main" . }} active{{end}}">
+									<a href="javascript:;" class="">
+										{{ .Pre }}
+										<span>{{ .Name }}</span>
+										<span class="menu-arrow arrow_carrot-right"></span>
+									</a>
+									<ul class="sub">
+										{{ range .Children }}
+											<li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
+										{{ end }}
+									</ul>
+							{{else}}
+								<li>
+									<a class="" href="{{.URL}}">
+										{{ .Pre }}
+										<span>{{ .Name }}</span>
+									</a>
+							{{end}}
+							</li>
+					  {{end}}
+				  {{end}}
+				</ul>
+				<!-- sidebar menu end-->
+			</nav>
+		</aside>
+	</div>
+  {{end}}
+	<!--sidebar end-->
+	
+</div>
 
 {{ partial "footer.html" . }}
