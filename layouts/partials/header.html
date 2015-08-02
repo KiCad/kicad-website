@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>{{ .Title }} -- {{ .Site.Title }}</title>
+    <title>{{ .Title }} {{if ne .Site.Title .Title }}| {{ .Site.Title }} {{ end }}</title>
 
     {{ if .RSSlink }}
     <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
