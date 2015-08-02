@@ -40,7 +40,8 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+	<!--- next version of hugo adds .IsHome the if statement can be simplified after 0.15 is released -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top {{ if eq (add .Site.BaseURL "/") (add .Permalink "/") }}transparent{{ end }}">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -59,3 +60,10 @@
         </div>
         <!-- /.container -->
     </nav>
+	
+	<!--- next version of hugo adds .IsHome the if statement can be simplified after 0.15 is released -->
+{{ if eq (add .Site.BaseURL "/") (add .Permalink "/") }}
+{{else}}
+	<div style="height:60px">
+	</div>
+{{end}}

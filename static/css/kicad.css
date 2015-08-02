@@ -40,25 +40,39 @@ hr.small {
     border-color: #fff;
 }
 .navbar-custom {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 3;
-    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+	background-color: white;
+	background: white;
+	transition: background-color 1s ease 0s; /* Transition effect to make it fade in (optional) */
+	box-shadow: 0px 0px 4px #969696;
+	font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
+
 .navbar-custom .navbar-brand { font-weight: 800 }
 .navbar-custom .nav li a {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 800;
     letter-spacing: 1px;
+	color: #000;
 }
 @media only screen and (min-width:768px) { 
-    .navbar-custom {
-        background: 0 0;
-        border-bottom: 1px solid transparent;
-    }
+	.navbar-custom.transparent {    
+		background-color: rgba(128, 128, 128, 0.44);
+		border: none;
+		color: white;
+		z-index: 100;
+		margin-bottom: 0;
+		border-radius: 0;
+	}
+	
+	.navbar-custom.transparent .nav li a {
+		color: #fff;
+		padding: 20px;
+	}
+	.navbar-custom.transparent .nav li a:hover,
+	.navbar-custom.transparent .nav li a:focus { color: rgba(255,255,255,.8) }
+		
+		
     .navbar-custom .navbar-brand {
         color: #fff;
         padding: 20px;
@@ -66,12 +80,10 @@ hr.small {
     .navbar-custom .navbar-brand:hover,
     .navbar-custom .navbar-brand:focus { color: rgba(255,255,255,.8) }
     .navbar-custom .nav li a {
-        color: #fff;
         padding: 20px;
     }
-    .navbar-custom .nav li a:hover,
-    .navbar-custom .nav li a:focus { color: rgba(255,255,255,.8) }
 }
+
 @media only screen and (min-width:1170px) { 
     .navbar-custom {
         -webkit-transition: background-color .3s;
@@ -85,29 +97,9 @@ hr.small {
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
     }
-    .navbar-custom.is-fixed {
-        position: fixed;
-        top: -61px;
-        background-color: rgba(255,255,255,.9);
-        border-bottom: 1px solid #f2f2f2;
-        -webkit-transition: -webkit-transform .3s;
-        -moz-transition: -moz-transform .3s;
-        transition: transform .3s;
-    }
-    .navbar-custom.is-fixed .navbar-brand { color: #404040 }
-    .navbar-custom.is-fixed .navbar-brand:hover,
-    .navbar-custom.is-fixed .navbar-brand:focus { color: #0085a1 }
-    .navbar-custom.is-fixed .nav li a { color: #404040 }
-    .navbar-custom.is-fixed .nav li a:hover,
-    .navbar-custom.is-fixed .nav li a:focus { color: #0085a1 }
-    .navbar-custom.is-visible {
-        -webkit-transform: translate3d(0,100%,0);
-        -moz-transform: translate3d(0,100%,0);
-        -ms-transform: translate3d(0,100%,0);
-        -o-transform: translate3d(0,100%,0);
-        transform: translate3d(0,100%,0);
-    }
 }
+
+	
 .intro-header {
     background-color: gray;
     background: no-repeat center center;
