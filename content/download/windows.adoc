@@ -2,4 +2,10 @@
 title = "Windows"
 +++
 
-Old stable is available from http://iut-tice.ujf-grenoble.fr/cao/ (don't use for new designs). Recent builds can be found on http://www2.futureware.at/~nickoe/ (testing builds, feedback welcome on IRC, will soon be available completely officially).
+=== Recent Builds
+Builds of the latest source for testing can be found here: http://www2.futureware.at/~nickoe/
+
+
+=== Old Stable
+The build of the 2013 stable release is available from http://iut-tice.ujf-grenoble.fr/cao/ (It is not recommended new designs). 
+

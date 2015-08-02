@@ -2,6 +2,7 @@
 title = "OS X"
 +++
 
+=== Recent Builds
 Nightly builds of KiCad for OS X are available on http://downloads.kicad-pcb.org/osx/, built by Adam Wolf.
 
 These are the "nightly" builds.  This means they are snapshots of the codebase at that time, and may contain even more bugs than usual, although we try our best.
@@ -10,4 +11,6 @@ The kicad.dmg files include the KiCad suite, documentation, schematic symbols, a
 
 kicad-extras.dmg contains the footprints and all the instructions you need for making printed circuit board layouts while offline.
 
-Instructions for building from source is on http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/view/head:/Documentation/compiling/mac-osx.txt[mac-osx.txt]. Do not use the https://github.com/KiCad/KicadOSXBuilder[KicadOSXBuilder] it is outdated. 
+
+=== Build from Source
+Instructions for building from source is in http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/view/head:/Documentation/compiling/mac-osx.txt[mac-osx.txt]. Do not use the https://github.com/KiCad/KicadOSXBuilder[KicadOSXBuilder] as it is outdated. 

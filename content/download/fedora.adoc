@@ -2,6 +2,9 @@
 title = "Fedora"
 +++
 	
+	
+=== Recent Builds
+	
 Daily builds for fedora are available via the copr build service.
 
 This build can be installed on fedora with:
