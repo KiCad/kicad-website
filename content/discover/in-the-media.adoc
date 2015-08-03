@@ -1,0 +1,12 @@
++++
+title = "In the Media"
+[menu.main]
+    parent = "Discover"
+    name   = "In the Media"
++++
+
+This page is intended to compile a list of references to places where
+exposed.
+
+KiCad has been featured in the following plog posts, press and media.
+
