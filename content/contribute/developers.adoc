@@ -1,8 +1,8 @@
 +++
 title = "Developers"
-categories = [ "Community" ]
+categories = [ "Contribute" ]
 [menu.main]
-    parent = "Community"
+    parent = "Contribute"
     name   = "Developers"
 weight = 20
 +++

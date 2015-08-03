@@ -22,15 +22,18 @@ layoutdir = "layouts"
   url = "https://www.facebook.com/kicadpcb"
 
 [[menu.main]]
-  name     = "Blog"
-  url      = "/post"
-  weight   = -200
+    name   = "Blog"
+    url    = "/post"
+    weight = -200
 
 [[menu.main]]
-  name     = "Download"
-  url      = "/download"
-  weight   = 10
+    name   = "Download"
+    url    = "/download"
+    weight = 600
 
+[[menu.main]]
+    name   = "Contribute"
+    weight = 500
 
 [[menu.main]]
     name   = "Community"
@@ -53,36 +56,35 @@ layoutdir = "layouts"
 
 
 [[menu.main]]
-  name     = "Documentation"
-  url      = "http://docs.kicad-pcb.org/"
-  weight   = 0
-
+    name   = "Help"
+    url    = "http://docs.kicad-pcb.org/"
+    weight = 0
 [[menu.main]]
-    parent = "Documentation"
+    parent = "Help"
     name   = "External Tools"
     url    = "http://www.kicad-pcb.org/display/KICAD/External+Tools"
     weight = 10
 [[menu.main]]
-    parent = "Documentation"
+    parent = "Help"
     name   = "Users's Manual"
     weight = 20
 [[menu.main]]
-    parent = "Documentation"
+    parent = "Help"
     name   = "Tutorials"
     url    = "http://www.kicad-pcb.org/display/KICAD/Tutorials"
     weight = 30
 [[menu.main]]
-    parent = "Documentation"
+    parent = "Help"
     name   = "Miration from old stable"
     url    = "http://www.kicad-pcb.org/display/KICAD/Migration+from+old+stable+to+latest"
     weight = 40
 [[menu.main]]
-    parent = "Documentation"
+    parent = "Help"
     name   = "File Formats"
     url    = "http://www.kicad-pcb.org/display/KICAD/File+Formats"
     weight = 50
 [[menu.main]]
-    parent = "Documentation"
+    parent = "Help"
     name   = "FAQ"
     url    = "http://www.kicad-pcb.org/display/KICAD/Frequently+Asked+Questions"
     weight = 60

@@ -1,8 +1,8 @@
 +++
 title = "Docs Team"
-categories = [ "Community" ]
+categories = [ "Contribute" ]
 [menu.main]
-    parent = "Community"
+    parent = "Contribute"
     name   = "Docs Team"
 +++
 
