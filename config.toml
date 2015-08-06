@@ -8,7 +8,7 @@ layoutdir = "layouts"
 	DateForm = "Mon, Jan 2, 2006"
 	Description = "A Cross Platform and Open Source Electronics Design Automation Suite"
 	Author = "The KiCad editors"
-	email = "foo@bar.com"
+	Forum = "https://forum.kicad.info/"
 	Ganalytics = "XX-00000000-0"
 
 [[params.social]]
