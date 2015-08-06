@@ -32,7 +32,7 @@ a { color: #404040 }
 a:hover,
 a:focus { color: #0085a1 }
 a img:hover,
-a img:focus { cursor: zoom-in }
+a img:focus { cursor: zoom-in } /*FIXME: this rule shouldn't match the KiCad logo in the navbar*/
 blockquote {
     color: gray;
     font-style: italic;
@@ -167,6 +167,9 @@ hr.small {
 @media only screen and (min-width:768px) { 
     .intro-header .post-heading h1 { font-size: 55px }
     .intro-header .post-heading .subheading { font-size: 30px }
+}
+.content-section-a, content-section-b { /*index.html*/
+    text-align: justify;
 }
 .post-preview>a { color: #404040 }
 .post-preview>a:hover,
