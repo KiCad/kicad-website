@@ -1,13 +1,24 @@
-This the source for the new KiCad webiste, anno 2015.
+KiCad Website Source
+====================
 
-Execute the hugo command in the repository root.
+This the source for the new KiCad website, anno 2015.
+
+== Building
+
+Execute the hugo command in the repository root to build the files:
 
 ----
 hugo -w -v -b http://localhost/
 ----
 
+To test the website at http://localhost/ you will need to run an HTTP server like so:
+----
+cd public
+sudo python -m SimpleHTTPServer 80
+----
+
 == Prerequisites
-You will need theese packages:
+You will need these packages:
 
 - http://gohugo.io/[hugo]
 - http://asciidoctor.org/[asciidoctor]
@@ -19,7 +30,7 @@ not work in parsing the asciidoc files, because of the TOML headers.
 This might be a bug upstream in asciidoc, but I have not investigated
 this further.
 
-Python 2.7 is required for kicad documentation processing. 
+Python 2.7 is required for kicad documentation processing.
 The kicad-doc repo only needs its /src/ content copied over.
 Additionally we need to process and fix all the include and image paths
 to be relative to the hugo root and not to the subfolder root.
