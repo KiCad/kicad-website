@@ -85,11 +85,6 @@ layoutdir = "layouts"
     weight = 40
 [[menu.main]]
     parent = "Help"
-    name   = "File Formats"
-    url    = "http://www.kicad-pcb.org/display/KICAD/File+Formats"
-    weight = 50
-[[menu.main]]
-    parent = "Help"
     name   = "FAQ"
     url    = "http://www.kicad-pcb.org/display/KICAD/Frequently+Asked+Questions"
     weight = 60

@@ -3,6 +3,7 @@ title = "File Formats"
 [menu.main]
     parent = "Help"
     name   = "File Formats"
+weight = 50
 +++
 
 
