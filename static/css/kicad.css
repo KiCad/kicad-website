@@ -230,6 +230,9 @@ footer .copyright {
     text-align: center;
     margin-bottom: 0;
 }
+#footer-text { /* Hide the asciidoc footer showing useless generation time */
+    display: none;
+}
 .floating-label-form-group {
     font-size: 14px;
     position: relative;
