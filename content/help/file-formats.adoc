@@ -63,7 +63,7 @@ The `.sch`, `.lib`, `.brd`, `.kicad_pcb` and `.kicad_wks` file formats are link:
 
 * `.pos`: position files (ASCII format), for automatic insertion machines.
 
-* `.vrl`: VRML 3D model used in the 3D viewer to represent parts.
+* `.wrl`: VRML 3D model used in the 3D viewer to represent parts.
 
 KiCad uses a few temporary file formats internally. The files it creates with these extensions (marked above with "^*^" ) can be excluded from version control software since they can be automatically regenerated from the source files when necessary.
 
@@ -71,10 +71,9 @@ KiCad uses a few temporary file formats internally. The files it creates with th
 
 KiCad writes and reads some file formats dedicated to certain operation in collaboration with tools external to KiCad.
 
-      GenCAD
-      IDFv3
+* `.idf`: IDFv3 files used to generate lightweight 3D model exports for the mechanical CAD designer of the board and parts.
 
-* `.wings`: 3D model editable by link:http://www.wings3d.com/[Wings3D], used to generate the .vrl files.
+* `.wings`: 3D model editable by link:http://www.wings3d.com/[Wings3D], used to generate the `.wrl` files.
       
 * `.svg`: plot files (svg format), for documentation.
 
@@ -83,10 +82,14 @@ KiCad writes and reads some file formats dedicated to certain operation in colla
 * `.dxf`: plot files (dxf format), for documentation.
 
 * `.plt`: plot files (HPGL format), for documentation.
+
 * `.dsn`: SPECCTRA DSN file for autorouters (like link:http://sourceforge.net/projects/qautorouter/develop[QAutorouter],
 link:http://www.freerouting.net/[FreeRouting]).
+
 * `.ses`: SPECCTRA session files from autorouters (like link:http://sourceforge.net/projects/qautorouter/develop[QAutorouter],
 link:http://www.freerouting.net/[FreeRouting]).
+
+* `.cad`: GenCAD used for circuit testing by the assembly house.
 
 === Other formats used by the KiCad project
 
