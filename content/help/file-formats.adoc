@@ -9,7 +9,9 @@ weight = 50
 
 == File formats
 
-KiCad writes all files in human readable ASCII. This makes manipulation by hand and scripting very easy.
+KiCad writes all files in human readable ASCII. This makes
+manipulation by hand and scripting very easy. The following is a
+listing on what the different files are used for.
 
 === Native file formats
 
@@ -95,8 +97,6 @@ link:http://www.freerouting.net/[FreeRouting]).
 
 * `.pdf`: All the help documentation intended to be read by KiCad users is in "'.pdf'" format.
 
-* `.odt`: The editable source version of the help documentation is in OpenDocument word processing format. (Soon to be replaced by a more  link:https://github.com/ciampix/kicad-doc[VCS friendly format]).
-      
 * EDIF netlist format.
       
 * `.png`: The link:http://www.w3.org/Graphics/PNG/[W3C recommended] portable network graphics format is a
