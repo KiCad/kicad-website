@@ -1,0 +1,81 @@
++++
+title = "Miration from old stable"
+[menu.main]
+    parent = "Help"
+    name   = "Miration from old stable"
+weight = 40
++++
+
+There is likely to be som issues if you want to migrate designs from the old stable, revision around bzr revision 4022, which had a particular annoying bug, where layer names were translated, which they should never have been.
+
+== Layernames are translated
+
+This issue arises, if you used the old stable with another language other than english. Below is the key for renaming the layers manually, showing how the layernames were in italian and french. You will not only need to replace the layers list, but also search and replace on all the names in the file.
+
+==== English
+----
+(layers
+  (15 F.Cu signal)
+  (0 B.Cu signal)
+  (16 B.Adhes user)
+  (17 F.Adhes user)
+  (18 B.Paste user)
+  (19 F.Paste user)
+  (20 B.SilkS user)
+  (21 F.SilkS user)
+  (22 B.Mask user)
+  (23 F.Mask user)
+  (24 Dwgs.User user)
+  (25 Cmts.User user)
+  (26 Eco1.User user)
+  (27 Eco2.User user)
+  (28 Edge.Cuts user)
+)
+----
+
+==== Italian
+----
+(layers
+  (15 Rame.Fronte signal)
+  (0 Rame.Retro signal)
+  (16 Adesivo.Retro user)
+  (17 Adesivo.Fronte user)
+  (18 Pasta.Retro user)
+  (19 Pasta.Fronte user)
+  (20 Serigrafia.Retro user)
+  (21 Serigrafia.Fronte user)
+  (22 Maschera.Retro user)
+  (23 Maschera.Fronte user)
+  (24 Grafica user)
+  (25 Commenti user)
+  (26 Eco1 user)
+  (27 Eco2 user)
+  (28 Contorno.scheda user)
+)
+----
+
+==== French
+----
+(layers
+  (15 Front signal)
+  (0 Back signal)
+  (16 Dessous.Adhes user)
+  (17 Dessus.Adhes user)
+  (18 Dessous.Pate user)
+  (19 Dessus.Pate user)
+  (20 Dessous.SilkS user)
+  (21 Dessus.SilkS user)
+  (22 Dessous.Masque user)
+  (23 Dessus.Masque user)
+  (24 Dessin.User user)
+  (25 Cmts.User user)
+  (26 Eco1.User user)
+  (27 Eco2.User user)
+  (28 Contours.Ci user)
+)
+----
+
+== Schematic libraries are updated
+
+Be aware that the schematic libries has got and overhaul (still in progress), which means that it will easily break your schematics, because the bundled libs takes precedence over the cache lib. What you can do to recover is to remove the libs used in the project and rename the cache lib file, and include that instead. Chris Panliva has recently made a wizard to help with this issue, this has been merged in the product branch now.
+
