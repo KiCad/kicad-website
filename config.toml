@@ -69,20 +69,10 @@ layoutdir = "layouts"
     url    = "http://docs.kicad-pcb.org/"
     weight = 20
 [[menu.main]]
-    parent = "Help"
-    name   = "Tutorials"
-    url    = "http://www.kicad-pcb.org/display/KICAD/Tutorials"
-    weight = 30
-[[menu.main]]
     name   = "Report a Bug"
     url    = "https://bugs.launchpad.net/kicad/+bugs?orderby=-date_last_updated&start=0"
     parent = "Help"
     weight = 35
-[[menu.main]]
-    parent = "Help"
-    name   = "Miration from old stable"
-    url    = "http://www.kicad-pcb.org/display/KICAD/Migration+from+old+stable+to+latest"
-    weight = 40
 [[menu.main]]
     parent = "Help"
     name   = "FAQ"
