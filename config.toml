@@ -60,11 +60,6 @@ layoutdir = "layouts"
     weight = 0
 [[menu.main]]
     parent = "Help"
-    name   = "External Tools"
-    url    = "http://www.kicad-pcb.org/display/KICAD/External+Tools"
-    weight = 10
-[[menu.main]]
-    parent = "Help"
     name   = "Users's Manual"
     url    = "http://docs.kicad-pcb.org/"
     weight = 20
