@@ -97,7 +97,8 @@ link:http://www.freerouting.net/[FreeRouting]).
 
 * `.pdf`: All the help documentation intended to be read by KiCad users is in "'.pdf'" format.
 
-* EDIF netlist format.
+* EDIF (_Electronic Design Interchange Format_) netlist format.
+link:https://en.wikipedia.org/wiki/EDIF[Wikipedia]
       
 * `.png`: The link:http://www.w3.org/Graphics/PNG/[W3C recommended] portable network graphics format is a
 good format for posting a section of a schematic (or a section of a PCB layout) to a web page, so people can see it immediately
