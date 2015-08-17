@@ -1,0 +1,124 @@
+= KiCad developers
+
+== Building KiCad on Linux
+
+=== The easy way
+
+link:http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/view/head:/scripts/kicad-install.sh[This shell script] will allow you to download,
+update and compile KiCad under Linux.
+
+NOTE: If you are building on ubuntu 14.04 trusty, you
+might want to add the 
+link:http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/view/head:/scripts/kicad-install.sh[PPA with wxwidgets backports],
+this is needed if you want scripting support.
+
+
+NOTE: If you are building on debian stable or similar,
+not only is wxwidgets too old (minimum of wx is
+3.0.0), cmake might also need an update. +
+Cmake 2.8.9 (Debian Wheezy version) has a bug
+and results in:
+
+ FOUND_VAR (missing: REQUIRED_VARS VERSION_VAR) (Required is at least version "3.0.0")
+
+At least  2.8.12.2 of cmake and newer has been
+confirmed to work.
+
+=== The step by step way
+
+Compiling KiCAD on Linux Debian and derivatives
+(Ubuntu, Mint, etc.)
+
+This task is performed from the command-line.
+Let us begin by downloading all necessary
+packages.
+
+ sudo apt-get install bzr bzrtools build-essential checkinstall cmake doxygen
+ zlib1g-dev libwebkitgtk-dev
+ sudo apt-get build-dep kicad
+
+If you have trouble, you might need packages
+like:
+
+ libglew-dev libcairo2-dev libbz2-dev libssl-dev
+
+For the webview thing, which is currently not
+used:
+
+ libwxgtk-webview3.0-dev
+
+Also if you want python scripting, you need python 2.7 (tell me the pkgname and I will add it) and swig:
+
+ swig
+
+Then choose the directory where you want to build KiCad. This is normally somewhere in your home directory
+
+ mkdir -p ~/build/kicad
+ cd ~/build/kicad
+
+Now let us download the KiCad source code from the official repository
+
+ bzr checkout lp:kicad kicad.bzr
+ cd kicad.bzr
+
+Create a separate folder to build KiCad
+
+ mkdir build
+ cd build
+
+Then we configure our compile and run it
+
+ cmake ../
+ make
+
+If you have a multicore machine (for example 4 cores) you could used the command
+
+ make -j 4
+
+Once compiled you can optionally install KiCad in its default folder
+
+ /usr/local
+
+this is done with the command
+
+ sudo make install
+
+That is all. You now have the latest version
+of KiCad installed in your machine. If, at any
+time, you want to update your version of KiCad
+you do the following
+
+ cd ~/build/kicad/kicad.bzr
+ bzr update
+ cd build
+ cmake ../
+ make
+ sudo make install
+
+If you have any trouble with that compilation
+then you might want to run the command
+"`make clean`" before "`make install`" or
+alternatively invoke cmake in a new directory.
+
+If you want to also install the KiCad
+components library, you can use these commands:
+
+ cd ~/build/kicad
+ bzr checkout lp:~kicad-product-committers/kicad/library kicad-library.bzr
+ cd kicad-library.bzr
+ mkdir build
+ cd build/
+ cmake ../
+ sudo make install
+
+Now if you want the KiCad documentation here
+you go:
+
+ cd ~/build/kicad
+ bzr branch --stacked lp:~kicad-developers/kicad/doc kicad-doc.bzr
+ cd kicad-doc.bzr
+ mkdir build
+ cd build/
+ cmake ../
+ make
+ sudo make install
