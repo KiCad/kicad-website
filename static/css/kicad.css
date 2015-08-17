@@ -343,3 +343,8 @@ img::-moz-selection {
     background: 0 0;
 }
 body { webkit-tap-highlight-color: #0085a1 }
+
+/* Fix asciidoc tables generating paragraphs inside tables */
+table p {
+	margin: 0;
+}

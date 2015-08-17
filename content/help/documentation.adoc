@@ -1,0 +1,79 @@
+
++++
+title = "Documentation"
+[menu.main]
+    parent = "Help"
+    name   = "Documentation"
+weight = 10
++++
+
+KiCad's documentation is split up into a document per application for convenience. Documents are avaliable in HTML, PDF and ePub along with a few language options where they have been translated.
+
+== KiCad General
+
+[role="table table-striped table-condensed"]
+|===
+|Language |Format
+
+|English | link:http://docs.kicad-pcb.org/KiCad/KiCad.html[HTML] link:http://docs.kicad-pcb.org/KiCad/KiCad.pdf[PDF] link:http://docs.kicad-pcb.org/KiCad/KiCad.epub[ePub]
+|Polski | link:http://docs.kicad-pcb.org/KiCad/KiCad-pl.html[HTML] link:http://docs.kicad-pcb.org/KiCad/KiCad-pl.pdf[PDF] link:http://docs.kicad-pcb.org/KiCad/KiCad-pl.epub[ePub]
+|日本語 | link:http://docs.kicad-pcb.org/KiCad/KiCad-ja.html[HTML] link:http://docs.kicad-pcb.org/KiCad/KiCad-ja.pdf[PDF] link:http://docs.kicad-pcb.org/KiCad/KiCad-ja.epub[ePub]
+|Italiano | link:http://docs.kicad-pcb.org/KiCad/KiCad-it.html[HTML] link:http://docs.kicad-pcb.org/KiCad/KiCad-it.pdf[PDF] link:http://docs.kicad-pcb.org/KiCad/KiCad-it.epub[ePub]
+|Français | link:http://docs.kicad-pcb.org/KiCad/KiCad-fr.html[HTML] link:http://docs.kicad-pcb.org/KiCad/KiCad-fr.pdf[PDF] link:http://docs.kicad-pcb.org/KiCad/KiCad-fr.epub[ePub]
+|===
+
+
+== Eeschema
+
+[role="table table-striped table-condensed"]
+|===
+|Language |Format
+
+|English | link:http://docs.kicad-pcb.org/Eeschema/Eeschema.html[HTML] link:http://docs.kicad-pcb.org/Eeschema/Eeschema.pdf[PDF] link:http://docs.kicad-pcb.org/Eeschema/Eeschema.epub[ePub]
+|Polski | link:http://docs.kicad-pcb.org/Eeschema/Eeschema-pl.html[HTML] link:http://docs.kicad-pcb.org/Eeschema/Eeschema-pl.pdf[PDF] link:http://docs.kicad-pcb.org/Eeschema/Eeschema-pl.epub[ePub]
+|日本語 | link:http://docs.kicad-pcb.org/Eeschema/Eeschema-ja.html[HTML] link:http://docs.kicad-pcb.org/Eeschema/Eeschema-ja.pdf[PDF] link:http://docs.kicad-pcb.org/Eeschema/Eeschema-ja.epub[ePub]
+|Italiano | link:http://docs.kicad-pcb.org/Eeschema/Eeschema-it.html[HTML] link:http://docs.kicad-pcb.org/Eeschema/Eeschema-it.pdf[PDF] link:http://docs.kicad-pcb.org/Eeschema/Eeschema-it.epub[ePub]
+|Français | link:http://docs.kicad-pcb.org/Eeschema/Eeschema-fr.html[HTML] link:http://docs.kicad-pcb.org/Eeschema/Eeschema-fr.pdf[PDF] link:http://docs.kicad-pcb.org/Eeschema/Eeschema-fr.epub[ePub]
+|===
+
+
+== Pcbnew
+
+[role="table table-striped table-condensed"]
+|===
+|Language |Format
+
+|English | link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew.html[HTML] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew.pdf[PDF] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew.epub[ePub]
+|Polski | link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-pl.html[HTML] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-pl.pdf[PDF] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-pl.epub[ePub]
+|日本語 | link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-ja.html[HTML] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-ja.pdf[PDF] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-ja.epub[ePub]
+|Italiano | link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-it.html[HTML] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-it.pdf[PDF] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-it.epub[ePub]
+|Français | link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-fr.html[HTML] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-fr.pdf[PDF] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-fr.epub[ePub]
+|===
+
+
+== PL Editor
+
+[role="table table-striped table-condensed"]
+|===
+|Language |Format
+
+|English | link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor.html[HTML] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor.pdf[PDF] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor.epub[ePub]
+|Polski | link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-pl.html[HTML] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-pl.pdf[PDF] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-pl.epub[ePub]
+|日本語 | link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-ja.html[HTML] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-ja.pdf[PDF] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-ja.epub[ePub]
+|Italiano | link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-it.html[HTML] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-it.pdf[PDF] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-it.epub[ePub]
+|Français | link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-fr.html[HTML] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-fr.pdf[PDF] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-fr.epub[ePub]
+|===
+
+== CvPcb
+
+[role="table table-striped table-condensed"]
+|===
+|Language |Format
+
+|English | link:http://docs.kicad-pcb.org/CvPcb/CvPcb.html[HTML] link:http://docs.kicad-pcb.org/CvPcb/CvPcb.pdf[PDF] link:http://docs.kicad-pcb.org/CvPcb/CvPcb.epub[ePub]
+|Polski | link:http://docs.kicad-pcb.org/CvPcb/CvPcb-pl.html[HTML] link:http://docs.kicad-pcb.org/CvPcb/CvPcb-pl.pdf[PDF] link:http://docs.kicad-pcb.org/CvPcb/CvPcb-pl.epub[ePub]
+|日本語 | link:http://docs.kicad-pcb.org/CvPcb/CvPcb-ja.html[HTML] link:http://docs.kicad-pcb.org/CvPcb/CvPcb-ja.pdf[PDF] link:http://docs.kicad-pcb.org/CvPcb/CvPcb-ja.epub[ePub]
+|Italiano | link:http://docs.kicad-pcb.org/CvPcb/CvPcb-it.html[HTML] link:http://docs.kicad-pcb.org/CvPcb/CvPcb-it.pdf[PDF] link:http://docs.kicad-pcb.org/CvPcb/CvPcb-it.epub[ePub]
+|Français | link:http://docs.kicad-pcb.org/CvPcb/CvPcb-fr.html[HTML] link:http://docs.kicad-pcb.org/CvPcb/CvPcb-fr.pdf[PDF] link:http://docs.kicad-pcb.org/CvPcb/CvPcb-fr.epub[ePub]
+|===
+
