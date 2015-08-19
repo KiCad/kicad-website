@@ -31,8 +31,8 @@ h6 {
 a { color: #404040 }
 a:hover,
 a:focus { color: #0085a1 }
-a img:hover,
-a img:focus { cursor: zoom-in } /*FIXME: this rule shouldn't match the KiCad logo in the navbar*/
+.thumbnail img:hover,
+.thumbnail img:focus { cursor: zoom-in }
 blockquote {
     color: gray;
     font-style: italic;
