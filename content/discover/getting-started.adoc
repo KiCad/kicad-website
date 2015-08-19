@@ -26,7 +26,7 @@ in several different packages.
 ==== Symbols
 
 The schematic symbols is stored in the project file (`.pro`),
-and when creating a new project the the tmplate project is
+and when creating a new project the template project is
 copied to the new project. 
 
 To change the default schematics libraries open this 
