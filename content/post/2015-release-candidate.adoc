@@ -3,3 +3,9 @@ title = "2015 Release Candidate"
 +++
 
 Please test
+
+
+== Cvpcb behaivour change
+Cvpcb can is no longer a stand alone executable. It is now run as a child window from Eeschema. This was done because using the footprint association file (*.cmp) is no longer used, running it as a stand alone executable would be meaningless. The transfer of footprint associations is internal to Eeschema. Remove any Cvpcb application links from your system. They are no longer valid.
+
+Reference: https://answers.launchpad.net/kicad/+question/270372
