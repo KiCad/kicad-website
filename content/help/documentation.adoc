@@ -19,7 +19,6 @@ KiCad's documentation is split up into a document per application for convenienc
 |Polski | link:http://docs.kicad-pcb.org/KiCad/KiCad-pl.html[HTML] link:http://docs.kicad-pcb.org/KiCad/KiCad-pl.pdf[PDF] link:http://docs.kicad-pcb.org/KiCad/KiCad-pl.epub[ePub]
 |日本語 | link:http://docs.kicad-pcb.org/KiCad/KiCad-ja.html[HTML] link:http://docs.kicad-pcb.org/KiCad/KiCad-ja.pdf[PDF] link:http://docs.kicad-pcb.org/KiCad/KiCad-ja.epub[ePub]
 |Italiano | link:http://docs.kicad-pcb.org/KiCad/KiCad-it.html[HTML] link:http://docs.kicad-pcb.org/KiCad/KiCad-it.pdf[PDF] link:http://docs.kicad-pcb.org/KiCad/KiCad-it.epub[ePub]
-|Français | link:http://docs.kicad-pcb.org/KiCad/KiCad-fr.html[HTML] link:http://docs.kicad-pcb.org/KiCad/KiCad-fr.pdf[PDF] link:http://docs.kicad-pcb.org/KiCad/KiCad-fr.epub[ePub]
 |===
 
 
@@ -33,7 +32,6 @@ KiCad's documentation is split up into a document per application for convenienc
 |Polski | link:http://docs.kicad-pcb.org/Eeschema/Eeschema-pl.html[HTML] link:http://docs.kicad-pcb.org/Eeschema/Eeschema-pl.pdf[PDF] link:http://docs.kicad-pcb.org/Eeschema/Eeschema-pl.epub[ePub]
 |日本語 | link:http://docs.kicad-pcb.org/Eeschema/Eeschema-ja.html[HTML] link:http://docs.kicad-pcb.org/Eeschema/Eeschema-ja.pdf[PDF] link:http://docs.kicad-pcb.org/Eeschema/Eeschema-ja.epub[ePub]
 |Italiano | link:http://docs.kicad-pcb.org/Eeschema/Eeschema-it.html[HTML] link:http://docs.kicad-pcb.org/Eeschema/Eeschema-it.pdf[PDF] link:http://docs.kicad-pcb.org/Eeschema/Eeschema-it.epub[ePub]
-|Français | link:http://docs.kicad-pcb.org/Eeschema/Eeschema-fr.html[HTML] link:http://docs.kicad-pcb.org/Eeschema/Eeschema-fr.pdf[PDF] link:http://docs.kicad-pcb.org/Eeschema/Eeschema-fr.epub[ePub]
 |===
 
 
