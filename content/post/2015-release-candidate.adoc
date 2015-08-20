@@ -1,8 +1,11 @@
 +++
 title = "2015 Release Candidate"
+draft = true
 +++
 
 Please test
+
+Joke aside, this has not yet happened, but will happen soon (tm).
 
 
 == Cvpcb behaivour change
