@@ -1,0 +1,14 @@
++++
+title = "IRC"
+[menu.main]
+    parent = "Community"
+    name   = "IRC"
++++
+
+IRC (Internet Relay Chat) is a chat system composed of servers and channels that is widespread. Channels are basically "group chats" where multiple users can participate at once.
+
+KiCad has an IRC (Internet Relay Chat) channel available on link:https://freenode.net/[freenode].
+
+We use the irc://irc.freenode.net/#kicad[#kicad] channel for general discussion. The channel has both developers and general users.
+
+You can use link:https://webchat.freenode.net/[freenode webchat] if you do not have an IRC client.
