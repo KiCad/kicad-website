@@ -11,7 +11,7 @@
 			{{ end }}
 		{{ end }}
 	{{ end }}
-	<div class="row col-sm-10 margin-20">
+	<div class="{{ if .Scratch.Get "sidemenu" }} col-sm-10 {{ end }}margin-20">
 		<!-- Main Content -->
 			{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
 			{{ $.Scratch.Add "path" .Site.BaseURL }}
