@@ -7,7 +7,7 @@ title = "Documentation"
 weight = 10
 +++
 
-KiCad's documentation is split up into a document per application for convenience. Documents are avaliable in HTML, PDF and ePub along with a few language options where they have been translated.
+KiCad's documentation is split up into a document per application for convenience. Documents are available in HTML, PDF and ePub along with a few language options where they have been translated.
 
 == KiCad General
 
@@ -45,7 +45,6 @@ KiCad's documentation is split up into a document per application for convenienc
 |Polski | link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-pl.html[HTML] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-pl.pdf[PDF] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-pl.epub[ePub]
 |日本語 | link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-ja.html[HTML] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-ja.pdf[PDF] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-ja.epub[ePub]
 |Italiano | link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-it.html[HTML] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-it.pdf[PDF] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-it.epub[ePub]
-|Français | link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-fr.html[HTML] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-fr.pdf[PDF] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-fr.epub[ePub]
 |===
 
 
@@ -59,7 +58,6 @@ KiCad's documentation is split up into a document per application for convenienc
 |Polski | link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-pl.html[HTML] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-pl.pdf[PDF] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-pl.epub[ePub]
 |日本語 | link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-ja.html[HTML] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-ja.pdf[PDF] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-ja.epub[ePub]
 |Italiano | link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-it.html[HTML] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-it.pdf[PDF] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-it.epub[ePub]
-|Français | link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-fr.html[HTML] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-fr.pdf[PDF] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-fr.epub[ePub]
 |===
 
 == CvPcb
@@ -72,6 +70,5 @@ KiCad's documentation is split up into a document per application for convenienc
 |Polski | link:http://docs.kicad-pcb.org/CvPcb/CvPcb-pl.html[HTML] link:http://docs.kicad-pcb.org/CvPcb/CvPcb-pl.pdf[PDF] link:http://docs.kicad-pcb.org/CvPcb/CvPcb-pl.epub[ePub]
 |日本語 | link:http://docs.kicad-pcb.org/CvPcb/CvPcb-ja.html[HTML] link:http://docs.kicad-pcb.org/CvPcb/CvPcb-ja.pdf[PDF] link:http://docs.kicad-pcb.org/CvPcb/CvPcb-ja.epub[ePub]
 |Italiano | link:http://docs.kicad-pcb.org/CvPcb/CvPcb-it.html[HTML] link:http://docs.kicad-pcb.org/CvPcb/CvPcb-it.pdf[PDF] link:http://docs.kicad-pcb.org/CvPcb/CvPcb-it.epub[ePub]
-|Français | link:http://docs.kicad-pcb.org/CvPcb/CvPcb-fr.html[HTML] link:http://docs.kicad-pcb.org/CvPcb/CvPcb-fr.pdf[PDF] link:http://docs.kicad-pcb.org/CvPcb/CvPcb-fr.epub[ePub]
 |===
 

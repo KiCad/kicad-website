@@ -1,8 +1,8 @@
 +++
-title = "Miration from old stable"
+title = "Migration from old stable"
 [menu.main]
     parent = "Help"
-    name   = "Miration from old stable"
+    name   = "Migration from old stable"
 weight = 40
 +++
 
