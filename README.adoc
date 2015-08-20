@@ -31,3 +31,8 @@ to be relative to the hugo root and not to the subfolder root.
 The "GitPython" package for python is needed to pull the kicad-doc repo.
 Simply install with "pip install gitpython"
 
+== Adding new pages
+
+The desired format for new pages is asciidoc(.adoc) to keep inline with the kicad documentation repo. 
+Do not use markdown. 
+HTML pages are allowed if special formatting is required (i.e. downloads page).

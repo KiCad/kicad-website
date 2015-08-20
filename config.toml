@@ -9,7 +9,7 @@ layoutdir = "layouts"
 	Description = "A Cross Platform and Open Source Electronics Design Automation Suite"
 	Author = "The KiCad editors"
 	Forum = "https://forum.kicad.info/"
-	Ganalytics = "XX-00000000-0"
+	Ganalytics = "UA-3810500-6"
 
 [[params.social]]
   title = "twitter"
