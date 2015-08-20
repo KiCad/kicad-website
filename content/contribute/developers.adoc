@@ -14,11 +14,11 @@ weight = 20
 
 link:https://launchpad.net/kicad[KiCad uses Launchpad]
 for Bug reporting and tracking, source code hosting, 
-and Blueprinting new features, etc. The project is 
+and creating blueprints(roadmaps) of new features, etc. The project is 
 essentially managed through Launchpad.
 The first thing to do before anything is to join the 
 link:https://launchpad.net/~kicad-developers[KiCad Developers Mailing List].
-You can also join the IRC channel #kicad@freenode
+You can also join the link:/community/irc[IRC channel]
 if you have questions. Multiple people in there are
 devsvelopers who have patched KiCad, so they might be
 able to help you with your development related questions
@@ -264,4 +264,4 @@ Also be aware of the KiCad library convention.
 
 === Internet Relay Chat (_IRC_)
 
-Feel free to join the IRC channel at #kicad@freenode. A nice bunch of people are casually hanging around in there, so if you have any questions, that I don't know where to ask, you should try asking in here. There are all kinds of people in all kinds of time zones, people who patches kicad and plain enthusiastic users.
+Feel free to join the IRC channel at irc://irc.freenode.net/#kicad[#kicad@freenode]. A nice bunch of people are casually hanging around in there, so if you have any questions, that I don't know where to ask, you should try asking in here. There are all kinds of people in all kinds of time zones, people who patches kicad and plain enthusiastic users.
