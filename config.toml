@@ -59,11 +59,6 @@ layoutdir = "layouts"
     name   = "Help"
     weight = 0
 [[menu.main]]
-    name   = "Report a Bug"
-    url    = "https://bugs.launchpad.net/kicad/+bugs?orderby=-date_last_updated&start=0"
-    parent = "Help"
-    weight = 35
-[[menu.main]]
     parent = "Help"
     name   = "FAQ"
     url    = "http://www.kicad-pcb.org/display/KICAD/Frequently+Asked+Questions"
