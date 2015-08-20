@@ -1,8 +1,4 @@
 * Add more content
-* Tables and list are rendered quite horrible with lot of space
-* Merge "Made with KiCad" with the "Showcases", page should look
-  something like:
-	http://startbootstrap.com/template-overviews/3-col-portfolio/
 * KiCad images from the email thead:
   [Kicad-developers] Looking for KiCad success stories
 * Use taxonomies for categrorizing the content in the menus rahter
