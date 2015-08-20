@@ -5,36 +5,40 @@ title = "Features"
     name   = "Features"
 +++
 
-== Schematic capture
+== Eeschema
+
+=== Schematic capture
 
 Schematic capture is efficient, with all the tools you can expect for 
 such a task. The interface focuses on productivity. There are complexity 
 limits, as large designs can be divided into hierarchical subsheets.
 Various export options are available (PDF, SVG, HPGL, Postscript).
 
-== Design Rules Check
+=== Design Rules Check
 
 The DRC automatically controls your schematic connections.
 Check for output pin conflicts, missing drivers and unconnected pin.
 
-== Bill Of Materials
+=== Bill Of Materials
 
 BOM generation is extensible via Python scripts or XSLT, which allows many configurable formats.
 
-== Integrated libraries
+=== Integrated libraries
 
 KiCad comes bundled with a vast library of symbols, footprints, and 
 matching 3D models. They are community maintained so they never stop 
 improving.
 
-== Push and shove router
+== PcbNew
+
+=== Push and shove router
 
 This modern tool will help you lay out your board faster. As you draw 
 your track, it pushes forward nets that are in the way. If that is not 
 possible, your track will be rerouted around obstacles. The push and shove 
 router will make sure that your DRC constraints are respected.
 
-== Length tuning
+=== Length tuning
 
 Tune trace lengths for high speed designs with the dedicated tool.
 
