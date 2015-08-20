@@ -9,7 +9,7 @@ This pages is supposed to provide generic pointers for uses on where
 to get help, for example chris gammels forum, the users mailing list,
 IRC...
 
-There exists various resources for KiCad users. The most obvious ones are probably theese user communites.
+There exists various resources for KiCad users. The most obvious ones are probably these user communities.
 
 - Chris Gammels http://forum.kicad.info/[user forum].
 - http://groups.yahoo.com/group/kicad-users/[Yahoo user mailing list]

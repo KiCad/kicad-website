@@ -7,7 +7,7 @@ title = "Documentation"
 weight = 10
 +++
 
-KiCad's documentation is split up into a document per application for convenience. Documents are avaliable in HTML, PDF and ePub along with a few language options where they have been translated.
+KiCad's documentation is split up into a document per application for convenience. Documents are available in HTML, PDF and ePub along with a few language options where they have been translated.
 
 == KiCad General
 

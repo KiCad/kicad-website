@@ -26,7 +26,7 @@ in several different packages.
 ==== Symbols
 
 The schematic symbols is stored in the project file (`.pro`),
-and when creating a new project the the tmplate project is
+and when creating a new project the the template project is
 copied to the new project. 
 
 To change the default schematics libraries open this 
@@ -38,7 +38,7 @@ then be used on all _new_ projects.
 The footprints is stored in the 'footprint library
 file', this file is modified from 'pcbnew'.
 
-It is recomended to use the 'Add Footprint Library Wizard' to
+It is recommended to use the 'Add Footprint Library Wizard' to
 download the footprint files from GitHub to be
 able to use the footprints without downloading
 from GitHub each time.

@@ -12,7 +12,7 @@ means that this page should not describe KiCad functional bugs.
 The legacy canvas has problems with wxwidgets 3.0 built with gtk3,
 this combination is usually called wxgtk on various package
 distributions. Don't be confused when you see wxgtk 3.0.0 in your
-package manager, this is usually reffering to the wxwidgets version,
+package manager, this is usually referring to the wxwidgets version,
 and not weather or not it is built against gtk3.
 
 It has been seen that fedora 20, 21 and 22, builds against gtk3 and
