@@ -74,6 +74,9 @@ hr.small {
 	.navbar-custom.transparent .nav li a:hover,
 	.navbar-custom.transparent .nav li a:focus { color: rgba(255,255,255,.8) }
 		
+	.navbar-custom.transparent .nav li.open a {
+		color: #404040;
+	}
 		
     .navbar-custom .navbar-brand {
         color: #fff;

@@ -2,22 +2,21 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
 
+					{{ $currentNode := . }}
 			        {{ if isset .Site.Params "mainMenu" }}
 				        {{ $url := .Permalink }}
 				        {{ range $item := .Site.Params.mainMenu }}
-					        {{ $itemUrl := printf "%s/%s/" .Site.BaseURL $item }}
-					        <li {{ if eq $url $itemUrl }}class="active"{{ end }}><a href="{{ .Site.BaseURL }}/{{ $item }}">{{ title $item }}</a></li>
+					        <li {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}class="active"{{ end }}><a href="{{ .Site.BaseURL }}/{{ $item }}">{{ title $item }}</a></li>
 				        {{ end }}
 			        {{ end }}
 
-                    {{ $currentNode := . }}
                     {{ range .Site.Menus.main }}
                         {{ if .HasChildren }}
                     <li class="dropdown{{if $currentNode.HasMenuCurrent "main" . }} active{{end}}">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ .Name }}<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         {{ range .Children }}
-                        <li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a style="color: #404040;" href="{{.URL}}"> {{ .Name }} </a> </li>
+                        <li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
                         {{ end }}
                     </ul>
                     {{else}}
