@@ -5,6 +5,10 @@ title = "Report a Bug"
     name   = "Report a Bug"
 weight = 35
 +++
+:toc: macro 
+:toc-title:
+
+toc::[]
 
 If you think you found a bug, what information should you include in my bug report to give as much helpful information to developers as possible?
 

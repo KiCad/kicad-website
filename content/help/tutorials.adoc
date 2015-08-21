@@ -5,6 +5,10 @@ title = "Tutorials"
     name   = "Tutorials"
 weight = 30
 +++
+:toc: macro 
+:toc-title:
+
+toc::[]
 
 Several text-based tutorials as well as video tutorials have been put together by various KiCad users. Here you can find a limited subset.
 

@@ -6,9 +6,10 @@ categories = [ "Contribute" ]
     name   = "Developers"
 weight = 20
 +++
+:toc: macro 
+:toc-title:
 
-= KiCad developers
-
+toc::[]
 
 == Getting Started
 
