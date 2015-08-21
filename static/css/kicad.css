@@ -46,7 +46,7 @@ hr.small {
 	background-color: white;
 	background: white;
 	transition: background-color 1s ease 0s; /* Transition effect to make it fade in (optional) */
-	box-shadow: 0px 0px 4px #969696;
+	box-shadow: 0px 0px 10px #3C3C3C;
 }
 
 .navbar-custom .navbar-brand { font-weight: 800 }
@@ -231,52 +231,6 @@ footer .copyright {
 #footer-text { /* Hide the asciidoc footer showing useless generation time */
     display: none;
 }
-.floating-label-form-group {
-    font-size: 14px;
-    position: relative;
-    margin-bottom: 0;
-    padding-bottom: .5em;
-    border-bottom: 1px solid #eee;
-}
-.floating-label-form-group input,
-.floating-label-form-group textarea {
-    z-index: 1;
-    position: relative;
-    padding-right: 0;
-    padding-left: 0;
-    border: none;
-    border-radius: 0;
-    font-size: 1.5em;
-    background: 0 0;
-    box-shadow: none!important;
-    resize: none;
-}
-.floating-label-form-group label {
-    display: block;
-    z-index: 0;
-    position: relative;
-    top: 2em;
-    margin: 0;
-    font-size: .85em;
-    line-height: 1.764705882em;
-    vertical-align: middle;
-    vertical-align: baseline;
-    opacity: 0;
-    -webkit-transition: top .3s ease,opacity .3s ease;
-    -moz-transition: top .3s ease,opacity .3s ease;
-    -ms-transition: top .3s ease,opacity .3s ease;
-    transition: top .3s ease,opacity .3s ease;
-}
-.floating-label-form-group::not(:first-child) {
-    padding-left: 14px;
-    border-left: 1px solid #eee;
-}
-.floating-label-form-group-with-value label {
-    top: 0;
-    opacity: 1;
-}
-.floating-label-form-group-with-focus label { color: #0085a1 }
-form .row:first-child .floating-label-form-group { border-top: 1px solid #eee }
 .btn {
     text-transform: uppercase;
     font-size: 14px;
@@ -347,4 +301,9 @@ table p {
 /* Override bootstrap default */
 .lead {
 	font-weight: normal;
+}
+
+.page-header-decor {
+	background-image:url('/img/header-strip.jpg');
+	height: 100px;
 }
