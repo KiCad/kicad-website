@@ -1,4 +1,3 @@
-
 +++
 title = "Documentation"
 [menu.main]
@@ -6,10 +5,30 @@ title = "Documentation"
     name   = "Documentation"
 weight = 10
 +++
+:toc: macro 
+:toc-title:
 
 KiCad's documentation is split up into a document per application for convenience. Documents are available in HTML, PDF and ePub along with a few language options where they have been translated.
 
-== KiCad General
+
+toc::[]
+
+== Getting Started
+Essential and concise guide to mastering KiCad for the successful development of sophisticated electronic printed circuit boards.
+
+[role="table table-striped table-condensed"]
+|===
+|Language |Format
+
+|English | link:http://docs.kicad-pcb.org/Getting_Started_in_KiCad/Getting_Started_in_KiCad.html[HTML] link:http://docs.kicad-pcb.org/Getting_Started_in_KiCad/Getting_Started_in_KiCad.pdf[PDF] link:http://docs.kicad-pcb.org/Getting_Started_in_KiCad/Getting_Started_in_KiCad.epub[ePub]
+|Polski | link:http://docs.kicad-pcb.org/Getting_Started_in_KiCad/Getting_Started_in_KiCad-pl.html[HTML] link:http://docs.kicad-pcb.org/Getting_Started_in_KiCad/Getting_Started_in_KiCad-pl.pdf[PDF] link:http://docs.kicad-pcb.org/Getting_Started_in_KiCad/Getting_Started_in_KiCad-pl.epub[ePub]
+|日本語 | link:http://docs.kicad-pcb.org/Getting_Started_in_KiCad/Getting_Started_in_KiCad-ja.html[HTML] link:http://docs.kicad-pcb.org/Getting_Started_in_KiCad/Getting_Started_in_KiCad-ja.pdf[PDF] link:http://docs.kicad-pcb.org/Getting_Started_in_KiCad/Getting_Started_in_KiCad-ja.epub[ePub]
+|Italiano | link:http://docs.kicad-pcb.org/Getting_Started_in_KiCad/Getting_Started_in_KiCad-it.html[HTML] link:http://docs.kicad-pcb.org/Getting_Started_in_KiCad/Getting_Started_in_KiCad-it.pdf[PDF] link:http://docs.kicad-pcb.org/Getting_Started_in_KiCad/Getting_Started_in_KiCad-it.epub[ePub]
+|Français | link:http://docs.kicad-pcb.org/Getting_Started_in_KiCad/Getting_Started_in_KiCad-fr.html[HTML] link:http://docs.kicad-pcb.org/Getting_Started_in_KiCad/Getting_Started_in_KiCad-fr.pdf[PDF] link:http://docs.kicad-pcb.org/Getting_Started_in_KiCad/Getting_Started_in_KiCad-fr.epub[ePub]
+|===
+
+== KiCad
+Project manager window.
 
 [role="table table-striped table-condensed"]
 |===
@@ -23,6 +42,7 @@ KiCad's documentation is split up into a document per application for convenienc
 
 
 == Eeschema
+Schematic editor and component editor.
 
 [role="table table-striped table-condensed"]
 |===
@@ -36,6 +56,7 @@ KiCad's documentation is split up into a document per application for convenienc
 
 
 == Pcbnew
+Circuit board layout editor and footprint editor.
 
 [role="table table-striped table-condensed"]
 |===
@@ -47,20 +68,8 @@ KiCad's documentation is split up into a document per application for convenienc
 |Italiano | link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-it.html[HTML] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-it.pdf[PDF] link:http://docs.kicad-pcb.org/Pcbnew/Pcbnew-it.epub[ePub]
 |===
 
-
-== PL Editor
-
-[role="table table-striped table-condensed"]
-|===
-|Language |Format
-
-|English | link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor.html[HTML] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor.pdf[PDF] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor.epub[ePub]
-|Polski | link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-pl.html[HTML] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-pl.pdf[PDF] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-pl.epub[ePub]
-|日本語 | link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-ja.html[HTML] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-ja.pdf[PDF] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-ja.epub[ePub]
-|Italiano | link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-it.html[HTML] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-it.pdf[PDF] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-it.epub[ePub]
-|===
-
 == CvPcb
+Footprint selector helper (always run from Eeschema).
 
 [role="table table-striped table-condensed"]
 |===
@@ -72,3 +81,44 @@ KiCad's documentation is split up into a document per application for convenienc
 |Italiano | link:http://docs.kicad-pcb.org/CvPcb/CvPcb-it.html[HTML] link:http://docs.kicad-pcb.org/CvPcb/CvPcb-it.pdf[PDF] link:http://docs.kicad-pcb.org/CvPcb/CvPcb-it.epub[ePub]
 |===
 
+
+== GerbView
+Gerber viewer
+
+[role="table table-striped table-condensed"]
+|===
+|Language |Format
+
+|English | link:http://docs.kicad-pcb.org/GerbView/GerbView.html[HTML] link:http://docs.kicad-pcb.org/GerbView/GerbView.pdf[PDF] link:http://docs.kicad-pcb.org/GerbView/GerbView.epub[ePub]
+|Polski | link:http://docs.kicad-pcb.org/GerbView/GerbView-pl.html[HTML] link:http://docs.kicad-pcb.org/GerbView/GerbView-pl.pdf[PDF] link:http://docs.kicad-pcb.org/GerbView/GerbView-pl.epub[ePub]
+|日本語 | link:http://docs.kicad-pcb.org/GerbView/GerbView-ja.html[HTML] link:http://docs.kicad-pcb.org/GerbView/GerbView-ja.pdf[PDF] link:http://docs.kicad-pcb.org/GerbView/GerbView-ja.epub[ePub]
+|Italiano | link:http://docs.kicad-pcb.org/GerbView/GerbView-it.html[HTML] link:http://docs.kicad-pcb.org/GerbView/GerbView-it.pdf[PDF] link:http://docs.kicad-pcb.org/GerbView/GerbView-it.epub[ePub]
+|===
+
+== Utilities
+
+=== PL Editor
+Page Layout Editor.
+
+[role="table table-striped table-condensed"]
+|===
+|Language |Format
+
+|English | link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor.html[HTML] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor.pdf[PDF] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor.epub[ePub]
+|Polski | link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-pl.html[HTML] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-pl.pdf[PDF] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-pl.epub[ePub]
+|日本語 | link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-ja.html[HTML] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-ja.pdf[PDF] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-ja.epub[ePub]
+|Italiano | link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-it.html[HTML] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-it.pdf[PDF] link:http://docs.kicad-pcb.org/Pl_Editor/Pl_Editor-it.epub[ePub]
+|===
+
+=== IDF Exporter
+Exports an IDFv3 compliant board (.emn) and library (.emp) file for communicating mechanical dimensions to a mechanical CAD package.
+
+[role="table table-striped table-condensed"]
+|===
+|Language |Format
+
+|English | link:http://docs.kicad-pcb.org/IDF_Exporter/IDF_Exporter.html[HTML] link:http://docs.kicad-pcb.org/IDF_Exporter/IDF_Exporter.pdf[PDF] link:http://docs.kicad-pcb.org/IDF_Exporter/IDF_Exporter.epub[ePub]
+|Polski | link:http://docs.kicad-pcb.org/IDF_Exporter/IDF_Exporter-pl.html[HTML] link:http://docs.kicad-pcb.org/IDF_Exporter/IDF_Exporter-pl.pdf[PDF] link:http://docs.kicad-pcb.org/IDF_Exporter/IDF_Exporter-pl.epub[ePub]
+|日本語 | link:http://docs.kicad-pcb.org/IDF_Exporter/IDF_Exporter-ja.html[HTML] link:http://docs.kicad-pcb.org/IDF_Exporter/IDF_Exporter-ja.pdf[PDF] link:http://docs.kicad-pcb.org/IDF_Exporter/IDF_Exporter-ja.epub[ePub]
+|Italiano | link:http://docs.kicad-pcb.org/IDF_Exporter/IDF_Exporter-it.html[HTML] link:http://docs.kicad-pcb.org/IDF_Exporter/IDF_Exporter-it.pdf[PDF] link:http://docs.kicad-pcb.org/IDF_Exporter/IDF_Exporter-it.epub[ePub]
+|===
