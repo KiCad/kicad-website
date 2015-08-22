@@ -1,0 +1,73 @@
++++
+title = "Getting Started"
+[menu.main]
+    parent = "Help"
+    name   = "Getting Started"
+weight = 1
++++
+:icons: fonts
+:iconsdir: /img/icons/
+
+== Guide
+
+KiCad documentation includes the link:/help/documentation/#_getting_started[getting started guide] which covers the process from creating a simple project from start to finish.
+This is recommended for all new users to read first and is available in a few languages.
+
+
+== Quick KiCad Summary
+
+This is a quick summary of how KiCad functions but is in no way all as all inclusive as the link:/help/documentation/[documentation].
+
+=== Libraries
+
+KiCad uses two separate libraries, symbols and footprints.
+Symbols are used when you draw your schematic, and then you 
+assign the footprint to the symbol.
+
+This means that there are several possible footprints
+for a symbol, like a resistor can be of different sizes
+and shapes, or you can have a IC or transistor 
+in several different packages.
+
+==== Symbols
+
+The schematic symbol libraries used are stored in the project file (`.pro`),
+and when creating a new project the template project is
+copied to the new project. 
+
+To change the default schematic libraries, open this 
+project file and change the libraries there, this will
+then be used on all _new_ projects.
+
+==== Footprints
+
+The footprints are stored in the 'footprint library file', this file is modified from 'pcbnew'.
+
+It is recommended to use the 'Add Footprint Library Wizard' to
+download the footprint files from GitHub to be
+able to use the footprints without downloading
+from GitHub each time.
+
+=== Basic Workflow
+
+The basic workflow in KiCad is:
+
+1. Create project.
+2. Create a schematic with eeschema.
+3. Assign footprints and generate the netlist.
+4. Create the board, importing the netlist.
+5. Generate production files.
+
+WARNING: It is strongly recommended to use the same
+name for both project file and its directory.
+
+It's possible to open both schematic and PCB files
+outside of the project manager (`kicad.exe`), but this
+might result in unexpected results since the project
+manager sets up the working environment for the other
+tools.
+
+TIP: If you need to transfer the project, use the
+archive option in the file menu. +
+All files needed to open the project will be added
+to the archive.
