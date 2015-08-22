@@ -12,8 +12,8 @@ We are always looking for volunteers who are interested in contributing to the K
 
 Most of the action takes place on two repositories on GitHub.
 
- - link:https://github.com/ciampix/kicad-doc[Official Documentation]
- - link:https://github.com/nickoe/kicad-website[Website]
+ - link:https://github.com/KiCad/kicad-doc[Official Documentation]
+ - link:https://github.com/KiCad/kicad-website[Website]
 
 What are the tasks we are working on?
 
