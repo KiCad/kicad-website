@@ -309,3 +309,14 @@ table p {
 	height: 80px;
 	margin-top: 40px;
 }
+.admonitionblock>table td.icon {
+    text-align: center;
+    width: 80px;
+}
+
+.admonitionblock>table td.content {
+    padding-left: 1.125em;
+    padding-right: 1.25em;
+    border-left: 1px solid #ddddd8;
+    color: rgba(0,0,0,.6);
+}
