@@ -16,20 +16,11 @@ You will need these packages:
 
 - http://gohugo.io/[hugo]
 - http://asciidoctor.org/[asciidoctor]
-- python 2.7 (for kicad-documentation preprocessing)
-- GitPython (for kicad-documentation preprocessing)
 
 Using asciidoctor is a requirement, because using bare asciidoc will
 not work in parsing the asciidoc files, because of the TOML headers.
 This might be a bug upstream in asciidoc, but I have not investigated
 this further.
-
-Python 2.7 is required for kicad documentation processing.
-The kicad-doc repo only needs its /src/ content copied over.
-Additionally we need to process and fix all the include and image paths
-to be relative to the hugo root and not to the subfolder root.
-The "GitPython" package for python is needed to pull the kicad-doc repo.
-Simply install with "pip install gitpython"
 
 == Adding new pages
 
