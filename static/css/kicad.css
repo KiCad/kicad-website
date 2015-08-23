@@ -121,8 +121,11 @@ hr.small {
         max-width: 80px;
 		margin-top: -10px;
     }
+	.navbar-static-top {
+		margin-bottom:0;
+	}
 }
-	
+
 .intro-header {
     background-color: gray;
     background: no-repeat center center;
@@ -236,7 +239,9 @@ hr.small {
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
-footer { padding: 50px 0 65px }
+footer { 
+	background-color: #EFEFEF;
+}
 footer .list-inline {
     margin: 0;
     padding: 0;
@@ -327,6 +332,12 @@ table p {
 	height: 80px;
 	margin-top: 40px;
 }
+
+.page-header-decor-no-margin {
+	margin-top: 0;
+}
+
+/* asciidoctor styling output styling */
 .admonitionblock>table td.icon {
     text-align: center;
     width: 80px;
