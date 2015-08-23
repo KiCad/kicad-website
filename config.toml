@@ -58,8 +58,3 @@ layoutdir = "layouts"
 [[menu.main]]
     name   = "Help"
     weight = 0
-[[menu.main]]
-    parent = "Help"
-    name   = "FAQ"
-    url    = "http://www.kicad-pcb.org/display/KICAD/Frequently+Asked+Questions"
-    weight = 60
