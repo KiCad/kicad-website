@@ -1,0 +1,49 @@
++++
+title = "Eeschema"
+[menu.main]
+    parent = "Discover"
+    name   = "Eeschema"
+	weight = 1
++++
+
+== Eeschema Features
+
+=== Schematic capture
+
+Schematic capture is efficient, with all the tools you can expect for 
+such a task. The interface focuses on productivity. There are complexity 
+limits, as large designs can be divided into hierarchical subsheets.
+Various export options are available (PDF, SVG, HPGL, Postscript).
+
+video::H46n91Akxf0[youtube,role="embed-responsive embed-responsive-16by9"]
+
+=== Electrical Rules Check
+
+The DRC automatically controls your schematic connections.
+Check for output pin conflicts, missing drivers and unconnected pin.
+
+video::F0Bgedjo5bc[youtube,role="embed-responsive embed-responsive-16by9"]
+
+=== Export Netlists
+
+Exports netlists in formats such as
+- Pspice
+- Cadstar
+- PcbNew
+- "Generic" XML
+
+video::fa5bU4zUQOU[youtube,role="embed-responsive embed-responsive-16by9"]
+
+=== Bill Of Materials
+
+BOM generation is extensible via Python scripts or XSLT, which allows many configurable formats.
+
+video::xOTRn5Y1eAk[youtube,role="embed-responsive embed-responsive-16by9"]
+
+=== Integrated libraries
+
+KiCad comes bundled with a vast library of symbols, footprints, and 
+matching 3D models. They are community maintained so they never stop 
+improving.
+
+video::QlNFxEimYLs[youtube,role="embed-responsive embed-responsive-16by9"]

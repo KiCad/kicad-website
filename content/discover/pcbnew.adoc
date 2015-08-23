@@ -1,0 +1,21 @@
++++
+title = "PcbNew"
+[menu.main]
+    parent = "Discover"
+    name   = "PcbNew"
+	weight = 2
++++
+
+
+== PcbNew
+
+=== Push and shove router
+
+This modern tool will help you lay out your board faster. As you draw 
+your track, it pushes forward nets that are in the way. If that is not 
+possible, your track will be rerouted around obstacles. The push and shove 
+router will make sure that your DRC constraints are respected.
+
+=== Length tuning
+
+Tune trace lengths for high speed designs with the dedicated tool.

@@ -1,0 +1,16 @@
++++
+title = "3DViewer"
+[menu.main]
+    parent = "Discover"
+    name   = "3DViewer"
+	weight = 3
++++
+
+
+== 3DViewer
+
+When laying out your board, you can instantly inspect your design in an interactive canvas.
+Rotate and pan around to inspect details easier than with a 2D view. 
+Export a realistic rendering of you project as picture or a MCAD hierarchical assembly.
+
+video::D3it8wyJef0[youtube,role="embed-responsive embed-responsive-16by9"]
