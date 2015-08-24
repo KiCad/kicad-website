@@ -23,3 +23,9 @@ video::CCG4daPvuVI[youtube,role="embed-responsive embed-responsive-16by9"]
 Tune trace lengths for high speed designs with the dedicated tool.
 
 video::chejn7dqpfQ[youtube,role="embed-responsive embed-responsive-16by9"]
+
+=== Footprint Editor (GAL)
+
+Tune trace lengths for high speed designs with the dedicated tool.
+
+video::99235812[vimeo,role="embed-responsive embed-responsive-16by9"]
