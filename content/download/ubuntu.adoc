@@ -2,8 +2,16 @@
 title = "Ubuntu"
 +++
 
-=== Recent Builds
+=== Unstable Builds
 Daily builds are available in https://code.launchpad.net/~js-reynaud/+archive/ubuntu/ppa-kicad[js-reynaud's PPA].
+Execute this in a terminal to use it:
+[source,bash]
+sudo add-apt-repository ppa:js-reynaud/ppa-kicad && sudo apt-get update && sudo apt-get install kicad
+
+=== Stable Version
+This version is in preparation. Until its release, please use js-reynaud's PPA.
 
 === Old Stable
-Old stable should be in the official Ubuntu repo. 
+Old stable should be in the official Ubuntu repository. Search for `KiCad` in the 'software center' or execute:
+[source,bash]
+sudo apt-get install kicad
