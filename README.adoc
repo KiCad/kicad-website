@@ -3,13 +3,6 @@ KiCad Website Source
 
 This the source for the new KiCad website, anno 2015.
 
-== Building
-
-Execute the hugo command in the repository root to build and serve the files:
-
-----
-hugo server -w -v -b http://localhost/
-----
 
 == Prerequisites
 You will need these packages:
@@ -19,11 +12,28 @@ You will need these packages:
 
 Using asciidoctor is a requirement, because using bare asciidoc will
 not work in parsing the asciidoc files, because of the TOML headers.
-This might be a bug upstream in asciidoc, but I have not investigated
-this further.
+asciidoctor also has a few extra features for web pages. 
+
+== Testing
+
+Execute the hugo command in the repository root to build and serve the files for development:
+
+----
+hugo server -w -v
+----
+
+Observe the console output as it will tell you where the address the page is accessible.
+The -w flag tells it to watch the filesystem for changes to rebuild automatically.
 
 == Adding new pages
 
 The desired format for new pages is asciidoc(.adoc) to keep inline with the kicad documentation repo. 
-Do not use markdown. 
+Do not use markdown even though that is hugo's preferred format.
+
 HTML pages are allowed if special formatting is required (i.e. downloads page).
+
+== Adding images
+Ensure your images go into a folder in /static/img that makes sense. General stuff can stay in that folder. Grouped content such as screenshots, made with kicad, frontpage, etc should go into the respective folder (or make a new one). Try and keep image sizes reasonable. Use JPG instead of PNG if you must.
+
+== "Dynamic" content
+Avoid having content that needs to be frequently updated unless you are volunteering to do so for the forseeable future.
