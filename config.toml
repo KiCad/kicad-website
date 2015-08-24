@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "KiCad EDA"
 canonifyurls = true
 layoutdir = "layouts"
+pluralizelisttitles = false
 
 [params]
 	DateForm = "Mon, Jan 2, 2006"

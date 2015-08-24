@@ -1,15 +1,24 @@
 {{ partial "header.html" . }}
 
-    <!-- Main Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          {{ range .Paginator.Pages }}
-              {{ .Render "summary" }}
-          {{ end }}
-          {{ template "_internal/pagination.html" . }}
-        </div>
-      </div>
-    </div>
+<!-- Main Content -->
+<div class="container">
+	<div class="page-heading">
+		<h1>{{ title .Title }}</h1>
+		<hr class="small">
+		<span class="subheading">{{ title .Description }}</span>
+	</div>
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			<ul class="nav ">
+				{{ range .Paginator.Pages }}
+				<li>
+					<a href="{{ .Permalink }}">{{ .Title }}</a>
+				</li>
+				{{ end }}
+				{{ template "_internal/pagination.html" . }}
+			</ul>
+		</div>
+	</div>
+</div>
 
 {{ partial "footer.html" . }}
