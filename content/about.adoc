@@ -33,19 +33,17 @@ Some history of general information of KiCad is presented by Wayne in https://vi
 - http://iut-tice.ujf-grenoble.fr/kicad/
 - http://www.gipsa-lab.grenoble-inp.fr/
 	
-The university where Jean-Pierre Charras, the original author of KiCad worked as a teacher before his retirement.
+This is the university where Jean-Pierre Charras, the original author of KiCad, worked as a teacher before his retirement.
 
-They still provide hosting for the binary releases of KiCad which results in a large amount of bandwidth being available for the large release downloads.
+They still provide hosting for the releases of KiCad, giving us a large amount of bandwidth for the large downloads.
 
-Jean-Pierre has also been able to invest large amounts of time into developing KiCad
+Jean-Pierre has also been able to invest large amounts of time into developing KiCad.
 
 === SoftPLC
 
 - http://www.softplc.com/
 
-Employer of Dick Hollenbeck.
-
-SoftPLC sponsored Dick to improve KiCad's functionality immensely which resulted in an extremely intesive and prolific era for KiCad in which Dick committed an extremely generous amount of work.
+SoftPLC, Dick Hollenbeck's employer, sponsored him to improve KiCad's functionality immensely which resulted in an extremely intesive and prolific era for KiCad in which Dick committed an extremely generous amount of work.
 
 SoftPLC sponsored Dick to the equivalent of 450,000USD for the time he spent working on KiCad.
 
@@ -55,10 +53,10 @@ SoftPLC sponsored Dick to the equivalent of 450,000USD for the time he spent wor
 
 Employer of Javier Serrano, Maciej Suminski and Tomasz Wlostowski who all work heavily on KiCad.
 
-CERN have already contributed greatly to KiCad, and have already advanced the Graphics Abstraction Layer and introduced Push + Shove router capabilities.
+CERN has already contributed greatly to KiCad, and have already advanced the Graphics Abstraction Layer and introduced Push and Shove router capabilities.
 
 === The Raspberry Pi Foundation
 
 - http://www.raspberrypi.org/
 
-Donated to the CERN and Society Foundation to support the development of the differential pair routing and track length control in the KiCad board editor Pcbnew.
+Donated to the CERN and Society Foundation to support the development of the differential pair routing and track length control in Pcbnew, the KiCad board editor.
