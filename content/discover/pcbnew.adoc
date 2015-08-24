@@ -1,13 +1,10 @@
 +++
-title = "PcbNew"
+title = "PcbNew Features"
 [menu.main]
     parent = "Discover"
     name   = "PcbNew"
 	weight = 2
 +++
-
-
-== PcbNew
 
 === Push and shove router
 

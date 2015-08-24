@@ -1,17 +1,15 @@
 +++
-title = "Eeschema"
+title = "Eeschema Features"
 [menu.main]
     parent = "Discover"
     name   = "Eeschema"
 	weight = 1
 +++
 
-== Eeschema Features
-
 === Schematic capture
 
 Schematic capture is efficient, with all the tools you can expect for 
-such a task. The interface focuses on productivity. There are complexity 
+such a task. The interface focuses on productivity. There are no complexity
 limits, as large designs can be divided into hierarchical subsheets.
 Various export options are available (PDF, SVG, HPGL, Postscript).
 
