@@ -6,7 +6,7 @@ title = "External Tools"
 weight = 10
 +++
 
-This is a list of user made tools that is made for doing stuff with or for KiCad.
+This is a list of user made tools that do stuff with or for KiCad.
 
 == Footprint generators
 

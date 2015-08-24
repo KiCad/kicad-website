@@ -7,5 +7,5 @@ Builds of the latest source for testing can be found here: http://www2.futurewar
 
 
 === Old Stable
-The build of the 2013 stable release is available from http://iut-tice.ujf-grenoble.fr/cao/ (It is not recommended new designs). 
+The build of the 2013 stable release is available from http://iut-tice.ujf-grenoble.fr/cao/ (It is not recommended for new designs). 
 

@@ -7,4 +7,3 @@ Old stable should be in the official Debian repo.
 
 === Build from Source
 There exists a helper script, http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/view/head:/scripts/kicad-install.sh[kicad-install.sh], but is is deprecated by the developers.
-	

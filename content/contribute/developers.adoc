@@ -21,9 +21,8 @@ The first thing to do before anything is to join the
 link:https://launchpad.net/~kicad-developers[KiCad Developers Mailing List].
 You can also join the link:/community/irc[IRC channel]
 if you have questions. Multiple people in there are
-devsvelopers who have patched KiCad, so they might be
-able to help you with your development related questions
-also.
+developers who have contributed to KiCad, so they might be
+able to help you with your development related questions.
 
 To report bugs and help with technical subjects you
 will need a Launchpad account. To commit source code,
@@ -80,7 +79,8 @@ link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_
 important for us to keep the codebase readable by all developers.
 This generally gets philosophical, but the code base needs
 consistency throughout, so please do pay attention to the code
-style policy. It
+style policy. Your patches will generally be rejected if they do not adhere
+to the rules set forth in the policy.
 
 === Using Bazaar
 
@@ -219,12 +219,12 @@ link:http://bazaar.launchpad.net/%7Etermie/git-bzr-ng/master/view/head:/README.r
 
 == How to Contribute
 
-After you have setup your development machine by fetching the source and making sure that you can build as described above, you might or might not know what to actually contribute with. If the latter, this is the page for you.
+After you have setup your development machine by fetching the source and making sure that you can build as described above, you might or might not know what to actually contribute. If the latter, this is the page for you.
 
-There are multiple ways of contributing to the future success of KiCad, once could contribute on the
-link:http:/docs-team/index.html[documentaiton], 
-link:http:/librarians/index.html[library]
-or actual code contributions to the codebase, which this page will highlight.
+There are multiple ways of contributing to the future success of KiCad, one could contribute on the
+link:/contribute/docs-team/[documentation], 
+link:/contribute/librarians/[libraries]
+or actual code contributions to the codebase.
 
 === Starter Patches
 
@@ -251,17 +251,12 @@ where you have to apply for membership to be able to send to it. Or you can atta
 
 If you are the kind guy wanting to help improving kicad by internationalizing it, you should probably have a look at the 
 link:http://ci.kicad-pcb.org/job/any-kicad-doc-head/lastSuccessfulBuild/artifact/src/GUI_Translation_HOWTO/GUI_Translation_HOWTO.html[GUI translating howto]. +
-Also you are encuraged to contribute to the 
-link:https://github.com/ciampix/kicad-doc[KiCad Documentation]
-This repo is soon to be put under the KiCad organisation on github, so the link might change in the near future. Currently there exists up to date translations in italian and polish.
+Also you are encouraged to contribute to the 
+link:/contribute/docs-team/[KiCad Documentation]
 
 === Contribute to the Official Libraries
 
-Contributions to the official footprint and schematic libraries are made as
-link:https://github.com/KiCad/kicad-library[github pull requests].
-Please note the footprints are the '*.pretty' repos, while the 3D models are contained in the kicad-library. Please consider joining the
-link:https://launchpad.net/~kicad-lib-committers[KiCad library mailing list]. +
-Also be aware of the KiCad library convention.
+If you wish to contribute eeschema, pcbnew or 3dviewer libraries, please see the link:/contribute/librarians/[Librarians] page.
 
 === Internet Relay Chat (_IRC_)
 

@@ -9,8 +9,8 @@ title = "3DViewer"
 
 == 3DViewer
 
-When laying out your board, you can instantly inspect your design in an interactive canvas.
-Rotate and pan around to inspect details easier than with a 2D view. 
-Export a realistic rendering of you project as picture or a MCAD hierarchical assembly.
+When laying out your PCB, you can instantly inspect your design in an interactive 3D view.
+Rotate and pan around to inspect details easier than with a 2D display. 
+Export a realistic rendering of your project as a picture or a MCAD hierarchical assembly.
 
 video::D3it8wyJef0[youtube,role="embed-responsive embed-responsive-16by9"]

@@ -13,4 +13,5 @@ kicad-extras.dmg contains the footprints and all the instructions you need for m
 
 
 === Build from Source
-Instructions for building from source is in http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/view/head:/Documentation/compiling/mac-osx.txt[mac-osx.txt]. Do not use the https://github.com/KiCad/KicadOSXBuilder[KicadOSXBuilder] as it is outdated. 
+Instructions for building from source is in http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/view/head:/Documentation/compiling/mac-osx.txt[mac-osx.txt]. 
+Do not use the https://github.com/KiCad/KicadOSXBuilder[KicadOSXBuilder] as it is outdated. 
