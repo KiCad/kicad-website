@@ -7,7 +7,7 @@
  */
 body {
     font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     color: #404040;
 }
 p {
@@ -25,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 800;
+    font-weight: 400;
 }
 a { color: #404040 }
 a:hover,
@@ -37,8 +37,8 @@ blockquote {
     font-style: italic;
 }
 hr.small {
-    max-width: 100px;
-    margin: 15px auto;
+    width: 100px;
+    margin: 5px auto;
     border-width: 4px;
     border-color: #fff;
 }
