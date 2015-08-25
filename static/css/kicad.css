@@ -30,6 +30,9 @@ h6 {
 a { color: #404040 }
 a:hover,
 a:focus { color: #0085a1 }
+.side-links .active a {
+    color: white;
+}
 .thumbnail img:hover,
 .thumbnail img:focus { cursor: zoom-in }
 blockquote {
