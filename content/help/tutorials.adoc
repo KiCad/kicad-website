@@ -16,7 +16,7 @@ Several text-based tutorials as well as video tutorials have been put together b
 
 === Textual Tutorials
 
-- link:/help/documentation/[Official KiCad tutorial]
+- link:/help/documentation/#_getting_started[KiCad Getting Started Tutorial]
 - http://www.wayneandlayne.com/blog/category/kicad-tutorials/[Wayne and Layne's Tutorials]
 - http://store.curiousinventor.com/guides/kicad[Curious Inventor's Tutorials]
 - http://teholabs.com/knowledge/kicad.html[Teho Labs' Tutorial]
