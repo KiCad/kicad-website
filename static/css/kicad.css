@@ -25,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 400;
+    font-weight: 600;
 }
 a { color: #404040 }
 a:hover,
@@ -153,7 +153,7 @@ hr.small {
 .intro-header .page-heading h1 {
     margin-top: 0;
     font-size: 50px;
-	font-weight:800;
+	font-weight:700;
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
