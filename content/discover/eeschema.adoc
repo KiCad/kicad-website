@@ -8,7 +8,7 @@ title = "Eeschema Features"
 
 === Schematic capture
 
-Schematic capture is efficient, with all the tools you can expect for 
+Schematic capture is efficient, with all the tools you can expect for
 such a task. The interface focuses on productivity. There are no complexity
 limits, as large designs can be divided into hierarchical subsheets.
 Various export options are available (PDF, SVG, HPGL, Postscript).
@@ -40,8 +40,8 @@ video::xOTRn5Y1eAk[youtube,role="embed-responsive embed-responsive-16by9"]
 
 === Integrated libraries
 
-KiCad comes bundled with a vast library of symbols, footprints, and 
-matching 3D models. They are community maintained so they never stop 
+KiCad comes bundled with a vast library of symbols, footprints, and
+matching 3D models. They are community maintained so they never stop
 improving.
 
 video::QlNFxEimYLs[youtube,role="embed-responsive embed-responsive-16by9"]
