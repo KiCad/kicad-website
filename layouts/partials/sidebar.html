@@ -7,7 +7,7 @@
             <!-- sidebar menu start-->
               {{ $section := .Scratch.Get "sidemenu_section" }}
               {{ range .Site.Menus.main }}
-                    {{ if eq $section (.Name | lower) }}
+                  {{ if eq $section (.Name | lower) }}
                         {{ if .HasChildren }}
                             <h3>{{ .Name }}</h3>
                             <ul class="list-unstyled side-links">

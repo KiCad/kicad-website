@@ -1,0 +1,52 @@
+{{ partial "header.html" . }}
+
+<style type='text/css'>
+	.download-os div {
+	    display: inline;
+	}
+</style>
+
+<div class="container">
+	<div class="col-sm-10 margin-20">
+		<!-- Main Content -->
+        {{ partial "breadcrumb.html" . }}
+
+        <div class="page-heading">
+            <h1>{{ title .Title }}</h1>
+            <hr class="small">
+            <span class="subheading">{{ title .Description }}</span>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-10 ">
+              {{ .Content }}
+            </div>
+        </div>
+	</div>
+	
+	<!--sidebar start-->
+	{{ $currentNode := . }}
+	<div class="col-sm-2">
+	    <aside>
+		<nav class="secondary">
+		    <!-- sidebar menu start-->
+		    <h3>All&nbsp;Platforms</h3>
+		    <ul class="list-unstyled side-links">
+			{{ range .Site.Sections.download.Pages }}
+			     <li class="list-group-item download-os">
+				    <a href="{{ .Permalink }}">
+					    {{ .Params.iconhtml | safeHTML }}
+					    {{ .Title }}
+				    </a>
+			     </li>
+			{{end}}
+		     </ul>
+		    </ul>
+		    <!-- sidebar menu end-->
+		</nav>
+	    </aside>
+	</div>
+	<!--sidebar end-->
+	
+</div>
+
+{{ partial "footer.html" . }}
