@@ -10,64 +10,56 @@ weight = 1
 
 == Guide
 
-KiCad documentation includes the link:/help/documentation/#_getting_started[getting started guide] which covers the process from creating a simple project from start to finish.
-This is recommended for all new users to read first and is available in a few languages.
-
+A full link:/help/documentation/#_getting_started[Getting Started guide] is included in the KiCad documentation, in multiple languages.
+This covers the process of creating and completing a simple project.
+We recommend that all new users read this first, in order to learn the basics.
 
 == Quick KiCad Summary
 
-This is a quick summary of how KiCad functions but is in no way all as all inclusive as the link:/help/documentation/[documentation].
+This is a quick summary of how KiCad functions. More details can be found in the link:/help/documentation/[full documentation].
 
 === Libraries
 
-KiCad uses two separate libraries, symbols and footprints.
-Symbols are used when you draw your schematic, and then you 
-assign the footprint to the symbol.
+KiCad uses two separate types of library: symbols (`.lib`) and footprints (`.pretty`). 
+Symbols are used to draw the schematic.
+Once symbols have been placed into the schematic, footprints
+are assigned to them, and then these are used to
+lay out the circuit board.
 
-This means that there are several possible footprints
-for a symbol, like a resistor can be of different sizes
-and shapes, or you can have a IC or transistor 
-in several different packages.
+This means that you can assign whichever footprint suits your design without
+having to create a unique schematic symbol. If you need to change a footprint during
+board layout, simply update the assigned footprint, import it into the PCB, and you can continue designing your board.
 
 ==== Symbols
 
-The schematic symbol libraries used are stored in the project file (`.pro`),
-and when creating a new project the template project is
-copied to the new project. 
-
-To change the default schematic libraries, open this 
-project file and change the libraries there, this will
-then be used on all _new_ projects.
+The schematic symbol libraries (`.lib`) used are listed in the
+project file (`.pro`), which is created from a template when you start a new project.
+Note that the libraries themselves are not contained in the project, only links to them.
+When you share a project, you should at least keep the library cache (`-cache.lib`) with it, to ensure that others can see your symbols.
 
 ==== Footprints
 
-The footprints are stored in the 'footprint library file', this file is modified from 'pcbnew'.
-
-It is recommended to use the 'Add Footprint Library Wizard' to
-download the footprint files from GitHub to be
-able to use the footprints without downloading
-from GitHub each time.
+It is recommended to use the 'Footprint Libraries Wizard' to download the official KiCad footprint files from GitHub.
+This is the easiest way to get and update the official KiCad footprint libraries.
+When creating your own footprint library files (`.pretty`) they can be edited from 'pcbnew'. Local libraries can be added to your system using the 'Footprint Libraries Manager'.
 
 === Basic Workflow
 
 The basic workflow in KiCad is:
 
-1. Create project.
-2. Create a schematic with eeschema.
-3. Assign footprints and generate the netlist.
-4. Create the board, importing the netlist.
-5. Generate production files.
+1. Create a project.
+2. Create a schematic with 'eeschema'.
+3. Assign footprints to symbols and generate the netlist.
+4. Create a board with 'pcbnew', importing the netlist from 'eeschema'.
+5. Test the board using the 'Design Rule Check'.
+6. Generate production files.
 
-WARNING: It is strongly recommended to use the same
-name for both project file and its directory.
-
-It's possible to open both schematic and PCB files
-outside of the project manager (`kicad.exe`), but this
+It's possible to open both schematic and PCB files outside of the project manager, but this
 might result in unexpected results since the project
-manager sets up the working environment for the other
-tools.
+manager configures the working environment for the other
+tools. This workflow variant is not recommended.
 
-TIP: If you need to transfer the project, use the
-archive option in the file menu. +
+TIP: If you need to share the project, use the
+archive option in the file menu.
 All files needed to open the project will be added
 to the archive.
