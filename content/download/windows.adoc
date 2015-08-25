@@ -11,6 +11,6 @@ http://downloads.kicad-pcb.org/windows/
 
 === Old Stable
 The build of the 2013 stable release is available from
-http://downloads.kicad-pcb.org/cao/KiCad_stable-2013.07.07-BZR4022_Win_full_version.exe
+http://downloads.kicad-pcb.org/archive/KiCad_stable-2013.07.07-BZR4022_Win_full_version.exe
 (It is not recommended for new designs). 
 
