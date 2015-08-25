@@ -30,9 +30,9 @@
 		<nav class="secondary">
 		    <!-- sidebar menu start-->
 		    <h3>All&nbsp;Platforms</h3>
-		    <ul class="list-unstyled side-links">
+		    <ul class="list-unstyled side-links list-group">
 			{{ range .Site.Sections.download.Pages }}
-			     <li class="list-group-item download-os">
+			     <li class="list-group-item download-os{{if eq $currentNode . }} active{{end}}">
 				    <a href="{{ .Permalink }}">
 					    {{ .Params.iconhtml | safeHTML }}
 					    {{ .Title }}
