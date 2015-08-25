@@ -1,6 +1,6 @@
 +++
 title = "Smoothieboard"
-projectimage = "/img/Smoothieboard.jpg"
+projectimage = "/img/madewithkicad/Smoothieboard.jpg"
 projectdeveloper = "Arthur Wolf"
 projecturl = "http://smoothieware.org/"
 +++

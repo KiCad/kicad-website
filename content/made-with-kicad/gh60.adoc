@@ -1,6 +1,6 @@
 +++
 title = "GH60"
-projectimage = "/img/GH60.jpg"
+projectimage = "/img/madewithkicad/GH60.jpg"
 projectdeveloper = "Komar's techblog"
 projecturl = "http://blog.komar.be/projects/gh60-programmable-keyboard/"
 +++

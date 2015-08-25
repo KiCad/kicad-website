@@ -1,6 +1,6 @@
 +++
 title = "HackRF"
-projectimage = "/img/HackRF.jpg"
+projectimage = "/img/madewithkicad/HackRF.jpg"
 projectdeveloper = "Great Scott Gadgets"
 projecturl = "http://greatscottgadgets.com/hackrf/"
 +++

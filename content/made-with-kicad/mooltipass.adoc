@@ -1,6 +1,6 @@
 +++
 title = "Mooltipass"
-projectimage = "/img/Mooltipass.jpg"
+projectimage = "/img/madewithkicad/Mooltipass.jpg"
 projectdeveloper = "Mathieu Stephan"
 projecturl = "https://hackaday.io/project/86-mooltipass"
 +++

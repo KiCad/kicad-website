@@ -1,6 +1,6 @@
 +++
 title = "Upconverter"
-projectimage = "/img/Upconverter.jpg"
+projectimage = "/img/madewithkicad/Upconverter.jpg"
 projectdeveloper = "Opendous Inc."
 projecturl = "https://code.google.com/p/opendous/wiki/Upconverter"
 +++

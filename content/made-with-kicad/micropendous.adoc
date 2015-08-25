@@ -1,6 +1,6 @@
 +++
 title = "Micropendous"
-projectimage = "/img/Micropendous.jpg"
+projectimage = "/img/madewithkicad/Micropendous.jpg"
 projectdeveloper = "Opendous Inc."
 projecturl = "https://code.google.com/p/micropendous/"
 +++

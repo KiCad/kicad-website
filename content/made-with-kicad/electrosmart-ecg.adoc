@@ -1,6 +1,6 @@
 +++
 title = "Electrosmart ECG"
-projectimage = "/img/ElectrosmartECG.jpg"
+projectimage = "/img/madewithkicad/ElectrosmartECG.jpg"
 projectdeveloper = "Palta Tech"
 projecturl = "http://www.paltatech.com/electrosmart/"
 type = "made-with-kicad"

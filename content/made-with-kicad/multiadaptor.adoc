@@ -1,6 +1,6 @@
 +++
 title = "MultiAdaptor"
-projectimage = "/img/MultiAdaptor.jpg"
+projectimage = "/img/madewithkicad/MultiAdaptor.jpg"
 projectdeveloper = "Opendous Inc."
 projecturl = "https://code.google.com/p/opendous/wiki/MultiAdaptor"
 +++

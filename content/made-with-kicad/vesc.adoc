@@ -1,6 +1,6 @@
 +++
 title = "VESC"
-projectimage = "/img/VESC.jpg"
+projectimage = "/img/madewithkicad/VESC.jpg"
 projectdeveloper = "Benjamin's robotics"
 projecturl = "http://vedder.se/2015/01/vesc-open-source-esc/"
 +++

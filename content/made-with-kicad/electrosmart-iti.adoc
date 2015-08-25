@@ -1,6 +1,6 @@
 +++
 title = "Electronic Industrial Temperature Interface"
-projectimage = "/img/EITI.jpg"
+projectimage = "/img/madewithkicad/EITI.jpg"
 projectdeveloper = "Palta Tech"
 projecturl = "http://www.paltatech.com/eiti/"
 +++
