@@ -1,0 +1,54 @@
+{{ partial "header.html" . }}
+<div class="container">
+	{{ $currentNode := . }}
+	{{ .Scratch.Set "sidemenu" false }}
+	{{ .Scratch.Set "sidemenu_section" "discover" }}
+	{{ range .Site.Menus.main }}
+		{{ if eq "discover" (.Name | lower) }}
+			{{ if .HasChildren }}
+				{{ $currentNode.Scratch.Set "sidemenu" true }}
+			{{ end }}
+		{{ end }}
+	{{ end }}
+
+    <!-- Main Content -->
+	<div class="{{ if .Scratch.Get "sidemenu" }} col-sm-10 {{ end }}margin-20">
+		<!-- Main Content -->
+        {{ partial "breadcrumb.html" . }}
+        
+        <div class="page-heading">
+            <h1>{{ title .Title }}</h1>
+            <hr class="small">
+            <span class="subheading">
+                These are some KiCad designed projects that have been made by users. If you want to
+                be featured along the other showcases on this page please submit a pull request
+                <a href="https://github.com/KiCad/kicad-website">on GitHub</a>.
+            </span>
+        </div>
+        {{ $paginator := .Paginate (where .Site.Pages "Section" "made-with-kicad") }}
+        {{ template "_internal/pagination.html" . }}
+        <hr />
+        <div class="row">
+            <div class="col-lg-12 col-md-10 ">
+              {{ range $paginator.Pages }}
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="img-responsive" src="{{ .Params.projectimage }}" alt="">
+                        </div>
+                        <div class="col-md-7">
+                            <h3>{{ .Title }}</h3>
+                            <h4>{{ .Params.projectdeveloper }}</h4>
+                            <p>{{ .Content }}</p>
+                            <a class="btn btn-primary" href="{{ .Params.projecturl }}">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                        </div>
+                    </div>
+                    <hr />
+              {{ end }}
+            </div>
+        </div>
+      {{ template "_internal/pagination.html" . }}
+    </div>
+	{{ partial "sidebar.html" . }}
+</div>
+
+{{ partial "footer.html" . }}

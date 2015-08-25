@@ -55,6 +55,11 @@ pluralizelisttitles = false
     url    = "http://kicad.jp/"
     weight = 20
 
+[[menu.main]]
+    parent = "Discover"
+    name   = "Made With Kicad"
+    url    = "/made-with-kicad/"
+    weight = 20
 
 [[menu.main]]
     name   = "Help"

@@ -1,9 +1,9 @@
 {{ partial "header.html" . }}
 
 <div class="container">
-
 	{{ $currentNode := . }}
 	{{ .Scratch.Set "sidemenu" false }}
+	{{ .Scratch.Set "sidemenu_section" $currentNode.Section }}
 	{{ range .Site.Menus.main }}
 		{{ if eq $currentNode.Section (.Name | lower) }}
 			{{ if .HasChildren }}
@@ -11,58 +11,23 @@
 			{{ end }}
 		{{ end }}
 	{{ end }}
+    
 	<div class="{{ if .Scratch.Get "sidemenu" }} col-sm-10 {{ end }}margin-20">
 		<!-- Main Content -->
-			{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-			{{ $.Scratch.Add "path" .Site.BaseURL }}
-			<ol class="breadcrumb">
-				<li><a href="/">Home</a></li>
-				{{ range $index, $element := split $url "/" }}
-					{{ $.Scratch.Add "path" $element }}
-						{{ if ne $element "" }}
-						<li><a href='{{ $.Scratch.Get "path" }}'>{{ title . }}</a></li>
-						{{ $.Scratch.Add "path" "/" }}
-					{{ end }}
-				{{ end }}
-			</ol>
+        {{ partial "breadcrumb.html" . }}
 
-			<div class="page-heading">
-				<h1>{{ title .Title }}</h1>
-				<hr class="small">
-				<span class="subheading">{{ title .Description }}</span>
-			</div>
-				<div class="row">
-					<div class="col-lg-12 col-md-10 ">
-					  {{ .Content }}
-					</div>
-				</div>
+        <div class="page-heading">
+            <h1>{{ title .Title }}</h1>
+            <hr class="small">
+            <span class="subheading">{{ title .Description }}</span>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-10 ">
+              {{ .Content }}
+            </div>
+        </div>
 	</div>
-	
-	<!--sidebar start-->
-	{{ if .Scratch.Get "sidemenu" }} 
-	<div class="col-sm-2">
-		<aside>
-			<nav class="secondary">
-				<!-- sidebar menu start-->
-				  {{ range .Site.Menus.main }}
-						{{ if eq $currentNode.Section (.Name | lower) }}
-							{{ if .HasChildren }}
-								<h3>{{ .Name }}</h3>
-								<ul class="list-unstyled side-links">
-									{{ range .Children }}
-										<li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
-									{{ end }}
-								</ul>
-							{{end}}
-					  {{end}}
-				  {{end}}
-				</ul>
-				<!-- sidebar menu end-->
-			</nav>
-		</aside>
-	</div>
-  {{end}}
-	<!--sidebar end-->
+	{{ partial "sidebar.html" . }}
 	
 </div>
 

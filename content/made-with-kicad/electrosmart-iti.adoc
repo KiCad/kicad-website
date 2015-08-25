@@ -1,0 +1,11 @@
++++
+title = "Electronic Industrial Temperature Interface"
+projectimage = "/img/EITI.jpg"
+projectdeveloper = "Palta Tech"
+projecturl = "http://www.paltatech.com/eiti/"
++++
+
+EITI is an I/O module for a PLC/MODBUS based design.
+The board measures temperature signals, communicate via a RX or TX 4-20mA current loop signal
+and communicate with other devices over MODBUS. This allows a PLC to interface with
+many common analog signals.

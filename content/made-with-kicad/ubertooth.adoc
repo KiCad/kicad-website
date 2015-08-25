@@ -1,0 +1,8 @@
++++
+title = "Ubertooth One"
+projectimage = "/img/ubertooth-one.jpg"
+projectdeveloper = "Great Scott Gadgets"
+projecturl = "http://greatscottgadgets.com/ubertoothone/"
++++
+
+Ubertooth One is an open source 2.4 GHz wireless development platform suitable for Bluetooth experimentation.

@@ -1,0 +1,11 @@
++++
+title = "MobilECG"
+projectimage = "/img/MobilECG.jpg"
+projectdeveloper = "P&eacute;ter Isza"
+projecturl = "http://mobilecg.hu/"
++++
+
+MobilECG is an USB-based open source 12-lead clinical electrocardiograph.<br>
+It is designed to meet all the relevant medical standards (ISO 60601-1, etc.).
+Smaller than most ECGs on the market, and also has superior signal quality.
+Works with PCs, notebooks, and Android tablets. Records all leads simultaneously.

@@ -1,0 +1,10 @@
++++
+title = "VESC"
+projectimage = "/img/VESC.jpg"
+projectdeveloper = "Benjamin's robotics"
+projecturl = "http://vedder.se/2015/01/vesc-open-source-esc/"
++++
+
+An link:https://github.com/vedderb/bldc[Open Source]ESC.
+
+In other words, this is a brushless DC motor controller, which is very configurable.
