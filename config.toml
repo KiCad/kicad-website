@@ -24,12 +24,12 @@ pluralizelisttitles = false
 
 [[menu.main]]
     name   = "Blog"
-    url    = "/post"
+    url    = "/post/"
     weight = -200
 
 [[menu.main]]
     name   = "Download"
-    url    = "/download"
+    url    = "/download/"
     weight = 600
 
 [[menu.main]]

@@ -1,40 +1,31 @@
-           <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	<ul class="nav navbar-nav navbar-right">
+		{{ $currentNode := . }}
+		{{ range .Site.Menus.main }}
+			{{ if .HasChildren }}
+				<li class="dropdown{{if $currentNode.HasMenuCurrent "main" . }} active{{end}}">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ .Name }}<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					{{ range .Children }}
+					<li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
+					{{ end }}
+				</ul>
+			{{else}}
+				<li class='{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}active{{end}}'>
+					<a href="{{.URL}}">
+						{{ .Pre }}
+						<span>{{ .Name }}</span>
+					</a>
+			{{end}}
+			</li>
+		{{end}}
 
-					{{ $currentNode := . }}
-			        {{ if isset .Site.Params "mainMenu" }}
-				        {{ $url := .Permalink }}
-				        {{ range $item := .Site.Params.mainMenu }}
-					        <li {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}class="active"{{ end }}><a href="{{ .Site.BaseURL }}/{{ $item }}">{{ title $item }}</a></li>
-				        {{ end }}
-			        {{ end }}
-
-                    {{ range .Site.Menus.main }}
-                        {{ if .HasChildren }}
-                    <li class="dropdown{{if $currentNode.HasMenuCurrent "main" . }} active{{end}}">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ .Name }}<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        {{ range .Children }}
-                        <li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
-                        {{ end }}
-                    </ul>
-                    {{else}}
-                    <li>
-                    <a class="" href="{{.URL}}">
-                        {{ .Pre }}
-                        <span>{{ .Name }}</span>
-                    </a>
-                    {{end}}
-                    </li>
-                    {{end}}
-
-                    <li>
-                        <form>
-                            <a class="btn btn-primary btn-block " style="margin-right: 26px; color: white;" href="https://giving.web.cern.ch/civicrm/contribute/transact?reset=1&id=6"> Donate via CERN </a>
-                        </form>
-                    </li>
-                  </ul>
-            </div>
-           <!-- /.navbar-collapse -->
-
+		<li>
+			<form>
+				<a class="btn btn-primary btn-block " style="margin-right: 26px; color: white;" href="https://giving.web.cern.ch/civicrm/contribute/transact?reset=1&id=6"> Donate via CERN </a>
+			</form>
+		</li>
+	</ul>
+</div>
+<!-- /.navbar-collapse -->
