@@ -1,5 +1,7 @@
 +++
 title = "Ubuntu"
+iconhtml = "<div class='fl-ubuntu'></div>"
+weight = 1
 +++
 
 === Unstable Builds

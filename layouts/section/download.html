@@ -30,54 +30,14 @@
 			<div class="row">
 				<h3>Select your operating system or distribution</h3>
 				<ul class="list-group">
-					 <li class="list-group-item col-md-4 col-xs-12 col-sm-6 download-os">
-						<a href="{{ .Site.BaseURL }}download/ubuntu">
-							<div class="fl-ubuntu"></div>
-							Ubuntu
-						</a>
-					 </li>
-					 <li class="list-group-item col-md-4 col-xs-12 col-sm-6 download-os">
-						<a href="{{ .Site.BaseURL }}download/osx">
-							<div><i class="fa fa-apple"></i></div>
-							OS X
-						</a>
-					 </li>
-					 <li class="list-group-item col-md-4 col-xs-12 col-sm-6 download-os">
-						<a href="{{ .Site.BaseURL }}download/windows">
-							<div><i class="fa fa-windows"></i></div>
-							Windows
-						</a>
-					 </li>
-					 <li class="list-group-item col-md-4 col-xs-12 col-sm-6 download-os">
-						<a href="{{ .Site.BaseURL }}download/debian">
-							<div class="fl-debian"></div>
-							Debian
-						</a>
-					 </li>
-					 <li class="list-group-item col-md-4 col-xs-12 col-sm-6 download-os">
-						<a href="{{ .Site.BaseURL }}download/linuxmint">
-							<div class="fl-linuxmint"></div>
-							Linux Mint
-						</a>
-					 </li>
-					 <li class="list-group-item col-md-4 col-xs-12 col-sm-6 download-os">
-						<a href="{{ .Site.BaseURL }}download/opensuse">
-							<div class="fl-opensuse"></div>
-							OpenSUSE
-						</a>
-					 </li>
-					 <li class="list-group-item col-md-4 col-xs-12 col-sm-6 download-os">
-						<a href="{{ .Site.BaseURL }}download/fedora">
-							<div class="fl-fedora"></div>
-							Fedora
-						</a>
-					 </li>
-					 <li class="list-group-item col-md-4 col-xs-12 col-sm-6 download-os">
-						<a href="{{ .Site.BaseURL }}download/archlinux">
-							<div class="fl-archlinux"></div>
-							Arch Linux
-						</a>
-					 </li>
+					{{ range .Data.Pages }}
+						 <li class="list-group-item col-md-4 col-xs-12 col-sm-6 download-os">
+							<a href="{{ .Permalink }}">
+								{{ .Params.iconhtml | safeHTML }}
+								{{ .Title }}
+							</a>
+						 </li>
+					{{end}}
 					 <li class="list-group-item col-md-4 col-xs-12 col-sm-6 download-os">
 						<a href="https://code.launchpad.net/kicad">
 							<div><i class="fa fa-code"></i></div>

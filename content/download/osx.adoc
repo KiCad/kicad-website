@@ -1,5 +1,7 @@
 +++
 title = "OS X"
+iconhtml = "<div><i class='fa fa-apple'></i></div>"
+weight = 2
 +++
 
 === Recent Builds

@@ -1,5 +1,7 @@
 +++
 title = "Windows"
+iconhtml = "<div><i class='fa fa-windows'></i></div>"
+weight = 2
 +++
 
 === Recent Builds

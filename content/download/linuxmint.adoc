@@ -1,5 +1,7 @@
 +++
 title = "Linux Mint"
+iconhtml = "<div class='fl-linuxmint'></div>"
+weight = 11
 +++
 
 === Recent Builds

@@ -1,5 +1,7 @@
 +++
 title = "Fedora"
+iconhtml = "<div class='fl-fedora'></div>"
+weight = 20
 +++
 	
 	

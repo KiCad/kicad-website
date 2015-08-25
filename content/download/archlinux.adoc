@@ -1,5 +1,7 @@
 +++
 title = "Arch Linux"
+iconhtml = "<div class='fl-archlinux'></div>"
+weight = 20
 +++
 
 === Old Stable

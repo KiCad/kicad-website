@@ -1,5 +1,7 @@
 +++
 title = "OpenSUSE"
+iconhtml = "<div class='fl-opensuse'></div>"
+weight = 20
 +++
 
 === Recent Builds
