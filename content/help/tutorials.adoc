@@ -16,7 +16,7 @@ Several text-based tutorials as well as video tutorials have been put together b
 
 === Textual Tutorials
 
-- http://docs.kicad-pcb.org/Getting_Started_in_KiCad/Getting_Started_in_KiCad.html[Official KiCad tutorial]
+- link:/help/documentation/[Official KiCad tutorial]
 - http://www.wayneandlayne.com/blog/category/kicad-tutorials/[Wayne and Layne's Tutorials]
 - http://store.curiousinventor.com/guides/kicad[Curious Inventor's Tutorials]
 - http://teholabs.com/knowledge/kicad.html[Teho Labs' Tutorial]
@@ -30,15 +30,15 @@ Several text-based tutorials as well as video tutorials have been put together b
 - https://www.youtube.com/watch?v=zK3rDhJqMu0[A KiCad Quick-Start Tutorial] by Windsor Schmidt
 - https://www.youtube.com/playlist?list=PLCNJWVn9MJuORLQ3ds_U3D7RILfE4zdoL[Video series by Ashley Mills], complete with building from source and desgining a board
 - https://www.youtube.com/user/contextualelectronic/playlists[Videos by Chris Gammell] at Contextual Electronics
-- http://www.kicad-pcb.org/display/KICAD/Videos+by+DPRG[Videos by DPRG]
-- http://www.kicad-pcb.org/display/KICAD/Videos+by+zupnikal[Videos by zupnikal]
+- https://www.youtube.com/playlist?list=PL67B2290F4C62B5F2[Videos by zupnikal]
 - http://www.youtube.com/user/XploreLabz/videos[Videos by Xplore Labz]
 - http://vimeo.com/user9565582/videos[Videos by Yoonseo Kang]
 - http://www.youtube.com/playlist?list=PL67B2290F4C62B5F2[Videos by My 2µF]
 
 === Reviews
 
-- http://www.kicad-pcb.org/display/KICAD/Videos+from+EEVblog[Videos by EEVblog]
+- https://www.youtube.com/watch?v=xRXEc7pB0o0[Review by EEVblog Part 1]
+- https://www.youtube.com/watch?v=bg0sEjD7R6M[Review by EEVblog Part 2]
 
 == Tutorials in Greek
 
