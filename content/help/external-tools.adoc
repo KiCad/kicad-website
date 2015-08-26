@@ -22,4 +22,4 @@ This is a list of user made tools that do stuff with or for KiCad.
 - http://mayhewlabs.com/3dpcb[Mayhew Labs' 3D Gerber Viewer]
 - http://sourceforge.net/projects/kicadstepup/[Maurice's kicadStepUp, which allows exporting kicad 3D board and components to STEP AP214]
 - https://github.com/xesscorp/KiCost[KiCost a script for generating part-cost spreadsheets for circuit boards developed with KiCad]
-
+- https://sourceforge.net/projects/eaglepcb2freecad/[FreeCAD PCB is a plugin for FreeCAD that can import a kicad board files directly and assign 3D models(step) to all components. Plus many handy functions related to mechanical integration of PCB's]
