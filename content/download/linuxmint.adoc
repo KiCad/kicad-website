@@ -13,6 +13,8 @@ To install KiCad via the PPA, you can use the Software Manager:
 2. Select Edit → Software Sources.
 3. Open the 'PPAs' tab.
 4. Click 'Add a new PPA', and enter the PPA address: `ppa:js-reynaud/ppa-kicad`
+5. Click 'Update the cache'
+6. Return to the Software Manager main screen, search for 'kicad', and install it.
 
 If you prefer to use the shell, you can enter these commands into a terminal:
 
