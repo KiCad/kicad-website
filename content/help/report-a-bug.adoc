@@ -10,7 +10,7 @@ weight = 35
 
 toc::[]
 
-If you think you found a bug, what information should you include in my bug report to give as much helpful information to developers as possible?
+If you think you found a bug, what information should you include in your bug report to give as much helpful information to developers as possible?
 
 Before you get too involved, you should first head over to the https://bugs.launchpad.net/KiCad/+bugs?orderby=-date_last_updated&start=0[KiCad bug tracker]
 and check to see if a bug report for the problem you're seeing hasn't already been reported.
@@ -50,5 +50,5 @@ The KiCad developer team thanks you for your efforts.
 You can track the status of your bug with the
 https://help.launchpad.net/Bugs/Subscriptions[launchpad bug subscriptions].
 
-The details on the fields in a bug report and the meanings of their allowed values is described on 
+The details on the fields in a bug report and the meanings of their allowed values are described on 
 http://blog.launchpad.net/general/of-bugs-and-statuses[this page of the launchpad blog].
