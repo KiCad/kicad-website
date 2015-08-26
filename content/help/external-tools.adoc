@@ -17,7 +17,7 @@ This is a list of user made tools that do stuff with or for KiCad.
 
 == Miscellaneous Tools
 
-- http://kicad3dmodels.sourceforge.net/[KiCad 3D Models generator]
+- http://cbernardo.github.io/kicad3Dmodels/[KiCad 3D Models generator]
 - http://mondalaci.github.io/dxf2svg2kicad/[dxf2svg2kicad — DXF to SVG to KICAD_PCB converter]
 - http://mayhewlabs.com/3dpcb[Mayhew Labs' 3D Gerber Viewer]
 - http://sourceforge.net/projects/kicadstepup/[Maurice's kicadStepUp, which allows exporting kicad 3D board and components to STEP AP214]

@@ -47,6 +47,8 @@ The KiCad developer team thanks you for your efforts.
 
 == Auxiliary help with launchpad
 
-You can track the status of your bug by following the instructions at https://help.launchpad.net/Bugs/Subscriptions
+You can track the status of your bug with the
+https://help.launchpad.net/Bugs/Subscriptions[launchpad bug subscriptions].
 
-For a summary of fields in a bug report and the meanings of their allowed values: http://blog.launchpad.net/general/of-bugs-and-statuses
+The details on the fields in a bug report and the meanings of their allowed values is described on 
+http://blog.launchpad.net/general/of-bugs-and-statuses[this page of the launchpad blog].
