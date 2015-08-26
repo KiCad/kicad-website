@@ -7,8 +7,6 @@ weight = 50
 +++
 
 
-== File formats
-
 KiCad writes all files in human readable ASCII. This makes
 manipulation by hand and scripting very easy. The following is a
 listing on what the different files are used for.
