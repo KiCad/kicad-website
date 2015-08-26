@@ -53,11 +53,11 @@ when cmake'ing.
 Version 3.0.1 of wxwidgets for linux (with gtk) can crash when running
 DRC. This is an issue not seen in WxGTK 3.0.2, so it seems to be fixed
 upstream. More details can be found in
-https://bugs.launchpad.net/kicad/+bug/1442909.
+link:https://bugs.launchpad.net/kicad/+bug/1442909[Bug# 1442909].
 Wxwidgets 3.0.2 on windows
 
 Mirror printing can be broken because of a bug in the wxwidgets
-version 3.0.2, see https://bugs.launchpad.net/kicad/+bug/1463406.
+version 3.0.2, see link:https://bugs.launchpad.net/kicad/+bug/1463406[Bug# 1463406].
 
 == Retina display slow
 
