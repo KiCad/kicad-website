@@ -353,3 +353,10 @@ table p {
     border-left: 1px solid #ddddd8;
     color: rgba(0,0,0,.6);
 }
+
+/* side bar adjustment */
+nav.secondary .list-group-item {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	padding: 4px 5px;
+}
