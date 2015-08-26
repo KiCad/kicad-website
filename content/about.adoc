@@ -59,4 +59,10 @@ CERN has already contributed greatly to KiCad, and have already advanced the Gra
 
 - http://www.raspberrypi.org/
 
-Donated to the CERN and Society Foundation to support the development of the differential pair routing and track length control in Pcbnew, the KiCad board editor.
+Donated to the https://giving.web.cern.ch[CERN and Society Foundation] to support the development of the differential pair routing and track length control in Pcbnew, the KiCad board editor.
+
+=== Arduino LLC
+- http://www.arduino.cc
+
+Donated to the https://giving.web.cern.ch[CERN and Society Foundation] to 
+support CERN's efforts in Open Source Hardware.
