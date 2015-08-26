@@ -45,7 +45,7 @@ This downloading depends inside the KiCad installer framework is being
 slowly removed again, because it has been acknowledged that is is a
 bad idea, because it clutters the KiCad installer. Instead such things
 should be an external project. If you have boost 1.56+ this skipping
-seems fairly safe now a days. Use the option -DKICAD_SKIP_BOOST=ON
+seems fairly safe now a days. Use the option `-DKICAD_SKIP_BOOST=ON`
 when cmake'ing.
 
 == WxGTK 3.0.1
