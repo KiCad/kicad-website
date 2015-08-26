@@ -10,7 +10,7 @@ weight = 35
 
 toc::[]
 
-If you think you found a bug, what information should you include in my bug report to give as much helpful information to developers as possible?
+If you think you found a bug, what information should you include in your bug report to give as much helpful information to developers as possible?
 
 Before you get too involved, you should first head over to the https://bugs.launchpad.net/KiCad/+bugs?orderby=-date_last_updated&start=0[KiCad bug tracker]
 and check to see if a bug report for the problem you're seeing hasn't already been reported.
