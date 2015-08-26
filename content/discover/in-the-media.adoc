@@ -11,3 +11,12 @@ exposed.
 
 KiCad has been featured in the following plog posts, press and media.
 
+http://home.web.cern.ch/about/updates/2015/02/kicad-software-gets-cern-treatment[KiCad software gets the CERN treatment]
+
+http://www.eetimes.com/author.asp?doc_id=1320005[KiCad: CERN's Contribution to Free/Open PCB Design]
+
+http://hackaday.com/2014/07/14/cern-shows-off-new-kicad-module-editor[CERN Shows Off New KiCad Module Editor]
+
+https://blog.arduino.cc/2013/06/10/arduino-donations-and-values[Arduino Donations and Values for a Growing Ecosystem Based on Open Source]
+
+https://cds.cern.ch/journal/CERNBulletin/2015/09/News%20Articles/1988318[KiCad Challenges the Big Ones]
