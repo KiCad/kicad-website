@@ -89,14 +89,6 @@ latest sources:
 ****
 Generally, this copy is kept clean, without modifications.
 Using Bazaar it's possible to branch locally so that you can make
-changes in a copy which are specific to the new feature you're
-working on, or the bug your trying to fix. To branch locally,
-you can use the command:
-****
-`bzr branch ./kicad ./kicad-feature`
-****
-Generally, this copy is kept clean, without modifications.
-Using Bazaar it's possible to branch locally so that you can make
 changes in a copy which are specific to the new feature your working
 on, or the bug your trying to fix. To branch locally, you can use the
 command:
