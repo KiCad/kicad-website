@@ -6,11 +6,11 @@ title = "Migration from old stable"
 weight = 40
 +++
 
-There is likely to be som issues if you want to migrate designs from the old stable, revision around bzr revision 4022, which had a particular annoying bug, where layer names were translated, which they should never have been.
+There is likely to be some issues if you want to migrate designs from the old stable, revision around bzr revision 4022, which had a particular annoying bug, where layer names were translated, which they should never have been.
 
 == Layernames are translated
 
-This issue arises, if you used the old stable with another language other than english. Below is the key for renaming the layers manually, showing how the layernames were in italian and french. You will not only need to replace the layers list, but also search and replace on all the names in the file.
+This issue arises if you used the old stable with another language other than English. Below is the key for renaming the layers manually, showing how the layernames were in Italian and French. You will not only need to replace the layers list, but also search and replace on all the names in the file.
 
 ==== English
 ----
