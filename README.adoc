@@ -8,7 +8,7 @@ This the source for the new KiCad website, anno 2015.
 You will need these packages:
 
 - http://gohugo.io/[hugo]
-- https://www.ruby-lang.org [ruby] (to use asciidoctor)
+- https://www.ruby-lang.org[ruby] (to use asciidoctor)
 - http://asciidoctor.org/[asciidoctor]
 
 Using asciidoctor is a requirement, because the original asciidoc
