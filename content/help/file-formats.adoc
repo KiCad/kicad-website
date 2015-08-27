@@ -1,10 +1,10 @@
 +++
 title = "File Formats"
+aliases = [ "/display/KICAD/File+Formats" ]
 [menu.main]
     parent = "Help"
     name   = "File Formats"
 weight = 50
-aliases = [ "/display/KICAD/File+Formats" ]
 +++
 
 
