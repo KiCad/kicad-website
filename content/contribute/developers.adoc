@@ -46,10 +46,10 @@ We recommend to set up a Launchpad account (see above) before
 obtaining the source code, since that way it is easier to
 commit later once you get commit access. Once you set up your
 Launchpad account, execute the following commands:
-****
-`bzr whoami "Real Name <email@address.com>"` +
-`bzr launchpad-login username`
-****
+
+ bzr whoami "Real Name <email@address.com>"
+ bzr launchpad-login username
+
 where `Real Name` is your real name or a pseudonym you want to
 use (it should be recognizable to people on the developer mailing
 list), `e-mail@domain.tld` is your e-mail for KiCad related
@@ -59,17 +59,17 @@ commit once you are approved as a member of the KiCad Committers
 team on Launchpad.
 
 To obtain the latest source code, use the following command:
-****
-`bzr checkout lp:kicad`
-****
+
+ bzr checkout lp:kicad
+
 To update this code later, you can use
-****
-`bzr update`
-****
+
+ bzr update
+
 Alternatively there is a git mirror hosted on github:
-****
-`git clone https://github.com/KiCad/kicad-source-mirror.git`
-****
+
+ git clone https://github.com/KiCad/kicad-source-mirror.git
+
 === Read the Code Style Policy
 
 The first thing to do is to check the
@@ -84,17 +84,17 @@ to the rules set forth in the policy.
 
 As mentioned above, you firstly need to get a fresh copy of the
 latest sources:
-****
-`bzr checkout lp:kicad`
-****
+
+ bzr checkout lp:kicad
+
 Generally, this copy is kept clean, without modifications.
 Using Bazaar it's possible to branch locally so that you can make
 changes in a copy which are specific to the new feature your working
 on, or the bug your trying to fix. To branch locally, you can use the
 command:
-****
-`bzr branch ./kicad ./kicad-feature`
-****
+
+ bzr branch ./kicad ./kicad-feature
+
 where `./kicad-feature` is where you want to start developing code.
 
 Start developing code in `./kicad-feature` to add new functionality
@@ -109,20 +109,20 @@ commit to the main copy on launchpad. You should keep your changes
 up-to-date with what everyone else is doing in case conflicts arise.
 You can do this by keeping the original kicad folder up-to-date and
 merging the differences in every-so-often with the following commands:
-****
-`cd ./kicad` +
-`bzr update` +
-`cd ../kicad-feature` +
-`bzr merge ../kicad` +
-`bzr commit -m "Merged in latest changes"`
-****
+
+ cd ./kicad
+ bzr update
+ cd ../kicad-feature
+ bzr merge ../kicad
+ bzr commit -m "Merged in latest changes"
+
 Once you're finished developing the feature you should do the above
 before generating a patch to send to the developers list.
 To generate the patch, you can simply the following command from the
 kicad-feature directory:
-****
-`bzr diff > feature.patch`
-****
+
+ bzr diff > feature.patch
+
 Attach feature.patch to an email and send it to the developers list.
 Start the subject line with 'PATCH:' so that everyone is aware there
 is a patch to review.
@@ -130,9 +130,9 @@ is a patch to review.
 As an alternative to emailing a patch, you can push your branch for
 review and a possible merge into the KiCad source code by using the
 following commands when you've finished developing a feature:
-****
-`bzr push lp:~[your-launchpad-username]/kicad/[new-branch-name]`
-****
+
+ bzr push lp:~[your-launchpad-username]/kicad/[new-branch-name]
+
 === Using Git
 
 There are a lot of people using the Git version control system and
@@ -154,13 +154,13 @@ other git host provider.
 
 If you are using a Debian/Ubuntu computer for your development needs,
 you can simply install git-bzr-ng from the command line like so:
-****
-`sudo apt-get install git-bzr-ng`
-****
+
+ sudo apt-get install git-bzr-ng
+
 If you're using Fedora, you can install git-bzr using yum:
-****
-`sudo yum install git-bzr`
-****
+
+ sudo yum install git-bzr
+
 For Windows, Mac and other Free Desktops/Linux systems, please see
 the documentation link:https://github.com/pieter/git-bzr[here].
 
@@ -169,15 +169,15 @@ the documentation link:https://github.com/pieter/git-bzr[here].
 Once you have the plugin above installed, you should be able to use
 the git command with bzr repositories. To access KiCad, use the
 following commands:
-****
-`git bzr clone lp:kicad kicad` +
-`cd kicad`
-****
+
+ git bzr clone lp:kicad kicad
+ cd kicad
+
 Create a git branch and check your branches:
-****
-`git checkout -b touch_branch` +
-`git branch -a`
-****
+
+ git checkout -b touch_branch
+ git branch -a
+
 Now you can follow whatever Git workflow you prefer.
 In order to contribute you can simply generate a unified patch,
 attach it to an email and send it to the KiCad Developers mailing list.
@@ -190,20 +190,20 @@ Alternatively, to commit and push your changes to a new kicad branch
 ready for review, be aware that you *do need* a launchpad account with your 
 link:https://help.launchpad.net/YourAccount/CreatingAnSSHKeyPair[ssh keys uploaded]
 in order to push your changes:
-****
-`git commit -a -m "Commit message"` +
-`git bzr push lp:~[your-launchpad-username]/kicad/[new_branch_name]`
-****
+
+ git commit -a -m "Commit message"
+ git bzr push lp:~[your-launchpad-username]/kicad/[new_branch_name]
+
 For example `git bzr push lp:~brian-sidebotham/kicad/fix-for-bug466366`
 will push to my very own branch which can be reviewed and merged.
 
 To merge in someone else's changes (a merge in bzr terms) you can use
 these commands:
-****
-`git bzr import lp:~user/kicad/branchname branchname` +
-`git checkout kicad` +
-`git pull . -- branchname`
-****
+
+ git bzr import lp:~user/kicad/branchname branchname
+ git checkout kicad
+ git pull . -- branchname
+
 Further reading on
 link:http://bazaar.launchpad.net/%7Etermie/git-bzr-ng/master/view/head:/README.rst[git-bzr usage].
 
