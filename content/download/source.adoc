@@ -1,7 +1,7 @@
 +++
 title = "Source Code"
 iconhtml = "<div><i class='fa fa-code'></i></div>"
-weight = 2
+weight = 100
 +++
 
 
@@ -19,6 +19,6 @@ https://bugs.launchpad.net/kicad/[bug-fixes].
 
 === Building KiCad
 
-* http://kicad-pcb.org/contribute/developers/build-linux/[Linux]
-* http://kicad-pcb.org/contribute/developers/build-osx/[OSX]
-* http://kicad-pcb.org/contribute/developers/build-windows/[Windows]
+* http://kicad-pcb.org/contribute/build-linux/[Linux]
+* http://kicad-pcb.org/contribute/build-osx/[OSX]
+* http://kicad-pcb.org/contribute/build-windows/[Windows]
