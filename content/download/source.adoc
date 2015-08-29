@@ -18,6 +18,6 @@ https://bugs.launchpad.net/kicad/[bug-fixes].
 
 === Building KiCad
 
-* http://kicad-pcb.org/contribute/build-linux/[Linux]
-* http://kicad-pcb.org/contribute/build-osx/[OSX]
-* http://kicad-pcb.org/contribute/build-windows/[Windows]
+* link:/contribute/build-linux/[Linux]
+* link:/contribute/build-osx/[OSX]
+* link:/contribute/build-windows/[Windows]
