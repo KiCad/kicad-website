@@ -1,0 +1,5 @@
+
+
+title = "JEMTech-ILDA-Node" projectimage = "/img/madewithkicad/JEMTechILDANodeV1.png" projectdeveloper = "Jan-Erik Matthies" projecturl = "https://github.com/jemtech/ILDA" type = "made-with-kicad"
+
+a 16bit 6ch DAC for ILDA up to 400kpps
