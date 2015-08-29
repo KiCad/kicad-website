@@ -1,0 +1,30 @@
+{{ partial "header.html" .}}
+
+    <!-- Page Header -->
+    <header class="intro-header">
+      <div class="container">
+        <div class="row">
+         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-full">
+           {{ partial "breadcrumb.html" . }}
+           <h1>{{ title .Title }}</h1>
+           <div class="post-meta">{{ dateFormat .Site.Params.DateForm .Date }}</div>
+         </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-full">
+            {{ .Content }}
+            <p>
+            <a href="/post/"><span class="fa fa-arrow-left"></span> Back</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+{{ partial "footer.html" .}}

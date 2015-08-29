@@ -18,4 +18,4 @@ static site generator. This should make sure that the requirements for
 the hosting server is quite low, and should help increasing the
 availability of the site. Although KiCad itself does not run on mobile
 devices (think smartphones and the like) the website should be way
-more appealing on theese platforms too.
+more appealing on these platforms too.

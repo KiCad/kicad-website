@@ -6,7 +6,7 @@ layoutdir = "layouts"
 pluralizelisttitles = false
 
 [params]
-	DateForm = "Mon, Jan 2, 2006"
+	DateForm = "2006-01-02"
 	Description = "A Cross Platform and Open Source Electronics Design Automation Suite"
 	Author = "The KiCad editors"
 	Forum = "https://forum.kicad.info/"

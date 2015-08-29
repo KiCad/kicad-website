@@ -1,12 +1,15 @@
                 <div class="post-preview">
-                    <a href="{{ .Permalink }}">
-                      <h2 class="post-title">{{ .Title }}</h2>
-                      <h3 class="post-subtitle">{{ .Description }}</h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">{{ .Site.Params.Author }}</a> on {{ dateFormat .Site.Params.DateForm .Date }}
-                    <br />
+                  <a href="{{ .Permalink }}">
+                    <h2>{{ .Title }}</h2>
+                  </a>
+                  <div class="post-meta">{{ dateFormat .Site.Params.DateForm .Date }}</div>
+                  <div class="post-summary">
                     {{ .Summary }}
-                    <p><a href="{{ .Permalink }}">Read more…</a>
-                  </p>
+                  </div>
+                  {{ if .Truncated }}
+                  <div class="readmore">
+                    <a href="{{ .Permalink }}">Read more…</a>
+                  </div>
+                  {{ end }}
                 </div>
                 <hr>
