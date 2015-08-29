@@ -1,4 +1,6 @@
-= Building KiCad on OS-X
++++
+title = "Building KiCad on OSX"
++++
 
 :icons: fonts
 :iconsdir: /img/icons/

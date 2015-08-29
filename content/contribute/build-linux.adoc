@@ -1,4 +1,6 @@
-=  Building KiCad on Linux
++++
+title = "Building KiCad on Linux"
++++
 
 :icons: fonts
 :iconsdir: /img/icons/
