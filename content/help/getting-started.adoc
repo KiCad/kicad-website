@@ -5,10 +5,9 @@ title = "Getting Started"
     name   = "Getting Started"
 weight = 1
 +++
+
 :icons: fonts
 :iconsdir: /img/icons/
-
-== Guide
 
 A full link:/help/documentation/#_getting_started[Getting Started guide] is included in the KiCad documentation, in multiple languages.
 This covers the process of creating and completing a simple project.
