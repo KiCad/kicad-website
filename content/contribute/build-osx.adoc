@@ -29,7 +29,7 @@ KiCad build switches, etc.
 * cairo     - 2D graphics library
 * wxWidgets - Cross-Platform GUI Library +
    _OR_ +
-  wxPython  - A blending of the wxWidgets C++ class library with the Python
+  wxPython  - A blending of the wxWidgets pass:[C++] class library with the Python
               programming language
 * SWIG      - Interface compiler (only needed for scripting/wxPython builds)
 
@@ -220,16 +220,16 @@ you have to specify the (minimum) OS X version you intend to build
 for. It is important that at least wxWidgets/wxPython and KiCad 
 (and boost, if you use an external build) are built using the same
 or compatible settings. If not, you might get linker errors, 
-because this parameter influences which standard C++ library is
-being used (`libstdc++` vs. `libc++`).
+because this parameter influences which standard pass:[C++] library is
+being used (pass:[libstdc++] vs. pass:[libc++]).
 
 If you don't know what to use and you are only building for your
 machine, just set it to your current OS X version (e.g., MacPorts
 always builds this way). +
 Binaries built with a target OS X version <10.7 are known to show
 strange behavior in some situations on recent systems (maybe because
-`libc++` is standard on everything >= 10.7 and problems arise due to
-mixing `libstdc++`/`libc++`).
+pass:[libc++] is standard on everything >= 10.7 and problems arise due to
+mixing pass:[libstdc++]/pass:[libc++]).
 
 Now KiCad is configured using default features/build-switches. +
 See Documentation/compiling/build-config.txt for a list of all
