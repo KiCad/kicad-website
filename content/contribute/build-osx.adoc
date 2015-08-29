@@ -1,6 +1,7 @@
-= KiCad developers
+= Building KiCad on OS-X
 
-== Building KiCad on OS-X
+:icons: fonts
+:iconsdir: /img/icons/
 
 Building on OS X is very similar to building
 on Linux. This document will provide a 
@@ -10,18 +11,18 @@ See general documentation on non OS X specific
 KiCad build switches, etc.
 
 
-=== Prerequisites
+== Prerequisites
 
 
-==== Tools needed for building KiCad:
+=== Tools needed for building KiCad:
 * XCode Tools
 * bzr       - Bazaar version control system
 * CMake     - Cross-platform make
 
-==== Optional tools:
+=== Optional tools:
 * Doxygen   - Documentation system for several programming languages
 
-==== Mandatory library dependencies needed to compile KiCad:
+=== Mandatory library dependencies needed to compile KiCad:
 * GLEW      - The OpenGL Extension Wrangler Library
 * cairo     - 2D graphics library
 * wxWidgets - Cross-Platform GUI Library +
@@ -30,7 +31,7 @@ KiCad build switches, etc.
               programming language
 * SWIG      - Interface compiler (only needed for scripting/wxPython builds)
 
-==== Optional library dependencies, depends on used KiCad features
+=== Optional library dependencies, depends on used KiCad features
 * OpenSSL - The Open Source toolkit for SSL/TLS
   => Needed for github plugin
 
@@ -46,12 +47,11 @@ like <pkg>-dev or <pkg>-devel).
 Further, depending on the configuration of your package manager
 packages might have to be compiled with special flags/variants
 to support the correct architecture. E.g., some packages of
-MacPorts need to have the "+universal" variant set to also include
+MacPorts need to have the "`+universal`" variant set to also include
 the x86_64 variant that might be chosen automatically by KiCad
 build process.
 
-IMPORTANT:
-At the moment you *must not* use a wxWidgets/wxPython version
+IMPORTANT: At the moment you *must not* use a wxWidgets/wxPython version
 installed by any package manager. +
 KiCad on OS X needs overlay support and some other fixes, which
 are not yet contained in mainline wxWidgets/wxPython sources and
@@ -63,7 +63,7 @@ left corner of KiCad windows) or KiCad will just crash on start
 
 Install now the tools and library dependencies as mentioned above.
 
-=== Folder Structure
+== Folder Structure
 
 This documentation will use the following folder structure as an
 example, but it is not mandatory to do it like that:
@@ -76,7 +76,7 @@ example, but it is not mandatory to do it like that:
     +-- wx-build/    wxWidgets/wxPython build folder
     +-- wx-bin/      wxWidgets/wxPython binaries folder
 
-=== Get KiCad sources
+== Get KiCad sources
 
 Create your work root "KiCad" wherever you like and sync KiCad
 sources to it:
@@ -85,22 +85,20 @@ sources to it:
  # cd KiCad
  # bzr branch lp:kicad
 
-=== Compiling wxWidgets / wxPython
+== Compiling wxWidgets / wxPython
 
 If you don't intend to build KiCad with scripting support then
 you only need wxWidgets, otherwise you need wxPython (which also
 contains wxWidgets).
 
-Get wxWidgets sources from
-  http://www.wxwidgets.org/downloads/ +
-or wxPython sources from
-  http://www.wxpython.org/download.php#source +
-and unpack it to the wx-src folder.
+Get http://www.wxwidgets.org/downloads/wxWidgets sources] or
+http://www.wxpython.org/download.php#source[ wxPython sources]
+and unpack it to the `wx-src` folder.
 
 It is recommended to use the latest stable version. As of this
 writing this is 3.0.2 for wxWidgets or 3.0.1.1 for wxPython.
 
-There is a little helper script osx_build_wx.sh in kicad/scripts
+There is a little helper script 'osx_build_wx.sh' in kicad/scripts
 that does all the patching/configuring/compiling of wxWidgets or
 wxPython for you. +
 Go to your working root "KiCad" and for example run:
@@ -172,7 +170,7 @@ wxWidgets known to work:
 If you know what you are doing, you can of course use different
 settings.
 
-=== Compiling KiCad
+== Compiling KiCad
 
 Change to your working root "KiCad" and create the build folder
 there:
