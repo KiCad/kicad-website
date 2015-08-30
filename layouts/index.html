@@ -7,7 +7,7 @@
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="site-heading">
               <h1>{{ title .Site.Title }}</h1>
-              {{ if isset .Site.Params "Description" }}<h3>{{ title .Site.Params.Description }}</h3>{{ end }}
+              {{ if isset .Site.Params "Description" }}<h3>{{ .Site.Params.Description }}</h3>{{ end }}
               <hr class="intro-divider">
               <ul class="list-inline intro-social-buttons">
                 <li>
