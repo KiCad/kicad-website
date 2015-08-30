@@ -12,7 +12,7 @@ body {
 }
 p {
     line-height: 1.5;
-    margin: 30px 0;
+    margin: 15px 0;
 }
 
 li p {
@@ -194,39 +194,41 @@ hr.small {
 .content-section-a, .content-section-b { /*index.html*/
     text-align: justify;
 }
+.post-preview-intro {
+    font-style: italic;
+}
 .post-preview>a { color: #404040 }
 .post-preview>a:hover,
 .post-preview>a:focus {
     text-decoration: none;
     color: #0085a1;
 }
-.post-preview>a>.post-title {
+.post-preview h2 {
     font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
-.post-preview>a>.post-subtitle {
-    margin: 0;
-    font-weight: 300;
-    margin-bottom: 10px;
+.post-full h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
 }
-.post-preview>.post-meta {
-    color: #404040;
-    font-size: 18px;
+.post-meta {
+    text-align: right;
     font-style: italic;
-    margin-top: 0;
+    color: #888;
 }
-.post-preview>.post-meta>a {
-    text-decoration: none;
-    color: #404040;
+.post-preview .post-summary {
+    text-align: justify;
+    margin-bottom: 5px;
 }
-.post-preview>.post-meta>a:hover,
-.post-preview>.post-meta>a:focus {
-    color: #0085a1;
+.post-full {
+    text-align: justify;
+}
+header .post-full {
+    margin-bottom: -10px;
+}
+.post-preview .readmore a {
     text-decoration: underline;
-}
-@media only screen and (min-width:768px) { 
-    .post-preview>a>.post-title { font-size: 36px }
 }
 .section-heading {
     margin-top: 0px;
