@@ -1,7 +1,7 @@
-baseurl = "http://kicad-pcb.org/"
+baseurl = "/"
 languageCode = "en-us"
 title = "KiCad EDA"
-canonifyurls = true
+canonifyurls = false
 layoutdir = "layouts"
 pluralizelisttitles = false
 
