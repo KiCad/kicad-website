@@ -11,7 +11,7 @@
 			<ul class="nav ">
 				{{ range .Paginator.Pages }}
 				<li>
-					<a href="{{ .Permalink }}">{{ .Title }}</a>
+					<a href="{{ .RelPermalink }}">{{ .Title }}</a>
 				</li>
 				{{ end }}
 				{{ template "_internal/pagination.html" . }}

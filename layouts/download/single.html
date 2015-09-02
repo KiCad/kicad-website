@@ -33,7 +33,7 @@
 		    <ul class="list-unstyled side-links list-group">
 			{{ range .Site.Sections.download.Pages }}
 			     <li class="list-group-item download-os{{if eq $currentNode . }} active{{end}}">
-				    <a href="{{ .Permalink }}">
+				    <a href="{{ .RelPermalink }}">
 					    {{ .Params.iconhtml | safeHTML }}
 					    {{ .Title }}
 				    </a>

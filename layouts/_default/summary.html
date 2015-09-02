@@ -1,5 +1,5 @@
                 <div class="post-preview">
-                  <a href="{{ .Permalink }}">
+                  <a href="{{ .RelPermalink }}">
                     <h2>{{ .Title }}</h2>
                   </a>
                   <div class="post-meta">{{ dateFormat .Site.Params.DateForm .Date }}</div>
@@ -8,7 +8,7 @@
                   </div>
                   {{ if .Truncated }}
                   <div class="readmore">
-                    <a href="{{ .Permalink }}">Read more…</a>
+                    <a href="{{ .RelPermalink }}">Read more…</a>
                   </div>
                   {{ end }}
                 </div>
