@@ -38,15 +38,15 @@
     {{ end }}
 
     <!-- Bootstrap Core CSS -->
-    <link href="{{ .Site.BaseURL }}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="{{ .Site.BaseURL }}/css/kicad.css" rel="stylesheet">
+    <link href="/css/kicad.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300,300italic,400italic,700italic,800italic' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="{{ .Site.BaseURL }}/fonts/font-linux.css" rel="stylesheet">
+    <link href="/fonts/font-linux.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -61,7 +61,7 @@
 
     <!-- Navigation -->
 	<!--- next version of hugo adds .IsHome the if statement can be simplified after 0.15 is released -->
-    <nav class="navbar navbar-default navbar-custom navbar-fixed-top {{ if eq (add .Site.BaseURL "/") (add .Permalink "/") }}transparent{{ end }}">
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top {{ if eq .URL "/" }}transparent{{ end }}">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -72,7 +72,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="/">
-                <img src="{{ .Site.BaseURL }}/img/kicad_logo_small.png" alt="{{ .Site.Title }}">
+                <img src="/img/kicad_logo_small.png" alt="{{ .Site.Title }}">
                 </a>
             </div>
 
@@ -82,7 +82,7 @@
     </nav>
     
 <!--- next version of hugo adds .IsHome the if statement can be simplified after 0.15 is released -->
-{{ if eq (add .Site.BaseURL "/") (add .Permalink "/") }}
+{{ if eq .URL "/" }}
 {{else}}
     <header class="intro-header page-header-decor">
     </header>
