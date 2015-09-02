@@ -93,7 +93,7 @@ If you don't intend to build KiCad with scripting support then
 you only need wxWidgets, otherwise you need wxPython (which also
 contains wxWidgets).
 
-Get http://www.wxwidgets.org/downloads/wxWidgets sources] or
+Get http://www.wxwidgets.org/downloads/[wxWidgets sources] or
 http://www.wxpython.org/download.php#source[ wxPython sources]
 and unpack it to the `wx-src` folder.
 
