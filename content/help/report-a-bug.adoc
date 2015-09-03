@@ -41,7 +41,7 @@ entry in the "Help" menu and pasting it into your bug report. Even if the applic
 If you can reliably repeat the problem, please include the exact steps that cause it. Explain it step by step, such that there is no guessing what steps you performed. 
 If the problem occurs with a specific file or library, please attach it to your bug report if possible.
 
-Now with all your information in hand head on over the the https://bugs.launchpad.net/KiCad/+bugs?orderby=-date_last_updated&start=0[KiCad bug tacker].
+Now with all your information in hand head on over the the https://bugs.launchpad.net/KiCad/+bugs?orderby=-date_last_updated&start=0[KiCad bug tracker].
 
 The KiCad developer team thanks you for your efforts.
 
