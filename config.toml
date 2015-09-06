@@ -61,7 +61,7 @@ pluralizelisttitles = false
 
 [[menu.main]]
     parent = "Discover"
-    name   = "Made With Kicad"
+    name   = "Made With KiCad"
     url    = "/made-with-kicad/"
     weight = 20
 

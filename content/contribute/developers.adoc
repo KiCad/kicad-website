@@ -107,7 +107,7 @@ Whilst developing in `./kicad-feature` you can commit as many times
 as you like. This commits to `./kicad-feature` only and does not
 commit to the main copy on launchpad. You should keep your changes
 up-to-date with what everyone else is doing in case conflicts arise.
-You can do this by keeping the original kicad folder up-to-date and
+You can do this by keeping the original `kicad` folder up-to-date and
 merging the differences in every-so-often with the following commands:
 
  cd ./kicad
@@ -186,7 +186,7 @@ there is a patch attached that requires review.
 Please be patient with patch reviews - it can take some time to get
 round to reviewing patches, especially if there's a flurry of them!
 
-Alternatively, to commit and push your changes to a new kicad branch
+Alternatively, to commit and push your changes to a new KiCad branch
 ready for review, be aware that you *do need* a launchpad account with your 
 link:https://help.launchpad.net/YourAccount/CreatingAnSSHKeyPair[ssh keys uploaded]
 in order to push your changes:
@@ -250,4 +250,4 @@ If you wish to contribute eeschema, pcbnew or 3dviewer libraries, please see the
 
 === Internet Relay Chat (_IRC_)
 
-Feel free to join the IRC channel at irc://irc.freenode.net/#kicad[#kicad@freenode]. A nice bunch of people are casually hanging around in there, so if you have any questions, that I don't know where to ask, you should try asking in here. There are all kinds of people in all kinds of time zones, people who patches kicad and plain enthusiastic users.
+Feel free to join the IRC channel at irc://irc.freenode.net/#kicad[#kicad@freenode]. A nice bunch of people are casually hanging around in there, so if you have any questions, that I don't know where to ask, you should try asking in here. There are all kinds of people in all kinds of time zones, people who patches KiCad and plain enthusiastic users.
