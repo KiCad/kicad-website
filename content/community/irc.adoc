@@ -8,7 +8,7 @@ title = "IRC"
 
 IRC (Internet Relay Chat) is a group chat system that is popular in the open source community. KiCad has an IRC channel where you can discuss KiCad and related topics with other users like yourself.
 
-To connect to our IRC channel, you can visit link:https://webchat.freenode.net/?channels=%23kicad[Freenode's webchat service]. Just enter `#kicad` under "Channels", choose a nickname for yourself, and press Connect!
+To connect to our IRC channel, you can visit link:https://webchat.freenode.net/?channels=%23kicad[Freenode's webchat service]. Just choose a nickname for yourself, and press Connect!
 
 For those who wish to use a traditional IRC client and already know what this means, the connection details are:
 
