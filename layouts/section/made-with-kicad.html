@@ -18,11 +18,9 @@
         
         <div class="page-heading">
             <h1>{{ replace .Title "-" " " }}</h1>
-            <span class="subheading">
-                These are some KiCad designed projects that have been made by users. If you want to
-                be featured along the other showcases on this page please submit a pull request
-                <a href="https://github.com/KiCad/kicad-website">on GitHub</a>.
-            </span>
+	    These are some KiCad designed projects that have been made by users. If you want to
+	    be featured along the other showcases on this page please submit a pull request
+	    <a href="https://github.com/KiCad/kicad-website">on GitHub</a>.
         </div>
         {{ $paginator := .Paginate (where .Site.Pages "Section" "made-with-kicad") }}
         {{ template "_internal/pagination.html" . }}
