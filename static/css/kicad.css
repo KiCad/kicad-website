@@ -355,3 +355,6 @@ nav.secondary .list-group-item {
 	border-top-right-radius: 0;
 	padding: 4px 5px;
 }
+nav.secondary a {
+    display: block;
+}
