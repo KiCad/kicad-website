@@ -8,46 +8,35 @@
 </style>
 
 <div class="container">
-	<div class="col-sm-10">
-		<!-- Main Content -->
-        {{ partial "breadcrumb.html" . }}
+  <div class="col-lg-8 col-lg-offset-2">
+    {{ partial "breadcrumb.html" . }}
 
-        <div class="page-heading">
-            <h1>{{ .Title }}</h1>
-            <hr class="small">
-            <span class="subheading">{{ title .Description }}</span>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 col-md-10 ">
-              {{ .Content }}
-            </div>
-        </div>
-	</div>
-	
-	<!--sidebar start-->
-	{{ $currentNode := . }}
-	<div class="col-sm-2">
-	    <aside>
-		<nav class="secondary">
-		    <!-- sidebar menu start-->
-		    <h3>All&nbsp;Platforms</h3>
-		    <ul class="list-unstyled side-links list-group">
-			{{ range .Site.Sections.download.Pages }}
-			     <li class="list-group-item download-os{{if eq $currentNode . }} active{{end}}">
-				    <a href="{{ .RelPermalink }}">
-					    {{ .Params.iconhtml | safeHTML }}
-					    {{ .Title }}
-				    </a>
-			     </li>
-			{{end}}
-		     </ul>
-		    </ul>
-		    <!-- sidebar menu end-->
-		</nav>
-	    </aside>
-	</div>
-	<!--sidebar end-->
-	
+    <div class="page-heading">
+      <h1>{{ .Title }}</h1>
+    </div>
+    {{ .Content }}
+  </div>
+  
+  <!--sidebar start-->
+  {{ $currentNode := . }}
+  <div class="col-lg-2">
+    <aside>
+      <nav class="secondary">
+        <!-- sidebar menu start-->
+        <h3>All&nbsp;Platforms</h3>
+        <ul class="list-unstyled side-links list-group">
+        {{ range .Site.Sections.download.Pages }}
+          <li class="list-group-item download-os{{if eq $currentNode . }} active{{end}}">
+          <a href="{{ .RelPermalink }}">
+            {{ .Params.iconhtml | safeHTML }}
+            {{ .Title }}
+          </a>
+          </li>
+        {{end}}
+        </ul>
+      </nav>
+    </aside>
+  </div>
 </div>
 
 {{ partial "footer.html" . }}
