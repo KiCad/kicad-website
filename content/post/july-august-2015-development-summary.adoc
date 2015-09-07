@@ -1,22 +1,23 @@
 +++
 title = "July and August 2015 Development Summary"
-date = "2015-09-05"
-draft = true
+date = "2015-09-07"
 +++
 
 In the spirit of providing insight on KiCad's development, this report covers some of the development work within July and August. 
-There are many changes that occurred and this post will only summarize some of them.
+There are many patches that have been applied and this post will only summarize some of them, this is in no way meant to discourage small patches).
 
 == Stable release
 Work continues towards a "stable" release for 2015. It is taking longer than desired to reach a "stable" point however many developers do this in their limited spare time. 
 We want to eliminate as many bugs as possible before declaring a "stable" point. 
-We would greatly appreciate any developer helping to fix 
-link:https://bugs.launchpad.net/kicad/+bugs?field.searchtext=&orderby=-importance&search=Search&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on[open bugs on launchpad]
 
+That being said, it is also difficult to get developers to stop trying to submit features and enhancements and focus on bugs because who doesn't want new features and shinier interfaces?
+We would greatly appreciate any developers helping to fix 
+link:https://bugs.launchpad.net/kicad/+bugs?field.searchtext=&orderby=-importance&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&field.importance%3Alist=UNKNOWN&field.importance%3Alist=UNDECIDED&field.importance%3Alist=CRITICAL&field.importance%3Alist=HIGH&field.importance%3Alist=MEDIUM&field.importance%3Alist=LOW&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on&search=Search[open bugs on launchpad].
+The most important issues to be fixed can be found link:https://bugs.launchpad.net/kicad/+bugs?field.searchtext=&orderby=-importance&search=Search&field.status%3Alist=NEW&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&field.importance%3Alist=CRITICAL&field.importance%3Alist=HIGH&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on[here].
 
 == PNS Router
 
-Work on the push and shove (PNS) router is still ongoing with *Tomasz Wlostowski* and *Maciej Suminski*  from *CERN* working on adding numerous improvements and bug fixes.
+Work on the push and shove (PNS) router is still ongoing with *Tomasz Wlostowski* and *Maciej Suminski* from *CERN* working on adding numerous improvements and bug fixes.
 
 http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/5897[BZR 5897 PNS: prevent placing multiple vias in the same spot.]
 
@@ -36,13 +37,16 @@ http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/586
 
 http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/5863[BZR 5863 router: support for non-90 degree pad orientations]
 
++ many more patches
+
 == Elimination of boost::polygon
 
-boost::polygon was formerly used for a lot of geometry related operations in 3dviewer and pcbnew.
-Unfortunately it has been slow and it is basically(though not announed) being left unmaintained with a KiCad related issue left unpatched for over 2 years.
+boost::polygon was formerly used for a lot of geometry related operations in the 3D Viewer and PCBNew.
+Unfortunately it has been slow and it is basically(though not announced) being left unmaintained. 
+There was even a KiCad stemming issue that has been left unpatched for 2 years.
 
 The solution has been to slowly purge the boost::polygon dependency and replace it with a C++ library called
-link:http://www.angusj.com/delphi/clipper.php[clipper].
+link:http://www.angusj.com/delphi/clipper.php[clipper] 
 
 http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/6002[BZR 6002 boost::polygon from bitmap2component]
 
@@ -76,7 +80,8 @@ http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/609
 
 == 3D Viewer Improvements
 
-Besides being impacted by the removal of boost::polygon which may offer some speed improvements. There were also some other changes.
+Besides being impacted by the removal of boost::polygon which may offer some speed improvements. There were some other changes that should have improved the
+rendering speed of the 3D Viewer.
 
 http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/6082[BZR 6082] Improves 3D Viewer rendering speeds
 
@@ -94,7 +99,6 @@ A few enhancements were made by Blair Bonnett to the calculator options for the 
 - Users can now specify trace thickness to be set separately for internal and external layers
 - Allow specifying resistivity
 - Make non-editable fields into text labels instead of input boxes.
-
 
 == List of all contributors
 This an complete list of all contributors who have submitted at least one patch from the start of July 2015 to the end of August 2015. We thank you for your contributions no matter how small.
