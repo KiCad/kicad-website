@@ -1,0 +1,131 @@
++++
+title = "July and August 2015 Development Summary"
+date = "2015-09-05"
++++
+
+In the spirit of providing insight on KiCad's development, this report covers some of the development work within July and August. 
+There are many changes that occurred and this post will only summarize some of them.
+
+== Stable release
+Work continues towards a "stable" release for 2015. It is taking longer than desired to reach a "stable" point however many developers do this in their limited spare time. 
+We want to eliminate as many bugs as possible before declaring a "stable" point. 
+We would greatly appreciate any developer helping to fix 
+link:https://bugs.launchpad.net/kicad/+bugs?field.searchtext=&orderby=-importance&search=Search&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on[open bugs on launchpad]
+
+
+== PNS Router
+
+Work on the push and shove (PNS) router is still ongoing with *Tomasz Wlostowski* and *Maciej Suminski*  from *CERN* working on adding numerous improvements and bug fixes.
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/5897[bzr 5897 PNS: prevent placing multiple vias in the same spot.]
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/5899[bzr 5899 PNS: hide cursor after inline dragging.]
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/5860[bzr 5860 router: improve rounding error handling in hull calculation]
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/5858[bzr 5858 router: more robust nearest obstacle clipping]
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/5868[bzr 5868 router: compute (and display) DP gap dynamically when tuning...]
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/5867[bzr 5867 router: fix shortcut crash & inline dragging for inline drag...]
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/5866[bzr 5866 router: compute diff pair gap on the fly when tuning the len...]
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/5865[bzr 5865 router: invoke interactive drag when dragging traces/vias in...]
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/5863[bzr 5863 router: support for non-90 degree pad orientations]
+
+== Elimination of boost::polygon
+
+boost::polygon was formerly used for a lot of geometry related operations in 3dviewer and pcbnew.
+Unfortunately it has been slow and it is basically(though not announed) being left unmaintained with a KiCad related issue left unpatched for over 2 years.
+
+The solution has been to slowly purge the boost::polygon dependency and replace it with a C++ library called
+link:http://www.angusj.com/delphi/clipper.php[clipper].
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/6002[bzr 6002 boost::polygon from bitmap2component]
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/6001[bzr 6001 de-boostization: Fixed incorrect zone fill clearance when overlapped with another zone of higher priority.]
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/5999[bzr 5999 Removed all dependencies on boost::polygon except for bitmap2component. Replaced almost all instances of CPOLYGONS_LIST with SHAPE_POLY_SET.]
+
+
+== Coverity fixes
+link:https://scan.coverity.com[Coverity] for those of you that don't know, is an amazing commerical static analysis tool that can find many issues in code by examining your project while it compiles. 
+It goes far beyond what tools like cppcheck are currently capable of.
+Luckily its free for open source projects!
+
+We have been using Coverity since January 2015 and correcting many of the issues it has reported. As of Sept 02, 2015, we are down to 23 remaining issues and 433 fixed issues since we started using it.
+
+Fixes during July and August:
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/6078[bzr 6078]
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/6080[bzr 6080]
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/6062[bzr 6062]
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/6079[bzr 6079]
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/6093[bzr 6093]
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/6142[bzr 6142]
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/6095[bzr 6095]
+
+== 3D Viewer Improvements
+
+Besides being impacted by the removal of boost::polygon which may offer some speed improvements. There were also some other changes.
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/6082[bzr 6082] improves 3d viewer rendering speeds
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/6037[bzr 6037]	speeds up silkscreen layer generation
+
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/5852[bzr 5852]	flips the rotate Z and Y icons which were previously flipped
+
+== PCB Calculator - Track Width
+link:http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/6074[bzr 6074]
+
+A few enhancements were made by Blair Bonnett to the calculator options for the Track Width tab.
+
+- Calculated results now change as you change input fields rather than having to click a button
+- Allow users to specify a trace width which will update the maximum current field
+- Users can now specify trace thickness to be set separately for internal and external layers
+- Allow specifying resistivity
+- Make non-editable fields into text labels instead of input boxes.
+
+
+== List of all contributors
+This an complete list of all contributors who have submitted at least one patch from the start of July 2015 to the end of August 2015. We thank you for your contributions no matter how small.
+
+- Andrew Zonenberg
+- Blair Bonnett
+- Bernhard Stegmaier
+- Chris Pavlina
+- Cirilo Bernardo
+- Dick Hollenbeck
+- easyw
+- Garth Corral
+- Hartmut Henkel
+- Henner Zeller
+- Henrik Nyberg
+- Jan Dubiec
+- Jean-Pierre Charras
+- Jonathan Jara-Almonte
+- Jon Neal
+- Joseph Chen
+- LordBlick
+- Константин Барановский
+- Maciej Suminski
+- Marco Ciampa
+- Mark Roszko
+- Mario Luzeiro
+- Mathias Grimmberger
+- Michael Beardsworth
+- Nick Østergaard
+- Ruben De Smet
+- Simon Richter
+- Tomasz Włostowski
+- Wayne Stambaugh
+
+link:/contribute/developers/[Want your name on that list? Learn how to contribute!]
