@@ -1,6 +1,7 @@
 +++
 title = "July and August 2015 Development Summary"
 date = "2015-09-05"
+draft = true
 +++
 
 In the spirit of providing insight on KiCad's development, this report covers some of the development work within July and August. 
