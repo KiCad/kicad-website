@@ -21,7 +21,11 @@ pluralizelisttitles = false
 [[params.social]]
   title = "facebook"
   url = "https://www.facebook.com/kicadpcb"
+[[params.social]]
+  title = "google-plus"
+  url = "https://plus.google.com/111133613917552048578"
 
+  
 [[menu.main]]
     name   = "Blog"
     url    = "/post/"
