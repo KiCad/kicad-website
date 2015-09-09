@@ -12,7 +12,7 @@
 					{{ end }}
 				</ul>
 			{{else}}
-				<li class='{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}active{{end}}'>
+				<li class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}active{{end}}">
 					<a href="{{.URL}}">
 						{{ .Pre }}
 						<span>{{ .Name }}</span>

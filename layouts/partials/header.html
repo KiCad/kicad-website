@@ -30,7 +30,7 @@
     <!--- youtube channel verification --->
     <meta name="google-site-verification" content="vRQHg4jXocsgn500MPK-VlG6XFw9YjJvEhRJDUStiyk" />
     
-    <title>{{ .Title }} {{if ne .Site.Title .Title }}| {{ .Site.Title }} {{ end }}</title>
+    <title>{{ replace .Title "-" " " }}{{if ne .Site.Title .Title }} | {{ .Site.Title }} {{ end }}</title>
 
     {{ if .RSSlink }}
     <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
@@ -44,9 +44,9 @@
     <link href="/css/kicad.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300,300italic,400italic,700italic,800italic' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300,300italic,400italic,700italic,800italic" rel="stylesheet" type="text/css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="/fonts/font-linux.css" rel="stylesheet">
+    {{ if $.Scratch.Get "additional_head_tags" }}{{ $.Scratch.Get "additional_head_tags" | safeHTML }}{{ end }}
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

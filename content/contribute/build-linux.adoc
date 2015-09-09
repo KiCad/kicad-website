@@ -29,7 +29,7 @@ confirmed to work.
 
 == The step by step way
 
-Compiling KiCAD on Linux Debian and derivatives
+Compiling KiCad on Linux Debian and derivatives
 (Ubuntu, Mint, etc.)
 
 This task is performed from the command-line.

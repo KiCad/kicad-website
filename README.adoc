@@ -28,13 +28,13 @@ The -w flag tells it to watch the filesystem for changes to rebuild automaticall
 
 == Adding new pages
 
-The desired format for new pages is asciidoc(.adoc) to keep inline with the kicad documentation repository. 
+The desired format for new pages is asciidoc(.adoc) to keep inline with the KiCad documentation repository.
 Do not use markdown even though that is hugo's preferred format.
 
 HTML pages are allowed if special formatting is required (i.e. downloads page).
 
 == Adding images
-Ensure your images go into a folder in /static/img that makes sense. General stuff can stay in that folder. Grouped content such as screenshots, made with kicad, frontpage, etc should go into the respective folder (or make a new one). Try and keep image sizes reasonable. Use JPG instead of PNG if you must to get image file sizes if it makes sense. 
+Ensure your images go into a folder in /static/img that makes sense. General stuff can stay in that folder. Grouped content such as screenshots, made with KiCad, frontpage, etc should go into the respective folder (or make a new one). Try and keep image sizes reasonable. Use JPG instead of PNG if you must to get image file sizes if it makes sense.
 
 == "Dynamic" content
 We are using a static site generator so we do not have the ability for scripted dynamic content.
