@@ -33,6 +33,10 @@ Do not use markdown even though that is hugo's preferred format.
 
 HTML pages are allowed if special formatting is required (i.e. downloads page).
 
+If the new page contains content that you cut out of some old page, make sure the old page includes a link to the new page.
+We want people who bookmarked that old page to be able to find the content at the new page, because
+http://www.w3.org/Provider/Style/URI[Cool URIs don't change].
+
 == Adding images
 Ensure your images go into a folder in /static/img that makes sense. General stuff can stay in that folder. Grouped content such as screenshots, made with KiCad, frontpage, etc should go into the respective folder (or make a new one). Try and keep image sizes reasonable. Use JPG instead of PNG if you must to get image file sizes if it makes sense.
 
