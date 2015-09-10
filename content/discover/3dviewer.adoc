@@ -24,9 +24,9 @@ to work in a collaborative way with mechanical designers bringing near ECAD and 
 thanks to the new *Kicad EDA*.
 
 .Kicad 3dviewer with VRML models (coming from STEP models)
-image::/img/screenshots/hackrf-one-stepup-kicad-3d-viewer.png[Kicad 3dviewer with VRML models (coming from STEP models)]
+image::/img/screenshots/hackrf-one-stepup-kicad-3d-viewer.png[width="100%"]
 
 === Kicad assembles in MCAD
 .MCAD board assembles in STEP AP214 (exported with kicad StepUp)
-image::/img/screenshots/hackrf-one-stepup-catia-assembly.png[MCAD board assembles in STEP AP214 (exported with kicad StepUp)]
+image::/img/screenshots/hackrf-one-stepup-catia-assembly.png[width="100%"]
 
