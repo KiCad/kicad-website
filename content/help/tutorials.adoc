@@ -27,11 +27,11 @@ Several text-based tutorials as well as video tutorials have been put together b
 
 === Video Tutorials
 
-- https://www.youtube.com/watch?v=zK3rDhJqMu0[A KiCad Quick-Start Tutorial] by Windsor Schmidt (~20mins)
-- https://www.youtube.com/playlist?list=PLCNJWVn9MJuORLQ3ds_U3D7RILfE4zdoL[Video series by Ashley Mills], complete with building from source and designing a board (12 parts ~5hours)
-- https://www.youtube.com/user/contextualelectronic/playlists[Videos by Chris Gammell] at Contextual Electronics (7 parts ~2.5hours)
+- https://www.youtube.com/watch?v=zK3rDhJqMu0[A KiCad Quick-Start Tutorial] by Windsor Schmidt (~20 mins)
+- https://www.youtube.com/playlist?list=PLCNJWVn9MJuORLQ3ds_U3D7RILfE4zdoL[Video series by Ashley Mills], complete with building from source and designing a board (12 parts ~5 hours)
+- https://www.youtube.com/user/contextualelectronic/playlists[Videos by Chris Gammell] at Contextual Electronics (7 parts ~2.5 hours)
+- https://www.youtube.com/playlist?list=PLmcDgdDpcaPjIBy60y22XzG036ckQI7bC[Fast screencasts without audio by Matt Venn], useful for workshops (5 parts ~15 mins)
 - https://www.youtube.com/playlist?list=PL67B2290F4C62B5F2[Lots of short videos by My 2µF], mostly on PCB layout
-- https://www.youtube.com/playlist?list=PLmcDgdDpcaPjIBy60y22XzG036ckQI7bC[Fast screencasts without audio by Matt Venn], useful for workshops (5 parts ~15mins)
 - http://www.youtube.com/user/XploreLabz/videos[Videos by Xplore Labz] on creating an Arduino Uno
 - http://vimeo.com/user9565582/videos[Videos by Yoonseo Kang]
 
