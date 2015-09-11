@@ -8,25 +8,6 @@ title = "3DViewer Features"
 
 When laying out your PCB, you can instantly inspect your design in an interactive 3D view.
 Rotate and pan around to inspect details easier than with a 2D display. 
-Export a realistic rendering of your project as a picture or a MCAD hierarchical assembly.
+Export a realistic rendering of your project as a picture or a VRML hierarchical assembly.
 
 video::D3it8wyJef0[youtube,role="embed-responsive embed-responsive-16by9"]
-
-=== Kicad MCAD exporting
-With kicad StepUp script, it is possible to work in *kicad EDA* with the same component model data
-available in the *STEP AP214 3D format*, and obtain a 3D STEP AP214 model of the pcb board and
-a complete board assembles with electronic modules, to be used for *MCAD interchange*. +
-The accurate 3D visualization of components on board assembles in kicad 3dviewer, can then be
-maintained in the same accuracy and aspect in STEP AP214 format, just generating VRML models
-from STEP or FreeCAD mechanical models and exporting the board through kicad StepUp script. +
-The kicad StepUp script maintains the usual way to work with kicad, but improves the process
-to work in a collaborative way with mechanical designers bringing near ECAD and MCAD environments
-thanks to the new *Kicad EDA*.
-
-.Kicad 3dviewer with VRML models (coming from STEP models)
-image::/img/screenshots/hackrf-one-stepup-kicad-3d-viewer.png[width="100%"]
-
-=== Kicad assembles in MCAD
-.MCAD board assembles in STEP AP214 (exported with kicad StepUp)
-image::/img/screenshots/hackrf-one-stepup-catia-assembly.png[width="100%"]
-
