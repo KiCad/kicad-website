@@ -80,6 +80,14 @@ consistency throughout, so please do pay attention to the code
 style policy. Your patches will generally be rejected if they do not adhere
 to the rules set forth in the policy.
 
+=== Doxygen Documentation
+We are using doxygen to document the source code, so when submitting
+new code, please remember to update the doxygen documentation
+descriptions. You can run `make doxygen-docs` to generate the
+documentation locally. The latest version of the same docs are also
+available on the Jenkins server, see 
+link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_coding-style-policy.html[KiCad Developer Docs for the C++ API].
+
 === Using Bazaar
 
 As mentioned above, you firstly need to get a fresh copy of the
