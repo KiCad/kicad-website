@@ -1,17 +1,1 @@
-{{ partial "header.html" . }}
-
-    <!-- Main Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <ul>
-            {{ $data := .Data }}
-            {{ range $key, $value := .Data.Terms.ByCount }}
-            <li><a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}">{{ $value.Name | title }}</a> {{ $value.Count }}</li>
-            {{ end }}
-          </ul>
-        </div>
-      </div>
-    </div>
-
-{{ partial "footer.html" . }}
+<!-- Unused -->
