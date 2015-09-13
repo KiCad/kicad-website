@@ -358,3 +358,8 @@ nav.secondary .list-group-item {
 nav.secondary a {
     display: block;
 }
+
+/* download page specifics */
+.download-sidebar div { /* font-awesome icon */
+    display: inline;
+}

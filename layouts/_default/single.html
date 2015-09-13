@@ -1,27 +1,29 @@
 {{ partial "header.html" . }}
 
-<div class="container">
-	{{ $currentNode := . }}
-	{{ .Scratch.Set "sidemenu" false }}
-	{{ .Scratch.Set "sidemenu_section" $currentNode.Section }}
-	{{ range .Site.Menus.main }}
-		{{ if eq $currentNode.Section (.Name | lower) }}
-			{{ if .HasChildren }}
-				{{ $currentNode.Scratch.Set "sidemenu" true }}
-			{{ end }}
+{{ $currentNode := . }}
+{{ .Scratch.Set "sidemenu" false }}
+{{ .Scratch.Set "sidemenu_section" $currentNode.Section }}
+{{ range .Site.Menus.main }}
+	{{ if eq $currentNode.Section (.Name | lower) }}
+		{{ if .HasChildren }}
+			{{ $currentNode.Scratch.Set "sidemenu" true }}
 		{{ end }}
 	{{ end }}
-    
-	<div class="col-lg-8 col-lg-offset-2">
-        {{ partial "breadcrumb.html" . }}
+{{ end }}
 
-	    <div class="page-heading">
-		<h1>{{ title .Title }}</h1>
-	    </div>
-	    {{ .Content }}
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 {{ if .Scratch.Get "sidemenu" }}col-md-10 col-sm-9{{ else }}col-sm-12{{ end }}">
+			{{ partial "breadcrumb.html" . }}
+
+			<div class="page-heading">
+				<h1>{{ replace .Title "-" " " }}</h1>
+			</div>
+			{{ .Content }}
+		</div>
+
+		{{ partial "sidebar.html" . }}
 	</div>
-	
-	{{ partial "sidebar.html" . }}
 </div>
 
 {{ partial "footer.html" . }}
