@@ -10,7 +10,7 @@ The 4.0 branch can be found here: link:https://code.launchpad.net/~stambaughw/ki
 
 The RC1 branch has been packaged as a archive available here: link:https://launchpad.net/kicad/4.0/4.0.0-rc1/+download/kicad-4.0.0-rc1.tar.xz[KiCad 4.0.0 RC1 Archive]
 
-Currently only source code releases of 4.0.0 RC1 are available, this page will be updated once 4.0 RC1 binaries have been made available by maintainers.
+In addition to the source code, link:/download/windows/[Windows builds are avaliable]. OSX and Linux binaries are coming as soon as maintainers package them! Please check back at a later time.
 
 There is still no timeline on a final 4.0.0 release. We are asking developers to continue helping to fix existing bugs within KiCad. 
 As of the time of this post, the product (development) branch is *not accepting new features* until the release of KiCad 4.0. 
