@@ -17,8 +17,7 @@ and is licensed under http://en.wikipedia.org/wiki/GNU_General_Public_License[GN
 The first release date was in 1992 by its original author, Jean-Pierre Charras,
 but is now currently under development by the https://launchpad.net/kicad[KiCad Developers Team].
 
-Some history of general information of KiCad is presented by Wayne in
-https://video.fosdem.org/2015/devroom-electronic_design_automation/kicad.mp4[his presentation at FOSDEM 2015].
+See some of KiCad's history and an overview of where it is headed in https://video.fosdem.org/2015/devroom-electronic_design_automation/kicad.mp4[Wayne's FOSDEM 2015 presentation] (https://www.youtube.com/watch?v=Wr-H4fg-Jmw[youtube]). 
 
 
 == Main Authors
