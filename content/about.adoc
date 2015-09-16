@@ -18,7 +18,7 @@ The first release date was in 1992 by its original author, Jean-Pierre Charras,
 but is now currently under development by the https://launchpad.net/kicad[KiCad Developers Team].
 
 Some history of general information of KiCad is presented by Wayne in
-https://video.fosdem.org/2015/devroom-electronic_design_automation/kicad.mp4[his presentation at FOSDEM 2015].
+https://www.youtube.com/watch?v=wRolB1my6fI[his presentation at FOSDEM 2015].
 
 
 == Main Authors
