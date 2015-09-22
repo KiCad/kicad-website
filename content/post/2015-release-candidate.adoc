@@ -5,8 +5,8 @@ date = "2015-09-13"
 
 We are pleased to announce that
 link:https://lists.launchpad.net/kicad-developers/msg20326.html[KiCad has
-finally made a 2015 release branch]
-. The 2015 stable release of KiCad will start from version *4.0.0*.
+finally made a 2015 release branch].
+The 2015 stable release of KiCad will start from version *4.0.0*.
 Currently we are in the release candidate phase and as such *BZR 6188*
 is now known as  *4.0.0 RC1*.
 
