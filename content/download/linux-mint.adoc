@@ -21,7 +21,7 @@ To install KiCad via the PPA, you can use the Software Manager:
 If you prefer to use the shell, you can enter these commands into a terminal:
 
 [source,bash]
-sudo add-apt-repository ppa:js-reynaud/kicad-4
+sudo add-apt-repository --yes ppa:js-reynaud/kicad-4
 sudo apt-get update
 sudo apt-get install kicad
 
@@ -40,7 +40,7 @@ To install KiCad via the PPA, you can use the Software Manager:
 If you prefer to use the shell, you can enter these commands into a terminal:
 
 [source,bash]
-sudo add-apt-repository ppa:js-reynaud/ppa-kicad
+sudo add-apt-repository --yes ppa:js-reynaud/ppa-kicad
 sudo apt-get update
 sudo apt-get install kicad
 
