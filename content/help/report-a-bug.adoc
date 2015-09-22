@@ -52,3 +52,7 @@ https://help.launchpad.net/Bugs/Subscriptions[launchpad bug subscriptions].
 
 The details on the fields in a bug report and the meanings of their allowed values are described on 
 http://blog.launchpad.net/general/of-bugs-and-statuses[this page of the launchpad blog].
+
+== Issues with the kicad-pcb.org website
+
+If you think there is an issue or you want to add something to the website, go the the link:https://github.com/KiCad/kicad-website[kicad-website] repo on github and report it as an link:https://github.com/KiCad/kicad-website/issues[issue] or make a link:https://github.com/KiCad/kicad-website/pulls[pull request].
