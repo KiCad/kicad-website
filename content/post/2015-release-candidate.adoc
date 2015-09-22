@@ -16,8 +16,9 @@ link:https://code.launchpad.net/~stambaughw/kicad/4.0[KiCad 4.0 Branch]
 The RC1 branch has been packaged as a archive available here:
 link:https://launchpad.net/kicad/4.0/4.0.0-rc1/+download/kicad-4.0.0-rc1.tar.xz[KiCad 4.0.0 RC1 Archive]
 
-The new GUI translations can be found here:
-link:https://github.com/KiCad/kicad-i18n/
+The new GUI translations can be found in the 
+link:https://github.com/KiCad/kicad-i18n/[kicad-i18n]
+repository on github.
 
 == Binaries
 
