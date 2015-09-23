@@ -77,5 +77,11 @@ This issue arises if you used the old stable with another language other than En
 
 == Schematic libraries are updated
 
-Be aware that the schematic libries has got and overhaul (still in progress), which means that it will easily break your schematics, because the bundled libs takes precedence over the cache lib. What you can do to recover is to remove the libs used in the project and rename the cache lib file, and include that instead. Chris Panliva has recently made a wizard to help with this issue, this has been merged in the product branch now.
+Be aware that the schematic libries has got and overhaul (still in
+progress), which means that it will easily break your schematics,
+because the bundled libs takes precedence over the cache lib. What you
+can do to recover is to remove the libs used in the project and rename
+the cache lib file, and include that instead. Chris Pavlina has
+recently made a wizard to help with this issue, this has been merged
+in the product branch now.
 
