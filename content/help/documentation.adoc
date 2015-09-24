@@ -10,7 +10,7 @@ weight = 10
 
 KiCad's documentation is split up into a document per application for convenience. Documents are available in HTML, PDF and ePub along with a few language options where they have been translated.
 
-IMPORTANT: There is just a minor hiccup with the documentation links as of right now. The generation of the docs are being reworked a bit to prepare for easier distribution, so the current links on this page mighe be broken. Browse the docs directly on the directionary listing at link:http://docs.kicad-pcb.org for now.
+IMPORTANT: There is just a minor hiccup with the documentation links as of right now. The generation of the docs are being reworked a bit to prepare for easier distribution, so the current links on this page mighe be broken. Browse the docs directly on the directionary listing at link:http://docs.kicad-pcb.org[http://docs.kicad-pcb.org] for now.
 
 toc::[]
 
