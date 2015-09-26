@@ -4,6 +4,16 @@ iconhtml = "<div class='fl-opensuse'></div>"
 weight = 20
 +++
 
-=== Recent Builds
-Daily builds for openSUSE are available as _kicad-unstable_ in the link:http://software.opensuse.org/download.html?project=electronics&package=kicad-unstable[openSUSE repo]
-and for power users on the link:https://build.opensuse.org/package/show/electronics/kicad-unstable[OBS page].
+=== Stable Release
+KiCad 4.0.0 (currently 4.0.0-rc1) is available in the link:http://software.opensuse.org/download.html?project=electronics&package=kicad[electronics repository]. See link:https://build.opensuse.org/package/show/electronics/kicad[OBS page] for details.
+
+New KiCad packages does not have kicad-library subpackage. It is possible to use build-in GUI downloader or special kicad-library-install.sh script from _kicad-library-install_ subpackage.
+
+Please report openSUSE-specific bugs via "Report Bug" button on OBS page.
+
+=== Development Builds
+KiCad daily builds for openSUSE are available as _kicad-unstable_ in the link:http://software.opensuse.org/download.html?project=electronics&package=kicad-unstable[electronics repository]. See link:https://build.opensuse.org/package/show/electronics/kicad-unstable[OBS page] for details.
+
+New KiCad packages does not have kicad-unstable-library subpackage. It is possible to use build-in GUI downloader or special kicad-library-install.sh script from _kicad-unstable-library-install_ subpackage.
+
+Please report openSUSE-specific bugs via "Report Bug" button on OBS page.
