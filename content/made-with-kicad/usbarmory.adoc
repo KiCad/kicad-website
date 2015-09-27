@@ -1,0 +1,10 @@
++++
+title = "USB armory"
+projectimage = "/img/madewithkicad/usbarmory.jpg"
+projectdeveloper = "Inverse Path"
+projecturl = "http://inversepath.com/usbarmory"
++++
+
+The USB armory from Inverse Path is an link:https://github.com/inversepath/usbarmory/tree/master/hardware/mark-one[open source] hardware design, implementing a flash drive sized computer.
+
+The compact USB powered device provides a platform for developing and running a variety of applications.
