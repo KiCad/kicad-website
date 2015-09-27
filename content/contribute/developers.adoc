@@ -248,7 +248,7 @@ where you have to apply for membership to be able to send to it. Or you can atta
 === Translating GUI and Docs
 
 If you are the kind guy wanting to help improving kicad by internationalizing it, you should probably have a look at the 
-link:http://ci.kicad-pcb.org/job/any-kicad-doc-head/lastSuccessfulBuild/artifact/src/GUI_Translation_HOWTO/GUI_Translation_HOWTO.html[GUI translating howto]. +
+link:http://docs.kicad-pcb.org/en/gui_translation_howto.html[GUI translating howto]. +
 Also you are encouraged to contribute to the 
 link:/contribute/docs-team/[KiCad Documentation]
 

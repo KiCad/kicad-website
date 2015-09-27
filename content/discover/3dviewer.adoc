@@ -7,7 +7,6 @@ title = "3DViewer Features"
 +++
 
 When laying out your PCB, you can instantly inspect your design in an interactive 3D view.
-Rotate and pan around to inspect details easier than with a 2D display. 
-Export a realistic rendering of your project as a picture or a MCAD hierarchical assembly.
+Rotate and pan around to inspect details easier than with a 2D display.
 
 video::D3it8wyJef0[youtube,role="embed-responsive embed-responsive-16by9"]
