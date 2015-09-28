@@ -31,6 +31,21 @@ https://bugs.launchpad.net/kicad/+bug/1186813[bugs] has been reported
 on it, and the solution seemed to be change an Xorg setting. You have
 to set `Option "EXAPixmaps" "off"`.
 
+== Bad Graphics Cards
+
+There is a few older cards that seem to no be have properly with the
+OpenGL canvas used in the new GAL canvas. The list below has been
+identified as such:
+
+- Intel Graphics Media Accelerator (GMA) 4500M / Windows 7 64bit / crash
+on startup (https://bugs.launchpad.net/kicad/+bug/1473786)
+- ATI Hawaii XT [Radeon R9 290X] + 4K display + fglrx driver / Ubuntu
+14.04 LTS / flashes when the rendering area is too big
+(https://bugs.launchpad.net/kicad/+bug/1492117)
+- ATI RV370 [Radeon X300 SE] + radeon driver / Xubuntu 14.04.1 / does
+not display line rounded line ends
+(https://bugs.launchpad.net/kicad/+bug/1498970)
+
 == Boost 1.54
 
 There has previously been problems with internal bugs in boost,
