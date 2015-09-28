@@ -14,7 +14,9 @@ listing on what the different files are used for.
 
 === Native file formats
 
-The `.sch`, `.lib`, `.brd`, `.kicad_pcb` and `.kicad_wks` file formats are link:http://bazaar.launchpad.net/~kicad-developers/kicad/doc/view/head:/doc/help/file_formats/file_formats.pdf[specified in this PDF] (click on "download file"). The other file format documentation is _Work In Progress_.
+The `.sch`, `.lib`, `.brd`, `.kicad_pcb` and `.kicad_wks` file formats
+are
+link:http://bazaar.launchpad.net/~stambaughw/kicad/doc-read-only/download/head:/1115%4016bec504-3128-0410-b3e8-8e38c2123bca:trunk%252Fkicad-doc%252Fdoc%252Fhelp%252Ffile_formats%252Ffile_formats.pdf/file_formats.pdf[specified in this PDF] (click on "download file"). The other file format documentation is _Work In Progress_.
 
 * `.pro`: project file. Holds parameters that apply to the entire project (schematic and PCB layout).
 
