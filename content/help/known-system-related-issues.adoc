@@ -1,6 +1,10 @@
 +++
 title = "Known System Related Issues"
-date = "2015-06-11"
+aliases = [ "/post/known-system-related-issues/" ]
+[menu.main]
+    parent = "Help"
+    name   = "Known System Related Issues"
+weight = 50
 +++
 
 This page is just a small note on some "weird" issues that has been
