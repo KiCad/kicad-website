@@ -118,8 +118,8 @@ Now if you want the KiCad documentation here
 you go:
 
  cd ~/build/kicad
- bzr branch --stacked lp:~kicad-developers/kicad/doc kicad-doc.bzr
- cd kicad-doc.bzr
+ git clone https://github.com/KiCad/kicad-doc.git kicad-doc.git
+ cd kicad-doc.git
  mkdir build
  cd build/
  cmake ../
