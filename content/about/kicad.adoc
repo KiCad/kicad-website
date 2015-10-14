@@ -1,8 +1,11 @@
 +++
-title = "About"
+title = "About KiCad"
 date = "2014-04-09"
-menu = "main"
-weight = 700
+aliases = [ "/about/" ]
+categories = [ "About" ]
+[menu.main]
+    parent = "About"
+    name   = "KiCad"
 +++
 
 {{< aboutlink "/img/about/kicad-logo.png" "/img/kicad_logo_paths.svg" >}}
