@@ -1,0 +1,25 @@
++++
+title = "Licenses"
+categories = [ "About" ]
+[menu.main]
+    parent = "About"
+    name   = "Licenses"
++++
+:toc: macro 
+:toc-title:
+:toclevels: 5
+
+toc::[]
+
+== KiCad
+
+KiCad is free software. KiCad is made available under the GNU General Public License version 2 or greater.
+
+== KiCad Documentation
+
+link:/help/documentation/[KiCad documentation] is distributed under a two license choice of either the GNU General Public License version 3 or later, or the Creative Commons Attribution License version 3.0 or later.
+
+== Licenses
+include::/content/about/licenses/gplv2.adoc[]
+include::/content/about/licenses/gplv3.adoc[]
+include::/content/about/licenses/cc-by-3.0.adoc[]
