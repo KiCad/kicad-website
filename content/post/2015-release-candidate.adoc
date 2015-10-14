@@ -1,14 +1,38 @@
 +++
-title = "2015 Release Candidate"
-draft = true
+title = "2015 Release Candidate Branch and RC1"
+date = "2015-09-13"
 +++
 
-Please test
+We are pleased to announce that
+link:https://lists.launchpad.net/kicad-developers/msg20326.html[KiCad has
+finally made a 2015 release branch].
+The 2015 stable release of KiCad will start from version *4.0.0*.
+Currently we are in the release candidate phase and as such *BZR 6188*
+is now known as  *4.0.0 RC1*.
 
-Joke aside, this has not yet happened, but will happen soon (tm).
+The 4.0 branch can be found here:
+link:https://code.launchpad.net/~stambaughw/kicad/4.0[KiCad 4.0 Branch]
 
+The RC1 branch has been packaged as a archive available here:
+link:https://launchpad.net/kicad/4.0/4.0.0-rc1/+download/kicad-4.0.0-rc1.tar.xz[KiCad 4.0.0 RC1 Archive]
 
-== Cvpcb behaivour change
-Cvpcb can is no longer a stand alone executable. It is now run as a child window from Eeschema. This was done because using the footprint association file (*.cmp) is no longer used, running it as a stand alone executable would be meaningless. The transfer of footprint associations is internal to Eeschema. Remove any Cvpcb application links from your system. They are no longer valid.
+The new GUI translations can be found in the 
+link:https://github.com/KiCad/kicad-i18n/[kicad-i18n]
+repository on github.
 
-Reference: https://answers.launchpad.net/kicad/+question/270372
+== Binaries
+
+In addition to the source code, the following binary downloads are available:
+
+ - link:/download/windows/[Windows]
+ - link:/download/linux-mint/[Linux Mint]
+ - link:/download/ubuntu/[Ubuntu 14.04 and Ubuntu 15]
+ 
+OSX and additional Linux packages are coming as soon as maintainers
+package them! Please check back at a later time.
+
+There is still no timeline on a final 4.0.0 release. We are asking
+developers to continue helping to fix existing bugs within KiCad.  As
+of the time of this post, the product (development) branch is *not
+accepting new features* until the release of KiCad 4.0.  Only bug
+fixes and polishing of existing features will be accepted.

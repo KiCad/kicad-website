@@ -1,0 +1,26 @@
+<!--sidebar start-->
+{{ $currentNode := . }}
+{{ if .Scratch.Get "sidemenu" }} 
+<div class="col-lg-2 col-md-2 col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+    <aside>
+        <nav class="secondary">
+            <!-- sidebar menu start-->
+            {{ $section := .Scratch.Get "sidemenu_section" }}
+            {{ range .Site.Menus.main }}
+                {{ if eq $section (.Name | lower) }}
+                    {{ if .HasChildren }}
+                        <h3>{{ .Name }}</h3>
+                        <ul class="list-unstyled side-links list-group">
+                            {{ range .Children }}
+                                <li class="list-group-item{{ if $currentNode.IsMenuCurrent "main" . }} active{{ end }}"><a href="{{ .URL }}">{{ .Name }}</a></li>
+                            {{ end }}
+                        </ul>
+                    {{end}}
+                {{end}}
+            {{end}}
+            <!-- sidebar menu end-->
+        </nav>
+    </aside>
+</div>
+{{end}}
+<!--sidebar end-->

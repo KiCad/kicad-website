@@ -1,11 +1,24 @@
 +++
 title = "Windows"
+iconhtml = "<div><i class='fa fa-windows'></i></div>"
+weight = 2
 +++
 
+=== 2015 Stable Release
+
+Current Version: *4.0.0 RC1*
+
+link:http://downloads.kicad-pcb.org/windows/stable/kicad-product-4.0.0_rc1-x86_64.exe[Windows 64-bit (x86_64)]
+
+link:http://downloads.kicad-pcb.org/windows/stable/kicad-product-4.0.0_rc1-i686.exe[Windows 32-bit (i686)]
+
 === Recent Builds
-Builds of the latest source for testing can be found here: http://www2.futureware.at/~nickoe/
+Builds of the latest source for testing can be found here:
+http://downloads.kicad-pcb.org/windows/
 
 
 === Old Stable
-The build of the 2013 stable release is available from http://iut-tice.ujf-grenoble.fr/cao/ (It is not recommended for new designs). 
+The build of the 2013 stable release is available from
+http://downloads.kicad-pcb.org/archive/KiCad_stable-2013.07.07-BZR4022_Win_full_version.exe
+(It is not recommended for new designs). 
 

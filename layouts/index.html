@@ -1,31 +1,26 @@
 {{ partial "header.html" .}}
 
     <!-- Page Header -->
-    <header class="intro-header" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url('{{ .Site.BaseURL }}img/frontpage/banner.jpg');">
+    <header class="intro-header" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url('/img/frontpage/banner.jpg');">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="site-heading">
               <h1>{{ title .Site.Title }}</h1>
-              {{ if isset .Site.Params "Description" }}<h3>{{ title .Site.Params.Description }}</h3>{{ end }}
+              {{ if isset .Site.Params "Description" }}<h3>{{ .Site.Params.Description }}</h3>{{ end }}
               <hr class="intro-divider">
               <ul class="list-inline intro-social-buttons">
                 <li>
-                  <a href="{{ .Site.BaseURL }}help/documentation" class="btn btn-default"><i class="fa fa-book fa-fw"></i> <span class="network-name">Docs</span></a>
+                  <a href="/help/documentation/" class="btn btn-default"><i class="fa fa-book fa-fw"></i> <span class="network-name">Docs</span></a>
                 </li>
                 <li>
-                  <a href="{{ .Site.BaseURL }}download" class="btn btn-default btn-primary">
+                  <a href="/download/" class="btn btn-default btn-primary">
                     <i class="fa fa-download fa-fw"></i> <span class="network-name">Download</span>
                     <i class="fa fa-linux"></i>
                     <i class="fa fa-windows"></i>
                     <i class="fa fa-apple"></i>
                   </a>
                 </li>
-                <!-- Test to remove the community button
-                <li>
-                  <a href="#" class="btn btn-default"><i class="fa fa-comments fa-fw"></i> <span class="network-name">Community</span></a>
-                </li>
-                -->
               </ul>
             </div>
           </div>
@@ -43,13 +38,13 @@
                   <hr class="section-heading-spacer">
                   <div class="col-lg-5 col-sm-6">
                       <div class="clearfix"></div>
-                      <h2 class="section-heading">Schematic capture</h2>
-                      <p class="lead">With the schematic editor you can layout your design without limit. There are no paywalls to unlock features. KiCad has an official library for schematic symbols, as well as a schematic symbol editor.</p>
-                      <a href="{{ .Site.BaseURL }}discover/eeschema/" class="btn btn-default btn-block "><i class="fa fa-book fa-fw"></i> <span class="network-name">Learn more</span></a>
+                      <h2 class="section-heading">Schematic Capture</h2>
+                      <p class="lead">With the schematic editor you can create your design without limit; there are no paywalls to unlock features. An official library for schematic symbols and a built-in schematic symbol editor help you get started quickly with your designs.</p>
+                      <a href="/discover/eeschema/" class="btn btn-default btn-block "><i class="fa fa-book fa-fw"></i> <span class="network-name">Learn more</span></a>
                       <p></p>
                   </div>
                   <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                      <img class="img-responsive" src="{{ .Site.BaseURL }}img/frontpage/kicad_eeschema.png" alt="">
+                      <a href="/img/frontpage/kicad_eeschema.png"><img class="img-responsive" src="/img/frontpage/kicad_eeschema.png" alt=""></a>
                   </div>
               </div>
 
@@ -67,13 +62,13 @@
                   <hr class="section-heading-spacer">
                   <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                       <div class="clearfix"></div>
-                      <h2 class="section-heading">PCB layout</h2>
-                      <p class="lead">Make professional PCB layouts with up to 32 copper layers. You get the new push and shove router, which is also capable of routing differential pairs and interactively tuning trace lengths.</p>
-                      <a href="{{ .Site.BaseURL }}discover/pcbnew/" class="btn btn-default btn-block "><i class="fa fa-book fa-fw"></i> <span class="network-name">Learn more</span></a>
+                      <h2 class="section-heading">PCB Layout</h2>
+                      <p class="lead">Make professional PCB layouts with up to 32 copper layers. KiCad now has a push and shove router which is capable of routing differential pairs and interactively tuning trace lengths.</p>
+                      <a href="/discover/pcbnew/" class="btn btn-default btn-block "><i class="fa fa-book fa-fw"></i> <span class="network-name">Learn more</span></a>
                       <p></p>
                   </div>
                   <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                      <img class="img-responsive" src="{{ .Site.BaseURL }}img/frontpage/kicad_pcbnew.png" alt="">
+                      <a href="/img/frontpage/kicad_pcbnew.png"><img class="img-responsive" src="/img/frontpage/kicad_pcbnew.png" alt=""></a>
                   </div>
               </div>
 
@@ -91,13 +86,13 @@
                   <hr class="section-heading-spacer">
                   <div class="col-lg-5 col-sm-6">
                       <div class="clearfix"></div>
-                      <h2 class="section-heading">3D viewer</h2>
-                      <p class="lead">KiCad also includes a 3D viewer, where by you can instantly inspect your design in an interactive canvas. You can rotate and pan around to inspect details that are harder to inspect on a 2D view. There are multiple rendering options.</p>
-                      <a href="{{ .Site.BaseURL }}discover/3dviewer/" class="btn btn-default btn-block "><i class="fa fa-book fa-fw"></i> <span class="network-name">Learn more</span></a>
+                      <h2 class="section-heading">3D Viewer</h2>
+                      <p class="lead">KiCad includes a 3D viewer which you can use to inspect your design in an interactive canvas. You can rotate and pan around to inspect details that are difficult to inspect on a 2D view. Multiple rendering options allow you to modify the aesthetic appearance of the board or to hide and show features for easier inspection.</p>
+                      <a href="/discover/3dviewer/" class="btn btn-default btn-block "><i class="fa fa-book fa-fw"></i> <span class="network-name">Learn more</span></a>
                       <p></p>
                   </div>
                   <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                      <img class="img-responsive" src="{{ .Site.BaseURL }}img/frontpage/kicad_3dviewer.png" alt="">
+                      <a href="/img/frontpage/kicad_3dviewer.png"><img class="img-responsive" src="/img/frontpage/kicad_3dviewer.png" alt=""></a>
                   </div>
               </div>
 

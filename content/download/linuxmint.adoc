@@ -1,9 +1,0 @@
-+++
-title = "Linux Mint"
-+++
-
-=== Recent Builds
-Daily builds are available in https://code.launchpad.net/~js-reynaud/+archive/ubuntu/ppa-kicad[js-reynaud's PPA].
-
-=== Old Stable
-Old stable should be in the official Ubuntu repo. 

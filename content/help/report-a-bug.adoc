@@ -10,7 +10,7 @@ weight = 35
 
 toc::[]
 
-If you think you found a bug, what information should you include in my bug report to give as much helpful information to developers as possible?
+If you think you found a bug, what information should you include in your bug report to give as much helpful information to developers as possible?
 
 Before you get too involved, you should first head over to the https://bugs.launchpad.net/KiCad/+bugs?orderby=-date_last_updated&start=0[KiCad bug tracker]
 and check to see if a bug report for the problem you're seeing hasn't already been reported.
@@ -41,12 +41,18 @@ entry in the "Help" menu and pasting it into your bug report. Even if the applic
 If you can reliably repeat the problem, please include the exact steps that cause it. Explain it step by step, such that there is no guessing what steps you performed. 
 If the problem occurs with a specific file or library, please attach it to your bug report if possible.
 
-Now with all your information in hand head on over the the https://bugs.launchpad.net/KiCad/+bugs?orderby=-date_last_updated&start=0[KiCad bug tacker].
+Now with all your information in hand head on over the the https://bugs.launchpad.net/KiCad/+bugs?orderby=-date_last_updated&start=0[KiCad bug tracker].
 
 The KiCad developer team thanks you for your efforts.
 
 == Auxiliary help with launchpad
 
-You can track the status of your bug by following the instructions at https://help.launchpad.net/Bugs/Subscriptions
+You can track the status of your bug with the
+https://help.launchpad.net/Bugs/Subscriptions[launchpad bug subscriptions].
 
-For a summary of fields in a bug report and the meanings of their allowed values: http://blog.launchpad.net/general/of-bugs-and-statuses
+The details on the fields in a bug report and the meanings of their allowed values are described on 
+http://blog.launchpad.net/general/of-bugs-and-statuses[this page of the launchpad blog].
+
+== Issues with the kicad-pcb.org website
+
+If you think there is an issue or you want to add something to the website, go the the link:https://github.com/KiCad/kicad-website[kicad-website] repo on github and report it as an link:https://github.com/KiCad/kicad-website/issues[issue] or make a link:https://github.com/KiCad/kicad-website/pulls[pull request].

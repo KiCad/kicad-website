@@ -1,20 +1,24 @@
 {{ partial "header.html" . }}
 
-    <!-- Main Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          This is a listing of the blog posts, which are updated every now and then. Watch this space for release notes and other useful news.
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          {{ range .Paginator.Pages }}
-              {{ .Render "summary" }}
-          {{ end }}
-          {{ template "_internal/pagination.html" . }}
-        </div>
-      </div>
-    </div>
+{{ .Scratch.Set "sidemenu" false }}
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 {{ if .Scratch.Get "sidemenu" }}col-md-10 col-sm-9{{ else }}col-sm-12{{ end }}">
+			{{ partial "breadcrumb.html" . }}
+
+			{{ range .Paginator.Pages }}
+				{{ .Render "summary" }}
+			{{ end }}
+			{{ template "_internal/pagination.html" . }}
+
+			<p class="post-preview-intro" style="text-align: center">
+				For even fresher news, look at the <a href="https://lists.launchpad.net/kicad-developers/">kicad-developers mailing-list</a>.
+			</p>
+		</div>
+	</div>
+
+	{{ partial "sidebar.html" . }}
+</div>
 
 {{ partial "footer.html" . }}

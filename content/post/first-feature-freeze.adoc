@@ -1,6 +1,6 @@
 +++
 title = "First Feature Freeze"
-date = "30 Mar 2015"
+date = "2015-03-30"
 +++
 
 It is time. Wayne, the current project leader, has now called the

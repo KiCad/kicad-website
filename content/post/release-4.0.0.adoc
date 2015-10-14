@@ -3,7 +3,7 @@ title = "2015 Stable Release is Out!"
 draft = true
 +++
 
-We've just released the long-awaited stable version of Kicad. Download
+We've just released the long-awaited stable version of KiCad. Download
 for Windows, OSX and Linux!
 
 Joke aside, this has not yet happened, but will happen soon (tm).

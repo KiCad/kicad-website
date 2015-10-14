@@ -1,0 +1,10 @@
++++
+title = "Smoothieboard"
+projectimage = "/img/madewithkicad/Smoothieboard.jpg"
+projectdeveloper = "Arthur Wolf"
+projecturl = "http://smoothieware.org/"
++++
+
+Smoothie is a free, open source, high performance and modular G-code interpreter and
+CNC controller for the LPC17xx micro-controller ( ARM Cortex M3 architecture ).
+The motion control part is a port of the awesome grbl. The Source code is on GitHub.

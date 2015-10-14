@@ -1,7 +1,0 @@
-+++
-title = "OpenSUSE"
-+++
-
-=== Recent Builds
-Daily builds for openSUSE are available as _kicad-unstable_ in the link:http://software.opensuse.org/download.html?project=electronics&package=kicad-unstable[openSUSE repo] 
-and for power users on the link:https://build.opensuse.org/package/show/electronics/kicad-unstable[OBS page].

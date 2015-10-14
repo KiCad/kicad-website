@@ -1,5 +1,7 @@
 +++
 title = "Debian"
+iconhtml = "<div class='fl-debian'></div>"
+weight = 10
 +++
 
 === Old Stable

@@ -3,6 +3,6 @@ title = "High Speed design with KiCad"
 draft = true
 +++
 
-Kicad is now capable of routing differential pairs and interactively
+KiCad is now capable of routing differential pairs and interactively
 tuning trace lengths.
 

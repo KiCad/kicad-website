@@ -1,8 +1,11 @@
-= KiCad developers
++++
+title = "Building KiCad on Linux"
++++
 
-== Building KiCad on Linux
+:icons: fonts
+:iconsdir: /img/icons/
 
-=== The easy way
+== The easy way
 
 link:http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/view/head:/scripts/kicad-install.sh[This shell script] will allow you to download,
 update and compile KiCad under Linux.
@@ -24,9 +27,9 @@ and results in:
 At least  2.8.12.2 of cmake and newer has been
 confirmed to work.
 
-=== The step by step way
+== The step by step way
 
-Compiling KiCAD on Linux Debian and derivatives
+Compiling KiCad on Linux Debian and derivatives
 (Ubuntu, Mint, etc.)
 
 This task is performed from the command-line.
@@ -115,8 +118,8 @@ Now if you want the KiCad documentation here
 you go:
 
  cd ~/build/kicad
- bzr branch --stacked lp:~kicad-developers/kicad/doc kicad-doc.bzr
- cd kicad-doc.bzr
+ git clone https://github.com/KiCad/kicad-doc.git kicad-doc.git
+ cd kicad-doc.git
  mkdir build
  cd build/
  cmake ../

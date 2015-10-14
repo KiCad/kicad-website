@@ -1,17 +1,53 @@
 +++
 title = "Ubuntu"
+iconhtml = "<div class='fl-ubuntu'></div>"
+weight = 1
 +++
 
-=== Unstable Builds
-Daily builds are available in https://code.launchpad.net/~js-reynaud/+archive/ubuntu/ppa-kicad[js-reynaud's PPA].
-Execute this in a terminal to use it:
-[source,bash]
-sudo add-apt-repository ppa:js-reynaud/ppa-kicad && sudo apt-get update && sudo apt-get install kicad
+=== 2015 Release
+Current Version: *4.0.0 RC1*
 
-=== Stable Version
-This version is in preparation. Until its release, please use js-reynaud's PPA.
+KiCad 4.0 also known as the "2015 Release" is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-4[js-reynaud's KiCad 4.0 PPA].
+
+To install KiCad via the PPA, you can use the Software Manager:
+
+1. Open the Software Manager.
+2. Select Edit → Software Sources.
+3. Open the 'PPAs' tab.
+4. Click 'Add a new PPA', and enter the PPA address: `ppa:js-reynaud/kicad-4`
+5. Click 'Update the cache'
+6. Return to the Software Manager main screen, search for 'kicad', and install it.
+
+If you prefer to use the shell, you can enter these commands into a terminal:
+
+[source,bash]
+sudo add-apt-repository ppa:js-reynaud/kicad-4
+sudo apt-get update
+sudo apt-get install kicad
+
+=== Development Builds
+Daily builds are available in https://code.launchpad.net/~js-reynaud/+archive/ubuntu/ppa-kicad[js-reynaud's PPA].
+These provide the latest, unreleased preview of KiCad.
+To install KiCad via the PPA, you can use the Ubuntu Software Center:
+
+1. Open the Ubuntu Software Center.
+2. Select Edit → Software Sources.
+3. Open the 'Other Software' tab.
+4. Click 'Add', and enter the PPA address: `ppa:js-reynaud/ppa-kicad`
+5. Return to the Software Center and view the Progress tab to see when the cache has finished updating.
+6. Search for and install the 'kicad' package.
+
+If you prefer to use the shell, you can enter these commands into a terminal:
+
+[source,bash]
+sudo add-apt-repository ppa:js-reynaud/ppa-kicad
+sudo apt-get update
+sudo apt-get install kicad
 
 === Old Stable
-Old stable should be in the official Ubuntu repository. Search for `KiCad` in the 'software center' or execute:
+The most recent full release of KiCad is old, and not recommended for new projects.
+If you want it, Old Stable is the official Ubuntu repository.
+Search for `KiCad` in the Ubuntu Software Center or execute the following in a terminal:
+
 [source,bash]
 sudo apt-get install kicad

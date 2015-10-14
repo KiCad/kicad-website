@@ -1,0 +1,11 @@
++++
+title = "JEMTech-ILDA-Node"
+projectimage = "/img/madewithkicad/JEMTechILDANodeV1.jpg"
+projectdeveloper = "Jan-Erik Matthies"
+projecturl = "https://github.com/jemtech/ILDA"
++++
+
+The JEMTech-ILDA-Node is a 16 bit 6 channel DAC for ILDA up to 400kpps.
+
+This Project is a DAC (digital to analog converter) which generates six differential signals based on the ILDA (International Laser Display Association) ISP-DB25 standard. The DAC is contolled via SPI (Serial Peripheral Interface) bus.
+

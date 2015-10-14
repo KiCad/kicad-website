@@ -1,0 +1,101 @@
++++
+title = "Known System Related Issues"
+aliases = [ "/post/known-system-related-issues/" ]
+[menu.main]
+    parent = "Help"
+    name   = "Known System Related Issues"
+weight = 50
++++
+:toc: macro 
+:toc-title:
+
+toc::[]
+
+This page is just a small note on some "weird" issues that have been
+experienced with KiCad in relation to the systems that it runs on. This
+means that this page does not describe KiCad functional bugs.
+
+== All Platforms
+=== Legacy Canvas and wxGTK
+
+The legacy canvas has problems with wxWidgets 3.0 built with GTK3,
+this combination is usually called wxGTK on various package
+distributions. Don't be confused when you see wxGTK 3.0.0 in your
+package manager, this is usually referring to the wxWidgets version,
+and not whether or not it is built against GTK3.
+
+It has been seen that Fedora 20, 21 and 22, builds against GTK3. 
+The problem manifests in eeschema  with slow zooming, and the graphics
+are not quite exact (try looking at the grid dots). And in pcbnew, the
+canvas does not really draw properly at all.
+
+
+=== Bad Graphics Cards
+
+There are a few older cards that seem to not behave properly with the
+OpenGL canvas used in the new GAL canvas. 
+The list below includes the faultly cards identified thus far:
+
+- Intel Graphics Media Accelerator (GMA) 4500M / Windows 7 64bit / crash
+on startup (https://bugs.launchpad.net/kicad/+bug/1473786)
+- ATI Hawaii XT [Radeon R9 290X] + 4K display + fglrx driver / Ubuntu
+14.04 LTS / flashes when the rendering area is too big
+(https://bugs.launchpad.net/kicad/+bug/1492117)
+- ATI RV370 [Radeon X300 SE] + radeon driver / Xubuntu 14.04.1 / does
+not display line rounded line ends
+(https://bugs.launchpad.net/kicad/+bug/1498970)
+
+
+=== Boost 1.54
+
+There have previously been problems with bugs in the boost libraries.
+This led to KiCad developers deciding to include the download, patch and build of boost in the KiCad build framework. 
+Many users are not aware of the reason this was done. A build option was later added
+to skip this KiCad build of boost, so that you can save some
+initial build time and actually use the boost libraries you already have
+installed on your system.
+
+The self build of boost inside the KiCad installer framework is being
+slowly removed, due to it being difficult to maintain among other reasons. 
+Instead boost will eventually be looked for externally. 
+If you have boost 1.56+ this skipping you are ok to skip boost building. 
+Use the option `-DKICAD_SKIP_BOOST=ON` when cmake'ing.
+
+Anyone using older versions of boost when building will experience various bugs usually 
+in the form of geometry errors.
+
+== Linux
+
+=== Radeon Graphics
+
+Some users with Radeon graphics have been experiencing problems with
+slow rendering in gerbview and eeschema.
+https://bugs.launchpad.net/kicad/+bug/1003859[Some]
+https://bugs.launchpad.net/kicad/+bug/1186813[bugs] have been opened related to Radeon cards.
+The solution seems to be require changing an Xorg setting which is `Option "EXAPixmaps" "off"`.
+
+=== wxGTK 3.0.1
+
+Version 3.0.1 of wxWidgets for Linux (with GTK) can crash when running
+DRC. This is an issue not seen in wxGTK 3.0.2, so it seems to be fixed
+upstream. More details can be found in
+link:https://bugs.launchpad.net/kicad/+bug/1442909[Bug# 1442909].
+
+== Windows
+=== wxWidgets 3.0.2
+
+Mirror printing can be broken because of a bug in wxWidgets version 3.0.2, 
+see link:https://bugs.launchpad.net/kicad/+bug/1463406[Bug# 1463406].
+
+== OSX
+=== Poor performance on Retina displays
+
+On OS X machines with the new retina display (aka. HiDPI display) you
+might have trouble with rendering lag because of the high resolution.
+The rendering speed can be improved by adjusting the KiCad.app startup
+options to force low resolution. You can do that by setting the "Open
+in Low Resolution" checkbox in the app "Get Info" dialog. For a step
+by step description refer to the "*I'm noticing functional or visual
+issues with an application. How can I make it work better?*" section in
+the https://support.apple.com/en-is/HT202471[OS X support article].
+

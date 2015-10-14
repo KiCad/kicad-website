@@ -1,9 +1,11 @@
 +++
 title = "OS X"
+iconhtml = "<div><i class='fa fa-apple'></i></div>"
+weight = 2
 +++
 
 === Recent Builds
-Nightly builds of KiCad for OS X are available on http://downloads.kicad-pcb.org/osx/, built by Adam Wolf.
+Nightly builds of KiCad for OS X are available on http://downloads.kicad-pcb.org/osx/, built by Adam Wolf.  KiCad is supported on OS X 10.7 through OS X 10.11.
 
 These are the "nightly" builds.  This means they are snapshots of the codebase at that time, and may contain even more bugs than usual, although we try our best.
 

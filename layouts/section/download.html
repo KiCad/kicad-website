@@ -1,0 +1,50 @@
+{{ $.Scratch.Add "additional_head_tags" "<link href=\"/fonts/font-linux.css\" rel=\"stylesheet\">" }}
+{{ partial "header.html" . }}
+
+<style>
+.download-os {
+	text-align: center;
+}
+.download-os a {
+	text-decoration: none;
+	display: block;
+}
+.download-os div {
+	font-size: 80px;
+}
+</style>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2">
+			{{ partial "breadcrumb.html" . }}
+
+			<div class="page-heading">
+				<h1>{{ .Title }}</h1>
+			</div>
+			<p>
+				A new release candidate has been announced for KiCad, called KiCad 4.0.0 RC1, <a href="http://kicad-pcb.org/post/2015-release-candidate/">see the announcement on the blog</a>. Details on the availability for your platform can be seen for each of the platforms below.
+			</p>
+			<h3>Select your operating system or distribution</h3>
+			<div class="row">
+				<ul class="col-xs-12">
+					{{ range .Data.Pages }}
+						<li class="list-group-item col-md-4 col-xs-12 col-sm-6 download-os">
+							<a href="{{ .RelPermalink }}">
+								{{ .Params.iconhtml | safeHTML }}
+								{{ .Title }}
+							</a>
+						 </li>
+					{{end}}
+				</ul>
+			</div>
+
+			<h3>My operating system or distribution isn't listed!</h3>
+			<p>
+				KiCad is an open source project, download instructions above are provided by the community.
+				If you'd like to provide builds for your operating system or distribution, please submit a <a href="https://github.com/KiCad/kicad-website">pull request.</a>
+			</p>
+		</div>
+	</div>
+</div>
+
+{{ partial "footer.html" . }}

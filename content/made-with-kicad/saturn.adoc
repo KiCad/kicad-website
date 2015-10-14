@@ -1,0 +1,14 @@
++++
+title = "Saturn"
+projectimage = "/img/madewithkicad/Saturn.jpg"
+projectdeveloper = "Numato"
+projecturl = "http://numato.cc/content/saturn-another-attempt-make-open-source-spartan-6-fpga-board-ddr-sdram"
++++
+
+Saturn is an easy to use FPGA Development board featuring Xilinx Spartan-6 FPGA.
+Saturn is specially designed for experimenting and learning system design with FPGAs.
+
+This development board features Xilinx XC6SLX series FPGA with FTDI's FT2232H
+Dual-Channel USB device. The high speed USB 2.0 interface provides fast and easy
+configuration download to the on-board SPI flash. No programmer or special downloader
+cable is needed to download the bit stream to the board.

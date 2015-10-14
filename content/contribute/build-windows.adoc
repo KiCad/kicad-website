@@ -1,6 +1,9 @@
-= KiCad developers
++++
+title = "Building KiCad on Windows"
++++
 
-== Building KiCad on Windows
+:icons: fonts
+:iconsdir: /img/icons/
 
 Instructions to build KiCad on Window can be found 
 directly from the 
@@ -12,7 +15,7 @@ Also an easy way is to use the
 link:http://sourceforge.net/projects/msys2/[MSYS2]
 environment, instructions below.
 
-=== Using MSYS2 to build on windows
+== Using MSYS2 to build on windows
 ****
 1. Get link:https://msys2.github.io/[MSYS2]
 
@@ -32,20 +35,20 @@ environment, instructions below.
 
 7. `makepkg-mingw -sLi`
 ****
-The -i option is to install after build.
+The `-i` option is to install after build.
 Repeat step 7 to update your installation. +
 Also in step 4, you don't need to do install
-the 'x86_64' toolchain, you can also use the
-'i686' toolchain if your system is not 64 bit.
+the `x86_64` toolchain, you can also use the
+`i686` toolchain if your system is not 64 bit.
 Follow all the steps mentioned above, when this
 is completed succesfully you can jump to the
 next section.
 
-=== Developer way
+== Developer way
 
 This section asumes that you have set up your
 MSYS2 environment as described in the steps
-above. Using 'makepkg-mingw' will build a
+above. Using `makepkg-mingw` will build a
 pacman package, but if you are trying to
 develop on KiCad that is likely not what you
 want. +

@@ -1,5 +1,5 @@
 /*!
- * KiCAD Website CSS
+ * KiCad Website CSS
  * Based on
  * Clean Blog v1.0.0 (http://startbootstrap.com)
  * Copyright 2014 Start Bootstrap
@@ -7,12 +7,12 @@
  */
 body {
     font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     color: #404040;
 }
 p {
     line-height: 1.5;
-    margin: 30px 0;
+    margin: 15px 0;
 }
 
 li p {
@@ -25,11 +25,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 800;
+    font-weight: 600;
 }
-a { color: #404040 }
+a { color: #525252 }
 a:hover,
 a:focus { color: #0085a1 }
+.side-links .active a {
+    color: white;
+}
 .thumbnail img:hover,
 .thumbnail img:focus { cursor: zoom-in }
 blockquote {
@@ -37,8 +40,8 @@ blockquote {
     font-style: italic;
 }
 hr.small {
-    max-width: 100px;
-    margin: 15px auto;
+    width: 100px;
+    margin: 5px auto;
     border-width: 4px;
     border-color: #fff;
 }
@@ -89,6 +92,14 @@ hr.small {
         max-width: 100px;
 		margin-top: -13px;
     }
+	
+	*[id]:before { 
+		display: block; 
+		content: " "; 
+		margin-top: -75px; 
+		height: 75px; 
+		visibility: hidden; 
+	}
 }
 
 @media only screen and (min-width:1170px) { 
@@ -145,7 +156,7 @@ hr.small {
 @media only screen and (min-width:768px) { 
     .intro-header .site-heading,
     .intro-header .post-heading,
-    .intro-header .page-heading { padding: 150px 0 }
+    .intro-header .page-heading { padding: 110px 0 }
 }
 .intro-header .site-heading,
 .intro-header .page-heading { text-align: center }
@@ -153,29 +164,16 @@ hr.small {
 .intro-header .page-heading h1 {
     margin-top: 0;
     font-size: 50px;
-}
-.intro-header .site-heading .subheading,
-.intro-header .page-heading .subheading {
-    font-size: 24px;
-    line-height: 1.1;
-    display: block;
-    font-weight: 300;
-    margin: 10px 0 0;
+	font-weight:700;
 }
 @media only screen and (min-width:768px) { 
     .intro-header .site-heading h1,
     .intro-header .page-heading h1 { font-size: 80px }
 }
 .intro-header .post-heading h1 { font-size: 35px }
-.intro-header .post-heading .subheading,
 .intro-header .post-heading .meta {
     line-height: 1.1;
     display: block;
-}
-.intro-header .post-heading .subheading {
-    font-size: 24px;
-    margin: 10px 0 30px;
-    font-weight: 600;
 }
 .intro-header .post-heading .meta {
     font-style: italic;
@@ -185,10 +183,12 @@ hr.small {
 .intro-header .post-heading .meta a { color: #fff }
 @media only screen and (min-width:768px) { 
     .intro-header .post-heading h1 { font-size: 55px }
-    .intro-header .post-heading .subheading { font-size: 30px }
 }
-.content-section-a, content-section-b { /*index.html*/
+.content-section-a, .content-section-b { /*index.html*/
     text-align: justify;
+}
+.post-preview-intro {
+    font-style: italic;
 }
 .post-preview>a { color: #404040 }
 .post-preview>a:hover,
@@ -196,36 +196,34 @@ hr.small {
     text-decoration: none;
     color: #0085a1;
 }
-.post-preview>a>.post-title {
+.post-preview h2 {
     font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
-.post-preview>a>.post-subtitle {
-    margin: 0;
-    font-weight: 300;
-    margin-bottom: 10px;
+.post-full h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
 }
-.post-preview>.post-meta {
-    color: #404040;
-    font-size: 18px;
+.post-meta {
+    text-align: right;
     font-style: italic;
-    margin-top: 0;
+    color: #888;
 }
-.post-preview>.post-meta>a {
-    text-decoration: none;
-    color: #404040;
+.post-preview .post-summary {
+    text-align: justify;
+    margin-bottom: 5px;
 }
-.post-preview>.post-meta>a:hover,
-.post-preview>.post-meta>a:focus {
-    color: #0085a1;
+.post-full p {
+    text-align: justify;
+}
+header .post-full {
+    margin-bottom: -10px;
+}
+.post-preview .readmore a {
     text-decoration: underline;
 }
-@media only screen and (min-width:768px) { 
-    .post-preview>a>.post-title { font-size: 36px }
-}
 .section-heading {
-    font-size: 36px;
     margin-top: 0px;
     font-weight: 700;
 }
@@ -240,7 +238,7 @@ hr.small {
     border-bottom-left-radius: 5px;
 }
 footer { 
-	background-color: #EFEFEF;
+	background-color: #333537;
 }
 footer .list-inline {
     margin: 0;
@@ -324,6 +322,7 @@ table p {
 /* Override bootstrap default */
 .lead {
 	font-weight: normal;
+	font-size:18px;
 }
 
 .page-header-decor {
@@ -348,4 +347,19 @@ table p {
     padding-right: 1.25em;
     border-left: 1px solid #ddddd8;
     color: rgba(0,0,0,.6);
+}
+
+/* side bar adjustment */
+nav.secondary .list-group-item {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	padding: 4px 5px;
+}
+nav.secondary a {
+    display: block;
+}
+
+/* download page specifics */
+.download-sidebar div { /* font-awesome icon */
+    display: inline;
 }

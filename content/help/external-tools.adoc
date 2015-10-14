@@ -10,16 +10,17 @@ This is a list of user made tools that do stuff with or for KiCad.
 
 == Footprint generators
 
-- http://kicad.rohrbacher.net/quicklib.php[Quick KICAD Library Component Builder]
+- http://kicad.rohrbacher.net/quicklib.php[Quick KiCad Library Component Builder]
 - http://www.compuphase.com/electronics/kicadlibrarian_en.htm[KiCad Librarian]
 - http://www.cyclerecorder.org/footprintbuilder/[CycleRecorder's footprint builder]
 - http://madparts.org/footprint.html[Madparts footprint editor]
 
 == Miscellaneous Tools
 
-- http://kicad3dmodels.sourceforge.net/[KiCad 3D Models generator]
+- http://cbernardo.github.io/kicad3Dmodels/[KiCad 3D Models generator]
 - http://mondalaci.github.io/dxf2svg2kicad/[dxf2svg2kicad — DXF to SVG to KICAD_PCB converter]
 - http://mayhewlabs.com/3dpcb[Mayhew Labs' 3D Gerber Viewer]
-- http://sourceforge.net/projects/kicadstepup/[Maurice's kicadStepUp, which allows exporting kicad 3D board and components to STEP AP214]
+- http://sourceforge.net/projects/kicadstepup/[Maurice's kicadStepUp, which allows exporting KiCad 3D board and components to STEP AP214]
 - https://github.com/xesscorp/KiCost[KiCost a script for generating part-cost spreadsheets for circuit boards developed with KiCad]
-
+- https://sourceforge.net/projects/eaglepcb2freecad/[FreeCAD PCB is a plugin for FreeCAD that can import a KiCad board files directly and assign 3D models(step) to all components. Plus many handy functions related to mechanical integration of PCB's]
+- http://en.wikibooks.org/wiki/Kicad/Autorouter[FreeRouting is an autorouter often used with KiCad]

@@ -1,0 +1,52 @@
+{{ partial "header.html" . }}
+
+{{ $currentNode := . }}
+{{ .Scratch.Set "sidemenu" false }}
+{{ .Scratch.Set "sidemenu_section" "discover" }}
+{{ range .Site.Menus.main }}
+	{{ if eq "discover" (.Name | lower) }}
+		{{ if .HasChildren }}
+			{{ $currentNode.Scratch.Set "sidemenu" true }}
+		{{ end }}
+	{{ end }}
+{{ end }}
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 {{ if .Scratch.Get "sidemenu" }}col-md-10 col-sm-9{{ else }}col-sm-12{{ end }}">
+			{{ partial "breadcrumb.html" . }}
+
+			<div class="page-heading">
+				<h1>{{ replace .Title "-" " " }}</h1>
+				These are some KiCad designed projects that have been made by users. If you want to
+				be featured along the other showcases on this page please submit a pull request
+				<a href="https://github.com/KiCad/kicad-website">on GitHub</a>.
+			</div>
+
+			{{ $paginator := .Paginate (where .Site.Pages "Section" "made-with-kicad") }}
+			{{ template "_internal/pagination.html" . }}
+			<hr />
+			<div class="row">
+				{{ range $paginator.Pages }}
+					<div class="row">
+						<div class="col-md-5">
+							<img class="img-responsive" src="{{ .Params.projectimage }}">
+						</div>
+						<div class="col-md-7">
+							<h3>{{ .Title }}</h3>
+							<h4>{{ .Params.projectdeveloper }}</h4>
+							<p>{{ .Content }}</p>
+							<a class="btn btn-primary" href="{{ .Params.projecturl }}">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+						</div>
+					</div>
+					<hr />
+				{{ end }}
+			</div>
+			{{ template "_internal/pagination.html" . }}
+		</div>
+
+		{{ partial "sidebar.html" . }}
+	</div>
+</div>
+
+{{ partial "footer.html" . }}

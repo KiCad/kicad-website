@@ -1,22 +1,28 @@
 {{ partial "header.html" . }}
 
-<!-- Main Content -->
+{{ .Scratch.Set "sidemenu" false }}
+
 <div class="container">
-	<div class="page-heading">
-		<h1>{{ title .Title }}</h1>
-		<hr class="small">
-		<span class="subheading">{{ title .Description }}</span>
-	</div>
 	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-			<ul class="nav ">
-				{{ range .Paginator.Pages }}
-				<li>
-					<a href="{{ .Permalink }}">{{ .Title }}</a>
-				</li>
-				{{ end }}
-				{{ template "_internal/pagination.html" . }}
-			</ul>
+		<div class="col-lg-8 col-lg-offset-2 {{ if .Scratch.Get "sidemenu" }}col-md-10 col-sm-9{{ else }}col-sm-12{{ end }}">
+			{{ partial "breadcrumb.html" . }}
+
+			<div class="page-heading">
+				<h1>{{ title .Title }}</h1>
+			</div>
+
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<ul class="nav ">
+						{{ range .Paginator.Pages }}
+						<li>
+							<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+						</li>
+						{{ end }}
+						{{ template "_internal/pagination.html" . }}
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

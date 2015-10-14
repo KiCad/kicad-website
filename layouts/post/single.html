@@ -1,0 +1,24 @@
+{{ partial "header.html" .}}
+
+{{ .Scratch.Set "sidemenu" false }}
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 {{ if .Scratch.Get "sidemenu" }}col-md-10 col-sm-9{{ else }}col-sm-12{{ end }} post-full">
+      {{ partial "breadcrumb.html" . }}
+      <header>
+        <h1>{{ title .Title }}</h1>
+        <div class="post-meta">{{ dateFormat .Site.Params.DateForm .Date }}</div>
+      </header>
+
+      <article>
+        {{ .Content }}
+        <p>
+          <a href="/post/"><span class="fa fa-arrow-left"></span> Back</a>
+        </p>
+      </article>
+    </div>
+  </div>
+</div>
+
+{{ partial "footer.html" .}}

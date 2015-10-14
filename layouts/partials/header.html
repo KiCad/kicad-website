@@ -6,10 +6,31 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>{{ .Title }} {{if ne .Site.Title .Title }}| {{ .Site.Title }} {{ end }}</title>
+    <meta name="description" content="KiCad is an open source EDA software for Windows, OSX and Linux. Create PCB circuits for free with the most advanced features.">
+    
+    <!-- Generated with http://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="apple-mobile-web-app-title" content="KiCad Website">
+    <meta name="application-name" content="KiCad Website">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--- youtube channel verification --->
+    <meta name="google-site-verification" content="vRQHg4jXocsgn500MPK-VlG6XFw9YjJvEhRJDUStiyk" />
+    
+    <title>{{ replace .Title "-" " " }}{{if ne .Site.Title .Title }} | {{ .Site.Title }} {{ end }}</title>
 
     {{ if .RSSlink }}
     <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
@@ -17,22 +38,22 @@
     {{ end }}
 
     <!-- Bootstrap Core CSS -->
-    <link href="{{ .Site.BaseURL }}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="{{ .Site.BaseURL }}/css/kicad.css" rel="stylesheet">
+    <link href="/css/kicad.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300,300italic,400italic,700italic,800italic' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300,300italic,400italic,700italic,800italic" rel="stylesheet" type="text/css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="//cdn.rawgit.com/Lukas-W/font-linux/v0.1/assets/font-linux.css" rel="stylesheet">
+    {{ if $.Scratch.Get "additional_head_tags" }}{{ $.Scratch.Get "additional_head_tags" | safeHTML }}{{ end }}
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+    {{ "<!--[if lt IE 9]>" | safeHTML }}
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    {{ "<![endif]-->" | safeHTML }}
 
 </head>
 
@@ -40,7 +61,7 @@
 
     <!-- Navigation -->
 	<!--- next version of hugo adds .IsHome the if statement can be simplified after 0.15 is released -->
-    <nav class="navbar navbar-default navbar-custom navbar-fixed-top {{ if eq (add .Site.BaseURL "/") (add .Permalink "/") }}transparent{{ end }}">
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top {{ if eq .URL "/" }}transparent{{ end }}">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -51,7 +72,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="/">
-                <img src="{{ .Site.BaseURL }}/img/kicad_logo_small.png" alt="{{ .Site.Title }}">
+                <img src="/img/kicad_logo_small.png" alt="{{ .Site.Title }}">
                 </a>
             </div>
 
@@ -59,9 +80,9 @@
         </div>
         <!-- /.container -->
     </nav>
-	
-	<!--- next version of hugo adds .IsHome the if statement can be simplified after 0.15 is released -->
-{{ if eq (add .Site.BaseURL "/") (add .Permalink "/") }}
+    
+<!--- next version of hugo adds .IsHome the if statement can be simplified after 0.15 is released -->
+{{ if eq .URL "/" }}
 {{else}}
     <header class="intro-header page-header-decor">
     </header>
