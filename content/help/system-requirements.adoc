@@ -19,18 +19,19 @@ toc::[]
 
 - Up to 5GB available hard disk space;
 
-- 1280x1024 resolution (higher resolution recommended), with at least 16K colors.
+- Screen resolution of 1024x768 works but, 1280x1024 or higher is recommended,
+  with at least 16K colors (with 1024x768 some buttons on pcbnew may be
+  hidden but commands are reachable via menu anyway).
 
 - Graphic card with at least OpenGL 2.1, with hardware shaders. Check
   the opengl specs of the card:
-  - Intel: No cards that came before the HD-Graphics, regardless of the wording HD.
+  - Intel: no cards that came before the HD-Graphics series, regardless of the wording HD.
     Intel cards that are reported working starts from model HD2000 and higher.
-  - NVidia: from NVIDIA support page: http://www.nvidia.com/object/nv_ogl2_support.html
+  - NVIDIA: from NVIDIA support page: http://www.nvidia.com/object/nv_ogl2_support.html
     NVIDIA support for OpenGL 2.0 begins with the Release 75 series of drivers.
     GeForce FX (NV3x), GeForce 6 Series (NV4x), NV3xGL-based Quadro FX and NV4xGL-based
     Quadro FX GPUs, and all future NVIDIA GPUs support OpenGL 2.0.
-  - Ati: should work any modern Radeon chip even in the APU (GPU in the main processor),
-    but check for some issues here:
+  - AMD/ATI: should work any modern Radeon GPU, but check for some issues here:
     http://kicad-pcb.org/help/known-system-related-issues/#_bad_graphics_cards
 
 == Common System Requirements (software specs):
