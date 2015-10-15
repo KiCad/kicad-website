@@ -17,11 +17,11 @@ toc::[]
 
 - 512 MB RAM (1024 MB RAM recommended);
 
-- Up to 500 MB available hard disk space;
+- Up to 5GB available hard disk space;
 
 - 1280x1024 resolution (higher resolution recommended), with at least 16K colors.
 
-- Graphic card with at least OpenGL 2.0, with hardware shaders. Check
+- Graphic card with at least OpenGL 2.1, with hardware shaders. Check
   the opengl specs of the card:
   - Intel: No cards that came before the HD-Graphics, regardless of the wording HD.
     Intel cards that are reported working starts from model HD2000 and higher.
