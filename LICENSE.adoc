@@ -1,0 +1,10 @@
+
+The kicad-website repository is dual licensed. 
+You may distribute it and/or modify it under the terms of either
+the GNU General Public License (http://www.gnu.org/licenses/gpl.html),
+version 3 or later, or the Creative Commons Attribution License
+(http://creativecommons.org/licenses/by/3.0/), version 3.0 or later.
+
+include::/content/about/licenses/gplv3.adoc[title="GPLv3"]
+
+include::/content/about/licenses/cc-by-3.0.adoc[title="Creative Commons Attribution License 3.0"]
