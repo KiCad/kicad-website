@@ -13,31 +13,30 @@ toc::[]
 
 == Common System Requirements (hardware specs):
 
-- Pentium-compatible PC (Pentium IV, Athlon or more-recent system recommended);
+* Pentium-compatible PC (Pentium IV, Athlon or more-recent system recommended);
 
-- 512 MB RAM (1024 MB RAM recommended);
+* 512 MB RAM (1024 MB RAM recommended);
 
-- Up to 5GB available hard disk space;
+* Up to 5GB available hard disk space;
 
-- Screen resolution of 1024x768 works but, 1280x1024 or higher is recommended,
-  with at least 16K colors (with 1024x768 some buttons on pcbnew may be
-  hidden but commands are reachable via menu anyway).
+* Screen resolution of 1024x768 works but, 1280x1024 or higher is recommended,
+  with at least 16K colors (with 1024x768 some buttons may result hidden but
+  corresponding commands should be reachable via menu anyway).
 
-- Graphic card with at least OpenGL 2.1, with hardware shaders. Check
+* Graphic card with at least OpenGL 2.1, with hardware shaders. Check
   the opengl specs of the card:
-  - Intel: no cards that came before the HD-Graphics series, regardless of the wording HD.
-    Intel cards that are reported working starts from model HD2000 and higher.
-  - NVIDIA: from NVIDIA support page: http://www.nvidia.com/object/nv_ogl2_support.html
-    NVIDIA support for OpenGL 2.0 begins with the Release 75 series of drivers.
-    GeForce FX (NV3x), GeForce 6 Series (NV4x), NV3xGL-based Quadro FX and NV4xGL-based
-    Quadro FX GPUs, and all future NVIDIA GPUs support OpenGL 2.0.
-  - AMD/ATI: should work any modern Radeon GPU, but check for some issues here:
-    http://kicad-pcb.org/help/known-system-related-issues/#_bad_graphics_cards
+** Intel: no cards that came before the HD-Graphics series, regardless of the wording HD.
+   Intel cards that are reported working starts from model HD2000 and higher.
+** NVIDIA: from NVIDIA support page: http://www.nvidia.com/object/nv_ogl2_support.html
+   NVIDIA support for OpenGL 2.0 begins with the Release 75 series of drivers.
+   GeForce FX (NV3x), GeForce 6 Series (NV4x), NV3xGL-based Quadro FX and NV4xGL-based
+   Quadro FX GPUs, and all future NVIDIA GPUs support OpenGL 2.0.
+** AMD/ATI: should work any modern Radeon GPU, but check for some issues here:
+   http://kicad-pcb.org/help/known-system-related-issues/#_bad_graphics_cards
 
 == Common System Requirements (software specs):
 
-- See: http://kicad-pcb.org/help/known-system-related-issues/ for
-  software specific issues.
+See: http://kicad-pcb.org/help/known-system-related-issues/ for software specific issues.
 
 == Specific System Requirements
 
