@@ -1,0 +1,10 @@
++++
+title = "CSEduino v4"
+projectimage = "/img/madewithkicad/cseduinov4_3d.jpg"
+projectdeveloper = "Joao Alves"
+projecturl = "https://jpralves.net/cseduino/
+"
++++
+
+CSEduino is the answer to a very low cost DIY Arduino like board.
+This version has a 2-layer pcb created with kicad. 
