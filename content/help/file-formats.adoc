@@ -96,7 +96,7 @@ link:http://www.freerouting.net/[FreeRouting]).
 
 === Other formats used by the KiCad project
 
-* `.pdf`: All the help documentation intended to be read by KiCad users is in "'.pdf'" format.
+* `.pdf`: All the help documentation intended to be read by KiCad users is in `.pdf` format.
 
 * EDIF (_Electronic Design Interchange Format_) netlist format.
 link:https://en.wikipedia.org/wiki/EDIF[Wikipedia]
@@ -105,3 +105,6 @@ link:https://en.wikipedia.org/wiki/EDIF[Wikipedia]
 good format for posting a section of a schematic (or a section of a PCB layout) to a web page, so people can see it immediately
 in a web browser without manually "downloading" or "installing" anything.
       
+* `.html` The text on the KiCad website is in HTML 5.
+
+* `.adoc`: All those `.pdf` files and `.html` files are automatically generated from source files in link:http://www.methods.co.nz/asciidoc/[AsciiDoc format]. We switched from `.odt` format to `.adoc` on 2015-02-09 because a link:http://en.wikipedia.org/wiki/Lightweight_markup_language[lightweight markup language] is easy to update with a wider variety of editing tools, and then much easier for our translators to see what changed and make corresponding improvements in other languages.
