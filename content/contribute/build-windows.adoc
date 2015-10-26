@@ -67,6 +67,6 @@ developement, you might also want to add
 `-DCMAKE_BUILD_TYPE=Debug` cmake option.
 
 If you build for mingw32, then change the
-OPENSSL_ROOT_DIR accordingly. If you want
+`OPENSSL_ROOT_DIR` accordingly. If you want
 to make the mingw shell auto detect it
 replace it with `"/${MSYSTEM,,}"`.
