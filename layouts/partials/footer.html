@@ -1,31 +1,35 @@
 
     <!-- Footer -->
-    <footer> 
+    <footer>
 		<hr>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                  <ul class="list-inline text-center">
-                    <li>
-                      <a href="{{ .Site.Params.Forum }}">
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle fa-stack-2x"></i>
-                          <i class="fa fa-comments-o fa-stack-1x fa-inverse"></i>
-                        </span>
-                      </a>
-                    </li>
-                    {{ range .Site.Params.social }}
-                    <li>
-                      <a href="{{ .url }}">
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle fa-stack-2x"></i>
-                          <i class="fa fa-{{ .title }} fa-stack-1x fa-inverse"></i>
-                        </span>
-                      </a>
-                    </li>
-                    {{ end }}
-                  </ul>
-                  <p class="copyright text-muted">{{ .Site.Copyright }}</p>
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="{{ .Site.Params.Forum }}">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-comments-o fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        {{ range .Site.Params.social }}
+                        <li>
+                            <a href="{{ .url }}">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-{{ .title }} fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                    <p class="copyright text-muted">{{ .Site.Copyright }} Unless otherwise stated, all texted and images on this website are licensed under either a choice of the
+                    <a href="/about/licenses/#_creative_commons_attribution_3_0_unported">Creative Commons Attributions License</a>, version 3.0 or later;
+                    or the <a href="/about/licenses/#_gnu_general_public_license_v3">General Public License version</a> 3 or later. This does not include
+                    the KiCad source code and the other various other project components.
+                    </p>
                 </div>
             </div>
         </div>
