@@ -55,9 +55,12 @@ must meet one of the requirements below:
 *Preferred:* The entire project should be made available for download and
 KiCad should be mentioned on the project website.
 
-==== Commercial Products:
+==== Proprietary Projects/Products:
 
-*Minimum:* KiCad mentioned on product website or donations made to project.
+Proprietary projects or products have a choice one these requirements:
 
-Commercial products should directly mention that KiCad was used design the product
-or the company has donated to KiCad.
+- Directly mention that KiCad was used to design the product
+- The project owner has contributed code to KiCad (i.e. developers submitted
+patches on behalf of a company), the developers with contribution history
+ must submit the pull request to add to "made with kicad" entry.
+- The project owner has donated to KiCad via CERN.
