@@ -57,7 +57,7 @@ KiCad should be mentioned on the project website.
 
 ==== Proprietary Projects/Products:
 
-Proprietary projects or products have a choice one of these criteria:
+Proprietary projects or products have a choice of one of these criteria:
 
 - Directly mention that KiCad was used to design the product
 - The project owner has contributed code to KiCad (i.e. developers submitted
