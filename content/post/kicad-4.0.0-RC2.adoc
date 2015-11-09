@@ -12,10 +12,11 @@ the second release candidate, *4.0.0 RC2*].
 Since the previous release candidate 115 commits have been made to
 fix bugs reported by users and developers alike.
 
-The 4.0 branch can be found here:
+The 4.0 source code branch is available in the BZR repository on
+launchpad here:
 link:https://code.launchpad.net/~stambaughw/kicad/4.0[KiCad 4.0 Branch]
 
-The RC2 branch has been packaged as a archive available here:
+The RC2 branch has been packaged as a source archive available here:
 link:https://launchpad.net/kicad/4.0/4.0.0-rc2/+download/kicad-4.0.0-rc2.tar.xz[KiCad
 4.0.0 RC2 Archive]
 
