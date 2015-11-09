@@ -1,5 +1,5 @@
 +++
-title = "KiCad RC2"
+title = "KiCad 4.0.0 RC2"
 date = "2015-11-09"
 +++
 
@@ -10,7 +10,7 @@ link:https://lists.launchpad.net/kicad-developers/msg21192.html[announce
 the second release candidate, *4.0.0 RC2*].
 
 Since the previous release candidate 115 commits have been made to
-fix bugs reported by users.
+fix bugs reported by users and developers alike.
 
 The 4.0 branch can be found here:
 link:https://code.launchpad.net/~stambaughw/kicad/4.0[KiCad 4.0 Branch]
