@@ -8,13 +8,13 @@ weight = 2
 
 A pre-release "release candidate" is available for KiCad 4.0.0.
 
-Current Version: *4.0.0 RC1*
+Current Version: *4.0.0 RC2*
 
 This pre-release version is available at:
 
-link:http://downloads.kicad-pcb.org/windows/stable/kicad-product-4.0.0_rc1-x86_64.exe[Windows 64-bit (x86_64)]
+link:http://downloads.kicad-pcb.org/windows/stable/kicad-product-4.0.0_rc2-x86_64.exe[Windows 64-bit (x86_64)]
 
-link:http://downloads.kicad-pcb.org/windows/stable/kicad-product-4.0.0_rc1-i686.exe[Windows 32-bit (i686)]
+link:http://downloads.kicad-pcb.org/windows/stable/kicad-product-4.0.0_rc2-i686.exe[Windows 32-bit (i686)]
 
 === Recent Builds
 Builds of the latest source for testing can be found here:

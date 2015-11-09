@@ -1,0 +1,41 @@
++++
+title = "KiCad RC2"
+date = "2015-11-09"
++++
+
+Now, approximately two months after the
+link:http://kicad-pcb.org/post/2015-release-candidate/[first release
+candidate] we can now
+link:https://lists.launchpad.net/kicad-developers/msg21192.html[announce
+the second release candidate, *4.0.0 RC2*].
+
+Since the previous release candidate 115 commits have been made to
+fix bugs reported by users.
+
+The 4.0 branch can be found here:
+link:https://code.launchpad.net/~stambaughw/kicad/4.0[KiCad 4.0 Branch]
+
+The RC2 branch has been packaged as a archive available here:
+link:https://launchpad.net/kicad/4.0/4.0.0-rc2/+download/kicad-4.0.0-rc2.tar.xz[KiCad
+4.0.0 RC2 Archive]
+
+The latest GUI translations can be found in the 
+link:https://github.com/KiCad/kicad-i18n/[kicad-i18n]
+repository on github.
+
+They have not yet been tagged as a release yet, they are still some
+languages that are not 100% translated. No matter the state when the
+final release is made the translations will be tagged to make a
+release tarball.
+
+== Binaries
+
+In addition to the source code, the following binary downloads are available:
+
+ - link:/download/windows/[Windows]
+ - link:/downloaid/linux-mint/[Linux Mint (not yet available)]
+ - link:/download/ubuntu/[Ubuntu 14.04 and Ubuntu 15 (not yet
+	 available)]
+ 
+OSX and additional Linux packages are coming as soon as maintainers
+package them! Please check back at a later time.
