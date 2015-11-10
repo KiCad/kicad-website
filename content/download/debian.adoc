@@ -12,7 +12,7 @@ A pre-release "release candidate" is available for KiCad 4.0.0.
 
 Current Version: *4.0.0 RC1*
 
-This pre-release version is available in debian _sid_ (debian testing), so you can install it with these commands into a terminal:
+This pre-release version is available in debian _sid_ (debian unstable), so you can install it with these commands into a terminal:
 
 [source,bash]
 sudo apt-get update
