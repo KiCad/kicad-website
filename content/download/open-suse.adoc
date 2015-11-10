@@ -8,7 +8,7 @@ weight = 20
 
 A pre-release "release candidate" is available for KiCad 4.0.0.
 
-Current Version: *4.0.0 RC1*
+Current Version: *4.0.0 RC2*
 
 This pre-release version is available in the link:http://software.opensuse.org/download.html?project=electronics&package=kicad[opensuse electronics repository]. 
 See the link:https://build.opensuse.org/package/show/electronics/kicad[OBS page] for details.

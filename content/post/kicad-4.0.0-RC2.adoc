@@ -34,9 +34,10 @@ release tarball.
 In addition to the source code, the following binary downloads are available:
 
  - link:/download/windows/[Windows]
- - link:/downloaid/linux-mint/[Linux Mint (not yet available)]
- - link:/download/ubuntu/[Ubuntu 14.04 and Ubuntu 15 (not yet
-	 available)]
+ - link:/download/linux-mint/[Linux Mint]
+ - link:/download/ubuntu/[Ubuntu 14.04 and Ubuntu 15]
+ - link:/download/open-suse/[OpenSUSE]
+ - link:/download/debian/[Debian]
  
 OSX and additional Linux packages are coming as soon as maintainers
 package them! Please check back at a later time.

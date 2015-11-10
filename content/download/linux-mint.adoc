@@ -8,7 +8,7 @@ weight = 11
 
 A pre-release "release candidate" is available for KiCad 4.0.0.
 
-Current Version: *4.0.0 RC1*
+Current Version: *4.0.0 RC2*
 
 This pre-release version is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-4[js-reynaud's KiCad 4.0 PPA].
 
