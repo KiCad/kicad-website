@@ -7,7 +7,9 @@ weight = 20
 	
 === Recent Builds
 	
-Daily builds for Fedora are available via the copr build service.
+Daily builds for Fedora are available via the
+link:https://copr.fedoraproject.org/coprs/mangelajo/kicad/[copr build
+service].
 
 This build can be installed on fedora with:
 
