@@ -7,7 +7,8 @@ Now, approximately two months after the
 link:http://kicad-pcb.org/post/2015-release-candidate/[first release
 candidate] we can now
 link:https://lists.launchpad.net/kicad-developers/msg21192.html[announce
-the second release candidate, *4.0.0 RC2*].
+the second release candidate, *4.0.0 RC2*], this is *BZR 6303* from
+the product branch. 
 
 Since the previous release candidate 115 commits have been made to
 fix bugs reported by users and developers alike.
