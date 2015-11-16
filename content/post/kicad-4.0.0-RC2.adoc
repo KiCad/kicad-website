@@ -39,6 +39,7 @@ In addition to the source code, the following binary downloads are available:
  - link:/download/ubuntu/[Ubuntu 14.04 and Ubuntu 15]
  - link:/download/open-suse/[OpenSUSE]
  - link:/download/debian/[Debian]
+ - link:/download/osx/[OS X]
  
 OSX and additional Linux packages are coming as soon as maintainers
 package them! Please check back at a later time.
