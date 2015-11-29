@@ -8,7 +8,7 @@ We've just released the long-awaited stable version of KiCad, the developers ann
 
 KiCad binaries will be available for download for Windows, OSX and Linux as soon as the packagers get to it.
 
-== Changes Breif
+== Changes Brief
 
 As short summary between KiCad 4.0.0 and the so called old stable follows below:
 
@@ -24,12 +24,12 @@ As short summary between KiCad 4.0.0 and the so called old stable follows below:
 - Awesome/Advanced Push and Shove (PnS) router (only usable with GAL renderer)
 - Interactive differential trace routing and tuning
 - Interactive trace length tuning
-- Much more realistic and awesome 3D board rendering
+- Much more realistic 3D board rendering
 - Intelligent library search with preview in eeschema by Henner Zeller
 - Initial python api for Pcbnew
 
 
-=== Awesome infrastructure updates
+=== Infrastructure updates
 
 - New website :P
 - Continuous integration tools via Jenkins (http://ci.kicad-pcb.org )
@@ -50,4 +50,6 @@ As short summary between KiCad 4.0.0 and the so called old stable follows below:
 
 Symbols have changed size, been renamed etc- so you need to take care when working with older schematics if you used the symbols packaged with kicad
 + for diodes "pin1" is now K rather than A.
+
+
 
