@@ -1,20 +1,20 @@
 +++
-title = "2015 Stable Release is Out!"
+title = "KiCad 4.0.0 is Out!"
 date = "2015-11-29"
 draft = true
 +++
 
-We've just released the long-awaited stable version of KiCad, the developers announcement can be read on the link:https://lists.launchpad.net/kicad-developers/msg21441.html[mailing list archive].
+We've just released the long-awaited KiCad stable release, version 4.0.0! The announcement can be read on the link:https://lists.launchpad.net/kicad-developers/msg21441.html[developer's mailing list archive].
 
-KiCad binaries will be available for download for Windows, OSX and Linux as soon as the packagers get to it.
+KiCad binaries will be available for download for Windows, OSX and Linux in the near future.
 
 == Changes Brief
 
-As short summary between KiCad 4.0.0 and the so called old stable follows below:
+A short summary of updates between KiCad 4.0.0 and the so called old stable follows below:
 
 === Major Items
 
-- New graphics rendering backend GAL (OpenGL and Cairo) [does not yet support all legacy tools]
+- New graphics rendering backend GAL (OpenGL and Cairo) [currently pcbnew only and does not yet support all legacy tools]
 - New s-expression based pcb format (.kicad_pcb)
 - New footprint library format (.pretty folder with .kicad_mod footprints)
 - Updated footprint editor (only usable with GAL renderer)
@@ -25,14 +25,15 @@ As short summary between KiCad 4.0.0 and the so called old stable follows below:
 - Interactive differential trace routing and tuning
 - Interactive trace length tuning
 - Much more realistic 3D board rendering
-- Intelligent library search with preview in eeschema by Henner Zeller
+- Intelligent library search with preview in eeschema
 - Initial python api for Pcbnew
 
 
 === Infrastructure updates
 
-- New website :P
+- New website
 - Continuous integration tools via Jenkins (http://ci.kicad-pcb.org )
+- Nightly builds for windows, OS X, fedora, ubuntu, and openSUSE (see link:http://kicad-pcb.org/download/[downloads] for information)
 
 === Minor items
 
@@ -48,8 +49,9 @@ As short summary between KiCad 4.0.0 and the so called old stable follows below:
 
 == Note
 
-Symbols have changed size, been renamed etc- so you need to take care when working with older schematics if you used the symbols packaged with kicad
-+ for diodes "pin1" is now K rather than A.
+Symbols have changed size, been renamed, etc to follow the new KiCad library conventions so you need to take care when working with older schematics if you used the symbols packaged with KiCad.
+
+The new pcb format can not be loaded in older versions of KiCad.
 
 
 
