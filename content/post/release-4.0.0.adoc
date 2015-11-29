@@ -55,7 +55,7 @@ The new pcb format can not be loaded in older versions of KiCad.
 
 == List of all contributors
 
-This an complete list of all contributors who have submitted at least one patch since 18. May 2013 or in other words the old stable. We thank you for your contributions no matter how small.
+This an complete list of all contributors who have submitted at least one patch since 18th May 2013 or in other words the old stable. We thank you for your contributions no matter how small.
 
 - Andrew Zonenberg
 - Adam Wolf
