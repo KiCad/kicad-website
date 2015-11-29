@@ -1,7 +1,6 @@
 +++
 title = "KiCad 4.0.0 is Out!"
 date = "2015-11-29"
-draft = true
 +++
 
 We've just released the long-awaited KiCad stable release, version 4.0.0! The announcement can be read on the link:https://lists.launchpad.net/kicad-developers/msg21441.html[developer's mailing list archive].
@@ -27,7 +26,6 @@ A short summary of updates between KiCad 4.0.0 and the so called old stable foll
 - Much more realistic 3D board rendering
 - Intelligent library search with preview in eeschema
 - Initial python api for Pcbnew
-
 
 === Infrastructure updates
 
