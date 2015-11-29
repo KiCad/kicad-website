@@ -4,7 +4,7 @@ date = "2015-11-29"
 draft = true
 +++
 
-We've just released the long-awaited KiCad 4.0.0, the announcement can be read on the link:https://lists.launchpad.net/kicad-developers/msg21441.html[developer's mailing list archive].
+We've just released the long-awaited KiCad stable release, version 4.0.0! The announcement can be read on the link:https://lists.launchpad.net/kicad-developers/msg21441.html[developer's mailing list archive].
 
 KiCad binaries will be available for download for Windows, OSX and Linux in the near future.
 
