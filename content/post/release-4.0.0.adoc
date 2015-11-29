@@ -1,9 +1,53 @@
 +++
 title = "2015 Stable Release is Out!"
+date = "2015-11-29"
 draft = true
 +++
 
-We've just released the long-awaited stable version of KiCad. Download
-for Windows, OSX and Linux!
+We've just released the long-awaited stable version of KiCad, the developers announcement can be read on the link:https://lists.launchpad.net/kicad-developers/msg21441.html[mailing list archive].
 
-Joke aside, this has not yet happened, but will happen soon (tm).
+KiCad binaries will be available for download for Windows, OSX and Linux as soon as the packagers get to it.
+
+== Changes Breif
+
+As short summary between KiCad 4.0.0 and the so called old stable follows below:
+
+=== Major Items
+
+- New graphics rendering backend GAL (OpenGL and Cairo) [does not yet support all legacy tools]
+- New s-expression based pcb format (.kicad_pcb)
+- New footprint library format (.pretty folder with .kicad_mod footprints)
+- Updated footprint editor (only usable with GAL renderer)
+- More advance footprint manager concept called footprint library table (fp-lib-table)
+- Ability to download footprints on the fly from git repositories
+- Official libraries are now stored on github and regularly updated
+- Awesome/Advanced Push and Shove (PnS) router (only usable with GAL renderer)
+- Interactive differential trace routing and tuning
+- Interactive trace length tuning
+- Much more realistic and awesome 3D board rendering
+- Intelligent library search with preview in eeschema by Henner Zeller
+- Initial python api for Pcbnew
+
+
+=== Awesome infrastructure updates
+
+- New website :P
+- Continuous integration tools via Jenkins (http://ci.kicad-pcb.org )
+
+=== Minor items
+
+- Wording of many dialogs and errors has been improved
+- Some excessive dialogs have been removed
+- New icons for many tools
+- New schematic library browser
+- Docs now available in several different formats online (http://docs.kicad-pcb.org )
+- More intelligent component search in EESchema
+- Component rescue helper to identify when components have changed in EESchema and rescue the old version?
+- Undo limit default increased and now configurable
+
+
+== Note
+
+Symbols have changed size, been renamed etc- so you need to take care when working with older schematics if you used the symbols packaged with kicad
++ for diodes "pin1" is now K rather than A.
+
