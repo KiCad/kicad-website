@@ -17,7 +17,7 @@ A short summary of updates between KiCad 4.0.0 and the so called old stable foll
 - New s-expression based pcb format (.kicad_pcb)
 - New footprint library format (.pretty folder with .kicad_mod footprints)
 - Updated footprint editor (only usable with GAL renderer)
-- More advance footprint manager concept called footprint library table (fp-lib-table)
+- More advanced footprint manager concept called footprint library table (fp-lib-table)
 - Ability to download footprints on the fly from git repositories
 - Official libraries are now stored on github and regularly updated
 - Awesome/Advanced Push and Shove (PnS) router (only usable with GAL renderer)
@@ -25,7 +25,7 @@ A short summary of updates between KiCad 4.0.0 and the so called old stable foll
 - Interactive trace length tuning
 - Much more realistic 3D board rendering
 - Intelligent library search with preview in eeschema
-- Initial python api for Pcbnew
+- Initial Python api for Pcbnew
 
 === Infrastructure updates
 
@@ -41,7 +41,7 @@ A short summary of updates between KiCad 4.0.0 and the so called old stable foll
 - New schematic library browser
 - Docs now available in several different formats online (http://docs.kicad-pcb.org )
 - More intelligent component search in EESchema
-- Component rescue helper to identify when components have changed in EESchema and rescue the old version?
+- Component rescue helper to identify when components have changed in EESchema and rescue the old version
 - Undo limit default increased and now configurable
 
 
@@ -53,7 +53,7 @@ The new pcb format can not be loaded in older versions of KiCad.
 
 == List of all contributors
 
-This an complete list of all contributors who have submitted at least one patch since 18th May 2013 or in other words the old stable. We thank you for your contributions no matter how small.
+This is an complete list of all contributors who have submitted at least one patch since 18th May 2013 or in other words "the old stable." We thank you for your contributions no matter how small.
 
 - Andrew Zonenberg
 - Adam Wolf
