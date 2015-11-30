@@ -17,7 +17,7 @@ A short summary of updates between KiCad 4.0.0 and the so called old stable foll
 - New s-expression based pcb format (.kicad_pcb)
 - New footprint library format (.pretty folder with .kicad_mod footprints)
 - Updated footprint editor (only usable with GAL renderer)
-- More advance footprint manager concept called footprint library table (fp-lib-table)
+- More advanced footprint manager concept called footprint library table (fp-lib-table)
 - Ability to download footprints on the fly from git repositories
 - Official libraries are now stored on github and regularly updated
 - Awesome/Advanced Push and Shove (PnS) router (only usable with GAL renderer)
@@ -49,11 +49,11 @@ A short summary of updates between KiCad 4.0.0 and the so called old stable foll
 
 Symbols have changed size, been renamed, etc to follow the new KiCad library conventions so you need to take care when working with older schematics if you used the symbols packaged with KiCad.
 
-The new pcb format can not be loaded in older versions of KiCad.
+The new pcb format cannot be loaded in older versions of KiCad.
 
 == List of all contributors
 
-This an complete list of all contributors who have submitted at least one patch since 18th May 2013 or in other words the old stable. We thank you for your contributions no matter how small.
+This a complete list of all contributors who have submitted at least one patch since 18th May 2013 or in other words the old stable. We thank you for your contributions no matter how small.
 
 - Andrew Zonenberg
 - Adam Wolf
