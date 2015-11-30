@@ -15,7 +15,7 @@ http://en.wikipedia.org/wiki/Electronic_design_automation[Electronic Design Auto
 The programs handle http://en.wikipedia.org/wiki/Schematic_capture[Schematic Capture],
 and http://en.wikipedia.org/wiki/Printed_circuit_board[PCB] Layout with
 http://en.wikipedia.org/wiki/Gerber_format[Gerber] output. The suite runs on Windows, Linux and OS X
-and is licensed under http://en.wikipedia.org/wiki/GNU_General_Public_License[GNU GPL v2].
+and is licensed under http://en.wikipedia.org/wiki/GNU_General_Public_License[GNU GPL v3].
 
 The first release date was in 1992 by its original author, Jean-Pierre Charras,
 but is now currently under development by the https://launchpad.net/kicad[KiCad Developers Team].
