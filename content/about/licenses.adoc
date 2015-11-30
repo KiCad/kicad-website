@@ -13,15 +13,14 @@ toc::[]
 
 == KiCad
 
-KiCad is free software. KiCad is made available under the GNU General Public License(GPL) version 2 or greater.
+KiCad is free software. KiCad is made available under the GNU General Public License(GPL) version 3 or greater.
 
-There is no requirement to assign your copyright to anyone to get code included into KiCad. The only thing we do require is complying with the GPLv2+ license both in the code you may write and code you may import from others.
+There is no requirement to assign your copyright to anyone to get code included into KiCad. The only thing we do require is complying with the GPLv3+ license both in the code you may write and code you may import from others.
 
 == KiCad Documentation
 
 link:/help/documentation/[KiCad documentation] is distributed under a two license choice of either the GNU General Public License version 3 or later, or the Creative Commons Attribution License version 3.0 or later.
 
 == Licenses
-include::/content/about/licenses/gplv2.adoc[]
 include::/content/about/licenses/gplv3.adoc[]
 include::/content/about/licenses/cc-by-3.0.adoc[]
