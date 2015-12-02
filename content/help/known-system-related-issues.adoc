@@ -34,7 +34,7 @@ canvas does not really draw properly at all.
 
 There are a few older cards that seem to not behave properly with the
 OpenGL canvas used in the new GAL canvas. 
-The list below includes the faultly cards identified thus far:
+The list below includes the faulty cards identified thus far:
 
 - Intel Graphics Media Accelerator (GMA) 4500M / Windows 7 64bit / crash
 on startup (https://bugs.launchpad.net/kicad/+bug/1473786)
