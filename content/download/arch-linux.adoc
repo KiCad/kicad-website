@@ -4,8 +4,8 @@ iconhtml = "<div class='fl-archlinux'></div>"
 weight = 20
 +++
 
-=== Old Stable
-Old stable is available in `community/kicad`
+=== Stable Release
+KiCad 4.0.0 is available in `community/kicad`.
 
 === Build from Source
 A pkgbuild on https://aur.archlinux.org/packages/kicad-bzr/[aur/kicad-bzr] is available to build and install the latest development branch from source.
