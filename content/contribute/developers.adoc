@@ -145,7 +145,7 @@ following commands when you've finished developing a feature:
 
 There are a lot of people using the Git version control system and
 want to stay in their comfort-zone of using it instead of using Bazaar.
-This is no problem, don't feel alienated just because of a vcs!
+This is no problem, don't feel alienated just because of a VCS!
 Git can be used with the git-bzr adaptor.
 
 It is possible to hack on KiCad and use the git tools instead of bzr.
@@ -247,7 +247,7 @@ where you have to apply for membership to be able to send to it. Or you can atta
 
 === Translating GUI and Docs
 
-If you are the kind guy wanting to help improving kicad by internationalizing it, you should probably have a look at the 
+If you are the kind person wanting to help improving kicad by internationalizing it, you should probably have a look at the
 link:http://docs.kicad-pcb.org/en/gui_translation_howto.html[GUI translating howto]. +
 Also you are encouraged to contribute to the 
 link:/contribute/docs-team/[KiCad Documentation]
@@ -258,4 +258,4 @@ If you wish to contribute eeschema, pcbnew or 3dviewer libraries, please see the
 
 === Internet Relay Chat (_IRC_)
 
-Feel free to join the IRC channel at irc://irc.freenode.net/#kicad[#kicad@freenode]. A nice bunch of people are casually hanging around in there, so if you have any questions, that I don't know where to ask, you should try asking in here. There are all kinds of people in all kinds of time zones, people who patches KiCad and plain enthusiastic users.
+Feel free to join the IRC channel at irc://irc.freenode.net/#kicad[#kicad@freenode]. A nice bunch of people are casually hanging around in there, so if you have any questions, that I don't know where to ask, you should try asking in here. There are all kinds of people in all kinds of time zones, people who develop KiCad and plain enthusiastic users.
