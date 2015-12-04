@@ -11,7 +11,7 @@ weight = 50
 
 toc::[]
 
-== Common System Requirements (hardware specs):
+== Common System Requirements (hardware specs)
 
 * Pentium-compatible PC (Pentium IV, Athlon or more-recent system recommended);
 
@@ -24,7 +24,7 @@ toc::[]
   corresponding commands should be reachable via menu anyway).
 
 * Graphic card with at least OpenGL 2.1, with hardware shaders. Check
-  the opengl specs of the card:
+  the OpenGL specs of the card:
 ** Intel: no cards that came before the HD-Graphics series, regardless of the wording HD.
    Intel cards that are reported working starts from model HD2000 and higher.
 ** NVIDIA: from NVIDIA support page: http://www.nvidia.com/object/nv_ogl2_support.html
@@ -34,7 +34,7 @@ toc::[]
 ** AMD/ATI: should work any modern Radeon GPU, but check for some issues here:
    http://kicad-pcb.org/help/known-system-related-issues/#_bad_graphics_cards
 
-== Common System Requirements (software specs):
+== Common System Requirements (software specs)
 
 See: http://kicad-pcb.org/help/known-system-related-issues/ for software specific issues.
 
