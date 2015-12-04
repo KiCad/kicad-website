@@ -4,13 +4,9 @@ iconhtml = "<div class='fl-linuxmint'></div>"
 weight = 11
 +++
 
-=== 4.0.0 Pre-release
+=== 4.0.0 Stable Release
 
-A pre-release "release candidate" is available for KiCad 4.0.0.
-
-Current Version: *4.0.0 RC2*
-
-This pre-release version is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-4[js-reynaud's KiCad 4.0 PPA].
+KiCad 4.0.0 is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-4[js-reynaud's KiCad 4.0 PPA].
 
 To install KiCad via the PPA, you can use the Software Manager:
 
