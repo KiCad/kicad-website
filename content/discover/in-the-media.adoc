@@ -7,7 +7,7 @@ title = "In the Media"
 +++
 
 
-KiCad has been featured in the following plog posts, press and media.
+KiCad has been featured in the following blog posts, press and media.
 
 http://home.web.cern.ch/about/updates/2015/02/kicad-software-gets-cern-treatment[KiCad software gets the CERN treatment]
 
