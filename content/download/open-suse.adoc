@@ -4,8 +4,9 @@ iconhtml = "<div class='fl-opensuse'></div>"
 weight = 20
 +++
 
-=== Stable Release
-KiCad 4.0.0 (currently 4.0.0-rc1) is available in the link:http://software.opensuse.org/download.html?project=electronics&package=kicad[opensuse electronics repository]. 
+=== 4.0 Stable release
+
+KiCad 4.0.0 is available in the link:http://software.opensuse.org/download.html?project=electronics&package=kicad[opensuse electronics repository]. 
 See the link:https://build.opensuse.org/package/show/electronics/kicad[OBS page] for details.
 
 New KiCad packages do not have the _kicad-library_ subpackage. It is possible to use the built-in GUI downloader or the kicad-library-install.sh script from the _kicad-library-install_ subpackage.

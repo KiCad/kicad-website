@@ -1,0 +1,66 @@
+
+= Contributing
+
+== Adding new pages
+
+The desired format for new pages is asciidoc(.adoc) to keep inline
+with the KiCad documentation repository.  Do not use markdown even
+though that is hugo's preferred format.
+
+HTML pages are allowed if special formatting is required (i.e.
+downloads page).
+
+If the new page contains content that you cut out of some old page,
+make sure the old page includes a link to the new page.  We want
+people who bookmarked that old page to be able to find the content at
+the new page, because http://www.w3.org/Provider/Style/URI[Cool URIs
+don't change].
+
+There is a feature called aliases[http://gohugo.io/extras/aliases/] in
+hugo, but that feature is a bit broken in hugo 0.14. See the github
+issue; https://github.com/spf13/hugo/issues/701.
+
+We use a workaround that is creating the file and path in the static
+directory in stead, see for example the file in
+static/display/KICAD/External+Tools/index.html
+
+=== "Dynamic" content
+We are using a static site generator so we do not have the ability for
+scripted dynamic content.  Avoid having content that needs to be
+"frequently" updated unless you are volunteering to maintain it for
+the forseeable future. An example of "dynamic" content would be a list
+of "recent bugs".
+
+== Adding new images
+Ensure your images go into a folder in /static/img that makes sense.
+General stuff can stay in that folder. Grouped content such as
+screenshots, Made With KiCad, frontpage, etc should go into the
+respective folder (or make a new one). Try and keep image sizes
+reasonable. Use JPG instead of PNG if you must to get image file sizes down
+and if it makes sense.
+
+== Additional requirements
+
+Besides agreeing to the licensing and meeting the above guidelines, you must meet
+certain requirements for parts of the website.
+
+=== Made With KiCad
+If you wish to submit a project for the "Made with KiCad" section, the project
+must meet one of the requirements below:
+
+==== Open (by license) Hardware Projects:
+
+*Minimum:* The board file can be downloaded so that it can be modified.
+
+*Preferred:* The entire project should be made available for download and
+KiCad should be mentioned on the project website.
+
+==== Proprietary Projects/Products:
+
+Proprietary projects or products have a choice of one of these criteria:
+
+- Directly mention that KiCad was used to design the product
+- The project owner has contributed code to KiCad (i.e. developers submitted
+patches on behalf of a company), the developers with contribution history
+ must submit the pull request to add to "made with kicad" entry.
+- The project owner has donated to KiCad via CERN.

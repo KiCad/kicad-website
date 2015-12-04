@@ -4,8 +4,24 @@ iconhtml = "<div class='fl-debian'></div>"
 weight = 10
 +++
 
+https://packages.debian.org/sid/kicad
+
+=== 4.0.0 Pre-release
+
+A pre-release "release candidate" is available for KiCad 4.0.0.
+
+Current Version: *4.0.0 RC1*
+
+This pre-release version is available in debian _sid_ (debian unstable), so you can install it with these commands into a terminal:
+
+[source,bash]
+sudo apt-get update
+sudo apt-get install kicad
+
+Offline docs are available in seperate pacakges named for example `kicad-doc-en`.
+
 === Old Stable
-Old stable should be in the official Debian repo. 
+Old stable should be in the official Debian repos before sid.
 
 === Build from Source
-There exists a helper script, http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/view/head:/scripts/kicad-install.sh[kicad-install.sh], but is is deprecated by the developers.
+There exists a helper script, http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/view/head:/scripts/kicad-install.sh[kicad-install.sh], but is is deprecated by the developers. It is recommended to follow the instructions on http://kicad-pcb.org/contribute/build-linux/.

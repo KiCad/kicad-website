@@ -3,6 +3,14 @@ KiCad Website Source
 
 This the source for the new KiCad website, anno 2015.
 
+LICENSE
+=======
+
+The kicad-website repository is dual licensed. 
+You may distribute it and/or modify it under the terms of either
+the GNU General Public License (http://www.gnu.org/licenses/gpl.html),
+version 3 or later, or the Creative Commons Attribution License
+(http://creativecommons.org/licenses/by/3.0/), version 3.0 or later.
 
 == Prerequisites
 You will need these packages:
@@ -29,40 +37,5 @@ page is accessible in a browser.  The -w flag tells it to watch the
 filesystem for changes to rebuild automatically. Also, the page in the
 browser will autorefresh once the rebuild completes successfully.
 
-== Adding new pages
-
-The desired format for new pages is asciidoc(.adoc) to keep inline
-with the KiCad documentation repository.  Do not use markdown even
-though that is hugo's preferred format.
-
-HTML pages are allowed if special formatting is required (i.e.
-downloads page).
-
-If the new page contains content that you cut out of some old page,
-make sure the old page includes a link to the new page.  We want
-people who bookmarked that old page to be able to find the content at
-the new page, because http://www.w3.org/Provider/Style/URI[Cool URIs
-don't change].
-
-There is a feature called aliases[http://gohugo.io/extras/aliases/] in
-hugo, but that feature is a bit broken in hugo 0.14. See the github
-issue; https://github.com/spf13/hugo/issues/701.
-
-We use a workaround that is creating the file and path in the static
-directory in stead, see for example the file in
-static/display/KICAD/External+Tools/index.html
-
-== Adding images
-Ensure your images go into a folder in /static/img that makes sense.
-General stuff can stay in that folder. Grouped content such as
-screenshots, made with KiCad, frontpage, etc should go into the
-respective folder (or make a new one). Try and keep image sizes
-reasonable. Use JPG instead of PNG if you must to get image file sizes
-if it makes sense.
-
-== "Dynamic" content
-We are using a static site generator so we do not have the ability for
-scripted dynamic content.  Avoid having content that needs to be
-"frequently" updated unless you are volunteering to maintain it for
-the forseeable future. An example of "dynamic" content would be a list
-of "recent bugs".
+== Contributing
+Please read the link:CONTRIBUTING.adoc[CONTRIBUTING Guidelines]

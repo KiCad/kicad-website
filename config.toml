@@ -43,28 +43,35 @@ pluralizelisttitles = false
 [[menu.main]]
     name   = "Community"
     weight = 10
+	
 [[menu.main]]
     parent = "Community"
     name   = "User Forum"
     url    = "http://forum.kicad.info/"
     weight = 10
+
 [[menu.main]]
     parent = "Community"
     name   = "User Mailing List"
     url    = "http://groups.yahoo.com/group/kicad-users/"
     weight = 15
+	
 [[menu.main]]
     parent = "Community"
     name   = "kicad.jp"
     url    = "http://kicad.jp/"
     weight = 20
-
+	
 [[menu.main]]
     parent = "Discover"
     name   = "Made With KiCad"
     url    = "/made-with-kicad/"
     weight = 20
-
+	
 [[menu.main]]
     name   = "Help"
-    weight = 0
+    weight = 100
+	
+[[menu.main]]
+    name   = "About"
+    weight = 900

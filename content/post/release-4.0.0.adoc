@@ -1,9 +1,143 @@
 +++
-title = "2015 Stable Release is Out!"
-draft = true
+title = "KiCad 4.0.0 is Out!"
+date = "2015-11-29"
 +++
 
-We've just released the long-awaited stable version of KiCad. Download
-for Windows, OSX and Linux!
+We've just released the long-awaited KiCad _stable release, version_ *_4.0.0_*! The announcement can be read on the link:https://lists.launchpad.net/kicad-developers/msg21441.html[developer's mailing list archive].
 
-Joke aside, this has not yet happened, but will happen soon (tm).
+Versions 4.0.0 is made from the product branch BZR 6336, this is 148 commits after the RC2 this is all changes to improve stability and usability of KiCad.
+
+KiCad binaries will be available for download for Windows, OSX and Linux in the near future.
+
+Instructions for packagers can be found on link:../../download/source/[the download page describing how to build from source] and its subpages.
+
+
+== Changes Brief
+
+A short summary of updates between KiCad 4.0.0 and the so called old stable follows below:
+
+=== Major Items
+
+- New graphics rendering backend GAL (OpenGL and Cairo) [currently pcbnew only and does not yet support all legacy tools]
+- New s-expression based pcb format (`.kicad_pcb`)
+- New footprint library format (`.pretty` folder with `.kicad_mod` footprints)
+- Updated footprint editor (only usable with GAL renderer)
+- More advanced footprint manager concept called footprint library table (`fp-lib-table`)
+- Ability to download footprints on the fly from git repositories
+- Official libraries are now stored on github and regularly updated
+- Awesome/Advanced Push and Shove (PnS) router (only usable with GAL renderer)
+- Interactive differential trace routing and tuning
+- Interactive trace length tuning
+- Much more realistic 3D board rendering
+- Intelligent library search with preview in Eeschema
+- Initial Python api for Pcbnew
+
+=== Infrastructure Updates
+
+- New website
+- Continuous integration tools via Jenkins (http://ci.kicad-pcb.org )
+- Nightly builds for windows, OS X, fedora, ubuntu, and openSUSE (see link:http://kicad-pcb.org/download/[downloads] for information)
+
+=== Minor Items
+
+- Wording of many dialogs and errors has been improved
+- Some excessive dialogs have been removed
+- New icons for many tools
+- New schematic library browser
+- Docs now available in several different formats online (http://docs.kicad-pcb.org )
+- More intelligent component search in EESchema
+- Component rescue helper to identify when components have changed in EESchema and rescue the old version
+- Undo limit default increased and now configurable
+
+
+== Note
+
+Symbols have changed size, been renamed, etc to follow the new KiCad library conventions so you need to take care when working with older schematics if you used the symbols packaged with KiCad.
+
+The new pcb format cannot be loaded in older versions of KiCad.
+
+== List of All Contributors
+
+This is a complete list of all contributors who have submitted at least one patch since 18th May 2013 or in other words "the old stable". We thank you for your contributions no matter how small.
+
+- Andrew Zonenberg
+- Adam Wolf
+- Александр Голубев
+- Alexander Lunev
+- Andrey Fedorushkov
+- Angus Gratton
+- Ashley Mills
+- Balint Kiss
+- Ben Harris
+- Bernhard Stegmaier
+- Blair Bonnett
+- Brian Sidebotham
+- Camille Delbegue
+- Carl Poirier
+- Chris Pavlina
+- Cirilo Bernardo
+- Colin Cooper
+- Damien Espitallier
+- Daniel Dawid Majewski
+- Dick Hollenbeck
+- Dimitris Lampridis
+- Edwin van den Oetelaar
+- Eldar Khayrullin
+- Fabrizio Tappero
+- Garth Corral
+- Gilbert J.M. Forkel
+- Hartmut Henkel
+- Henner Zeller
+- Henri Valta
+- Henrik Nyberg
+- J. Morio Sakaguchi
+- Jan Dubiec
+- Jean-Pierre Charras
+- Jean-Samuel Reynaud
+- Johannes Maibaum
+- John Beard
+- Jon Neal
+- Jonathan Jara-Almonte
+- Jose Ingnacio
+- Joseph Chen
+- Karl Thorén
+- Kinichiro Inoguchi
+- Kirill Mavreshko
+- Константин Барановский
+- Lachlan Audas
+- LordBlick
+- Lorenzo Marcantonio L.
+- Maciej Suminski
+- Marco Ciampa
+- Marco Hess
+- Marco Mattila
+- Marco Serantoni
+- Mario Luzeiro
+- Mark Roszko
+- Markus Hitter
+- Martin d' Allens
+- Martin Janitschke
+- Mathias Grimmberger
+- Maurice W. (easyw)
+- Michael Beardsworth
+- Michael Narigon
+- Michal Jahelka
+- Miguel Angel Ajo
+- Mikhail Karpenko
+- Moses McKnight
+- Nick Østergaard
+- Nicolas Planel
+- Paul D. Evens
+- Paulo Henrique Silva
+- Povilas Kanapickas
+- Ricardo Crudo
+- Robert Yates
+- Ronald Sousa
+- Ruben De Smet
+- Simon Richter
+- Simon Schubert
+- Simon Wells
+- Thiadmer Riemersma
+- Tomasz Włostowski
+- Wayne Stambaugh
+
