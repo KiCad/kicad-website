@@ -5,18 +5,33 @@ weight = 100
 +++
 
 
-The most recent source code for KiCad can be downloaded
-from the https://code.launchpad.net/kicad[launchpad repository]
-or the https://github.com/KiCad/kicad-source-mirror[github source mirror]
+The most recent source code for KiCad can be downloaded from the
+https://code.launchpad.net/kicad[launchpad repository] or the
+https://github.com/KiCad/kicad-source-mirror[github source mirror]
 (updated every 10 minutes).
 
-This source contains the most recent patches and is useful for debugging and testing. +
-If you build KiCad from source consider joining the
-https://launchpad.net/~kicad-developers/[developer mailing list] to post your
-improvements and 
+This source contains the most recent patches and is useful for
+debugging and testing. If you build KiCad from source consider
+joining the https://launchpad.net/~kicad-developers/[developer mailing
+list] to post your improvements and
 https://bugs.launchpad.net/kicad/[bug-fixes].
 
+Other than the source code itself there are some other distibruted
+elements that make up the full KiCad package, which is the KiCad
+documentaiton (kicad-doc), the user interface translations
+(kicad-i18n), and the schematic, footprint and 3D model libraries.
+
+=== 4.0.0 Stable Release
+Tarballs intended to be used by packagers:
+
+* link:https://launchpad.net/kicad/4.0/4.0.0/+download/kicad-4.0.0.tar.xz[Source code]
+* link:http://downloads.kicad-pcb.org/docs/kicad-doc-4.0.0.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/4.0.0[doc sources]
+* link:https://github.com/KiCad/kicad-i18n/releases/tag/4.0.0[Kicad-i18n]
+* link:http://downloads.kicad-pcb.org/libraries/kicad-library-4.0.0.tar.gz[Kicad-library repo]
+* link:http://downloads.kicad-pcb.org/libraries/kicad-footprints-4.0.0.tar.gz[Footprint repos]
+
 === Building KiCad
+Platform specific build instructions:
 
 * link:/contribute/build-linux/[Linux]
 * link:/contribute/build-osx/[OSX]
