@@ -1,0 +1,10 @@
++++
+title = "Memtype"
+projectimage = "/img/madewithkicad/memtype.jpg"
+projectdeveloper = "www.area0x33.com"
+projecturl = "https://hackaday.io/project/8342-memtype"
++++
+Memtype project is an link:https://github.com/jim17/memtype/tree/master/schematic_pcb/electronic_design_kicad[open source] solution to store your passwords in a tiny USB form factor device to have them available everywhere.
+
+The device is based on the Atmel attiny85 device and use V-USB software based solution to have USB communications.
+
