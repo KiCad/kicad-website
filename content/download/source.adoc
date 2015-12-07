@@ -30,6 +30,11 @@ Tarballs intended to be used by packagers:
 * link:http://downloads.kicad-pcb.org/libraries/kicad-library-4.0.0.tar.gz[Kicad-library repo]
 * link:http://downloads.kicad-pcb.org/libraries/kicad-footprints-4.0.0.tar.gz[Footprint repos]
 
+For the moment you are supposed to use the following options to set
+the version string:
+
+  -DKICAD_REPO_NAME=stable -DKICAD_BUILD_VERSION=4.0.0
+
 === Building KiCad
 Platform specific build instructions:
 
