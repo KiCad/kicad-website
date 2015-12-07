@@ -4,20 +4,25 @@ iconhtml = "<div><i class='fa fa-windows'></i></div>"
 weight = 2
 +++
 
-=== 4.0.0 Pre-release
+=== 4.0.0 Stable Release
 
-A pre-release "release candidate" is available for KiCad 4.0.0.
+Current Version: *4.0.0*
 
-Current Version: *4.0.0 RC2*
+The stable release is available for KiCad 4.0.0 and an installer.
 
-This pre-release version is available at:
+This release version is available at:
 
-link:http://downloads.kicad-pcb.org/windows/stable/kicad-product-4.0.0_rc2-x86_64.exe[Windows 64-bit (x86_64)]
+link:http://downloads.kicad-pcb.org/windows/stable/kicad-product-4.0.0-x86_64.exe[Windows 64-bit (x86_64)]
 
-link:http://downloads.kicad-pcb.org/windows/stable/kicad-product-4.0.0_rc2-i686.exe[Windows 32-bit (i686)]
+link:http://downloads.kicad-pcb.org/windows/stable/kicad-product-4.0.0-i686.exe[Windows 32-bit (i686)]
+
+NOTE: There is a minor issue with this version, where you need to
+redefine the paths set in pcbnew -> preferences -> configure paths to
+your install location.
 
 === Recent Builds
 Builds of the latest source for testing can be found here:
+
 http://downloads.kicad-pcb.org/windows/
 
 
