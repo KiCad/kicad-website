@@ -3,11 +3,18 @@ title = "Fedora"
 iconhtml = "<div class='fl-fedora'></div>"
 weight = 20
 +++
-	
-	
-=== Recent Builds
-	
-Daily builds for Fedora are available via the
+
+=== 4.0.0 Stable Release
+KiCad 4.0.0 is available in the fedora 23 testing repo.
+
+To install KiCad 4.0.0 on fedora 23 open a terminal and run the following command:
+
+[source,bash]
+dnf --enablerepo=updates-testing install kicad
+
+=== Nightly Development Builds
+
+Nightly development builds for Fedora are available via the
 link:https://copr.fedoraproject.org/coprs/mangelajo/kicad/[copr build
 service].
 
@@ -25,4 +32,4 @@ yum install dnf-plugins-core
 ----
 
 As a side note, the wxwidgets build in the copr build is forcing `--with=gtk2` on wxgtk, otherwise eeschema and the legacy canvas does not work properly. 
-This could be problematic if you have other applications depending on wxgtk already. This is a workaround so far to bring KiCad to fedora easily.
+This could be problematic if you have other applications depending on wxgtk already. This is a workaround to bring KiCad to fedora more easily.
