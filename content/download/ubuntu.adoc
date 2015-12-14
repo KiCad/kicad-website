@@ -44,7 +44,7 @@ sudo apt-get update
 sudo apt-get install kicad
 
 === Old Stable
-The old stable release of KiCad is the currently in the official Ubuntu repository.
+The 2013 stable release of KiCad is currently in the official Ubuntu repository.
 Search for `KiCad` in the Ubuntu Software Center or execute the following in a terminal:
 
 [source,bash]

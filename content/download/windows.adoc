@@ -16,13 +16,13 @@ link:http://downloads.kicad-pcb.org/windows/stable/kicad-product-4.0.1-x86_64.ex
 
 link:http://downloads.kicad-pcb.org/windows/stable/kicad-product-4.0.1-i686.exe[Windows 32-bit (i686)]
 
-=== Recent Builds
-Builds of the latest source for testing can be found here:
+=== Nightly Development Builds
+Nightly development builds of the latest source for testing can be found here:
 
 http://downloads.kicad-pcb.org/windows/
 
 === Old Stable
-The build of the 2013 stable release is available from
+The 2013 stable release installer is available at
 http://downloads.kicad-pcb.org/archive/KiCad_stable-2013.07.07-BZR4022_Win_full_version.exe
 (It is not recommended for new designs). 
 
