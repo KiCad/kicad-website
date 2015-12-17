@@ -74,7 +74,10 @@ Then we configure our compile and run it
  cmake ../
  make
 
-NOTE: On systems with GCC 5, the bundled boost build will usually fail. To fix the issue you can use the cmake options `-DKICAD_SKIP_BOOST=ON`.
+NOTE: On systems with GCC 5, the bundled boost build will usually
+fail. To fix the issue you can use the cmake options
+`-DKICAD_SKIP_BOOST=ON`. The bundled boost is going to be ripped out
+soon anyways.
 
 If you have a multicore machine (for example 4 cores) you could used the command
 
