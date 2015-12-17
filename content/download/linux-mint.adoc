@@ -24,8 +24,8 @@ sudo add-apt-repository --yes ppa:js-reynaud/kicad-4
 sudo apt-get update
 sudo apt-get install kicad
 
-=== Development Builds
-Daily builds are available in https://code.launchpad.net/~js-reynaud/+archive/ubuntu/ppa-kicad[js-reynaud's PPA].
+=== Nightly Development Builds
+Nightly development builds are available in https://code.launchpad.net/~js-reynaud/+archive/ubuntu/ppa-kicad[js-reynaud's PPA].
 These provide the latest, unreleased preview of KiCad.
 To install KiCad via the PPA, you can use the Software Manager:
 
@@ -44,9 +44,9 @@ sudo apt-get update
 sudo apt-get install kicad
 
 === Old Stable
-The most recent full release of KiCad is old, and not recommended for new projects.
-If you want it, Old Stable is the official repository.
-Search for `KiCad` in the Software Manager or execute the following in a terminal:
+The 2013 stable release of KiCad is in the official repository for linux mint.
+It is not recommended for new projects. Please use the new stable release. 
+To install old stable search for `KiCad` in the Software Manager or execute the following in a terminal:
 
 [source,bash]
 sudo apt-get install kicad
