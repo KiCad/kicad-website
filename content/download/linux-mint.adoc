@@ -44,9 +44,9 @@ sudo apt-get update
 sudo apt-get install kicad
 
 === Old Stable
-The 2013 stable release of KiCad is in the official repository for linux mint. It is not recommended
-for new designs.
-If you wish to install it search for `KiCad` in the Software Manager or execute the following in a terminal:
+The 2013 stable release of KiCad is in the official repository for linux mint.
+It is not recommended for new projects. Please use the new stable release. 
+To install old stable search for `KiCad` in the Software Manager or execute the following in a terminal:
 
 [source,bash]
 sudo apt-get install kicad

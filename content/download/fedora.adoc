@@ -36,7 +36,8 @@ This could be problematic if you have other applications depending on wxgtk alre
 
 === Old Stable
 The 2013 stable release of KiCad is currently available in the official fedora repositories before fedora 24.
-If you wish to install it search for KiCad in the package manager or run the following command in a terminal:
+It is not recommended for new projects. Please use the new stable release.
+If you wish to install old stable search for KiCad in the package manager or run the following command in a terminal:
 
 [source,bash]
 sudo yum install kicad
