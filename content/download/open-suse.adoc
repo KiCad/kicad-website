@@ -12,8 +12,8 @@ New KiCad packages do not have the _kicad-library_ subpackage. It is possible to
 
 Please report openSUSE-specific bugs via "Report Bug" button on OBS page.
 
-=== Development Builds
-KiCad daily builds for openSUSE are available as _kicad-unstable_ in the link:http://software.opensuse.org/download.html?project=electronics&package=kicad-unstable[opensuse unstable electronics repository]. See link:https://build.opensuse.org/package/show/electronics/kicad-unstable[OBS page] for details.
+=== Nightly Development Builds
+Nightly development builds for openSUSE are available as _kicad-unstable_ in the link:http://software.opensuse.org/download.html?project=electronics&package=kicad-unstable[opensuse unstable electronics repository]. See link:https://build.opensuse.org/package/show/electronics/kicad-unstable[OBS page] for details.
 
 New KiCad packages do not have the _kicad-library_ subpackage. It is possible to use the built-in GUI downloader or the kicad-library-install.sh script from the _kicad-library-install_ subpackage.
 

@@ -21,7 +21,8 @@ sudo apt-get install kicad
 Offline docs are available in seperate pacakges named for example `kicad-doc-en`.
 
 === Old Stable
-Old stable should be in the official Debian repos before sid.
+The 2013 stable release of KiCad is available in the official Debian repos before sid.
+It is not recommended for new designs. Please use the new stable release.
 
 === Build from Source
 There exists a helper script, http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/view/head:/scripts/kicad-install.sh[kicad-install.sh], but is is deprecated by the developers. It is recommended to follow the instructions on http://kicad-pcb.org/contribute/build-linux/.
