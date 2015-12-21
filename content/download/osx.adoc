@@ -4,9 +4,9 @@ iconhtml = "<div><i class='fa fa-apple'></i></div>"
 weight = 2
 +++
 
-=== 4.0.0 Stable Release
+=== 4.0.1 Stable Release
 
-Current Version: *4.0.0*
+Current Version: *4.0.1*
 
 KiCad for OS X is available as two disk image (dmg) files.
 
@@ -14,8 +14,8 @@ The kicad.dmg file includes the KiCad suite, documentation, schematic symbols, a
 
 kicad-extras.dmg contains the footprints and all the instructions you need for making printed circuit board layouts while offline.
 
- - http://downloads.kicad-pcb.org/osx/stable/kicad-4.0.0.dmg[KiCad main package]
- - http://downloads.kicad-pcb.org/osx/stable/kicad-extras-4.0.0.dmg[KiCad extras]
+ - http://downloads.kicad-pcb.org/osx/stable/kicad-4.0.1.dmg[KiCad main package]
+ - http://downloads.kicad-pcb.org/osx/stable/kicad-extras-4.0.1.dmg[KiCad extras]
 
 You usually want to install both disk images.
 
