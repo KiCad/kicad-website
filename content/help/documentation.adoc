@@ -81,6 +81,7 @@ Footprint selector helper (always run from Eeschema).
 |Polski | link:http://docs.kicad-pcb.org/pl/cvpcb.html[HTML] link:http://docs.kicad-pcb.org/pl/cvpcb.pdf[PDF] link:http://docs.kicad-pcb.org/pl/cvpcb.epub[ePub]
 |日本語 | link:http://docs.kicad-pcb.org/ja/cvpcb.html[HTML] link:http://docs.kicad-pcb.org/ja/cvpcb.pdf[PDF] link:http://docs.kicad-pcb.org/ja/cvpcb.epub[ePub]
 |Italiano | link:http://docs.kicad-pcb.org/it/cvpcb.html[HTML] link:http://docs.kicad-pcb.org/it/cvpcb.pdf[PDF] link:http://docs.kicad-pcb.org/it/cvpcb.epub[ePub]
+|Español | link:http://docs.kicad-pcb.org/es/cvpcb.html[HTML] link:http://docs.kicad-pcb.org/es/cvpcb.pdf[PDF] link:http://docs.kicad-pcb.org/es/cvpcb.epub[ePub]
 |===
 
 
