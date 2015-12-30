@@ -32,6 +32,8 @@ KiCad build switches, etc.
   wxPython  - A blending of the wxWidgets pass:[C++] class library with the Python
               programming language
 * SWIG      - Interface compiler (only needed for scripting/wxPython builds)
+* GLM       - 
+* LibCurl   - A multiprotocol file transfer library
 
 === Optional library dependencies, depends on used KiCad features
 * OpenSSL - The Open Source toolkit for SSL/TLS

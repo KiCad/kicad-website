@@ -37,18 +37,9 @@ Let us begin by downloading all necessary
 packages.
 
  sudo apt-get install bzr bzrtools build-essential checkinstall cmake doxygen
- zlib1g-dev libwebkitgtk-dev
+zlib1g-dev libglm-dev libcurl4-openssl-dev libglew-dev libcairo2-dev
+libbz2-dev libssl-dev
  sudo apt-get build-dep kicad
-
-If you have trouble, you might need packages
-like:
-
- libglew-dev libcairo2-dev libbz2-dev libssl-dev
-
-For the webview thing, which is currently not
-used:
-
- libwxgtk-webview3.0-dev
 
 Also if you want python scripting, you need python 2.7 (tell me the pkgname and I will add it) and swig:
 
