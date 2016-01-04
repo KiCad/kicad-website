@@ -52,7 +52,7 @@ Launchpad account, execute the following commands:
 
 where `Real Name` is your real name or a pseudonym you want to
 use (it should be recognizable to people on the developer mailing
-list), `e-mail@domain.tld` is your e-mail for KiCad related
+list), `email@address.com` is your e-mail for KiCad related
 correspondence (it can be obfuscated if you want), and `username`
 is you Launchpad user name. With this setup, you will be able to
 commit once you are approved as a member of the KiCad Committers
