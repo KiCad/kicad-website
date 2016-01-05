@@ -47,8 +47,7 @@ link:https://www.mail-archive.com/kicad-developers@lists.launchpad.net/msg15700.
 to enable python scripting].
 
 === Building KiCad
-Platform specific build instructions:
 
-* link:/contribute/build-linux/[Linux]
-* link:/contribute/build-osx/[OSX]
-* link:/contribute/build-windows/[Windows]
+Instructions can be found in compiling.md which is located in the kicad source code under /Documentation/development folder.
+
+Alternatively, you can view it online here: link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_compiling.html[Building KiCad from Source]

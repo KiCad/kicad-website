@@ -25,4 +25,4 @@ The 2013 stable release of KiCad is available in the official Debian repos befor
 It is not recommended for new designs. Please use the new stable release.
 
 === Build from Source
-There exists a helper script, http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/view/head:/scripts/kicad-install.sh[kicad-install.sh], but is is deprecated by the developers. It is recommended to follow the instructions on http://kicad-pcb.org/contribute/build-linux/.
+You can find the instructions to build from source link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_compiling.html#build_linux[here].
