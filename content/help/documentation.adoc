@@ -20,11 +20,11 @@ Essential and concise guide to mastering KiCad for the successful development of
 |Language |Format
 
 |English | link:http://docs.kicad-pcb.org/en/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/en/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/en/getting_started_in_kicad.epub[ePub]
-|Polski | link:http://docs.kicad-pcb.org/pl/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/pl/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/pl/getting_started_in_kicad.epub[ePub]
-|日本語 | link:http://docs.kicad-pcb.org/ja/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/ja/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/ja/getting_started_in_kicad.epub[ePub]
-|Italiano | link:http://docs.kicad-pcb.org/it/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/it/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/it/getting_started_in_kicad.epub[ePub]
-|Français | link:http://docs.kicad-pcb.org/fr/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/fr/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/fr/getting_started_in_kicad.epub[ePub]
 |Español | link:http://docs.kicad-pcb.org/es/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/es/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/es/getting_started_in_kicad.epub[ePub]
+|Français | link:http://docs.kicad-pcb.org/fr/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/fr/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/fr/getting_started_in_kicad.epub[ePub]
+|Italiano | link:http://docs.kicad-pcb.org/it/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/it/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/it/getting_started_in_kicad.epub[ePub]
+|日本語 | link:http://docs.kicad-pcb.org/ja/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/ja/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/ja/getting_started_in_kicad.epub[ePub]
+|Polski | link:http://docs.kicad-pcb.org/pl/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/pl/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/pl/getting_started_in_kicad.epub[ePub]
 |===
 
 == KiCad
@@ -121,7 +121,7 @@ Exports an IDFv3 compliant board (.emn) and library (.emp) file for communicatin
 |Language |Format
 
 |English | link:http://docs.kicad-pcb.org/en/idf_exporter.html[HTML] link:http://docs.kicad-pcb.org/en/idf_exporter.pdf[PDF] link:http://docs.kicad-pcb.org/en/idf_exporter.epub[ePub]
-|Polski | link:http://docs.kicad-pcb.org/pl/idf_exporter.html[HTML] link:http://docs.kicad-pcb.org/pl/idf_exporter.pdf[PDF] link:http://docs.kicad-pcb.org/pl/idf_exporter.epub[ePub]
-|日本語 | link:http://docs.kicad-pcb.org/ja/idf_exporter.html[HTML] link:http://docs.kicad-pcb.org/ja/idf_exporter.pdf[PDF] link:http://docs.kicad-pcb.org/ja/idf_exporter.epub[ePub]
 |Italiano | link:http://docs.kicad-pcb.org/it/idf_exporter.html[HTML] link:http://docs.kicad-pcb.org/it/idf_exporter.pdf[PDF] link:http://docs.kicad-pcb.org/it/idf_exporter.epub[ePub]
+|日本語 | link:http://docs.kicad-pcb.org/ja/idf_exporter.html[HTML] link:http://docs.kicad-pcb.org/ja/idf_exporter.pdf[PDF] link:http://docs.kicad-pcb.org/ja/idf_exporter.epub[ePub]
+|Polski | link:http://docs.kicad-pcb.org/pl/idf_exporter.html[HTML] link:http://docs.kicad-pcb.org/pl/idf_exporter.pdf[PDF] link:http://docs.kicad-pcb.org/pl/idf_exporter.epub[ePub]
 |===
