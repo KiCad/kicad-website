@@ -50,10 +50,10 @@ Schematic editor and component editor.
 |Language |Format
 
 |English | link:http://docs.kicad-pcb.org/en/eeschema.html[HTML] link:http://docs.kicad-pcb.org/en/eeschema.pdf[PDF] link:http://docs.kicad-pcb.org/en/eeschema.epub[ePub]
-|Polski | link:http://docs.kicad-pcb.org/pl/eeschema.html[HTML] link:http://docs.kicad-pcb.org/pl/eeschema.pdf[PDF] link:http://docs.kicad-pcb.org/pl/eeschema.epub[ePub]
-|日本語 | link:http://docs.kicad-pcb.org/ja/eeschema.html[HTML] link:http://docs.kicad-pcb.org/ja/eeschema.pdf[PDF] link:http://docs.kicad-pcb.org/ja/eeschema.epub[ePub]
-|Italiano | link:http://docs.kicad-pcb.org/it/eeschema.html[HTML] link:http://docs.kicad-pcb.org/it/eeschema.pdf[PDF] link:http://docs.kicad-pcb.org/it/eeschema.epub[ePub]
 |Español | link:http://docs.kicad-pcb.org/es/eeschema.html[HTML] link:http://docs.kicad-pcb.org/es/eeschema.pdf[PDF] link:http://docs.kicad-pcb.org/es/eeschema.epub[ePub]
+|Italiano | link:http://docs.kicad-pcb.org/it/eeschema.html[HTML] link:http://docs.kicad-pcb.org/it/eeschema.pdf[PDF] link:http://docs.kicad-pcb.org/it/eeschema.epub[ePub]
+|日本語 | link:http://docs.kicad-pcb.org/ja/eeschema.html[HTML] link:http://docs.kicad-pcb.org/ja/eeschema.pdf[PDF] link:http://docs.kicad-pcb.org/ja/eeschema.epub[ePub]
+|Polski | link:http://docs.kicad-pcb.org/pl/eeschema.html[HTML] link:http://docs.kicad-pcb.org/pl/eeschema.pdf[PDF] link:http://docs.kicad-pcb.org/pl/eeschema.epub[ePub]
 |===
 
 
