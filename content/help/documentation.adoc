@@ -93,9 +93,9 @@ Gerber viewer
 |Language |Format
 
 |English | link:http://docs.kicad-pcb.org/en/gerbview.html[HTML] link:http://docs.kicad-pcb.org/en/gerbview.pdf[PDF] link:http://docs.kicad-pcb.org/en/gerbview.epub[ePub]
-|Polski | link:http://docs.kicad-pcb.org/pl/gerbview.html[HTML] link:http://docs.kicad-pcb.org/pl/gerbview.pdf[PDF] link:http://docs.kicad-pcb.org/pl/gerbview.epub[ePub]
-|日本語 | link:http://docs.kicad-pcb.org/ja/gerbview.html[HTML] link:http://docs.kicad-pcb.org/ja/gerbview.pdf[PDF] link:http://docs.kicad-pcb.org/ja/gerbview.epub[ePub]
 |Italiano | link:http://docs.kicad-pcb.org/it/gerbview.html[HTML] link:http://docs.kicad-pcb.org/it/gerbview.pdf[PDF] link:http://docs.kicad-pcb.org/it/gerbview.epub[ePub]
+|日本語 | link:http://docs.kicad-pcb.org/ja/gerbview.html[HTML] link:http://docs.kicad-pcb.org/ja/gerbview.pdf[PDF] link:http://docs.kicad-pcb.org/ja/gerbview.epub[ePub]
+|Polski | link:http://docs.kicad-pcb.org/pl/gerbview.html[HTML] link:http://docs.kicad-pcb.org/pl/gerbview.pdf[PDF] link:http://docs.kicad-pcb.org/pl/gerbview.epub[ePub]
 |===
 
 == Utilities
