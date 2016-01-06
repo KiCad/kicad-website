@@ -65,9 +65,9 @@ Circuit board layout editor and footprint editor.
 |Language |Format
 
 |English | link:http://docs.kicad-pcb.org/en/pcbnew.html[HTML] link:http://docs.kicad-pcb.org/en/pcbnew.pdf[PDF] link:http://docs.kicad-pcb.org/en/pcbnew.epub[ePub]
-|Polski | link:http://docs.kicad-pcb.org/pl/pcbnew.html[HTML] link:http://docs.kicad-pcb.org/pl/pcbnew.pdf[PDF] link:http://docs.kicad-pcb.org/pl/pcbnew.epub[ePub]
-|日本語 | link:http://docs.kicad-pcb.org/ja/pcbnew.html[HTML] link:http://docs.kicad-pcb.org/ja/pcbnew.pdf[PDF] link:http://docs.kicad-pcb.org/ja/pcbnew.epub[ePub]
 |Italiano | link:http://docs.kicad-pcb.org/it/pcbnew.html[HTML] link:http://docs.kicad-pcb.org/it/pcbnew.pdf[PDF] link:http://docs.kicad-pcb.org/it/pcbnew.epub[ePub]
+|日本語 | link:http://docs.kicad-pcb.org/ja/pcbnew.html[HTML] link:http://docs.kicad-pcb.org/ja/pcbnew.pdf[PDF] link:http://docs.kicad-pcb.org/ja/pcbnew.epub[ePub]
+|Polski | link:http://docs.kicad-pcb.org/pl/pcbnew.html[HTML] link:http://docs.kicad-pcb.org/pl/pcbnew.pdf[PDF] link:http://docs.kicad-pcb.org/pl/pcbnew.epub[ePub]
 |===
 
 == CvPcb
