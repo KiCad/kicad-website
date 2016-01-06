@@ -108,9 +108,9 @@ Page Layout Editor.
 |Language |Format
 
 |English | link:http://docs.kicad-pcb.org/en/pl_editor.html[HTML] link:http://docs.kicad-pcb.org/en/pl_editor.pdf[PDF] link:http://docs.kicad-pcb.org/en/pl_editor.epub[ePub]
-|Polski | link:http://docs.kicad-pcb.org/pl/pl_editor.html[HTML] link:http://docs.kicad-pcb.org/pl/pl_editor.pdf[PDF] link:http://docs.kicad-pcb.org/pl/pl_editor.epub[ePub]
-|日本語 | link:http://docs.kicad-pcb.org/ja/pl_editor.html[HTML] link:http://docs.kicad-pcb.org/ja/pl_editor.pdf[PDF] link:http://docs.kicad-pcb.org/ja/pl_editor.epub[ePub]
 |Italiano | link:http://docs.kicad-pcb.org/it/pl_editor.html[HTML] link:http://docs.kicad-pcb.org/it/pl_editor.pdf[PDF] link:http://docs.kicad-pcb.org/it/pl_editor.epub[ePub]
+|日本語 | link:http://docs.kicad-pcb.org/ja/pl_editor.html[HTML] link:http://docs.kicad-pcb.org/ja/pl_editor.pdf[PDF] link:http://docs.kicad-pcb.org/ja/pl_editor.epub[ePub]
+|Polski | link:http://docs.kicad-pcb.org/pl/pl_editor.html[HTML] link:http://docs.kicad-pcb.org/pl/pl_editor.pdf[PDF] link:http://docs.kicad-pcb.org/pl/pl_editor.epub[ePub]
 |===
 
 === IDF Exporter
