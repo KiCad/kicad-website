@@ -19,6 +19,7 @@ Essential and concise guide to mastering KiCad for the successful development of
 |===
 |Language |Format
 
+|Deutsch | link:http://docs.kicad-pcb.org/de/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/de/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/de/getting_started_in_kicad.epub[ePub]
 |English | link:http://docs.kicad-pcb.org/en/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/en/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/en/getting_started_in_kicad.epub[ePub]
 |Español | link:http://docs.kicad-pcb.org/es/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/es/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/es/getting_started_in_kicad.epub[ePub]
 |Français | link:http://docs.kicad-pcb.org/fr/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/fr/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/fr/getting_started_in_kicad.epub[ePub]
@@ -49,6 +50,7 @@ Schematic editor and component editor.
 |===
 |Language |Format
 
+|Deutsch | link:http://docs.kicad-pcb.org/de/eeschema.html[HTML] link:http://docs.kicad-pcb.org/de/eeschema.pdf[PDF] link:http://docs.kicad-pcb.org/de/eeschema.epub[ePub]
 |English | link:http://docs.kicad-pcb.org/en/eeschema.html[HTML] link:http://docs.kicad-pcb.org/en/eeschema.pdf[PDF] link:http://docs.kicad-pcb.org/en/eeschema.epub[ePub]
 |Español | link:http://docs.kicad-pcb.org/es/eeschema.html[HTML] link:http://docs.kicad-pcb.org/es/eeschema.pdf[PDF] link:http://docs.kicad-pcb.org/es/eeschema.epub[ePub]
 |Italiano | link:http://docs.kicad-pcb.org/it/eeschema.html[HTML] link:http://docs.kicad-pcb.org/it/eeschema.pdf[PDF] link:http://docs.kicad-pcb.org/it/eeschema.epub[ePub]
@@ -77,6 +79,7 @@ Footprint selector helper (always run from Eeschema).
 |===
 |Language |Format
 
+|Deutsch | link:http://docs.kicad-pcb.org/de/cvpcb.html[HTML] link:http://docs.kicad-pcb.org/de/cvpcb.pdf[PDF] link:http://docs.kicad-pcb.org/de/cvpcb.epub[ePub]
 |English | link:http://docs.kicad-pcb.org/en/cvpcb.html[HTML] link:http://docs.kicad-pcb.org/en/cvpcb.pdf[PDF] link:http://docs.kicad-pcb.org/en/cvpcb.epub[ePub]
 |Español | link:http://docs.kicad-pcb.org/es/cvpcb.html[HTML] link:http://docs.kicad-pcb.org/es/cvpcb.pdf[PDF] link:http://docs.kicad-pcb.org/es/cvpcb.epub[ePub]
 |Italiano | link:http://docs.kicad-pcb.org/it/cvpcb.html[HTML] link:http://docs.kicad-pcb.org/it/cvpcb.pdf[PDF] link:http://docs.kicad-pcb.org/it/cvpcb.epub[ePub]
@@ -92,6 +95,7 @@ Gerber viewer
 |===
 |Language |Format
 
+|Deutsch | link:http://docs.kicad-pcb.org/de/gerbview.html[HTML] link:http://docs.kicad-pcb.org/de/gerbview.pdf[PDF] link:http://docs.kicad-pcb.org/de/gerbview.epub[ePub]
 |English | link:http://docs.kicad-pcb.org/en/gerbview.html[HTML] link:http://docs.kicad-pcb.org/en/gerbview.pdf[PDF] link:http://docs.kicad-pcb.org/en/gerbview.epub[ePub]
 |Italiano | link:http://docs.kicad-pcb.org/it/gerbview.html[HTML] link:http://docs.kicad-pcb.org/it/gerbview.pdf[PDF] link:http://docs.kicad-pcb.org/it/gerbview.epub[ePub]
 |日本語 | link:http://docs.kicad-pcb.org/ja/gerbview.html[HTML] link:http://docs.kicad-pcb.org/ja/gerbview.pdf[PDF] link:http://docs.kicad-pcb.org/ja/gerbview.epub[ePub]
