@@ -25,7 +25,7 @@ toc::[]
 
 * Graphic card with at least OpenGL 2.1, with hardware shaders. Check
   the OpenGL specs of the card:
-** Intel: no cards that came before the HD-Graphics series, regardless of the wording HD.
+** Intel: no cards that came before the HD-Graphics series, regardless of the name including "HD".
    Intel cards that are reported working starts from model HD2000 and higher.
 ** NVIDIA: from NVIDIA support page: http://www.nvidia.com/object/nv_ogl2_support.html
    NVIDIA support for OpenGL 2.0 begins with the Release 75 series of drivers.
@@ -45,8 +45,7 @@ See: http://kicad-pcb.org/help/known-system-related-issues/ for software specifi
 The software and hardware prerequisites for installing KiCad on a Windows
 system are as follows:
 
-Microsoft Windows XP SP3, Vista, Windows Server 2008, Windows 7,
-Windows 8, Windows Server 2012, or Windows 10;
+Vista, Windows Server 2008, Windows 7, Windows 8, Windows Server 2012, or Windows 10;
 
 === Apple - Mac OS X
 
@@ -60,16 +59,8 @@ Mac OS X 10.7 (Lion) or higher;
 The software and hardware prerequisites for installing on Linux are as
 follows:
 
-Any modern Linux distro with OpenGl 2.0 or higher enabled
-graphics should go. For example Linux Ubuntu 12.04 or higher.
-
-=== Android/Linux
-
-The Android/Linux platform is actually NOT supported.
+Any modern Linux distro with OpenGl 2.0 or higher support should work fine. For example Ubuntu 12.04 or higher.
 
 === Other OSes
 
-Other systems (notably Unix *BSD) may be fully working but are actually
-not officially supported.
-
-
+Other systems (notably Unix *BSD) may be fully functional but are not officially supported.
