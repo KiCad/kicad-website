@@ -46,23 +46,10 @@ not display line rounded line ends
 (https://bugs.launchpad.net/kicad/+bug/1498970)
 
 
-=== Boost 1.54
-
-There have previously been problems with bugs in the boost libraries.
-This led to KiCad developers deciding to include the download, patch and build of boost in the KiCad build framework. 
-Many users are not aware of the reason this was done. A build option was later added
-to skip this KiCad build of boost, so that you can save some
-initial build time and actually use the boost libraries you already have
-installed on your system.
-
-The self build of boost inside the KiCad installer framework is being
-slowly removed, due to it being difficult to maintain among other reasons. 
-Instead boost will eventually be looked for externally. 
-If you have boost 1.56+ this skipping you are ok to skip boost building. 
-Use the option `-DKICAD_SKIP_BOOST=ON` when cmake'ing.
-
-Anyone using older versions of boost when building will experience various bugs usually 
-in the form of geometry errors.
+=== Boost minimum version
+There have previously been problems with bugs in the boost libraries. 
+A minimum version of boost 1.56 is currently required as it has fixes the majority of
+bugs previously encountered.
 
 == Linux
 
@@ -87,6 +74,11 @@ link:https://bugs.launchpad.net/kicad/+bug/1442909[Bug# 1442909].
 Mirror printing can be broken because of a bug in wxWidgets version 3.0.2, 
 see link:https://bugs.launchpad.net/kicad/+bug/1463406[Bug# 1463406].
 
+=== Boost 1.59
+On 64-bit Windows, KiCad's usage of the boost context library is currently broken
+due to changes in the library. This causes pcbnew to crash on start.
+The only workaround is to use boost 1.56 or 1.57 which are known to work.
+
 == OSX
 === Poor performance on Retina displays
 
@@ -98,4 +90,3 @@ in Low Resolution" checkbox in the app "Get Info" dialog. For a step
 by step description refer to the "*I'm noticing functional or visual
 issues with an application. How can I make it work better?*" section in
 the https://support.apple.com/en-is/HT202471[OS X support article].
-
