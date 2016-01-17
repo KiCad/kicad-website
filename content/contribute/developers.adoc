@@ -258,4 +258,4 @@ If you wish to contribute eeschema, pcbnew or 3dviewer libraries, please see the
 
 === Internet Relay Chat (_IRC_)
 
-Feel free to join the IRC channel at irc://irc.freenode.net/#kicad[#kicad@freenode]. A nice bunch of people are casually hanging around in there, so if you have any questions, that I don't know where to ask, you should try asking in here. There are all kinds of people in all kinds of time zones, people who develop KiCad and plain enthusiastic users.
+Feel free to join the IRC channel at irc://irc.freenode.net/#kicad[#kicad@freenode]. A nice bunch of people are casually hanging around in there, so if you have any questions and don't know where to ask, you should try asking in here. There are all kinds of people in all kinds of time zones, people who develop KiCad and plain enthusiastic users.
