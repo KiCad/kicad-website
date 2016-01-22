@@ -72,6 +72,13 @@ pluralizelisttitles = false
     name   = "Help"
     weight = 100
 	
+	
+[[menu.main]]
+    parent = "Help"
+    name   = "External Tools"
+    url    = "/external-tools/"
+    weight = 20
+	
 [[menu.main]]
     name   = "About"
     weight = 900

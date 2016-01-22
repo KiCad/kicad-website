@@ -1,0 +1,9 @@
++++
+title = "KiCost"
+toolimage = "/img/external-tools/kicost.png"
+tooldeveloper = "Dave Vandenbout"
+toolurl = "https://github.com/xesscorp/KiCost"
++++
+
+KiCost is intended to be run as a script for generating part-cost spreadsheets for circuit boards developed with KiCad.
+

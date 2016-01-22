@@ -1,0 +1,8 @@
++++
+title = "KiCad StepUp"
+toolimage = "/img/external-tools/stepup.png"
+tooldeveloper = "easyw"
+toolurl = "http://sourceforge.net/projects/kicadstepup/"
++++
+
+kicad StepUp allows exporting KiCad 3D board and components to FreeCad which allows further export options.

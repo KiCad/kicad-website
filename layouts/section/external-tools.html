@@ -1,0 +1,50 @@
+{{ partial "header.html" . }}
+
+{{ $currentNode := . }}
+{{ .Scratch.Set "sidemenu" false }}
+{{ .Scratch.Set "sidemenu_section" "help" }}
+{{ range .Site.Menus.main }}
+	{{ if eq "help" (.Name | lower) }}
+		{{ if .HasChildren }}
+			{{ $currentNode.Scratch.Set "sidemenu" true }}
+		{{ end }}
+	{{ end }}
+{{ end }}
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 {{ if .Scratch.Get "sidemenu" }}col-md-10 col-sm-9{{ else }}col-sm-12{{ end }}">
+			{{ partial "breadcrumb.html" . }}
+
+			<div class="page-heading">
+				<h1>External Tools</h1>
+				These are tools that KiCad users have made to aid in development of their projects either within or outside KiCad.
+			</div>
+
+			{{ $paginator := .Paginate (where .Site.Pages "Section" "external-tools") }}
+			{{ template "_internal/pagination.html" . }}
+			<hr />
+			<div class="row">
+				{{ range $paginator.Pages }}
+					<div class="row">
+						<div class="col-md-5">
+							<img class="img-responsive" src="{{ .Params.toolimage }}">
+						</div>
+						<div class="col-md-7">
+							<h3>{{ .Title }}</h3>
+							<h4>{{ .Params.tooldeveloper }}</h4>
+							<p>{{ .Content }}</p>
+							<a class="btn btn-primary" href="{{ .Params.toolurl }}">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+						</div>
+					</div>
+					<hr />
+				{{ end }}
+			</div>
+			{{ template "_internal/pagination.html" . }}
+		</div>
+
+		{{ partial "sidebar.html" . }}
+	</div>
+</div>
+
+{{ partial "footer.html" . }}
