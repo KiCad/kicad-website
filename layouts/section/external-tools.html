@@ -2,7 +2,7 @@
 
 {{ $currentNode := . }}
 {{ .Scratch.Set "sidemenu" false }}
-{{ .Scratch.Set "sidemenu_section" "help" }}
+{{ .Scratch.Set "sidemenu_section" "discover" }}
 {{ range .Site.Menus.main }}
 	{{ if eq "help" (.Name | lower) }}
 		{{ if .HasChildren }}

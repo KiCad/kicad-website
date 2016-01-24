@@ -66,18 +66,17 @@ pluralizelisttitles = false
     parent = "Discover"
     name   = "Made With KiCad"
     url    = "/made-with-kicad/"
-    weight = 20
-	
+    weight = 50
+
+[[menu.main]]
+    parent = "Discover"
+    name   = "External Tools"
+    url    = "/external-tools/"
+    weight = 60
+
 [[menu.main]]
     name   = "Help"
     weight = 100
-	
-	
-[[menu.main]]
-    parent = "Help"
-    name   = "External Tools"
-    url    = "/external-tools/"
-    weight = 20
 	
 [[menu.main]]
     name   = "About"
