@@ -36,6 +36,7 @@ Project manager window.
 |Language |Format
 
 |English | link:http://docs.kicad-pcb.org/en/kicad.html[HTML] link:http://docs.kicad-pcb.org/en/kicad.pdf[PDF] link:http://docs.kicad-pcb.org/en/kicad.epub[ePub]
+|Deutsch | link:http://docs.kicad-pcb.org/de/kicad.html[HTML] link:http://docs.kicad-pcb.org/de/kicad.pdf[PDF] link:http://docs.kicad-pcb.org/de/kicad.epub[ePub]
 |Español | link:http://docs.kicad-pcb.org/es/kicad.html[HTML] link:http://docs.kicad-pcb.org/es/kicad.pdf[PDF] link:http://docs.kicad-pcb.org/es/kicad.epub[ePub]
 |Italiano | link:http://docs.kicad-pcb.org/it/kicad.html[HTML] link:http://docs.kicad-pcb.org/it/kicad.pdf[PDF] link:http://docs.kicad-pcb.org/it/kicad.epub[ePub]
 |日本語 | link:http://docs.kicad-pcb.org/ja/kicad.html[HTML] link:http://docs.kicad-pcb.org/ja/kicad.pdf[PDF] link:http://docs.kicad-pcb.org/ja/kicad.epub[ePub]
