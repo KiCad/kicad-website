@@ -363,3 +363,27 @@ nav.secondary a {
 .download-sidebar div { /* font-awesome icon */
     display: inline;
 }
+
+#toc {
+    font-size: 15px;
+    border: solid 1px #ccc;
+    background: #f5f5f5;
+    display: table;
+    padding: 12px;
+}
+#toc ul {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin: 0;
+}
+#toc a {
+    display: block;
+    padding-right: 20px;
+}
+#toc li {
+    padding: 0;
+}
+#toc ul ul, #toc ul ul ul {
+    font-size: smaller;
+    list-style-type: lower-roman;
+}
