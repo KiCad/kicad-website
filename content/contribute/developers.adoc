@@ -129,7 +129,7 @@ before generating a patch to send to the developers list.
 To generate the patch, you can simply the following command from the
 kicad-feature directory:
 
- bzr diff > feature.patch
+ bzr diff --old ../kicad > feature.patch
 
 Attach feature.patch to an email and send it to the developers list.
 Start the subject line with 'PATCH:' so that everyone is aware there
