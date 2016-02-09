@@ -366,7 +366,7 @@ nav.secondary a {
 
 #toc {
     font-size: 15px;
-    border: solid 1px #ccc;
+    border-radius: 4px;
     background: #f5f5f5;
     display: table;
     padding: 12px;
@@ -383,7 +383,10 @@ nav.secondary a {
 #toc li {
     padding: 0;
 }
-#toc ul ul, #toc ul ul ul {
-    font-size: smaller;
+#toc ul ul {
+    font-size: 13px;
     list-style-type: lower-roman;
+}
+#toc ul ul ul {
+    list-style-type: none;
 }
