@@ -1,0 +1,13 @@
++++
+title = "Gentoo"
+iconhtml = "<div class='fl-gentoo'></div>"
+weight = 95
++++
+
+=== Stable Release
+KiCad 4.0.1 is available in in the
+link:https://packages.gentoo.org/packages/sci-electronics/kicad[official
+gentoo packages], you can install with emerge:
+
+  emerge sci-electronics/kicad
+
