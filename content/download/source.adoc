@@ -20,7 +20,10 @@ elements that make up the full KiCad package, which is the KiCad
 documentaiton (kicad-doc), the user interface translations
 (kicad-i18n), and the schematic, footprint and 3D model libraries.
 
-=== 4.0.4 Stable Release
+=== Stable Release
+
+Current Version: *4.0.4*
+
 Tarballs intended to be used by packagers:
 
 * link:https://launchpad.net/kicad/4.0/4.0.4/+download/kicad-4.0.4.tar.xz[Source code]
@@ -51,3 +54,4 @@ Instructions can be found in compiling.md which is located in the kicad source c
 
 Alternatively, you can view it online here: link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_compiling.html[Building KiCad from Source]
 
+Do not use the https://github.com/KiCad/KicadOSXBuilder[KicadOSXBuilder] as it is outdated.

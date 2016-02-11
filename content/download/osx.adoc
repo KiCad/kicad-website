@@ -4,27 +4,23 @@ iconhtml = "<div><i class='fa fa-apple'></i></div>"
 weight = 2
 +++
 
-=== 4.0.4 Stable Release
+KiCad for OS X is available as two disk images (dmg). You usually want to install both.
+
+KiCad is supported on OS X 10.7 through OS X 10.11.
+
+- *KiCad main package* contains the KiCad suite, documentation, schematic symbols, translations, and some templates. It gets footprints from the internet.
+
+- *KiCad extras* contains the footprints and all the instructions you need for making printed circuit board layouts while offline.
+
+=== Stable Release
 
 Current Version: *4.0.4*
 
-KiCad for OS X is available as two disk image (dmg) files.
-
-The kicad.dmg file includes the KiCad suite, documentation, schematic symbols, and some templates.  It gets footprints from the internet.
-
-kicad-extras.dmg contains the footprints and all the instructions you need for making printed circuit board layouts while offline.
-
- - http://downloads.kicad-pcb.org/osx/stable/kicad-4.0.4.dmg[KiCad main package]
- - http://downloads.kicad-pcb.org/osx/stable/kicad-extras-4.0.4.dmg[KiCad extras]
-
-You usually want to install both disk images.
+- http://downloads.kicad-pcb.org/osx/stable/kicad-4.0.4.dmg[KiCad main package]
+- http://downloads.kicad-pcb.org/osx/stable/kicad-extras-4.0.4.dmg[KiCad extras]
 
 === Nightly Development Builds
-Nightly development builds of KiCad for OS X are available at http://downloads.kicad-pcb.org/osx/, built by Adam Wolf.  KiCad is supported on OS X 10.7 through OS X 10.11.
 
-These are the "nightly" builds.  This means they are snapshots of the codebase at that time, and may contain even more bugs than usual, although we try our best.
+The _nightly_ builds are snapshots of the codebase at a specific time. They may contain more bugs than usual, although we try our best. Use them for testing the newest features:
 
-=== Build from Source
-You can find the instructions to build from source link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_compiling.html#build_osx[here]. 
-
-Do not use the https://github.com/KiCad/KicadOSXBuilder[KicadOSXBuilder] as it is outdated. 
+http://downloads.kicad-pcb.org/osx/nightly/
