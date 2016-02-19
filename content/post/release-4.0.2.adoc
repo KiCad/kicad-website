@@ -4,7 +4,7 @@ date = "2016-02-XX"
 draft = true
 +++
 
-KiCad 4.0.2 has been release. This is a minor release so it only contains bug fixes.
+KiCad 4.0.2 has been released. This is a minor release so it only contains bug fixes.
 
 === List of bugs fixed
 - 1537946 - Delete all in part library editor causes segfaults
