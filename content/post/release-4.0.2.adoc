@@ -1,0 +1,29 @@
++++
+title = "KiCad 4.0.2 released"
+date = "2016-02-XX"
+draft = true
++++
+
+KiCad 4.0.2 has been release. This is a minor release so it only contains bug fixes.
+
+=== List of bugs fixed
+- 1537946 - Delete all in part library editor causes segfaults
+- 1536427 - Can't change page height or width in non-english locales in pcbnew
+- 1535865 - GAL hangs when trying to move DRC marker
+- 1534120 - Flip block in pcbnew rotates block
+- 1533168 - Snap to grid becomes offset in GAL
+- 1531762 - Push and shove router erronously removes non-duplicate track
+- 1531146 - Locked objects can be rotated in GAL
+- 1530162 - Open text editor fails with Sublime editor
+- 1529214 - VRML export settings ignored
+- 1527804 - Eeschema segfaults when loading libraries
+- 1527446 - Flip block in pcbnew doesn't flip all items and layers
+- 1526158 - Pcbnew zones minimum width compared against thermal relief spokes even when not used
+- 1525552 - Crash after undoing pad placement in footprint editor
+- 1542935 - 3d viewer shows no soldermask unless there is an item on a layer
+- 1540967 - Zones with smoothed corners can protrude in to keepout
+- 1538603 - Page layout editor does not save text size
+- 1424003 - Push and shove router requires "end" to be pressed twice before ending track
+
+=== Where to get it
+Instructions for getting KiCad 4.0.2 can be found on the link:../../download[download page].
