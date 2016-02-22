@@ -6,23 +6,57 @@ weight = 10
 
 https://packages.debian.org/sid/kicad
 
-=== 4.0.0 Pre-release
+=== Debian Testing/Sid (Stretch)
 
-A pre-release "release candidate" is available for KiCad 4.0.0.
+Current Version: *4.0.2* (KiCad actual version)
 
-Current Version: *4.0.0 RC1*
+The current upstream release 4.0.2 is available for Debian
+https://packages.debian.org/stretch/kicad[testing/sid].
 
-This pre-release version is available in debian _sid_ (debian unstable), so you can install it with these commands into a terminal:
+You can install it with the follwing commands in a terminal, otherwise you can
+use the package manager you like:
 
 [source,bash]
 sudo apt-get update
 sudo apt-get install kicad
 
-Offline docs are available in seperate pacakges named for example `kicad-doc-en`.
+Offline docs are available in seperate packages named for example
+`kicad-doc-en`. You can search for them with _apt-cache_ for example
 
-=== Old Stable
-The 2013 stable release of KiCad is available in the official Debian repos before sid.
-It is not recommended for new designs. Please use the new stable release.
+[source.bash]
+apt-cache search kicad-doc
+
+=== Debian Stable (Jessie)
+
+Current Version: *bzr4027* (KiCad stable release 2014), or *4.0.1* via Backports
+
+The 2014 stable release bzr4027 of KiCad is available in the official Debian
+repositories for https://packages.debian.org/jessie/kicad[stable/jessie].
+It is not recommended for new designs. Please use the packages from the
+backport repository for actual versions. Follow the instructions on the
+https://wiki.debian.org/Backports[Debian Wiki] to add the Backport repository
+to your sources and install the KiCad packages from
+https://packages.debian.org/jessie-backports/kicad[jessie-backports].
+
+=== Debian Old-Stable (Wheezy)
+
+Current version: *bzr3261* (KiCad stable release 2012), or *bzr4027* via
+Backports
+
+Unfortunately there is only release bzr3261 from 2012 in the old-stable
+repository and version bzr4027 (this is the same as on current stable) in the
+old-stable-backport repository. As for Debian stable, it's recommend for new
+designs. So you better upgrade your Debian installation to Debian Stable
+(Jessie) and use the version there from backport.
 
 === Build from Source
-You can find the instructions to build from source link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_compiling.html#build_linux[here].
+You can find the instructions to build from source
+link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_compiling.html#build_linux[here].
+If you have a running Debian stable with actual packages from Backports or you
+running a testing/sid release you can compile your own version of KiCad. Ensure
+you have installed some build dependencies at least before:
+
+[source.bash]
+sudo apt-get install libwxbase3.0-dev libwxgtk3.0-dev libgl1-mesa-dev \
+libglew-dev libglm-dev libcurl4-openssl-dev libboost-dev libboost-thread-dev \
+libboost-system-dev libboost-context-dev libssl-dev wx-common
