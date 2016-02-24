@@ -28,7 +28,7 @@ apt-cache search kicad-doc
 
 === Debian Stable (Jessie)
 
-Current Version: *bzr4027* (KiCad stable release 2014), or *4.0.1* via Backports
+Current Version: *bzr4027* (KiCad stable release 2014), or *4.0.2* via Backports
 
 The 2014 stable release bzr4027 of KiCad is available in the official Debian
 repositories for https://packages.debian.org/jessie/kicad[stable/jessie].
