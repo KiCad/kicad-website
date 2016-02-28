@@ -1,13 +1,14 @@
 +++
 title = "KiCad 4.0.2 more bugfixes"
-date = "2016-02-14"
-draft = true
+date = "2016-02-28"
 +++
 
-A new release of KiCad has been made, containing some minor bug fixes.
+A new release of KiCad has been made, containing some minor bug
+fixes to the kicad source itself.
 
-This release also contains a new snapshot of the docs, but the libs
-have not been updated in this release.
+This release do not contain a new snapshot of the docs or libs, but it
+contains the latest changes from the kicad-i18n repo, which contains
+the GUI translations for KiCad.
 
 As last time, version 4.0.2 is made from the
 link:https://code.launchpad.net/~stambaughw/kicad/4.0[lp:kicad/4.0]

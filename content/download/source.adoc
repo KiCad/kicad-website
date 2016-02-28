@@ -21,19 +21,19 @@ elements that make up the full KiCad package, which is the KiCad
 documentaiton (kicad-doc), the user interface translations
 (kicad-i18n), and the schematic, footprint and 3D model libraries.
 
-=== 4.0.1 Stable Release
+=== 4.0.2 Stable Release
 Tarballs intended to be used by packagers:
 
-* link:https://launchpad.net/kicad/4.0/4.0.1/+download/kicad-4.0.1.tar.xz[Source code]
-* link:http://downloads.kicad-pcb.org/docs/kicad-doc-4.0.1.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/4.0.1[doc sources]
-* link:https://github.com/KiCad/kicad-i18n/releases/tag/4.0.1[Kicad-i18n]
-* link:http://downloads.kicad-pcb.org/libraries/kicad-library-4.0.1.tar.gz[Kicad-library repo]
-* link:http://downloads.kicad-pcb.org/libraries/kicad-footprints-4.0.1.tar.gz[Footprint repos]
+* link:https://launchpad.net/kicad/4.0/4.0.2/+download/kicad-4.0.2.tar.xz[Source code]
+* link:http://downloads.kicad-pcb.org/docs/kicad-doc-4.0.2.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/4.0.2[doc sources]
+* link:https://github.com/KiCad/kicad-i18n/releases/tag/4.0.2[Kicad-i18n]
+* link:http://downloads.kicad-pcb.org/libraries/kicad-library-4.0.2.tar.gz[Kicad-library repo]
+* link:http://downloads.kicad-pcb.org/libraries/kicad-footprints-4.0.2.tar.gz[Footprint repos]
 
 For the moment you are supposed to use the following options to set
 the version string:
 
-  -DKICAD_REPO_NAME=stable -DKICAD_BUILD_VERSION=4.0.1
+  -DKICAD_REPO_NAME=stable -DKICAD_BUILD_VERSION=4.0.2
 
 And you encouraged to enable the python scripting, even though it is
 not enabled by default with the following additional Cmake options.
@@ -51,3 +51,4 @@ to enable python scripting].
 Instructions can be found in compiling.md which is located in the kicad source code under /Documentation/development folder.
 
 Alternatively, you can view it online here: link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_compiling.html[Building KiCad from Source]
+
