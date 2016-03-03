@@ -6,7 +6,7 @@ weight = 2
 
 === 4.0.2 Stable Release
 
-Current Version: *4.0.x*
+Current Version: *4.0.2*
 
 KiCad for OS X is available as two disk image (dmg) files.
 
