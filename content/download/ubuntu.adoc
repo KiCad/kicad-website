@@ -17,6 +17,8 @@ To install KiCad via the PPA, you can use the Software Manager:
 5. Click 'Update the cache'
 6. Return to the Software Manager main screen, search for 'kicad', and install it.
 
+The KiCad schematic library and docs are in separate packages. If you want either of these install kicad-library and kicad-doc respectively.
+
 If you prefer to use the shell, you can enter these commands into a terminal:
 
 [source,bash]
