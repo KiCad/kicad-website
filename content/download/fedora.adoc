@@ -4,10 +4,10 @@ iconhtml = "<div class='fl-fedora'></div>"
 weight = 20
 +++
 
-=== 4.0.1 Stable Release
-KiCad 4.0.1 is available in the fedora 23 repo.
+=== 4.0.2 Stable Release
+KiCad 4.0.2 is available in the fedora 23 repo.
 
-To install KiCad 4.0.1 on fedora 23 open a terminal and run the following command:
+To install KiCad 4.0.2 on fedora 23 open a terminal and run the following command:
 
 [source,bash]
 dnf install kicad
