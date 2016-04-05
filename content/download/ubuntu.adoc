@@ -52,3 +52,10 @@ To install old stable search for `KiCad` in the Ubuntu Software Center or execut
 
 [source,bash]
 sudo apt-get install kicad
+
+=== Translations
+If you want KiCad to be translated, you also need to install the dedicated localization package.
+Run this command after replacing `XX` by your language code ('fr' for French for instance) :
+
+[source,bash]
+sudo apt-get install kicad-locale-XX
