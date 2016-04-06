@@ -26,6 +26,7 @@ Essential and concise guide to mastering KiCad.
 |Italiano | link:http://docs.kicad-pcb.org/it/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/it/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/it/getting_started_in_kicad.epub[ePub]
 |日本語 | link:http://docs.kicad-pcb.org/ja/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/ja/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/ja/getting_started_in_kicad.epub[ePub]
 |Polski | link:http://docs.kicad-pcb.org/pl/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/pl/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/pl/getting_started_in_kicad.epub[ePub]
+|Русский | link:http://docs.kicad-pcb.org/ru/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/ru/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/ru/getting_started_in_kicad.epub[ePub]
 |===
 
 == KiCad
