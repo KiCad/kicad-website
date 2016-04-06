@@ -96,6 +96,8 @@ link:http://www.freerouting.net/[FreeRouting]).
 
 * `.cad`: GenCAD used for circuit testing by the assembly house.
 
+* `.d356`: IPC-D-356 netlist that provides information about test points and connections. Generated in Pcbnew from `File` > `Fabrication Outputs` > `IPC-D-356`
+
 === Other formats used by the KiCad project
 
 * `.pdf`: All the help documentation intended to be read by KiCad users is in `.pdf` format.
