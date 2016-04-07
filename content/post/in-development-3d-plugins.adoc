@@ -1,0 +1,51 @@
++++
+title = "In Development: 3D Plugins"
+date = "2016-04-05"
+draft = true
++++
+
+Seasoned KiCad users are familiar with the venerable 3DViewer tool
+which has traditionally been used to help verify design by visual
+inspection and to create images of what a project may look like
+when it is finished. Historically the 3DViewer could only process
+a very limited implementation of the VRML2 (aka VRML97) specification
+as produced by the Wings3D modeler. In the past two years various
+developers contributed support for VRML1 and a very limited
+implementation of X3D. Although this gave users greater freedom,
+users remained unable to exploit the IGES and STEP mechanical models
+of components as provided by many manufacturers and retailers. The
+ability to view such mechanical models within KiCad would give users
+access to a much larger collection of models on the internet;
+furthermore IGES and STEP mechanical models can eventually be used
+by KiCad to provide a direct export of solid model files for use
+by mechanical designers and hobbyists. With the intention of eventual
+support for direct mechanical model export as outlined long ago in
+CERN's KiCad roadmap
+(http://www.ohwr.org/projects/cern-kicad/wiki/WorkPackages#20-Improved-3D-model-support),
+a 3D Plugin system was developed to make it easier to support
+arbitrary
+3D model formats in the future. After almost 8 months in development
+the code branch is now ready for testing by users and developers;
+the KiCad branch is available for installation from nightly builds:
+
+http://downloads.kicad-pcb.org/windows/testing/3d_initial_merge/
+http://downloads.kicad-pcb.org/osx/testing/3d_initial_merge/
+
+For other systems, the source code is available at
+https://code.launchpad.net/~cirilo-bernardo/kicad/3d_initial_merge
+
+The code branch contains the plugin system with plugins to support
+IDF files (emn + emp), IDF component outlines (idf), VRML1, VRML2,
+and X3D. A plugin is available to view IGES and STEP files via
+OpenCASCADE Community Edition (OCE):
+
+https://github.com/cbernardo/kicad_oce_3D
+
+The code today gives users a view of what's to come. At the moment
+the 3DViewer cannot handle the new data formats used to visualize
+the models so models other than X3D, VRML1, and VRML2 will only be
+visible within the 3D File Browser. A new 3DViewer is under
+development which can take advantage of the new 3D plugin system
+and will eventually replace the legacy 3DViewer:
+
+https://code.launchpad.net/~mrluzeiro/kicad/kicad_new3d-viewer
