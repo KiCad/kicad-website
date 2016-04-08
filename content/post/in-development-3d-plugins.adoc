@@ -1,7 +1,7 @@
 +++
 title = "In Development: 3D Plugins"
-date = "2016-04-07"
-draft = true
+date = "2016-04-08"
+draft = false
 +++
 
 Seasoned KiCad users are familiar with the venerable 3DViewer tool
@@ -24,45 +24,36 @@ furthermore IGES and STEP mechanical models can eventually be used by
 KiCad to provide a direct export of solid model files for use by
 mechanical designers and hobbyists.
 
-As better mechanical CAD support was part of the official KiCad road
-map and CERN's KiCad work packages with the requirement of being
-implemented with a depdendency on a base library plugin for handling
-file input and output. A very valuable KiCad developer, Cirilo
-Bernardo, found this intriguing and started work on adding the wanted
-dynamic plugin features and a new 3D model file resolution method.
-
 With the intention of eventual support for direct mechanical model
 export as outlined long ago in
 http://www.ohwr.org/projects/cern-kicad/wiki/WorkPackages#20-Improved-3D-model-support[CERN's
 KiCad roadmap], a 3D Plugin system was developed to make it easier to
 support arbitrary 3D model formats in the future. After almost 8
-months in development the code branch is now ready for testing by
-users and developers and have been available in the
-https://code.launchpad.net/~cirilo-bernardo/kicad/3d_initial_merge[3d_initial_merge]
-branch for testing by developers and binary nightlies was also
-prepared for users to test. This work have now been merged to the
+months in development the code branch has been merged with the
 product branch in revision
-http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/6664[6664].
-So from now on this feature shall be available in the normal nightly builds
-of KiCad.
+http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/6664[6664]
+and has since been available in the nightly builds of KiCad.
 
 The code branch contains the plugin system with plugins to support
 IDF files (emn + emp), IDF component outlines (idf), VRML1, VRML2,
-and X3D. A plugin is available to view IGES and STEP files via
-OpenCASCADE Community Edition (OCE), it is described in more detail on
-the https://lists.launchpad.net/kicad-developers/msg23726.html[mailing list]:
-
-https://github.com/cbernardo/kicad_oce_3D
+and X3D. A separate plugin project is available to view IGES and STEP
+files via OpenCASCADE Community Edition (OCE) and is available at
+https://github.com/cbernardo/kicad_oce_3D[kicad_oce_3D].
 
 .STEP file shown in the 3D previewer in KiCad
 image::../../img/post/oce_step_20160313.png[width=100%, alt="STEP file shown in the 3D previewer in KiCad", link=../../img/post/oce_step_20160313.png]
 
 The code today gives users a view of what's to come. At the moment the
-normal 3DViewer cannot handle the new data formats used to visualize the
+3DViewer cannot handle the new data formats used to visualize the
 models so models other than X3D, VRML1, and VRML2 will only be visible
-within the 3D File Browser and 3D Settings for a footprint with a
-3DViewer preview. A new 3DViewer is under development which can take
-advantage of the new 3D plugin system and will eventually replace the
-legacy 3DViewer:
+as a 3D preview in the 3D File Browser and 3D Settings windows.
+A new 3DViewer is under development which can take advantage of the
+new 3D plugin system and will eventually replace the existing
+3DViewer, the current development branch for this can be found on:
 
 https://code.launchpad.net/~mrluzeiro/kicad/kicad_new3d-viewer
+
+All this was mainly developed by two developers. The 3D plugin system
+was written by Cirilo Bernardo and the rendering code was written by
+Mario Luzeiro.
+
