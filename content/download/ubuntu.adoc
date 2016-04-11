@@ -12,14 +12,19 @@ Current Version: *4.0.0 RC2*
 
 This pre-release version is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-4[js-reynaud's KiCad 4.0 PPA].
 
-To install KiCad via the PPA, you can use the Software Manager:
+To install KiCad via the PPA, you can use the Software Center:
 
-1. Open the Software Manager.
-2. Select Edit → Software Sources.
-3. Open the 'PPAs' tab.
-4. Click 'Add a new PPA', and enter the PPA address: `ppa:js-reynaud/kicad-4`
-5. Click 'Update the cache'
-6. Return to the Software Manager main screen, search for 'kicad', and install it.
+1. Open the Software Center;
+
+2. Select 'Edit' -> 'Software Sources...';
+
+3. Open the 'Other Software' tab;
+
+4. Click 'Add...', and enter the PPA address: `ppa:js-reynaud/kicad-4` and then click the 'Add Source' button;
+
+5. When prompted insert the administrator user password;
+
+6. Return to the Software Center main screen, search for 'kicad', and install it.
 
 If you prefer to use the shell, you can enter these commands into a terminal:
 
