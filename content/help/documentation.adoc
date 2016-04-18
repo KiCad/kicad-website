@@ -109,6 +109,7 @@ Gerber viewer
 |Italiano | link:http://docs.kicad-pcb.org/it/gerbview.html[HTML] link:http://docs.kicad-pcb.org/it/gerbview.pdf[PDF] link:http://docs.kicad-pcb.org/it/gerbview.epub[ePub]
 |日本語 | link:http://docs.kicad-pcb.org/ja/gerbview.html[HTML] link:http://docs.kicad-pcb.org/ja/gerbview.pdf[PDF] link:http://docs.kicad-pcb.org/ja/gerbview.epub[ePub]
 |Polski | link:http://docs.kicad-pcb.org/pl/gerbview.html[HTML] link:http://docs.kicad-pcb.org/pl/gerbview.pdf[PDF] link:http://docs.kicad-pcb.org/pl/gerbview.epub[ePub]
+|Русский | link:http://docs.kicad-pcb.org/ru/gerbview.html[HTML] link:http://docs.kicad-pcb.org/ru/gerbview.pdf[PDF] link:http://docs.kicad-pcb.org/ru/gerbview.epub[ePub]
 |===
 
 == Utilities
