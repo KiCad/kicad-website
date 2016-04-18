@@ -3,6 +3,7 @@ title = "IRC"
 [menu.main]
     parent = "Community"
     name   = "IRC"
+    weight = 20
 +++
 :linkattrs:
 

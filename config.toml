@@ -46,8 +46,8 @@ pluralizelisttitles = false
 	
 [[menu.main]]
     parent = "Community"
-    name   = "User Forum"
-    url    = "http://forum.kicad.info/"
+    name   = "Forums"
+    url    = "/community/sites#_forums"
     weight = 10
 
 [[menu.main]]
@@ -55,12 +55,6 @@ pluralizelisttitles = false
     name   = "User Mailing List"
     url    = "http://groups.yahoo.com/group/kicad-users/"
     weight = 15
-	
-[[menu.main]]
-    parent = "Community"
-    name   = "kicad.jp"
-    url    = "http://kicad.jp/"
-    weight = 20
 	
 [[menu.main]]
     parent = "Discover"

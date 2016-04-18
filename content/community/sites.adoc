@@ -1,0 +1,44 @@
++++
+title = "Sites"
+[menu.main]
+    parent = "Community"
+    name   = "Sites"
+    weight = 25
++++
+:linkattrs:
+
+== Forums
+
+These are forums run by KiCad users for the general KiCad community to ask questions and help each other.
+
+[role="table table-striped table-condensed"]
+|===
+| Language               | URL
+
+| English (most active) | link:https://forum.kicad.info/[kicad.info]
+| English                | link:https://www.reddit.com/r/KiCad/[kicad subreddit]
+| Español                | link:http://www.elektroquark.com/forokicad/index.php[El foro de KiCad en castellano]
+|===
+
+
+== Sites
+
+These are websites that have KiCad content. They may or may not have forums but can still be very helpful.
+
+[role="table table-striped table-condensed"]
+|===
+| Language | URL
+
+| 日本語  | link:http://kicad.jp[kicad.jp]
+|===
+
+
+
+== Want to get your site listed?
+
+Submit a pull-request to the kicad website repository as long as you meet the following conditions:
+
+- Your site must be open and cannot charge for access
+- You do not misrepresent yourself as being an official KiCad entity
+- There is a primary focus on KiCad content. i.e. your personal blog that has some KiCad related posts is not valid, a forum dedicated to KiCad or a blog *only* with kicad posts does
+- You accept your site can be removed from listing at any time at the discretion of the KiCad website maintainers
