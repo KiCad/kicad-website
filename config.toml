@@ -49,18 +49,24 @@ pluralizelisttitles = false
     name   = "User Forum"
     url    = "http://forum.kicad.info/"
     weight = 10
+	
+[[menu.main]]
+    parent = "Community"
+    name   = "User Forum (Spanish)"
+    url    = "http://www.elektroquark.com/forokicad/index.php"
+    weight = 15
 
 [[menu.main]]
     parent = "Community"
     name   = "User Mailing List"
     url    = "http://groups.yahoo.com/group/kicad-users/"
-    weight = 15
+    weight = 20
 	
 [[menu.main]]
     parent = "Community"
     name   = "kicad.jp"
     url    = "http://kicad.jp/"
-    weight = 20
+    weight = 25
 	
 [[menu.main]]
     parent = "Discover"
