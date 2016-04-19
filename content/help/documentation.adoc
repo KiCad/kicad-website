@@ -20,6 +20,7 @@ Essential and concise guide to mastering KiCad.
 |Language |Format
 
 |English | link:http://docs.kicad-pcb.org/en/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/en/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/en/getting_started_in_kicad.epub[ePub]
+|Català | link:http://docs.kicad-pcb.org/ca/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/ca/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/ca/getting_started_in_kicad.epub[ePub]
 |Deutsch | link:http://docs.kicad-pcb.org/de/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/de/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/de/getting_started_in_kicad.epub[ePub]
 |Español | link:http://docs.kicad-pcb.org/es/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/es/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/es/getting_started_in_kicad.epub[ePub]
 |Français | link:http://docs.kicad-pcb.org/fr/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/fr/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/fr/getting_started_in_kicad.epub[ePub]
