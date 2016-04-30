@@ -47,12 +47,20 @@ sudo add-apt-repository --yes ppa:js-reynaud/ppa-kicad
 sudo apt-get update
 sudo apt-get install kicad
 
-=== Stable Release in the Ubuntu repository
+=== Stable Release in the Ubuntu 16.04 LTS repository
 The stable release of KiCad 4.0.2 is currently in the official Ubuntu repository.
 To install it search for `KiCad` in the Ubuntu Software or execute the following in a terminal:
 
 [source,bash]
-sudo apt install kicad kicad-common
+sudo apt install kicad
+
+=== Old Stable (old Ubuntu releases)
+The 2013 stable release of KiCad is currently in the official Ubuntu repository.
+It is not recommended for new projects. Please use the new stable release.
+To install old stable search for `KiCad` in the Ubuntu Software Center or execute the following in a terminal:
+
+[source,bash]
+sudo apt-get install kicad
 
 === Translations
 If you want KiCad to be translated, you also need to install the dedicated localization package.
