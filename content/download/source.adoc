@@ -40,7 +40,7 @@ not enabled by default with the following additional Cmake options.
 
   -DKICAD_SCRIPTING=ON -DKICAD_SCRIPTING_MODULES=ON -DKICAD_SCRIPTING_WXPYTHON=ON
 
-I has been deciced to do so such that packagers will
+It has been decided to do so such that packagers will
 link:https://www.mail-archive.com/kicad-developers@lists.launchpad.net/msg15686.html[enable
 it on a case by case basis]. If you package for linux you are
 link:https://www.mail-archive.com/kicad-developers@lists.launchpad.net/msg15700.html[expected
