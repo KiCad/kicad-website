@@ -143,4 +143,5 @@ Exports an IDFv3 compliant board (.emn) and library (.emp) file for communicatin
 |Italiano | link:http://docs.kicad-pcb.org/it/idf_exporter.html[HTML] link:http://docs.kicad-pcb.org/it/idf_exporter.pdf[PDF] link:http://docs.kicad-pcb.org/it/idf_exporter.epub[ePub]
 |日本語 | link:http://docs.kicad-pcb.org/ja/idf_exporter.html[HTML] link:http://docs.kicad-pcb.org/ja/idf_exporter.pdf[PDF] link:http://docs.kicad-pcb.org/ja/idf_exporter.epub[ePub]
 |Polski | link:http://docs.kicad-pcb.org/pl/idf_exporter.html[HTML] link:http://docs.kicad-pcb.org/pl/idf_exporter.pdf[PDF] link:http://docs.kicad-pcb.org/pl/idf_exporter.epub[ePub]
+|Русский | link:http://docs.kicad-pcb.org/ru/idf_exporter.html[HTML] link:http://docs.kicad-pcb.org/ru/idf_exporter.pdf[PDF] link:http://docs.kicad-pcb.org/ru/idf_exporter.epub[ePub]
 |===
