@@ -46,7 +46,7 @@ link:http://bazaar.launchpad.net/~stambaughw/kicad/doc-read-only/download/head:/
 
 ** `-save.kicad_pcb`: ... backup of the PCB Layout file.
 
-* `.cmp`: parts-to-module assignments file.
+* `.cmp`: deprecated parts-to-module assignments file. Footprint informations are now saved in the .sch files.
 
 * `.csv`: commonly used when exporting BOM file.
 
