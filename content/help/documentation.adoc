@@ -130,6 +130,7 @@ Page Layout Editor.
 |Italiano | link:http://docs.kicad-pcb.org/it/pl_editor.html[HTML] link:http://docs.kicad-pcb.org/it/pl_editor.pdf[PDF] link:http://docs.kicad-pcb.org/it/pl_editor.epub[ePub]
 |日本語 | link:http://docs.kicad-pcb.org/ja/pl_editor.html[HTML] link:http://docs.kicad-pcb.org/ja/pl_editor.pdf[PDF] link:http://docs.kicad-pcb.org/ja/pl_editor.epub[ePub]
 |Polski | link:http://docs.kicad-pcb.org/pl/pl_editor.html[HTML] link:http://docs.kicad-pcb.org/pl/pl_editor.pdf[PDF] link:http://docs.kicad-pcb.org/pl/pl_editor.epub[ePub]
+|Русский | link:http://docs.kicad-pcb.org/ru/pl_editor.html[HTML] link:http://docs.kicad-pcb.org/ru/pl_editor.pdf[PDF] link:http://docs.kicad-pcb.org/ru/pl_editor.epub[ePub]
 |===
 
 === IDF Exporter
