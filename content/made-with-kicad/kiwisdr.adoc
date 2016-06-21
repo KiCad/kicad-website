@@ -11,5 +11,4 @@ utility stations, and amateur radio transmissions, world-wide, in the
 spectrum from 10 kHz to 30 MHz. The KiwiSDR is a
 https://github.com/jks-prv/KiwiSDR_PCB/tree/master/KiwiSDR[custom
 circuit board] you connect to an inexpensive BeagleBone Black or Green
-computer. Add an antenna, power supply, internet connection, then
-install the software package to be running in minutes.
+computer.
