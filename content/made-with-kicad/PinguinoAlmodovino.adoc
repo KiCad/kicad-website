@@ -1,0 +1,9 @@
+﻿++++
+ +title = "Pinguino Almodovino v1.0"
+ +projectimage = "/img/madewithkicad/Pinguino_3D.jpg"
+ +projectdeveloper = "Luis Serrano"
+ +projecturl = "http://www.allm2m.com/Pinguino/Almodovino.htm
+ +"
+ ++++
+ +
+ +Pinguino Almodovino  is a DIY low cost PIC32 Pinguino board created with Kicad.
