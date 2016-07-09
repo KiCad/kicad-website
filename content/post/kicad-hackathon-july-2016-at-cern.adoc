@@ -16,7 +16,7 @@ took place during the week.  Much of hacking was done on improving the
 push and shove router, improving the user experience, improving the
 coverage and accuracy of the geometry library, creating the schematic
 I/O plugin architecture, and finalizing the
-https://code.launchpad.net/~kicad-product-committers/kicad/product[version
+http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/v5_road_map.html[version
 5 stable release road map].  There was also working demo and hacking on a
 new feature created by the CERN developers Tom Wlostowski and Maciej (Orson)
 Suminski which was kept under wraps and an unexpected surprise for everyone
