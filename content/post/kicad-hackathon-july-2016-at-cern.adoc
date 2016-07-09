@@ -8,19 +8,21 @@ A cadre of KiCad developers including Wayne Stambaugh, Tom Wlostowski,
 Maciej (Orson) Suminski, and Simon Richter along with some potential
 new developers Michele Castellana and Alejandro García Montoro gathered
 at CERN for a KiCad hackathon the week of July 4th to July 10th organized
-by CERN's Javier Serrano.  There was even some time to take a trip to
-visit the KiCad project founder Jean-Pierre Charras.  It would be a gross
-understatement to say that a good time was had by all.  Many new and
-existing developement topics were discussed and a lot of KiCad hacking
-took place during the week.  Much of hacking was done on improving the
-push and shove router, improving the user experience, improving the
-coverage and accuracy of the geometry library, creating the schematic
-I/O plugin architecture, and finalizing the
+by CERN's Javier Serrano.  There was even enough time to take a trip to
+visit the KiCad project founder Jean-Pierre Charras.
+
+It would be a gross understatement to say that a good time was had by all.  
+Many new and existing developement topics were discussed and a lot of KiCad hacking
+took place during the week.  Much hacking was done to improve the
+push and shove router, improve user experience, improve the
+coverage and accuracy of the geometry library, create a schematic
+I/O plugin architecture, and finalize the
 http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/v5_road_map.html[version
-5 stable release road map].  There was also working demo and hacking on a
-new feature created by the CERN developers Tom Wlostowski and Maciej (Orson)
-Suminski which was kept under wraps and an unexpected surprise for everyone
-outside of CERN including the project leader.  Expect a big announcement in
+5 stable release road map].
+
+There was also working demo and hacking on a new feature created by the CERN developers 
+Tom Wlostowski and Maciej (Orson) Suminski which was kept under wraps and an unexpected 
+urprise for everyone outside of CERN including the project leader.  Expect a big announcement in
 the not too distant future as this feature nears a level of maturity to be
 committed to the
 https://code.launchpad.net/~kicad-product-committers/kicad/product[development
