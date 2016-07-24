@@ -74,6 +74,7 @@ Circuit board layout editor and footprint editor.
 |Language |Format
 
 |English | link:http://docs.kicad-pcb.org/stable/en/pcbnew.html[HTML] link:http://docs.kicad-pcb.org/stable/en/pcbnew.pdf[PDF] link:http://docs.kicad-pcb.org/stable/en/pcbnew.epub[ePub]
+|Deutsch | link:http://docs.kicad-pcb.org/stable/de/pcbnew.html[HTML] link:http://docs.kicad-pcb.org/stable/de/pcbnew.pdf[PDF] link:http://docs.kicad-pcb.org/stable/de/pcbnew.epub[ePub]
 |Español | link:http://docs.kicad-pcb.org/stable/es/pcbnew.html[HTML] link:http://docs.kicad-pcb.org/stable/es/pcbnew.pdf[PDF] link:http://docs.kicad-pcb.org/stable/es/pcbnew.epub[ePub]
 |Français | link:http://docs.kicad-pcb.org/stable/fr/pcbnew.html[HTML] link:http://docs.kicad-pcb.org/stable/fr/pcbnew.pdf[PDF] link:http://docs.kicad-pcb.org/stable/fr/pcbnew.epub[ePub]
 |Italiano | link:http://docs.kicad-pcb.org/stable/it/pcbnew.html[HTML] link:http://docs.kicad-pcb.org/stable/it/pcbnew.pdf[PDF] link:http://docs.kicad-pcb.org/stable/it/pcbnew.epub[ePub]
@@ -127,6 +128,7 @@ Page Layout Editor.
 |English | link:http://docs.kicad-pcb.org/stable/en/pl_editor.html[HTML] link:http://docs.kicad-pcb.org/stable/en/pl_editor.pdf[PDF] link:http://docs.kicad-pcb.org/stable/en/pl_editor.epub[ePub]
 |Deutsch | link:http://docs.kicad-pcb.org/stable/de/pl_editor.html[HTML] link:http://docs.kicad-pcb.org/stable/de/pl_editor.pdf[PDF] link:http://docs.kicad-pcb.org/stable/de/pl_editor.epub[ePub]
 |Español | link:http://docs.kicad-pcb.org/stable/es/pl_editor.html[HTML] link:http://docs.kicad-pcb.org/stable/es/pl_editor.pdf[PDF] link:http://docs.kicad-pcb.org/stable/es/pl_editor.epub[ePub]
+|Français | link:http://docs.kicad-pcb.org/stable/fr/pl_editor.html[HTML] link:http://docs.kicad-pcb.org/stable/fr/pl_editor.pdf[PDF] link:http://docs.kicad-pcb.org/stable/fr/pl_editor.epub[ePub]
 |Italiano | link:http://docs.kicad-pcb.org/stable/it/pl_editor.html[HTML] link:http://docs.kicad-pcb.org/stable/it/pl_editor.pdf[PDF] link:http://docs.kicad-pcb.org/stable/it/pl_editor.epub[ePub]
 |日本語 | link:http://docs.kicad-pcb.org/stable/ja/pl_editor.html[HTML] link:http://docs.kicad-pcb.org/stable/ja/pl_editor.pdf[PDF] link:http://docs.kicad-pcb.org/stable/ja/pl_editor.epub[ePub]
 |Polski | link:http://docs.kicad-pcb.org/stable/pl/pl_editor.html[HTML] link:http://docs.kicad-pcb.org/stable/pl/pl_editor.pdf[PDF] link:http://docs.kicad-pcb.org/stable/pl/pl_editor.epub[ePub]
