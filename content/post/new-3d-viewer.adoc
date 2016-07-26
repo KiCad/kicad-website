@@ -68,12 +68,12 @@ image::../../img/post/bm_01.jpg[align=center, width=80%, alt="Image rendered wit
 image::../../img/post/hack-master-r3.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/hack-master-r3.jpg]
 '''
 .Image rendered with the ray tracer.
-image::../../img/post/GB1601-InEarSys-RX_1.png[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/GB1601-InEarSys-RX_1.png]
+image::../../img/post/GB1601-InEarSys-RX_1.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/GB1601-InEarSys-RX_1.jpg]
 '''
 .Image rendered with the ray tracer.
-image::../../img/post/GB1601-InEarSys-RX_3.png[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/GB1601-InEarSys-RX_3.png]
+image::../../img/post/GB1601-InEarSys-RX_3.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/GB1601-InEarSys-RX_3.jpg]
 '''
 .Image rendered with the ray tracer.
-image::../../img/post/GB1601-InEarSys-RX_6.png[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/GB1601-InEarSys-RX_6.png]
+image::../../img/post/GB1601-InEarSys-RX_6.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/GB1601-InEarSys-RX_6.jpg]
 '''
 
