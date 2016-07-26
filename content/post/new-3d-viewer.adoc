@@ -47,7 +47,7 @@ by subtracting a perfect cylinder, or it can render a via using a
 perfect cylindrical ring.
 The ray tracing algorithm provides shadows, reflections and refractions.
 Additionally there is a post-processing shader to add an effect of
-ambient occlusion and global illumination.
+ambient occlusion and global illumination. See the figures 4 to 8.
 
 
 '''
@@ -60,5 +60,20 @@ image::../../img/post/footprint_3dpreview.png[align=center, width=80%, alt="The 
 '''
 .Marker for the setpoint of the pivot point used for the rotation center by pressing spacebar.
 image::../../img/post/pivot_rotation.png[align=center, width=80%, alt="Marker for the setpoint of the pivot point used for the rotation center by pressing spacebar.", link=../../img/post/pivot_rotation.png]
+'''
+.Image rendered with the ray tracer.
+image::../../img/post/bm_01.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/bm_01.jpg]
+'''
+.Image rendered with the ray tracer.
+image::../../img/post/hack-master-r3.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/hack-master-r3.jpg]
+'''
+.Image rendered with the ray tracer.
+image::../../img/post/GB1601-InEarSys-RX_1.png[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/GB1601-InEarSys-RX_1.png]
+'''
+.Image rendered with the ray tracer.
+image::../../img/post/GB1601-InEarSys-RX_3.png[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/GB1601-InEarSys-RX_3.png]
+'''
+.Image rendered with the ray tracer.
+image::../../img/post/GB1601-InEarSys-RX_6.png[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/GB1601-InEarSys-RX_6.png]
 '''
 
