@@ -1,0 +1,85 @@
++++
+title = "KiCad 4.0.3 Stable Release"
+date = "2016-08-07"
++++
+
+A new stable release of KiCad has been made, containing only major bug
+fixes, OSX touch pad improvements, and improved translations.
+
+This release does not contain a new snapshot of the documentation or
+libraries. It does have the latest changes from the kicad-i18n repo,
+hich contains the GUI translations for KiCad.
+
+The stable release version 4.0.3 is made from the
+link:https://code.launchpad.net/~stambaughw/kicad/4.0[lp:kicad/4.0]
+branch with bug fixes cherry picked changes from the link:https://
+code.launchpad.net/~kicad-product-committers/kicad/product[development
+branch] of KiCad.
+
+KiCad binaries are available or will be available in the near future
+for download for Windows, OSX and Linux, see the link:../../download[download page]
+for guidance.
+
+Instructions for packagers can be found on
+link:../../download/source/[the download page describing how to build
+from source] and its subpages.
+
+Thank you to all developers, packagers, librarians, document writers,
+translators, and everyone else who helped make this release possible.
+
+=== Changes
+
+Below is a list of some commits related to a reported bug:
+
+* https://launchpad.net/bugs/1545546[Pcbnew: fix incorrect assertion failure in specctra export when a footprint contains segments on edge.cut layer.]
+* https://launchpad.net/bugs/1545668[Pcbnew: fix bug opening P-CAD ASCII files.]
+* https://launchpad.net/bugs/1545708[Eeschema: fix bug where global bus labels were being ignored.]
+* https://launchpad.net/bugs/1547299[Eeschema: fix segfault in component library editor when adding pins to alternate body style.]
+* https://launchpad.net/bugs/1529159[OSX: fix bug caused by wxBitmap drawing 0 width or heigth bitmap.]
+* https://launchpad.net/bugs/1547822[Pcbnew: fix issues in PCAD import of P-CAD ASCII files.]
+* https://launchpad.net/bugs/1538805[Pcbnew: prevent delete hot key from deleting locked footprints.]
+* https://launchpad.net/bugs/1551579[Pcbnew: more accurate router pushout force calculation for circle-segment collisions in GAL.]
+* https://launchpad.net/bugs/1550620[Fix environment variable initialization issue on Linux.]
+* https://launchpad.net/bugs/1555358[Pcbnew: fix incorrect (too small) bounding box EDA_TEXT, noticeable when chars like j or { are used in zone fill functions.]
+* https://launchpad.net/bugs/1551353[Pcbnew: fix exception when importing pcad pcb with zero size pads.]
+* https://launchpad.net/bugs/1556424[Pcbnew: loading file with footprint on an inner layer causes an assertion.]
+* https://launchpad.net/bugs/1558353[Kicad: fix Preferred Editor dialog.]
+* https://launchpad.net/bugs/1559545[Fix graphics rendering on RTL systems.]
+* https://launchpad.net/bugs/1558486[Eeschema: fix wxFileDialog assertion when importing component.]
+* https://launchpad.net/bugs/1553756[CvPcb: remove footprint library load failure limit.]
+* https://launchpad.net/bugs/1568603[Gerber files: ensure the "level polarity dark" is set in each file avoid issues when panneling files.]
+* https://launchpad.net/bugs/1565263[Pcbnew: fix issues in DRC dialog issues.]
+* https://launchpad.net/bugs/1576363[Eeschema: fix value field editing bug in component library editor.]
+* https://launchpad.net/bugs/1529163[Fix mirrored graphics when moving SCH_BITMAP on OSX.]
+* https://launchpad.net/bugs/1578637[Fix display bug when multiple monitor loses window when switched to single monitor.]
+* https://launchpad.net/bugs/1592586[Pcbnew: fix DRC write report to file crash bug.]
+* https://launchpad.net/bugs/1593769[Fix broken swig import script when using swig 3.0.10.]
+* https://launchpad.net/bugs/1591793[KiCad: fix an issue when the schematic editor or the board editor are run from the project tree frame.]
+* https://launchpad.net/bugs/1485420[Gerbview: fix incorrect handling of G85 command when reading excellon files.]
+* https://launchpad.net/bugs/1598809[Pcbnew: fix crash when loading board files with a missing net section.]
+* https://launchpad.net/bugs/1597114[Pcbnew: fix footprint libraries wizard error when opening personal GitHub accounts.]
+* https://launchpad.net/bugs/1607430[Pcbnew: fix segfault on BOARDs without tracks.]
+* https://launchpad.net/bugs/1584498[Pcbnew: fix dangling board reference crash in GAL.]
+* https://launchpad.net/bugs/1606378[Fix window positioning bug when context menu is open.]
+
+==== Some changes without a bug tracking number
+
+* Various fixes to DXF import.
+* Fix and improve IDF tools.
+* Fix quasi-modal dialog mode in DIALOG_SHIM class.
+* Pcbnew: Highlight a net when crossprobing with eeschema and highlight net tool
+is enabled.
+* Added 'Reset Grid Origin' hot key (GAL).
+* Fix beep on hotkey press in OS X.
+* Make color names translatable in color selection dialog.
+* OSX: legacy canvas rendering speed improvements.
+* OSX: back port touchpad support from development branch.
+* Remove front silkscreen default setting for PTH and NPTH pads.
+
+There are many other commits not mentioned above, if you are interested have a
+look at the commit history at
+http://bazaar.launchpad.net/~stambaughw/kicad/4.0/changes/[the commit
+log] between the 4.0.2 and 4.0.3 tags.
+
+The KiCad development team hopes you enjoy this latest stable release of KiCad.
+
