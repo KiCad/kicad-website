@@ -61,6 +61,7 @@ Below is a list of some commits related to a reported bug:
 * https://launchpad.net/bugs/1607430[Pcbnew: fix segfault on BOARDs without tracks.]
 * https://launchpad.net/bugs/1584498[Pcbnew: fix dangling board reference crash in GAL.]
 * https://launchpad.net/bugs/1606378[Fix window positioning bug when context menu is open.]
+* https://launchpad.net/bugs/1527827[Polygon: fixed polygon filleting glitch for colinear outline segments.]
 
 ==== Some changes without a bug tracking number
 
