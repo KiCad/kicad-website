@@ -3,25 +3,25 @@ title = "KiCad 4.0.3 Stable Release"
 date = "2016-08-07"
 +++
 
-A new stable release of KiCad has been made, containing only major bug
-fixes, OSX touch pad improvements, and improved translations.
+A new stable release of KiCad has been released.  The 4.0.3 stable version
+contains many bug fixes, OSX touch pad improvements, and improved translations.
 
 This release does not contain a new snapshot of the documentation or
 libraries. It does have the latest changes from the kicad-i18n repo,
-hich contains the GUI translations for KiCad.
+which contains the GUI translations for KiCad.
 
 The stable release version 4.0.3 is made from the
 link:https://code.launchpad.net/~stambaughw/kicad/4.0[lp:kicad/4.0]
-branch with bug fixes cherry picked changes from the link:https://
-code.launchpad.net/~kicad-product-committers/kicad/product[development
-branch] of KiCad.
+branch with bug fixes and improvements cherry picked changes from the
+link:https://code.launchpad.net/~kicad-product-committers/kicad/product[development branch]
+of KiCad.
 
 KiCad binaries are available or will be available in the near future
 for download for Windows, OSX and Linux, see the link:../../download[download page]
 for guidance.
 
 Instructions for packagers can be found on
-link:../../download/source/[the download page describing how to build
+link:http://kicad-pcb.org/download/[the download page describing how to build
 from source] and its subpages.
 
 Thank you to all developers, packagers, librarians, document writers,
