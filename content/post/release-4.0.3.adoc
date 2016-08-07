@@ -6,9 +6,9 @@ date = "2016-08-07"
 A new stable release of KiCad has been released.  The 4.0.3 stable version
 contains many bug fixes, OSX touch pad improvements, and improved translations.
 
-This release does not contain a new snapshot of the documentation or
-libraries. It does have the latest changes from the kicad-i18n repo,
-which contains the GUI translations for KiCad.
+This release contains a new snapshot of the documentation and libraries.  It also
+has the latest changes from the kicad-i18n repo, which now contains complete GUI
+translations for the following languages: de, fr, it, ja, ru, pl, zh_CN and es.
 
 The stable release version 4.0.3 is made from the
 link:https://code.launchpad.net/~stambaughw/kicad/4.0[lp:kicad/4.0]
