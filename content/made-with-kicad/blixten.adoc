@@ -1,0 +1,9 @@
++++
+title = "Blixten a 6LoWPAN Gateway"
+projectimage = "/img/madewithkicad/blixten.png"
+projectdeveloper = "Jonas Persson"
+projecturl = "https://jopee.wordpress.com/6lowpan-gateway/"
++++
+
+An https://github.com/jonpe960/blixten/tree/master/Blixten%20Gateway[open source] "ehernet – to – 6lowpan" gateway intended for use for some LED lighting control. It is four layer single load board with DRAM running with a linux kernel.
+
