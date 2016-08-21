@@ -10,13 +10,13 @@ KiCad 4.0.3 is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/ki
 
 To install KiCad via the PPA, you can use the Software Manager:
 
-1. Open the Ubuntu Software Center.
+1. Open the Ubuntu Software Manager.
 2. Select 'Edit' -> 'Software Sources...'.
 3. Open the 'Other Software' tab.
 4. Click 'Add...', and enter the PPA address: `ppa:js-reynaud/kicad-4` and then click the 'Add Source' button.
 5. When prompted insert the administrator user password.
-6. Return to the Software Center and view the Progress tab to see when the cache has finished updating.
-7. Return to the Software Center main screen, search for 'kicad', and install it.
+6. Return to the Software Manager and view the Progress tab to see when the cache has finished updating.
+7. Return to the Software Manager main screen, search for 'kicad', and install it.
 
 The KiCad schematic library and docs are in separate packages. If you want either of these install kicad-library and kicad-doc respectively.
 
@@ -24,40 +24,39 @@ If you prefer to use the shell, you can enter these commands into a terminal:
 
 [source,bash]
 sudo add-apt-repository --yes ppa:js-reynaud/kicad-4
-sudo apt-get update
-sudo apt-get install kicad
+sudo apt update
+sudo apt install kicad
 
 === Nightly Development Builds
 Nightly development builds are available in https://code.launchpad.net/~js-reynaud/+archive/ubuntu/ppa-kicad[js-reynaud's PPA].
 These provide the latest, unreleased preview of KiCad.
-To install KiCad via the PPA, you can use the Ubuntu Software Center:
+To install KiCad via the PPA, you can use the Ubuntu Software Manager:
 
-1. Open the Ubuntu Software Center.
+1. Open the Ubuntu Software Manager.
 2. Select 'Edit' -> 'Software Sources...'.
 3. Open the 'Other Software' tab.
 4. Click 'Add...', and enter the PPA address: `ppa:js-reynaud/ppa-kicad` and then click the 'Add Source' button.
 5. When prompted insert the administrator user password.
-6. Return to the Software Center and view the Progress tab to see when the cache has finished updating.
-7. Return to the Software Center main screen, search for 'kicad', and install it.
+6. Return to the Software Manager and view the Progress tab to see when the cache has finished updating.
+7. Return to the Software Manager main screen, search for 'kicad', and install it.
 
 If you prefer to use the shell, you can enter these commands into a terminal:
 
 [source,bash]
 sudo add-apt-repository --yes ppa:js-reynaud/ppa-kicad
-sudo apt-get update
-sudo apt-get install kicad
+sudo apt update
+sudo apt install kicad
 
 === Old Stable
-The 2013 stable release of KiCad is currently in the official Ubuntu repository.
 It is not recommended for new projects. Please use the new stable release.
-To install old stable search for `KiCad` in the Ubuntu Software Center or execute the following in a terminal:
+To install old stable search for `KiCad` in the Ubuntu Software Manager or execute the following in a terminal:
 
 [source,bash]
-sudo apt-get install kicad
+sudo apt install kicad
 
 === Translations
 If you want KiCad to be translated, you also need to install the dedicated localization package.
 Run this command after replacing `XX` by your language code ('fr' for French for instance) :
 
 [source,bash]
-sudo apt-get install kicad-locale-XX
+sudo apt install kicad-locale-XX
