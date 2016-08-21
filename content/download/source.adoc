@@ -21,26 +21,26 @@ elements that make up the full KiCad package, which is the KiCad
 documentaiton (kicad-doc), the user interface translations
 (kicad-i18n), and the schematic, footprint and 3D model libraries.
 
-=== 4.0.2 Stable Release
+=== 4.0.3 Stable Release
 Tarballs intended to be used by packagers:
 
-* link:https://launchpad.net/kicad/4.0/4.0.2/+download/kicad-4.0.2.tar.xz[Source code]
-* link:http://downloads.kicad-pcb.org/docs/kicad-doc-4.0.2.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/4.0.2[doc sources]
-* link:https://github.com/KiCad/kicad-i18n/releases/tag/4.0.2[Kicad-i18n]
-* link:http://downloads.kicad-pcb.org/libraries/kicad-library-4.0.2.tar.gz[Kicad-library repo]
-* link:http://downloads.kicad-pcb.org/libraries/kicad-footprints-4.0.2.tar.gz[Footprint repos]
+* link:https://launchpad.net/kicad/4.0/4.0.3/+download/kicad-4.0.3.tar.xz[Source code]
+* link:http://downloads.kicad-pcb.org/docs/kicad-doc-4.0.3.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/4.0.3[doc sources]
+* link:https://github.com/KiCad/kicad-i18n/releases/tag/4.0.3[Kicad-i18n]
+* link:http://downloads.kicad-pcb.org/libraries/kicad-library-4.0.3.tar.gz[Kicad-library repo]
+* link:http://downloads.kicad-pcb.org/libraries/kicad-footprints-4.0.3.tar.gz[Footprint repos]
 
 For the moment you are supposed to use the following options to set
 the version string:
 
-  -DKICAD_REPO_NAME=stable -DKICAD_BUILD_VERSION=4.0.2
+  -DKICAD_REPO_NAME=stable -DKICAD_BUILD_VERSION=4.0.3
 
 And you encouraged to enable the python scripting, even though it is
 not enabled by default with the following additional Cmake options.
 
   -DKICAD_SCRIPTING=ON -DKICAD_SCRIPTING_MODULES=ON -DKICAD_SCRIPTING_WXPYTHON=ON
 
-I has been deciced to do so such that packagers will
+It has been decided to do so such that packagers will
 link:https://www.mail-archive.com/kicad-developers@lists.launchpad.net/msg15686.html[enable
 it on a case by case basis]. If you package for linux you are
 link:https://www.mail-archive.com/kicad-developers@lists.launchpad.net/msg15700.html[expected

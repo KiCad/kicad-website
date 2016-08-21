@@ -64,6 +64,7 @@
 .fl-redhat:before,
 .fl-slackware:before,
 .fl-slackware-inverse:before,
+.fl-snappy:before,
 .fl-ubuntu:before,
 .fl-ubuntu-inverse:before {
   display: inline-block;
@@ -95,5 +96,6 @@
 .fl-redhat:before { content: "\f10a"; }
 .fl-slackware:before { content: "\f10b"; }
 .fl-slackware-inverse:before { content: "\f10c"; }
+.fl-snappy:before { content: "\f112"; }
 .fl-ubuntu:before { content: "\f10d"; }
 .fl-ubuntu-inverse:before { content: "\f10e"; }

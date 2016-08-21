@@ -59,7 +59,7 @@ Mac OS X 10.7 (Lion) or higher;
 The software and hardware prerequisites for installing on Linux are as
 follows:
 
-Any modern Linux distro with OpenGl 2.0 or higher support should work fine. For example Ubuntu 14.04 or higher.
+Any modern Linux distro with OpenGl 2.0 or higher support should work fine. For example Ubuntu 16.04 or higher.
 
 === Other OSes
 

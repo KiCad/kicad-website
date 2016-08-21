@@ -1,0 +1,14 @@
++++
+title = "KiwiSDR"
+projectimage = "/img/madewithkicad/kiwisdr.jpg"
+projectdeveloper = "John Seamons"
+projecturl = "http://kiwisdr.com/kiwisdr"
++++
+
+KiwiSDR is an open source and open hardware software-defined radio
+(SDR) covering shortwave, the longwave & AM broadcast bands, various
+utility stations, and amateur radio transmissions, world-wide, in the
+spectrum from 10 kHz to 30 MHz. The KiwiSDR is a
+https://github.com/jks-prv/KiwiSDR_PCB/tree/master/KiwiSDR[custom
+circuit board] you connect to an inexpensive BeagleBone Black or Green
+computer.

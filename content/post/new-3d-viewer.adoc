@@ -1,0 +1,79 @@
++++
+title = "New 3DViewer"
+date = "2016-07-26"
+draft = false
++++
+
+After almost 15 months in development and testing, the new 3DViewer
+developed by Mario Luzeiro has been merged with the product branch in
+revision 6985 <http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/revision/6985>
+and has since been available in the nightly builds of KiCad.
+
+This viewer was written entirely from scratch and takes
+advantage of the 3D plugin system to provide visualization
+of all 3D model formats supported by available 3D plugins.
+
+Features include:
+
+* Two new render targets: OpenGL (GPU accelerated), and ray tracing
+with post-processing effects.
+* Takes full advantage of the new 3D plugins
+<http://kicad-pcb.org/post/in-development-3d-plugins/> system - easier
+path search and file assignment using environment variables.
+* 3D model cache - fast 3D models loading.
+* Faster board loading.
+* The new OpenGL render is faster than the old one, specially while
+moving the board - a noticeable feature if you are still using an old
+GPU.
+* New 3D plugins available: WRL, X3D, IDF.
+* STEP and IGES support is available via the kicad_oce_3D plugin
+<https://github.com/cbernardo/kicad_oce_3D>. This brings KiCad one
+step closer to built-in MCAD export.
+* Preview of 3D model while browsing the 3D file. See figure 1.
+* 3D preview of the footprint while adding / aligning 3D shapes -
+provides a real-time feedback on adjusting the values. See figure 2.
+* Render of 3D models according to attributes: Normal, Normal+Insert,
+Virtual. - Useful if you want to individually  show / hide THT or SMD
+footprints or (as and example) mechanical shapes (eg: enclosures).
+* Pivot rotation centered in one point over the PCB board. See figure 3.
+* Animated camera while moving and rotating.
+
+KiCad may be the first EDA tool to have an embedded ray
+tracing render engine. Ray tracing is a physical based and
+mathematical render method. Instead of using triangle approximations
+for rendering the elements of the board it will use the true
+mathematically defined elements; as an example it will render a hole
+by subtracting a perfect cylinder, or it can render a via using a
+perfect cylindrical ring.
+The ray tracing algorithm provides shadows, reflections and refractions.
+Additionally there is a post-processing shader to add an effect of
+ambient occlusion and global illumination. See the figures 4 to 8.
+
+
+'''
+.Model shown in the 3D model file selector in KiCad
+image::../../img/post/select_3dpreview.png[align=center, width=80%, alt="Model shown in the 3D model file selector in KiCad", link=../../img/post/select_3dpreview.png]
+'''
+[[img-sunset]]
+.The footprint 3D properties dialog now with the new 3D previewer. Also including the preview of the footprint to assist in alignment.
+image::../../img/post/footprint_3dpreview.png[align=center, width=80%, alt="The footprint 3D properties dialog now with the new 3D previewer. Also including the preview of the footprint to assist in alignment.", link=../../img/post/footprint_3dpreview.png]
+'''
+.Marker for the setpoint of the pivot point used for the rotation center by pressing spacebar.
+image::../../img/post/pivot_rotation.png[align=center, width=80%, alt="Marker for the setpoint of the pivot point used for the rotation center by pressing spacebar.", link=../../img/post/pivot_rotation.png]
+'''
+.Image rendered with the ray tracer.
+image::../../img/post/bm_01.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/bm_01.jpg]
+'''
+.Image rendered with the ray tracer.
+image::../../img/post/hack-master-r3.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/hack-master-r3.jpg]
+'''
+.Image rendered with the ray tracer.
+image::../../img/post/GB1601-InEarSys-RX_1.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/GB1601-InEarSys-RX_1.jpg]
+'''
+.Image rendered with the ray tracer.
+image::../../img/post/GB1601-InEarSys-RX_3.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/GB1601-InEarSys-RX_3.jpg]
+'''
+.Image rendered with the ray tracer.
+image::../../img/post/GB1601-InEarSys-RX_6.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/GB1601-InEarSys-RX_6.jpg]
+'''
+

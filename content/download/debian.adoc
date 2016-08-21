@@ -59,4 +59,4 @@ you have installed some build dependencies at least before:
 [source.bash]
 sudo apt-get install libwxbase3.0-dev libwxgtk3.0-dev libgl1-mesa-dev \
 libglew-dev libglm-dev libcurl4-openssl-dev libboost-dev libboost-thread-dev \
-libboost-system-dev libboost-context-dev libssl-dev wx-common
+libcairo2-dev libboost-system-dev libboost-context-dev libssl-dev wx-common
