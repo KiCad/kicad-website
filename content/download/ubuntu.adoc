@@ -48,11 +48,9 @@ sudo apt update
 sudo apt install kicad
 
 === Old Stable
-It is not recommended for new projects. Please use the new stable release.
-To install old stable search for `KiCad` in the Ubuntu Software Manager or execute the following in a terminal:
-
-[source,bash]
-sudo apt install kicad
+The so called "old stable" is the kicad version before the version 4.0
+series. It is not recommended for new projects. Please use the new
+stable release from the PPA if you are on an older ubuntu release.
 
 === Translations
 If you want KiCad to be translated, you also need to install the dedicated localization package.
