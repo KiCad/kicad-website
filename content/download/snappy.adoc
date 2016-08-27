@@ -11,12 +11,10 @@ To install KiCad via the `snap`, you can use the Terminal:
 [source,bash]
 sudo snap install kicad-snap
 
-After install of the snap image execute the following commands to prepare the KiCad for use and make it work properly (ignore errors):
+After install of the snap image execute the following command to prepare the KiCad for use and make it work properly:
 
 [source,bash]
 snap run kicad-snap.kicad
-sudo snap connect kicad-snap:locale-control ubuntu-core:locale-control
-sudo snap connect kicad-snap:mount-observe ubuntu-core:mount-observe
 
 === Snapcraft source
 
