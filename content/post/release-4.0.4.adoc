@@ -8,7 +8,7 @@ The 4.0.4 stable version contains a few critical fixes that slipped through the
 cracks in the last release.
 
 The stable release version 4.0.4 is made from the
-link:https://code.launchpad.net/~kicad-product-committers/kicad/+git/product-git/+ref/4.0[lp:kicad/4.0]
+link:https://code.launchpad.net/~kicad-product-committers/kicad/+git/product-git/+ref/4.0[stable 4.0]
 branch with bug fixes cherry picked from the
 link:https://code.launchpad.net/~kicad-product-committers/kicad/+git/product-git/+ref/master[development branch]
 of KiCad.
