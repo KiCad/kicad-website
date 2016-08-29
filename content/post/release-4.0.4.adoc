@@ -1,0 +1,41 @@
++++
+title = "KiCad 4.0.4 Stable Release"
+date = "2016-08-29"
++++
+
+Hot on the heels of stable release 4.0.3, there is a new stable release of KiCad.
+The 4.0.4 stable version contains a few critical fixes that slipped through the
+cracks in the last release.
+
+The stable release version 4.0.4 is made from the
+link:https://code.launchpad.net/~kicad-product-committers/kicad/+git/product-git/+ref/4.0[lp:kicad/4.0]
+branch with bug fixes cherry picked from the
+link:https://code.launchpad.net/~kicad-product-committers/kicad/+git/product-git/+ref/master[development branch]
+of KiCad.
+
+KiCad binaries are available or will be available in the near future
+for download for Windows, OSX and Linux, see the
+link:http://kicad-pcb.org/download/[download page] for guidance.
+
+Instructions for packagers can be found on
+http://kicad-pcb.org/download/source/[the download page describing how to build
+from source] and its subpages.
+
+Thank you to all developers, packagers, librarians, document writers,
+translators, and everyone else who helped make this release possible.
+
+=== Changes
+
+Below is a list of some commits related to a reported bug:
+
+* https://bugs.launchpad.net/kicad/+bug/1614691[Do not allow spaces in component name value field, in component library editor, or in dialogs.]
+* https://bugs.launchpad.net/kicad/+bug/1572812[Eeschema: fix broken component reference field in hierarchies..]
+* https://bugs.launchpad.net/kicad/+bug/1553428[Hide OpenGL scrollbars on OS X to fix freeze.]
+* https://bugs.launchpad.net/kicad/+bug/1593389[Pcbnew: fix a minor bug where the DRC report file is always created.]
+* https://bugs.launchpad.net/kicad/+bug/1606332[Pcbnew: fixed a crash when dragging a line was interrupted.]
+
+==== Some changes without a bug tracking number
+
+* FUTURE_FORMAT_ERROR: don't nest errors unnecessarily.
+
+The KiCad development team hopes you enjoy this latest stable release of KiCad.
