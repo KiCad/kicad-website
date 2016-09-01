@@ -4,17 +4,17 @@ iconhtml = "<div><i class='fa fa-windows'></i></div>"
 weight = 2
 +++
 
-=== 4.0.3 Stable Release
+=== 4.0.4 Stable Release
 
-Current Version: *4.0.3*
+Current Version: *4.0.4*
 
-The stable release is available for KiCad 4.0.3 and an installer.
+The stable release is available for KiCad 4.0.4 and an installer.
 
 This release version is available at:
 
-link:http://downloads.kicad-pcb.org/windows/stable/kicad-product-4.0.3-x86_64.exe[Windows 64-bit (x86_64)]
+link:http://downloads.kicad-pcb.org/windows/stable/kicad-product-4.0.4-x86_64.exe[Windows 64-bit (x86_64)]
 
-link:http://downloads.kicad-pcb.org/windows/stable/kicad-product-4.0.3-i686.exe[Windows 32-bit (i686)]
+link:http://downloads.kicad-pcb.org/windows/stable/kicad-product-4.0.4-i686.exe[Windows 32-bit (i686)]
 
 === Nightly Development Builds
 Nightly development builds of the latest source for testing can be found here:
