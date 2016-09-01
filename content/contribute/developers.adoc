@@ -31,198 +31,69 @@ link:https://help.launchpad.net/YourAccount/NewAccount[Launchpad user tutorial].
 
 === Fetching the Source Code
 
-The first step is to obtain the source code.
-You will need to get the latest sources in order
-to develop KiCad.
+The first step is to obtain the source code.  You will need to get the
+latest sources in order to develop KiCad.
 
-KiCad uses the 
-link:http://bazaar.canonical.com/en/[Bazaar]
-version control system. Platform-specific installation 
-instructions are available here. On Debian and related systems
-(e.g. Ubuntu), you need to install the bzr package.
-On Windows, you'll need to download and execute the installer.
+KiCad uses the link:http://git-scm.com[git] version control
+system. Platform-specific installation instructions are available
+link:https://git-scm.com/downloads[here]. On Debian and related
+systems (e.g. Ubuntu), you need to install the `git` package.  On
+Windows, you'll need to download and execute the installer.
 
-We recommend to set up a Launchpad account (see above) before
-obtaining the source code, since that way it is easier to
-commit later once you get commit access. Once you set up your
-Launchpad account, execute the following commands:
+Once you have git installed, you just need to clone the official
+repository, like so:
 
- bzr whoami "Real Name <email@address.com>"
- bzr launchpad-login username
+ git clone https://git.launchpad.net/kicad
 
-where `Real Name` is your real name or a pseudonym you want to
-use (it should be recognizable to people on the developer mailing
-list), `email@address.com` is your e-mail for KiCad related
-correspondence (it can be obfuscated if you want), and `username`
-is you Launchpad user name. With this setup, you will be able to
-commit once you are approved as a member of the KiCad Committers
-team on Launchpad.
+You can pull the latest changes in your clone with:
 
-To obtain the latest source code, use the following command:
+ git pull
 
- bzr checkout lp:kicad
+=== Build it!
 
-To update this code later, you can use
+Follow the instruction in the link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_compiling.html[documentation]
+corresponding to your platform to set up a working build environment
+and successfully build kicad from source.
 
- bzr update
-
-Alternatively there is a git mirror hosted on github:
-
- git clone https://github.com/KiCad/kicad-source-mirror.git
-
-=== Read the Code Style Policy
-
-The first thing to do is to check the
-link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_coding-style-policy.html[Coding Style Policy] - it's
-important for us to keep the codebase readable by all developers.
-This generally gets philosophical, but the code base needs
-consistency throughout, so please do pay attention to the code
-style policy. Your patches will generally be rejected if they do not adhere
-to the rules set forth in the policy.
-
-=== Doxygen Documentation
-We are using doxygen to document the source code, so when submitting
-new code, please remember to update the doxygen documentation
-descriptions. You can run `make doxygen-docs` to generate the
-documentation locally. The latest version of the same docs are also
-available on the Jenkins server, see 
-link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_coding-style-policy.html[KiCad Developer Docs for the C++ API].
-
-=== Using Bazaar
-
-As mentioned above, you firstly need to get a fresh copy of the
-latest sources:
-
- bzr checkout lp:kicad
-
-Generally, this copy is kept clean, without modifications.
-Using Bazaar it's possible to branch locally so that you can make
-changes in a copy which are specific to the new feature your working
-on, or the bug your trying to fix. To branch locally, you can use the
-command:
-
- bzr branch ./kicad ./kicad-feature
-
-where `./kicad-feature` is where you want to start developing code.
-
-Start developing code in `./kicad-feature` to add new functionality
-or fix a bug. If you're fixing a bug that you've noticed yourself
-and haven't seen a bug report for, please report it as a bug so that
-others are aware of it being reported already and that you're working
-on a fix!
-
-Whilst developing in `./kicad-feature` you can commit as many times
-as you like. This commits to `./kicad-feature` only and does not
-commit to the main copy on launchpad. You should keep your changes
-up-to-date with what everyone else is doing in case conflicts arise.
-You can do this by keeping the original `kicad` folder up-to-date and
-merging the differences in every-so-often with the following commands:
-
- cd ./kicad
- bzr update
- cd ../kicad-feature
- bzr merge ../kicad
- bzr commit -m "Merged in latest changes"
-
-Once you're finished developing the feature you should do the above
-before generating a patch to send to the developers list.
-To generate the patch, you can simply the following command from the
-kicad-feature directory:
-
- bzr diff --old ../kicad > feature.patch
-
-Attach feature.patch to an email and send it to the developers list.
-Start the subject line with 'PATCH:' so that everyone is aware there
-is a patch to review.
-
-As an alternative to emailing a patch, you can push your branch for
-review and a possible merge into the KiCad source code by using the
-following commands when you've finished developing a feature:
-
- bzr push lp:~[your-launchpad-username]/kicad/[new-branch-name]
-
-=== Using Git
-
-There are a lot of people using the Git version control system and
-want to stay in their comfort-zone of using it instead of using Bazaar.
-This is no problem, don't feel alienated just because of a VCS!
-Git can be used with the git-bzr adaptor.
-
-It is possible to hack on KiCad and use the git tools instead of bzr.
-If you follow these instructions you can tailor your development to
-be comfortable and efficient for your needs.
-
-We use a tool called git-bzr-ng to allow git to talk to bzr remote
-hosts. Our repositories are all bzr branches, but that shouldn't
-matter to you at all. Your own branches on your computer can be git
-and you can talk to our bzr branches as if they were on github or
-other git host provider.
-
-==== Installing git-bzr
-
-If you are using a Debian/Ubuntu computer for your development needs,
-you can simply install git-bzr-ng from the command line like so:
-
- sudo apt-get install git-bzr-ng
-
-If you're using Fedora, you can install git-bzr using yum:
-
- sudo yum install git-bzr
-
-For Windows, Mac and other Free Desktops/Linux systems, please see
-the documentation link:https://github.com/pieter/git-bzr[here].
-
-==== Using Git
-
-Once you have the plugin above installed, you should be able to use
-the git command with bzr repositories. To access KiCad, use the
-following commands:
-
- git bzr clone lp:kicad kicad
- cd kicad
-
-Create a git branch and check your branches:
-
- git checkout -b touch_branch
- git branch -a
-
-Now you can follow whatever Git workflow you prefer.
-In order to contribute you can simply generate a unified patch,
-attach it to an email and send it to the KiCad Developers mailing list.
-Make sure you start the subject line with 'PATCH:' so everyone is aware
-there is a patch attached that requires review.
-Please be patient with patch reviews - it can take some time to get
-round to reviewing patches, especially if there's a flurry of them!
-
-Alternatively, to commit and push your changes to a new KiCad branch
-ready for review, be aware that you *do need* a launchpad account with your 
-link:https://help.launchpad.net/YourAccount/CreatingAnSSHKeyPair[ssh keys uploaded]
-in order to push your changes:
-
- git commit -a -m "Commit message"
- git bzr push lp:~[your-launchpad-username]/kicad/[new_branch_name]
-
-For example `git bzr push lp:~brian-sidebotham/kicad/fix-for-bug466366`
-will push to my very own branch which can be reviewed and merged.
-
-To merge in someone else's changes (a merge in bzr terms) you can use
-these commands:
-
- git bzr import lp:~user/kicad/branchname branchname
- git checkout kicad
- git pull . -- branchname
-
-Further reading on
-link:http://bazaar.launchpad.net/%7Etermie/git-bzr-ng/master/view/head:/README.rst[git-bzr usage].
 
 == How to Contribute
 
-After you have setup your development machine by fetching the source and making sure that you can build as described above, you might or might not know what to actually contribute. If the latter, this is the page for you.
+After you have setup your development machine by fetching the source
+and making sure that you can build as described above, you might or
+might not know what to actually contribute. If the latter, this is the
+page for you.
 
-There are multiple ways of contributing to the future success of KiCad, one could contribute on the
-link:/contribute/docs-team/[documentation], 
-link:/contribute/librarians/[libraries]
-or actual code contributions to the codebase.
+There are multiple ways of contributing to the future success of
+KiCad, one could contribute on the
+link:/contribute/docs-team/[documentation],
+link:/contribute/librarians/[libraries] or actual code contributions
+to the codebase.
+
+=== Read the Code Style Policy
+
+The next thing to do is to check out the
+link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_coding-style-policy.html[KiCad Coding Style Policy] -
+it's important for us to keep the codebase readable by
+all developers.  This generally gets philosophical, but the code base
+needs consistency throughout, so please do pay attention to the code
+style policy. Your patches will generally be rejected if they do not
+adhere to the rules set forth in the policy.
+
+Do not feel discouraged, though, if your first patches don't make it
+first go due to policy violations you can take it as a pretty high
+compliment.
+
+=== Doxygen Documentation
+
+To familiarize yourself with the code base you can read the
+documentation generated by Doxygen. When submitting new code, please
+remember to update the documentation descriptions. You can run
+`make doxygen-docs` to generate the documentation locally.
+
+The latest version of the same docs are also available on the Jenkins
+server, see
+link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/namespaces.html[KiCad Developer Docs for the C++ API].
+
 
 === Starter Patches
 
@@ -239,15 +110,127 @@ Or for example if you are an OS X user, you might want to filter the bug tracker
 
 * link:https://bugs.launchpad.net/kicad/+bugs?field.searchtext=&orderby=-date_last_updated&search=Search&field.status%3Alist=NEW&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=osx&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on[`Bugs tagged osx that needs attention`]
 
+=== Commit your changes
+
+git is a distributed version control system, which, unlike centralized
+systems like SVN, allows you to commit and manage your changes in your
+individual clone or "fork" as it's known in GitHub.
+
+Once you've made some changes to the codebase that you think on
+submitting to the project, you should commit them onto your clone.
+
+But first, you need to set up your name and email on git if you
+haven't already. This will ensure that you get proper credit for your
+contributions.
+
+    git config --global user.name "YOUR NAME"
+    git config --global user.email "YOUR EMAIL ADDRESS"
+
+That out of the way, commit your changes like this:
+
+    git add file-that-i-changed.cpp other-file.h etc
+    git commit
+
+Doing a git commit on it's own will not do anything until you add the
+changes that you mean to commit first, there is a good reason for
+that, sometimes you've got some minor changes that are picked up by
+the system but you don't mean to commit, adding exactly the files you
+mean helps you keep control of that. Please refrain of doing
+`git commit -a` or `git add .` unless you know exactly what you changed.
+
+It is also useful to run `git diff --cached` to see what's staged for
+commit before commiting, if you added files you didn't mean to you can
+remove them from the staging area by running `git reset bad-file.cpp`
+
+If you realized a mistake right after you commited, be it in a file
+change, or you forgot a file, or the description has an error or a
+typo, as long as you haven't pushed your changes yet you can make your
+changes and then run `git commit --amend`, this will show you the
+commit log from the last commit, let you edit it and will replace the
+old commit with the fixed one.
+
+
+=== Pulling changes and rebasing
+
+It will often happen that someone else with push access to the
+official kicad repository will push changes in between the time you
+commited your changes and you decide to push/submit yours for
+consideration. In that case if you try to run `git pull`, by default
+git will generate a merge commit, which is undesirable fluff and tends
+to pollute the commit history. In those cases you want to run
+`git pull --rebase` instead. What that operation does is to take your
+commits and graft them on top of the master branch, which will allow
+you yo push your changes cleanly, or submit a patch set that applies
+cleanly on master.
+
+You can make that behavior the default by running these commands:
+
+    git config pull.rebase true
+
+Or to do it in all your projects and not just kicad,
+
+    git config --global pull.rebase true
+
+
 === Submitting Patches
 
 Patches are currently submitted and handled via the
 link:https://lists.launchpad.net/kicad-developers/[developer mailing list],
-where you have to apply for membership to be able to send to it. Or you can attach patches to bug reports.
+where you have to apply for membership to be able to send
+to it. Or you can attach patches to bug reports.
+
+The easiest way to create patches from git is to first ensure that
+your changes are rebased on origin/master (as they would be if you
+use `git pull --rebase`) and then use the `git-format-patch` command,
+like so:
+
+    git format-patch --attach origin/master
+
+That will generate a .patch file for each commit , which you can then
+attach to an email and send it to the developer's mailing list, or you
+can use link:https://git-scm.com/docs/git-send-email[git-send-email] to send
+them from git automatically.
+
+=== Managing your own branch
+
+If you plan on working on a more involved feature that will need many
+commits before it's ready to be merged to the master branch you are
+encouraged to create your own branch. It is very easy to do in git.
+
+First you need to check out your new branch:
+
+    git checkout -b new-hot-feature
+
+Then just commit on it on every phase of your work. During that time
+the branch will diverge, that is, get out of sync with master. You
+have two choices on how to proceed, you can merge like this:
+
+    git fetch
+    git merge origin/master
+
+Which will create a merge commit, or you can rebase your branch onto master
+
+    git fetch
+    git git rebase master
+
+Either way is fine as long as your repository is private, if you
+published your branch somewhere you should only use merges, as
+rebasing your branch will confuse whoever pulled your branch before.
+
+You can publish your branch for others to pull and test by creating
+your own launchpad repository or uploading it to a git hosting site
+like GitHub.
+
+=== Learn more git
+
+This is a very light introduction to git, it is highly suggested that
+you read the excellent git link:https://git-scm.com/doc[documentation], and/or
+follow the many tutorials available online like
+link:http://learngitbranching.js.org/[this one].
 
 === Translating GUI and Docs
 
-If you are the kind person wanting to help improving kicad by internationalizing it, you should probably have a look at the
+If you are the kind of person wanting to help improving kicad by internationalizing it, you should probably have a look at the
 link:http://docs.kicad-pcb.org/stable/en/gui_translation_howto.html[GUI translating howto]. +
 Also you are encouraged to contribute to the 
 link:/contribute/docs-team/[KiCad Documentation]
@@ -258,4 +241,9 @@ If you wish to contribute eeschema, pcbnew or 3dviewer libraries, please see the
 
 === Internet Relay Chat (_IRC_)
 
-Feel free to join the IRC channel at irc://irc.freenode.net/#kicad[#kicad@freenode]. A nice bunch of people are casually hanging around in there, so if you have any questions and don't know where to ask, you should try asking in here. There are all kinds of people in all kinds of time zones, people who develop KiCad and plain enthusiastic users.
+Feel free to join the IRC channel at
+irc://irc.freenode.net/#kicad[#kicad@freenode]. A nice bunch of people
+are casually hanging around in there, so if you have any questions and
+don't know where to ask, you should try asking in here. There are all
+kinds of people in all kinds of time zones, people who develop KiCad
+and plain enthusiastic users.
