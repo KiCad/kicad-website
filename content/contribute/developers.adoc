@@ -29,6 +29,14 @@ account. Detailed instructions for setting up an account
 are available in the
 link:https://help.launchpad.net/YourAccount/NewAccount[Launchpad user tutorial].
 
+The official road map is available online as the
+http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/v5_road_map.html[version
+5 road map] in the doxygen docs. The CERN team also have their own
+road map available at
+http://www.ohwr.org/projects/cern-kicad/wiki/WorkPackages[CERN KiCad
+work packages]. You might use this to get a feeling of where KiCad is
+moving and where you can contribute.
+
 === Fetching the Source Code
 
 The first step is to obtain the source code.  You will need to get the
