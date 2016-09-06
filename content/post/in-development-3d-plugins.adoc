@@ -57,3 +57,7 @@ All this was mainly developed by two developers. The 3D plugin system
 was written by Cirilo Bernardo and the rendering code was written by
 Mario Luzeiro.
 
+NOTE: *UPDATE 2016-09-07*
+The OCE plugin for STEP and IGES 3D viewer support was merged with the
+offical development branch recently and should now be available in the
+newest nightlies.
