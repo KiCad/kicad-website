@@ -87,6 +87,9 @@ needs consistency throughout, so please do pay attention to the code
 style policy. Your patches will generally be rejected if they do not
 adhere to the rules set forth in the policy.
 
+If you feel like working on the user interface, you may find useful reading the
+link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_ui-policy.html[User Interface Guidelines].
+
 Do not feel discouraged, though, if your first patches don't make it
 first go due to policy violations you can take it as a pretty high
 compliment.
