@@ -87,6 +87,9 @@ needs consistency throughout, so please do pay attention to the code
 style policy. Your patches will generally be rejected if they do not
 adhere to the rules set forth in the policy.
 
+If you feel like working on the user interface, you may find useful reading the
+link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_ui-policy.html[User Interface Guidelines].
+
 Do not feel discouraged, though, if your first patches don't make it
 first go due to policy violations you can take it as a pretty high
 compliment.
@@ -105,18 +108,9 @@ link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/nam
 
 === Starter Patches
 
-If you are new to software development you might want to look into the following bugs:
+If you are new to KiCad development you might want to look into link:https://bugs.launchpad.net/kicad/+bugs?field.status%3Alist=NEW&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&field.tag=starter&field.omit_dupes=on&field.has_branches=on&field.has_no_branches=on[bugs tagged as 'starter'].
 
-* link:https://bugs.launchpad.net/kicad/+bug/1423515[`Bug# 1423515`]
-* link:https://bugs.launchpad.net/kicad/+bug/1428125[`Bug# 1428125`]
-* link:https://bugs.launchpad.net/kicad/+bug/1395442[`Bug# 1395442`]
-* link:https://bugs.launchpad.net/kicad/+bug/1412628[`Bug# 1412628`]
-* link:https://bugs.launchpad.net/kicad/+bug/1448460[`Bug# 1448460`]
-* link:https://bugs.launchpad.net/kicad/+bug/1424003[`Bug# 1424003`]
-
-Or for example if you are an OS X user, you might want to filter the bug tracker results as:
-
-* link:https://bugs.launchpad.net/kicad/+bugs?field.searchtext=&orderby=-date_last_updated&search=Search&field.status%3Alist=NEW&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=osx&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on[`Bugs tagged osx that needs attention`]
+Or for example if you are an OS X user, you might want to check the following link:https://bugs.launchpad.net/kicad/+bugs?field.searchtext=&orderby=-date_last_updated&search=Search&field.status%3Alist=NEW&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=osx&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on[list].
 
 === Commit your changes
 
@@ -157,6 +151,24 @@ changes and then run `git commit --amend`, this will show you the
 commit log from the last commit, let you edit it and will replace the
 old commit with the fixed one.
 
+==== Bug fixes ====
+
+Patches meant to fix a bug reported on the bug tracker need to be marked as such.
+Currently it is done by appending the following formula to a commit message:
+
+    Fixes: lp:12345678
+    * https://bugs.launchpad.net/kicad/+bug/12345678
+
+To simplify the process, one can configure git to include an extra alias which
+marks commits as bug fixes. To enable it, run in the KiCad source directory:
+
+    git config --add include.path "$(pwd)/helpers/git/fixes_alias"
+
+Afterwards you may mark commits using 'git fixes' command:
+
+    git commit -a -m "Fixed a memleak"
+    git fixes 12345678
+
 
 === Pulling changes and rebasing
 
@@ -185,7 +197,8 @@ Or to do it in all your projects and not just kicad,
 Patches are currently submitted and handled via the
 link:https://lists.launchpad.net/kicad-developers/[developer mailing list],
 where you have to apply for membership to be able to send
-to it. Or you can attach patches to bug reports.
+to it. Alternatively you can attach patches to bug reports or submit a merge
+request on Launchpad.
 
 The easiest way to create patches from git is to first ensure that
 your changes are rebased on origin/master (as they would be if you
