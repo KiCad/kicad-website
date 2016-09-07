@@ -179,7 +179,8 @@ Or to do it in all your projects and not just kicad,
 Patches are currently submitted and handled via the
 link:https://lists.launchpad.net/kicad-developers/[developer mailing list],
 where you have to apply for membership to be able to send
-to it. Or you can attach patches to bug reports.
+to it. Alternatively you can attach patches to bug reports or submit a merge
+request on Launchpad.
 
 The easiest way to create patches from git is to first ensure that
 your changes are rebased on origin/master (as they would be if you
