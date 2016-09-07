@@ -108,18 +108,9 @@ link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/nam
 
 === Starter Patches
 
-If you are new to software development you might want to look into the following bugs:
+If you are new to KiCad development you might want to look into link:https://bugs.launchpad.net/kicad/+bugs?field.status%3Alist=NEW&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&field.tag=starter&field.omit_dupes=on&field.has_branches=on&field.has_no_branches=on[bugs tagged as 'starter'].
 
-* link:https://bugs.launchpad.net/kicad/+bug/1423515[`Bug# 1423515`]
-* link:https://bugs.launchpad.net/kicad/+bug/1428125[`Bug# 1428125`]
-* link:https://bugs.launchpad.net/kicad/+bug/1395442[`Bug# 1395442`]
-* link:https://bugs.launchpad.net/kicad/+bug/1412628[`Bug# 1412628`]
-* link:https://bugs.launchpad.net/kicad/+bug/1448460[`Bug# 1448460`]
-* link:https://bugs.launchpad.net/kicad/+bug/1424003[`Bug# 1424003`]
-
-Or for example if you are an OS X user, you might want to filter the bug tracker results as:
-
-* link:https://bugs.launchpad.net/kicad/+bugs?field.searchtext=&orderby=-date_last_updated&search=Search&field.status%3Alist=NEW&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=osx&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on[`Bugs tagged osx that needs attention`]
+Or for example if you are an OS X user, you might want to check the following link:https://bugs.launchpad.net/kicad/+bugs?field.searchtext=&orderby=-date_last_updated&search=Search&field.status%3Alist=NEW&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=osx&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on[list].
 
 === Commit your changes
 
