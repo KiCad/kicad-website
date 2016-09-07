@@ -151,6 +151,24 @@ changes and then run `git commit --amend`, this will show you the
 commit log from the last commit, let you edit it and will replace the
 old commit with the fixed one.
 
+==== Bug fixes ====
+
+Patches meant to fix a bug reported on the bug tracker need to be marked as such.
+Currently it is done by appending the following formula to a commit message:
+
+    Fixes: lp:12345678
+    * https://bugs.launchpad.net/kicad/+bug/12345678
+
+To simplify the process, one can configure git to include an extra alias which
+marks commits as bug fixes. To enable it, run in the KiCad source directory:
+
+    git config --add include.path "$(pwd)/helpers/git/fixes_alias"
+
+Afterwards you may mark commits using 'git fixes' command:
+
+    git commit -a -m "Fixed a memleak"
+    git fixes 12345678
+
 
 === Pulling changes and rebasing
 
