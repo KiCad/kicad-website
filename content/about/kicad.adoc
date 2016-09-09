@@ -31,7 +31,7 @@ https://www.youtube.com/watch?v=wRolB1my6fI[his presentation at FOSDEM 2015].
 |Name | Email
 |Jean-Pierre Charras | jean-pierre.charras[at]gipsa-lab-dot-inpg-dot-fr
 |Dick Hollenbeck | dick[at]softplc-dot-com
-|Wayne Stambaugh (Project Leader) | stambaughw[at]verizon-dot-net
+|Wayne Stambaugh (Project Leader) | stambaughw[at]gmail-dot-com
 |===
 
 
@@ -41,8 +41,9 @@ https://www.youtube.com/watch?v=wRolB1my6fI[his presentation at FOSDEM 2015].
 
 === University of Grenoble and GIPSA-lab
 
-This is the university where Jean-Pierre Charras, the original author of KiCad, worked as a teacher before his retirement.
-They provided hosting for the releases of KiCad, giving us a large amount of bandwidth for the large downloads.
+This is the university where Jean-Pierre Charras, the original author of KiCad, worked as a
+teacher before his retirement.  They provided hosting for the releases of KiCad, giving us a
+large amount of bandwidth for the large downloads.
 
 Jean-Pierre has also been able to invest large amounts of time into developing KiCad.
 
@@ -62,22 +63,22 @@ SoftPLC sponsored Dick to the equivalent of 450,000USD for the time he spent wor
 
 Employer of Javier Serrano, Maciej Suminski and Tomasz Wlostowski who all work heavily on KiCad.
 
-CERN has already contributed greatly to KiCad, and have already advanced
-the Graphics Abstraction Layer and introduced Push and Shove router capabilities.
+CERN has already contributed greatly to KiCad, and have already advanced the Graphics
+Abstraction Layer and introduced Push and Shove router capabilities.
 
 {{< aboutlink "/img/about/rpi-logo.png" "https://www.raspberrypi.org/" >}}
 
 === The Raspberry Pi Foundation
 
-Donated to the https://giving.web.cern.ch[CERN and Society Foundation]
-for the development of KiCad's differential pair routing and track length control features.
+Donated to the https://giving.web.cern.ch[CERN and Society Foundation] for the development
+of KiCad's differential pair routing and track length control features.
 
 {{< aboutlink "/img/about/arduino-logo.png" "http://www.arduino.cc" >}}
 
 === Arduino LLC
 
-Donated to the https://giving.web.cern.ch[CERN and Society Foundation] to 
-support CERN's efforts in Open Source Hardware.
+Donated to the https://giving.web.cern.ch[CERN and Society Foundation] to support CERN's
+efforts in Open Source Hardware.
 
 {{< aboutlink "/img/about/glesys.png" "http://glesys.se" >}}
 
@@ -85,3 +86,9 @@ support CERN's efforts in Open Source Hardware.
 
 Hosting provider for some of the servers used on the Jenkins CI.
 
+=== Digi-Key Electronics
+
+Digi-Key Electronics purchased the kicad.org domain name which was being used to serve malware
+and redirected it to the main KiCad website at kicad-pcb.org.
+
+{{< aboutlink "/img/about/digikey-logo.png" "http://www.digikey.com" >}}
