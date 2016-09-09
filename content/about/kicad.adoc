@@ -88,7 +88,7 @@ Hosting provider for some of the servers used on the Jenkins CI.
 
 === Digi-Key Electronics
 
-Digi-Key Electronics purchased the kicad.org domain name which was being used to serve malware
-and redirected it to the main KiCad website at kicad-pcb.org.
+Digi-Key Electronics purchased the kicad.org domain name which was being used by it's previous
+owner to serve malware and redirected it to the main KiCad website at kicad-pcb.org.
 
 {{< aboutlink "/img/about/digikey-logo.png" "http://www.digikey.com" >}}
