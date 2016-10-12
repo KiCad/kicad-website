@@ -42,7 +42,7 @@ in the About dialog. Please include the full version information, for
 example "4.0.2-stable".
 
 What platform is KiCad being run on? The operating system and version
-information, for example Ubuntu 16.4, Debian Squeeze, Windows 10, OSX,
+information, for example Ubuntu 16.04, Debian Squeeze, Windows 10, OSX,
 etc.
 
 What version of wxWidgets was used to build KiCad. You can find this
