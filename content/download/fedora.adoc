@@ -5,9 +5,9 @@ weight = 20
 +++
 
 === 4.0.2 Stable Release
-KiCad 4.0.2 is available in the fedora 23 repo.
+KiCad 4.0.2 is available in the Fedora 23 repo.
 
-To install KiCad 4.0.2 on fedora 23 open a terminal and run the following command:
+To install KiCad 4.0.2 on Fedora 23 open a terminal and run the following command:
 
 [source,bash]
 dnf install kicad
@@ -18,7 +18,7 @@ Nightly development builds for Fedora are available via the
 link:https://copr.fedoraproject.org/coprs/mangelajo/kicad/[copr build
 service].
 
-This build can be installed on fedora with:
+This build can be installed on Fedora with:
 
 ----
 dnf copr enable mangelajo/kicad
@@ -35,7 +35,7 @@ As a side note, the wxwidgets build in the copr build is forcing `--with=gtk2` o
 This could be problematic if you have other applications depending on wxgtk already. This is a workaround to bring KiCad to fedora more easily.
 
 === Old Stable
-The 2013 stable release of KiCad is currently available in the official fedora repositories before fedora 24.
+The 2013 stable release of KiCad is currently available in the official fedora repositories before Fedora 24.
 It is not recommended for new projects. Please use the new stable release.
 If you wish to install old stable search for KiCad in the package manager or run the following command in a terminal:
 

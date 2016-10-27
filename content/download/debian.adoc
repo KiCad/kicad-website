@@ -13,7 +13,7 @@ Current Version: *4.0.2* (KiCad actual version)
 The current upstream release 4.0.2 is available for Debian
 https://packages.debian.org/stretch/kicad[testing/sid].
 
-You can install it with the follwing commands in a terminal, otherwise you can
+You can install it with the following commands in a terminal, otherwise you can
 use the package manager you like:
 
 [source,bash]
