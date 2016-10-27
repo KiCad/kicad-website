@@ -61,7 +61,7 @@ You can pull the latest changes in your clone with:
 
 Follow the instruction in the link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_compiling.html[documentation]
 corresponding to your platform to set up a working build environment
-and successfully build kicad from source.
+and successfully build KiCad from source.
 
 
 == How to Contribute
@@ -176,7 +176,7 @@ Afterwards you may mark commits using 'git fixes' command:
 === Pulling changes and rebasing
 
 It will often happen that someone else with push access to the
-official kicad repository will push changes in between the time you
+official KiCad repository will push changes in between the time you
 commited your changes and you decide to push/submit yours for
 consideration. In that case if you try to run `git pull`, by default
 git will generate a merge commit, which is undesirable fluff and tends
@@ -190,7 +190,7 @@ You can make that behavior the default by running these commands:
 
     git config pull.rebase true
 
-Or to do it in all your projects and not just kicad,
+Or to do it in all your projects and not just KiCad,
 
     git config --global pull.rebase true
 
@@ -200,7 +200,7 @@ Or to do it in all your projects and not just kicad,
 Patches are currently submitted and handled via the
 link:https://lists.launchpad.net/kicad-developers/[developer mailing list],
 where you have to apply for membership to be able to send
-to it. Alternatively you can attach patches to bug reports or submit a merge
+to it. Alternatively, you can attach patches to bug reports or submit a merge
 request on Launchpad.
 
 The easiest way to create patches from git is to first ensure that
@@ -210,7 +210,7 @@ like so:
 
     git format-patch --attach origin/master
 
-That will generate a .patch file for each commit , which you can then
+That will generate a .patch file for each commit, which you can then
 attach to an email and send it to the developer's mailing list, or you
 can use link:https://git-scm.com/docs/git-send-email[git-send-email] to send
 them from git automatically.
@@ -235,7 +235,7 @@ have two choices on how to proceed, you can merge like this:
 Which will create a merge commit, or you can rebase your branch onto master
 
     git fetch
-    git git rebase master
+    git rebase master
 
 Either way is fine as long as your repository is private, if you
 published your branch somewhere you should only use merges, as
@@ -254,7 +254,7 @@ link:http://learngitbranching.js.org/[this one].
 
 === Translating GUI and Docs
 
-If you are the kind of person wanting to help improving kicad by internationalizing it, you should probably have a look at the
+If you are the kind of person wanting to help improve KiCad by internationalizing it, you should probably have a look at the
 link:http://docs.kicad-pcb.org/stable/en/gui_translation_howto.html[GUI translating howto]. +
 Also you are encouraged to contribute to the 
 link:/contribute/docs-team/[KiCad Documentation]
@@ -269,5 +269,5 @@ Feel free to join the IRC channel at
 irc://irc.freenode.net/#kicad[#kicad@freenode]. A nice bunch of people
 are casually hanging around in there, so if you have any questions and
 don't know where to ask, you should try asking in here. There are all
-kinds of people in all kinds of time zones, people who develop KiCad
+kinds of people in all kinds of time zones, both people who develop KiCad
 and plain enthusiastic users.
