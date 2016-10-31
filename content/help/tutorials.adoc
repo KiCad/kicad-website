@@ -47,6 +47,4 @@ Several text-based tutorials as well as video tutorials have been put together b
 
 == Tutorials in Polish
 
-- http://leon-instruments.blogspot.com/2012/05/kurs-kicad-wstep.html[Step by step KiCad tutorial] by Leon Dominik
-
-
+- https://extronic.pl/content/category/4-kicad[Step by step KiCad tutorial] by Leon Dominik
