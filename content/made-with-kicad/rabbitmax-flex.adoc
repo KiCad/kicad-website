@@ -1,0 +1,8 @@
++++
+title = "RabbitMax Flex Raspberry Pi HAT"
+projectimage = "/img/madewithkicad/rabbitmax-flex.jpg"
+projectdeveloper = "Leon Anavi"
+projecturl = "http://rabbitmax.com/"
++++
+
+link:http://rabbitmax.com/[RabbitMax Flex] is an open source Raspberry Pi HAT for IoT prototyping and home automation applications. It has infrared receiver and transmitter, relay, buzzer, button, RGB LED and UART pins for debugging. The board also supports 1602 LCD display module and up to 5 I2C sensors.
