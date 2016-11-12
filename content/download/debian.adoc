@@ -4,14 +4,13 @@ iconhtml = "<div class='fl-debian'></div>"
 weight = 10
 +++
 
-https://packages.debian.org/sid/kicad
+=== Debian Testing (Stretch) and Unstable (Sid)
 
-=== Debian Testing/Sid (Stretch)
+Current Version: *4.0.4* (KiCad actual version)
 
-Current Version: *4.0.2* (KiCad actual version)
-
-The current upstream release 4.0.2 is available for Debian
-https://packages.debian.org/stretch/kicad[testing/sid].
+The current upstream release 4.0.4 is available for Debian
+https://packages.debian.org/stretch/kicad[testing/stretch] and 
+https://packages.debian.org/sid/kicad[unstable/sid].
 
 You can install it with the following commands in a terminal, otherwise you can
 use the package manager you like:
