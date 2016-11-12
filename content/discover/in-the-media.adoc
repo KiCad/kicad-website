@@ -22,3 +22,5 @@ https://cds.cern.ch/journal/CERNBulletin/2015/09/News%20Articles/1988318[KiCad C
 http://knowledgetransfer.web.cern.ch/sites/knowledgetransfer.web.cern.ch/files/Knowledge-Transfer-2015.pdf[KiCad is mentioned in the CERN Knowledge Transfer 2015 paperwork]
 
 http://hackaday.com/2016/02/11/kicad-traducido-al-espanol[Hackaday features KiCad Spanish translation (in Spanish)]
+
+https://www.sparkfun.com/news/2041[Enginursday: KiCad and Open-Source Design (Sparkfun Blog)]
