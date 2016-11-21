@@ -24,3 +24,5 @@ http://knowledgetransfer.web.cern.ch/sites/knowledgetransfer.web.cern.ch/files/K
 http://hackaday.com/2016/02/11/kicad-traducido-al-espanol[Hackaday features KiCad Spanish translation (in Spanish)]
 
 https://www.sparkfun.com/news/2041[Enginursday: KiCad and Open-Source Design (Sparkfun Blog)]
+
+https://hackaday.com/2016/11/17/creating-a-pcb-in-everything-kicad-part-1/[Creating A PCB In Everything: KiCad, Part 1]
