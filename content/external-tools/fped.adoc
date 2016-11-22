@@ -1,0 +1,11 @@
++++
+title = "fped"
+toolimage = "/img/external-tools/fped.png"
+tooldeveloper = "Werner Almesberger"
+toolurl = "http://downloads.qi-hardware.com/people/werner/fped/gui.html"
++++
+
+Footprints tend to be highly repetitive, with many pads placed in a
+simple geometrical pattern. With fped, the user specifies the elements
+to repeat and the way they are repeated. Fped then generates the
+repetitions automatically. 
