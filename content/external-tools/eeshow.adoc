@@ -1,0 +1,16 @@
++++
+title = "eeshow"
+toolimage = "/img/external-tools/eeshow.png"
+tooldeveloper = "Werner Almesberger"
+toolurl = "https://neo900.org/stuff/eeshow/"
++++
+
+Eeshow is a collection of programs that read schematics made by
+KiCad's Eeschema. Eeshow can be used as interactive viewer, or as a
+command-line tool to convert schematics to PNG, PDF, Postscript, EPS,
+or FIG.
+
+Eeshow can show the differences between two versions of schematics
+sheets and it can retrieve files directly from a git repository.
+
+Eeshow was developed as part of the Neo900 project. 
