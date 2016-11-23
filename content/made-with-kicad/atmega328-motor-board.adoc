@@ -1,0 +1,10 @@
++++
+title = "ATMEGA328 Motor Board"
+projectimage = "/img/madewithkicad/atmega328-motor-board.jpg"
+projectdeveloper = "Antonio Morales"
+projecturl = "https://github.com/AntonioMR/ATMEGA328-Motor-Board"
++++
+
+A general purpose motor controller designed with kicad around the
+ATmega328 micro controller and L298P motor driver. It can drive four
+motors with various input options.
