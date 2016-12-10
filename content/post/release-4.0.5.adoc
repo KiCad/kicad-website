@@ -1,0 +1,52 @@
++++
+title = "KiCad 4.0.5 Stable Release"
+date = "2016-12-10"
++++
+
+The KiCad project is proud to announce a new stable release of KiCad.  The 4.0.5 stable
+version contains critical bug fixes and version string improvements since the last release.
+
+The stable release version 4.0.5 is made from the
+link:https://code.launchpad.net/~kicad-product-committers/kicad/+git/product-git/+ref/4.0[stable 4.0]
+branch with bug fixes cherry picked from the
+link:https://code.launchpad.net/~kicad-product-committers/kicad/+git/product-git/+ref/master[development branch]
+of KiCad.
+
+KiCad binaries are available or will be available in the near future
+for download for Windows, OSX and Linux, see the
+link:http://kicad-pcb.org/download/[download page] for guidance.
+
+Instructions for packagers can be found on
+http://kicad-pcb.org/download/source/[the download page describing how to build
+from source] and its subpages.
+
+Thank you to all developers, packagers, librarians, document writers,
+translators, and everyone else who helped make this release possible.
+
+=== Changes
+
+Below is a list of some commits related to a reported bug:
+
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=5b4542231e99a9741c9ed0f54cabfbec9df051c2[KiCad: fix crash when attempting to view ERC log with text editor.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=ca0aa6c971bf7a6d57e64b44035bb251ba938a83[Pcbnew: fix several auto save file issues.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=1a89a0601a67ea6646b04e958d426e9a2fe5a205[Eeschema: fix assertion on delete node hot key while busy.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=8151ec387cd398b4a574faf85bdb006fa5e6eaf6[Pcbnew: fix drill file naming issue.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=e074c798bf62bf952a5a068c9a957a2c61223340[CvPcb: remove broken footprint documentation feature.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=a26244504785480e6830c3f566f61a4b8ea9f703[Footprint editor: fix transform for incorrect mirroring of pads (only effects pads with offset).]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=65fe561a4bef2c60ea3abbf816e9eab6a6b48277[Pcbnew: prevent drawing tracks on non copper layers in GAL canvas.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=5a3c944b2a4642a3e1b2dad4970e92bcf2965a2d[Fix crash when BOARD members are changed and PNS is active.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=5f01ca8f8831241b63c2d6540340434c6877af46[Fix wrong CSV BOM format using bom2csv.xsl script with custom entries.]
+
+==== Some changes without a bug tracking number
+
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=115d70e06076b7db7b1bbb6177edbb8b1c46cabb[Fixed a crash when drawing a single point polyline.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=89e7d8922318e26e95a462f4194f9e4f2a7f885c[Gerbview: make print dialog display graphic layers list on some windows managers like Unity.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=6382db4ebf38884a524790bfd7d84683436ea277[Pcbnew: fix epic footprint editor DXF import fail.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=bd1aae90714f822d306fe7fbfe7562584d21a061[Fixed a crash when a negative (although invalid) net code occurs in legacy plugin.]
+The KiCad development team hopes you enjoy this latest stable release of KiCad.
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=0fbdec4c08b8ac2e4f68775700615595f834ce85[Pcbnew: prevent reversal of pad loading order when loading board.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=cec3e300a8d03886272d7476496182301f8d5d36[Fix incorrect indentation which generates compiler warnings.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=94a3390544be253312414fd55e724dbff50c7b9f[Pcbnew: make polygons strictly simple before fracturing them in zone fill calculations.
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=18f77b894ef78aa07d5a83271e4e23347527df1c[Fix off-by-one in saving bitmaps.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=8023c7a79478e2ee0955a6c1383a93a3fb1ca08e[Pcbnew: fix outdated environment vars settings for KiCad python on Windows.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=50a4b5553aff0eb4a848dba39ab4780d78f3377e[Version string improvements.]
