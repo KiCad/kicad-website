@@ -43,10 +43,11 @@ Below is a list of some commits related to a reported bug:
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=89e7d8922318e26e95a462f4194f9e4f2a7f885c[Gerbview: make print dialog display graphic layers list on some windows managers like Unity.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=6382db4ebf38884a524790bfd7d84683436ea277[Pcbnew: fix epic footprint editor DXF import fail.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=bd1aae90714f822d306fe7fbfe7562584d21a061[Fixed a crash when a negative (although invalid) net code occurs in legacy plugin.]
-The KiCad development team hopes you enjoy this latest stable release of KiCad.
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=0fbdec4c08b8ac2e4f68775700615595f834ce85[Pcbnew: prevent reversal of pad loading order when loading board.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=cec3e300a8d03886272d7476496182301f8d5d36[Fix incorrect indentation which generates compiler warnings.]
-* https://git.launchpad.net/kicad/commit/?h=4.0&id=94a3390544be253312414fd55e724dbff50c7b9f[Pcbnew: make polygons strictly simple before fracturing them in zone fill calculations.
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=94a3390544be253312414fd55e724dbff50c7b9f[Pcbnew: make polygons strictly simple before fracturing them in zone fill calculations.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=18f77b894ef78aa07d5a83271e4e23347527df1c[Fix off-by-one in saving bitmaps.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=8023c7a79478e2ee0955a6c1383a93a3fb1ca08e[Pcbnew: fix outdated environment vars settings for KiCad python on Windows.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=50a4b5553aff0eb4a848dba39ab4780d78f3377e[Version string improvements.]
+
+The KiCad development team hopes you enjoy this latest stable release of KiCad.
