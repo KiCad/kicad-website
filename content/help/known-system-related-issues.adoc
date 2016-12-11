@@ -61,6 +61,21 @@ https://bugs.launchpad.net/kicad/+bug/1003859[Some]
 https://bugs.launchpad.net/kicad/+bug/1186813[bugs] have been opened related to Radeon cards.
 The solution seems to be require changing an Xorg setting which is `Option "EXAPixmaps" "off"`.
 
+=== Intel Graphics
+Some users with Intel HD Graphics are having rendering problems with
+the legacy canvas (and eeschema). It has been reported on at least a
+laptop with a Intel Pentium P6000 processor and integrated graphics.
+
+A solution is to configure Xorg. Create a Xorg configuration file
+`/usr/share/X11/xorg.conf.d/20-intel.conf`, with the follow
+information:
+
+  Section "Device"
+    Identifier  "Intel Graphics"
+    Driver      "intel"
+  EndSection
+
+
 === wxGTK 3.0.1
 
 Version 3.0.1 of wxWidgets for Linux (with GTK) can crash when running
