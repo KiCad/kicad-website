@@ -1,0 +1,11 @@
++++
+title = "altium2kicad"
+toolimage = "/img/external-tools/altium2kicad.png"
+tooldeveloper = "Sourcerer"
+toolurl = "https://github.com/thesourcerer8/altium2kicad"
++++
+
+Altium2kicad can help you migrate an Altium project to KiCad, it
+supports most features of .PcbDoc and .SchDoc, so it can convert both
+the PCB and schematic. It consists of a few perl scripts that are
+executed on the altium design files.
