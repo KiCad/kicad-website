@@ -149,3 +149,13 @@ Exports an IDFv3 compliant board (.emn) and library (.emp) file for communicatin
 |Polski | link:http://docs.kicad-pcb.org/stable/pl/idf_exporter.html[HTML] link:http://docs.kicad-pcb.org/stable/pl/idf_exporter.pdf[PDF] link:http://docs.kicad-pcb.org/stable/pl/idf_exporter.epub[ePub]
 |Русский | link:http://docs.kicad-pcb.org/stable/ru/idf_exporter.html[HTML] link:http://docs.kicad-pcb.org/stable/ru/idf_exporter.pdf[PDF] link:http://docs.kicad-pcb.org/stable/ru/idf_exporter.epub[ePub]
 |===
+
+=== KiCad Plugin
+Description of the new plugin system currently used to handle 3D models. Not available in KiCad 4.
+
+[role="table table-striped table-condensed"]
+|===
+|Language |Format
+
+|English | link:http://docs.kicad-pcb.org/master/en/plugins.html[HTML] link:http://docs.kicad-pcb.org/master/en/plugins.pdf[PDF] link:http://docs.kicad-pcb.org/master/en/plugins.epub[ePub]
+|Русский | link:http://docs.kicad-pcb.org/master/ru/plugins.html[HTML] link:http://docs.kicad-pcb.org/master/ru/plugins.pdf[PDF] link:http://docs.kicad-pcb.org/master/ru/plugins.epub[ePub]
