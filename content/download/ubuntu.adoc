@@ -4,9 +4,9 @@ iconhtml = "<div class='fl-ubuntu'></div>"
 weight = 1
 +++
 
-=== 4.0.4 Stable Release
+=== 4.0.5 Stable Release
 
-KiCad 4.0.4 is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-4[js-reynaud's KiCad 4.0 PPA].
+KiCad 4.0.5 is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-4[js-reynaud's KiCad 4.0 PPA].
 
 To install KiCad via the PPA, you can use the Software Manager:
 
