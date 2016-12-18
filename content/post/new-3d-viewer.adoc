@@ -28,7 +28,8 @@ GPU.
 * New 3D plugins available: WRL, X3D, IDF.
 * STEP and IGES support is available via the kicad_oce_3D plugin
 <https://github.com/cbernardo/kicad_oce_3D>. This brings KiCad one
-step closer to built-in MCAD export.
+step closer to built-in MCAD export. UPDATE: This plugin has been
+merged into kicad.
 * Preview of 3D model while browsing the 3D file. See figure 1.
 * 3D preview of the footprint while adding / aligning 3D shapes -
 provides a real-time feedback on adjusting the values. See figure 2.
