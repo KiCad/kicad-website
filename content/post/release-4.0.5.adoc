@@ -1,6 +1,6 @@
 +++
 title = "KiCad 4.0.5 Stable Release"
-date = "2016-12-10"
+date = "2016-12-18"
 +++
 
 The KiCad project is proud to announce a new stable release of KiCad.  The 4.0.5 stable
