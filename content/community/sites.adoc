@@ -18,6 +18,7 @@ These are forums run by KiCad users for the general KiCad community to ask quest
 | English (most active) | link:https://forum.kicad.info/[kicad.info]
 | English                | link:https://www.reddit.com/r/KiCad/[kicad subreddit]
 | Español                | link:http://www.elektroquark.com/forokicad/index.php[El foro de KiCad en castellano]
+| Español                | link:http://kicad.es/[Foro de KiCad en español (discourse)]
 |===
 
 
