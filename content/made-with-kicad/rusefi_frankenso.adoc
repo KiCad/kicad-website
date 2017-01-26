@@ -1,0 +1,12 @@
++++
+title = "rusEFI Frankenso"
+projectimage = "/img/madewithkicad/rusefi_frankenso_top-isometric.png"
+projectdeveloper = "rusEFI"
+projecturl = "http://rusefi.com/wiki/index.php?title=Main_Page"
++++
+
+The rusEFI project is an attempt to build an open source automotive
+injection Engine Control Unit (ECU) based on STM32.
+https://sourceforge.net/p/rusefi/code/HEAD/tree/trunk/hardware/frankenso[Hardware]
+and software is available.
+
