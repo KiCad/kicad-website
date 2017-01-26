@@ -256,6 +256,10 @@ you read the excellent git link:https://git-scm.com/doc[documentation], and/or
 follow the many tutorials available online like
 link:http://learngitbranching.js.org/[this one].
 
+In addition there are also some more tips on making commits
+link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/commit_messages.html[in
+the developer docs].
+
 === Translating GUI and Docs
 
 If you are the kind of person wanting to help improve KiCad by internationalizing it, you should probably have a look at the
