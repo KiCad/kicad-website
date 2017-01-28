@@ -105,7 +105,7 @@ The latest version of the same docs are also available on the Jenkins
 server, see
 link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/namespaces.html[KiCad Developer Docs for the C++ API].
 
-On the same place there is also some other developer notes, see
+You can also find various developer notes in the Doxygen docs, see
 link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/pages.html[the
 related pages].
 
