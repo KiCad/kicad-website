@@ -48,7 +48,7 @@ the version string:
 
   -DKICAD_REPO_NAME=stable -DKICAD_BUILD_VERSION=4.0.4
 
-This is not longer needed. This note is kept untill the next release.
+This is not longer needed. This note is kept until the next release.
 
 
 === Building KiCad
@@ -56,5 +56,11 @@ This is not longer needed. This note is kept untill the next release.
 Instructions can be found in compiling.md which is located in the kicad source code under /Documentation/development folder.
 
 Alternatively, you can view it online here: link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_compiling.html[Building KiCad from Source]
+
+KiCad 4.0.5 cannot be compiled with boost 1.61 and higher since the
+latter requires C{plus}{plus}11. If you insist to use boost 1.61 and higher, you
+can apply link:http://kicad-pcb.org/boost-1.61.patch[this patch]
+manually and compile with a C{plus}{plus}11 capable compiler and its appropriate
+compiler switches.
 
 Do not use the https://github.com/KiCad/KicadOSXBuilder[KicadOSXBuilder] as it is outdated.
