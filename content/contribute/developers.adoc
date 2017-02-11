@@ -30,7 +30,7 @@ are available in the
 link:https://help.launchpad.net/YourAccount/NewAccount[Launchpad user tutorial].
 
 The official road map is available online as the
-http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/v5_road_map.html[version
+http://docs.kicad-pcb.org/doxygen/v5_road_map.html[version
 5 road map] in the doxygen docs. The CERN team also have their own
 road map available at
 http://www.ohwr.org/projects/cern-kicad/wiki/WorkPackages[CERN KiCad
@@ -59,7 +59,7 @@ You can pull the latest changes in your clone with:
 
 === Build it!
 
-Follow the instruction in the link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_compiling.html[documentation]
+Follow the instruction in the link:http://docs.kicad-pcb.org/doxygen/md_Documentation_development_compiling.html[documentation]
 corresponding to your platform to set up a working build environment
 and successfully build KiCad from source.
 
@@ -80,7 +80,7 @@ to the codebase.
 === Read the Code Style Policy
 
 The next thing to do is to check out the
-link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_coding-style-policy.html[KiCad Coding Style Policy] -
+link:http://docs.kicad-pcb.org/doxygen/md_Documentation_development_coding-style-policy.html[KiCad Coding Style Policy] -
 it's important for us to keep the codebase readable by
 all developers.  This generally gets philosophical, but the code base
 needs consistency throughout, so please do pay attention to the code
@@ -88,7 +88,7 @@ style policy. Your patches will generally be rejected if they do not
 adhere to the rules set forth in the policy.
 
 If you feel like working on the user interface, you may find useful reading the
-link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_ui-policy.html[User Interface Guidelines].
+link:http://docs.kicad-pcb.org/doxygen/md_Documentation_development_ui-policy.html[User Interface Guidelines].
 
 Do not feel discouraged, though, if your first patches don't make it
 first go due to policy violations you can take it as a pretty high
@@ -103,10 +103,10 @@ remember to update the documentation descriptions. You can run
 
 The latest version of the same docs are also available on the Jenkins
 server, see
-link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/namespaces.html[KiCad Developer Docs for the C++ API].
+link:http://docs.kicad-pcb.org/doxygen/namespaces.html[KiCad Developer Docs for the C++ API].
 
 You can also find various developer notes in the Doxygen docs, see
-link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/pages.html[the
+link:http://docs.kicad-pcb.org/doxygen/pages.html[the
 related pages].
 
 
@@ -257,7 +257,7 @@ follow the many tutorials available online like
 link:http://learngitbranching.js.org/[this one].
 
 In addition there are also some more tips on making commits
-link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/commit_messages.html[in
+link:http://docs.kicad-pcb.org/doxygen/commit_messages.html[in
 the developer docs].
 
 === Translating GUI and Docs

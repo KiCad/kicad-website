@@ -50,7 +50,7 @@ designs. So you better upgrade your Debian installation to Debian Stable
 
 === Build from Source
 You can find the instructions to build from source
-link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_compiling.html#build_linux[here].
+link:http://docs.kicad-pcb.org/doxygen/md_Documentation_development_compiling.html#build_linux[here].
 If you have a running Debian stable with actual packages from Backports or you
 running a testing/sid release you can compile your own version of KiCad. Ensure
 you have installed some build dependencies at least before:
