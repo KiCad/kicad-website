@@ -28,15 +28,3 @@ http://hackaday.com/2014/07/14/cern-shows-off-new-kicad-module-editor[CERN Shows
 http://www.eetimes.com/author.asp?doc_id=1320005[KiCad: CERN's Contribution to Free/Open PCB Design] (06-NOV-2013)
 
 https://blog.arduino.cc/2013/06/10/arduino-donations-and-values[Arduino Donations and Values for a Growing Ecosystem Based on Open Source] (06-JUN-2010)
-
-
-
-
-
-
-
-
-
-
-
-
