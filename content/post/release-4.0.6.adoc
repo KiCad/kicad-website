@@ -1,0 +1,49 @@
++++
+title = "KiCad 4.0.6 Stable Release"
+date = "2017-03-05"
+draft = true
++++
+
+The KiCad project is proud to announce the latest stable release of KiCad.
+The 4.0.6 stable version contains critical bug fixes and other minor
+improvements since the last release.  One other notable change was the
+replacement of the link:https://github.com/avplayer/avhttp[Avhttp] library
+with the link:https://curl.haxx.se/libcurl/[libcurl] library when building
+the link:https://github.com/[GitHub] plugin.  This should allow Linux
+distributions that are not compatible with the
+link:https://www.openssl.org/[OpenSSL] library license to distribute KiCad
+with the GitHub plugin enabled.
+
+The stable release version 4.0.6 is made from the
+link:https://code.launchpad.net/~kicad-product-committers/kicad/+git/product-git/+ref/4.0[stable 4.0]
+branch with bug fixes cherry picked from the
+link:https://code.launchpad.net/~kicad-product-committers/kicad/+git/product-git/+ref/master[development branch]
+of KiCad.
+
+KiCad binaries are available or will be available in the near future for
+download for Windows, OSX and Linux, see the
+link:http://kicad-pcb.org/download/[download page] for guidance.
+
+Instructions for packagers can be found on
+http://kicad-pcb.org/download/source/[the download page describing how to build
+from source] and its subpages.
+
+Thank you to all developers, packagers, librarians, document writers,
+translators, and everyone else who helped make this release possible.
+
+=== Changes
+
+==== Changes related to a reported bug:
+
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=5127a6bd09e22341a3eaac0abcea069e19fc9ac3[Pcbnew: fix an issue where path separators are not translated from \ in Windows to / on Unix.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=556be7b4314341d5ed72aa24628f58c835d4f17d[Pcbnew: do not use default board solder mask clearance in footprint editor.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=df191606ab28d38aaa1e4e0bbf3b44600ffbf916[Pcbnew: fix a potential incompatibility (due to an old bug) with files which could be created by some recent Pcbnew versions.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=d1f8dbb9debe128ddd015edb1ff0fa954a8a08a7[Eeschema: fix rotate bug in symbol library editor.]
+
+==== Changes without a bug report:
+
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=981fddc649243a377aff29dbd4d65215d4ec6640[Replace avhttp with libcurl.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=0145a03f792953aa13b2e0362028bb322f87ae6a[Pcbnew: fix a potential bug where a GAL canvas method was called from the legacy canvas.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=99d7a357972d42de56e5c71172f9c910adc2cff3[Eeschema: reorder toolbar slightly.]
+
+The KiCad development team hopes you enjoy this latest stable release of KiCad.
