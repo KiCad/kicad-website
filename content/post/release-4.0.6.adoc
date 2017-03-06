@@ -33,6 +33,22 @@ translators, and everyone else who helped make this release possible.
 
 === Changes
 
+==== Library changes:
+You may need to update your footprint library table in pcbnew, because some
+footprint libraries have been renamed as follows:
+
+* Buttons_Switches_ThroughHole.pretty -> Buttons_Switches_THT.pretty
+* Capacitors_ThroughHole.pretty -> Capacitors_THT.pretty
+* Connect.pretty -> Connectors.pretty
+* Diodes_ThroughHole.pretty -> Diodes_THT.pretty
+* Display.pretty -> Displays.pretty
+* Relays_ThroughHole.pretty -> Relays_THT.pretty
+* Resistors_ThroughHole.pretty -> Resistors_THT.pretty
+* Sockets_BNC.pretty -> Connectors_TE-Connectivity.pretty
+* Sockets_Mini-Universal.pretty -> Connectors_Mini-Universal.pretty
+* Sockets_WAGO734.pretty -> Connectors_WAGO.pretty
+* Terminal_Blocks.pretty -> Connectors_Terminal_Blocks.pretty
+
 ==== Changes related to a reported bug:
 
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=5127a6bd09e22341a3eaac0abcea069e19fc9ac3[Pcbnew: fix an issue where path separators are not translated from \ in Windows to / on Unix.]
