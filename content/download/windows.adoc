@@ -6,10 +6,10 @@ weight = 2
 
 === Stable Release
 
-Current Version: *4.0.5*
+Current Version: *4.0.6*
 
-- http://downloads.kicad-pcb.org/windows/stable/kicad-4.0.5-x86_64.exe[Windows 64-bit (x86_64)]
-- http://downloads.kicad-pcb.org/windows/stable/kicad-4.0.5-i686.exe[Windows 32-bit (i686)]
+- http://downloads.kicad-pcb.org/windows/stable/kicad-4.0.6-x86_64.exe[Windows 64-bit (x86_64)]
+- http://downloads.kicad-pcb.org/windows/stable/kicad-4.0.6-i686.exe[Windows 32-bit (i686)]
 
 === Nightly Development Builds
 
