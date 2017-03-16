@@ -22,15 +22,15 @@ documentaiton (kicad-doc), the user interface translations
 
 === Stable Release
 
-Current Version: *4.0.5*
+Current Version: *4.0.6*
 
 Tarballs intended to be used by packagers:
 
-* link:https://launchpad.net/kicad/4.0/4.0.5/+download/kicad-4.0.5.tar.xz[Source code]
-* link:http://downloads.kicad-pcb.org/docs/kicad-doc-4.0.5.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/4.0.5[doc sources]
-* link:https://github.com/KiCad/kicad-i18n/releases/tag/4.0.5[Kicad-i18n]
-* link:http://downloads.kicad-pcb.org/libraries/kicad-library-4.0.5.tar.gz[Kicad-library repo]
-* link:http://downloads.kicad-pcb.org/libraries/kicad-footprints-4.0.5.tar.gz[Footprint repos]
+* link:https://launchpad.net/kicad/4.0/4.0.5/+download/kicad-4.0.6.tar.xz[Source code]
+* link:http://downloads.kicad-pcb.org/docs/kicad-doc-4.0.6.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/4.0.6[doc sources]
+* link:https://github.com/KiCad/kicad-i18n/releases/tag/4.0.6[Kicad-i18n]
+* link:http://downloads.kicad-pcb.org/libraries/kicad-library-4.0.6.tar.gz[Kicad-library repo]
+* link:http://downloads.kicad-pcb.org/libraries/kicad-footprints-4.0.6.tar.gz[Footprint repos]
 
 You encouraged to enable the python scripting, even though it is
 not enabled by default with the following additional Cmake options.
@@ -57,7 +57,7 @@ Instructions can be found in compiling.md which is located in the kicad source c
 
 Alternatively, you can view it online here: link:http://docs.kicad-pcb.org/doxygen/md_Documentation_development_compiling.html[Building KiCad from Source]
 
-KiCad 4.0.5 cannot be compiled with boost 1.61 and higher since the
+KiCad 4.0.5 and 4.0.6 cannot be compiled with boost 1.61 and higher since the
 latter requires C{plus}{plus}11. If you insist to use boost 1.61 and higher, you
 can apply link:http://kicad-pcb.org/boost-1.61.patch[this patch]
 manually and compile with a C{plus}{plus}11 capable compiler and its appropriate
