@@ -14,10 +14,10 @@ KiCad is supported on OS X 10.7 through OS X 10.12.
 
 === Stable Release
 
-Current Version: *4.0.5*
+Current Version: *4.0.6*
 
-- http://downloads.kicad-pcb.org/osx/stable/kicad-4.0.5.dmg[KiCad main package]
-- http://downloads.kicad-pcb.org/osx/stable/kicad-extras-4.0.5.dmg[KiCad extras]
+- http://downloads.kicad-pcb.org/osx/stable/kicad-4.0.6.dmg[KiCad main package]
+- http://downloads.kicad-pcb.org/osx/stable/kicad-extras-4.0.6.dmg[KiCad extras]
 
 === Nightly Development Builds
 
