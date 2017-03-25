@@ -26,7 +26,7 @@ Current Version: *4.0.6*
 
 Tarballs intended to be used by packagers:
 
-* link:https://launchpad.net/kicad/4.0/4.0.5/+download/kicad-4.0.6.tar.xz[Source code]
+* link:https://launchpad.net/kicad/4.0/4.0.6/+download/kicad-4.0.6.tar.xz[Source code]
 * link:http://downloads.kicad-pcb.org/docs/kicad-doc-4.0.6.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/4.0.6[doc sources]
 * link:https://github.com/KiCad/kicad-i18n/releases/tag/4.0.6[Kicad-i18n]
 * link:http://downloads.kicad-pcb.org/libraries/kicad-library-4.0.6.tar.gz[Kicad-library repo]
