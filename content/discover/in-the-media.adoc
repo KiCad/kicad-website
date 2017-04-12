@@ -23,7 +23,7 @@ https://cds.cern.ch/journal/CERNBulletin/2015/09/News%20Articles/1988318[KiCad C
 
 http://home.web.cern.ch/about/updates/2015/02/kicad-software-gets-cern-treatment[KiCad software gets the CERN treatment] (02-FEB-2015)
 
-http://hackaday.com/2014/07/14/cern-shows-off-new-kicad-module-editor[CERN Shows Off New KiCad Module Editor](14-JUL-2014)
+http://hackaday.com/2014/07/14/cern-shows-off-new-kicad-module-editor[CERN Shows Off New KiCad Module Editor] (14-JUL-2014)
 
 http://www.eetimes.com/author.asp?doc_id=1320005[KiCad: CERN's Contribution to Free/Open PCB Design] (06-NOV-2013)
 
