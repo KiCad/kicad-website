@@ -20,8 +20,8 @@ and is licensed under http://en.wikipedia.org/wiki/GNU_General_Public_License[GN
 The first release date was in 1992 by its original author, Jean-Pierre Charras,
 but is now currently under development by the https://launchpad.net/kicad[KiCad Developers Team].
 
-Some history of general information of KiCad is presented by Wayne in
-https://www.youtube.com/watch?v=wRolB1my6fI[his presentation at FOSDEM 2015].
+More KiCad history, general information, and advancements can be found in Wayne's 
+https://www.youtube.com/watch?v=wRolB1my6fI[2015], https://www.youtube.com/watch?v=yNe6g0OdGs4[2016], and https://www.youtube.com/watch?v=SlxpHWB_vb8[2017] FOSDEM presentations.
 
 
 == Main Authors
