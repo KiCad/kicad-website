@@ -7,24 +7,24 @@ title = "In the Media"
 +++
 
 
-KiCad has been featured in the following blog posts, press and media.
+**KiCad has been featured in the following blog posts, press and media:**
 
-http://home.web.cern.ch/about/updates/2015/02/kicad-software-gets-cern-treatment[KiCad software gets the CERN treatment]
+https://hackaday.com/2016/11/17/creating-a-pcb-in-everything-kicad-part-1/[Creating A PCB In Everything: KiCad, Part 1] (17-NOV-2016), http://hackaday.com/2016/12/09/creating-a-pcb-in-everything-kicad-part-2/[Part 2] (09-DEC-2016), http://hackaday.com/2016/12/23/creating-a-pcb-in-everything-kicad-part-3/[Part 3] (23-DEC-2016)
 
-http://www.eetimes.com/author.asp?doc_id=1320005[KiCad: CERN's Contribution to Free/Open PCB Design]
+https://www.sparkfun.com/news/2041[Enginursday: KiCad and Open-Source Design (Sparkfun Blog)] (25-FEB-2016)
 
-http://hackaday.com/2014/07/14/cern-shows-off-new-kicad-module-editor[CERN Shows Off New KiCad Module Editor]
+http://www.rocketscream.com/blog/2016/02/19/from-diptrace-to-kicad/[From Diptrace to KiCad] (19-FEB-2016)
 
-https://blog.arduino.cc/2013/06/10/arduino-donations-and-values[Arduino Donations and Values for a Growing Ecosystem Based on Open Source]
+http://hackaday.com/2016/02/11/kicad-traducido-al-espanol[Hackaday features KiCad Spanish translation (in Spanish)] (11-FEB-2016)
 
-https://cds.cern.ch/journal/CERNBulletin/2015/09/News%20Articles/1988318[KiCad Challenges the Big Ones]
+http://knowledgetransfer.web.cern.ch/sites/knowledgetransfer.web.cern.ch/files/Knowledge-Transfer-2015.pdf[KiCad is mentioned in the CERN Knowledge Transfer 2015 paperwork] (01-JAN-2016)
 
-http://knowledgetransfer.web.cern.ch/sites/knowledgetransfer.web.cern.ch/files/Knowledge-Transfer-2015.pdf[KiCad is mentioned in the CERN Knowledge Transfer 2015 paperwork]
+https://cds.cern.ch/journal/CERNBulletin/2015/09/News%20Articles/1988318[KiCad Challenges the Big Ones] (16-FEB-2015)
 
-http://hackaday.com/2016/02/11/kicad-traducido-al-espanol[Hackaday features KiCad Spanish translation (in Spanish)]
+http://home.web.cern.ch/about/updates/2015/02/kicad-software-gets-cern-treatment[KiCad software gets the CERN treatment] (02-FEB-2015)
 
-https://www.sparkfun.com/news/2041[Enginursday: KiCad and Open-Source Design (Sparkfun Blog)]
+http://hackaday.com/2014/07/14/cern-shows-off-new-kicad-module-editor[CERN Shows Off New KiCad Module Editor](14-JUL-2014)
 
-https://hackaday.com/2016/11/17/creating-a-pcb-in-everything-kicad-part-1/[Creating A PCB In Everything: KiCad, Part 1], http://hackaday.com/2016/12/09/creating-a-pcb-in-everything-kicad-part-2/[Part 2], http://hackaday.com/2016/12/23/creating-a-pcb-in-everything-kicad-part-3/[Part 3]
+http://www.eetimes.com/author.asp?doc_id=1320005[KiCad: CERN's Contribution to Free/Open PCB Design] (06-NOV-2013)
 
-http://www.rocketscream.com/blog/2016/02/19/from-diptrace-to-kicad/[From Diptrace to KiCad]
+https://blog.arduino.cc/2013/06/10/arduino-donations-and-values[Arduino Donations and Values for a Growing Ecosystem Based on Open Source] (06-JUN-2010)
