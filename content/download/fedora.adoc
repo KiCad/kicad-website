@@ -21,7 +21,7 @@ service].
 This build can be installed on Fedora with:
 
 ----
-dnf copr enable mangelajo/kicad
+dnf copr enable @kicad/kicad
 dnf install kicad
 ----
 
