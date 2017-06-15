@@ -7,7 +7,7 @@ weight = 95
 === Stable Release
 KiCad 4.0.2 is available in in the
 link:https://packages.gentoo.org/packages/sci-electronics/kicad[official
-gentoo packages], you can install with emerge:
+gentoo packages]. You can install it with emerge:
 
   emerge sci-electronics/kicad
 

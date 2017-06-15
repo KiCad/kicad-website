@@ -7,8 +7,7 @@ weight = 100
 
 The most recent source code for KiCad can be downloaded from the
 https://code.launchpad.net/kicad[launchpad repository] or the
-https://github.com/KiCad/kicad-source-mirror[github source mirror]
-(updated every 10 minutes).
+https://github.com/KiCad/kicad-source-mirror[github source mirror].
 
 This source contains the most recent patches and is useful for
 debugging and testing. If you build KiCad from source consider
@@ -18,24 +17,22 @@ https://bugs.launchpad.net/kicad/[bug-fixes].
 
 Other than the source code itself there are some other distibruted
 elements that make up the full KiCad package, which is the KiCad
-documentaiton (kicad-doc), the user interface translations
+documentation (kicad-doc), the user interface translations
 (kicad-i18n), and the schematic, footprint and 3D model libraries.
 
-=== 4.0.3 Stable Release
+=== Stable Release
+
+Current Version: *4.0.6*
+
 Tarballs intended to be used by packagers:
 
-* link:https://launchpad.net/kicad/4.0/4.0.3/+download/kicad-4.0.3.tar.xz[Source code]
-* link:http://downloads.kicad-pcb.org/docs/kicad-doc-4.0.3.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/4.0.3[doc sources]
-* link:https://github.com/KiCad/kicad-i18n/releases/tag/4.0.3[Kicad-i18n]
-* link:http://downloads.kicad-pcb.org/libraries/kicad-library-4.0.3.tar.gz[Kicad-library repo]
-* link:http://downloads.kicad-pcb.org/libraries/kicad-footprints-4.0.3.tar.gz[Footprint repos]
+* link:https://launchpad.net/kicad/4.0/4.0.6/+download/kicad-4.0.6.tar.xz[Source code]
+* link:http://downloads.kicad-pcb.org/docs/kicad-doc-4.0.6.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/4.0.6[doc sources]
+* link:https://github.com/KiCad/kicad-i18n/releases/tag/4.0.6[Kicad-i18n]
+* link:http://downloads.kicad-pcb.org/libraries/kicad-library-4.0.6.tar.gz[Kicad-library repo]
+* link:http://downloads.kicad-pcb.org/libraries/kicad-footprints-4.0.6.tar.gz[Footprint repos]
 
-For the moment you are supposed to use the following options to set
-the version string:
-
-  -DKICAD_REPO_NAME=stable -DKICAD_BUILD_VERSION=4.0.3
-
-And you encouraged to enable the python scripting, even though it is
+You encouraged to enable the python scripting, even though it is
 not enabled by default with the following additional Cmake options.
 
   -DKICAD_SCRIPTING=ON -DKICAD_SCRIPTING_MODULES=ON -DKICAD_SCRIPTING_WXPYTHON=ON
@@ -46,9 +43,24 @@ it on a case by case basis]. If you package for linux you are
 link:https://www.mail-archive.com/kicad-developers@lists.launchpad.net/msg15700.html[expected
 to enable python scripting].
 
+Before version 4.0.5 you were supposed to use the following options to set
+the version string:
+
+  -DKICAD_REPO_NAME=stable -DKICAD_BUILD_VERSION=4.0.4
+
+This is not longer needed. This note is kept until the next release.
+
+
 === Building KiCad
 
 Instructions can be found in compiling.md which is located in the kicad source code under /Documentation/development folder.
 
-Alternatively, you can view it online here: link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_compiling.html[Building KiCad from Source]
+Alternatively, you can view it online here: link:http://docs.kicad-pcb.org/doxygen/md_Documentation_development_compiling.html[Building KiCad from Source]
 
+KiCad 4.0.5 and 4.0.6 cannot be compiled with boost 1.61 and higher since the
+latter requires C{plus}{plus}11. If you insist to use boost 1.61 and higher, you
+can apply link:http://kicad-pcb.org/boost-1.61.patch[this patch]
+manually and compile with a C{plus}{plus}11 capable compiler and its appropriate
+compiler switches.
+
+Do not use the https://github.com/KiCad/KicadOSXBuilder[KicadOSXBuilder] as it is outdated.

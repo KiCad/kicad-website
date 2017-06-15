@@ -4,16 +4,21 @@ iconhtml = "<div class='fl-debian'></div>"
 weight = 10
 +++
 
-https://packages.debian.org/sid/kicad
+=== Debian Unstable (Sid)
 
-=== Debian Testing/Sid (Stretch)
+Current Version: *4.0.5* (KiCad actual version)
 
-Current Version: *4.0.2* (KiCad actual version)
+The current upstream release 4.0.5 is available for Debian
+https://packages.debian.org/sid/kicad[unstable/sid].
 
-The current upstream release 4.0.2 is available for Debian
-https://packages.debian.org/stretch/kicad[testing/sid].
+=== Debian Testing (Stretch)
 
-You can install it with the follwing commands in a terminal, otherwise you can
+Current Version: *4.0.5* (KiCad actual version)
+
+The current upstream release 4.0.5 is available for Debian
+https://packages.debian.org/stretch/kicad[testing/stretch] and
+
+You can install it with the following commands in a terminal, otherwise you can
 use the package manager you like:
 
 [source,bash]
@@ -28,7 +33,11 @@ apt-cache search kicad-doc
 
 === Debian Stable (Jessie)
 
-Current Version: *bzr4027* (KiCad stable release 2014), or *4.0.2* via Backports
+Jessie-Backport Version: *4.0.5* (KiCad actual version)
+
+or
+
+Jessie Stable Release Version: *bzr4027* (KiCad stable release 2014)
 
 The 2014 stable release bzr4027 of KiCad is available in the official Debian
 repositories for https://packages.debian.org/jessie/kicad[stable/jessie].
@@ -51,12 +60,21 @@ designs. So you better upgrade your Debian installation to Debian Stable
 
 === Build from Source
 You can find the instructions to build from source
-link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/md_Documentation_development_compiling.html#build_linux[here].
+link:http://docs.kicad-pcb.org/doxygen/md_Documentation_development_compiling.html#build_linux[here].
 If you have a running Debian stable with actual packages from Backports or you
-running a testing/sid release you can compile your own version of KiCad. Ensure
-you have installed some build dependencies at least before:
+running a testing/sid release you can compile your own version of KiCad. *Note*,
+the use of Spice features isn't possible now, even in testing/unstable as
+the ngspice package isn't providing the needed libngspice library. If you need
+Spice related support in KiCad you will need to build a modified ngspice
+package. See this link:http://https://bugs.debian.org/834335[bug report] for
+further information.
+
+Ensure you have installed some build dependencies at least before you try to
+start own builds:
 
 [source.bash]
-sudo apt-get install libwxbase3.0-dev libwxgtk3.0-dev libgl1-mesa-dev \
-libglew-dev libglm-dev libcurl4-openssl-dev libboost-dev libboost-thread-dev \
-libcairo2-dev libboost-system-dev libboost-context-dev libssl-dev wx-common
+sudo apt-get install doxygen libboost-context-dev libboost-dev \
+libboost-system-dev libboost-thread-dev libcairo2-dev libcurl4-openssl-dev \
+libgl1-mesa-dev libglew-dev libglm-dev liboce-foundation-dev liboce-ocaf-dev \
+libssl-dev libwxbase3.0-dev libwxgtk3.0-dev python-dev python-wxgtk3.0-dev \
+swig wx-common

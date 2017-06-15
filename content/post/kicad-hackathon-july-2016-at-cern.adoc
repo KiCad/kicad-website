@@ -17,7 +17,7 @@ took place during the week.  Much hacking was done to improve the
 push and shove router, improve user experience, improve the
 coverage and accuracy of the geometry library, create a schematic
 I/O plugin architecture, and finalize the
-http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/v5_road_map.html[version
+http://docs.kicad-pcb.org/doxygen/v5_road_map.html[version
 5 stable release road map].
 
 There was also working demo and hacking on a new feature created by the CERN developers 

@@ -59,7 +59,22 @@ Some users with Radeon graphics have been experiencing problems with
 slow rendering in gerbview and eeschema.
 https://bugs.launchpad.net/kicad/+bug/1003859[Some]
 https://bugs.launchpad.net/kicad/+bug/1186813[bugs] have been opened related to Radeon cards.
-The solution seems to be require changing an Xorg setting which is `Option "EXAPixmaps" "off"`.
+The solution seems to be require changing an Xorg setting which is either `Option "EXAPixmaps" "off"` or `Option "ShadowPrimary"` (see the bug reports for details).
+
+=== Intel Graphics
+Some users with Intel HD Graphics are having rendering problems with
+the legacy canvas (and eeschema). It has been reported on at least a
+laptop with a Intel Pentium P6000 processor and integrated graphics.
+
+A solution is to configure Xorg. Create a Xorg configuration file
+`/usr/share/X11/xorg.conf.d/20-intel.conf`, with the follow
+information:
+
+  Section "Device"
+    Identifier  "Intel Graphics"
+    Driver      "intel"
+  EndSection
+
 
 === wxGTK 3.0.1
 

@@ -24,6 +24,8 @@ Several text-based tutorials as well as video tutorials have been put together b
 - http://stffrdhrn.github.io/electronics/2015/04/28/simulating_kicad_schematics_in_spice.html[Simulating KiCad Schematics in Spice]
 - https://www.mikrocontroller.net/wikifiles/a/ab/HierarchicalSchematicsAsBuildingblocksAtKiCad_RevC-EN_06May2015.pdf[Hierarchical schematics as schematic buildingblocks] by Bernd Wiebus. (https://www.mikrocontroller.net/wikifiles/7/79/HierarchischeSchaltplaeneAlsBausteineInKicad_RevC_23Dec2013.pdf[Original in german])
 - https://www.mikrocontroller.net/wikifiles/6/64/Kicad-Wings3D_Leaflet_25April2013.pdf[Notes on using Wings3D] by Bernd Wiebus (https://www.mikrocontroller.net/wikifiles/0/02/Kicad-Wings3D_Merkzettel_29November2012.pdf[Original in german])
+- https://flyingcarsandstuff.com/2016/10/kicad-techniques-tips-and-work-arounds/[Kicad: Techniques, Tips and Work-arounds]
+- https://kicad.mmccoo.com/kicad-scripting-table-of-contents/[KiCad Scripting Examples]
 
 === Video Tutorials
 
@@ -47,6 +49,4 @@ Several text-based tutorials as well as video tutorials have been put together b
 
 == Tutorials in Polish
 
-- http://leon-instruments.blogspot.com/2012/05/kurs-kicad-wstep.html[Step by step KiCad tutorial] by Leon Dominik
-
-
+- https://extronic.pl/content/category/4-kicad[Step by step KiCad tutorial] by Leon Dominik

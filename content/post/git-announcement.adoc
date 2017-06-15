@@ -1,0 +1,28 @@
++++
+title = "KiCad Switches to Git for Version Control"
+date = "2016-08-21"
+draft = false
++++
+
+The moment all of you https://git-scm.com/[Git] fans have been waiting for
+has finally arrived!  As of August 21st, 2016 the official version control
+system for the development repository for KiCad is now Git instead of
+http://bazaar.canonical.com/[Bazaar].  The decision was made to stick with
+https://launchpad.net/[Launchpad] as the hosting site rather than move to
+https://github.com/[Github] in order to keep our existing bug tracker history.
+The development team decided that the Lauchpad Git integration had reached a
+sufficient level of maturity to make the switch.  You can now directly clone
+the KiCad product branch using:
+
+------------------------------------------
+git clone https://git.launchpad.net/kicad
+------------------------------------------
+
+Hopefully there will be minimal issues as we move forward using Git.  Please be
+patient as we integrate Git into our normal development process.  For help
+configuring Git for Lauchpad, please see the
+https://help.launchpad.net/Code/Git[Git help page on Launchpad].
+
+Happy version controlling!
+
+The KiCad development team.

@@ -19,9 +19,6 @@ pluralizelisttitles = false
   title = "github"
   url = "https://github.com/KiCad"
 [[params.social]]
-  title = "facebook"
-  url = "https://www.facebook.com/kicadpcb"
-[[params.social]]
   title = "google-plus"
   url = "https://plus.google.com/111133613917552048578"
 
@@ -75,3 +72,4 @@ pluralizelisttitles = false
 [[menu.main]]
     name   = "About"
     weight = 900
+

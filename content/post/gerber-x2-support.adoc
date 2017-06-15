@@ -1,0 +1,12 @@
++++
+title = "Gerber X2 Support"
+date = "2016-11-18"
++++
+
+The KiCad project is pleased to announce that it is the first electronic development
+application to fully support the Gerber X2 extensions.  See the
+link:http://design.iconnect007.com/index.php/article/100982/ucamcos-gerber-netlist-goes-live-with-kicad/100985/?skin=design[article on the PCB Design website].  Thanks to the
+efforts of project founder Jean-Pierre Charras, KiCad can provide full Gerber X2
+extension support before any proprietary or open source electronic development
+applications.  The Gerber X2 support is currently available in the nightly builds
+of KiCad and will ship when the stable 5 version of KiCad is released.
