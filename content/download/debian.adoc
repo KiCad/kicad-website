@@ -66,7 +66,7 @@ running a testing/sid release you can compile your own version of KiCad. *Note*,
 the use of Spice features isn't possible now, even in testing/unstable as
 the ngspice package isn't providing the needed libngspice library. If you need
 Spice related support in KiCad you will need to build a modified ngspice
-package. See this link:http://https://bugs.debian.org/834335[bug report] for
+package. See this link:https://bugs.debian.org/834335[bug report] for
 further information.
 
 Ensure you have installed some build dependencies at least before you try to
