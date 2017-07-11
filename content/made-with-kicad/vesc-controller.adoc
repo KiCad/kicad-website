@@ -2,10 +2,10 @@
 title = "VESC controller"
 projectimage = "/img/madewithkicad/VESC-controller.jpg"
 projectdeveloper = "PALTA TECH S.A."
-projecturl = "http://www.paltatech.com/motores-trifasicos/"
+projecturl = "https://github.com/paltatech/VESC-controller"
 +++
 
-VESC controller is a 3 phase motor controller 
+link:http://www.paltatech.com/motores-trifasicos/[VESC controller] is a 3 phase motor controller.
 The board measures voltages, currents, temperatures and user inputs and acts
 as the brain of a high power electric drivetrain. Fully opensource and
 compatible with VESC project firmware and GUI.
