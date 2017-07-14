@@ -24,7 +24,7 @@ dnf --enablerepo=updates-testing install kicad
 === Nightly Development Builds
 
 Nightly development builds for Fedora are available via the
-link:https://copr.fedoraproject.org/coprs/@kicad/kicad/[copr build
+link:https://copr.fedorainfracloud.org/coprs/g/kicad/kicad/[copr build
 service].
 
 This build can be installed on Fedora with:
