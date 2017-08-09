@@ -1,0 +1,61 @@
++++
+title = "KiCad 4.0.7 Stable Release"
+date = "2017-08-09"
+draft = false
++++
+
+The KiCad project is proud to announce the latest stable release of KiCad.
+The 4.0.7 stable version contains critical bug fixes and other minor
+improvements since the last release.
+
+The stable release version 4.0.7 is made from the
+link:https://code.launchpad.net/~kicad-product-committers/kicad/+git/product-git/+ref/4.0[stable 4.0]
+branch with bug fixes cherry picked from the
+link:https://code.launchpad.net/~kicad-product-committers/kicad/+git/product-git/+ref/master[development branch]
+of KiCad.
+
+KiCad binaries are available or will be available in the near future for
+download for Windows, OSX and Linux, see the
+link:http://kicad-pcb.org/download/[download page] for guidance.
+
+Instructions for packagers can be found on
+http://kicad-pcb.org/download/source/[the download page describing how to build
+from source] and its subpages.
+
+Thank you to all developers, packagers, librarians, document writers,
+translators, and everyone else who helped make this release possible.
+
+=== Changes
+
+==== Changes related to a reported bug:
+
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=63569551a4cc77d02bbc1c3bef347987f6fcf608[Fix broken links and add correct links to about dialog.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=82d7a4e61e8ffd2a2fb421f892fdc27b3ad9eb26[Eeschema: highlight the first choice in rescue dialog.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=fc527f3cc108502211f8dc10c90253b3c3ca4454[Eeschema: fix zone properties dialog level setting tooltip.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=3ae069ed4f01fe75e94024052782504cf07d9678[Pcbnew: fix segfault when appending a board in GAL mode.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=593136aca373abab775277a6f227e2fb390ff681[Remove some useless or incorrect asserts in plot functions.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=6a9f38ecc4ccc234f93ed5be090a0e578965d289[Pcbnew: continue loading footprints after first failure.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=4e8a35cb842a4fcbfb7d9fdc3c62f8e31d44f4d4[Eeschema: don't apply last line width to text thickness in symbol library editor.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=bfacf023608dfe192900576a60b204f63cffffd8[Pcbnew: add option to plot DXF lines in outline mode.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=a374f46b5e357ca09ab0f0627054320e03ad65b4[Pcbnew: add option to plot DXF editable text.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=133cb01f7907914d91872e4100caa75a708d40b0[Pcbnew: fix crash when dragging a track.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=133cb01f7907914d91872e4100caa75a708d40b0[Fix crash when dragging a track.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=aba04c6ec51582f9f54b1afc9ea672e67021e40f[Remove leading/trailing white space error message from field validator.]
+
+==== Changes without a bug report:
+
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=3b7aa48d16a2cd3567afff4dd16b4defdd467131[Pcbnew: fix bug loading board files written when layers could have numeric names.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=7a5e6324554f3391e0d011ddbbd7555c21c2be69[Pcbnew: prevent segfault when outline has no vertices reading P-CAD file.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=1754b42ba3d6568ac886585d613bda5ec72519bb[Pcbnew: fix tooltip error in copper zones dialog.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=58f90b3adb827a13ddad1698dfdda2f822afe360[Eeschema: move BOM scripts so they are installed correctly.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=58f90b3adb827a13ddad1698dfdda2f822afe360[Eeschema: move BOM scripts so they are installed correctly.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=a7223a95b9e7f2d089b3cc0d170b3b60e2a48d33[Apply changes from master to GOST page layouts.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=5a67fc99d35e92181a2ed3ac4ce62d0e2ceca8ef[Save text thickness in worksheet editor.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=683da9acd1f64af8d47bea2077a64a8b4f2d4c1f[Fix default line widths for non-mm units in DXF import.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=17c8198c057e99cccd94dfd43e770056305c3159[Better error messages when throwing an I/O error or parse error.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=c0fab4b3507249f5c8e5aa9edf5099dd1f1a1e9b[Cvpcb: fix incorrect assignments when using .equ files and automatic association.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=464175e9958ae1766a6b90ebb629f2aa75fc0296[Fix possible crash and issues when a incorrect fp lib table is loaded.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=17f79213116b6c162dca2a7fd02cc440353daecb[Fix crash when writing zip archive file to folder that is not writeable.]
+* https://git.launchpad.net/kicad/commit/?h=4.0&id=be070d95bef67c674c13f593fd0be8035ed568e5[Fix issues in plot functions when used from python scripts.]
+
+The KiCad development team hopes you enjoy this latest stable release of KiCad.
