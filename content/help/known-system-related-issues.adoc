@@ -29,6 +29,11 @@ The problem manifests in eeschema  with slow zooming, and the graphics
 are not quite exact (try looking at the grid dots). And in pcbnew, the
 canvas does not really draw properly at all.
 
+On newer fedora builds they ship a wxwidgets compatability package, it
+is called wxGTK in contrast to wxGTK3 which uses GTK3. The same
+applies for archlinux, there you need the package wxgtk2. The packages
+can coexist.
+
 
 === Bad Graphics Cards
 
