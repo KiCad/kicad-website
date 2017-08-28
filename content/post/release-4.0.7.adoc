@@ -1,12 +1,13 @@
 +++
 title = "KiCad 4.0.7 Stable Release"
-date = "2017-08-09"
+date = "2017-08-28"
 draft = false
 +++
 
 The KiCad project is proud to announce the latest stable release of KiCad.
 The 4.0.7 stable version contains critical bug fixes and other minor
-improvements since the last release.
+improvements since the last release.  It also includes improved footprint,
+symbol, and 3D model libraries, translations, and documentation.
 
 The stable release version 4.0.7 is made from the
 link:https://code.launchpad.net/~kicad-product-committers/kicad/+git/product-git/+ref/4.0[stable 4.0]
