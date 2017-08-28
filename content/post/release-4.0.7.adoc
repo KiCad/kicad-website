@@ -49,7 +49,6 @@ translators, and everyone else who helped make this release possible.
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=7a5e6324554f3391e0d011ddbbd7555c21c2be69[Pcbnew: prevent segfault when outline has no vertices reading P-CAD file.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=1754b42ba3d6568ac886585d613bda5ec72519bb[Pcbnew: fix tooltip error in copper zones dialog.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=58f90b3adb827a13ddad1698dfdda2f822afe360[Eeschema: move BOM scripts so they are installed correctly.]
-* https://git.launchpad.net/kicad/commit/?h=4.0&id=58f90b3adb827a13ddad1698dfdda2f822afe360[Eeschema: move BOM scripts so they are installed correctly.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=a7223a95b9e7f2d089b3cc0d170b3b60e2a48d33[Apply changes from master to GOST page layouts.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=5a67fc99d35e92181a2ed3ac4ce62d0e2ceca8ef[Save text thickness in worksheet editor.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=683da9acd1f64af8d47bea2077a64a8b4f2d4c1f[Fix default line widths for non-mm units in DXF import.]
