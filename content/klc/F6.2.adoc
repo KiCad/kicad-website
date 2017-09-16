@@ -2,3 +2,6 @@
 brief = "Footprint anchor should placed at the location of Pin-1"
 +++
 
+For through hole components the footprint anchor should be placed at the location of pin 1.
+
+{{< klcimg src="F6.2" >}}

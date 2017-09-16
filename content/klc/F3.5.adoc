@@ -1,0 +1,13 @@
++++
+brief = "Keepout Areas"
++++
+
+KiCad does not yet have a method for drawing keepout areas inside footprint files. Until this feature is implemented, footprint keepout areas should be indicated using the following procedure:
+
+1. Keepout area shape should be drawn on the `Dwgs.User` layer
+1. Area should be hatched diagonally
+1. Descriptive text may be included on the `Cmts.User` layer. This text is used to provide further information about keepout requirements to the user.
+
+Example:
+
+{{< klcimg src="F3.5" >}}

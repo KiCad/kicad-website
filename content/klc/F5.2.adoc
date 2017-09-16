@@ -2,5 +2,18 @@
 brief = "Footprint anchor should be placed in the middle of the component body"
 +++
 
-- What is the footprint anchor?
+The footprint anchor (also called _component origin_) is used by automated Pick and Place (PNP) machines for locating and placing SMD components on a PCB.
 
+For most standard components, the anchor should generally be located on the centroid of the component body.
+
+In the KiCad footprint editor, the footprint anchor is _always located at the origin_ (0, 0). To move the footprint relative to the anchor (origin), press the *Place footprint reference anchor* button (refer to image below).
+
+{{< klcimg src="F5.2a" >}}
+
+*Exceptions:*
+
+Some footprints (especially those which are non-symmetrical) require special consideration and the anchor may not necessarily be placed on the component centroid.
+
+Generally speaking, the correct location of the footprint anchor can be found in the component datasheet. The image below shows an example for a *Molex Pico-Lock* connector.
+
+{{< klcimg src="F5.2b" >}}

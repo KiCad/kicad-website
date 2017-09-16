@@ -1,0 +1,18 @@
++++
+brief = "Local clearance and settings should be set to zero"
++++
+
+Pad clearance values are determined using a priority system, which checks the following locations for clearance values, in ascending order of priority. If a particular setting reads as zero (`0`) then it is ignored, and the next location is checked.
+
+1. *Local pad settings* - If an individual pad specifies clearance values, these are used
+1. *Footprint settings* - If clearance values are specified in the *Footprint Properties* window, these are used
+1. *Global settings* - If no values are specified as above, then the global values (as specified in PCB settings dialog) are used.
+
+
+Unless there is a specific reason for setting explicit values for local clearance values for pads or pins, they should be left at zero (`0`).
+
+{{< klcimg src="F3.6a" >}}
+
+**Exceptions:**
+
+If the component datasheet calls for specific clearane values for a particular pad (or the entire footprint) then these values should be used as appropriate.

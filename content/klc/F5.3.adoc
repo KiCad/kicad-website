@@ -2,7 +2,30 @@
 brief = "Pad requirements for SMD footprints"
 +++
 
-- Copper
-- Mask
-- Paste
+Surface mount pads have specific requirements for PCB design.
 
+1. By default, pads for SMD footprints should use only the following layers
+.. `F.Cu` - Front copper
+.. `F.Mask` - Front soldermask
+.. `F.Paste` - Front solderpaste (stencil openings)
+
+[start = 2]
+1. Pads with specific stencil aperture design requirements
+
+Some components have specific design requirements for solderpaste (stencil) design. These requirements are often found in the footprint datasheet or an associated technical document.
+
+Most often, custom stencil openings are required for the exposed pads on large IC packages to reduce the amount of solderpaste that is applied during stencil application.
+
+The image below shows an example stencil design found in a footprint datasheet. The superimposed blue square represents the shape of the exposed copper pad. The green squares are the required openings in the stencil.
+
+{{< klcimg src="F5.3a" >}}
+
+Custom stencil openings are accommodated as follows:
+
+  .. Construct copper shape with pad(s) with only copper layers (`F.Cu` and/or `B.Cu`) as appropriate
+  .. Add stencil opening(s) with pad(s) which only use solderpaste layers (`F.Paste` and/or `B.Paste`) as required. These pads _do not have a pad number_.
+
+Result:
+
+{{< klcimg src="F5.3b" >}}
+{{< klcimg src="F5.3c" >}}

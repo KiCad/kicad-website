@@ -1,8 +1,7 @@
 +++
-brief = "Pad requirements for THT footprints"
+brief = "Minimum annular ring width"
 +++
 
-- Copper
-- Mask
-- Paste
+Minimum annular ring width should be at least `0.15mm` (IPC-2221)
 
+  
