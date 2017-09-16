@@ -1,7 +1,5 @@
 +++
-brief = "Each library is limited to 250 items"
+brief = "Library size should be limited to 500 items"
 +++
 
-Libraries with more than 250 items can result in long library loading times. Additionally, such broad categorization of components means that it can be hard to locate a particular component in the libraries.
-
-A library size limit of `250` items ensures that libraries are quick to load and components are easy to locate. If a given library exceeds `250` components, it should be split and further subcategorized according to component functionality.
+Libraries with more than 500 items
