@@ -7,6 +7,26 @@
 		<div class="col-lg-8 col-lg-offset-2 {{ if .Scratch.Get "sidemenu" }}col-md-10 col-sm-9{{ else }}col-sm-12{{ end }}">
 			{{ partial "breadcrumb.html" . }}
 
+			<h2>KiCad Library Convention</h2>
+
+		<p>
+			The KiCad Library Convention (KLC) is a set of requirements for contributing to the KiCad official libraries. Users wishing to sumbit or update library files should be familiar with these guidelines.
+		</p>
+		<p>
+			The KLC are a set of _guidelines_, rather than _rules_. Electronic component libraries are diverse and complex, and exceptions can be made at the discretion of the library team.
+		</p>
+			<ul>
+			<li>
+			Where the KLC deviates from a particular datasheet or manufacturer recommendation, the datasheet _should take preference_ unless there is a good reason not to do so (which will be clarified by a librarian)
+		</li><li>
+			Where the KLC is unclear, users should attempt to match the convention of existing library components, or seek further clarification
+		</li></ul>
+
+		<p>
+			Refer to the <a href="/libraries/faq">FAQ</a> and <a href="/contribute/libraries">contribution guidelines</a> for introductory information on contributing to the KiCad Libraries.
+		</p>
+
+			<hr>
 			<h2>General Library Guidelines</h2>
 
 			The following guidlines apply to all library elements.
@@ -68,6 +88,22 @@
 
 			<h3>M1 - </h3>
 			{{ partial "klc_rule_list" (dict "scope" . "filter" "M1.") }}
+
+
+			<hr>
+			<h2>KLC Helper Scripts</h2>
+
+		<p>
+			The KiCad library team, with help from the KiCad community, have developed a set of <a href="https://github.com/kicad/kicad-library-utils">Python scripts</a> which can be used to help determine if a library element conforms to the KLC.
+		</p>
+
+		<p>
+			When a <a href="https://help.github.com/articles/creating-a-pull-request/">pull request</a> is made to the KiCad libraries, the contributed files are automatically checked using these scripts. It can be very helpful to run these scripts on your local machine before submitting a PR, as it will help speed up the process of merging your contribution(s) into the library.
+		</p>
+
+		<p>
+			<i>Note: While many of the KLC guidelines are checked by these scripts, there are some which are not covered. Additionally, any PR requires manual checking by a member of the KiCad library team</i>
+		</p>
 
 		</div>
 	</div>
