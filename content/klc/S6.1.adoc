@@ -2,4 +2,40 @@
 brief = "Component Reference Designator (RefDes)"
 +++
 
-1. RefDes is selected appropriately for the symbol
+The symbol Reference Designator should be filled out appropriately for the particular _type_ of symbol.
+
+The table below provides some examples of appropriate RefDes values.
+
+|======
+| RefDes | Component type |
+| A | Sub-assembly or plug-in module |
+| BT | Battery |
+| C | Capacitor |
+| D | Diode |
+| DS | Display |
+| F | Fuse |
+| FB | Ferrite bead |
+| FD | Fiducial |
+| FL | Filter |
+| H | Hardware (mounting screws, etc) |
+| J | Jack, fixed part of a connector pair |
+| JP | Jumper / link |
+| K | Relay |
+| L | Inductor, coil, ferrite bead |
+| LS | Loudspeaker or buzzer |
+| M | Motor |
+| MK | Microphone |
+| P | Plug, movable part of a connector pair |
+| Q | Transistor |
+| R | Resistor |
+| RN | Resistor network |
+| RT | Thermistor |
+| RV | Varistor |
+| SW | Switch |
+| T | Transformer |
+| TC | Thermocouple |
+| TP | Test point |
+| U | Integrated circuit (IC) |
+| Y | Crystal / oscillator |
+| Z | Zener diode |
+|======

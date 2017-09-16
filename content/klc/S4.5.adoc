@@ -1,3 +1,6 @@
 +++
-brief = "Pin electrical type"
+brief = "Omit pins not connected on footprint"
 +++
+
+Often a component has pins that are not physically connected, and can be omitted from the schematic.
+

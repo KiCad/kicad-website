@@ -2,4 +2,21 @@
 brief = "Pin stacking"
 +++
 
-This is the pin stacking rule
+Many symbols have corresponding footprints where multiple physical pins are conneceted to a single logical net. It is desirable that in such cases the user only has to connect a single pin in the schematic, and it will automatically route to all the physical pins on the PCB.
+
+KiCad currently has no native method for designating that a particular symbol pin maps to multiple footprint pins. The following guide serves as a workaround for designing such symbols.
+
+In the schematic view, pins that share the same position are considered to be _connected_ by the KiCad routing algorithm. Thus, pins can only be placed in the same location under a very specific set of circumstances:
+
+1. Pins must *not* be of type `No Connect` (these pins should never be connected together)
+1. Pins are logically connected in the symbol
+1. Pins must have the same name
+1. Pins must have the same electrical type
+1. One pin in the stack must be _visible_ (all other pins set to _invisible_)
+
+**Special Case:** Pins of electrical type [`Output`, `Power Output`, `Power Input`] are special cases. Connecting these pins together causes ERC (electrical rule check) errors and must be avoided.
+
+For pin stacks using these pin types:
+[start=6]
+1. Visible pin must be set to correct electrical type
+1. All invisible pins must have electrical type set to `Passive`
