@@ -35,6 +35,8 @@ before you start.
 When creating/editing/fixing a symbol or footprint a set of conventions should be followed. They are the link:/klc[KiCad Library Convention],
 or KLC for short. It is important the users are familiar with the KLC before making a contribution.
 
+The KiCad librarian team have also developed a set of link:https://github.com/kicad/kicad-library-utils[helper scripts] written in Python which users can use to check their contributions against KLC guidelines before submitting.
+
 == Scripting Tools
 
 EDA library elements can be highly repetitive, and can benefit greatly from scripting tools. In fact, many of the components in the KiCad libraries have been scripted using tools developed by the KiCad community.
