@@ -2,8 +2,13 @@
 brief = "Power Flag Symbols"
 +++
 
-Power flag symbols are special symbols in KiCad, used to designate global nets.
+Power flag symbols are special symbols in KiCad, used to designate global nets. These symbols use a special RefDes value to indicate that they must be considered as global power flags
 
 1. Reference Designator must be set to `#PWR`
-1. Power flag symbols must contain exactly one pin, which is set to *invisible*, and the electrical pin type must be set to `Power Input`
+1. Power flag symbols must contain exactly one pin, which is set to *invisible*
+1. Electrical pin type must be set to `Power Input`
 1. Pin name must match the symbol name
+
+The example image below demonstrates the requirements as listed above:
+
+{{< klcimg src="S7.1_a" >}}
