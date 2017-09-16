@@ -1,4 +1,13 @@
 +++
-brief = "Text"
-draft = false
+brief = "Text fields"
 +++
+
+All text items should use text size of `50mil` (`1.27mm`)
+
+* Pin names
+* Pin numbers
+* Value field
+* Reference field
+* Footprint field
+* Datasheet field
+* Any custom fields

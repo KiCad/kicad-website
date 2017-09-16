@@ -1,0 +1,18 @@
++++
+brief = "Pins should be grouped by function"
++++
+
+Pins should be grouped by similar function, rather than by their physical location on the associated footprint.
+
+1. Pins with *similar functions* should be grouped together:
+  * `SPI_MISO`, `SPI_MOSI`, `SPI_CS` `SPI_CS`
+  * `UART_TX`, `UART_RX`
+1. *Ports* should be ordered from top to bottom
+1. *Positive power* pins should be placed at the _top_ of a symbol
+  * `Vcc`, `Vdd`, `Vin`, `V+`, etc
+1. *Negative power* and *ground* pins should be placed at the _bottom_ of a symbol
+  * `GND`, `Vss`, `V-`, etc
+1. *Input/Control/Logic* pins shold be placed on the _left_ of a symbol
+  * `UART Tx/Rx`
+1. *Output/Controlled/Driver* pins should be placed on the _right_ of a symbol
+  * `RS232 Tx/Rx`
