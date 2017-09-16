@@ -1,0 +1,6 @@
++++
+brief = "Footprint anchor should be placed in the middle of the component body"
++++
+
+- What is the footprint anchor?
+

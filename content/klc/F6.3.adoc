@@ -1,0 +1,5 @@
++++
+brief = "Pin 1 should be rectangular, and other pads circular or oval"
++++
+
+Exception: Non polarized parts (e.g. THT resistors)

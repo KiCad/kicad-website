@@ -2,8 +2,19 @@
 brief = "Footprint libraries should be categorized by function"
 +++
 
-1. Function
-1. Sub-function
-1. Tertiary qualifier
-1. Manufacturer
-1. Extra options
+Footprints should be grouped into libraries (directories with `.pretty` extension) based on their primary function. As an extension of this, footprint libraries should be named based on this same functionality.
+
+Library names should be defined based on the priority list below, with each element separated by the underscore (`_`) character:
+
+1. Function (e.g. `Conn`, `Capacitor`)
+1. Sub-function (e.g. `HDMI`, `USB`)
+1. Tertiary qualifier (e.g. `RightAngle`, `SMD`)
+1. Manufacturer (e.g. `TEXAS`, `MICROCHIP`)
+1. Device series name (e.g. `MicroFit`)
+1. Extra options (e.g. `Deprecated`)
+
+Example library names:
+
+* `Conn_USB_SMD` - Surface mount USB connectors
+* `Conn_Rect_MOLEX_MicroFit` - Molex MicroFit series rectangular connectors
+* `Capacitor_Tantalum_SMD` - Surface mount Tantalum capacitors

@@ -1,0 +1,6 @@
++++
+brief = "Footprint placement type must be set to Through Hole"
++++
+
+The *Footprint placement type* must be set to `Through Hole` for THT footprints.
+

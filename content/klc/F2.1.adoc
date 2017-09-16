@@ -1,0 +1,45 @@
++++
+brief = "Footprint naming conventions"
++++
+
+Each footprint is a `.kicad_mod` file (stored within a `.pretty` directory). The naming convention for a given footprint depends on the _type_ of footprint, however a general guide is presented below:
+
+1. Library naming should not be unnecessarily duplicated in footprint name
+1. If the footprint is specific to a particular manufacturer, the manufacturer name should be prefixed to the footprint name
+1. Specific package type is written first, e.g.
+  * `QFN` - Quad Flat No-Lead package
+  * `C` - Capacitor
+1. Package name and number of pins are separated by a hyphen
+1. Package dimensions are specified as `width`x`height`, and are in `mm` units unless explicity specified otherwise:
+  * `3.5x0.2` - 3.5mm x 0.2mm
+  * `1x1in` - 1inch x 1inch
+1. Pitch is specified in `mm` with a leading `P`:
+  * `P1.27` - 1.27mm pitch
+  * `P5.0` - 5.0mm pitch
+1. Orientation
+1. Modification
+
+== Specific Naming Conventions
+
+refer to https://github.com/KiCad/kicad-library/issues/1447
+
+As footprint naming varies and is complicated...
+
+=== Chip Components (R / C / ... )
+
+=== Standard IC Packages
+
+
+=== Gull Wing Packages (SOIC / SOP / QFP / ... )
+
+=== J-Lead Packages (SOJ / PLCC / ... )
+
+=== No-Lead Packages (DFN / QFN / ... )
+
+=== Ball Grid Packages (BGA / LGA / ... )
+
+=== Through Hole Packages (DIP / ... )
+
+=== Connectors
+
+=== Transformers

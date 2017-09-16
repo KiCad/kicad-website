@@ -1,0 +1,8 @@
++++
+brief = "Pad requirements for SMD footprints"
++++
+
+- Copper
+- Mask
+- Paste
+
