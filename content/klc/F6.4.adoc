@@ -1,0 +1,12 @@
++++
+brief = "Pad requirements for THT footprints"
++++
+
+Through hole pads must have soldermask pulled back to allow soldering. However they must not have solderpaste openings as they do not receive solder paste during stencil screening.
+
+1. Pads for THT footprints shuold have the following layers set:
+.. All copper layers
+.. `F.Mask` (front mask)
+.. `B.Mask` (back mask)
+
+{{< klcimg src="F6.4a" >}}

@@ -1,5 +1,4 @@
 +++
-brief = "Keepout Areas"
+brief = "Thermal Pads"
 +++
 
-As the good man said

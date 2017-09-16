@@ -2,4 +2,12 @@
 brief = "Pin 1 should be rectangular, and other pads circular or oval"
 +++
 
-Exception: Non polarized parts (e.g. THT resistors)
+Through hole components should set the shape of Pin 1 to `Rectangular`, and all other pads to either `Circular` or `Oval`. This aids in orienting the component during placement and also for locating Pin 1 for circuit troubleshooting.
+
+Pad shape can be adjusted in the *Pad Properties* dialog:
+
+{{< klcimg src="F6.3a" >}}
+
+**Exception:**
+
+Non polarized parts (such as THT resistors) should not set the shape of Pin 1 to Rectangular. For these (non polarized) footprints, all pad shapes should be consistent.

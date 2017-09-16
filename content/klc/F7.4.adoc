@@ -1,8 +1,0 @@
-+++
-brief = "Footprint 3D model"
-+++
-
-As the good man said
-
-1. Alignment and rotation
-1. Scaling 1:1:1

@@ -1,5 +1,8 @@
 +++
-brief = "Footprint properties"
+brief = "Footprint 3D model"
 +++
 
-Clearance values, move/place, etc
+As the good man said
+
+1. Alignment and rotation
+1. Scaling 1:1:1

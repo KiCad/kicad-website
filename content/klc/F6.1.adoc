@@ -2,5 +2,8 @@
 brief = "Footprint placement type must be set to Through Hole"
 +++
 
-The *Footprint placement type* must be set to `Through Hole` for THT footprints.
+The footprint *placement type* must be set to `Through Hole` for THT footprints. This ensures that these footprints are not included in the Pick and Place (PNP) location files.
 
+This can be selected in the *Footprint Properties* window
+
+{{< klcimg src="F6.1" >}}

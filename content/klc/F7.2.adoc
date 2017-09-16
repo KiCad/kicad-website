@@ -1,0 +1,18 @@
++++
+brief = "Footprint properties should be left to default values unless otherwise required in datasheet"
++++
+
+Footprint properties should be left as default, unless there is a reason to do so as specified by the footprint datasheet (for example).
+
+1. *Move and Place* should be set to `Free`
+1. *Auto Place* should be set to `0`, `0`
+1. *Local Clearance Values* should all be set to `0`
+
+{{< klcimg src="F7.2a" >}}
+
+**Exceptions:**
+
+The *Local Clearance Values* parameters are generally set to `0`, indicating that the global clearance values will be used to determine pad clearances.
+
+If _all_ the pads on the particular footprint require a specific clearance value (for e.g. as described by the datasheet) then these values can be used here to override pad-specific settings for the entire footprint.
+
