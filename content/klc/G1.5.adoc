@@ -1,5 +1,9 @@
 +++
-brief = "Manufacturer names should be capitalized"
+brief = "Plural naming should be avoided"
 +++
 
-To avoid confusion of different manufacturers names, all manufacture names should be capitalized.
+In general, plural naming (e.g. for libraries) should be avoided, as pluralisation of some words is inconsistent. Non pluralized names should be used in preference:
+
+* `sensor_temperature` instead of `sensors_temperature`
+* `memory_flash` instead of `memories_flash`
+

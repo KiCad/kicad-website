@@ -1,5 +1,12 @@
 +++
-brief = "Manufacturer names should be capitalized"
+brief = "English language should be used throughout libraries"
 +++
 
-To avoid confusion of different manufacturers names, all manufacture names should be capitalized.
+KiCad software is used by people who speak many different languages. The KiCad software provides translations for these languages, but _the library files do not provide translations_.
+
+Library files should be written using English, excepting where specific component names are non-English (for non-English manufacturers).
+
+Where potential differences in spelling and grammar exist, American English should be given preference.
+
+* `Color` instead of `Colour`
+

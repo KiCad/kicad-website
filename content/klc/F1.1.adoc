@@ -9,12 +9,14 @@ Library names should be defined based on the priority list below, with each elem
 1. Function (e.g. `Conn`, `Capacitor`)
 1. Sub-function (e.g. `HDMI`, `USB`)
 1. Tertiary qualifier (e.g. `RightAngle`, `SMD`)
-1. Manufacturer (e.g. `TEXAS`, `MICROCHIP`)
-1. Device series name (e.g. `MicroFit`)
-1. Extra options (e.g. `Deprecated`)
+1. Manufacturer name (e.g. `Texas`, `Microchip`)
+1. Footprint series name (e.g. `MicroFit`)
+1. Extra library descriptors (e.g. `deprecated`)
 
-Example library names:
+_Note: Some of the elements listed above may be omitted if not required._
 
-* `Conn_USB_SMD` - Surface mount USB connectors
-* `Conn_Rect_MOLEX_MicroFit` - Molex MicroFit series rectangular connectors
-* `Capacitor_Tantalum_SMD` - Surface mount Tantalum capacitors
+Example footprint library names:
+
+* `conn_USB_SMD` - Surface mount USB connectors
+* `conn_rect_MOLEX_MicroFit` - Molex MicroFit series rectangular connectors
+* `capacitor_tantalum_SMD` - Surface mount Tantalum capacitors

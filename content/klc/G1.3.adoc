@@ -2,4 +2,21 @@
 brief = "Libraries should be organized by functionality"
 +++
 
-Rather than grouping components (e.g. symbols, footprints) by their manufacturer, KiCad libraries are organized by component functionality.
+Rather than grouping components (e.g. symbols, footprints) by their manufacturer, KiCad libraries are organized by component functionality. This grouping strategy has a number of key benefits:
+
+* Similar components are grouped together, allowing alternative parts to be easily substituted
+* Symbol _aliases_ for pin-identical symbols can be used to reduce library size
+* Generic parts which are produced by multiple manufacturers are supported
+
+Library organization should follow the general form as described below, with each element separated by the underscore (`_`) character:
+
+1. Library function
+1. Library sub-function
+1. Tertiary qualifier
+1. Manufacturer name
+1. Component series name
+1. Extra library descriptorsS
+
+_Note: Some of the elements listed above may be omitted if not required._
+
+For specific examples, refer to the guidelines for organizing link:/klc/S1.1[symbol libraries] and link:/klc/F1.1[footprint libraries].
