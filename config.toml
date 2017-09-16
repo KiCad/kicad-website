@@ -22,7 +22,7 @@ pluralizelisttitles = false
   title = "google-plus"
   url = "https://plus.google.com/111133613917552048578"
 
-  
+
 [[menu.main]]
     name   = "Blog"
     url    = "/post/"
@@ -47,7 +47,7 @@ pluralizelisttitles = false
 [[menu.main]]
     name   = "Community"
     weight = 10
-	
+
 [[menu.main]]
     parent = "Community"
     name   = "Forums"
