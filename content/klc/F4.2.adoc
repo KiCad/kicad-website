@@ -2,8 +2,27 @@
 brief = "Fabrication layer requirements"
 +++
 
-1. Component value
-.. Text size = `1.00mm`
+The fabrication layers are used to display the simplified mechanical outline of components on the PCB.
+
+KiCad refers to the fabrication layers as:
+
+* `F.Fab` - Front fabrication layer
+* `B.Fab` - Back fabrication layer
+
+The following elements should be provided on the fabrication layer(s)
+
+1. Simplified component outline should be provided on `F.Fab` layer
+.. Outline uses line width between {`0.10mm` and `0.15mm`} (recommended `0.10mm`)
+.. Outline should be simplified and not display complex features
+1. Location of pin-1 is drawn
+1. Component value (footprint name) should be displayed on the `F.Fab` layer
+.. Text size = `1.0mm`
 .. Text thickness = `0.15mm`
-1. Simplified component outline
-1. Reference designator
+1. A second copy of the reference designator (RefDes) should be provided on the `F.Fab` layer. To add a second RefDes item, add a text object with the value `%R`
+.. RefDes should be centered on component body (inside component outline)
+.. Orientation of RefDes should match major component axis
+.. Size of text should be scaled to match component size
+.. Recommended text size = `1.00mm`
+.. Allowable text size = {`0.1mm` to `2.0mm`}
+.. Allowable text thickness = {`0.01mm` to `0.20mm`} (should be approximately `15%` of text size, with allowances for variation for aesthetic reasons)
+
