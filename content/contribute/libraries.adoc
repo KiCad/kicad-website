@@ -1,0 +1,75 @@
++++
+title = "Libraries"
+categories = [ "Contribute" ]
+[menu.main]
+    parent = "Contribute"
+    name   = "Libraries"
++++
+:toc: macro
+:toc-title:
+
+toc::[]
+
+== Introduction
+
+KiCad provides a set of community supported libraries for:
+
+* https://github.com/kicad/symbols[Schematic symbols]
+* https://github.com/kicad/footprints[PCB footprints]
+* https://github.com/kicad/models3d[3D Models]
+* https://github.com/kicad/templates[Project templates]
+
+The KiCad libraries are organized in repositories at the https://github.com/KiCad/[KiCad] organization on GitHub. User contributions to these libraries are greatly appreciated, whether it is improving existing components or creating new ones.
+
+== How to contribute
+
+To contribute to the KiCad libraries, submit a pull request on GitHub for
+the relevant repository.
+
+If you are new to GitHub, please check out this guide
+https://guides.github.com/activities/contributing-to-open-source[Contributing to Open Source on GitHub]
+before you start.
+
+== KLC
+
+When creating/editing/fixing a symbol or footprint a set of conventions should be followed. They are the link:/klc[KiCad Library Convention],
+or KLC for short. It is important the users are familiar with the KLC before making a contribution.
+
+== Scripting Tools
+
+EDA library elements can be highly repetitive, and can benefit greatly from scripting tools. In fact, many of the components in the KiCad libraries have been scripted using tools developed by the KiCad community.
+
+=== Footprint Creation Scripts
+
+link:https://github.com/pointhi/kicad-footprint-generator[kicad-footprint-generator] is a very comprehensive footprint generation tool written in Python. The script toolset contains comprehensive examples and a large array of scripts used to generate many footprints that can be found in the KiCad libraries.
+
+=== Parameteric 3D Model Generation
+
+link:https://github.com/easyw/kicad-3d-models-in-freecad[kicad-3d-models-in-freecad] is a scripting toolset which allows 3D models to be generated parametrically using Python. It uses the CadQuery module from within FreeCAD (both of which are required to use the scripts).
+
+=== Repositories
+
+* Schematic symbols (Eeschema) and 3D Models (3DViewer): link:https://github.com/KiCad/kicad-library[kicad-library]
+
+* PCB footprints (PcbNew): link:https://github.com/KiCad?utf8=%E2%9C%93&query=.pretty[.pretty repos on GitHub]
+
+== Making a Pull Request
+
+Contributing to the KiCad libraries relies on a working knowledge of the Git version control software. It is suggested that users familiarise themselves with Git using an online tutorial.
+
+The process required to submit a pull request (PR) is link:/libraries/pull_request[outlined here].
+
+== Become a librarian
+
+If the 'pull request' world is too small for you, feel invited to join the librarians
+team. Contact the librarians team leader by sending an email to the mailing list telling
+about your interest to join us.
+
+Currently KiCad librarians team counts with just a few people against a lot of pull requests
+and work to do, having your help would be very appreciated.
+
+== Contacting librarians
+
+If you have any doubt or suggestion, please consider joining the
+link:https://launchpad.net/~kicad-lib-committers[KiCad library mailing list], or
+try to reach a librarian via IRC at irc://irc.freenode.net/#kicad[#kicad@freenode].
