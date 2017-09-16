@@ -1,0 +1,9 @@
++++
+layout: klc
+brief: "Courtyard layer requirements"
++++
+
+1. Footprint courtyard (outline)
+1. `0.05mm` line width
+1. `0.01mm` grid
+1. Clearance

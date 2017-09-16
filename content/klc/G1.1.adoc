@@ -1,0 +1,4 @@
++++
+brief = "Only standard characters are used"
++++
+

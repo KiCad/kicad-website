@@ -1,0 +1,5 @@
++++
+brief = "Pin stacking"
++++
+
+This is the pin stacking rule

@@ -1,0 +1,5 @@
++++
+brief = "Component metadata"
++++
+
+1. RefDes is selected appropriately for the symbol

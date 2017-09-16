@@ -1,0 +1,14 @@
++++
+brief = "Pin requirements"
++++
+
+1. Using a `100mil` (`2.54mm`) grid, pin origin must lie on grid node (IEC-60617)
+
+1. Pins should have a length of at least `100mil` (`2.54mm`)
+
+1. Pin length should not exceed `300mil` (`7.62m`)
+
+1. Pin length can be increment in steps of `50mil` (`1.27mm`) as required, whilst meeting the absolute length limits as specified above
+
+1. Shorter pins may be allowed to accommodate simple symbols for discrete devices such as resistors, capacitors, etc
+

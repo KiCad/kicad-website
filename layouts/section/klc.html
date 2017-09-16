@@ -1,0 +1,77 @@
+{{ partial "header.html" . }}
+
+{{ .Scratch.Set "sidemenu" true }}
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 {{ if .Scratch.Get "sidemenu" }}col-md-10 col-sm-9{{ else }}col-sm-12{{ end }}">
+			{{ partial "breadcrumb.html" . }}
+
+			<h2>General Library Guidelines</h2>
+
+			<h3>G1 - Filenames</h3>
+			{{ partial "klc_rule_list" (dict "scope" . "filter" "G1.") }}
+
+			<h3>G2 - Library Organisation</h3>
+			{{ partial "klc_rule_list" (dict "scope" . "filter" "G2.") }}
+
+			<h2>Symbol Guidelines</h2>
+
+			<h3>S1 - Symbol Libraries</h3>
+			{{ partial "klc_rule_list" (dict "scope" . "filter" "S1.") }}
+
+			<h3>S2 - Symbol Naming</h3>
+			{{ partial "klc_rule_list" (dict "scope" . "filter" "S2.") }}
+
+			<h3>S3 - General Symbol Requirements</h3>
+			{{ partial "klc_rule_list" (dict "scope" . "filter" "S3.") }}
+
+			<h3>S4 - Pin Requirements</h3>
+			{{ partial "klc_rule_list" (dict "scope" . "filter" "S4.") }}
+
+			<h3>S5 - Footprint Association</h3>
+			{{ partial "klc_rule_list" (dict "scope" . "filter" "S5.") }}
+
+			<h3>S6 - Symbol Metadata</h3>
+			{{ partial "klc_rule_list" (dict "scope" . "filter" "S6.") }}
+
+			<h3>S7 - Special Symbols</h3>
+			{{ partial "klc_rule_list" (dict "scope" . "filter" "S7.") }}
+
+			<h2>
+			<h2>Footprint Guidelines</h2>
+
+			<h3>F1 - Footprint Libraries</h3>
+			{{ partial "klc_rule_list" (dict "scope" . "filter" "F1.") }}
+
+			<h3>F2 - Footprint Naming</h3>
+			{{ partial "klc_rule_list" (dict "scope" . "filter" "F2.") }}
+
+			<h3>F3 - General Footprint Requirements</h3>
+			{{ partial "klc_rule_list" (dict "scope" . "filter" "F3.") }}
+
+			<h3>F4 - Layer Requirements</h3>
+			{{ partial "klc_rule_list" (dict "scope" . "filter" "F4.") }}
+
+			<h3>F5 - Surface Mount Devices</h3>
+			{{ partial "klc_rule_list" (dict "scope" . "filter" "F5.") }}
+
+			<h3>F6 - Through Hole Devices</h3>
+			{{ partial "klc_rule_list" (dict "scope" . "filter" "F6.") }}
+
+			<h3>F7 - Footprint Properties</h3>
+			{{ partial "klc_rule_list" (dict "scope" . "filter" "F7.") }}
+
+			<hr>
+			<h2>3D Model Guidelines</h2>
+
+			<h3>M1 - </h3>
+			{{ partial "klc_rule_list" (dict "scope" . "filter" "M1.") }}
+
+		</div>
+	</div>
+
+	{{ partial "sidebar.html" . }}
+</div>
+
+{{ partial "footer.html" . }}
