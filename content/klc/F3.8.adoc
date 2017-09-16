@@ -1,5 +1,0 @@
-+++
-brief = "Keepout Areas"
-+++
-
-As the good man said
