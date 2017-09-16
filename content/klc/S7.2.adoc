@@ -1,0 +1,6 @@
++++
+brief = "Graphical Symbols"
++++
+
+1. Reference field must be set to `#SYM` and must be *invisible*
+1. No pins or footprint association

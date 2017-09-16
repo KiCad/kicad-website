@@ -1,0 +1,9 @@
++++
+brief = "Symbol visual style"
++++
+
+1. Symbol origin is centered in the middle of the symbol
+
+1. Symbol body has a line width of `10mil` (`0.254mm`)
+
+1. Symbol fill style is set to `Fill background`

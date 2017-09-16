@@ -1,0 +1,17 @@
+{{ $filter := .filter }}
+
+{{/* Iterate through each /content/klc page and display a link,
+     only if the filename matches the supplied filter */}}
+
+{{ range sort .scope.Data.Pages ".File.LogicalName" }}
+
+<ul>
+{{ $rule := (replace .File.LogicalName ".adoc" "" ) }}
+
+{{ if and (hasPrefix .File.LogicalName $filter) (in .File.LogicalName ".adoc") }}
+<li>
+<a href="/klc/{{ $rule }}">{{ $rule }} - {{ .Params.brief }}</a>
+</li>
+{{ end }}
+</ul>
+{{ end }}

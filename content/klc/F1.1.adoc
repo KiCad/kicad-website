@@ -1,0 +1,9 @@
++++
+brief = "Footprint libraries should be categorized by function"
++++
+
+1. Function
+1. Sub-function
+1. Tertiary qualifier
+1. Manufacturer
+1. Extra options

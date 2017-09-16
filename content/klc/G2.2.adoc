@@ -1,0 +1,5 @@
++++
+brief = "Library size should be limited to 500 items"
++++
+
+Libraries with more than 500 items

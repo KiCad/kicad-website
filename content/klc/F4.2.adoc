@@ -1,0 +1,7 @@
++++
+brief = "Fabrication layer requirements"
++++
+
+1. Component value
+1. Simplified component outline
+1. Reference designator

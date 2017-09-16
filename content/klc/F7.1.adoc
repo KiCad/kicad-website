@@ -1,0 +1,5 @@
++++
+brief = "Footprint name must match filename"
++++
+
+The name of the footprint must match the filename

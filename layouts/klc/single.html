@@ -1,0 +1,23 @@
+{{ partial "header.html" .}}
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 {{ if .Scratch.Get "sidemenu" }}col-md-10 col-sm-9{{ else }}col-sm-12{{ end }} post-full">
+      {{ partial "breadcrumb.html" . }}
+      <header>
+      <h2>{{ replace .File.LogicalName ".adoc" "" }}</h2>
+      {{ .Params.brief }}
+      <hr>
+    </header>
+
+      <article>
+        {{ .Content }}
+        <p>
+          <a href="/klc/"><span class="fa fa-arrow-left"></span> Back</a>
+        </p>
+      </article>
+    </div>
+  </div>
+</div>
+
+{{ partial "footer.html" .}}
