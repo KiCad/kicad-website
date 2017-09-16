@@ -1,0 +1,5 @@
++++
+brief = "Minimum hole diameter"
++++
+
+Minimum drilled hole diameter is the maximum lead diameter plue `0.2mm` (IPC-2222 class 2)

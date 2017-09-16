@@ -3,5 +3,7 @@ brief = "Fabrication layer requirements"
 +++
 
 1. Component value
+.. Text size = `1.00mm`
+.. Text thickness = `0.15mm`
 1. Simplified component outline
 1. Reference designator

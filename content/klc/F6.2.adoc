@@ -1,0 +1,4 @@
++++
+brief = "Footprint anchor should placed at the location of Pin-1"
++++
+

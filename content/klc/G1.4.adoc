@@ -1,0 +1,5 @@
++++
+brief = "Manufacturer names should be capitalized"
++++
+
+To avoid confusion of different manufacturers names, all manufacture names should be capitalized.

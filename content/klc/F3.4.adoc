@@ -1,9 +1,5 @@
 +++
-brief = "Connected copper elements have the same pad number"
+brief = "Keepout Areas"
 +++
 
-Footprints that contain multiple pads or conductive elements that are *physically connected* require special attention:
-
-1. Multiple pads that are physically connected must share the same number
-1. Thermal vias (if present) must share the same number as the thermal pad
-1.
+As the good man said

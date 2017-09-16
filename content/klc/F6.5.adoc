@@ -1,0 +1,8 @@
++++
+brief = "Pad requirements for THT footprints"
++++
+
+- Copper
+- Mask
+- Paste
+

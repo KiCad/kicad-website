@@ -2,4 +2,5 @@
 brief = "Footprint placement type must be set to surface mount"
 +++
 
-As the good man said
+The *Footprint placement type* must be set to `Surface mount` for SMD footprints. This is to ensure that these footprints are included in the *Footprint position (.pos)* file output.
+

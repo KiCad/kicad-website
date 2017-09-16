@@ -9,11 +9,18 @@ KiCad refers to the silkscreen layers as:
 * `F.SilkS` - Front silkscreen layer
 * `B.SilkS` - Back silkscreen layer
 
+The following elements should be provided on the silkscreen.
+
 1. Reference Designator should be drawn on `F.SilkS` layer
-  1. Text size = `1.00mm`
-  1. Text thickness = `0.15mm`
+.. Text size = `1.00mm`
+.. Text thickness = `0.15mm`
 1. Silkscreen should not be placed over pads or areas of exposed copper
-1. For SMD footprints, silkscreen must be fully visible after boards assembly (no silkscreen under component)
+  * Clearance between silkscreen and exposed copper elements must be at least `0.2mm` or more than the pad mask expansion (whichever is greater).
+1. For SMD footprints, silkscreen must be fully visible after boards assembly (no silkscreen allowed under component)
 1. For THT components, silkscreen may be placed under component to aid in assembly process
-1. Silkscreen line width is
-1. Pin-1 designator
+1. Silkscreen line width is between {`0.10mm` and `0.15mm`} as per IPC-7351C:
+  * Silkscreen line width should nominally be `0.12mm`
+  * `0.1mm` is allowed for high density designs
+  * `0.15mm` is allowed for low density designs
+1. Pin-1 designator is provided on the `F.SilkS` layer
+1. Pin-1 designator must be visible after board assembly
