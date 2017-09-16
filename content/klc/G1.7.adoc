@@ -1,0 +1,15 @@
++++
+brief = "Library files use Unix style line endings"
++++
+
+Library files should always be commited to GitHub using Unix-style line endings. This means that lines are terminated using the **LF** (line feed) character, rather than the DOS style **CR+LF** line endings.
+
+KiCad library files must be compatible across multiple operating systems, and users should be able to contribute without generating unnecessary _noise_ in the files by constantly changing line endings.
+
+This issue is address by insisting that all KiCad libraries include a link:https://git-scm.com/docs/gitattributes[.gitattributes] file. This file ensures that the line endings are automatically converted by Git.
+
+An example of a simple .gitattributes file which ensures footprint files have correct line endings is as follows:
+
+```
+*.kicad_mod text=auto
+```

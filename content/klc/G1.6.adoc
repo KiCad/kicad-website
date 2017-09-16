@@ -1,0 +1,15 @@
++++
+brief = "Text capitalization conventions"
++++
+
+1. Acronyms should be capitalized
+  * `MCU` (microcontroller)
+  * `FPGA` (field programmable gate array)
+1. Manufacturer names should be capitalized according to the manufacturer
+  * `Microchip`
+  * `ROHM`
+  * `Texas`
+1. Library names should be lower-case unless otherwise specified as above
+  * `sensor_temperature`
+  * `memory_flash`
+  * `connector_JST`

@@ -1,4 +1,14 @@
 +++
-brief = "Only standard characters are used"
+brief = "Only standard characters are used for naming libraries and components"
 +++
 
+Filenames, symbol names, footprint names and model names must contain only valid characters, as determined below:
+
+1. Alphanumeric characters (`A-Z`, `a-z`, `0-9`)
+1. Underscore `_`
+1. Hyphen / dash `-`
+1. Period / dot `.`
+
+This character set ensures that symbols will be compatible with all filesytems, and will not cause any issues due to character rendering.
+
+Further, filenames and symbol names should **not use the space character**. This can cause issues with string escaping and is best avoided.

@@ -15,4 +15,4 @@ Unless there is a specific reason for setting explicit values for local clearanc
 
 **Exceptions:**
 
-If the component datasheet calls for specific clearane values for a particular pad (or the entire footprint) then these values should be used as appropriate.
+If the component datasheet calls for specific clearance values for a particular pad (or the entire footprint) then these values should be used as appropriate.
