@@ -1,0 +1,35 @@
+{{ $.Scratch.Add "additional_head_tags" "<link href=\"/fonts/font-linux.css\" rel=\"stylesheet\">" }}
+{{ partial "header.html" . }}
+
+<div class="container">
+  <div class="row">
+
+    <h1>{{ .Title }}</h1>
+
+    Currently schematic symbols are grouped in libraries which are sets of two
+    files, one named with *.lib* extension and another with *.dcm*. Libraries are
+    generally named in such a way that it describes the symbols it stores, in other words, by
+    category. KiCad Library Editor should be used to edit symbols, however, alternatively,
+    files can be edited using a text editor because they are human readable. The libraries
+    can be found at https://github.com/KiCad/kicad-library[kicad-library] repository.
+
+    On the other hand, footprints are placed in multiple repositories which have their names
+    suffixed with *.pretty*. Similarly to symbol libraries, repository names
+    indicate the footprints category. Inside the repository, each footprint has its
+    own file whose name ends up with *.kicad_mod* extension. Like symbol library files,
+    *.kicad_mod* files are human readable and can be edited manually, nevertheless it is
+    recommended to use PCB footprint editor to edit/re-save files.
+
+<h2>KLC</h2>
+<a href="/klc">KLC</a>
+
+<h2>FAQ</h2>
+<a href="/libraries/faq">FAQ</a>
+
+<h2>Contributing</h2>
+<a href="/contribute/libraries">Contributing<a/>
+
+  </div>
+</div>
+
+{{ partial "footer.html" . }}
