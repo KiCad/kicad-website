@@ -8,6 +8,8 @@ title = "KiCad Libraries"
 
 A high quality set of EDA libraries is important to any KiCad user, from hobbyists to industry professionals. KiCad provides a set of link:/libraries/[open source, community contributed libraries].
 
+To ensure the libraries conform to a high standard, contributions to the KiCad libraries are checked against the link:/klc/[KiCad Library Convention (KLC)].
+
 == Library File Formats
 
 Most KiCad libraries use link:/help/file-formats[human-readable ASCII files].
@@ -23,6 +25,12 @@ A footprint library is a *directory* which has the `.pretty` extension. Each foo
 === 3D Model Libraries
 
 A 3D model library is a *directory* which has the `.3dshapes` extension. Each 3D model library contains model files with various extensions.
+
+=== Template Libraries
+
+```
+TODO - What is a template library?
+```
 
 == Installing Libraries
 

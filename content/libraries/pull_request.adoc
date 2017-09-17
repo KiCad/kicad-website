@@ -2,7 +2,7 @@
 title = "Making a Pull Request"
 +++
 
-The KiCad libraries are hosted on https://github.com/kicad[GitHub] - users can submit their contributions using the *Pull Request** mechanism. Instructions for submitting a pull request are provided below.
+The KiCad libraries are hosted on https://github.com/kicad[GitHub] - users can submit their contributions using the *Pull Request* mechanism. Instructions for submitting a pull request are provided below.
 
 1. If you do not have one, create an account on https://github.com/join[GitHub]
 1. link:https://help.github.com/articles/fork-a-repo[**Fork**] the repository you wish to contribue to
