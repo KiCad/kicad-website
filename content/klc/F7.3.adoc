@@ -1,5 +1,0 @@
-+++
-brief = "Footprint properties"
-+++
-
-Clearance values, move/place, etc
