@@ -1,0 +1,3 @@
++++
+brief = "Symbols with complex functionality may incorporate simple functional diagrams"
++++

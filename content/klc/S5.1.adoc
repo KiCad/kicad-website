@@ -1,3 +1,6 @@
 +++
-brief = "Default footprint must be set to valid footprint"
+brief = "Symbols with a default footprint link to a valid footprint file"
 +++
+
+1. For _atomic_ symbols (those with an associated default footprint), the *Footprint* field must be filled with a valid entry of the format `<footprint_library>:<footprint_name>`.
+1. For _generic_ symbols (those which map to multiple possible footprints), the *Footprint* field must be left blank.

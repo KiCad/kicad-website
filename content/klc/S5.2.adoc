@@ -1,3 +1,18 @@
 +++
 brief = "Footprint filters should match all appropriate footprints"
 +++
+
+Footprint filters are used to help match appropriate footprints to a given symbol. This is important even for _atomic_ symbols (symbols with only one matching footprint), as there still may be multiple compatible footprints with different variants or options (e.g. `_HandSoldering`, `_Heatsink`, `_ThermalPads`).
+
+Footprint filters use wildcard pattern matching, and allow the following wildcards:
+
+* `*` - Match zero or many characters
+* `?` - Match zero or one characters
+
+1. Filters should end with a `*` wildcard to allow matching of modified footprint suffixes
+1. Filters should match the dimensional information (where required) to be as specific as necessary:
+* `DIP*W7.62mm*` to match `DIP-22_W7.62mm` but not `DIP-22_W9.3mm`
+
+Footprint filters can be set in the *Footprint Filter* tab in the *Symbol Properties* window.
+
+{{< klcimg src="S5.2a" >}}

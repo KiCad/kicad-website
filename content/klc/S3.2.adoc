@@ -1,9 +1,13 @@
 +++
-brief = "Symbol visual style"
+brief = "Text fields should all use a common text size"
 +++
 
-1. Symbol origin is centered in the middle of the symbol
+All text items should use text size of `50mil` (`1.27mm`)
 
-1. Symbol body has a line width of `10mil` (`0.254mm`)
-
-1. Symbol fill style is set to `Fill background`
+1. Pin names
+1. Pin numbers
+1. Value field
+1. Reference field
+1. Footprint field
+1. Datasheet field
+1. Any custom fields
