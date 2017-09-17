@@ -8,6 +8,12 @@
 			{{ partial "breadcrumb.html" . }}
 
 			<h2>KiCad Library Convention</h2>
+			{{/* Extract the latest version information from the klc-history section */}}
+
+			{{ $versions := (where .Site.Pages "Section" "klc-history") }}
+			{{ $latest := (index $versions 0) }}
+			<i><a href="/klc-history/">Version: {{ replace $latest.File.LogicalName ".adoc" "" }} - {{ dateFormat "Jan 2, 2006" $latest.Date }}</a></i>
+			<hr>
 
 		<p>
 			The KiCad Library Convention (KLC) is a set of requirements for contributing to the KiCad official libraries. Users wishing to sumbit or update library files should be familiar with these guidelines.
@@ -102,6 +108,9 @@
 		<p>
 			<i>Note: While many of the KLC guidelines are checked by these scripts, there are some which are not covered. Additionally, any PR requires manual checking by a member of the KiCad library team</i>
 		</p>
+
+		<h2>KLC Revision History</h2>
+		Revision information for the KLC can be found <a href="/klc-history/">here</a>.
 
 		</div>
 	</div>
