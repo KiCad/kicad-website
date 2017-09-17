@@ -1,3 +1,10 @@
 +++
 brief = "Symbols with complex functionality may incorporate simple functional diagrams"
 +++
+
+For _black box_ symbols with complex functionality (e.g. special function ICs), a simplified diagram of the symbol functionality may be draw on the symbol. This may be used to provide functional clarity in a schematic.
+
+1. Functional drawing must remain _simple_
+1. Do not add functional drawings for multi-function components (e.g. microcontrollers)
+
+{{< klcimg src="S3.4a" title="Simplified functional drawings may be added" >}}

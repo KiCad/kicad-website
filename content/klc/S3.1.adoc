@@ -1,5 +1,11 @@
 +++
-brief = "Symbol origin is centered n the middle of the symbol"
+brief = "Symbol origin is centered on the middle of the symbol"
 +++
 
-1. Symbol origin is centered in the middle of the symbol
+The symbol should be centered around the origin (`0`, `0`) in the symbol editor.
+
+*Exception:*
+
+For non-symmetrical symbols, or symbols where this requirement would move pins off the `100mil` grid, then the symbol shold be placed _as close to the origin as possible_ while observing the pin grid alignment requirements.
+
+{{< klcimg src="S3.1a" title="Center symbols around the origin" >}}

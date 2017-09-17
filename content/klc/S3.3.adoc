@@ -1,5 +1,5 @@
 +++
-brief = "Symbol visual style"
+brief = "Symbol outline and fill requirements"
 +++
 
 1. Symbol body has a line width of `10mil` (`0.254mm`)
