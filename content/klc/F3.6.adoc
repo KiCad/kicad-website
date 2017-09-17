@@ -11,7 +11,7 @@ Pad clearance values are determined using a priority system, which checks the fo
 
 Unless there is a specific reason for setting explicit values for local clearance values for pads or pins, they should be left at zero (`0`).
 
-{{< klcimg src="F3.6a" >}}
+{{< klcimg src="F3.6a" title="Local clearance and settings should be set to zero" >}}
 
 **Exceptions:**
 

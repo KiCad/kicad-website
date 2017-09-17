@@ -6,7 +6,7 @@ Through hole components should set the shape of Pin 1 to `Rectangular`, and all 
 
 Pad shape can be adjusted in the *Pad Properties* dialog:
 
-{{< klcimg src="F6.3a" >}}
+{{< klcimg src="F6.3a" title="Pin-1 should be rectangular for polarised THT footprints" >}}
 
 **Exception:**
 

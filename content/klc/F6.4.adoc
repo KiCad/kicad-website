@@ -9,4 +9,4 @@ Through hole pads must have soldermask pulled back to allow soldering. However t
 .. `F.Mask` (front mask)
 .. `B.Mask` (back mask)
 
-{{< klcimg src="F6.4a" >}}
+{{< klcimg src="F6.4a" title="Pad settings for THT pads" >}}

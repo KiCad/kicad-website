@@ -10,4 +10,4 @@ KiCad does not yet have a method for drawing keepout areas inside footprint file
 
 Example:
 
-{{< klcimg src="F3.5" >}}
+{{< klcimg src="F3.5" title="Drawing keepout areas" >}}

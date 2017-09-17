@@ -1,5 +1,6 @@
 {{ $src := .Get "src" }}
+{{ $title := .Get "title" }}
 
 <a href="/img/klc/{{ $src }}.png">
-<img src="/img/klc/{{ $src }}.png" alt="{{ $src }}" height=250/>
+<img class="klcimg" src="/img/klc/{{ $src }}.png" alt="{{ $src }}" height=250 title="{{ $title }}"/>
 </a>

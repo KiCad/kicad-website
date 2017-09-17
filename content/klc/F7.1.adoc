@@ -7,4 +7,4 @@ brief = "Footprint meta-data should be filled in as appropriate"
 1. **Ref** field must be set to `REF**`
 1. **Value** field must match footprint filename (ignoring the `.kicad_mod` extension)
 
-{{< klcimg src="F7.1a" >}}
+{{< klcimg src="F7.1a" title="Footprint Properties dialog" >}}

@@ -11,4 +11,4 @@ Graphical symbols are used only to annotate schematics and do *not* correspond t
 
 Example:
 
-{{< klcimg src="S7.2_a" >}}
+{{< klcimg src="S7.2_a" title="Example graphical symbol" >}}
