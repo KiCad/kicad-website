@@ -15,28 +15,14 @@
 
     {{ partial "github_lib_table.html" . }}
 
-    <p>
+    <p><b><i>
     Users who wish to keep their libraries up to date with the latest additions should <a href="https://help.github.com/articles/cloning-a-repository/">clone</a> the library repositories using Git. Using Git means that only the <i>changes</i> to the library need to be retrieved, and significantly reduces download bandwidth.
-    </p>
+  </i></b></p>
     <h2>Stable Library Releases</h2>
 
     <p>
     The libraries are periodically compiled into stable <i>releases</i> which can be downloaded from the links below.
     </p>
-
-    Currently schematic symbols are grouped in libraries which are sets of two
-    files, one named with *.lib* extension and another with *.dcm*. Libraries are
-    generally named in such a way that it describes the symbols it stores, in other words, by
-    category. KiCad Library Editor should be used to edit symbols, however, alternatively,
-    files can be edited using a text editor because they are human readable. The libraries
-    can be found at https://github.com/KiCad/kicad-library[kicad-library] repository.
-
-    On the other hand, footprints are placed in multiple repositories which have their names
-    suffixed with *.pretty*. Similarly to symbol libraries, repository names
-    indicate the footprints category. Inside the repository, each footprint has its
-    own file whose name ends up with *.kicad_mod* extension. Like symbol library files,
-    *.kicad_mod* files are human readable and can be edited manually, nevertheless it is
-    recommended to use PCB footprint editor to edit/re-save files.
 
     <h3>Symbol Library Releases</h3>
     {{ partial "github_release_table.html" "kicad-library" }}
@@ -48,6 +34,7 @@
     {{ partial "github_release_table.html" "packages3d" }}
 
     <h3>Template Library Releases</h3>
+    <!-- TODO - Change "footprints" to "templates" -->
     {{ partial "github_release_table.html" "footprints" }}
   </div>
 </div>
