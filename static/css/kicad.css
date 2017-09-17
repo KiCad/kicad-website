@@ -60,8 +60,8 @@ hr.small {
     letter-spacing: 1px;
 	color: #000;
 }
-@media only screen and (min-width:768px) { 
-	.navbar-custom.transparent {    
+@media only screen and (min-width:768px) {
+	.navbar-custom.transparent {
 		background-color: rgba(128, 128, 128, 0.44);
 		border: none;
 		color: white;
@@ -69,7 +69,7 @@ hr.small {
 		margin-bottom: 0;
 		border-radius: 0;
 	}
-	
+
     .navbar-custom .navbar-brand,
 	.navbar-custom.transparent .nav li a {
 		color: #fff;
@@ -77,32 +77,32 @@ hr.small {
 	}
 	.navbar-custom.transparent .nav li a:hover,
 	.navbar-custom.transparent .nav li a:focus { color: rgba(255,255,255,.8) }
-		
+
 	.navbar-custom.transparent .nav li.open a {
 		color: #404040;
 	}
-	
+
     .navbar-custom .navbar-brand:hover,
     .navbar-custom .navbar-brand:focus { color: rgba(255,255,255,.8) }
     .navbar-custom .nav li a {
         padding: 20px;
     }
-	
+
     .navbar-custom .navbar-brand img {
         max-width: 100px;
 		margin-top: -13px;
     }
-	
-	*[id]:before { 
-		display: block; 
-		content: " "; 
-		margin-top: -75px; 
-		height: 75px; 
-		visibility: hidden; 
+
+	*[id]:before {
+		display: block;
+		content: " ";
+		margin-top: -75px;
+		height: 75px;
+		visibility: hidden;
 	}
 }
 
-@media only screen and (min-width:1170px) { 
+@media only screen and (min-width:1170px) {
     .navbar-custom {
         -webkit-transition: background-color .3s;
         -moz-transition: background-color .3s;
@@ -153,7 +153,7 @@ hr.small {
     padding: 100px 0 50px;
     color: #fff;
 }
-@media only screen and (min-width:768px) { 
+@media only screen and (min-width:768px) {
     .intro-header .site-heading,
     .intro-header .post-heading,
     .intro-header .page-heading { padding: 110px 0 }
@@ -166,7 +166,7 @@ hr.small {
     font-size: 50px;
 	font-weight:700;
 }
-@media only screen and (min-width:768px) { 
+@media only screen and (min-width:768px) {
     .intro-header .site-heading h1,
     .intro-header .page-heading h1 { font-size: 80px }
 }
@@ -181,7 +181,7 @@ hr.small {
     font-size: 20px;
 }
 .intro-header .post-heading .meta a { color: #fff }
-@media only screen and (min-width:768px) { 
+@media only screen and (min-width:768px) {
     .intro-header .post-heading h1 { font-size: 55px }
 }
 .content-section-a, .content-section-b { /*index.html*/
@@ -237,7 +237,7 @@ header .post-full {
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
-footer { 
+footer {
 	background-color: #333537;
 }
 footer .list-inline {
@@ -319,6 +319,26 @@ body { webkit-tap-highlight-color: #0085a1 }
 table p {
 	margin: 0;
 }
+
+/* Additional styling for library related tables */
+
+.library table, th, td {
+  border: 1px solid #aaa;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.library tr:nth-child(even) {
+  background: #EEE;
+}
+
+.library tr:nth-child(odd) {
+  background: #FFF;
+}
+
+
 /* Override bootstrap default */
 .lead {
 	font-weight: normal;
