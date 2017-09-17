@@ -45,9 +45,9 @@ link:https://github.com/easyw/kicad-3d-models-in-freecad[kicad-3d-models-in-free
 
 === Repositories
 
-* Schematic symbols (Eeschema) and 3D Models (3DViewer): link:https://github.com/KiCad/kicad-library[kicad-library]
-
-* PCB footprints (PcbNew): link:https://github.com/KiCad?utf8=%E2%9C%93&query=.pretty[.pretty repos on GitHub]
+```
+TODO - Link to the repositories here?
+```
 
 == Making a Pull Request
 
