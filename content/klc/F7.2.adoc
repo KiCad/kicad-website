@@ -8,7 +8,7 @@ Footprint properties should be left as default, unless there is a reason to do s
 1. *Auto Place* should be set to `0`, `0`
 1. *Local Clearance Values* should all be set to `0`
 
-{{< klcimg src="F7.2a" >}}
+{{< klcimg src="F7.2a" title="Default footprint properties" >}}
 
 **Exceptions:**
 

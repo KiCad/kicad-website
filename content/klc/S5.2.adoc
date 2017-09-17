@@ -15,4 +15,4 @@ Footprint filters use wildcard pattern matching, and allow the following wildcar
 
 Footprint filters can be set in the *Footprint Filter* tab in the *Symbol Properties* window.
 
-{{< klcimg src="S5.2a" >}}
+{{< klcimg src="S5.2a" title="Footprint filter tab in Symbol Properties dialog" >}}

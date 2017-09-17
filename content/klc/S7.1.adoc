@@ -11,4 +11,4 @@ Power flag symbols are special symbols in KiCad, used to designate global nets. 
 
 The example image below demonstrates the requirements as listed above:
 
-{{< klcimg src="S7.1_a" >}}
+{{< klcimg src="S7.1_a" title="Example power flag symbol" >}}

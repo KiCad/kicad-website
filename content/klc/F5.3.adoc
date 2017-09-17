@@ -18,14 +18,14 @@ Most often, custom stencil openings are required for the exposed pads on large I
 
 The image below shows an example stencil design found in a footprint datasheet. The superimposed blue square represents the shape of the exposed copper pad. The green squares are the required openings in the stencil.
 
-{{< klcimg src="F5.3a" >}}
+{{< klcimg src="F5.3a" title="Refer to footprint datasheet for precise stencil requirements" >}}
 
 Custom stencil openings are accommodated as follows:
 
   .. Construct copper shape with pad(s) with only copper layers (`F.Cu` and/or `B.Cu`) as appropriate
   .. Add stencil opening(s) with pad(s) which only use solderpaste layers (`F.Paste` and/or `B.Paste`) as required. These pads _do not have a pad number_.
 
-Result:
+*Result:* _(note: this footprint does not correspond to the example shown above)_
 
-{{< klcimg src="F5.3b" >}}
-{{< klcimg src="F5.3c" >}}
+{{< klcimg src="F5.3b" title="Resulting stencil openings shown in footprint editor" >}}
+{{< klcimg src="F5.3c" title="Result stencil openings shown in 3D viewer">}}

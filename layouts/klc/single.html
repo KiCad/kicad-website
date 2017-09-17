@@ -1,5 +1,17 @@
 {{ partial "header.html" .}}
 
+<style>
+
+.klcimg {
+  border: 2px solid #aaa;
+}
+
+.klcimg:hover {
+  opacity: 0.7;
+}
+
+</style>
+
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 {{ if .Scratch.Get "sidemenu" }}col-md-10 col-sm-9{{ else }}col-sm-12{{ end }} post-full">

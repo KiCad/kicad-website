@@ -8,8 +8,8 @@ brief = "Symbol visual style"
 
 *Fill background*
 
-{{< klcimg src="S3.3a" >}}
+{{< klcimg src="S3.3a" title="Fill background for black-box symbols" >}}
 
 *Do not fill*
 
-{{< klcimg src="S3.3b" >}}
+{{< klcimg src="S3.3b" title="Simple symbols may remain unfilled" >}}

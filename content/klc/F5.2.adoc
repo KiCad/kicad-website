@@ -8,7 +8,7 @@ For most standard components, the anchor should generally be located on the cent
 
 In the KiCad footprint editor, the footprint anchor is _always located at the origin_ (0, 0). To move the footprint relative to the anchor (origin), press the *Place footprint reference anchor* button (refer to image below).
 
-{{< klcimg src="F5.2a" >}}
+{{< klcimg src="F5.2a" title="Anchor is normally set to center of component body" >}}
 
 *Exceptions:*
 
@@ -16,4 +16,4 @@ Some footprints (especially those which are non-symmetrical) require special con
 
 Generally speaking, the correct location of the footprint anchor can be found in the component datasheet. The image below shows an example for a *Molex Pico-Lock* connector.
 
-{{< klcimg src="F5.2b" >}}
+{{< klcimg src="F5.2b" title="Precise anchor position can be found in the footprint datasheet" >}}

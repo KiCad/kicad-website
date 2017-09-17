@@ -10,4 +10,4 @@ Component metadata is contained in the `<libname>.dcm` file, and must be filled 
 1. **Keywords** field contains space-separated keyword values. These values are used to assist in part searching and should not include filler words
 1. **Documentation File Name** field contains URL to part documentation if applicaple, or is otherwise left blank
 
-{{< klcimg src="S6.3a" >}}
+{{< klcimg src="S6.3a" title="Component metadata is edited in the symbol properties dialog" >}}

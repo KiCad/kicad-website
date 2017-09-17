@@ -6,4 +6,4 @@ The *Footprint placement type* must be set to `Surface mount` for SMD footprints
 
 To set the footprint placement type, open the *Footprint properties* window and select *Surface Mount* as indicated.
 
-{{< klcimg src="F5.1" >}}
+{{< klcimg src="F5.1" title="Set placement type to "Surface mount" >}}

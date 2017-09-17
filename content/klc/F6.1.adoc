@@ -6,4 +6,4 @@ The footprint *placement type* must be set to `Through Hole` for THT footprints.
 
 This can be selected in the *Footprint Properties* window
 
-{{< klcimg src="F6.1" >}}
+{{< klcimg src="F6.1" title="Set placement type to 'Through hole' for THT footprints" >}}
