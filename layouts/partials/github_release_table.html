@@ -12,7 +12,7 @@
     <th>Description</th>
     <th>Date</th>
     <th>Download</th>
-  </tr>{{ range $json }}{{ $date := index (split .created_at "T") 0 }}
+  </tr>{{ range first 5 $json }}{{ $date := index (split .created_at "T") 0 }}
   <tr>
     <td>{{ .tag_name }}</td>
     <td>{{ .name }}</td>
@@ -25,5 +25,5 @@
 {{ end }}
 
 <p>
-Release information is avaiable <a href="https://github.com/kicad/{{ $repo }}/releases">here</a>.
+Complete release information can be found <a href="https://github.com/kicad/{{ $repo }}/releases">here</a>.
 </p>
