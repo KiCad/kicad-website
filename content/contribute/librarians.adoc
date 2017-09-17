@@ -1,9 +1,10 @@
 +++
-title = "Libraries"
+title = "Librarians"
 categories = [ "Contribute" ]
 [menu.main]
     parent = "Contribute"
-    name   = "Libraries"
+    name   = "Librarians"
+weight = 30
 +++
 :toc: macro
 :toc-title:

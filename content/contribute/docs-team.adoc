@@ -4,6 +4,7 @@ categories = [ "Contribute" ]
 [menu.main]
     parent = "Contribute"
     name   = "Docs Team"
+weight = 10
 +++
 
 The Docs Team works on writing and maintaining documentation. Documentation includes both the KiCad application and the website.
