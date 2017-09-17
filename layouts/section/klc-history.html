@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+
+{{ .Scratch.Set "sidemenu" true }}
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 {{ if .Scratch.Get "sidemenu" }}col-md-10 col-sm-9{{ else }}col-sm-12{{ end }}">
+			{{ partial "breadcrumb.html" . }}
+
+			<h2>KLC Revision History</h2>
+
+			{{ $pages := .Paginator.Pages }}
+
+			{{ $recent := (index $pages 0) }}
+
+			Latest version: {{ replace $recent.File.LogicalName ".adoc" "" }} - {{ dateFormat "Jan 2, 2006" $recent.Date }}
+
+			{{ range $pages }}
+			<hr>
+			<h3>Revision {{ replace .File.LogicalName ".adoc" "" }} - {{ dateFormat "Jan 2, 2006" .Date }}</h3>
+			{{ .Content }}
+			{{ end }}
+		</div>
+	</div>
+
+	{{ partial "sidebar.html" . }}
+</div>
+
+{{ partial "footer.html" . }}

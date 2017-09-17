@@ -1,0 +1,7 @@
++++
+date = "2017-08-18"
++++
+* KLC moved from GitHub wiki to KiCad website
+* KLC rules organized into groups, rather than single sequence
+* Complete reorganization of the rules as per the above change
+* Each KLC rule now has its own page, allowing for better descriptions
