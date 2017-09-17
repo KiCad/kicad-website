@@ -6,6 +6,24 @@
 
     <h1>{{ .Title }}</h1>
 
+    <p>
+      KiCad libraries are community contributed and available for download on <a href="https://github.com/kicad">GitHub</a>. If you wish to contribute to the libraries, refer to the <a href="/contribute/libraries">contribution guide</a>.
+    </p>
+
+    <h2>Latest Libraries</h2>
+    <p>The latest complete set of official KiCad libraries are available as Git repositories at the following links. Each library set can also be downloaded as a compressed archive, for users who do not wish to use Git.</p>
+
+    {{ partial "github_lib_table.html" . }}
+
+    <p>
+    Users who wish to keep their libraries up to date with the latest additions should <a href="https://help.github.com/articles/cloning-a-repository/">clone</a> the library repositories using Git. Using Git means that only the <i>changes</i> to the library need to be retrieved, and significantly reduces download bandwidth.
+    </p>
+    <h2>Stable Library Releases</h2>
+
+    <p>
+    The libraries are periodically compiled into stable <i>releases</i> which can be downloaded from the links below.
+    </p>
+
     Currently schematic symbols are grouped in libraries which are sets of two
     files, one named with *.lib* extension and another with *.dcm*. Libraries are
     generally named in such a way that it describes the symbols it stores, in other words, by
@@ -20,15 +38,17 @@
     *.kicad_mod* files are human readable and can be edited manually, nevertheless it is
     recommended to use PCB footprint editor to edit/re-save files.
 
-<h2>KLC</h2>
-<a href="/klc">KLC</a>
+    <h3>Symbol Library Releases</h3>
+    {{ partial "github_release_table.html" "kicad-library" }}
 
-<h2>FAQ</h2>
-<a href="/libraries/faq">FAQ</a>
+    <h3>Footprint Library Releases</h3>
+    {{ partial "github_release_table.html" "footprints" }}
 
-<h2>Contributing</h2>
-<a href="/contribute/libraries">Contributing<a/>
+    <h3>3D Model Library Releases</h3>
+    {{ partial "github_release_table.html" "packages3d" }}
 
+    <h3>Template Library Releases</h3>
+    {{ partial "github_release_table.html" "footprints" }}
   </div>
 </div>
 
