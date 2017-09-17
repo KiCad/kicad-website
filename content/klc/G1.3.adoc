@@ -15,7 +15,7 @@ Library organization should follow the general form as described below, with eac
 1. Tertiary qualifier
 1. Manufacturer name
 1. Component series name
-1. Extra library descriptorsS
+1. Extra library descriptors
 
 _Note: Some of the elements listed above may be omitted if not required._
 

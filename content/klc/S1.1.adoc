@@ -2,7 +2,7 @@
 brief = "Symbol libraries should be categorized by function"
 +++
 
-Symbol libraries are individual `.lib` files, which have a corresponding `.dcm` file. Both files are required to fully describe the symbols contained in the library.
+Symbol libraries are individual `.lib` files, which have a corresponding `.dcm` file. Both files are required to fully describe the symbols contained in the library. Apart from the file extension, both files _must have the same name (case sensitive)_.
 
 Symbol library names should be defined based on the priority list below, with each element separated by the underscore (`_`) character:
 
