@@ -1,13 +1,5 @@
 +++
-brief = "Text fields"
+brief = "Symbol origin is centered n the middle of the symbol"
 +++
 
-All text items should use text size of `50mil` (`1.27mm`)
-
-* Pin names
-* Pin numbers
-* Value field
-* Reference field
-* Footprint field
-* Datasheet field
-* Any custom fields
+1. Symbol origin is centered in the middle of the symbol
