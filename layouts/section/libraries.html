@@ -4,10 +4,15 @@
 <div class="container">
   <div class="row">
 
-    <h1>{{ .Title }}</h1>
+    <div class="col-lg-8 col-lg-offset-2">
+			{{ partial "breadcrumb.html" . }}
+
+			<div class="page-heading">
+				<h1>{{ .Title }}</h1>
+			</div>
 
     <p>
-      KiCad libraries are community contributed and available for download on <a href="https://github.com/kicad">GitHub</a>. If you wish to contribute to the libraries, refer to the <a href="/contribute/libraries">contribution guide</a>.
+      KiCad libraries are community contributed and available for download on <a href="https://github.com/kicad">GitHub</a>. If you wish to contribute to the libraries, refer to the <a href="/contribute/librarians">contribution guide</a>.
     </p>
 
     <h2>Latest Libraries</h2>
@@ -34,9 +39,9 @@
     {{ partial "github_release_table.html" "packages3d" }}
 
     <h3>Template Library Releases</h3>
-    <!-- TODO - Change "footprints" to "templates" -->
-    {{ partial "github_release_table.html" "footprints" }}
+    {{ partial "github_release_table.html" "templates" }}
   </div>
+</div>
 </div>
 
 {{ partial "footer.html" . }}
