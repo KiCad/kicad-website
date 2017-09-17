@@ -13,13 +13,6 @@ toc::[]
 
 == Introduction
 
-KiCad provides a set of community supported libraries for:
-
-* https://github.com/kicad/symbols[Schematic symbols]
-* https://github.com/kicad/footprints[PCB footprints]
-* https://github.com/kicad/models3d[3D Models]
-* https://github.com/kicad/templates[Project templates]
-
 The KiCad libraries are organized in repositories at the https://github.com/KiCad/[KiCad] organization on GitHub. User contributions to these libraries are greatly appreciated, whether it is improving existing components or creating new ones.
 
 == How to contribute

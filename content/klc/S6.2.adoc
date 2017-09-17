@@ -5,5 +5,5 @@ brief = "Component fields"
 1. *Reference* field is selected appropriately for the symbol and is _visible_
 1. *Value* field contains the name of the symbol and is _visible_
 1. *Footprint* field contains footprint link for atomic parts, and is empty for generic parts. It must be _invisible_
-1. *Datasheet* field is left empty, and is _invisible)
+1. *Datasheet* field is left empty, and is _invisible_
 1. The symbol contains no other custom fields
