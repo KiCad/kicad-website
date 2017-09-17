@@ -1,0 +1,13 @@
++++
+brief = "Active low pins should be designated using a bar above the symbol name"
++++
+
+Rather than selecting the _active low_ graphical pin style, active low pins should be designated using a bar above the pin name.
+
+This provides a cleaner look for the schematic.
+
+To place a line above the pin text, prefix the name with the tilde (`~`) character.
+
+```
+TODO: Example image
+```

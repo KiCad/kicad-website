@@ -1,0 +1,34 @@
++++
+title = "KiCad Libraries"
+[menu.main]
+    parent = "Discover"
+    name = "Libraries"
+    weight = 4
++++
+
+A high quality set of EDA libraries is important to any KiCad user, from hobbyists to industry professionals. KiCad provides a set of link:/libraries/[open source, community contributed libraries].
+
+== Library File Formats
+
+Most KiCad libraries use link:/help/file-formats[human-readable ASCII files].
+
+=== Symbol Libraries
+
+Each symbol library is defined in a `.lib` file, which contains multiple symbols. The `.lib` file contains the graphical description of each symbol. Each `.lib` file has an accompanying `.dcm` file which contains symbol metadata.
+
+=== Footprint Libraries
+
+A footprint library is a *directory* which has the `.pretty` extension. Each footprint library contains multiple footprint files, which have the `.kicad_mod` extension.
+
+=== 3D Model Libraries
+
+A 3D model library is a *directory* which has the `.3dshapes` extension. Each 3D model library contains model files with various extensions.
+
+== Installing Libraries
+
+```
+TODO - Complete this section
+
+- How to add libraries to project
+- Why not all libraries are installed by default
+```
