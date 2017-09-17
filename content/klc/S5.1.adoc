@@ -1,3 +1,3 @@
 +++
-brief = "S5.1"
+brief = "Default footprint must be set to valid footprint"
 +++

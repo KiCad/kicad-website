@@ -2,7 +2,7 @@
 brief = "Local clearance and settings should be set to zero"
 +++
 
-Pad clearance values are determined using a priority system, which checks the following locations for clearance values, in ascending order of priority. If a particular setting reads as zero (`0`) then it is ignored, and the next location is checked.
+Pad clearance values are determined using a priority system, which checks the following locations for clearance values, in descending order of priority. If a particular setting reads as zero (`0`) then it is ignored, and the next location is checked.
 
 1. *Local pad settings* - If an individual pad specifies clearance values, these are used
 1. *Footprint settings* - If clearance values are specified in the *Footprint Properties* window, these are used
