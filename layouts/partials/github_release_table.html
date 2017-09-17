@@ -12,7 +12,7 @@
     <th>Description</th>
     <th>Date</th>
     <th>Download</th>
-  </tr>{{ range $json }}{{ $date := index (split .published_at "T") 0 }}
+  </tr>{{ range $json }}{{ $date := index (split .created_at "T") 0 }}
   <tr>
     <td>{{ .tag_name }}</td>
     <td>{{ .name }}</td>
