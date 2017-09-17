@@ -1,0 +1,3 @@
++++
+brief = "Footprint filters should match all appropriate footprints"
++++
