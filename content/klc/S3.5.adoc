@@ -1,0 +1,13 @@
++++
+brief = "Pin connection points must be placed outside of the symbol"
++++
+
+Connection points for symbol pins *must* be placed outside the symbol body and must not require a connecting wire to cross the symbol.
+
+*Example of incorrect symbol:*
+
+{{< klcimg src="S3.5a" title="Pins must not be placed inside symbol" >}}
+
+*Example of correct symbols:*
+
+{{< klcimg src="S3.5b" title="Pins must be placed outside symbol" >}}
