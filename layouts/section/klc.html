@@ -12,7 +12,7 @@
 
 			{{ $versions := (where .Site.Pages "Section" "klc-history") }}
 			{{ $latest := (index $versions 0) }}
-			<i><a href="/klc-history/">Version: {{ replace $latest.File.LogicalName ".adoc" "" }} - {{ dateFormat "Jan 2, 2006" $latest.Date }}</a></i>
+			<i><a href="/klc-history/">Version {{ replace $latest.File.LogicalName ".adoc" "" }} - {{ dateFormat "Jan 2, 2006" $latest.Date }}</a></i>
 			<hr>
 
 		<p>
