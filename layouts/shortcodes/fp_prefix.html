@@ -1,0 +1,86 @@
+<table class="library">
+  <tr>
+    <th>Prefix</th>
+    <th>Field Description</th>
+    <th>Notes</h>
+  </tr>
+<tr>
+  <td>P</td><td>Pad pitch</td>
+  <td><ul>
+    <li>Pitch (distance) between pins, pads or leads</li>
+    <li>e.g. <code>P0.63</code> - 0.63mm pitch between pads</li>
+  </ul></td>
+</tr>
+<tr>
+  <td>B</td><td>Body size</td>
+  <td><ul>
+    <li>Size of package <code>{x}x{y}x{z}</code></li>
+    <li>Order of dimensions must be x-axis, y-axis, z-axis</li>
+    <li>Z dimension (height) may be ommited if not required</li>
+    <li>e.g. <code>B4x5</code> - package has major dimensions of 4.0mm x 5.0mm</li>
+  </ul></td>
+</tr>
+<tr>
+  <td>D</td><td>Diameter</td>
+  <td><ul>
+    <li>Diameter of major axis for cylindrical component</li>
+    <li>e.g. <code>D10</code> - 10mm diameter</li>
+  </ul></td>
+</tr>
+<tr>
+  <td>L</td><td>Length</td>
+  <td><ul>
+    <li>Length along major axis of component</li>
+    <li>Body size <code>B</code> should be used in preference, where possible</li>
+    <li>e.g. <code>L15.3</code> - 15mm length</li>
+  </ul></td>
+</tr>
+<tr>
+  <td>W</td><td>Width</td>
+  <td><ul>
+    <li>Width along minor axis of component</li>
+    <li>Body size <code>B</code> should be used in preference, where possible</li>
+    <li>e.g. <code>W4.75</code> - 4.75mm width</li>
+  </ul></td>
+</tr>
+<tr>
+  <td>H</td><td>Height</td>
+  <td><ul>
+    <li>Height of component measured from PCB</li>
+    <li>Body size <code>B</code> should be used in preference, where possible</li>
+    <li>e.g. <code>H1.1</code> - component measures 1.1mm above PCB</li>
+  </ul></td>
+</tr>
+<tr>
+  <td>T</td><td>Thickness</td><td>Component thickness, where appropriate</td>
+</tr>
+<tr>
+  <td>LD</td><td>Lead dimensions</td>
+  <td>Used if speficic lead dimensions need to be called out</td>
+</tr>
+<tr>
+  <td>PAD</td><td>Pad dimensions</td>
+  <td><ul>
+    <li>Only required for non-standard pads, or where multiple options are available</li>
+    <li>e.g. <code>PAD2.25x1.75</code> - pad size is 2.25mm x 1.75mm</li>
+  </ul></td>
+<tr>
+  <td>TAB</td><td>Tab dimensions</td>
+  <td><ul>
+    <li>Dimension of tab (either mechanical or soldering)</li>
+    <li>e.g. <code>T3x1.5</code> - tab size is 3.0 x 1.5mm</li>
+  </ul></td>
+</tr>
+<tr>
+  <td>EP</td><td>Exposed pad</td>
+  <td><ul>
+    <li>Only used if there is one more more exposed pads under a component</li>
+    <li>If there is more than one exposed pad, prepend with the pad count</li>
+    <li>If exposed pad dimensions need to be added, append them here e.g. <code>EP2.4x3.6</code> - 2.4mm x 3.6mm</li>
+  </ul></td>
+</tr>
+<tr>
+  <td>CL</td><td>Clearance</td>
+  <td>Clearance distance, e.g. between rows of pads</td>
+</tr>
+</table>
