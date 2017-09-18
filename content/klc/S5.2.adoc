@@ -8,10 +8,15 @@ Footprint filters use wildcard pattern matching, and allow the following wildcar
 
 * `*` - Match zero or many characters
 * `?` - Match zero or one characters
+* `:` - Include the library name in the search (can only be used once)
+
+Filter conventions:
 
 1. Filters should end with a `*` wildcard to allow matching of modified footprint suffixes
 1. Filters should match the dimensional information (where required) to be as specific as necessary:
 * `DIP*W7.62mm*` to match `DIP-22_W7.62mm` but not `DIP-22_W9.3mm`
+1. By default, the footprint search does _not_ include the name of the footprint library in the. To force the library name to be included, add the `:` (colon) character to the filter. Text appearing before the `:` will match the library name. Text appearing after the `:` will match the footprint name.
+* `Conn*:*Pitch?1.25mm*` will match any footprint with '1.25mm' pitch, only in libraries that begin with the text 'Conn'
 
 Footprint filters can be set in the *Footprint Filter* tab in the *Symbol Properties* window.
 

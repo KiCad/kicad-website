@@ -3,3 +3,7 @@ brief = "Minimum hole diameter"
 +++
 
 Minimum drilled hole diameter is the maximum lead diameter plus `0.2mm` (IPC-2222 class 2)
+
+```
+TODO - Example img
+```

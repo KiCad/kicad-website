@@ -6,7 +6,7 @@ Manufacturer Part Numbers (MPN) often include variations that are _non-functiona
 
 Examples:
 
-* Temperature rating of the componen (e.g. I, A, E)
+* Temperature rating of the component
 * Packaging information (e.g. reel, tray, tape)
 * RoHs / PbFree information
 

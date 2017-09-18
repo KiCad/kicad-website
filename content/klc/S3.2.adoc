@@ -2,7 +2,7 @@
 brief = "Text fields should all use a common text size"
 +++
 
-All text items should use text size of `50mil` (`1.27mm`)
+All text items must use text size of `50mil` (`1.27mm`)
 
 1. Pin names
 1. Pin numbers

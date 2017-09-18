@@ -1,5 +1,5 @@
 +++
-brief = "Footprint properties should be left to default values unless otherwise required in datasheet"
+brief = "Footprint properties are left to default values unless otherwise required in datasheet"
 +++
 
 Footprint properties should be left as default, unless there is a reason to do so as specified by the footprint datasheet (for example).

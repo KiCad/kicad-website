@@ -2,6 +2,8 @@
 brief = "Minimum annular ring width"
 +++
 
-Minimum annular ring width should be at least `0.15mm` (IPC-2221)
+Minimum annular ring width must be at least `0.15mm` (IPC-2221)
 
-  
+```
+TODO - Image describing annular ring
+```

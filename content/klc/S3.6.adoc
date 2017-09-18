@@ -1,0 +1,13 @@
++++
+brief = "Pin name position offset"
++++
+
+1. Pin name position offset must be set between `20mil` (`0.508`) and `50mil` (`1.27mm`) (inclusive)
+1. Preferred value is `20mil`
+1. Larger offset allowed to accomodate particular symbol geometry
+
+*Examples:*
+
+{{< klcimg src="S3.6a" title="20mil offset" >}}
+
+{{< klcimg src="S3.6b" title="40mil offset to allow for acute angle" >}}

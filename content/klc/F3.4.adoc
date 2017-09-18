@@ -1,4 +1,4 @@
 +++
-brief = "Thermal Pads"
+brief = "Thermal pads"
 +++
 

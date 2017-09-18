@@ -2,7 +2,7 @@
 brief = "Pin connection points must be placed outside of the symbol"
 +++
 
-Connection points for symbol pins *must* be placed outside the symbol body and must not require a connecting wire to cross the symbol.
+Connection points for symbol pins must be placed outside the symbol body and must not require a connecting wire to cross the symbol.
 
 *Example of incorrect symbol:*
 

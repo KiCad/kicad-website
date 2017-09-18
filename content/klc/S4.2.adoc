@@ -16,3 +16,5 @@ Pins should be grouped by similar function, rather than by their physical locati
   * `UART Tx/Rx`
 1. *Output/Controlled/Driver* pins should be placed on the _right_ of a symbol
   * `RS232 Tx/Rx`
+
+{{< klcimg src="S4.2a" title="Pin grouping" }}

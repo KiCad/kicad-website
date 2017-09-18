@@ -1,5 +1,5 @@
 +++
-brief = "Library size should be limited to 500 items"
+brief = "Library size is limited to 500 items"
 +++
 
 Libraries with more than 500 items can result in long library loading times. Additionally, such broad categorization of components means that it can be hard to locate a particular component in the libraries.

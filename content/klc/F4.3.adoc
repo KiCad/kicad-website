@@ -9,19 +9,22 @@ KiCad refers to the courtyard layers as:
 * `F.CrtYd` - Front courtyard layer
 * `B.CrtYd` - Back courtyard layer
 
-Component courtyard should be drawn on the `F.CrtYd` layer as a closed polyline, with the following parameters:
+A fully enlosed Component courtyard must be drawn on the `F.CrtYd` layer, with the following parameters:
 
 1. Courtyard uses `0.05mm` line width
 1. All courtyard line elements are placed on a `0.01mm` grid
-
-If the component requires a courtyard on the back of the PCB, a corresponding courtyard must be provided on the `B.CrtYd` layer.
+1. If the component requires a courtyard on the back of the PCB, a corresponding courtyard must be provided on the `B.CrtYd` layer.
 
 Courtyard clearance should adhere to the following requirements:
 
-[start=3]
+[start=4]
 1. Unless otherwise specified, clearance is `0.25mm`
 1. Components smaller than `0603` should have a clearance of `0.15mm`
 1. Connectors should have a clearance of `0.5mm`, in addition to the clearance required for mating of connector
 1. Canned capacitors should have a clearance of `0.5mm`
 1. Crystals should have a clearance of `0.5mm`
 1. BGA devices should have a clearance of `1.0mm`
+
+```
+TODO: Example images
+```
