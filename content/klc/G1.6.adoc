@@ -1,5 +1,5 @@
 +++
-brief = "Text capitalization conventions"
+brief = "Capitalization conventions"
 +++
 
 1. Acronyms should be capitalized
@@ -9,7 +9,7 @@ brief = "Text capitalization conventions"
   * `Microchip`
   * `ROHM`
   * `Texas`
-1. Library names should be lower-case unless otherwise specified as above
-  * `sensor_temperature`
-  * `memory_flash`
-  * `connector_JST`
+  * `NEC`
+1. Unless separated by delimters such as `_`, `-`, `.`, words should be separated using __CamelCase__ convention, with the first letter of each word capitalised
+  * `TestPoint`
+  * `BatteryHolder`

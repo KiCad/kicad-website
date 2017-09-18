@@ -1,9 +1,9 @@
 +++
-brief = "Plural naming should be avoided"
+brief = "Plural naming is to be avoided"
 +++
 
 In general, plural naming (e.g. for libraries) should be avoided, as pluralisation of some words is inconsistent. Non pluralized names should be used in preference:
 
-* `sensor_temperature` instead of `sensors_temperature`
-* `memory_flash` instead of `memories_flash`
+* `Sensor_Temperature` instead of `Sensors_Temperature`
+* `Memory_Flash` instead of `Memories_Flash`
 

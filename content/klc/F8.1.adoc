@@ -1,5 +1,5 @@
 +++
-brief = "Footprint meta-data should be filled in as appropriate"
+brief = "Footprint meta-data is filled in as appropriate"
 +++
 
 1. **Documentation** field contains comma-separated device information. Where appropriate, a URL to the footprint datasheet should be included.

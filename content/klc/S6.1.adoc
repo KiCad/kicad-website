@@ -2,8 +2,8 @@
 brief = "Component Reference Designator (RefDes)"
 +++
 
-The symbol Reference Designator should be filled out appropriately for the particular _type_ of symbol.
+The symbol Reference Designator must be filled out appropriately for the particular _type_ of symbol.
 
-The table below provides some examples of appropriate RefDes values.
+The table below provides a list of appropriate RefDes values. If you do not find an appropriate component entry, consult with the KiCad library team.
 
 {{< refdes >}}

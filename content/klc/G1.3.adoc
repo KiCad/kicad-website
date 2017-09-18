@@ -1,5 +1,5 @@
 +++
-brief = "Libraries should be organized by functionality"
+brief = "Libraries are organized by functionality"
 +++
 
 Rather than grouping components (e.g. symbols, footprints) by their manufacturer, KiCad libraries are organized by component functionality. This grouping strategy has a number of key benefits:

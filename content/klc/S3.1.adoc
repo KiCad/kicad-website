@@ -2,7 +2,7 @@
 brief = "Symbol origin is centered on the middle of the symbol"
 +++
 
-The symbol should be centered around the origin (`0`, `0`) in the symbol editor.
+The symbol must be centered around the origin (`0`, `0`) in the symbol editor.
 
 *Exception:*
 

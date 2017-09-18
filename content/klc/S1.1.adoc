@@ -4,20 +4,20 @@ brief = "Symbol libraries should be categorized by function"
 
 Symbol libraries are individual `.lib` files, which have a corresponding `.dcm` file. Both files are required to fully describe the symbols contained in the library. Apart from the file extension, both files _must have the same name (case sensitive)_.
 
-Symbol library names should be defined based on the priority list below, with each element separated by the underscore (`_`) character:
+Symbol library names must be defined based on the priority list below, with each element separated by the underscore (`_`) character:
 
-1. Function (e.g. `sensor`, `amplifier` `MCU`)
-1. Sub-function (e.g. `temperature`, `current-sense`)
+1. Function (e.g. `Sensor`, `Amplifier` `MCU`)
+1. Sub-function (e.g. `Temperature`, `CurrentSense`)
 1. Tertiary qualifier (e.g. `CMOS`)
 1. Manufacturer name (e.g. `Atmel`, `Infineon`)
 1. Symbol series name (e.g. `PIC24`, `STM32`)
-1. Extra library descriptors (e.g. `deprecated` )
+1. Extra library descriptors (e.g. `Deprecated` )
 
 _Note: Some of the elements listed above may be omitted if not required._
 
 Example symbol library names:
 
-* `power_monitor` - Power monitoring components
-* `sensor_temperature` - Temperature sensors
-* `driver_motor` - Motor drivers
-* `mcu_Microchip_PIC32` - PIC32 microcontrollers from Microchip
+* `Power_Monitor` - Power monitoring components
+* `Sensor_Temperature` - Temperature sensors
+* `Driver_Motor` - Motor drivers
+* `MCU_Microchip_PIC32` - PIC32 microcontrollers from Microchip

@@ -1,5 +1,5 @@
 +++
-brief = "Power Flag Symbols"
+brief = "Power flag symbols"
 +++
 
 Power flag symbols are special symbols in KiCad, used to designate global nets. These symbols use a special RefDes value to indicate that they must be considered as global power flags
