@@ -6,18 +6,18 @@ weight = 10
 
 === Debian Unstable (Sid)
 
-Current Version: *4.0.6* (KiCad actual version)
+Current Version: *4.0.7* (KiCad actual version)
 
-The current upstream release 4.0.6 is available for Debian
+The current upstream release 4.0.7 is available for Debian
 https://packages.debian.org/sid/kicad[unstable/sid].
 
 For installing please read further.
 
 === Debian Testing (Buster)
 
-Current Version: *4.0.6* (KiCad actual version)
+Current Version: *4.0.7* (KiCad actual version)
 
-The current upstream release 4.0.6 is available for Debian
+The current upstream release 4.0.7 is available for Debian
 https://packages.debian.org/testing/kicad[testing/buster].
 
 For installing please read further.
