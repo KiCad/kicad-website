@@ -1,16 +1,8 @@
+{{ $.Scratch.Add "additional_head_tags" "<link href=\"/fonts/font-linux.css\" rel=\"stylesheet\">" }}
+
 {{ partial "header.html" . }}
 
-{{ $currentNode := . }}
-{{ .Scratch.Set "sidemenu" false }}
-{{ .Scratch.Set "sidemenu_section" $currentNode.Section }}
-{{ range .Site.Menus.main }}
-	{{ if eq $currentNode.Section (.Name | lower) }}
-		{{ if .HasChildren }}
-			{{ $currentNode.Scratch.Set "sidemenu" true }}
-			{{ else }}
-		{{ end }}
-	{{ end }}
-{{ end }}
+{{ .Scratch.Set "sidemenu" true }}
 
 <div class="container">
 	<div class="row">
@@ -18,10 +10,15 @@
 			{{ partial "breadcrumb.html" . }}
 
 			<div class="page-heading">
-				<h1>{{ replace .Title "-" " " }}</h1>
+				<h1>{{ title .Title }}</h1>
 			</div>
 			{{ .Content }}
-		</div>
+
+      <p>
+        <a href="/libraries/"><span class="fa fa-arrow-left"></span> Back</a>
+      </p>
+
+    </div>
 
 		{{ partial "sidebar.html" . }}
 	</div>

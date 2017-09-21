@@ -410,3 +410,7 @@ nav.secondary a {
 #toc ul ul ul {
     list-style-type: none;
 }
+
+code {
+  text-align: left;
+}
