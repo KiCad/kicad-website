@@ -1,5 +1,5 @@
 +++
-brief = "Text fields should all use a common text size"
+brief = "Text fields must use a common text size of 50mils"
 +++
 
 All text items must use text size of `50mil` (`1.27mm`)

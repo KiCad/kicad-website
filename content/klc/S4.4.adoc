@@ -7,5 +7,6 @@ Pin `Electrical type` should be set to match the appropriate pin function
 1. Power and ground pins should be set to either `Power Input` or `Power Outpu`
 1. Logic pins should be set according to datasheet requirements
 1. Pins with programmable functionality (e.g. MCU I/O ports) should be set to `Bidirectional`
+1. Pins must not be 'double inverted' by assigning the inverting graphical symbol and also having a bar above the name of the pin
 
 {{< klcimg src="S4.4a" title="Pin electrical type should match function">}}

@@ -1,10 +1,10 @@
 +++
-brief = "Footprint properties are left to default values unless otherwise required in datasheet"
+brief = "Footprint properties are as default values unless otherwise required in datasheet"
 +++
 
 Footprint properties should be left as default, unless there is a reason to do so as specified by the footprint datasheet (for example).
 
-1. *Move and Place* should be set to `Free`
+1. *Move and Place* must be set to `Free`
 1. *Auto Place* should be set to `0`, `0`
 1. *Local Clearance Values* should all be set to `0`
 
