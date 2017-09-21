@@ -28,9 +28,7 @@ A 3D model library is a *directory* which has the `.3dshapes` extension. Each 3D
 
 === Template Libraries
 
-```
-TODO - What is a template library?
-```
+The template libraries contain example projects for `... //TODO ...`
 
 == Installing Libraries
 

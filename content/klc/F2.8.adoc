@@ -1,0 +1,59 @@
++++
+brief = "Naming conventions for individual footprint types"
++++
+
+Footprint naming is sufficiently complex that a link:/klc/F2.1/[general rule] is not enough to fully define the wide range of footprints.
+
+Following is a list of naming conventions for various groups of footprint types. If you do not find a matching convention in the list below, contact the KiCad library team or find an existing set of components in the libraries that closely match your requirements.
+
+In the entries below, variable fields are denoted as follows:
+
+* **[]** - Required
+* **{}** - Optional
+
+Also, some field names are abbreviated as follows:
+
+* `MAN` - Manufacturer name
+* `MPN` - Manufacturer part name
+* `PKG` - Package name
+* `PIN` - Pin count
+* `X` - Length along x axis
+* `Y` - Length along y axis
+* `Z` - Length along z axis
+
+**Bold text** indicates text that must be inserted verbatim (not variable fields).
+
+=== Standard IC packages
+
+1. `{[MAN]_[MPN]}`
+1. `[PKG]-[PIN]{-[EP qty]EP}`
+1. `B[X]x[Y]{x[z]}`
+1. `P[pitch]`
+1. `{PAD[pad x]x[pad y]}`
+1. `{[footprint options]}`
+
+
+== Specific Naming Conventions
+
+refer to https://github.com/KiCad/kicad-library/issues/1447
+
+As footprint naming varies and is complicated...
+
+=== Chip Components (R / C / ... )
+
+=== Standard IC Packages
+
+
+=== Gull Wing Packages (SOIC / SOP / QFP / ... )
+
+=== J-Lead Packages (SOJ / PLCC / ... )
+
+=== No-Lead Packages (DFN / QFN / ... )
+
+=== Ball Grid Packages (BGA / LGA / ... )
+
+=== Through Hole Packages (DIP / ... )
+
+=== Connectors
+
+=== Transformers

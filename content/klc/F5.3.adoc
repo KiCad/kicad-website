@@ -8,9 +8,8 @@ Surface mount pads have specific requirements for PCB design.
 .. `F.Cu` - Front copper
 .. `F.Mask` - Front soldermask
 .. `F.Paste` - Front solderpaste (stencil openings)
-
 [start = 2]
-1. Pads with specific stencil aperture design requirements
+1. Pads with specific stencil aperture design requirements require special attention
 
 Some components have specific design requirements for solderpaste (stencil) design. These requirements are often found in the footprint datasheet or an associated technical document.
 

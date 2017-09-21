@@ -2,7 +2,7 @@
 brief = "Footprint 3D model requirements"
 +++
 
-1. 3D model files should be placed in a library (directory) which has the same name as the footprint library, with the extension `.3dshapes`
+1. 3D model files must be placed in a library (directory) which has the same name as the footprint library, with the extension `.3dshapes`
 * `Capacitor_SMD.pretty` -> `Capacitor_SMD.3dshapes`
 * `Connector_USB.pretty` -> `Connector_USB.3dshapes`
 1. 3D model files should be named the same as the footprint (ignoring file extension)
@@ -11,8 +11,8 @@ brief = "Footprint 3D model requirements"
 1. If a footprint is a simple variation that does not change the 3D representation, the common 3D model should be used (_do not duplicate models unnecessarily_)
 * `R0805_HandSoldering.kicad_mod` -> `R0805.wrl`
 * `QFN-48_ThermalVias.kicad_mod` -> `QFN-48.wrl`
-1. Model scaling should be 1:1:1 (model file should not require any scaling to correctly fit the footprint)
-1. Path to 3D model must have `${KISYS3DMOD}/` prefix
+1. Model scaling must be 1:1:1 (model file should not require any scaling to correctly fit the footprint)
+1. Path to 3D model should have `${KISYS3DMOD}/` prefix
 1. Filetype must be `.wrl`
 1. If the 3D model is _missing_ (does not yet exist), the 3D model reference should still be added. This means that the footprint does not have to be edited again once the 3D model is added.
 
