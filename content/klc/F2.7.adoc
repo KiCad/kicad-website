@@ -1,0 +1,13 @@
++++
+brief = "Manufacturer specific footprints"
++++
+
+If a footprint is specific to a single manufacturer, this must be indicated by prepending the manufacturer name and MPN to the footprint name.
+
+* `Texas_S-PVQFN-N48_`
+
+```
+TODO - Better doc here
+- More examples
+- Show full footprint names
+```
