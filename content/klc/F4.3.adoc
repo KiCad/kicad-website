@@ -25,6 +25,4 @@ Courtyard clearance should adhere to the following requirements:
 1. Crystals should have a clearance of `0.5mm`
 1. BGA devices should have a clearance of `1.0mm`
 
-```
-TODO: Example images
-```
+{{< klcimg src="F4.3a" title="Courtyard layer" >}}

@@ -1,3 +1,13 @@
 +++
-brief = "Symbol naming guidelines"
+brief = "General symbol naming guidelines"
 +++
+
+1. Library naming should not be duplicated in footprint name
+1. If symbol with same name exists for multiple manufactuers, the manufacturer name is written first
+1. Specific manufacturer name (for atomic parts)
+1. Type of symbol (for generic parts)
+  i. May be shortened for common components (e.g. `Conn` for `Connector`)
+  i. Reference designator may be substituted for common components (e.g. `D`, `C`, `LED`)
+1. Part name should include extension for specific footprint if required (e.g. `SOIC`)
+1. Any modification of the original symbol, indicated by appending the reason (e.g. different pin ordering - `Q_NPN_CBE`, `Q_NPN_BCE`)
+1. Indicate quantity of elements for symbol arrays (e.g. resistor array with 8 elements - `Resistor_x8`) 

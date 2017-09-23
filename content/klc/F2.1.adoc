@@ -4,7 +4,7 @@ brief = "General footprint naming conventions"
 
 Each footprint is a `.kicad_mod` file (stored within a `.pretty` directory). The naming convention for a given footprint depends on the _type_ of footprint, however a general guide is presented below:
 
-1. Library naming should not be unnecessarily duplicated in footprint name
+1. Library naming should not be duplicated in footprint name
 1. Specific package type is written first, e.g.
   * `QFN` - Quad Flat No-Lead package
   * `C` - Capacitor
@@ -23,8 +23,3 @@ Each footprint is a `.kicad_mod` file (stored within a `.pretty` directory). The
 1. Any modification to the original footprint, indicated by appending the reason
   * `_HandSoldering`
   * `_ThermalPad`
-
-```
-TODO - Examples
-```
-

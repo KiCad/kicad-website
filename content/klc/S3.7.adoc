@@ -1,0 +1,7 @@
++++
+brief = "Pin numbering for exposed pads"
++++
+
+For IC components with exposed pads, the number of the exposed pad should start one greater than the pin-count of the footprint.
+
+For a SOIC-8 package with a single exposed pad, the exposed pad will be assigned the number `9`

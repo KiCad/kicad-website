@@ -1,3 +1,28 @@
 +++
-brief = "Guidelines for naming atomic symbols"
+brief = "Where atomic parts are available in multiple footprint options, a separate symbol must be drawn for each footprint"
 +++
+
+Many electronic components are provided in multiple footprint (package) options. These _may or may not_ be pin compatible.
+
+e.g. **LTC4357**
+
+{{< klcimg src="S2.4a" title="Multiple footprint options" >}}
+
+Here there is a requirement for two separate symbols, one corresponding to each available footprint.
+
+The naming of the symbols must match the manufacturer naming convention for the footprint variants. In the image above (taken from the datasheet) the footprints are defined as follows:
+
+* `DCB` - 6-lead DFN
+* `MS8` - 8-lead MSOP
+
+Thus, two symbols must be drawn:
+
+{{< klcimg src="S2.4b" title="Symbol for each footprint" >}}
+
+Where possible, the symbols should be drawn such that they can be swapped in the schematic with minimal disruption to wire connections.
+
+As a further example we shall consider the comparator **MCP6566** which is available in three SOT-23-3 versions, _each with a different pinout_.
+
+In this case, a separate symbol must again be drawn for each version, and named according to the convention called out in the datasheet.
+
+{{< klcimg src="S2.4c" title="Multiple footprint pinouts" >}}
