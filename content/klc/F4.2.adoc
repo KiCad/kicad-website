@@ -18,8 +18,9 @@ The following elements must be provided on the fabrication layer(s)
 .. For IC packages, bevel is drawn at corner next to pin-1
 .. Bevel should be `1mm` or `25% of package size` (whichever is smaller)
 1. Component value (footprint name) must be displayed on the `F.Fab` layer
-.. Text size = `1.0mm`
-.. Text thickness = `0.15mm`
+.. Recommended text size = `1.0mm`
+.. Allowable text size = {`0.1mm` to `2.0mm`}
+.. Allowable text thickness = {`0.01mm` to `0.20mm`} (should be approximately `15%` of text size, with allowances for variation for aesthetic reasons)
 .. If there is enough space, it should be placed inside footprint boundaries
 1. A second copy of the reference designator (RefDes) must be provided on the `F.Fab` layer. To add a second RefDes item, add a text object with the value `%R`
 .. RefDes must be centered on component body (inside component outline)
