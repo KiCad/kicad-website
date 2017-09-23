@@ -1,3 +1,19 @@
 +++
-brief = "Guidelines for naming atomic symbols"
+brief = "Non-functional variations in part number should be replaced with wildcard"
 +++
+
+Manufacturer Part Numbers (MPN) often include variations that are _non-functional_.
+
+Examples:
+
+* Temperature rating of the component
+* Packaging information (e.g. reel, tray, tape)
+* RoHs / PbFree information
+
+To capture every possible combination of part variation requires a large number of symbol aliases - this is to be avoided.
+
+Where a MPN has options for such non-functional variations, these portions of the MPN should be replaced with a wildcard character (`x`).
+
+**Rule of thumb**
+
+A single symbol should be drawn for each footprint variation of an atomic part. Other variations (as listed above) do not require their own symbol alias.`

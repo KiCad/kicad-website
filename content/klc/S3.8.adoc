@@ -1,0 +1,9 @@
++++
+brief = "Multi unit symbols"
++++
+
+1. For symbols with multiple units that are drawn separately, where the units share common power pins, a separate unit should be drawn which contains these power pins.
+
+{{< klcimg src="S3.8a" title="Multi unit symbols" >}}
+
+__This approach should not be taken for single-unit symbols. Power pins in this case must be drawn on the same symbol as the logic pins.__

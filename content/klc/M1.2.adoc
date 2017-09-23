@@ -1,0 +1,7 @@
++++
+brief = "3D model source files"
++++
+
+Source files for the 3D models can be submitted to the link:https://github.com/kicad/kicad-packages3d-source[kicad-packages3d-source] repository.
+
+This includes native files from 3D sofware (e.g `FreeCAD`), in addition to scripts used to create models parametrically.

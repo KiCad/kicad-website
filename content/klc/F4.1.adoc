@@ -2,7 +2,7 @@
 brief = "Silkscreen layer requirements"
 +++
 
-The silkscreen is printed to the external surface of a PCB to aid in component identification and orientation.
+The silkscreen is printed to the external surface of a PCB to aid in component identification and orientation. Typically this layer contains the component RefDes to locate components on the board after assembly.
 
 KiCad refers to the silkscreen layers as:
 
@@ -25,6 +25,4 @@ The following elements must be provided on the silkscreen.
 1. Pin-1 designator is provided on the `F.SilkS` layer
 1. Pin-1 designator must be visible after board assembly
 
-```
-TODO: Example images
-```
+{{< klcimg src="F4.1a" title="Silkscreen layer" >}}

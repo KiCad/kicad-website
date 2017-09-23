@@ -2,3 +2,6 @@
 brief = "Unless otherwise specified, units are in millimeters"
 +++
 
+1. If unit dimension are omitted from a footprint name, then the dimension is assumed to be `millimeters`.
+1. To specify `inches`, the suffix `in` should be used
+  * e.g. `4x5in`

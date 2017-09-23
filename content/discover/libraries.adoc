@@ -8,6 +8,8 @@ title = "KiCad Libraries"
 
 A high quality set of EDA libraries is important to any KiCad user, from hobbyists to industry professionals. KiCad provides a set of link:/libraries/[open source, community contributed libraries].
 
+The KiCad libraries are licensed under Creative Commons link:/libraries/license[(more information here)].
+
 To ensure the libraries conform to a high standard, contributions to the KiCad libraries are checked against the link:/klc/[KiCad Library Convention (KLC)].
 
 == Library File Formats
