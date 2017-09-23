@@ -43,12 +43,6 @@ link:https://github.com/pointhi/kicad-footprint-generator[kicad-footprint-genera
 
 link:https://github.com/easyw/kicad-3d-models-in-freecad[kicad-3d-models-in-freecad] is a scripting toolset which allows 3D models to be generated parametrically using Python. It uses the CadQuery module from within FreeCAD (both of which are required to use the scripts).
 
-=== Repositories
-
-```
-TODO - Link to the repositories here?
-```
-
 == Making a Pull Request
 
 Contributing to the KiCad libraries relies on a working knowledge of the Git version control software. It is suggested that users familiarise themselves with Git using an online tutorial.
