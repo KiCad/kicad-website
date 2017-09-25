@@ -1,6 +1,10 @@
 +++
-brief = "Omit pins not connected on footprint"
+brief = "Pins not connected on the footprint may be omitted from the symbol"
 +++
 
-Often a component has pins that are not physically connected, and can be omitted from the schematic.
+Often a component has pins that are not physically connected, and may be omitted from the schematic symbol.
 
+1. If the pin-count in the schematic does not match the pad-count on the footprint, the footprint filter should include the pad-count of the footprint
+..* `SOIC?8`
+..* `SOT?23?5`
+1. If pins are designated `NC` but the datasheet specifies that these must be pulled to ground or otherwise connected to a specific net, then these **must** be shown on the schematic symbol

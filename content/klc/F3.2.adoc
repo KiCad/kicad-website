@@ -2,4 +2,16 @@
 brief = "Pin 1 should be located at the top left"
 +++
 
-As the good man said
+Footprints should be oriented such that Pin 1 is located in the upper left corner (IPC-7351).
+
+{{< klcimg src="F3.2" title="Pin 1 aligned top left" >}}
+
+**Exceptions**
+
+Where footprints cannot be oriented with pin 1 in the top-left quadrant, pin 1 should be aligned to the top
+
+{{< klcimg src="F3.2a" title="Align to top if top-left not possible" >}}
+
+Two terminal footpints should be aligned with pin 1 on the left side
+
+{{< klcimg src="F3.2b" title="Two terminal footprints align pin 1 on left" >}}

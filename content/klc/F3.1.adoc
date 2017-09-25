@@ -2,4 +2,8 @@
 brief = "Datasheet recommendations take priority"
 +++
 
-As the good man said
+Where conflict exists between datasheet recommendations and KLC requirements, then (in the general case) the datasheet shold take priority.
+
+It is important when designing footprints that they adhere to requirements for soldering and assembly - often these requirements have very small tolerance for variation.
+
+If the KLC is at odds with the datasheet, follow the datasheet, and note this difference to the KiCad library team when submitting your contribution.
