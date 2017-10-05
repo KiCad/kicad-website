@@ -5,7 +5,7 @@ brief = "Connected copper elements have the same pad number"
 Footprints that contain multiple pads or conductive elements that are *physically connected* require special attention:
 
 1. Multiple pads that are physically connected must share the same number
-1. Thermal vias (if present) must share the same number as the thermal pad
+1. Thermal vias (if present) must share the same number as the thermal pad to which they are connected
 
 
 {{< klcimg src="F3.3a" title="Connected copper areas must have same pad number" >}}
