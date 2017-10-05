@@ -1,29 +1,6 @@
-{{ $repo := . }}
-{{ $prefix := "https://api.github.com/repos/kicad/" }}
-
-{{ $json := getJSON $prefix $repo "/releases" }}
-
-{{ if (eq (len $json ) 0 ) }}
-<p><i>No releases found for this repository.</i></p>
-{{ else }}
-<table class="library">
-  <tr>
-    <th>Release</th>
-    <th>Description</th>
-    <th>Date</th>
-    <th>Download</th>
-  </tr>{{ range first 5 $json }}{{ $date := index (split .created_at "T") 0 }}
-  <tr>
-    <td>{{ .tag_name }}</td>
-    <td>{{ .name }}</td>
-    <td>{{ dateFormat "Jan 2, 2006" $date }}</td>
-    <td><a href={{ .zipball_url }}>.zip</a> | <a href={{ .tarball_url }}>.tar.gz</a></td>
-  </tr>
-{{ end }}
-
-</table>
-{{ end }}
-
-<p>
-Complete release information can be found <a href="https://github.com/kicad/{{ $repo }}/releases">here</a>.
-</p>
+<ul>
+  {{ partial "github_release_link.html" (dict "repo" "kicad-symbols" "title" "Schematic symbols") }}
+  {{ partial "github_release_link.html" (dict "repo" "kicad-footprints" "title" "PCB footprints") }}
+  {{ partial "github_release_link.html" (dict "repo" "kicad-packages3d" "title" "3D models") }}
+  {{ partial "github_release_link.html" (dict "repo" "kicad-templates" "title" "Project templates") }}
+</ul>
