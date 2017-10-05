@@ -9,4 +9,4 @@ Hidden power pins are also not allowed.
 **Exceptions**
 
 1. Unused NC pins can be set to invisible. In this case the electrical type must be `Not Connected`
-1. Invisible pins may be used in a pin stack to allow one-to-many connections. Refer to the requirements on pin stacking
+1. Invisible pins may be used in a pin stack to allow one-to-many connections. Refer to the link:/klc/S4.3[requirements for pin stacking]
