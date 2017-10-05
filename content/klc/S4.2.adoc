@@ -2,7 +2,7 @@
 brief = "Pins should be grouped by function"
 +++
 
-Pins should be grouped by similar function, rather than by their physical location on the associated footprint.
+Where possible, pins should be grouped by similar function, rather than by their physical location on the associated footprint. This provides cleaner schematic routing and symbols are easier to understand in the schematic.
 
 1. Pins with *similar functions* should be grouped together:
   * `SPI_MISO`, `SPI_MOSI`, `SPI_CS` `SPI_CS`

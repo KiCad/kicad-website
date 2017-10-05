@@ -6,4 +6,5 @@ In general, plural naming (e.g. for libraries) should be avoided, as pluralisati
 
 * `Sensor_Temperature` instead of `Sensors_Temperature`
 * `Memory_Flash` instead of `Memories_Flash`
+* `TerminalBlock` instead of `TerminalBlocks`
 

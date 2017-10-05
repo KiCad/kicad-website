@@ -18,5 +18,5 @@ _Note: Some of the elements listed above may be omitted if not required._
 Example footprint library names:
 
 * `Conn_USB_SMD` - Surface mount USB connectors
-* `Conn_Rect_MOLEX_MicroFit` - Molex MicroFit series rectangular connectors
-* `Capacitor_Tantalum_SMD` - Surface mount Tantalum capacitors
+* `Conn_Molex_MicroFit` - Molex MicroFit series rectangular connectors
+* `Capacitor_Tantalum_SMD` - Surface mount Tantalum capacitors 

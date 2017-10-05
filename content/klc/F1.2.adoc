@@ -1,0 +1,40 @@
++++
+brief = "Connector footprint libraries"
++++
+
+Categorizing connectors _by function_ can prove difficult as many connectors can be used in a wide variety of applications.
+
+Therefore, categorization of connector footprints is given special consideration as detailed below:
+
+1. Connectors are grouped firstly by their _primary function_ (where such a function exists). Examples of _primary function_ include:
+
+* `Conn_USB`
+* `Conn_HDMI`
+* `Conn_Ethernet`
+
+[start=2]
+1. When primary function libraries become too large, they can be split by sub-function or by manufacturer
+
+* `Conn_USB_Molex`
+* `Conn_DSUB_HighDensity`
+
+1. For connectors without a specific function, then connectors are grouped by their _mechanical type_:
+
+* `Conn_Barrel`
+* `Conn_DIN`
+* `Conn_DSUB`
+* `Conn_PinHeader`
+* `Conn_PinSocket`
+* `Conn_Rectangular`
+
+1. Connector libraries can be further split by another qualifier:
+* `Conn_PinHeader_2.54mm`
+* `Conn_PinHeader_1.27mm`
+
+1. Connector libraries can also be split by manufacturer and series, _for multi-purpose connectors_
+
+* `Conn_TerminalBlock_Phoenix_MKDS`
+* `Conn_TerminalBlock_Phoenix_PT`
+* `Conn_TerminalBlock_Wago`
+* `Conn_Rectangular_JST`
+* `Conn_Rectangular_Hirose_DF13`

@@ -6,6 +6,8 @@ Library files must always be commited to GitHub using Unix-style line endings. T
 
 KiCad library files must be compatible across multiple operating systems, and users should be able to contribute without generating unnecessary _noise_ in the files by constantly changing line endings.
 
+When using the KiCad libraries on a Windows PC, the line endings in the library files may be automatically converted to **CR+LF**. This is fine, as long as any contributions made to the libraries observe the **LF** line ending requirements.
+
 This issue is address by insisting that all KiCad libraries include a link:https://git-scm.com/docs/gitattributes[.gitattributes] file. This file ensures that the line endings are automatically converted by Git.
 
 An example of a simple .gitattributes file which ensures footprint files have correct line endings is as follows:
