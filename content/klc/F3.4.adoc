@@ -2,3 +2,16 @@
 brief = "Thermal pads"
 +++
 
+Manufacturer datasheets may specify that thermal vias should be added to the thermal pad under a device package, to assist in moving heat away from the device.
+
+In such cases the datasheet will usually specify the quantity, size and position of these vias.
+
+In addition to manufacturer requirements, a number of extra conventions should be followed when creating thermal vias.
+
+1. Thermal vias must share the same pad number as the pad on which they are placed
+1. Where thermal vias are connected to a pad on the `F.Cu` layer, a copper pad on the `B.Cu` layer should be added, to provide thermal relief for the via. This pad must be large enough to fully surround the via(s) with a margin of `>= 0.5mm`. __Note: If the datasheet gives conflicting advice to the placement of this pad on the `B.Cu` layer, then the datasheet instruction should be given preference.__
+
+[start=3]
+1. Unless instructed by the datasheet, solder paste must not be placed over the thermal via(s). This can cause solder to wick into the via during reflow, and cause solder joint issues.
+1. When submitting a footprint with thermal vias, the suffix `_ThermalVias` should be added to the footprint name
+1. If it does not already exist, a second version of the footprint without the thermal vias should be added. __Note: This second version should not have the `_ThermalVias` suffix in the footprint name.__
