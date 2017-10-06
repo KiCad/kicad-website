@@ -1,0 +1,37 @@
++++
+brief = "Footprint naming for non-standard pin numbering"
++++
+
+Generally, a footprint should include a field of the format `<pkg>-<pincount>`, e.g.
+
+* `SOIC-8`
+* `QFN-24`
+
+In the majority of cases, the pin quantity is self explanatory and is sufficient to describe the number of pins on the symbol.
+
+However there may be cases where this numbering is insufficient. Where the number of footprint pins does not match the number of package pins, exceptions must be made.
+
+**Exception: Omitted pins, missing pin numbers are skipped**
+
+_Example: LTC3638_
+
+The LTC3638 comes in an `MSOP-16` package which has four missing pins, for increased voltage isolation.
+
+{{< klcimg src="F2.6a" title="MSOP-16 package with 4 missing pins" >}}
+
+In this case, the numbers for the missing pins are *skipped* and the normal pin numbers are assigned to the remaining pins.
+
+To indicate this, the footprint should be named as follows:
+
+`PKG-<xx>-<yy>` where:
+
+* `xx` = number of remaining pins
+* `yy` = number of remaining pins + number of removed pins
+
+In the LTC3638 example above, this would result in:
+
+`MSOP-12-16`
+
+The footprint pads should be numbered like so:
+
+{{< klcimg src="F2.6b" title="MSOP-12-16 footprint in KiCad" >}}
