@@ -2,8 +2,8 @@
 brief = "Minimum annular ring width"
 +++
 
-Minimum annular ring width must be at least `0.15mm` (IPC-2221)
+For drilled through-holes, the minimum annular ring width must be at least `0.15mm` (IPC-2221).
 
-```
-TODO - Image describing annular ring
-```
+{{< klcimg src="F6.5a" title="Annular ring" >}}
+
+The annular ring is the copper pad which remains after the hole has been drilled.
