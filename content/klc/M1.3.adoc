@@ -1,18 +1,11 @@
 +++
-brief = "Model alignment and scaling"
+brief = "Source files for 3D models should be supplied"
 +++
 
-The 3D models must be aligned and scaled appropriately to match the associated footprint.
+The KiCad library maintains a repository for 3D source files at link:https://github.com/kicad/kicad-packages3d-source[https://github.com/kicad/kicad-packages3d-source].
 
-=== Alignment
+The _source files_ used to generate 3D model data should be submitted to this repository when a users contributes 3D model data.
 
-The 3D model must be aligned such that it does not require an additional alignment offset in the footprint options. When associating a 3D model with a footprint, the `offset` parameter must read (`0`, `0`, `0`)
+Source files include file generator scripts, or native model files from source software (e.g. FreeCAD).
 
-=== Scaling
-
-1. STEP files include absolute dimensional information, and _should never have a secondary scaling factor applied_. The model `scaling` parameter in KiCad must read (`1`, `1`, `1`)
-1. WRL files do not specify absolute dimensions. KiCad normalizes model parameters to units of _inches_ and the internal units (dimensionless) of the WRL model must be scaled accordingly.
-
-=== Rotation
-
-The model should be rotated such that no additional rotation is required within KiCad.
+The source repository directory structure mirrors that of the kicad-packages-3d repository.

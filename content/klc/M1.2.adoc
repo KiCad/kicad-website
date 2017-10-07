@@ -1,7 +1,14 @@
 +++
-brief = "3D model source files"
+brief = "Manufacturer models should not be duplicated"
 +++
 
-Source files for the 3D models can be submitted to the link:https://github.com/kicad/kicad-packages3d-source[kicad-packages3d-source] repository.
+If a manufacturer provides 3D model data for download from its website, these models should not be duplicated in the KiCad library.
 
-This includes native files from 3D sofware (e.g `FreeCAD`), in addition to scripts used to create models parametrically.
+A link to the manufacturer model files may be added to the `README.md` file within the 3D model directory.
+
+**Exception:**
+
+If 3D model data provided by a manufacturer is of low quality or not available for public download, then these data may be added if the following criteria are met:
+
+* The contributor is the creator of the model data
+* The contributed files provide some advantage over the data supplied by the manufacturer
