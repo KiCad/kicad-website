@@ -17,6 +17,7 @@ The following elements must be provided on the fabrication layer(s)
 1. Footprint polarisation / location of pin-1 is drawn
 .. For IC packages, bevel is drawn at corner next to pin-1
 .. Bevel should be `1mm` or `25% of package size` (whichever is smaller)
+.. For connectors, a small arrow indicator drawn next to pin-1 should be used 
 1. Component value (footprint name) must be displayed on the `F.Fab` layer
 .. Recommended text size = `1.0mm`
 .. Allowable text size = {`0.1mm` to `2.0mm`}
