@@ -1,5 +1,7 @@
 +++
 brief = "Naming conventions for connector footprints."
+layout = 'single_fp_name'
+title = 'Connectors'
 +++
 
 Footprint naming is sufficiently complex that a link:/klc/F2.1/[general rule] is not enough to fully define the wide range of footprints.

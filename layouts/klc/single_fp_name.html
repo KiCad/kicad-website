@@ -1,0 +1,37 @@
+{{ $.Scratch.Add "additional_head_tags" "<link href=\"/fonts/font-linux.css\" rel=\"stylesheet\">" }}
+{{ partial "header.html" .}}
+
+<style>
+
+.klcimg {
+  border: 2px solid #aaa;
+}
+
+.klcimg:hover {
+  opacity: 0.7;
+}
+
+</style>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 {{ if .Scratch.Get "sidemenu" }}col-md-10 col-sm-9{{ else }}col-sm-12{{ end }} post-full">
+      {{ $.Scratch.Set "parrent" "/klc/F2.5/"}}
+      {{ partial "breadcrumb_subsection.html" . }}
+      <header>
+      <h2>KLC {{ .Params.title }}</h2>
+      {{ .Params.brief }}
+      <hr>
+    </header>
+
+      <article>
+        {{ .Content }}
+        <p>
+          <a href="/klc/F2.5/"><span class="fa fa-arrow-left"></span> Back</a>
+        </p>
+      </article>
+    </div>
+  </div>
+</div>
+
+{{ partial "footer.html" .}}
