@@ -27,8 +27,15 @@ The orientation of connectors is determined by the plug direction.
 ==== Manufacturer specific connectors (JST_EH, Molex_PicoBlade, ...)
 ```
 [MAN]{_[manufacturer series name]}_[MPN]_[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
-Standardized connectors with manufacturer specific footprints (USB, HDMI, ...)
 ```
+
+==== Standardized connectors with manufacturer specific footprints (USB, HDMI, ...)
+```
+[generic series name]_[manufacturer name]{_[manufacturer series name]}_[manufacturer part number]{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
+```
+
+i. generic series name: means what is the connector used for. In this case it is for example USB, HDMI, ...
+
 
 
 ==== Standardized connector footprints (Pin headers, socket strips, ...)
