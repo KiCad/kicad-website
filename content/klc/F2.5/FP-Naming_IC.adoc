@@ -67,8 +67,26 @@ i. NSMD/SMD
 ==== Through Hole Packages (DIP / ... )
 
 ```
-[PKG]-[PIN]{_[X]x[Y]{x[Z]}mm}_W[Lead Span]_P[pin pitch]{_Lead[Lead Width]}{_Pad[drill size]{x[pad diameter X]x[pad diameter Y]}}{_footprint options}
+[PKG]-[PIN]{_[X]x[Y]{x[Z]}}_W[Lead Span]_P[pin pitch]{_Lead[Lead Width]}{_PAD[drill size]{x[pad diameter X]x[pad diameter Y]}}{_footprint options}
 ```
 
 i. For THT packages the main identifying dimension is the lead span (not the body size used for SMD IC components)
 i. Body dimensions can be optionally specified
+
+==== TO Through Hole Packages:
+```
+[PKG]-[PIN]{_[X]x[Y]{x[Z]}}{_P[pitch x]{x{pitch y}}}{_[Staggered1 | Staggered2]}{_Lead[Lead length]}{_PAD[drill size]{x[pad diameter X]x[pad diameter Y]}}_[Tab-Down | Vertical | Tab-Up]{_footprint options}
+```
+
+Staggered:
+
+* Type 1 (Staggered1): Odd pins far away from package body
+* Type 2 (Staggered2): Even pins far away from package body
+
+Size Parameters:
+
+{{< klcimg src="to-body_dim" title="Body dimension details" >}}
+
+Orientation:
+
+{{< klcimg_full_width src="to-THT_orientation" title="TO THT orientation" >}}

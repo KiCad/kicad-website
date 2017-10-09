@@ -1,0 +1,47 @@
++++
+brief = "Naming conventions for connector footprints."
++++
+
+Footprint naming is sufficiently complex that a link:/klc/F2.1/[general rule] is not enough to fully define the wide range of footprints.
+
+Following is a list of naming conventions for various groups of footprint types. If you do not find a matching convention in the list below, contact the KiCad library team or find an existing set of components in the libraries that closely match your requirements.
+
+{{< fp_naming_common >}}
+
+=== Connectors
+```
+{[generic series name]_}{[manufacturer specific identification]}{_[pin configuration]x[pin pitch]mm}{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
+```
+The pin configuration field is dependent on the connector type.
+
+* Single row connectors: [number of pins]
+* Multi row connectors with equal number of pins in each row: [number of rows]x[number of pins per row]
+* Other connectors: [number of rows]Rows_[number of pins]
+
+generic series name: means what is the connector used for. In this case it is for example USB, HDMI, ...
+
+The orientation of connectors is determined by the plug direction.
+
+{{< klcimg_full_width src="connector_orientation" title="The orientation of connectors is determined by the plug direction." >}}
+
+==== Manufacturer specific connectors (JST_EH, Molex_PicoBlade, ...)
+```
+[MAN]{_[manufacturer series name]}_[MPN]_[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
+Standardized connectors with manufacturer specific footprints (USB, HDMI, ...)
+```
+
+
+==== Standardized connector footprints (Pin headers, socket strips, ...)
+```
+[generic series name]_{[MAN]{_[manufacturer series name]}_[MPN]}_[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
+```
+These connectors typically do not include manufacturer specific information.
+
+==== Terminal Blocks (Screw headers)
+```
+TerminalBlock_[MAN]{_[manufacturer series name]}_[MPN]_[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
+```
+Orientation:
+For terminal Blocks the orientation is determined by the direction of the cable slot.
+
+{{< klcimg_full_width src="terminal_block_orientation" title="For terminal Blocks the orientation is determined by the direction of the cable slot." >}}
