@@ -6,7 +6,7 @@ title = "KiCad Libraries"
     weight = 4
 +++
 
-A high quality set of EDA libraries is important to any KiCad user, from hobbyists to industry professionals. KiCad provides a set of link:/libraries/[open source, community contributed libraries].
+A high quality set of EDA libraries is important to any KiCad user, from hobbyists to industry professionals. KiCad provides a set of link:/libraries/[open source, community contributed libraries] which are distributed via link:https://github.com/kicad[GitHub].
 
 The KiCad libraries are licensed under Creative Commons link:/libraries/license[(more information here)].
 
@@ -30,13 +30,8 @@ A 3D model library is a *directory* which has the `.3dshapes` extension. Each 3D
 
 === Template Libraries
 
-The template libraries contain example projects for `... //TODO ...`
-
-== Installing Libraries
+The template libraries contain example projects for
 
 ```
-TODO - Complete this section
-
-- How to add libraries to project
-- Why not all libraries are installed by default
+... //TODO ...
 ```
