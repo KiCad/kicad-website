@@ -37,9 +37,9 @@ The orientation of connectors is determined by the plug direction.
 [MAN]{_[manufacturer series name]}_[MPN]_[pin configuration]_P[pin pitch]{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
 
-==== Connectors for standartized interfaces with manufacturer specific footprints (USB, HDMI, ...)
+==== Connectors for standardized interfaces with manufacturer specific footprints (USB, HDMI, SD-Card, ...)
 ```
-[generic series name]_[manufacturer name]{_[manufacturer series name]}_[manufacturer part number]{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
+[generic series name]_[MAN]{_[manufacturer series name]}_[MPN]{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
 
 generic series name:
@@ -56,14 +56,19 @@ i. `DVI_[Type]{_Size}`
 i. `SD_[Standard]{_[Size]}{_UHS_[UHS Type]}`
   * Standard: SC, HC, XC or IO (Specification of your component. Yes some of them are Backwards compatible, give the highest standard specified.)
   * Size: None = normal, Mini, Micro
-  * For UHS enabled compoents the UHS type needs to be given. (Especially for UHS II or III because these have more pins.)
+  * For UHS enabled components the UHS type needs to be given.
 
+==== Connectors for standardized connectors with manufacturer specific footprints (DSUB, Tab, ...)
+```
+[generic series name]_[MAN]{_[manufacturer series name]}_[MPN]_[pin configuration]_P[pin pitch]{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
+```
+The main difference between thes type of connectors and standardized interface connectors is the inclusion of the pin configuration.
 
-==== Standardized connector footprints (Pin headers, socket strips, ...)
+==== Generic connector footprints (For standardized connectors like: Pin headers, socket strips, ...)
 ```
-[generic series name]_{[MAN]{_[manufacturer series name]}_[MPN]}_[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
+[generic series name]_[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
-These connectors typically do not include manufacturer specific information.
+Generic connectors do not include manufacturer specific information.
 
 ==== Terminal Blocks (Screw headers)
 ```
