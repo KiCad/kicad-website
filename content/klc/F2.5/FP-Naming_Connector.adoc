@@ -12,15 +12,21 @@ Following is a list of naming conventions for various groups of footprint types.
 
 === Connectors
 ```
-{[generic series name]_}{[manufacturer specific identification]}{_[pin configuration]x[pin pitch]mm}{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
+{[generic series name]_}{[manufacturer specific identification]}{_[pin configuration]_P[pin pitch]}{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
 The pin configuration field is dependent on the connector type.
 
-* Single row connectors: [number of pins]
+* Single row connectors: 1x[number of pins]
 * Multi row connectors with equal number of pins in each row: [number of rows]x[number of pins per row]
 * Other connectors: [number of rows]Rows_[number of pins]
+* Connectors for standardized interfaces do not need to include the pin configuration information. (Example USB)
 
-generic series name: means what is the connector used for. In this case it is for example USB, HDMI, ...
+Number format:
+
+* [number of rows] number of rows no leading zero.
+* [number of pins per row] and [number of pins] two digit number with leading zero. (can have more digits for connectors with > 100 pins)
+
+generic series name: The generic name for the type of connector.
 
 The orientation of connectors is determined by the plug direction.
 
@@ -28,16 +34,29 @@ The orientation of connectors is determined by the plug direction.
 
 ==== Manufacturer specific connectors (JST_EH, Molex_PicoBlade, ...)
 ```
-[MAN]{_[manufacturer series name]}_[MPN]_[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
+[MAN]{_[manufacturer series name]}_[MPN]_[pin configuration]_P[pin pitch]{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
 
-==== Standardized connectors with manufacturer specific footprints (USB, HDMI, ...)
+==== Connectors for standartized interfaces with manufacturer specific footprints (USB, HDMI, ...)
 ```
 [generic series name]_[manufacturer name]{_[manufacturer series name]}_[manufacturer part number]{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
 
-i. generic series name: means what is the connector used for. In this case it is for example USB, HDMI, ...
+generic series name:
 
+i. `USB{_[Standard]}{_[Size]}_[Type]`
+  * Standard only needed for USB 3 (non backward compatible connectors)
+  * Size: none, micro, mini
+  * Type: A, B, C
+i. `HDMI_[Type]`
+  * Type A = Normal, Type B = Dual Link, Type C = Mini, Type D = Micro, Type E = Automotive
+i. `DVI_[Type]{_Size}`
+  * Type: I = integrated, D = digital only, A = analog only
+  * Size: None = normal, Mini or Mircro
+i. `SD_[Standard]{_[Size]}{_UHS_[UHS Type]}`
+  * Standard: SC, HC, XC or IO (Specification of your component. Yes some of them are Backwards compatible, give the highest standard specified.)
+  * Size: None = normal, Mini, Micro
+  * For UHS enabled compoents the UHS type needs to be given. (Especially for UHS II or III because these have more pins.)
 
 
 ==== Standardized connector footprints (Pin headers, socket strips, ...)
