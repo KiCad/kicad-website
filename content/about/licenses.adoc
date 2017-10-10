@@ -5,7 +5,7 @@ categories = [ "About" ]
     parent = "About"
     name   = "Licenses"
 +++
-:toc: macro 
+:toc: macro
 :toc-title:
 :toclevels: 5
 
@@ -20,6 +20,10 @@ There is no requirement to assign your copyright to anyone to get code included 
 == Documentation License
 
 link:/help/documentation/[KiCad documentation] is distributed under a two license choice of either the GNU General Public License version 3 or later, or the Creative Commons Attribution License version 3.0 or later.
+
+== Library License
+
+The link:/libraries[KiCad libraries] are distributed under the CC-BY-SA 4.0 license. Further information is link:/libraries/license[available here].
 
 == Website License
 
