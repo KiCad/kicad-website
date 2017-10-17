@@ -4,10 +4,6 @@ layout = 'single_fp_name'
 title = 'Connectors'
 +++
 
-Footprint naming is sufficiently complex that a link:/klc/F2.1/[general rule] is not enough to fully define the wide range of footprints.
-
-Following is a list of naming conventions for various groups of footprint types. If you do not find a matching convention in the list below, contact the KiCad library team or find an existing set of components in the libraries that closely match your requirements.
-
 {{< fp_naming_common >}}
 
 === Connectors
@@ -62,7 +58,7 @@ i. `SD_[Standard]{_[Size]}{_UHS_[UHS Type]}`
 ```
 [generic series name]_[MAN]{_[manufacturer series name]}_[MPN]_[pin configuration]_P[pin pitch]{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
-The main difference between thes type of connectors and standardized interface connectors is the inclusion of the pin configuration.
+The difference between these types of connectors and standardized interface connectors is the inclusion of the pin configuration.
 
 ==== Generic connector footprints (For standardized connectors like: Pin headers, socket strips, ...)
 ```
