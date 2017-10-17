@@ -2,29 +2,37 @@
 brief = "Naming conventions for individual footprint types"
 +++
 
-Footprint naming is sufficiently complex that a link:/klc/F2.1/[general rule] is not enough to fully define the wide range of footprints.
-
-Following is a list of naming conventions for various groups of footprint types. (More details for each group can be found on separate pages.) If you do not find a matching convention in the list below, contact the KiCad library team or find an existing set of components in the libraries that closely match your requirements.
-
 {{< fp_naming_common >}}
-
-For each of the items listed below, if the footprint is specific to a single manufacturer, then the footprint name should be prefixed as follows:
-
-`[MAN]\_[MPN]_` (More detailse see link:/klc/F2.4/[F2.4 Manufacturer Specific Footprints])
 
 === Standard IC packages
 
 ```
 [PKG]-[PIN]{-[EP qty]EP}_[X]xY{x[Z]}_P[pitch]{_Lead[Lead details]}{_EP[X]x[Y]{_Mask[X]x[Y]}}{_PAD[pad modifiers]}{_[footprint options]}
 ```
-link:{{< relref "klc/F2.5/FP-Naming_IC.adoc" >}}[More details about IC footprint naming]
+link:{{< relref "klc/F2.5/FP-Naming_IC.adoc" >}}[More details]
+
+=== Standardized Two Terminal Rectangular SMD Packages
+```
+[Device Short-code]_[Imperial Size Code]in_[Metric Size Code]mm
+```
+link:{{< relref "klc/F2.5/FP-Naming_TwoTerminalSMD.adoc" >}}[More details]
 
 === Connectors
 
 ```
 {[generic series name]_}{[manufacturer specific identification]}{_[pin configuration]x[pin pitch]mm}{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
-link:{{< relref "klc/F2.5/FP-Naming_Connector.adoc" >}}[More details about connector footprint naming]
+link:{{< relref "klc/F2.5/FP-Naming_Connector.adoc" >}}[More details]
+
+=== Fuses and Fuse Holders
+
+```
+Fuseholder_[Fuse Type]_[MAN]_[Manufacturer series name]_[MPN]{_Pad[pad modifier]}}_[orientation]_[Closed | Open]{_footprint options}
+```
+```
+Fuse_{[MAN]_[Manufacturer series name]_[MPN]}{_[Body Size]}{_Pad[pad modifier]}}{_[orientation]}{_footprint options}
+```
+link:{{< relref "klc/F2.5/FP-Naming_Fuse.adoc" >}}[More details]
 
 === Transformers
 

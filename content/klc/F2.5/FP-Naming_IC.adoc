@@ -4,10 +4,6 @@ layout = 'single_fp_name'
 title = 'Standard IC Packages'
 +++
 
-Footprint naming is sufficiently complex that a link:/klc/F2.1/[general rule] is not enough to fully define the wide range of footprints.
-
-Following is a list of naming conventions for various groups of footprint types. If you do not find a matching convention in the list below, contact the KiCad library team or find an existing set of components in the libraries that closely match your requirements.
-
 {{< fp_naming_common >}}
 
 For each of the items listed below, if the footprint is specific to a single manufacturer, then the footprint name should be prefixed as follows:
@@ -17,7 +13,7 @@ For each of the items listed below, if the footprint is specific to a single man
 === Standard IC packages
 
 ```
-[PKG]-[PIN]{-[EP qty]EP}_[X]xY{x[Z]}_P[pitch]{_Lead[Lead details]}{_EP[X]x[Y]{_Mask[X]x[Y]}}{_PAD[pad modifiers]}{_[footprint options]}
+[PKG]-[PIN]{-[EP qty]EP}_[X]x[Y]{x[Z]}_P[pitch]{_Lead[Lead details]}{_EP[X]x[Y]{_Mask[X]x[Y]}}{_PAD[pad modifiers]}{_[footprint options]}
 ```
 i. The package name refers to the name most commonly used in the industry. Generally this implies JEDEC naming but there is room to move here.
 i. Pin count is the number of _uniquely numbered_ pads (excluding any exposed pads under the device)
