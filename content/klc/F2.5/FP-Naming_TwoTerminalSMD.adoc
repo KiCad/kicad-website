@@ -12,7 +12,7 @@ For each of the items listed below, if the footprint is specific to a single man
 
 === Standardized Two Terminal Rectangular SMD Packages
 ```
-[Device Short-code]_[Imperial Size Code]in_[Metric Size Code]mm
+[Device Short-code]{{< fp_naming_TwoTerminal >}}
 ```
 
 The device short code depends on the device.

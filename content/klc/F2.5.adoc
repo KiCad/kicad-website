@@ -11,11 +11,17 @@ brief = "Naming conventions for individual footprint types"
 ```
 link:{{< relref "klc/F2.5/FP-Naming_IC.adoc" >}}[More details]
 
-=== Standardized Two Terminal Rectangular SMD Packages
+=== Standardized Two Terminal Rectangular SMD Packages (R, C, ...)
 ```
-[Device Short-code]_[Imperial Size Code]in_[Metric Size Code]mm
+[Device Short-code]{{< fp_naming_TwoTerminal >}}
 ```
 link:{{< relref "klc/F2.5/FP-Naming_TwoTerminalSMD.adoc" >}}[More details]
+
+=== Resistor footprints
+```
+R{_[general series name]}{_[Body Size]_P[pitch]}{_Pad[pad modifier]}}{_[orientation]}{_footprint options}
+```
+link:{{< relref "klc/F2.5/FP-Naming_Resistor.adoc" >}}[More details]
 
 === Connectors
 
