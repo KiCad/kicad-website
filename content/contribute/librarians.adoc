@@ -24,7 +24,7 @@ If you are new to GitHub, please check out this guide
 https://guides.github.com/activities/contributing-to-open-source[Contributing to Open Source on GitHub]
 before you start.
 
-== link:/klc[KLC]
+== KLC
 
 When creating/editing/fixing a symbol or footprint a set of conventions should be followed. They are the link:/klc[KiCad Library Convention],
 or KLC for short. It is important the users are familiar with the KLC before making a contribution.
