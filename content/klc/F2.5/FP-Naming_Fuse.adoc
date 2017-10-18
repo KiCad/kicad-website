@@ -34,7 +34,7 @@ Fuse_{[MAN]_[Manufacturer series name]_[MPN]}{_[Body Size]}{_Pad[pad modifier]}}
 
 ==== Standardized two terminal rectangular SMD packages
 ```
-Fuse_[Imperial Size Code]in_[Metric Size Code]mm
+Fuse{{< fp_naming_TwoTerminal >}}
 ```
 link:{{< relref "klc/F2.5/FP-Naming_TwoTerminalSMD.adoc" >}}[More details]
 

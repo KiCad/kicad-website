@@ -12,14 +12,22 @@ For each of the items listed below, if the footprint is specific to a single man
 
 === Resistor Footprints
 ```
-R{_[general series name]}{_[Body Size]}{_Pad[pad modifier]}}_[orientation]_[Closed | Open]{_footprint options}
+R{_[general series name]}{_[Body Size]_P[pitch]}{_Pad[pad modifier]}}{_[orientation]}{_footprint options}
 ```
 
 ==== Standardized two terminal rectangular SMD packages
 ```
-R_[Imperial Size Code]in_[Metric Size Code]mm
+R{{< fp_naming_TwoTerminal >}}
 ```
 link:{{< relref "klc/F2.5/FP-Naming_TwoTerminalSMD.adoc" >}}[More details]
 
 
 ==== Resistor Array
+```
+ToDo
+```
+
+==== Standard THT axial resistor
+```
+R_Axial_L[lenght]_D[diameter]_P[pitch]_{_Pad[pad modifier]}}_[orientation]{_footprint options}
+```
