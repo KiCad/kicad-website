@@ -1,5 +1,5 @@
 +++
-brief = "Manufacturer specific version of generic footprints"
+brief = "Naming of manufacturer specific footprints"
 +++
 
 If a manufacturer footprint deviates from the "standard" footprints available, then this should be added to the library and designated as manufacturer-specific.

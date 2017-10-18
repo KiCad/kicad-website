@@ -1,0 +1,97 @@
++++
+brief = "Naming conventions for individual footprint types"
++++
+
+Footprint naming is sufficiently complex that a link:/klc/F2.1/[general rule] is not enough to fully define the wide range of footprints.
+
+Following is a list of naming conventions for various groups of footprint types. If you do not find a matching convention in the list below, contact the KiCad library team or find an existing set of components in the libraries that closely match your requirements.
+
+In the entries below, variable fields are denoted as follows:
+
+* **[]** - Required
+* **{}** - Optional
+
+Also, some field names are abbreviated as follows:
+
+* `MAN` - Manufacturer name
+* `MPN` - Manufacturer part name
+* `PKG` - Package name
+* `PIN` - Pin count
+* `X` - Length along x axis
+* `Y` - Length along y axis
+* `Z` - Length along z axis
+* `L` - Length along major axis
+* `W` - Length along minor axis
+
+For each of the items listed below, if the footprint is specific to a single manufacturer, then the footprint name should be prefixed as follows:
+
+`[MAN]_[MPN]`
+
+=== Standard IC packages
+
+```
+[PKG]-[PIN]{-[EP qty]EP}_[X]xY{x[Z]}_P[pitch]{_PAD[pad modifiers]}{_[footprint options]}
+```
+i. The package name refers to the name most commonly used in the industry. Generally this implies JEDEC naming but there is room to move here.
+i. Pin count is the number of _uniquely numbered_ pads (excluding any exposed pads under the device)
+i. Pad modifiers are different for various IC footprint types.
+i. Various footprint options are available:
+  * `HandSoldering`
+  * `ThermalVias`
+
+=== Gull Wing Packages (SOIC / SOP / QFP / ... )
+
+```
+[PKG]-[PIN]{-[EP qty]EP}_[X]x[Y]{x[Z]}_P[pitch]{_CL[clearance]}{_EP[X]x[Y]mm{_Mask[X]x[Y]mm}}{_PAD[L]{x[W]}}{_footprint options}
+```
+
+i. Clearance is used to indicate non-standard pin clearance (e.g. opto isolators)
+
+=== J-Lead Packages (SOJ / PLCC / ... )
+
+```
+[PKG]-[PIN]{-[EP qty]EP}_[X]x[Y]{x[Z]}_P[pitch]{_CL[clearance]mm}{_EP[X]x[Y]mm{_Mask[X]x[Y]mm}}{_PAD[L]{x[W]}}{_footprint options}
+```
+
+=== No-Lead Packages (DFN / QFN / ... )
+
+```
+[PKG]-[PIN]{-[EP qty]EP}_[X]x[Y]{x[Z]}_P[pitch]{_Lead[X]{x[Y]}{_EP[X]x[Y]{_Mask[X]x[Y]}}{_PAD[L]{x[W]}}{_footprint options}
+```
+
+i. The lead length is the nominal lead length for which the footprint is designed
+i. Optionally the nominal lead with can also be provided
+
+=== Ball Grid Packages (BGA / LGA / ... )
+
+```
+[PKG]-[PIN]_[num col]x[num rows]_[X]x[Y]{x[Z]}mm_P[ball pitch x]{x[ball pitch y]}mm_D[Ball Diameter]mm_[NSMD/SMD]{_footprint options}
+```
+
+i. For BGA simply providing the pin count is not sufficient. It is also necessary to provide the number of columns (x direction) and rows (y direction).
+i. Some BGA packages have different pitch in x and y directions. If this is the case then both pitch dimensions need to be provided
+i. The ball diameter for which the footprint is designed needs to be provided
+i. NSMD/SMD
+  * NSMD means the footprint is designed for `non solder mask defined` (mask cutout is larger than copper pad)
+  * SMD means the footprint is designed for `solder mask defined` (mask cutout is smaller than copper pad)
+
+=== Through Hole Packages (DIP / ... )
+
+```
+[PKG]-[PIN]{_[X]x[Y]{x[Z]}mm}_W[Lead Span]mm_P[pin pitch]mm{_Lead[Lead Width]mm}{_Pad[pad length]{x[pad width]}}{_footprint options}
+```
+
+i. For THT packages the main identifying dimension is the lead span (not the body size used for SMD IC components)
+i. Body dimensions can be optionally specified
+
+=== Connectors
+
+```
+TODO
+```
+
+=== Transformers
+
+```
+TODO
+```

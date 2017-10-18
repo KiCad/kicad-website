@@ -36,5 +36,5 @@ Therefore, categorization of connector footprints is given special consideration
 * `Conn_TerminalBlock_Phoenix_MKDS`
 * `Conn_TerminalBlock_Phoenix_PT`
 * `Conn_TerminalBlock_Wago`
-* `Conn_Rectangular_JST`
-* `Conn_Rectangular_Hirose_DF13`
+* `Conn_JST`
+* `Conn_Hirose_DF13`
