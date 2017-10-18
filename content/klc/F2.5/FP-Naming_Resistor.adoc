@@ -12,7 +12,7 @@ For each of the items listed below, if the footprint is specific to a single man
 
 === Resistor Footprints
 ```
-R{_[general series name]}{_[Body Size]_P[pitch]}{_Pad[pad modifier]}}{_[orientation]}{_footprint options}
+R{_[style]}{_[Body Size]_P[pitch]}{_Pad[pad modifier]}}{_[orientation]}{_footprint options}
 ```
 
 ==== Standardized two terminal rectangular SMD packages
