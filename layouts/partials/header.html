@@ -32,9 +32,9 @@
     
     <title>{{ replace .Title "-" " " }}{{if ne .Site.Title .Title }} | {{ .Site.Title }} {{ end }}</title>
 
-    {{ if .RSSlink }}
-    <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-    <link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+    {{ if .RSSLink }}
+    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+    <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
     {{ end }}
 
     <!-- Bootstrap Core CSS -->

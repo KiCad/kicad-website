@@ -23,8 +23,10 @@
 			<!-- sidebar menu start-->
 			<h3>All&nbsp;Platforms</h3>
 			<ul class="list-unstyled side-links list-group download-sidebar">
-				{{ range .Site.Sections.download.Pages }}
-					<li class="list-group-item{{ if  eq $currentNode . }} active{{ end }}"><a href="{{ .RelPermalink }}">{{ .Params.iconhtml | safeHTML }} {{ .Title }}</a></li>
+				{{ range where .Site.Sections "Title" "Download" }}
+					{{ range .Pages }}
+						<li class="list-group-item{{ if  eq $currentNode . }} active{{ end }}"><a href="{{ .RelPermalink }}">{{  safeHTML .Params.iconhtml }} {{ .Title }}</a></li>
+					{{ end }}
 				{{ end }}
 			</ul>
 			<!-- sidebar menu end-->
