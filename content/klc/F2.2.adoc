@@ -2,13 +2,13 @@
 brief = "Footprint naming prefix abbreviations"
 +++
 
-A footprint name has to convey a lot of information to clearly specify the purpose and parameters of the footprint. Some fields in footprint names are _common_ to many footprints and can be abbreviated using special prefixes.
+A footprint name has to convey a lot of information to clearly specify the purpose and parameters of the footprint. Some fields in footprint names are _common_ to many footprints and can be shortened using special abbreviations.
 
 Not all footprints will require the use of these abbreviations - they are provided as a method of standardising the manner in which footprint parameters are called out when encountered.
 
 For IC packages, the first dimension specified is always the size of the package body, in the following format:
 
-`XxY{yZ}` where `Z` dimension is optional.
+`X` x `Y` {x `Z`} where `Z` dimension is optional.
 
 e.g. `SOIC-8_3.2x5.7_P1.27mm`
 

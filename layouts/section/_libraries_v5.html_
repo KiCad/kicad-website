@@ -1,0 +1,14 @@
+<!-- Replace library information with this when switching to v5 -->
+
+<h2>Latest Libraries</h2>
+<p>The latest complete set of official KiCad libraries are available as Git repositories at the following links. Each library set can also be downloaded as a compressed archive, for users who do not wish to use Git.</p>
+
+{{ partial "github_lib_table.html" . }}
+
+<h2>Stable Library Releases</h2>
+
+<p>
+The libraries are periodically compiled into stable <i>releases</i> which can be downloaded from the links below.
+</p>
+
+{{ partial "github_release_table.html" }}

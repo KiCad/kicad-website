@@ -27,11 +27,3 @@ A footprint library is a *directory* which has the `.pretty` extension. Each foo
 === 3D Model Libraries
 
 A 3D model library is a *directory* which has the `.3dshapes` extension. Each 3D model library contains model files with various extensions.
-
-=== Template Libraries
-
-The template libraries contain example projects for
-
-```
-... //TODO ...
-```
