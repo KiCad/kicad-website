@@ -1,0 +1,16 @@
+# Install the apt prerequisites
+addons:
+  apt:
+    packages:
+      - ruby
+      - wget
+
+# We need asciidoctor and exact hugo version
+before_install:
+  - sudo gem install asciidoctor
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.16/hugo_0.16-1_amd64.deb
+  - sudo dpkg -i hugo_0.16-1_amd64.deb
+
+# Build the website
+script:
+  - hugo
