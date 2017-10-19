@@ -31,9 +31,9 @@ from source] and its subpages.
 Thank you to all developers, packagers, librarians, document writers,
 translators, and everyone else who helped make this release possible.
 
-=== Changes
+== Changes
 
-==== Library changes:
+=== Library changes:
 You may need to update your footprint library table in pcbnew, because some
 footprint libraries have been renamed as follows:
 
@@ -49,14 +49,14 @@ footprint libraries have been renamed as follows:
 * Sockets_WAGO734.pretty -> Connectors_WAGO.pretty
 * Terminal_Blocks.pretty -> Connectors_Terminal_Blocks.pretty
 
-==== Changes related to a reported bug:
+=== Changes related to a reported bug:
 
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=5127a6bd09e22341a3eaac0abcea069e19fc9ac3[Pcbnew: fix an issue where path separators are not translated from \ in Windows to / on Unix.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=556be7b4314341d5ed72aa24628f58c835d4f17d[Pcbnew: do not use default board solder mask clearance in footprint editor.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=df191606ab28d38aaa1e4e0bbf3b44600ffbf916[Pcbnew: fix a potential incompatibility (due to an old bug) with files which could be created by some recent Pcbnew versions.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=d1f8dbb9debe128ddd015edb1ff0fa954a8a08a7[Eeschema: fix rotate bug in symbol library editor.]
 
-==== Changes without a bug report:
+=== Changes without a bug report:
 
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=981fddc649243a377aff29dbd4d65215d4ec6640[Replace avhttp with libcurl.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=0145a03f792953aa13b2e0362028bb322f87ae6a[Pcbnew: fix a potential bug where a GAL canvas method was called from the legacy canvas.]

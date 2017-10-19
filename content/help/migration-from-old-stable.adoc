@@ -14,7 +14,7 @@ This issue arises if you used the old stable version with a language other than 
 
 You need to edit all `.kicad_pcb` files with a text editor (notepad, ...) and change the layer names from Italian/French to their English counterparts. Below is the correspondance of the layer names. Caution: there are more instances to replace than just the layer list. Be sure that you don't miss any.
 
-==== New English names
+=== New English names
 ----
 (layers
   (15 F.Cu signal)
@@ -35,7 +35,7 @@ You need to edit all `.kicad_pcb` files with a text editor (notepad, ...) and ch
 )
 ----
 
-==== Obsolete Italian names
+=== Obsolete Italian names
 ----
 (layers
   (15 Rame.Fronte signal)
@@ -56,7 +56,7 @@ You need to edit all `.kicad_pcb` files with a text editor (notepad, ...) and ch
 )
 ----
 
-==== Obsolete French names
+=== Obsolete French names
 ----
 (layers
   (15 Front signal)

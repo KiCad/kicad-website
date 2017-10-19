@@ -20,7 +20,7 @@ elements that make up the full KiCad package, which is the KiCad
 documentation (kicad-doc), the user interface translations
 (kicad-i18n), and the schematic, footprint and 3D model libraries.
 
-=== Stable Release
+== Stable Release
 
 Current Version: *4.0.7*
 
@@ -51,7 +51,7 @@ the version string:
 This is not longer needed. This note is kept until the next release.
 
 
-=== Building KiCad
+== Building KiCad
 
 Instructions can be found in compiling.md which is located in the kicad source code under /Documentation/development folder.
 

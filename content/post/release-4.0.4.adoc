@@ -24,7 +24,7 @@ from source] and its subpages.
 Thank you to all developers, packagers, librarians, document writers,
 translators, and everyone else who helped make this release possible.
 
-=== Changes
+== Changes
 
 Below is a list of some commits related to a reported bug:
 
@@ -34,7 +34,7 @@ Below is a list of some commits related to a reported bug:
 * https://bugs.launchpad.net/kicad/+bug/1593389[Pcbnew: fix a minor bug where the DRC report file is always created.]
 * https://bugs.launchpad.net/kicad/+bug/1606332[Pcbnew: fixed a crash when dragging a line was interrupted.]
 
-==== Some changes without a bug tracking number
+=== Some changes without a bug tracking number
 
 * FUTURE_FORMAT_ERROR: don't nest errors unnecessarily.
 

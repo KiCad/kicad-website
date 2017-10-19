@@ -26,9 +26,9 @@ from source] and its subpages.
 Thank you to all developers, packagers, librarians, document writers,
 translators, and everyone else who helped make this release possible.
 
-=== Changes
+== Changes
 
-==== Changes related to a reported bug:
+=== Changes related to a reported bug:
 
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=63569551a4cc77d02bbc1c3bef347987f6fcf608[Fix broken links and add correct links to about dialog.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=82d7a4e61e8ffd2a2fb421f892fdc27b3ad9eb26[Eeschema: highlight the first choice in rescue dialog.]
@@ -43,7 +43,7 @@ translators, and everyone else who helped make this release possible.
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=133cb01f7907914d91872e4100caa75a708d40b0[Fix crash when dragging a track.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=aba04c6ec51582f9f54b1afc9ea672e67021e40f[Remove leading/trailing white space error message from field validator.]
 
-==== Changes without a bug report:
+=== Changes without a bug report:
 
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=3b7aa48d16a2cd3567afff4dd16b4defdd467131[Pcbnew: fix bug loading board files written when layers could have numeric names.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=7a5e6324554f3391e0d011ddbbd7555c21c2be69[Pcbnew: prevent segfault when outline has no vertices reading P-CAD file.]

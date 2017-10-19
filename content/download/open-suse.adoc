@@ -4,13 +4,13 @@ iconhtml = "<div class='fl-opensuse'></div>"
 weight = 20
 +++
 
-=== 4.0 Stable release
+== 4.0 Stable release
 
 KiCad 4.0.2 is available in the main OSS repository for openSUSE Tumbleweed or in link:http://software.opensuse.org/download.html?project=electronics&package=kicad[opensuse electronics repository] for other openSUSE versions. See the link:https://build.opensuse.org/package/show/electronics/kicad[OBS page] for details.
 
 Please report openSUSE-specific bugs via "Report Bug" button on OBS page.
 
-=== Nightly Development Builds
+== Nightly Development Builds
 Nightly development builds for openSUSE are available as _kicad-unstable_ in the link:http://software.opensuse.org/download.html?project=electronics&package=kicad-unstable[opensuse unstable electronics repository]. See link:https://build.opensuse.org/package/show/electronics/kicad-unstable[OBS page] for details.
 
 Please report openSUSE-specific bugs via the "Report Bug" button on OBS page.

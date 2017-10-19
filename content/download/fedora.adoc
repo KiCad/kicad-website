@@ -4,7 +4,7 @@ iconhtml = "<div class='fl-fedora'></div>"
 weight = 20
 +++
 
-=== Stable Release
+== Stable Release
 In general, latest Fedora releases ship the stable versions KiCad as they are
 released.
 
@@ -21,7 +21,7 @@ to install a testing package:
 [source,bash]
 dnf --enablerepo=updates-testing install kicad
 
-=== Nightly Development Builds
+== Nightly Development Builds
 
 Nightly development builds for Fedora are available via the
 link:https://copr.fedorainfracloud.org/coprs/g/kicad/kicad/[copr build

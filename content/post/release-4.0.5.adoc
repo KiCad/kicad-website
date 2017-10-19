@@ -23,9 +23,9 @@ from source] and its subpages.
 Thank you to all developers, packagers, librarians, document writers,
 translators, and everyone else who helped make this release possible.
 
-=== Changes
+== Changes
 
-==== Changes related to a reported bug:
+=== Changes related to a reported bug:
 
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=5b4542231e99a9741c9ed0f54cabfbec9df051c2[KiCad: fix crash when attempting to view ERC log with text editor.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=ca0aa6c971bf7a6d57e64b44035bb251ba938a83[Pcbnew: fix several auto save file issues.]
@@ -37,7 +37,7 @@ translators, and everyone else who helped make this release possible.
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=5a3c944b2a4642a3e1b2dad4970e92bcf2965a2d[Fix crash when BOARD members are changed and PNS is active.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=5f01ca8f8831241b63c2d6540340434c6877af46[Fix wrong CSV BOM format using bom2csv.xsl script with custom entries.]
 
-==== Changes without a bug report:
+=== Changes without a bug report:
 
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=115d70e06076b7db7b1bbb6177edbb8b1c46cabb[Fixed a crash when drawing a single point polyline.]
 * https://git.launchpad.net/kicad/commit/?h=4.0&id=89e7d8922318e26e95a462f4194f9e4f2a7f885c[Gerbview: make print dialog display graphic layers list on some windows managers like Unity.]

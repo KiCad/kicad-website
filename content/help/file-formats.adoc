@@ -12,7 +12,7 @@ KiCad writes all files in human readable ASCII. This makes
 manipulation by hand and scripting very easy. The following is a
 listing on what the different files are used for.
 
-=== Native file formats
+== Native file formats
 
 The `.sch`, `.lib`, `.brd`, `.kicad_pcb` and `.kicad_wks` file formats
 are
@@ -72,7 +72,7 @@ link:http://bazaar.launchpad.net/~stambaughw/kicad/doc-read-only/download/head:/
 
 KiCad uses a few temporary file formats internally. The files it creates with these extensions (marked above with "^*^" ) can be excluded from version control software since they can be automatically regenerated from the source files when necessary.
 
-=== Dedicated file formats
+== Dedicated file formats
 
 KiCad writes and reads some file formats dedicated to certain operation in collaboration with tools external to KiCad.
 
@@ -98,7 +98,7 @@ link:http://www.freerouting.net/[FreeRouting]).
 
 * `.d356`: IPC-D-356 netlist that provides information about test points and connections. Generated in Pcbnew from `File` > `Fabrication Outputs` > `IPC-D-356`
 
-=== Other formats used by the KiCad project
+== Other formats used by the KiCad project
 
 * `.pdf`: All the help documentation intended to be read by KiCad users is in `.pdf` format.
 

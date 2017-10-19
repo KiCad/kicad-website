@@ -19,10 +19,9 @@ Linux in the near future, see the link:../../download[download page]
 for guidance.
 
 Instructions for packagers can be found on
-link:../../download/source/[the download page describing how to build
-from source] and its subpages.
+link:../../download/source/[the download page describing how to build from source] and its subpages.
 
-=== Changes
+== Changes
 
 Below is a list of some commits related to a reported bug:
 
@@ -45,7 +44,7 @@ Below is a list of some commits related to a reported bug:
 * https://bugs.launchpad.net/kicad/+bug/1527804[Eeschema: Fix segfault when loading malformed libraries]
 * https://bugs.launchpad.net/kicad/+bug/1525552[Pcbnew: Fix crash on undo pad placement in the footprint editor using GAL canvases]
 
-==== Some changes without a bug tracking number
+=== Some changes without a bug tracking number
 
 * Pcbnew: DRC allow technical->copper pad overlap
 * Pcbnew: Fixed ratsnest for PCBs imported using plugins (GAL)

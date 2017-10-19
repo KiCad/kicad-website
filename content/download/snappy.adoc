@@ -4,7 +4,7 @@ iconhtml = "<div class='fl-snappy'></div>"
 weight = 30
 +++
 
-=== Stable Release
+== Stable Release
 
 To install KiCad via the `snap`, you can use the Terminal:
 
@@ -16,6 +16,6 @@ After install of the snap image execute the following command to prepare the KiC
 [source,bash]
 snap run kicad-snap.kicad
 
-=== Snapcraft source
+== Snapcraft source
 
 You can find the build script to build from source link:https://github.com/eldarkg/kicad-snap/tree/4.0[here].
