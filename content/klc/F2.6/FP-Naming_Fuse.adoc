@@ -36,7 +36,7 @@ Fuse_{[MAN]_[Manufacturer series name]_[MPN]}{_[Body Size]}{_Pad[pad modifier]}}
 ```
 Fuse{{< fp_naming_TwoTerminal >}}
 ```
-link:{{< relref "klc/F2.5/FP-Naming_TwoTerminalSMD.adoc" >}}[More details]
+link:{{< relref "klc/F2.6/FP-Naming_TwoTerminalSMD.adoc" >}}[More details]
 
 ==== Manufacturer Specific fuses
 ```

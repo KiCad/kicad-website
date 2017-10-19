@@ -1,0 +1,47 @@
++++
+brief = "Naming conventions for individual footprint types"
++++
+
+{{< fp_naming_common >}}
+
+=== Standard IC packages
+
+```
+[PKG]-[PIN]{-[EP qty]EP}_[X]xY{x[Z]}_P[pitch]{_Lead[Lead details]}{_EP[X]x[Y]{_Mask[X]x[Y]}}{_PAD[pad modifiers]}{_[footprint options]}
+```
+link:{{< relref "klc/F2.6/FP-Naming_IC.adoc" >}}[More details]
+
+=== Standardized Two Terminal Rectangular SMD Packages (R, C, ...)
+```
+[Device Short-code]{{< fp_naming_TwoTerminal >}}
+```
+link:{{< relref "klc/F2.6/FP-Naming_TwoTerminalSMD.adoc" >}}[More details]
+
+=== Resistor footprints
+```
+R{_[general series name]}{_[Body Size]_P[pitch]}{_Pad[pad modifier]}}{_[orientation]}{_footprint options}
+```
+link:{{< relref "klc/F2.6/FP-Naming_Resistor.adoc" >}}[More details]
+
+=== Capacitor footprints
+```
+[C | CP]{_[style]}{_[Body Size]_P[pitch]}{_Pad[pad modifier]}}{_footprint options}
+```
+link:{{< relref "klc/F2.6/FP-Naming_Capacitor.adoc" >}}[More details]
+
+=== Connectors
+
+```
+{[generic series name]_}{[manufacturer specific identification]}{_[pin configuration]x[pin pitch]mm}{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
+```
+link:{{< relref "klc/F2.6/FP-Naming_Connector.adoc" >}}[More details]
+
+=== Fuses and Fuse Holders
+
+```
+Fuseholder_[Fuse Type]_[MAN]_[Manufacturer series name]_[MPN]{_Pad[pad modifier]}}_[orientation]_[Closed | Open]{_footprint options}
+```
+```
+Fuse_{[MAN]_[Manufacturer series name]_[MPN]}{_[Body Size]}{_Pad[pad modifier]}}{_[orientation]}{_footprint options}
+```
+link:{{< relref "klc/F2.6/FP-Naming_Fuse.adoc" >}}[More details]

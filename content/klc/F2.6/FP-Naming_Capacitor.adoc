@@ -23,7 +23,7 @@ For each of the items listed below, if the footprint is specific to a single man
 ```
 C{{< fp_naming_TwoTerminal >}}
 ```
-link:{{< relref "klc/F2.5/FP-Naming_TwoTerminalSMD.adoc" >}}[More details]
+link:{{< relref "klc/F2.6/FP-Naming_TwoTerminalSMD.adoc" >}}[More details]
 
 ===== Tantalum Capacitor
 ```

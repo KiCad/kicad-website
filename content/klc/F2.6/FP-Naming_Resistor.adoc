@@ -19,7 +19,7 @@ R{_[style]}{_[Body Size]_P[pitch]}{_Pad[pad modifier]}}{_[orientation]}{_footpri
 ```
 R{{< fp_naming_TwoTerminal >}}
 ```
-link:{{< relref "klc/F2.5/FP-Naming_TwoTerminalSMD.adoc" >}}[More details]
+link:{{< relref "klc/F2.6/FP-Naming_TwoTerminalSMD.adoc" >}}[More details]
 
 ==== Standard THT axial resistor
 ```
