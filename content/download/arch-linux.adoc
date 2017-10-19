@@ -4,11 +4,11 @@ iconhtml = "<div class='fl-archlinux'></div>"
 weight = 20
 +++
 
-=== Stable Release
+== Stable Release
 KiCad 4.0.5 is available in
 https://www.archlinux.org/packages/community/x86_64/kicad/[`community/kicad`].
 
-=== Build from Source
+== Build from Source
 A pkgbuild on
 https://aur.archlinux.org/packages/kicad-git/[aur/kicad-git] is available to
 build and install the latest development branch from source.

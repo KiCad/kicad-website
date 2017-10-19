@@ -4,7 +4,7 @@ iconhtml = "<div class='fl-debian'></div>"
 weight = 10
 +++
 
-=== Debian Unstable (Sid)
+== Debian Unstable (Sid)
 
 Current Version: *4.0.7* (KiCad actual version)
 
@@ -13,7 +13,7 @@ https://packages.debian.org/sid/kicad[unstable/sid].
 
 For installing please read further.
 
-=== Debian Testing (Buster)
+== Debian Testing (Buster)
 
 Current Version: *4.0.7* (KiCad actual version)
 
@@ -22,7 +22,7 @@ https://packages.debian.org/testing/kicad[testing/buster].
 
 For installing please read further.
 
-=== Debian Stable (Stretch)
+== Debian Stable (Stretch)
 
 Stretch Backports Version: currently none, but planned
 
@@ -46,7 +46,7 @@ apt search kicad-doc
 # or alternatively if you are on wheezy
 apt-cache search kicad-doc
 
-=== Debian Old-Stable (Jessie)
+== Debian Old-Stable (Jessie)
 
 Jessie Backport Version: *4.0.5*
 
@@ -62,7 +62,7 @@ https://wiki.debian.org/Backports[Debian Wiki] to add the Backport repository
 to your sources and install the KiCad packages from
 https://packages.debian.org/jessie-backports/kicad[jessie-backports].
 
-=== Debian Old-Old-Stable (Wheezy)
+== Debian Old-Old-Stable (Wheezy)
 
 Wheezy Backport Version: *bzr4027*
 
@@ -79,7 +79,7 @@ you really better upgrade your Debian installation at least to Debian
 Old-Stable (Jessie) or better to Stable (Stretch) and use the version there
 from backport.
 
-=== Build from Source
+== Build from Source
 You can find the instructions to build from source
 link:http://docs.kicad-pcb.org/doxygen/md_Documentation_development_compiling.html#build_linux[here].
 If you have a running Debian stable with actual packages from Backports or you

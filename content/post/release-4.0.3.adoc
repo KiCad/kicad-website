@@ -27,7 +27,7 @@ from source] and its subpages.
 Thank you to all developers, packagers, librarians, document writers,
 translators, and everyone else who helped make this release possible.
 
-=== Changes
+== Changes
 
 Below is a list of some commits related to a reported bug:
 
@@ -63,7 +63,7 @@ Below is a list of some commits related to a reported bug:
 * https://launchpad.net/bugs/1606378[Fix window positioning bug when context menu is open.]
 * https://launchpad.net/bugs/1527827[Polygon: fixed polygon filleting glitch for colinear outline segments.]
 
-==== Some changes without a bug tracking number
+=== Some changes without a bug tracking number
 
 * Various fixes to DXF import.
 * Fix and improve IDF tools.

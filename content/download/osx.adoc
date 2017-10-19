@@ -12,14 +12,14 @@ KiCad is supported on OS X 10.7 through OS X 10.12.
 
 - *KiCad extras* contains the footprints and all the instructions you need for making printed circuit board layouts while offline.
 
-=== Stable Release
+== Stable Release
 
 Current Version: *4.0.7*
 
 - http://downloads.kicad-pcb.org/osx/stable/kicad-4.0.7.dmg[KiCad main package]
 - http://downloads.kicad-pcb.org/osx/stable/kicad-extras-4.0.7.dmg[KiCad extras]
 
-=== Nightly Development Builds
+== Nightly Development Builds
 
 The _nightly_ builds are snapshots of the codebase at a specific time. They may contain more bugs than usual, although we try our best. Use them for testing the newest features:
 

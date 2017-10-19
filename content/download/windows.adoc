@@ -4,20 +4,20 @@ iconhtml = "<div><i class='fa fa-windows'></i></div>"
 weight = 2
 +++
 
-=== Stable Release
+== Stable Release
 
 Current Version: *4.0.7*
 
 - http://downloads.kicad-pcb.org/windows/stable/kicad-4.0.7-x86_64.exe[Windows 64-bit (x86_64)]
 - http://downloads.kicad-pcb.org/windows/stable/kicad-4.0.7-i686.exe[Windows 32-bit (i686)]
 
-=== Nightly Development Builds
+== Nightly Development Builds
 
 The _nightly_ builds are snapshots of the codebase at a specific time. They may contain more bugs than usual, although we try our best. Use them for testing the newest features:
 
 http://downloads.kicad-pcb.org/windows/nightly/
 
-=== Old Stable
+== Old Stable
 
 The http://downloads.kicad-pcb.org/archive/KiCad_stable-2013.07.07-BZR4022_Win_full_version.exe[2013 old stable release]
 installer is not recommended for new projects. Please use the new stable release.

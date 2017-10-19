@@ -4,7 +4,7 @@ iconhtml = "<div class='fl-linuxmint'></div>"
 weight = 11
 +++
 
-=== 4.0.7 Stable Release
+== 4.0.7 Stable Release
 
 KiCad 4.0.7 is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-4[js-reynaud's KiCad 4.0 PPA].
 
@@ -26,7 +26,7 @@ sudo add-apt-repository --yes ppa:js-reynaud/kicad-4
 sudo apt-get update
 sudo apt-get install kicad
 
-=== Nightly Development Builds
+== Nightly Development Builds
 Nightly development builds are available in https://code.launchpad.net/~js-reynaud/+archive/ubuntu/ppa-kicad[js-reynaud's PPA].
 These provide the latest, unreleased preview of KiCad.
 To install KiCad via the PPA, you can use the Software Manager:
@@ -45,7 +45,7 @@ sudo add-apt-repository --yes ppa:js-reynaud/ppa-kicad
 sudo apt-get update
 sudo apt-get install kicad
 
-=== Old Stable
+== Old Stable
 The 2013 stable release of KiCad is in the official repository for linux mint.
 It is not recommended for new projects. Please use the new stable release. 
 To install old stable search for `KiCad` in the Software Manager or execute the following in a terminal:

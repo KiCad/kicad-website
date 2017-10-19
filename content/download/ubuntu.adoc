@@ -4,7 +4,7 @@ iconhtml = "<div class='fl-ubuntu'></div>"
 weight = 1
 +++
 
-=== 4.0.7 Stable Release
+== 4.0.7 Stable Release
 
 KiCad 4.0.7 is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-4[js-reynaud's KiCad 4.0 PPA].
 
@@ -27,7 +27,7 @@ sudo add-apt-repository --yes ppa:js-reynaud/kicad-4
 sudo apt update
 sudo apt install kicad
 
-=== Nightly Development Builds
+== Nightly Development Builds
 Nightly development builds are available in https://code.launchpad.net/~js-reynaud/+archive/ubuntu/ppa-kicad[js-reynaud's PPA].
 These provide the latest, unreleased preview of KiCad.
 To install KiCad via the PPA, you can use the Ubuntu Software Manager:
@@ -47,12 +47,12 @@ sudo add-apt-repository --yes ppa:js-reynaud/ppa-kicad
 sudo apt update
 sudo apt install kicad
 
-=== Old Stable
+== Old Stable
 The so called "old stable" is the kicad version before the version 4.0
 series. It is not recommended for new projects. Please use the new
 stable release from the PPA if you are on an older ubuntu release.
 
-=== Translations
+== Translations
 If you want KiCad to be translated, you also need to install the dedicated localization package.
 Run this command after replacing `XX` by your language code ('fr' for French for instance) :
 
