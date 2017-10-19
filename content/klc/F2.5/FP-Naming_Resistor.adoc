@@ -21,12 +21,6 @@ R{{< fp_naming_TwoTerminal >}}
 ```
 link:{{< relref "klc/F2.5/FP-Naming_TwoTerminalSMD.adoc" >}}[More details]
 
-
-==== Resistor Array
-```
-ToDo
-```
-
 ==== Standard THT axial resistor
 ```
 R_Axial_L[lenght]_D[diameter]_P[pitch]_{_Pad[pad modifier]}}_[orientation]{_footprint options}
