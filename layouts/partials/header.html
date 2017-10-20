@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ replace .Title "-" " " }}{{if ne .Site.Title .Title }} | {{ .Site.Title }} {{ end }}</title>
+
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="KiCad is an open source EDA software for Windows, OSX and Linux. Create PCB circuits for free with the most advanced features.">
     
@@ -27,11 +29,9 @@
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <!--- youtube channel verification --->
+    <!-- youtube channel verification -->
     <meta name="google-site-verification" content="vRQHg4jXocsgn500MPK-VlG6XFw9YjJvEhRJDUStiyk" />
     
-    <title>{{ replace .Title "-" " " }}{{if ne .Site.Title .Title }} | {{ .Site.Title }} {{ end }}</title>
-
     {{ if .RSSLink }}
     <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
     <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
@@ -44,8 +44,8 @@
     <link href="/css/kicad.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300,300italic,400italic,700italic,800italic" rel="stylesheet" type="text/css">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300,300italic,400italic,700italic,800italic" rel="stylesheet" type="text/css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     {{ if $.Scratch.Get "additional_head_tags" }}{{ $.Scratch.Get "additional_head_tags" | safeHTML }}{{ end }}
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -55,12 +55,15 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     {{ "<![endif]-->" | safeHTML }}
 
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/google_news.html" . }}
+    {{ template "_internal/schema.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
 </head>
 
 <body>
-
     <!-- Navigation -->
-	<!--- next version of hugo adds .IsHome the if statement can be simplified after 0.15 is released -->
+    <!--- next version of hugo adds .IsHome the if statement can be simplified after 0.15 is released -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top {{ if eq .URL "/" }}transparent{{ end }}">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
