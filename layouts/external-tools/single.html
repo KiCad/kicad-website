@@ -1,0 +1,28 @@
+{{ $.Scratch.Add "additional_head_tags" "<link href=\"/fonts/font-linux.css\" rel=\"stylesheet\">" }}
+
+{{ partial "header.html" . }}
+
+{{ .Scratch.Set "sidemenu" true }}
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 {{ if .Scratch.Get "sidemenu" }}col-md-10 col-sm-9{{ else }}col-sm-12{{ end }}">
+			{{ partial "breadcrumb.html" . }}
+
+			<div class="page-heading">
+				<h1>{{ title .Title }}</h1>
+				<h4>{{ .Params.tooldeveloper }}</h4>
+			</div>
+			<div class="col-md-5">
+				<img class="img-responsive" src="{{ .Params.toolimage }}">
+			</div>
+			<div class="col-md-7">
+				<p>{{ .Content }}</p>
+				<a class="btn btn-primary" href="{{ .Params.toolurl }}">View Tool <span class="glyphicon glyphicon-chevron-right"></span></a>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+{{ partial "footer.html" . }}
