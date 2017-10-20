@@ -1,0 +1,18 @@
++++
+title = "Sabayon"
+iconhtml = "<div class='fl-sabayon'></div>"
+weight = 95
++++
+
+== Stable Release
+KiCad 4.0.6 is available in in the
+link:https://packages.sabayon.org/show/kicad,199050,sabayon-weekly,amd64,5,standard[official
+sabayon packages]. 
+
+You can install it via the package manager Rigo
+
+or command line:
+
+```
+equo install kicad
+```
