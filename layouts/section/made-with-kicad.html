@@ -27,7 +27,10 @@
         </p>
 			</div>
 
-			{{ $paginator := .Paginate (where .Site.Pages "Section" "made-with-kicad") }}
+			{{ $allSectionContent := where .Site.Pages "Section" "made-with-kicad" }}
+			{{ $pagesOnlyInSection := where $allSectionContent "Kind" "page" }}
+
+			{{ $paginator := .Paginate $pagesOnlyInSection }}
 			{{ template "_internal/pagination.html" . }}
 			<hr />
 			<div class="row">
