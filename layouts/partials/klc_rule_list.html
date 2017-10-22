@@ -9,7 +9,7 @@
 {{ $rule := (replace .File.LogicalName ".adoc" "" ) }}
 {{ if and (hasPrefix .File.Path "klc/") (hasPrefix .File.LogicalName $filter) (in .File.LogicalName ".adoc") }}
 <li>
-<a href="/klc/{{ $rule }}">{{ $rule }} - {{ .Params.brief }}</a>
+<a href="/libraries/klc/{{ $rule }}">{{ $rule }} - {{ .Params.brief }}</a>
 </li>
 {{ end }}
 </ul>

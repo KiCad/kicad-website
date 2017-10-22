@@ -1,8 +1,9 @@
 +++
 title = "KiCad Library Convention"
+aliases = [ "/klc/" ]
 +++
 
-{{< klc_version >}}
+
 
 The KiCad Library Convention (KLC) is a set of requirements for contributing to the official KiCad libraries. Users wishing to submit or update library files should be familiar with these guidelines.
 
@@ -26,4 +27,4 @@ __Note: While many of the KLC guidelines are checked by these scripts, there are
 
 == KLC Revision History
 
-Revision information for the KLC can be found link:/libraries/klc_history/[here].
+Revision information for the KLC can be found link:/libraries/klc/history/[here].
