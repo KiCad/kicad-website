@@ -4,12 +4,13 @@ title = "KiCad EDA"
 canonifyurls = false
 layoutdir = "layouts"
 pluralizelisttitles = false
-googleAnalytics = "UA-3810500-6"
+
 [params]
 	DateForm = "2006-01-02"
 	Description = "A Cross Platform and Open Source Electronics Design Automation Suite"
 	Author = "The KiCad editors"
 	Forum = "https://forum.kicad.info/"
+	Ganalytics = "UA-3810500-6"
 
 [[params.social]]
   title = "twitter"

@@ -45,7 +45,7 @@
 
     <script src="/js/kicad.js"></script>
 
-    {{ template "_internal/google_analytics.html" . }}
+    {{ if .Site.Params.Ganalytics }}{{ partial "ga.html" . }}{{ end }}
 
 </body>
 
