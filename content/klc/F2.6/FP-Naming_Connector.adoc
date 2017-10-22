@@ -8,7 +8,7 @@ title = 'Connectors'
 
 === Connectors
 ```
-{[generic series name]_}{[manufacturer specific identification]}{_[pin configuration]_P[pin pitch]}{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
+{[generic series name]_}{[manufacturer specific identification]}{-[pin configuration]_P[pin pitch]}{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
 The pin configuration field is dependent on the connector type.
 
@@ -30,7 +30,7 @@ The orientation of connectors is determined by the plug direction.
 
 ==== Manufacturer specific connectors (JST_EH, Molex_PicoBlade, ...)
 ```
-[MAN]{_[manufacturer series name]}_[MPN]_[pin configuration]_P[pin pitch]{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
+[MAN]{_[manufacturer series name]}_[MPN]-[pin configuration]_P[pin pitch]{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
 
 ==== Connectors for standardized interfaces with manufacturer specific footprints (USB, HDMI, SD-Card, ...)
@@ -56,19 +56,19 @@ i. `SD_[Standard]{_[Size]}{_UHS_[UHS Type]}`
 
 ==== Connectors for standardized connectors with manufacturer specific footprints (DSUB, Tab, ...)
 ```
-[generic series name]_[MAN]{_[manufacturer series name]}_[MPN]_[pin configuration]_P[pin pitch]{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
+[generic series name]_[MAN]{_[manufacturer series name]}_[MPN]-[pin configuration]_P[pin pitch]{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
 The difference between these types of connectors and standardized interface connectors is the inclusion of the pin configuration.
 
 ==== Generic connector footprints (For standardized connectors like: Pin headers, socket strips, ...)
 ```
-[generic series name]_[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
+[generic series name]-[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
 Generic connectors do not include manufacturer specific information.
 
 ==== Terminal Blocks (Screw headers)
 ```
-TerminalBlock_[MAN]{_[manufacturer series name]}_[MPN]_[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
+TerminalBlock_[MAN]{_[manufacturer series name]}_[MPN]-[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
 Orientation:
 For terminal Blocks the orientation is determined by the direction of the cable slot.
