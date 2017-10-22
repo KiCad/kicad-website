@@ -1,10 +1,5 @@
 +++
-title = "Librarians"
-categories = [ "Contribute" ]
-[menu.main]
-    parent = "Contribute"
-    name   = "Librarians"
-weight = 30
+title = "Contribute"
 +++
 :toc: macro
 :toc-title:
@@ -24,6 +19,27 @@ If you are new to GitHub, please check out this guide
 https://guides.github.com/activities/contributing-to-open-source[Contributing to Open Source on GitHub]
 before you start.
 
+=== Making a Pull Request
+
+The KiCad libraries are hosted on https://github.com/kicad[GitHub] - users can submit their contributions using the *Pull Request* mechanism. Instructions for submitting a pull request are provided below.
+
+1. If you do not have one, create an account on https://github.com/join[GitHub]
+1. link:https://help.github.com/articles/fork-a-repo[**Fork**] the repository you wish to contribue to
+1. link:https://help.github.com/articles/fetching-a-remote[**Clone**] your newly created fork to your local machine
+1. Create a new link:https://help.github.com/articles/github-glossary/#branch[**branch**] in your local repository. This ensures that any local changes are not mixed with the master copy of the library until they are checked and merged by a librarian.
+1. Perform any necessary modifications to the library repository. Refer to the link:/libraries/klc[KLC] for contribution guidelines.
+1. link:https://help.github.com/articles/github-glossary/#commit[**Commit**] your changes to the local repository, with a message describing the changes you have made. Complex changes may require multiple commits.
+1. link:https://help.github.com/articles/github-glossary/#push[**Push**] your local changes to the GitHub remote.
+1. Create a link:https://help.github.com/articles/using-pull-requests[**pull request**] (PR) to merge your branch into the KiCad libraries. Include links to reference documents (e.g. datasheets) in the comments, in addition to a description of the changes you have made.
+1. A librarian will review the changes - discussion and further work may be required.
+1. If further changes are needed, *do not create a new branch*. Simply make any further changes to the same branch, and push these changes upstream. They will be automatically added to the PR.
+
+It is very helpful to the library team if you can include a description of your contribution and also a screenshot of your contributed file(s) (symbols / footprints / models).
+
+**Example:**
+
+{{< klcimg src="adding_screenshot" title="Add a screenshot" >}}
+
 == KLC
 
 When creating/editing/fixing a symbol or footprint a set of conventions should be followed. They are the link:/klc[KiCad Library Convention],
@@ -42,12 +58,6 @@ link:https://github.com/pointhi/kicad-footprint-generator[kicad-footprint-genera
 === Parameteric 3D Model Generation
 
 link:https://github.com/easyw/kicad-3d-models-in-freecad[kicad-3d-models-in-freecad] is a scripting toolset which allows 3D models to be generated parametrically using Python. It uses the CadQuery module from within FreeCAD (both of which are required to use the scripts).
-
-== Making a Pull Request
-
-Contributing to the KiCad libraries relies on a working knowledge of the Git version control software. It is suggested that users familiarise themselves with Git using an online tutorial.
-
-The process required to submit a pull request (PR) is link:/libraries/pull_request[outlined here].
 
 == Become a librarian
 
