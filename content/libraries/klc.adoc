@@ -3,7 +3,9 @@ title = "KiCad Library Convention"
 aliases = [ "/klc/" ]
 +++
 
+**link:/libraries/klc/history/[Revision: 3.0.0]**
 
+---
 
 The KiCad Library Convention (KLC) is a set of requirements for contributing to the official KiCad libraries. Users wishing to submit or update library files should be familiar with these guidelines.
 
