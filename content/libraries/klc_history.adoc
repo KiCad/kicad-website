@@ -1,6 +1,10 @@
 +++
-date = "2017-10-20"
+title = "KLC Revision History"
+url = "/libraries/klc/history/"
+
 +++
+
+=== 3.0.0 - 2017-10-22
 * KLC moved from GitHub wiki to KiCad website
 * KLC rules organized into logical groups, rather than single sequential set of rule numbers
 * Complete reorganization of the rules as per the above change
