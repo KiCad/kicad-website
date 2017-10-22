@@ -4,6 +4,7 @@ title = "KiCad EDA"
 canonifyurls = false
 layoutdir = "layouts"
 pluralizelisttitles = false
+disablePathToLower = true
 
 [params]
 	DateForm = "2006-01-02"
@@ -11,6 +12,9 @@ pluralizelisttitles = false
 	Author = "The KiCad editors"
 	Forum = "https://forum.kicad.info/"
 	Ganalytics = "UA-3810500-6"
+
+[permalinks]
+    klc = "/libraries/klc/:filename/"
 
 [[params.social]]
   title = "twitter"

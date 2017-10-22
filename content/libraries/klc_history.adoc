@@ -1,6 +1,0 @@
-+++
-title = "KLC History"
-url = "/libraries/klc/history/"
-+++
-
-{{< klc_history >}}
