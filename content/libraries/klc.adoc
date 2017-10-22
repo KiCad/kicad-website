@@ -1,0 +1,29 @@
++++
+title = "KiCad Library Convention"
++++
+
+{{< klc_version >}}
+
+The KiCad Library Convention (KLC) is a set of requirements for contributing to the official KiCad libraries. Users wishing to submit or update library files should be familiar with these guidelines.
+
+The KLC are a set of __guidelines__, rather than __rules__. Electronic component libraries are diverse and complex, and exceptions can be made at the discretion of the library team.
+
+Where the KLC deviates from a particular datasheet or manufacturer recommendation, the datasheet __should take preference__ unless there is a good reason not to do so (which should be clarified by a librarian).
+
+Where the KLC is unclear, users should attempt to match the convention of existing library components, or seek further clarification.
+
+Refer to the link:/libraries/contribute/[contribution guidelines] for introductory information on contributing to the KiCad libraries.
+
+{{< klc_list >}}
+
+== KLC Helper Scripts
+
+The KiCad library team have developed a set of link:https://github.com/kicad/kicad-library-utils[Python scripts] which can be used to help test if library components conform to the KLC requirements.
+
+When a pull request is made to the libraries, the contributed files are automatically checked using these scripts. It can be helpful to run these scripts on you local machine before submitting a PR, as it will help speed up the process of merging your contribution(s) into the library.
+
+__Note: While many of the KLC guidelines are checked by these scripts, there are some which are not covered. Additionally, any PR requires manual checking by a member of the library team.__
+
+== KLC Revision History
+
+Revision information for the KLC can be found link:/libraries/klc_history/[here].

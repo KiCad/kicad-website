@@ -1,0 +1,28 @@
++++
+title = "Download Libraries"
++++
+
+== KiCad Libraries
+
+KiCad libraries are community contributed and available for download on  link:https://github.com/kicad"[GitHub]. If you wish to contribute to the libraries, refer to the link:/libraries/contribute/[contribution guide].
+
+== Library Organisation
+
+The set of libraries corresponding to v4.xx of KiCad software are organised on GitHub as follows:
+
+**Symbols**, **3D models** and **project templates** are stored together in the link:https://github.com/kicad/kicad-library[kicad-library] repository.
+
+**Footprint** libraries are stored as link:https://github.com/kicad?&q=.pretty[individual repositories] with the `.pretty` extension.
+
+=== Future of the Libraries
+
+In conjunction with the KiCad v5 software release, the libraries will be reorganised into four separate repositories:
+
+* kicad-symbols
+* kicad-footprints
+* kicad-packages3d
+* kicad-templates
+
+== Updating Library Data
+
+Users who wish to keep their libraries up to date with the latest additions should link:https://help.github.com/articles/cloning-a-repository/[clone] the library repositories using Git. Tracking the library repositories using Git means that only the __changes__ to the libraries need to be downloaded, rather than retrieving the entire library set each time.
