@@ -1,0 +1,8 @@
++++
+brief = "Dimension units must always be specified where appropriate"
++++
+
+Where a dimension is given, the units must be explicitly stated:
+
+* `mm` - millimeters
+* `in` - inches
