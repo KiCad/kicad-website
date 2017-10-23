@@ -14,7 +14,7 @@ KiCad is an http://en.wikipedia.org/wiki/Open_source[open source] software suite
 http://en.wikipedia.org/wiki/Electronic_design_automation[Electronic Design Automation] (EDA).
 The programs handle http://en.wikipedia.org/wiki/Schematic_capture[Schematic Capture],
 and http://en.wikipedia.org/wiki/Printed_circuit_board[PCB] Layout with
-http://en.wikipedia.org/wiki/Gerber_format[Gerber] output. The suite runs on Windows, Linux and OS X
+http://en.wikipedia.org/wiki/Gerber_format[Gerber] output. The suite runs on Windows, Linux and MacOS
 and is licensed under http://en.wikipedia.org/wiki/GNU_General_Public_License[GNU GPL v3].
 
 == History
