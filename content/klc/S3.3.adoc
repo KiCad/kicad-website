@@ -2,9 +2,9 @@
 brief = "Symbol outline and fill requirements"
 +++
 
-1. Symbol body must have a line width of `10mil` (`0.254mm`)
-1. Black-box symbols (e.g. ICs with hidden functionality) should be filled with background color
-1. Simple components (e.g. discrete components or those with a _distinctive shape_) should not be filled with background color
+. Symbol body must have a line width of `10mil` (`0.254mm`)
+. Black-box symbols (e.g. ICs with hidden functionality) should be filled with background color
+. Simple components (e.g. discrete components or those with a _distinctive shape_) should not be filled with background color
 
 *Fill background*
 

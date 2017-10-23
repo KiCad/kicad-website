@@ -4,21 +4,21 @@ brief = "General footprint naming conventions"
 
 Each footprint is a `.kicad_mod` file (stored within a `.pretty` directory). The naming convention for a given footprint depends on the _type_ of footprint, however a general guide is presented below:
 
-1. Specific package type is written first, e.g.
+. Specific package type is written first, e.g.
   * `QFN` - Quad Flat No-Lead package
   * `C` - Capacitor
-1. Package name and number of pins are separated by a hyphen
+. Package name and number of pins are separated by a hyphen
   * `TO-90`
   * `QFN-48`
   * `DIP-20`
-1. Unique _fields_ (parameters) in the footprint name are separated by `_` character.
-1. Package dimensions are specified as `width`x`height`, and are in `mm` units unless explicity specified otherwise:
+. Unique _fields_ (parameters) in the footprint name are separated by `_` character.
+. Package dimensions are specified as `width`x`height`, and are in `mm` units unless explicity specified otherwise:
   * `3.5x0.2` - 3.5mm x 0.2mm
   * `1x1in` - 1inch x 1inch
-1. Pitch is specified in `mm` with a leading `P`:
+. Pitch is specified in `mm` with a leading `P`:
   * `P1.27` - 1.27mm pitch
   * `P5.0` - 5.0mm pitch
-1. Orientation e.g. `Horizontal`, `Vertical`
-1. Any modification to the original footprint, indicated by appending the reason
+. Orientation e.g. `Horizontal`, `Vertical`
+. Any modification to the original footprint, indicated by appending the reason
   * `_HandSoldering`
   * `_ThermalPad`

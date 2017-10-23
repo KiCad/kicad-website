@@ -2,14 +2,14 @@
 brief = "Capitalization conventions"
 +++
 
-1. Acronyms should be capitalized
+. Acronyms should be capitalized
   * `MCU` (microcontroller)
   * `FPGA` (field programmable gate array)
-1. Manufacturer names should be capitalized according to the manufacturer
+. Manufacturer names should be capitalized according to the manufacturer
   * `Microchip`
   * `ROHM`
   * `Texas`
   * `NEC`
-1. Unless separated by delimters such as `_`, `-`, `.`, words should be separated using __CamelCase__ convention, with the first letter of each word capitalised
+. Unless separated by delimters such as `_`, `-`, `.`, words should be separated using __CamelCase__ convention, with the first letter of each word capitalised
   * `TestPoint`
   * `BatteryHolder`

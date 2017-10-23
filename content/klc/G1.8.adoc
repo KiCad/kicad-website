@@ -2,6 +2,6 @@
 brief = "Components can only contain features supported in latest stable release"
 +++
 
-KiCad library components (symbols, footprints) must not contain features that are not supported by the latest __stable__ KiCad software release.
+KiCad library components (symbols, footprints) may only contain features that are supported by the latest __stable__ KiCad software release.
 
 Features introducted in nightly builds are not allowed in official KiCad library files.

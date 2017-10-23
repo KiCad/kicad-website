@@ -4,7 +4,7 @@ brief = "Naming of manufacturer specific footprints"
 
 If a manufacturer footprint deviates from the "standard" footprints available, then this should be added to the library and designated as manufacturer-specific.
 
-1. If a footprint is specific to a single manufacturer, this must be indicated by prepending the manufacturer name and MPN to the footprint name.
+. If a footprint is specific to a single manufacturer, this must be indicated by prepending the manufacturer name and MPN to the footprint name.
 
 * `Texas_S-PVQFN-N48_`
 

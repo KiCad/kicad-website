@@ -6,12 +6,12 @@ Symbol libraries are individual `.lib` files, which have a corresponding `.dcm` 
 
 Symbol library names must be defined based on the priority list below, with each element separated by the underscore (`_`) character:
 
-1. Function (e.g. `Sensor`, `Amplifier` `MCU`)
-1. Sub-function (e.g. `Temperature`, `CurrentSense`)
-1. Tertiary qualifier (e.g. `CMOS`)
-1. Manufacturer name (e.g. `Atmel`, `Infineon`)
-1. Symbol series name (e.g. `PIC24`, `STM32`)
-1. Extra library descriptors (e.g. `Deprecated` )
+. Function (e.g. `Sensor`, `Amplifier` `MCU`)
+. Sub-function (e.g. `Temperature`, `CurrentSense`)
+. Tertiary qualifier (e.g. `CMOS`)
+. Manufacturer name (e.g. `Atmel`, `Infineon`)
+. Symbol series name (e.g. `PIC24`, `STM32`)
+. Extra library descriptors (e.g. `Deprecated` )
 
 _Note: Some of the elements listed above may be omitted if not required._
 
