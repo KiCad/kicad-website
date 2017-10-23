@@ -1,17 +1,33 @@
 +++
-brief = "Pin 1 should be located at the top left"
+brief = "SMD chip package naming conventions"
 +++
 
-Footprints should be oriented such that Pin 1 is located in the upper left corner (IPC-7351).
+=== Standardized Two Terminal Rectangular SMD Packages
+```
+[Device Short-code]{{< fp_naming_TwoTerminal >}}
+```
 
-{{< klcimg src="F3.2" title="Pin 1 aligned top left" >}}
+The device short code depends on the device.
+It is R for Resistor, C for Capacitor, ...
 
-**Exceptions**
+See the specific section of the naming convention for more details.
 
-Where footprints cannot be oriented with pin 1 in the top-left quadrant, pin 1 should be aligned to the top
+[.library]
+|===
+|Imperial Code|Metric Code|Size Imperial|Size Metric
 
-{{< klcimg src="F3.2a" title="Align to top if top-left not possible" >}}
-
-Two terminal footpints should be aligned with pin 1 on the left side
-
-{{< klcimg src="F3.2b" title="Two terminal footprints align pin 1 on left" >}}
+| 01005 | 0402 | 0.0157 in × 0.0079 in | 0.4 mm × 0.2 mm
+| 0201  | 0603 | 0.024 in × 0.012 in   | 0.6 mm × 0.3 mm
+| 0402  | 1005 | 0.039 in × 0.020 in   | 1.0 mm × 0.5 mm
+| 0603  | 1608 | 0.063 in × 0.031 in   | 1.6 mm × 0.8 mm
+| 0805  | 2012 | 0.079 in × 0.049 in   | 2.0 mm × 1.25 mm
+| 1008  | 2520 | 0.098 in × 0.079 in   | 2.5 mm × 2.0 mm
+| 1206  | 3216 | 0.126 in × 0.063 in   | 3.2 mm × 1.6 mm
+| 1210  | 3225 | 0.126 in × 0.098 in   | 3.2 mm × 2.5 mm
+| 1806  | 4516 | 0.177 in × 0.063 in   | 4.5 mm × 1.6 mm
+| 1812  | 4532 | 0.18 in × 0.13 in     | 4.5 mm × 3.2 mm
+| 1825  | 4564 | 0.18 in × 0.25 in     | 4.5 mm × 6.4 mm
+| 2010  | 5025 | 0.197 in × 0.098 in   | 5.0 mm × 2.5 mm
+| 2512  | 6332 | 0.25 in × 0.13 in     | 6.3 mm × 3.2 mm
+| 2920  | 7451 | 0.29 in × 0.20 in     | 7.4 mm × 5.1 mm
+|===

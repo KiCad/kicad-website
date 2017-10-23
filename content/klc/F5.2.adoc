@@ -1,19 +1,34 @@
 +++
-brief = "Footprint anchor should be placed in the middle of the component body"
+brief = "Fabrication layer requirements"
 +++
 
-The footprint anchor (also called _component origin_) is used by automated Pick and Place (PNP) machines for locating and placing SMD components on a PCB.
+The fabrication layers are used to display the simplified mechanical outline of components on the PCB.
 
-For most standard components, the anchor should generally be located on the centroid of the component body.
+KiCad refers to the fabrication layers as:
 
-In the KiCad footprint editor, the footprint anchor is _always located at the origin_ (0, 0). To move the footprint relative to the anchor (origin), press the *Place footprint reference anchor* button (refer to image below).
+* `F.Fab` - Front fabrication layer
+* `B.Fab` - Back fabrication layer
 
-{{< klcimg src="F5.2a" title="Anchor is normally set to center of component body" >}}
+The following elements must be provided on the fabrication layer(s)
 
-*Exceptions:*
+. Simplified component outline must be provided on `F.Fab` layer
+.. Outline uses line width between {`0.10mm` and `0.15mm`} (recommended `0.10mm`)
+.. Outline should be simplified and not display complex features
+. Footprint polarisation / location of pin-1 is drawn
+.. For IC packages, bevel is drawn at corner next to pin-1
+.. Bevel should be `1mm` or `25% of package size` (whichever is smaller)
+.. For connectors, a small arrow indicator drawn next to pin-1 should be used
+. Component value (footprint name) must be displayed on the `F.Fab` layer
+.. Recommended text size = `1.0mm`
+.. Allowable text size = {`0.1mm` to `2.0mm`}
+.. Allowable text thickness = {`0.01mm` to `0.20mm`} (should be approximately `15%` of text size, with allowances for variation for aesthetic reasons)
+.. If there is enough space, it should be placed inside footprint boundaries
+. A second copy of the reference designator (RefDes) must be provided on the `F.Fab` layer. To add a second RefDes item, add a text object with the value `%R`
+.. RefDes must be centered on component body (inside component outline)
+.. Orientation of RefDes should match major component axis
+.. Size of text should be scaled to match component size
+.. Recommended text size = `1.00mm`
+.. Allowable text size = {`0.1mm` to `2.0mm`}
+.. Allowable text thickness = {`0.01mm` to `0.20mm`} (should be approximately `15%` of text size, with allowances for variation for aesthetic reasons)
 
-Some footprints (especially those which are non-symmetrical) require special consideration and the anchor may not necessarily be placed on the component centroid.
-
-Generally speaking, the correct location of the footprint anchor can be found in the component datasheet. The image below shows an example for a *Molex Pico-Lock* connector.
-
-{{< klcimg src="F5.2b" title="Precise anchor position can be found in the footprint datasheet" >}}
+{{< klcimg src="F4.2a" title="Fabrication layer" >}}

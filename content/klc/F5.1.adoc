@@ -1,9 +1,28 @@
 +++
-brief = "Footprint placement type must be set to surface mount"
+brief = "Silkscreen layer requirements"
 +++
 
-The *Footprint placement type* must be set to `Surface mount` for SMD footprints. This is to ensure that these footprints are included in the *Footprint position (.pos)* file output.
+The silkscreen is printed to the external surface of a PCB to aid in component identification and orientation. Typically this layer contains the component RefDes to locate components on the board after assembly.
 
-To set the footprint placement type, open the *Footprint properties* window and select *Surface Mount* as indicated.
+KiCad refers to the silkscreen layers as:
 
-{{< klcimg src="F5.1" title="Set placement type to 'Surface mount'" >}}
+* `F.SilkS` - Front silkscreen layer
+* `B.SilkS` - Back silkscreen layer
+
+The following elements must be provided on the silkscreen.
+
+. Reference Designator must be drawn on `F.SilkS` layer
+.. Text size = `1.00mm`
+.. Text thickness = `0.15mm`
+. Silkscreen must not be placed over pads or areas of exposed copper
+  * Clearance between silkscreen and exposed copper elements must be at least `0.2mm` or more than the pad mask expansion (whichever is greater).
+. For SMD footprints, silkscreen must be fully visible after boards assembly (no silkscreen allowed under component)
+. For THT components, silkscreen may be placed under component to aid in assembly process
+. Silkscreen line width is between {`0.10mm` and `0.15mm`} as per IPC-7351C:
+  * Silkscreen line width should nominally be `0.12mm`
+  * `0.1mm` is allowed for high density designs
+  * `0.15mm` is allowed for low density designs
+. Pin-1 designator is provided on the `F.SilkS` layer
+. Pin-1 designator must be visible after board assembly
+
+{{< klcimg src="F4.1a" title="Silkscreen layer" >}}

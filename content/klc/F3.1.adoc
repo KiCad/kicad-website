@@ -1,9 +1,82 @@
 +++
-brief = "Datasheet recommendations take priority"
+brief = "IC package naming conventions"
 +++
 
-Where conflict exists between datasheet recommendations and KLC requirements, then (in the general case) the datasheet shold take priority.
+== Standard IC packages
 
-It is important when designing footprints that they adhere to requirements for soldering and assembly - often these requirements have very small tolerance for variation.
+```
+[PKG]-[PIN]{-[EP qty]EP}_[X]x[Y]{x[Z]}_P[pitch]{_Lead[Lead details]}{_EP[X]x[Y]{_Mask[X]x[Y]}}{_PAD[pad modifiers]}{_[footprint options]}
+```
+. The package name refers to the name most commonly used in the industry. Generally this implies JEDEC naming but there is room to move here.
+. Pin count is the number of _uniquely numbered_ pads (excluding any exposed pads under the device)
+. Pad modifiers are different for various IC footprint types.
+. Various footprint options are available:
+  * `HandSoldering`: (_deprecated_ use the pad size modifier instead.) The footprints pads have been enlarged for easier hand soldering.
+  * `ThermalVias`: There are vias included for a better thermal connection between the exposed pad and any other layer.
+. If the footprint has an exposed pad it needs to include the following:
+  * The EP qty field needs to exist
+  * The size of the exposed pad needs to be given
+  * If the soldermask cutout for the exposed pad is reduced, its resulting size needs to be given.
+. Clearance is used to indicate non-standard pin clearance (e.g. opto isolators)
 
-If the KLC is at odds with the datasheet, follow the datasheet, and note this difference to the KiCad library team when submitting your contribution.
+== Gull Wing Packages (SOIC / SOP / QFP / ... )
+
+```
+[PKG]-[PIN]{-[EP qty]EP}_[X]x[Y]{x[Z]}_P[pitch]{_CL[clearance]}{_EP[X]x[Y]{_Mask[X]x[Y]}}{_PAD[L]{x[W]}}{_footprint options}
+```
+
+
+== J-Lead Packages (SOJ / PLCC / ... )
+
+```
+[PKG]-[PIN]{-[EP qty]EP}_[X]x[Y]{x[Z]}_P[pitch]{_CL[clearance]}{_EP[X]x[Y]{_Mask[X]x[Y]}}{_PAD[L]{x[W]}}{_footprint options}
+```
+
+== No-Lead Packages (DFN / QFN / ... )
+
+```
+[PKG]-[PIN]{-[EP qty]EP}_[X]x[Y]{x[Z]}_P[pitch]{_Lead[X]{x[Y]}{_EP[X]x[Y]{_Mask[X]x[Y]}}{_PAD[L]{x[W]}}{_footprint options}
+```
+
+. The lead length is the nominal lead length for which the footprint is designed
+. Optionally the nominal lead with can also be provided
+
+== Ball Grid Packages (BGA / LGA / ... )
+
+```
+[PKG]-[PIN]_[num col]x[num rows]_[X]x[Y]{x[Z]}_P[ball pitch x]{x[ball pitch y]}mm_D[Ball Diameter]mm_[NSMD/SMD]{_footprint options}
+```
+
+. For BGA simply providing the pin count is not sufficient. It is also necessary to provide the number of columns (x direction) and rows (y direction).
+. Some BGA packages have different pitch in x and y directions. If this is the case then both pitch dimensions need to be provided
+. The ball diameter for which the footprint is designed needs to be provided
+. NSMD/SMD
+  * NSMD means the footprint is designed for `non solder mask defined` (mask cutout is larger than copper pad)
+  * SMD means the footprint is designed for `solder mask defined` (mask cutout is smaller than copper pad)
+
+== Through Hole Packages (DIP / ... )
+
+```
+[PKG]-[PIN]{_[X]x[Y]{x[Z]}}_W[Lead Span]_P[pin pitch]{_Lead[Lead Width]}{_PAD[drill size]{x[pad diameter X]x[pad diameter Y]}}{_footprint options}
+```
+
+. For THT packages the main identifying dimension is the lead span (not the body size used for SMD IC components)
+. Body dimensions can be optionally specified
+
+== TO Through Hole Packages:
+```
+[PKG]-[PIN]{_[X]x[Y]{x[Z]}}{_P[pitch x]{x{pitch y}}}{_[Staggered1 | Staggered2]}{_Lead[Lead length]}{_PAD[drill size]{x[pad diameter X]x[pad diameter Y]}}_[Tab-Down | Vertical | Tab-Up]{_footprint options}
+```
+
+Staggered:
+
+* Type 1 (Staggered1): Odd pins far away from package body
+* Type 2 (Staggered2): Even pins far away from package body
+
+Size Parameters:
+
+{{< klcimg src="to-body_dim" title="Body dimension details" >}}
+
+Orientation:
+
+{{< klcimg_full_width src="to-THT_orientation" title="TO THT orientation" >}}

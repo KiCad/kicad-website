@@ -1,9 +1,9 @@
 +++
-brief = "Footprint placement type must be set to Through Hole"
+brief = "Footprint placement type must be set to surface mount"
 +++
 
-The footprint *placement type* must be set to `Through Hole` for THT footprints. This ensures that these footprints are not included in the Pick and Place (PNP) location files.
+The *Footprint placement type* must be set to `Surface mount` for SMD footprints. This is to ensure that these footprints are included in the *Footprint position (.pos)* file output.
 
-This can be selected in the *Footprint Properties* window
+To set the footprint placement type, open the *Footprint properties* window and select *Surface Mount* as indicated.
 
-{{< klcimg src="F6.1" title="Set placement type to 'Through hole' for THT footprints" >}}
+{{< klcimg src="F5.1" title="Set placement type to 'Surface mount'" >}}

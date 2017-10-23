@@ -1,13 +1,34 @@
 +++
-brief = "Pin 1 should be rectangular, and other pads circular or oval"
+brief = "Pad requirements for SMD footprints"
 +++
 
-Through hole components should set the shape of Pin 1 to `Rectangular`, and all other pads to either `Circular` or `Oval`. This aids in orienting the component during placement and also for locating Pin 1 for circuit troubleshooting.
+Surface mount pads have specific requirements for PCB design.
 
-Pad shape can be adjusted in the *Pad Properties* dialog:
+. By default, pads for SMD footprints should use only the following layers
+.. `F.Cu` - Front copper
+.. `F.Mask` - Front soldermask
+.. `F.Paste` - Front solderpaste (stencil openings)
+. If SMD pads are placed on the back of the PCB, then the following layers should be used:
+.. `B.Cu` - Back copper
+.. `B.Mask` - Back soldermask
+.. `B.Paste` - Back solderpaste (stencil openings)
+. Pads with specific stencil aperture design requirements require special attention (see details below)
 
-{{< klcimg src="F6.3a" title="Pin-1 should be rectangular for polarised THT footprints" >}}
+Many components (IC packages in particular) have specific design requirements for solderpaste (stencil) design. These requirements are often found in the footprint datasheet or an associated technical document.
 
-**Exception:**
+Most often, custom stencil openings are required for the exposed pads on large IC packages to reduce the amount of solderpaste that is applied during stencil application.
 
-Non polarized parts (such as THT resistors) should not set the shape of Pin 1 to Rectangular. For these (non polarized) footprints, all pad shapes should be consistent.
+The image below shows an example stencil design found in a footprint datasheet. The superimposed blue square represents the shape of the exposed copper pad. The green squares are the required openings in the stencil.
+
+{{< klcimg src="F5.3a" title="Refer to footprint datasheet for precise stencil requirements" >}}
+
+Custom stencil openings are accommodated as follows:
+
+[loweralpha]
+. Construct copper shape with pad(s) with only copper layers (`F.Cu` and/or `B.Cu`) as appropriate. These copper pads should not have the `F.Paste` or `B.Paste` layers checked.
+. Add stencil opening(s) with pad(s) which only use solderpaste layers (`F.Paste` and/or `B.Paste`) as required. These pads _do not have a pad number_.
+
+*Result:* _(note: this footprint does not correspond to the example shown above)_
+
+{{< klcimg src="F5.3b" title="Resulting stencil openings shown in footprint editor" >}}
+{{< klcimg src="F5.3c" title="Result stencil openings shown in 3D viewer">}}

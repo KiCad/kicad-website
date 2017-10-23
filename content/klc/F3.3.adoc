@@ -1,11 +1,9 @@
 +++
-brief = "Connected copper elements have the same pad number"
+brief = "Resistor naming conventions"
 +++
 
-Footprints that contain multiple pads or conductive elements that are *physically connected* require special attention:
+== Standard THT axial resistor
 
-. Multiple pads that are physically connected must share the same number
-. Thermal vias (if present) must share the same number as the thermal pad to which they are connected
-
-
-{{< klcimg src="F3.3a" title="Connected copper areas must have same pad number" >}}
+```
+R_Axial_L[lenght]_D[diameter]_P[pitch]_{_Pad[pad modifier]}}_[orientation]{_footprint options}
+```
