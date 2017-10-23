@@ -17,7 +17,61 @@ Where the KLC is unclear, users should attempt to match the convention of existi
 
 Refer to the link:/libraries/contribute/[contribution guidelines] for introductory information on contributing to the KiCad libraries.
 
-{{< klc_list >}}
+---
+== General Library Guidelines
+
+{{< klc_list title="General Guidelines" filter="G1.">}}
+
+{{< klc_list title="Atomic and Generic Parts" filter="G2." >}}
+
+---
+== Symbol Guidelines
+
+{{< klc_list title="Symbol Libraries" filter="S1.">}}
+
+{{< klc_list title="Symbol Naming" filter="S2.">}}
+
+{{< klc_list title="General Symbol Requirements" filter="S3.">}}
+
+{{< klc_list title="Pin Requirements" filter="S4.">}}
+
+{{< klc_list title="Footprint Association" filter="S5.">}}
+
+{{< klc_list title="Symbol Metadata" filter="S6.">}}
+
+{{< klc_list title="Special Symbols" filter="S7.">}}
+
+---
+
+== Footprint Guidelines
+
+{{< klc_list title="Footprint Libraries" filter="F1.">}}
+
+{{< klc_list title="General Footprint Naming Guidelines" filter="F2.">}}
+
+{{< klc_list title="Specific Footprint Naming Guidelines" filter="F3.">}}
+
+{{< klc_list title="General Footprint Requirements" filter="F3.">}}
+
+{{< klc_list title="Layer Requirements" filter="F4.">}}
+
+{{< klc_list title="Surface Mount Components" filter="F5.">}}
+
+{{< klc_list title="Through Hole Components" filter="F6.">}}
+
+{{< klc_list title="Virtual Components" filter="F7.">}}
+
+{{< klc_list title="Footprint Properties" filter="F8.">}}
+
+---
+
+== 3D Model Guidelines
+
+{{< klc_list title="Contributing Models" filter="M1.">}}
+
+{{< klc_list title="3D File Requirements " filter="M2.">}}
+
+---
 
 == KLC Helper Scripts
 
