@@ -1,17 +1,17 @@
-{{ $title := .Get "title" }}
-{{ $filter := .Get "filter" }}
+{{- $title := .Get "title" -}}
+{{- $filter := .Get "filter" }}
 <h3>{{ strings.TrimSuffix "." $filter }} - {{ $title }}</h3>
-{{ range $rule := where .Site.Pages "Section" "klc" }}
-{{ $filename := $rule.File.LogicalName }}
-{{ if and (hasPrefix $filename $filter) (in $filename ".adoc") }}
-{{ $rulename := strings.TrimSuffix ".adoc" $filename }}
-{{ $rulenum := index (last 1 (split $rulename ".")) 0 }}
-{{ $rulenumstring := printf "%04d" (int $rulenum) }}
-{{ $.Scratch.SetInMap "rules" $rulenumstring $rule }}
-{{ end }}
-{{ end }}
+{{ range $rule := where .Site.Pages "Section" "klc" -}}
+{{- $filename := $rule.File.LogicalName -}}
+{{- if and (hasPrefix $filename $filter) (in $filename ".adoc") -}}
+{{- $rulename := strings.TrimSuffix ".adoc" $filename -}}
+{{- $rulenum := index (last 1 (split $rulename ".")) 0 -}}
+{{- $rulenumstring := printf "%04d" (int $rulenum) -}}
+{{- $.Scratch.SetInMap "rules" $rulenumstring $rule -}}
+{{- end -}}
+{{- end -}}
 <ul>
-{{ range $rule := $.Scratch.GetSortedMapValues "rules" }}
-{{ $rulename := strings.TrimSuffix ".adoc" $rule.File.LogicalName }}
-<li><a href="/libraries/klc/{{ $rulename }}/">{{ $rulename }} - {{ $rule.Params.brief }}</a></li>
-{{ end }}
+{{- range $rule := $.Scratch.GetSortedMapValues "rules" -}}
+{{- $rulename := strings.TrimSuffix ".adoc" $rule.File.LogicalName -}}
+<li><a href="/libraries/klc/{{ $rulename }}/">{{- $rulename }} - {{ $rule.Params.brief -}}</a></li>
+{{- end -}}
