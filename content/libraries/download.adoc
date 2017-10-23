@@ -2,6 +2,8 @@
 title = "Download Libraries"
 +++
 
+== KiCad Libraries
+
 KiCad libraries are community contributed and available for download on  link:https://github.com/kicad"[GitHub]. If you wish to contribute to the libraries, refer to the link:/libraries/contribute/[contribution guide].
 
 == Library Organisation
