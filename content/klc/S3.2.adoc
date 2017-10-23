@@ -2,15 +2,15 @@
 brief = "Text fields should use a common text size of 50mils"
 +++
 
-1. Text size must not be greater than `50mils` (`1.27mm`)
-1. Text size must not be less than `20mils` (`0.508mm`)
-1. All text fields must use text size of `50mil`
+. Text size must not be greater than `50mils` (`1.27mm`)
+. Text size must not be less than `20mils` (`0.508mm`)
+. All text fields must use text size of `50mil`
 * Pin names
 * Pin numbers
 * Value field
 * Reference field
 * Footprint field
 * Datasheet field
-1. Pin numbers must use text size of `50mils`
-1. Pin names should use text size of `50mils`
-1. Smaller text size may be allowed (only for pin names) when required for small symbols or those with special geometry
+. Pin numbers must use text size of `50mils`
+. Pin names should use text size of `50mils`
+. Smaller text size may be allowed (only for pin names) when required for small symbols or those with special geometry

@@ -4,9 +4,9 @@ brief = "Footprint properties are as default values unless otherwise required in
 
 Footprint properties should be left as default, unless there is a reason to do so as specified by the footprint datasheet (for example).
 
-1. *Move and Place* must be set to `Free`
-1. *Auto Place* should be set to `0`, `0`
-1. *Local Clearance Values* should all be set to `0`
+. *Move and Place* must be set to `Free`
+. *Auto Place* should be set to `0`, `0`
+. *Local Clearance Values* should all be set to `0`
 
 {{< klcimg src="F7.2a" title="Default footprint properties" >}}
 

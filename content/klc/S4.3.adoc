@@ -8,15 +8,15 @@ KiCad currently has no native method for designating that a particular symbol pi
 
 In the schematic view, pins that share the same position are considered to be _connected_ by the KiCad routing algorithm. Thus, pins can only be placed in the same location under a very specific set of circumstances:
 
-1. Pins must *not* be of type `No Connect` (these pins should never be connected together)
-1. Pins are logically connected in the symbol
-1. Pins must have the same name
-1. Pins must have the same electrical type
-1. One pin in the stack must be _visible_ (all other pins set to _invisible_)
+. Pins must *not* be of type `No Connect` (these pins should never be connected together)
+. Pins are logically connected in the symbol
+. Pins must have the same name
+. Pins must have the same electrical type
+. One pin in the stack must be _visible_ (all other pins set to _invisible_)
 
 **Special Case:** Pins of electrical type [`Output`, `Power Output`, `Power Input`] are special cases. Connecting these pins together causes ERC (electrical rule check) errors and must be avoided.
 
 For pin stacks using these pin types:
 [start=6]
-1. Visible pin must be set to correct electrical type
-1. All invisible pins must have electrical type set to `Passive`
+. Visible pin must be set to correct electrical type
+. All invisible pins must have electrical type set to `Passive`

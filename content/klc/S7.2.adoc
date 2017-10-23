@@ -5,11 +5,11 @@ brief = "Graphical symbols"
 Graphical symbols are used only to annotate schematics and do *not* correspond to a footprint on the PCB.
 
 
-1. Reference Designator must be set to `#SYM` and must be *invisible*
-1. Symbol name must be set to _invisible_
-1. Graphical symbols must not contain any pins
-1. No pins or footprint association
-1. No footprint filters
+. Reference Designator must be set to `#SYM` and must be *invisible*
+. Symbol name must be set to _invisible_
+. Graphical symbols must not contain any pins
+. No pins or footprint association
+. No footprint filters
 
 *Example:*
 

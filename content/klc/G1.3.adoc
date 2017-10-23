@@ -10,12 +10,12 @@ Rather than grouping components (e.g. symbols, footprints) by their manufacturer
 
 Library organization should follow the general form as described below, with each element separated by the underscore (`_`) character:
 
-1. Library function
-1. Library sub-function
-1. Tertiary qualifier
-1. Manufacturer name
-1. Component series name
-1. Extra library descriptors
+. Library function
+. Library sub-function
+. Tertiary qualifier
+. Manufacturer name
+. Component series name
+. Extra library descriptors
 
 _Note: Some of the elements listed above may be omitted if not required._
 
