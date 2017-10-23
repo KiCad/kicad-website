@@ -47,12 +47,11 @@ system are as follows:
 
 Vista, Windows Server 2008, Windows 7, Windows 8, Windows Server 2012, or Windows 10;
 
-=== Apple - Mac OS X
+=== Apple - MacOS
 
-The software and hardware prerequisites for installing on a Apple Mac OS
-X computer are as follows:
+The software and hardware prerequisites for installing on a Apple MacOS computer are as follows:
 
-Mac OS X 10.7 (Lion) or higher;
+MacOS 10.7 (Lion) or higher;
 
 === GNU/Linux
 

@@ -102,11 +102,11 @@ The only workaround is to use boost 1.56 or 1.57 which are known to work.
 == OSX
 === Poor performance on Retina displays
 
-On OS X machines with the new retina display (aka. HiDPI display) you
+On MacOS machines with a retina display (aka. HiDPI display) you
 might have trouble with rendering lag because of the high resolution.
 The rendering speed can be improved by adjusting the KiCad.app startup
 options to force low resolution. You can do that by setting the "Open
 in Low Resolution" checkbox in the app "Get Info" dialog. For a step
 by step description refer to the "*I'm noticing functional or visual
 issues with an application. How can I make it work better?*" section in
-the https://support.apple.com/en-is/HT202471[OS X support article].
+the https://support.apple.com/en-is/HT202471[MacOS support article].
