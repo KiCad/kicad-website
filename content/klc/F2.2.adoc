@@ -10,7 +10,7 @@ For IC packages, the first dimension specified is always the size of the package
 
 `X` x `Y` {x `Z`} where `Z` dimension is optional.
 
-e.g. `SOIC-8_3.2x5.7_P1.27mm`
+e.g. `SOIC-8_3.2x5.7mm_P1.27mm`
 
 Refer to the table below for accepted prefix abbreviations.
 
@@ -20,5 +20,5 @@ If the parameter is not found in the table above, the name of the parameter shou
 
 *Examples:*
 
-* `LQFP-32_4x4x1.1_P1.65` - LQFP package, 32 pins, 4x4mm body, 1.1mm height, 1.65mm pitch
-* `CP_Radial_D4.5_P2.5_H10` - Radial capacitor, 4.5mm diameter, 2.5mm pitch, 10mm height
+* `LQFP-32_4x4x1.1mm_P1.65mm` - LQFP package, 32 pins, 4x4mm body, 1.1mm height, 1.65mm pitch
+* `CP_Radial_D4.5mm_P2.5mm_H10mm` - Radial capacitor, 4.5mm diameter, 2.5mm pitch, 10mm height

@@ -1,34 +1,17 @@
 +++
-brief = "Fabrication layer requirements"
+brief = "Pin 1 should be located at the top left"
 +++
 
-The fabrication layers are used to display the simplified mechanical outline of components on the PCB.
+Footprints should be oriented such that Pin 1 is located in the upper left corner (IPC-7351).
 
-KiCad refers to the fabrication layers as:
+{{< klcimg src="F3.2" title="Pin 1 aligned top left" >}}
 
-* `F.Fab` - Front fabrication layer
-* `B.Fab` - Back fabrication layer
+**Exceptions**
 
-The following elements must be provided on the fabrication layer(s)
+Where footprints cannot be oriented with pin 1 in the top-left quadrant, pin 1 should be aligned to the top
 
-. Simplified component outline must be provided on `F.Fab` layer
-.. Outline uses line width between {`0.10mm` and `0.15mm`} (recommended `0.10mm`)
-.. Outline should be simplified and not display complex features
-. Footprint polarisation / location of pin-1 is drawn
-.. For IC packages, bevel is drawn at corner next to pin-1
-.. Bevel should be `1mm` or `25% of package size` (whichever is smaller)
-.. For connectors, a small arrow indicator drawn next to pin-1 should be used
-. Component value (footprint name) must be displayed on the `F.Fab` layer
-.. Recommended text size = `1.0mm`
-.. Allowable text size = {`0.1mm` to `2.0mm`}
-.. Allowable text thickness = {`0.01mm` to `0.20mm`} (should be approximately `15%` of text size, with allowances for variation for aesthetic reasons)
-.. If there is enough space, it should be placed inside footprint boundaries
-. A second copy of the reference designator (RefDes) must be provided on the `F.Fab` layer. To add a second RefDes item, add a text object with the value `%R`
-.. RefDes must be centered on component body (inside component outline)
-.. Orientation of RefDes should match major component axis
-.. Size of text should be scaled to match component size
-.. Recommended text size = `1.00mm`
-.. Allowable text size = {`0.1mm` to `2.0mm`}
-.. Allowable text thickness = {`0.01mm` to `0.20mm`} (should be approximately `15%` of text size, with allowances for variation for aesthetic reasons)
+{{< klcimg src="F3.2a" title="Align to top if top-left not possible" >}}
 
-{{< klcimg src="F4.2a" title="Fabrication layer" >}}
+Two terminal footpints should be aligned with pin 1 on the left side
+
+{{< klcimg src="F3.2b" title="Two terminal footprints align pin 1 on left" >}}

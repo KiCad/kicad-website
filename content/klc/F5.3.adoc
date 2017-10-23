@@ -1,34 +1,28 @@
 +++
-brief = "Pad requirements for SMD footprints"
+brief = "Courtyard layer requirements"
 +++
 
-Surface mount pads have specific requirements for PCB design.
+The component courtyard provides physical component boundaries to ensure that components do not interfere when placed on the board. The courtyard should also include any extra required clearance for mating connectors (for example).
 
-. By default, pads for SMD footprints should use only the following layers
-.. `F.Cu` - Front copper
-.. `F.Mask` - Front soldermask
-.. `F.Paste` - Front solderpaste (stencil openings)
-. If SMD pads are placed on the back of the PCB, then the following layers should be used:
-.. `B.Cu` - Back copper
-.. `B.Mask` - Back soldermask
-.. `B.Paste` - Back solderpaste (stencil openings)
-. Pads with specific stencil aperture design requirements require special attention (see details below)
+KiCad refers to the courtyard layers as:
 
-Many components (IC packages in particular) have specific design requirements for solderpaste (stencil) design. These requirements are often found in the footprint datasheet or an associated technical document.
+* `F.CrtYd` - Front courtyard layer
+* `B.CrtYd` - Back courtyard layer
 
-Most often, custom stencil openings are required for the exposed pads on large IC packages to reduce the amount of solderpaste that is applied during stencil application.
+A fully enlosed Component courtyard must be drawn on the `F.CrtYd` layer, with the following parameters:
 
-The image below shows an example stencil design found in a footprint datasheet. The superimposed blue square represents the shape of the exposed copper pad. The green squares are the required openings in the stencil.
+. Courtyard uses `0.05mm` line width
+. All courtyard line elements are placed on a `0.01mm` grid
+. If the component requires a courtyard on the back of the PCB, a corresponding courtyard must be provided on the `B.CrtYd` layer.
 
-{{< klcimg src="F5.3a" title="Refer to footprint datasheet for precise stencil requirements" >}}
+Courtyard clearance should adhere to the following requirements:
 
-Custom stencil openings are accommodated as follows:
+[start=4]
+. Unless otherwise specified, clearance is `0.25mm`
+. Components smaller than `0603` should have a clearance of `0.15mm`
+. Connectors should have a clearance of `0.5mm`, in addition to the clearance required for mating of connector
+. Canned capacitors should have a clearance of `0.5mm`
+. Crystals should have a clearance of `0.5mm`
+. BGA devices should have a clearance of `1.0mm`
 
-[loweralpha]
-. Construct copper shape with pad(s) with only copper layers (`F.Cu` and/or `B.Cu`) as appropriate. These copper pads should not have the `F.Paste` or `B.Paste` layers checked.
-. Add stencil opening(s) with pad(s) which only use solderpaste layers (`F.Paste` and/or `B.Paste`) as required. These pads _do not have a pad number_.
-
-*Result:* _(note: this footprint does not correspond to the example shown above)_
-
-{{< klcimg src="F5.3b" title="Resulting stencil openings shown in footprint editor" >}}
-{{< klcimg src="F5.3c" title="Result stencil openings shown in 3D viewer">}}
+{{< klcimg src="F4.3a" title="Courtyard layer" >}}

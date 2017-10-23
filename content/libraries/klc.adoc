@@ -51,17 +51,17 @@ Refer to the link:/libraries/contribute/[contribution guidelines] for introducto
 
 {{< klc_list title="Specific Footprint Naming Guidelines" filter="F3.">}}
 
-{{< klc_list title="General Footprint Requirements" filter="F3.">}}
+{{< klc_list title="General Footprint Requirements" filter="F4.">}}
 
-{{< klc_list title="Layer Requirements" filter="F4.">}}
+{{< klc_list title="Layer Requirements" filter="F5.">}}
 
-{{< klc_list title="Surface Mount Components" filter="F5.">}}
+{{< klc_list title="Surface Mount Components" filter="F6.">}}
 
-{{< klc_list title="Through Hole Components" filter="F6.">}}
+{{< klc_list title="Through Hole Components" filter="F7.">}}
 
-{{< klc_list title="Virtual Components" filter="F7.">}}
+{{< klc_list title="Virtual Components" filter="F8.">}}
 
-{{< klc_list title="Footprint Properties" filter="F8.">}}
+{{< klc_list title="Footprint Properties" filter="F9.">}}
 
 ---
 

@@ -1,28 +1,9 @@
 +++
-brief = "Silkscreen layer requirements"
+brief = "Datasheet recommendations take priority"
 +++
 
-The silkscreen is printed to the external surface of a PCB to aid in component identification and orientation. Typically this layer contains the component RefDes to locate components on the board after assembly.
+Where conflict exists between datasheet recommendations and KLC requirements, then (in the general case) the datasheet shold take priority.
 
-KiCad refers to the silkscreen layers as:
+It is important when designing footprints that they adhere to requirements for soldering and assembly - often these requirements have very small tolerance for variation.
 
-* `F.SilkS` - Front silkscreen layer
-* `B.SilkS` - Back silkscreen layer
-
-The following elements must be provided on the silkscreen.
-
-. Reference Designator must be drawn on `F.SilkS` layer
-.. Text size = `1.00mm`
-.. Text thickness = `0.15mm`
-. Silkscreen must not be placed over pads or areas of exposed copper
-  * Clearance between silkscreen and exposed copper elements must be at least `0.2mm` or more than the pad mask expansion (whichever is greater).
-. For SMD footprints, silkscreen must be fully visible after boards assembly (no silkscreen allowed under component)
-. For THT components, silkscreen may be placed under component to aid in assembly process
-. Silkscreen line width is between {`0.10mm` and `0.15mm`} as per IPC-7351C:
-  * Silkscreen line width should nominally be `0.12mm`
-  * `0.1mm` is allowed for high density designs
-  * `0.15mm` is allowed for low density designs
-. Pin-1 designator is provided on the `F.SilkS` layer
-. Pin-1 designator must be visible after board assembly
-
-{{< klcimg src="F4.1a" title="Silkscreen layer" >}}
+If the KLC is at odds with the datasheet, follow the datasheet, and note this difference to the KiCad library team when submitting your contribution.
