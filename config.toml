@@ -105,14 +105,8 @@ disablePathToLower = true
 
 [[menu.main]]
     name   = "Download"
+    url = "/download/"
     weight = 600
-
-[[menu.main]]
-    parent = "Download"
-    name = "Download"
-    identifier = "download_kicad"
-    url    = "/download/"
-    weight = 10
 
 [[menu.main]]
     name   = "About"
