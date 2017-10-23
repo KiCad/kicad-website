@@ -1,14 +1,6 @@
 +++
-brief = "Naming of manufacturer specific footprints"
+brief = "Units must always be specified where appropriate"
 +++
 
-If a manufacturer footprint deviates from the "standard" footprints available, then this should be added to the library and designated as manufacturer-specific.
-
-. If a footprint is specific to a single manufacturer, this must be indicated by prepending the manufacturer name and MPN to the footprint name.
-
-* `Texas_S-PVQFN-N48_`
-
-[start=2]
-. Sometimes the component datasheet will have specific requirements which do not comform to KLC requirements. A common example is specific requirements for the shape of stencil (solder paste layer).
-
-In such cases, the KLC requirements can be superceded by the datasheet requirements, at the discretion of the KiCad library team.
+* `mm` - millimeters
+* `in` - inches
