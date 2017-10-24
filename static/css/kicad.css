@@ -414,3 +414,15 @@ nav.secondary a {
 code {
   text-align: left;
 }
+
+.fpNaming {
+    word-wrap: normal;
+    overflow-wrap: normal;
+    background-color: #EEE;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.fpNamingSpan {
+    white-space: pre-line;
+}
