@@ -2,30 +2,20 @@
 brief = "Capacitor naming conventions"
 +++
 
-== Capacitor Footprints
-```
-[C | CP]{_[style]}{_[Body Size]_P[pitch]}{_Pad[pad modifier]}}{_footprint options}
-```
+{{< fp_naming_header type="capacitor" >}}
 
-* C for non polarized capacitors
-* CP for polarized capacitors
+== SMD Chip Capacitor
 
-==== SMD Capacitor
-===== Non Polarized Capacitor in Standardized Two Terminal Package
-```
-C{{< fp_naming_TwoTerminal >}}
-```
-link:{{< relref "klc/F2.6/FP-Naming_TwoTerminalSMD.adoc" >}}[More details]
+{{< fp_code name="cap_chip" >}}
 
-===== Tantalum Capacitor
-```
-CP_Tantalum_[Size Code]_EIA-[Metric size code]{_Pad[pad modifier]}}{_footprint options}
-```
-Where Size code is:
+Notes:
 
-* Kemet-[kemet size]
-* AVX-[AVX size] if there is no equivalent kemet size for this capacitor
-* If neither a Kemet nor AVX code exists for your package then the Size Code field is left empty.
+. At least one case size (either imperial or metric) must be specified
+. Metric case size must have the suffix `Metric`
+
+== SMD Tantalum Capacitor
+
+{{< fp_code name="cap_tant_smd" >}}
 
 [.library]
 |===
@@ -55,26 +45,23 @@ Where Size code is:
 | 7361-438 | 7,3 x 6,1 x 4,3 mm   | — | U
 |===
 
-===== Electrolyte SMD Capacitor
-```
-CP_[Elec]_D[diameter]{_H[height]}{_P[pitch]}_{_Pad[pad modifier]}}{_footprint options}
-```
+== SMD Electrolytic Capacitor
 
-==== Standard THT Capacitor
-```
-[C | CP]_[style]_[Body Size]_P[pitch]_{_Pad[pad modifier]}}{_footprint options}
-```
-There are different capacitor styles available:
+{{< fp_code name="cap_elec_smd" >}}
 
+== THT Capacitor
+
+{{< fp_code name="cap_tht" >}}
+
+Notes:
+
+. There are different capacitor styles available:
 * Axial: Cylindrical body with axial lead attachment.
 * Radial: Cylindrical body, both leads enter at same end.
 * Disc: Disc shaped body (sometimes enclosed), leads enter tangent to the inner disc
 * Rect: Box shaped body (Bottom face in contact with the board)
-
-Body Size:
-
+. Body size:
 * For Axial body styles: L[lenght]_D[diameter]
 * For Radial body style: D[diameter]{_H[height]}
 * For Disc body style: D[diameter]_W[width]{_H[overall height]}
 * For box shaped body styles: [X]x[Y]{x[Z]}
-** If the bottom face is not in contact with the board add _H[overall height].

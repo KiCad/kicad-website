@@ -1,0 +1,17 @@
+name: smd_chip
+
+entries:
+    - code: Imperial size
+      title: Imperial case size
+      optional: 1
+    - code: Metric size
+      title: Metric case size
+      suffix: Metric
+      optional: 1
+    - code: Pad modifiers
+      title: Pad modifiers if non standard
+      optional: 1
+      prefix: Pad
+    - code: Options
+      title: Footprint options
+      optional: 1

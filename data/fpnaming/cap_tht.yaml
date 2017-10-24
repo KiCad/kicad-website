@@ -1,0 +1,19 @@
+name: cap_tht
+
+entries:
+    - code: "C/CP"
+      title: Capacitor polarisation
+    - code: Style
+      title: Capacitor case style (see notes below)
+    - code: Case size
+      prefix: B
+      title: Case dimensions
+    - code: Pitch
+      title: Lead spacing
+      prefix: P
+    - code: Pad options
+      prefix: Pad
+      title: Pad dimensions if non standard
+    - code: Options
+      title: Footprint options
+      optional: 1

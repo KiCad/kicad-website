@@ -1,0 +1,19 @@
+name: cap_tant_smd
+
+entries:
+    - code: "CP_Tantalum"
+    - code: Manufacturer
+      title: Manufacturer name
+      optional: 1
+    - code: Size code
+      title: Manufacturer size code
+    - code: Metric size
+      prefix: "EIA-"
+      title: EIA metric size code
+    - code: Pad modifiers
+      title: Pad modifiers if non standard
+      optional: 1
+      prefix: Pad
+    - code: Options
+      title: Footprint options
+      optional: 1

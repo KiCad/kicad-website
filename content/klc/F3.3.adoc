@@ -2,8 +2,8 @@
 brief = "Resistor naming conventions"
 +++
 
-== Standard THT axial resistor
+{{< fp_naming_header type="resistor" >}}
 
-```
-R_Axial_L[lenght]_D[diameter]_P[pitch]_{_Pad[pad modifier]}}_[orientation]{_footprint options}
-```
+== Axial Resistors
+
+{{< fp_code name="r_axial" >}}
