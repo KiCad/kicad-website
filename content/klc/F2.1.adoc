@@ -12,9 +12,10 @@ Each footprint is a `.kicad_mod` file (stored within a `.pretty` directory). The
   * `QFN-48`
   * `DIP-20`
 . Unique _fields_ (parameters) in the footprint name are separated by `_` character.
-. Package dimensions are specified as `length`x`width` (and optionally `height`) with the prefix `B`
-  * `B3.5x0.2mm` - 3.5mm x 0.2mm
-  * `B1x1in` - 1inch x 1inch
+. Package dimensions are specified as `length`x`width` (and optionally `height`)`
+  * `3.5x3.5x0.2mm`
+  * `1x1in`
+  * If necessary for clarity, dimensions may be prefixed with a leading `B`
 . Pitch is specified with a leading `P`:
   * `P1.27mm` - 1.27mm pitch
   * `P5.0mm` - 5.0mm pitch
