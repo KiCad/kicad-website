@@ -1,0 +1,48 @@
+name: ic_tht_to
+
+entries:
+    - code: PKG
+      title: Package name
+    - code: Pincount
+      title: Number of (unique) pins
+      delimiter: "-"
+    - code: X
+      prefix: B
+      title: Major dimension of part on x axis
+    - code: "Y"
+      title: Major dimension of part on y axis
+      delimiter: x
+    - code: Z
+      title: Major dimension of part on z axis
+      delimiter: x
+      optional: 1
+    - code: Lead span
+      prefix: W
+      title: Distance between leads
+    - code: Pitch x
+      prefix: P
+      title: Lead pitch in x dimension
+    - code: Pitch y
+      delimiter: x
+      optional: 1
+      title: Lead pitch in y dimension (if different from x dimension)
+    - code: Stagger
+      title: Pin staggering options
+      optional: 1
+    - code: Lead length
+      prefix: Lead
+      title: Lead length (if non standard)
+      optional: 1
+    - code: Drill size
+      prefix: Drill
+      title: Drill diameter (if non standard)
+      suffix: mm
+      optional: 1
+    - code: Pad size
+      prefix: Pad
+      title: Pad dimensions (if non standard)
+    - code: Orientation
+      title: Component orientation (see notes below)
+    - code: Options
+      title: Extra footprint options
+      optional: 1

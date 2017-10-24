@@ -2,12 +2,13 @@
 brief = "Fuse naming conventions"
 +++
 
-== Fuse Holders
-```
-Fuseholder_[Fuse Type]_[MAN]_[Manufacturer series name]_[MPN]{_Pad[pad modifier]}}_[orientation]_[Closed | Open]{_footprint options}
-```
+{{< fp_naming_header type="fuse and fuse holder" >}}
 
-Fuse Type:
+== Fuse Holders
+
+{{< fp_code name="fuse_holder" >}}
+
+Examples of `Fuse Type` field:
 
 * Automotive fuses
 ** Automotive-Micro2
@@ -22,19 +23,12 @@ Fuse Type:
 ** Cylinder-[diameter]x[length]mm
 
 
-=== Fuses
-```
-Fuse_{[MAN]_[Manufacturer series name]_[MPN]}{_[Body Size]}{_Pad[pad modifier]}}{_[orientation]}{_footprint options}
-```
+== Fuses
 
+=== Cylindrical Fuse
 
-==== Standardized two terminal rectangular SMD packages
-```
-Fuse{{< fp_naming_TwoTerminal >}}
-```
-link:{{< relref "klc/F2.6/FP-Naming_TwoTerminalSMD.adoc" >}}[More details]
+{{< fp_code name="fuse" >}}
 
-==== Manufacturer Specific fuses
-```
-Fuse_[MAN]_[Manufacturer series name]_[MPN]{_[Body Size]}{_Pad[pad modifier]}}{_[orientation]}{_footprint options}
-```
+=== Rectangular SMD Fuses
+
+{{< fp_code name="smd_chip" prefix="Fuse_" >}}

@@ -1,3 +1,5 @@
+{{- $colorMandatory := "#DD0055" -}}
+{{- $colorOptional := "#2567D1" -}}
 {{- $name := .Get "name" -}}
 {{- $prefix := .Get "prefix" }}
 {{- $found := false -}}
@@ -20,7 +22,7 @@
 {{- $.Scratch.Add "optional" (slice "no") -}}
 {{- end -}}
 <span class="fpNamingSpan" title="{{ if $d.optional}}(Optional) {{ end }}{{ $d.title }}" style=
-{{- if $d.optional -}}"color: #2567D1">{{ else }}"color: #DD0055">{{- end -}}
+{{- if $d.optional -}}"color: {{ $colorOptional }}">{{ else }}"color: {{ $colorMandatory }}">{{- end -}}
 {{- if gt $i 0 }}
 {{- if $d.delimiter }}{{ $d.delimiter }}{{ else }}_{{ end -}}
 {{ end -}}
@@ -28,7 +30,7 @@
 {{- if $d.suffix -}}<b>{{- $d.suffix -}}</b>{{ end -}}
 </span>
 {{- else -}}
-{{- $d.code -}}
+<b>{{- $d.code -}}</b>
 {{- end -}}
 {{- end -}}
 </div>
@@ -41,7 +43,7 @@
 {{- $title := index $titles $i -}}
 {{- $optional := index $optionals $i }}
 <li><span style=
-{{- if eq $optional "yes" -}}"color: #2567D1">{{- else -}}"color: #DD0055">{{- end -}}
+{{- if eq $optional "yes" -}}"color: {{ $colorOptional }}">{{- else -}}"color: {{ $colorMandatory }}">{{- end -}}
 <b>{{- $code }}</b> - {{ $title -}}
 {{- if eq $optional "yes" }} (Optional){{ end -}}
 </span></li>

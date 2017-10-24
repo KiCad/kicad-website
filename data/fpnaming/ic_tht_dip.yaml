@@ -1,4 +1,4 @@
-name: ic_bga
+name: ic_tht_dip
 
 entries:
     - code: PKG
@@ -6,11 +6,6 @@ entries:
     - code: Pincount
       title: Number of (unique) pins
       delimiter: "-"
-    - code: Columns
-      title: Number of ball columns
-    - code: Rows
-      title: Number of ball rows
-      delimiter: x
     - code: X
       prefix: B
       title: Major dimension of part on x axis
@@ -21,20 +16,25 @@ entries:
       title: Major dimension of part on z axis
       delimiter: x
       optional: 1
-    - code: Pitch X
+    - code: Lead span
+      prefix: W
+      title: Distance between leads
+    - code: Pitch
       prefix: P
-      title: Ball pitch in x direction
-    - code: Pitch Y
-      delimiter: x
+      title: Lead pitch
+    - code: Lead size
+      prefix: Lead
       optional: 1
-      title: Ball pitch in y direction (if different from x direction
-    - code: mm
-    - code: Diameter
-      prefix: D
-      title: Ball diameter
+      title: Dimensions of leads if non standard
+    - code: Drill size
+      prefix: Drill
       suffix: mm
-    - code: NSMD/SMD
-      title: Solder Mask Defined or Non Solder Mask Defined
+      title: Drill size (if non standard)
+      optional: 1
+    - code: Pad modifiers
+      prefix: Pad
+      title: Pad modifiers if non standard pads
+      optional: 1
     - code: Options
       title: Extra footprint options
       optional: 1

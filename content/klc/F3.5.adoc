@@ -2,7 +2,10 @@
 brief = "Connector naming conventions"
 +++
 
-=== Connectors
+{{< fp_naming_header type="connector" >}}
+
+== Connector Footprints
+
 ```
 {[manufacturer name]_}{[generic series name]_}{[manufacturer specific identification]}{-[pin configuration]_P[pin pitch]}{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
@@ -36,19 +39,25 @@ The orientation of connectors is determined by the plug direction.
 
 generic series name:
 
-i. `USB{_[Standard]}{_[Size]}_[Type]`
-  * Standard only needed for USB 3 (non backward compatible connectors)
-  * Size: none, micro, mini
-  * Type: A, B, C
-i. `HDMI_[Type]`
-  * Type A = Normal, Type B = Dual Link, Type C = Mini, Type D = Micro, Type E = Automotive
-i. `DVI_[Type]{_Size}`
-  * Type: I = integrated, D = digital only, A = analog only
-  * Size: None = normal, Mini or Mircro
-i. `SD_[Standard]{_[Size]}{_UHS_[UHS Type]}`
-  * Standard: SC, HC, XC or IO (Specification of your component. Yes some of them are Backwards compatible, give the highest standard specified.)
-  * Size: None = normal, Mini, Micro
-  * For UHS enabled components the UHS type needs to be given.
+* `USB{_[Standard]}{_[Size]}_[Type]`
+** Standard only needed for USB 3 (non backward compatible connectors)
+** Size: none, micro, mini
+** Type: A, B, C
+* `HDMI_[Type]`
+** Type A = Normal
+** Type B = Dual Link,
+** Type C = Mini
+** Type D = Micro
+** Type E = Automotive
+* `DVI_[Type]{_Size}`
+** Type I = integrated
+** Type D = digital only
+** Type A = analog only
+** Size: None = normal, Mini or Mircro
+* `SD_[Standard]{_[Size]}{_UHS_[UHS Type]}`
+** Standard: SC, HC, XC or IO (Specification of your component. Some of are backwards compatible, give the highest standard specified.)
+** Size: `None, Mini, Micro`
+** For UHS enabled components the UHS type needs to be given.
 
 ==== Connectors for standardized connectors with manufacturer specific footprints (DSUB, Tab, ...)
 ```

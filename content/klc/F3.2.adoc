@@ -2,15 +2,20 @@
 brief = "SMD chip package naming conventions"
 +++
 
-=== Standardized Two Terminal Rectangular SMD Packages
-```
-[Device Short-code]{{< fp_naming_TwoTerminal >}}
-```
+{{< fp_naming_header type="SMD chip package" >}}
 
-The device short code depends on the device.
-It is R for Resistor, C for Capacitor, ...
+{{< fp_code name="smd_chip" prefix="PREFIX_" >}}
 
-See the specific section of the naming convention for more details.
+**Prefix:**
+
+The prefix is determined by the default reference designator of the device, e.g.
+
+* Capacitor = `C`
+* Capacitor (polarised) = `CP`
+* Resistor = `R`
+* Diode = `D`
+
+**Case size codes:**
 
 [.library]
 |===
