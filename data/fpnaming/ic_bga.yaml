@@ -28,11 +28,14 @@ entries:
       delimiter: x
       optional: 1
       title: Ball pitch in y direction (if different from x direction
-    - code: mm
-    - code: Diameter
-      prefix: D
+      suffix: mm
+    - code: Ball
+      prefix: Ball
       title: Ball diameter
       suffix: mm
+    - code: Pad
+      prefix: Pad
+      title: Pad diameter
     - code: NSMD/SMD
       title: Solder Mask Defined or Non Solder Mask Defined
     - code: Options

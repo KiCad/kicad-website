@@ -1,0 +1,28 @@
+name: conn_standard
+entries:
+    - code: MAN
+      title: Manufactuer name
+      optional: 1
+    - code: Series
+      title: Manufacturer series name
+      optional: 1
+    - code: MPN
+      title: Manufacturer part number
+      optional: 1
+    - code: Standard
+      title: Generic connector standard (see notes below)
+    - code: Pins
+      title: Pin configuration
+      delimiter: "-"
+    - code: Pitch
+      prefix: P
+      title: Pin pitch
+    - code: Pad size
+      title: Pad dimensions (if non standard)
+      optional: 1
+    - code: Orientation
+      title: Connector orientation (if multiple options exist)
+      optional: 1
+    - code: Options
+      title: Extra footprint options
+      optional: 1

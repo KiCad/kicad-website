@@ -1,0 +1,21 @@
+name: conn_sd_card
+entries:
+    - code: MAN
+      title: Manufacturer name
+      optional: 1
+    - code: MPN
+      title: Manufacturer part number
+      optional: 1
+    - code: SD
+    - code: Standard
+      title: SD card standard (see notes below)
+    - code: Size
+      title: SD card size
+      optional: 1
+    - code: UHS
+      prefix: UHS
+      title: Ultra High Speed specifications
+      optional: 1
+    - code: Options
+      title: Extra footprint options
+      optional: 1
