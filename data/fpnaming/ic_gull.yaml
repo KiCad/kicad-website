@@ -1,0 +1,49 @@
+name: ic_gull
+
+entries:
+    - code: PKG
+      title: Package name
+    - code: Pincount
+      title: Number of (unique) pins
+      delimiter: "-"
+    - code: EP Qty
+      title: Number of exposed pads under the device (if greater than zero)
+      suffix: EP
+      delimiter: "-"
+      optional: 1
+    - code: X
+      prefix: B
+      title: Major dimension of part on x axis
+    - code: "Y"
+      title: Major dimension of part on y axis
+      delimiter: x
+    - code: Z
+      title: Major dimension of part on z axis
+      delimiter: x
+      optional: 1
+    - code: Pitch
+      prefix: P
+      title: Lead pitch
+    - code: Clearance
+      title: Clearance distance between pad rows
+      prefix: CL
+      optional: 1
+    - code: Lead size
+      prefix: Lead
+      optional: 1
+      title: Dimensions of leads if non standard
+    - code: EP size
+      prefix: EP
+      title: Dimensions of exposed pad if non standard
+      optional: 1
+    - code: Mask size
+      prefix: Mask
+      title: Dimensions of soldermask exposure if non standard
+      optional: 1
+    - code: Pad modifiers
+      prefix: Pad
+      title: Pad modifiers if non standard pads
+      optional: 1
+    - code: Options
+      title: Extra footprint options
+      optional: 1
