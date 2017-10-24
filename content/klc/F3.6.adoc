@@ -1,34 +1,102 @@
 +++
-brief = "Fuse naming conventions"
+brief = "Connector naming conventions"
 +++
 
-{{< fp_naming_header type="fuse and fuse holder" >}}
+{{< fp_naming_header type="connector" >}}
 
-== Fuse Holders
+== Manufacturer Series Connectors
 
-{{< fp_code name="fuse_holder" >}}
+Manufacturer series connectors are those which do not have a specific _purpose_ or adhere to a particular _physical_ standard.
 
-Examples of `Fuse Type` field:
+{{< fp_code name="conn_manu" >}}
 
-* Automotive fuses
-** Automotive-Micro2
-** Automotive-Micro3
-** Automotive-LowProfile
-** Automotive-Mini
-** Automotive-Regular
-** Automotive-Maxi
-** Automotive-Bosh
-** Automotive-SFE-[SizeCode]
-* Industrial fuses
-** Cylinder-[diameter]x[length]mm
+Notes:
+
+. If the footprint is located in a library dedicated to a single manufacturer, then the `MAN` prefix is not required
+. The pin configuration field is dependent on the connector type.
+* Single row connectors: 1x[`number of pins`]
+* Multi row connectors with equal number of pins in each row: [`number of rows`]x[`number of pins per row]`
+* Other connectors: [`number of `rows]Rows_[`number of pins`]
+* Connectors for standardized interfaces do not need to include the pin configuration information. (Example USB)
+. Number format:
+* [`number of rows`] number of rows no leading zero.
+* [`number of pins per row`] and [`number of pins`] two digit number with leading zero. (can have more digits for connectors with > 100 pins)
+. The [`manufacturer series name`] is defined by the manufacturer
+. [`Orientation`] of connector is determined by the direction of the plug relative to the board plane (see image below).
+
+{{< klcimg_full_width src="connector_orientation" title="The orientation of connectors is determined by the plug direction." >}}
+
+== Connectors with Standardised Shape
+
+{{< fp_code name="conn_standard" >}}
+
+Notes:
+
+. The generic connector type [`Standard`] defines the shape of the connector
+* e.g. `DSUB` `Tab` `Circular`
+
+== Connectors for Specific Functions
+
+Many connectors are designed for specific functions (e.g. USB, HDMI, SD-Card, etc). In these cases, specific naming conventions should be followed:
+
+=== USB
+
+{{< fp_code name="conn_usb" >}}
+
+=== HDMI
+
+{{< fp_code name="conn_hdmi" >}}
+
+Notes:
+
+. [`Type`]
+* Type A = Normal
+* Type B = Dual Link,
+* Type C = Mini
+* Type D = Micro
+* Type E = Automotive
+
+=== DVI
+
+{{< fp_code name="conn_dvi" >}}
+
+Notes:
+
+. [`Type`]
+* Type I = integrated
+* Type D = digital only
+* Type A = analog only
+. [`Size`]
+* Omit for standard size
+* `Mini`, `Micro`
+
+=== SD Card
+
+{{< fp_code name="conn_sd_card" >}}
+
+Notes:
+
+. [`Standard`]
+* `SC`, `HC`, `XC`, `IO`
+* Specify the highest compatible standard
+. [`Size`]
+* Omit for standard size
+* `Mini`, `Micro`
+. [`UHS`]
+* For UHS enabled cards, the UHS type needs to be specified
 
 
-== Fuses
+=== Generic connector footprints (For standardized connectors like: Pin headers, socket strips, ...)
+```
+[generic series name]-[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
+```
+Generic connectors do not include manufacturer specific information.
 
-=== Cylindrical Fuse
+=== Terminal Blocks (Screw headers)
+```
+TerminalBlock_[MAN]{_[manufacturer series name]}_[MPN]-[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
+```
+Orientation:
+For terminal Blocks the orientation is determined by the direction of the cable slot.
 
-{{< fp_code name="fuse" >}}
-
-=== Rectangular SMD Fuses
-
-{{< fp_code name="smd_chip" prefix="Fuse_" >}}
+{{< klcimg_full_width src="terminal_block_orientation" title="For terminal Blocks the orientation is determined by the direction of the cable slot." >}}

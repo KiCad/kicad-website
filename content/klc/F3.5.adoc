@@ -1,81 +1,36 @@
 +++
-brief = "Connector naming conventions"
+brief = "THT IC package naming conventions"
 +++
 
-{{< fp_naming_header type="connector" >}}
+{{< fp_naming_header type="THT IC package" >}}
 
-== Connector Footprints
+== Through Hole Packages (DIP)
 
-```
-{[manufacturer name]_}{[generic series name]_}{[manufacturer specific identification]}{-[pin configuration]_P[pin pitch]}{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
-```
-The pin configuration field is dependent on the connector type.
+{{< fp_code name="ic_tht_dip" >}}
 
-* Single row connectors: 1x[number of pins]
-* Multi row connectors with equal number of pins in each row: [number of rows]x[number of pins per row]
-* Other connectors: [number of rows]Rows_[number of pins]
-* Connectors for standardized interfaces do not need to include the pin configuration information. (Example USB)
+Notes:
 
-Number format:
+. Drill size (if specified) must be given in `mm`
 
-* [number of rows] number of rows no leading zero.
-* [number of pins per row] and [number of pins] two digit number with leading zero. (can have more digits for connectors with > 100 pins)
+== Through Hole Packages (TO)
 
-generic series name: The generic name for the type of connector.
+{{< fp_code name="ic_tht_to" >}}
 
-The orientation of connectors is determined by the plug direction.
+Notes:
 
-{{< klcimg_full_width src="connector_orientation" title="The orientation of connectors is determined by the plug direction." >}}
+. Drill size (if specified) must be given in `mm`
+. `Orientation` can be chosen from:
+* Vertical
+* TabDown
+* TabUp
+. `Stagger` can be chosen from:
+* StaggerOdd (odd pins are further from component body)
+* StaggerEven (even pins are further from component body)
 
-=== Manufacturer specific connectors (JST_EH, Molex_PicoBlade, ...)
-```
-[MAN]{_[manufacturer series name]}_[MPN]-[pin configuration]_P[pin pitch]{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
-```
+**Size Parameter:**
 
-=== Connectors for standardized interfaces with manufacturer specific footprints (USB, HDMI, SD-Card, ...)
-```
-[generic series name]_[MAN]{_[manufacturer series name]}_[MPN]{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
-```
+{{< klcimg src="to-body_dim" title="Body dimension details" >}}
 
-generic series name:
-
-* `USB{_[Standard]}{_[Size]}_[Type]`
-** Standard only needed for USB 3 (non backward compatible connectors)
-** Size: none, micro, mini
-** Type: A, B, C
-* `HDMI_[Type]`
-** Type A = Normal
-** Type B = Dual Link,
-** Type C = Mini
-** Type D = Micro
-** Type E = Automotive
-* `DVI_[Type]{_Size}`
-** Type I = integrated
-** Type D = digital only
-** Type A = analog only
-** Size: None = normal, Mini or Mircro
-* `SD_[Standard]{_[Size]}{_UHS_[UHS Type]}`
-** Standard: SC, HC, XC or IO (Specification of your component. Some of are backwards compatible, give the highest standard specified.)
-** Size: `None, Mini, Micro`
-** For UHS enabled components the UHS type needs to be given.
-
-=== Connectors for standardized connectors with manufacturer specific footprints (DSUB, Tab, ...)
-```
-[generic series name]_[MAN]{_[manufacturer series name]}_[MPN]-[pin configuration]_P[pin pitch]{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
-```
-The difference between these types of connectors and standardized interface connectors is the inclusion of the pin configuration.
-
-=== Generic connector footprints (For standardized connectors like: Pin headers, socket strips, ...)
-```
-[generic series name]-[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
-```
-Generic connectors do not include manufacturer specific information.
-
-=== Terminal Blocks (Screw headers)
-```
-TerminalBlock_[MAN]{_[manufacturer series name]}_[MPN]-[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
-```
 Orientation:
-For terminal Blocks the orientation is determined by the direction of the cable slot.
 
-{{< klcimg_full_width src="terminal_block_orientation" title="For terminal Blocks the orientation is determined by the direction of the cable slot." >}}
+{{< klcimg_full_width src="to-THT_orientation" title="TO THT orientation" >}}
