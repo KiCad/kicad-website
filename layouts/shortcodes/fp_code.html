@@ -30,6 +30,9 @@
 {{- if $d.suffix -}}<b>{{- $d.suffix -}}</b>{{ end -}}
 </span>
 {{- else -}}
+{{- if gt $i 0 }}
+{{- if $d.delimiter }}{{ $d.delimiter }}{{ else }}_{{ end -}}
+{{- end -}}
 <b>{{- $d.code -}}</b>
 {{- end -}}
 {{- end -}}

@@ -12,7 +12,6 @@ entries:
       delimiter: "-"
       optional: 1
     - code: X
-      prefix: B
       title: Major dimension of part on x axis
     - code: "Y"
       title: Major dimension of part on y axis

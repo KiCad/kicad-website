@@ -1,0 +1,24 @@
+name: conn_manu
+
+entries:
+    - code: "MAN"
+      title: "Manufacturer name"
+      optional: 1
+    - code: "Series"
+      title: "Manufacturer series name"
+    - code: "MPN"
+      title: "Manufacturer part number"
+    - code: "Pin configuration"
+      title: "Pin layout information (see notes below)"
+    - code: Pitch
+      prefix: P
+      title: Pad pitch
+    - code: Pad size
+      prefix: Pad
+      optional: 1
+      title: Pad dimensions if non standard
+    - code: Orientation
+      title: Direction of connector insertion relative to board plane
+    - code: Options
+      title: Extra footprint options
+      optional: 1
