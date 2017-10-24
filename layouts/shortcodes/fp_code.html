@@ -1,4 +1,5 @@
 {{- $name := .Get "name" -}}
+{{- $prefix := .Get "prefix" }}
 {{- $found := false -}}
 {{- range .Site.Data.fpnaming -}}
 {{- if eq .name $name -}}
@@ -8,6 +9,7 @@
 {{ $data := $.Scratch.Get "data" }}
 {{- $n := sub (len $data.entries) 1 -}}
 <div class="fpNaming">
+{{- if $prefix }}{{ $prefix }}{{ end -}}
 {{- range $i, $d := $data.entries -}}
 {{- if $d.title -}}
 {{- $.Scratch.Add "code" (slice $d.code) }}
