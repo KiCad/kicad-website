@@ -1,0 +1,42 @@
+{{- $name := .Get "name" -}}
+{{- $found := false -}}
+{{- range .Site.Data.fpnaming -}}
+{{- if eq .name $name -}}
+{{- $.Scratch.Set "data" . -}}
+{{- end -}}
+{{- end -}}
+{{ $data := $.Scratch.Get "data" }}
+{{- $n := sub (len $data.entries) 1 -}}
+{{- range $i, $d := $data.entries -}}
+{{- if $d.title -}}
+{{- $.Scratch.Add "code" (slice $d.code) }}
+{{- $.Scratch.Add "title" (slice $d.title) }}
+{{- if $d.optional }}
+{{- $.Scratch.Add "optional" (slice "yes") -}}
+{{- else -}}
+{{- $.Scratch.Add "optional" (slice "no") -}}
+{{- end -}}
+<span title="{{ if $d.optional}}(Optional) {{ end }}{{ $d.title }}" style=
+{{- if $d.optional -}}"color: #2567D1">{{ else }}"color: #DD0055">{{- end -}}
+{{- if $d.prefix -}}{{- $d.prefix -}}{{- end -}}[<i>{{- $d.code -}}</i>]</span>
+{{- else -}}
+{{- $d.code -}}
+{{- end -}}
+{{- if lt $i $n -}}_{{- end -}}
+{{- end -}}
+{{- $titles := $.Scratch.Get "title" -}}
+{{- $codes := $.Scratch.Get "code" -}}
+{{- $optionals := $.Scratch.Get "optional" -}}
+{{- if gt (len $codes) 0 }}
+<ul>
+{{- range $i, $code := $codes -}}
+{{- $title := index $titles $i -}}
+{{- $optional := index $optionals $i }}
+<li><span style=
+{{- if eq $optional "yes" -}}"color: #2567D1">{{- else -}}"color: #DD0055">{{- end -}}
+<b>{{- $code }}</b> - {{ $title -}}
+{{- if eq $optional "yes" }} (Optional){{ end -}}
+</span></li>
+{{- end }}
+</ul>
+{{ end -}}
