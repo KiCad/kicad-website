@@ -1,67 +1,51 @@
 +++
-brief = "Capacitor naming conventions"
+brief = "SMD IC package naming conventions"
 +++
 
-{{< fp_naming_header type="capacitor" >}}
+{{< fp_naming_header type="SMD IC package" >}}
 
-== SMD Chip Capacitor
+== Gullwing Packages
 
-{{< fp_code name="cap_chip" >}}
+The format below provides a guide for naming Gullwing IC packages.
 
-Notes:
+Examples:
 
-. At least one case size (either imperial or metric) must be specified
-. Metric case size must have the suffix `Metric`
+* SOIC
+* SOP
+* QFP
 
-== SMD Tantalum Capacitor
-
-{{< fp_code name="cap_tant_smd" >}}
-
-[.library]
-|===
-| EIA Metric size | Body size (XxYxZ) | Kemet Code | AVX Code
-
-| 1608-08  | 1,6 x 0,8 x 0,8 mm   | — | J
-| 1608-10  | 1,6 x 0,85 x 1,05 mm | — | L
-| 2012-12  | 2,05 x 1,35 x 1,2 mm | R | R
-| 2012-15  | 2,05 x 1,35 x 1,5 mm | — | P
-| 3216-10  | 3,2 x 1,6 x 1,0 mm   | I | K
-| 3216-12  | 3,2 x 1,6 x 1,2 mm   | S | S
-| 3216-18  | 3,2 x 1,6 x 1,8 mm   | A | A
-| 3528-12  | 3,5 x 2,8 x 1,2 mm   | T | T
-| 3528-15  | 3,5 x 2,8 x 1,5 mm   | — | H
-| 3528-21  | 3,5 x 2,8 x 2,1 mm   | B | B
-| 6032-15  | 6,0 x 3,2 x 1,5 mm   | U | W
-| 6032-20  | 6,0 x 3,2 x 2,0 mm   | — | F
-| 6032-28  | 6,0 x 3,2 x 2,8 mm   | C | C
-| 7343-15  | 7,3 x 4,3 x 1,5 mm   | W | X
-| 7343-20  | 7,3 x 4,3 x 2,0 mm   | V | Y
-| 7343-30  | 7,3 x 4,3 x 3,0 mm   | — | N
-| 7343-31  | 7,3 x 4,3 x 3,1 mm   | D | D
-| 7343-40  | 7,3 x 4,3 x 4,0 mm   | Y | —
-| 7343-43  | 7,3 x 4,3 x 4,3 mm   | X | E
-| 7360-38  | 7,3 x 6,0 x 3,8 mm   | E | —
-| 7361-38  | 7,3 x 6,1 x 3,8 mm   | — | V
-| 7361-438 | 7,3 x 6,1 x 4,3 mm   | — | U
-|===
-
-== SMD Electrolytic Capacitor
-
-{{< fp_code name="cap_elec_smd" >}}
-
-== THT Capacitor
-
-{{< fp_code name="cap_tht" >}}
+{{< fp_code name="ic_gull" >}}
 
 Notes:
 
-. There are different capacitor styles available:
-* Axial: Cylindrical body with axial lead attachment.
-* Radial: Cylindrical body, both leads enter at same end.
-* Disc: Disc shaped body (sometimes enclosed), leads enter tangent to the inner disc
-* Rect: Box shaped body (Bottom face in contact with the board)
-. Body size:
-* For Axial body styles: L[lenght]_D[diameter]
-* For Radial body style: D[diameter]{_H[height]}
-* For Disc body style: D[diameter]_W[width]{_H[overall height]}
-* For box shaped body styles: [X]x[Y]{x[Z]}
+. The package name (`PKG`) refers to the name most commonly used in the industry. Generally this implies JEDEC naming but some other standard may be used as required.
+. Pin count is the number of _uniquely numbered_ pads (excluding any exposed pads under the device)
+. Pad modifiers may vary for individual IC footprint types.
+
+== No-Lead Packages
+
+Examples:
+
+* DFN
+* QFN
+* LCC
+
+{{< fp_code name="ic_dfn" >}}
+
+Notes:
+
+. The lead length is the nominal lead length for which the footprint is designed
+. Optionally the nominal lead with can also be provided
+
+== Ball Grid Array Packages
+
+{{< fp_code name="ic_bga" >}}
+
+Notes:
+
+. For BGA simply providing the pin count is not sufficient. It is also necessary to provide the number of columns (x direction) and rows (y direction).
+. Some BGA packages have different pitch in x and y directions. If this is the case then both pitch dimensions need to be provided
+. The ball diameter for which the footprint is designed needs to be provided
+. NSMD/SMD
+  * NSMD means the footprint is designed for `non solder mask defined` (mask cutout is larger than copper pad)
+  * SMD means the footprint is designed for `solder mask defined` (mask cutout is smaller than copper pad)

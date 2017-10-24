@@ -1,82 +1,38 @@
 +++
-brief = "IC package naming conventions"
+brief = "SMD chip package naming conventions"
 +++
 
-{{< fp_naming_header type="IC package" >}}
+{{< fp_naming_header type="SMD chip package" >}}
 
-== Through Hole Packages (DIP)
+{{< fp_code name="smd_chip" prefix="PREFIX_" >}}
 
-{{< fp_code name="ic_tht_dip" >}}
+**Prefix:**
 
-Notes:
+The prefix is determined by the default reference designator of the device, e.g.
 
-. Drill size (if specified) must be given in `mm`
+* Capacitor = `C`
+* Capacitor (polarised) = `CP`
+* Resistor = `R`
+* Diode = `D`
 
-== Through Hole Packages (TO)
+**Case size codes:**
 
-{{< fp_code name="ic_tht_to" >}}
+[.library]
+|===
+|Imperial Code|Metric Code|Size Imperial|Size Metric
 
-Notes:
-
-. Drill size (if specified) must be given in `mm`
-. `Orientation` can be chosen from:
-* Vertical
-* TabDown
-* TabUp
-. `Stagger` can be chosen from:
-* StaggerOdd (odd pins are further from component body)
-* StaggerEven (even pins are further from component body)
-
-**Size Parameter:**
-
-{{< klcimg src="to-body_dim" title="Body dimension details" >}}
-
-Orientation:
-
-{{< klcimg_full_width src="to-THT_orientation" title="TO THT orientation" >}}
-
-== Gullwing Packages
-
-The format below provides a guide for naming Gullwing IC packages.
-
-Examples:
-
-* SOIC
-* SOP
-* QFP
-
-{{< fp_code name="ic_gull" >}}
-
-Notes:
-
-. The package name (`PKG`) refers to the name most commonly used in the industry. Generally this implies JEDEC naming but some other standard may be used as required.
-. Pin count is the number of _uniquely numbered_ pads (excluding any exposed pads under the device)
-. Pad modifiers may vary for individual IC footprint types.
-
-== No-Lead Packages
-
-Examples:
-
-* DFN
-* QFN
-* LCC
-
-{{< fp_code name="ic_dfn" >}}
-
-Notes:
-
-. The lead length is the nominal lead length for which the footprint is designed
-. Optionally the nominal lead with can also be provided
-
-== Ball Grid Array Packages
-
-{{< fp_code name="ic_bga" >}}
-
-Notes:
-
-. For BGA simply providing the pin count is not sufficient. It is also necessary to provide the number of columns (x direction) and rows (y direction).
-. Some BGA packages have different pitch in x and y directions. If this is the case then both pitch dimensions need to be provided
-. The ball diameter for which the footprint is designed needs to be provided
-. NSMD/SMD
-  * NSMD means the footprint is designed for `non solder mask defined` (mask cutout is larger than copper pad)
-  * SMD means the footprint is designed for `solder mask defined` (mask cutout is smaller than copper pad)
+| 01005 | 0402 | 0.0157 in × 0.0079 in | 0.4 mm × 0.2 mm
+| 0201  | 0603 | 0.024 in × 0.012 in   | 0.6 mm × 0.3 mm
+| 0402  | 1005 | 0.039 in × 0.020 in   | 1.0 mm × 0.5 mm
+| 0603  | 1608 | 0.063 in × 0.031 in   | 1.6 mm × 0.8 mm
+| 0805  | 2012 | 0.079 in × 0.049 in   | 2.0 mm × 1.25 mm
+| 1008  | 2520 | 0.098 in × 0.079 in   | 2.5 mm × 2.0 mm
+| 1206  | 3216 | 0.126 in × 0.063 in   | 3.2 mm × 1.6 mm
+| 1210  | 3225 | 0.126 in × 0.098 in   | 3.2 mm × 2.5 mm
+| 1806  | 4516 | 0.177 in × 0.063 in   | 4.5 mm × 1.6 mm
+| 1812  | 4532 | 0.18 in × 0.13 in     | 4.5 mm × 3.2 mm
+| 1825  | 4564 | 0.18 in × 0.25 in     | 4.5 mm × 6.4 mm
+| 2010  | 5025 | 0.197 in × 0.098 in   | 5.0 mm × 2.5 mm
+| 2512  | 6332 | 0.25 in × 0.13 in     | 6.3 mm × 3.2 mm
+| 2920  | 7451 | 0.29 in × 0.20 in     | 7.4 mm × 5.1 mm
+|===

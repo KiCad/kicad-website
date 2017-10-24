@@ -1,0 +1,34 @@
++++
+brief = "Fuse naming conventions"
++++
+
+{{< fp_naming_header type="fuse and fuse holder" >}}
+
+== Fuse Holders
+
+{{< fp_code name="fuse_holder" >}}
+
+Examples of `Fuse Type` field:
+
+* Automotive fuses
+** Automotive-Micro2
+** Automotive-Micro3
+** Automotive-LowProfile
+** Automotive-Mini
+** Automotive-Regular
+** Automotive-Maxi
+** Automotive-Bosh
+** Automotive-SFE-[SizeCode]
+* Industrial fuses
+** Cylinder-[diameter]x[length]mm
+
+
+== Fuses
+
+=== Cylindrical Fuse
+
+{{< fp_code name="fuse" >}}
+
+=== Rectangular SMD Fuses
+
+{{< fp_code name="smd_chip" prefix="Fuse_" >}}
