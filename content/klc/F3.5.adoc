@@ -27,12 +27,12 @@ The orientation of connectors is determined by the plug direction.
 
 {{< klcimg_full_width src="connector_orientation" title="The orientation of connectors is determined by the plug direction." >}}
 
-==== Manufacturer specific connectors (JST_EH, Molex_PicoBlade, ...)
+=== Manufacturer specific connectors (JST_EH, Molex_PicoBlade, ...)
 ```
 [MAN]{_[manufacturer series name]}_[MPN]-[pin configuration]_P[pin pitch]{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
 
-==== Connectors for standardized interfaces with manufacturer specific footprints (USB, HDMI, SD-Card, ...)
+=== Connectors for standardized interfaces with manufacturer specific footprints (USB, HDMI, SD-Card, ...)
 ```
 [generic series name]_[MAN]{_[manufacturer series name]}_[MPN]{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
@@ -59,19 +59,19 @@ generic series name:
 ** Size: `None, Mini, Micro`
 ** For UHS enabled components the UHS type needs to be given.
 
-==== Connectors for standardized connectors with manufacturer specific footprints (DSUB, Tab, ...)
+=== Connectors for standardized connectors with manufacturer specific footprints (DSUB, Tab, ...)
 ```
 [generic series name]_[MAN]{_[manufacturer series name]}_[MPN]-[pin configuration]_P[pin pitch]{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
 The difference between these types of connectors and standardized interface connectors is the inclusion of the pin configuration.
 
-==== Generic connector footprints (For standardized connectors like: Pin headers, socket strips, ...)
+=== Generic connector footprints (For standardized connectors like: Pin headers, socket strips, ...)
 ```
 [generic series name]-[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
 Generic connectors do not include manufacturer specific information.
 
-==== Terminal Blocks (Screw headers)
+=== Terminal Blocks (Screw headers)
 ```
 TerminalBlock_[MAN]{_[manufacturer series name]}_[MPN]-[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
 ```
