@@ -6,9 +6,7 @@ A footprint name has to convey a lot of information to clearly specify the purpo
 
 Not all footprints will require the use of these abbreviations - they are provided as a method of standardising the manner in which footprint parameters are called out when encountered.
 
-For IC packages, the first dimension specified is always the size of the package body, in the following format:
-
-`X` x `Y` {x `Z`} where `Z` dimension is optional.
+In many cases, the major dimensions (x/y/z) of a footprint may be specified without a prefix, as the body dimensions are assumed to have the greatest priority in the footprint name. In cases where potential conflicts exist, the body dimensions must be explicitly named with the prefix `B`.
 
 e.g. `SOIC-8_3.2x5.7mm_P1.27mm`
 

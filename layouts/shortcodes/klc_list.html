@@ -1,6 +1,7 @@
 {{- $title := .Get "title" -}}
 {{- $filter := .Get "filter" }}
-<h3>{{ strings.TrimSuffix "." $filter }} - {{ $title }}</h3>
+{{- $f := strings.TrimSuffix "." $filter -}}
+<h3 id="{{ lower $f }}">{{ $f }} - {{ $title }}</h3>
 {{ range $rule := where .Site.Pages "Section" "klc" -}}
 {{- $filename := $rule.File.LogicalName -}}
 {{- if and (hasPrefix $filename $filter) (in $filename ".adoc") -}}

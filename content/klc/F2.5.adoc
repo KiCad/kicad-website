@@ -1,0 +1,7 @@
++++
+brief = "Footprint naming conventions for specific components"
++++
+
+Footprint naming is sufficiently complex that a general rule is not enough to fully define a naming scheme that fits the wide range of footprints.
+
+In addition to the general footprint naming guidelines defined in link:/libraries/klc/F2.1/[KLC 2.1], a set of footprint naming guidelines for specific footprint types is provided in link:/libraries/klc/#f3[KLC F3.x].
