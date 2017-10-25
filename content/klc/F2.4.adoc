@@ -1,5 +1,5 @@
 +++
-brief = "Naming of manufacturer specific footprints"
+brief = "Footprint naming for non-standard pin numbering"
 +++
 
 Generally, a footprint should include a field of the format `<pkg>-<pincount>`, e.g.
@@ -9,10 +9,9 @@ Generally, a footprint should include a field of the format `<pkg>-<pincount>`, 
 
 In the majority of cases, the pin quantity is self explanatory and is sufficient to describe the number of pins on the symbol.
 
-[start=2]
-1. Sometimes the component datasheet will have specific requirements which do not conform to KLC requirements. A common example is specific requirements for the shape of stencil (solder paste layer).
+However there may be cases where this numbering is insufficient. Where the number of footprint pins does not match the number of package pins, exceptions must be made.
 
-In such cases, the KLC requirements can be superseded by the datasheet requirements, at the discretion of the KiCad library team.
+**Exception: Omitted pins, missing pin numbers are skipped** 
 
 _Example: LTC3638_
 
