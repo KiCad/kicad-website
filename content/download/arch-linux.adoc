@@ -5,7 +5,7 @@ weight = 20
 +++
 
 == Stable Release
-KiCad 4.0.5 is available in
+KiCad 4.0.7 is available in
 https://www.archlinux.org/packages/community/x86_64/kicad/[`community/kicad`].
 
 == Build from Source
