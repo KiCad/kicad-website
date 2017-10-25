@@ -2,13 +2,16 @@ name: fuse
 
 entries:
     - code: Fuse
+      example: Fuse
     - code: MAN
+      example: Littlefuse
       title: Manufacturer name
       optional: 1
     - code: Series
       title: Manufacturer series name
       optional: 1
     - code: MPN
+      example: LVR100
       title: Manufacturer part number
       optional: 1
     - code: Body size

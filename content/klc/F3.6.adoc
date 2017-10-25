@@ -86,17 +86,25 @@ Notes:
 * For UHS enabled cards, the UHS type needs to be specified
 
 
-=== Generic connector footprints (For standardized connectors like: Pin headers, socket strips, ...)
-```
-[generic series name]-[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
-```
-Generic connectors do not include manufacturer specific information.
+=== Generic connector footprints
 
-=== Terminal Blocks (Screw headers)
-```
-TerminalBlock_[MAN]{_[manufacturer series name]}_[MPN]-[pin configuration]x[pin pitch]mm{_Pad[pad length]{x[pad width]}}_[orientation]{_footprint options}
-```
-Orientation:
-For terminal Blocks the orientation is determined by the direction of the cable slot.
+Generic connector naming covers footprints for connectors such as:
+
+* Pin headers
+* Socket strips
+
+{{< fp_code name="conn_generic" >}}
+
+Notes:
+
+=== Terminal Blocks
+
+Terminal blocks
+
+{{< fp_code name="conn_terminal" >}}
+
+Notes:
+
+* For terminal blocks, the [`Orientation`] is determined by the direction of the cable slot.
 
 {{< klcimg_full_width src="terminal_block_orientation" title="For terminal Blocks the orientation is determined by the direction of the cable slot." >}}

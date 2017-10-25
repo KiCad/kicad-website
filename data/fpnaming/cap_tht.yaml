@@ -2,15 +2,28 @@ name: cap_tht
 
 entries:
     - code: "C/CP"
+      example: C
       title: Capacitor polarisation
     - code: Style
+      example: Axial
       title: Capacitor case style (see notes below)
     - code: Case size
-      prefix: B
-      title: Case dimensions
+      prefix: L
+      title: Body length
+      example: 67.0mm
+      optional: 1
+    - code: Diameter
+      title: Case diameter
+      prefix: D
+      example: 26.0mm
+      optional: 1
+    - code: Width
+      title: Body width
+      optional: 1
     - code: Pitch
       title: Lead spacing
       prefix: P
+      example: 75.0mm
     - code: Pad options
       prefix: Pad
       title: Pad dimensions if non standard

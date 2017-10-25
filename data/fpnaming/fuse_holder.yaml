@@ -2,19 +2,22 @@ name: fuse_holder
 
 entries:
     - code: FuseHolder
+      example: FuseHolder
     - code: Fuse Type
+      optional: 1
       title: Type of fuse
     - code: MAN
+      example: Littlefuse
+      optional: 1
       title: Manufacturer name
     - code: Series
+      example: TE5
       title: Manufacturer series name
       optional: 1
     - code: MPN
-      title: Manufacturer part number
-    - code: Pad modifiers
-      prefix: Pad
-      title: Extra pad modifiers
       optional: 1
+      example: "395"
+      title: Manufacturer part number
     - code: Orientation
       title: Orientation of fuse, if multiple orientations are available
       optional: 1

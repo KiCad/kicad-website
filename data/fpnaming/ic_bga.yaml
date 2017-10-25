@@ -2,19 +2,25 @@ name: ic_bga
 
 entries:
     - code: PKG
+      example: BGA
       title: Package name
     - code: Pincount
       title: Number of (unique) pins
       delimiter: "-"
+      example: 24
     - code: Columns
       title: Number of ball columns
+      example: 3
     - code: Rows
       title: Number of ball rows
       delimiter: x
+      example: 4
     - code: X
       prefix: B
+      example: 3.2
       title: Major dimension of part on x axis
     - code: "Y"
+      example: 4.4mm
       title: Major dimension of part on y axis
       delimiter: x
     - code: Z
@@ -23,20 +29,22 @@ entries:
       optional: 1
     - code: Pitch X
       prefix: P
+      example: 0.5mm
       title: Ball pitch in x direction
     - code: Pitch Y
       delimiter: x
       optional: 1
       title: Ball pitch in y direction (if different from x direction
-      suffix: mm
     - code: Ball
       prefix: Ball
       title: Ball diameter
-      suffix: mm
+      example: 0.25mm
     - code: Pad
       prefix: Pad
+      example: 0.2mm
       title: Pad diameter
     - code: NSMD/SMD
+      example: NSMD
       title: Solder Mask Defined or Non Solder Mask Defined
     - code: Options
       title: Extra footprint options

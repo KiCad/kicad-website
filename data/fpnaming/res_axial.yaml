@@ -1,21 +1,26 @@
 name: r_axial
 
 entries:
-    - code: R_Axial
+    - code: "R_Axial"
+      example: "R_Axial"
     - code: Length
       prefix: L
+      example: 3.6mm
       title: Resistor body length
     - code: Diameter
       prefix: D
+      example: 1.6mm
       title: Body diameter
     - code: Pitch
       prefix: P
+      example: 2.54mm
       title: Lead spacing
     - code: Pad modifiers
       title: Pad dimensions if non-standard
       prefix: Pad
       optional: 1
     - code: Orientation
+      example: Vertical
       title: Resistor orientation (Vertical / Horizontal)
       optional: 1
     - code: Options

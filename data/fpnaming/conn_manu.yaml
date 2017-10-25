@@ -2,15 +2,20 @@ name: conn_manu
 
 entries:
     - code: "MAN"
+      example: JST
       title: "Manufacturer name"
       optional: 1
     - code: "Series"
+      example: GH
       title: "Manufacturer series name"
     - code: "MPN"
+      example: S12B-EH
       title: "Manufacturer part number"
     - code: "Pin configuration"
+      example: "1x13"
       title: "Pin layout information (see notes below)"
     - code: Pitch
+      example: 2.50mm
       prefix: P
       title: Pad pitch
     - code: Pad size
@@ -18,6 +23,7 @@ entries:
       optional: 1
       title: Pad dimensions if non standard
     - code: Orientation
+      example: Horizontal
       title: Direction of connector insertion relative to board plane
     - code: Options
       title: Extra footprint options

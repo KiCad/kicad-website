@@ -1,17 +1,22 @@
 name: conn_dvi
 entries:
+    - code: DVI
+    - code: Type
+      example: TypeD
+      title: DVI connector type (see notes below)
+      optional: 1
+    - code: Size
+      example: Micro
+      title: DVI connector size (see notes below)
+      optional: 1
     - code: MAN
       title: Manufacturer name
       optional: 1
     - code: MPN
       title: Manufacturer part number
       optional: 1
-    - code: DVI
-    - code: Type
-      title: DVI connector type (see notes below)
-      optional: 1
-    - code: Size
-      title: DVI connector size (see notes below)
+    - code: Orientation
+      title: Connector orientation
       optional: 1
     - code: Options
       title: Extra footprint options

@@ -2,13 +2,17 @@ name: ic_tht_to
 
 entries:
     - code: PKG
+      example: TO-220
       title: Package name
     - code: Pincount
+      example: "5"
       title: Number of (unique) pins
       delimiter: "-"
     - code: X
       title: Major dimension of part on x axis
+      optional: 1
     - code: "Y"
+      optional: 1
       title: Major dimension of part on y axis
       delimiter: x
     - code: Z
@@ -17,9 +21,11 @@ entries:
       optional: 1
     - code: Lead span
       prefix: W
+      optional: 1
       title: Distance between leads
     - code: Pitch x
       prefix: P
+      optional: 1
       title: Lead pitch in x dimension
     - code: Pitch y
       delimiter: x
@@ -39,8 +45,10 @@ entries:
       optional: 1
     - code: Pad size
       prefix: Pad
+      optional: 1
       title: Pad dimensions (if non standard)
     - code: Orientation
+      example: Vertical
       title: Component orientation (see notes below)
     - code: Options
       title: Extra footprint options
