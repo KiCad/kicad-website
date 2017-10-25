@@ -6,6 +6,10 @@ title = "Download Libraries"
 
 KiCad libraries are community contributed and available for download on  link:https://github.com/kicad"[GitHub]. If you wish to contribute to the libraries, refer to the link:/libraries/contribute/[contribution guide].
 
+**Archived Content:**
+
+Archived copies of the symbol and footprint libraries can be link:http://downloads.kicad-pcb.org/libraries/[downloaded here].
+
 == Library Organisation
 
 The set of libraries corresponding to v4.xx of KiCad software are organised on GitHub as follows:
