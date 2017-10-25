@@ -4,9 +4,9 @@ brief = "SMD chip package naming conventions"
 
 {{< fp_naming_header type="SMD chip package" >}}
 
-{{< fp_code name="smd_chip" prefix="PREFIX_" >}}
+{{< fp_code name="smd_chip" >}}
 
-**Prefix:**
+**Notes:**
 
 The prefix is determined by the default reference designator of the device, e.g.
 

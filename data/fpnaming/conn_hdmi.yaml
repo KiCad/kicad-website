@@ -1,15 +1,22 @@
 name: conn_hdmi
 
 entries:
+    - code: HDMI
+      example: HDMI
+    - code: Type
+      title: HDMI connector type (see notes below)
+      optional: 1
+      example: TypeD
     - code: MAN
+      example: Molex
       title: Manufacturer name
       optional: 1
     - code: MPN
+      example: 47675-2
       title: Manufacturer part number
       optional: 1
-    - code: HDMI
-    - code: Type
-      title: HDMI connector type (see notes below)
+    - code: Orientation
+      title: Connector orientation
       optional: 1
     - code: Options
       title: Extra footprint options

@@ -2,25 +2,32 @@ name: ic_dfn
 
 entries:
     - code: PKG
+      example: DFN
       title: Package name
     - code: Pincount
+      example: 12
       title: Number of (unique) pins
       delimiter: "-"
     - code: EP Qty
+      example: 1
       title: Number of exposed pads under the device (if greater than zero)
       suffix: EP
       delimiter: "-"
       optional: 1
     - code: X
+      example: 4
       title: Major dimension of part on x axis
     - code: "Y"
+      example: 4
       title: Major dimension of part on y axis
       delimiter: x
     - code: Z
+      example: 0.9mm
       title: Major dimension of part on z axis
       delimiter: x
       optional: 1
     - code: Pitch
+      example: 0.5mm
       prefix: P
       title: Lead pitch
     - code: Lead size

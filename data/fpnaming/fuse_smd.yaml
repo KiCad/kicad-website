@@ -1,9 +1,8 @@
-name: smd_chip
+name: fuse_smd
 
 entries:
-    - code: Prefix
-      title: Device type
-      example: LED
+    - code: Fuse
+      example: Fuse
     - code: Imperial size
       example: "0805"
       title: Imperial case size

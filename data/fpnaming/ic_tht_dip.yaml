@@ -2,13 +2,17 @@ name: ic_tht_dip
 
 entries:
     - code: PKG
+      example: DIP
       title: Package name
     - code: Pincount
+      example: 14
       title: Number of (unique) pins
       delimiter: "-"
     - code: X
+      optional: 1
       title: Major dimension of part on x axis
     - code: "Y"
+      optional: 1
       title: Major dimension of part on y axis
       delimiter: x
     - code: Z
@@ -17,6 +21,7 @@ entries:
       optional: 1
     - code: Lead span
       prefix: W
+      example: 10.16mm
       title: Distance between leads
     - code: Pitch
       prefix: P
@@ -34,6 +39,9 @@ entries:
       prefix: Pad
       title: Pad modifiers if non standard pads
       optional: 1
+    - code: Clearance
+      prefix: Clearance
+      example: 9mm
     - code: Options
       title: Extra footprint options
       optional: 1

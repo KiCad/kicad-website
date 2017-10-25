@@ -2,14 +2,20 @@ name: cap_elec_smd
 
 entries:
     - code: "CP_Elec"
+      example: "CP_Elec"
     - code: Manufacturer
       title: Manufacturer name
       optional: 1
-    - code: Diameter
-      prefix: D
-      title: Case diameter
+    - code: X
+      title: Case size in x dimension
+      example: "10"
+    - code: Y
+      title: Case size in y dimension
+      delimiter: x
+      example: 10.5mm
     - code: Height
       prefix: H
+      example: "6mm"
       title: Case height
       optional: 1
     - code: Pitch

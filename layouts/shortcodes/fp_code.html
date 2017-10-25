@@ -11,8 +11,19 @@
 {{ $data := $.Scratch.Get "data" }}
 {{- $n := sub (len $data.entries) 1 -}}
 <div class="fpNaming">
-{{- if $prefix }}{{ $prefix }}{{ end -}}
+{{- if $prefix }}
+{{- $prefix -}}
+{{ $.Scratch.Add "example" (slice $prefix) }}
+{{- end -}}
 {{- range $i, $d := $data.entries -}}
+{{- if $d.delimiter }}{{ $.Scratch.Set "delim" $d.delimiter }}{{ else }}{{ $.Scratch.Set "delim" "_" }}{{ end -}}
+{{ $delim := $.Scratch.Get "delim" }}
+{{- if $d.example -}}
+{{- if $.Scratch.Get "example" -}}{{- $.Scratch.Add "example" (slice $delim) -}}{{- end -}}
+{{- if $d.prefix }}{{ $.Scratch.Add "example" (slice $d.prefix) }}{{ end -}}
+{{- $.Scratch.Add "example" (slice $d.example) -}}
+{{- if $d.suffix }}{{ $.Scratch.Add "example" (slice $d.suffix) }}{{ end -}}
+{{ end -}}
 {{- if $d.title -}}
 {{- $.Scratch.Add "code" (slice $d.code) }}
 {{- $.Scratch.Add "title" (slice $d.title) }}
@@ -23,16 +34,12 @@
 {{- end -}}
 <span class="fpNamingSpan" title="{{ if $d.optional}}(Optional) {{ end }}{{ $d.title }}" style=
 {{- if $d.optional -}}"color: {{ $colorOptional }}">{{ else }}"color: {{ $colorMandatory }}">{{- end -}}
-{{- if gt $i 0 }}
-{{- if $d.delimiter }}{{ $d.delimiter }}{{ else }}_{{ end -}}
-{{ end -}}
+{{- if gt $i 0 }}{{ $delim }}{{ end -}}
 {{- if $d.prefix -}}<b>{{- $d.prefix -}}</b>{{- end -}}[<i>{{- $d.code -}}</i>]
 {{- if $d.suffix -}}<b>{{- $d.suffix -}}</b>{{ end -}}
 </span>
 {{- else -}}
-{{- if gt $i 0 }}
-{{- if $d.delimiter }}{{ $d.delimiter }}{{ else }}_{{ end -}}
-{{- end -}}
+{{- if gt $i 0 }}{{ $delim }}{{ end -}}
 <b>{{- $d.code -}}</b>
 {{- end -}}
 {{- end -}}
@@ -41,7 +48,7 @@
 {{- $codes := $.Scratch.Get "code" -}}
 {{- $optionals := $.Scratch.Get "optional" -}}
 {{- if gt (len $codes) 0 }}
-<ul>
+<p><ul>
 {{- range $i, $code := $codes -}}
 {{- $title := index $titles $i -}}
 {{- $optional := index $optionals $i }}
@@ -51,5 +58,9 @@
 {{- if eq $optional "yes" }} (Optional){{ end -}}
 </span></li>
 {{- end }}
-</ul>
+</ul></p>
 {{ end -}}
+<p><b>Example:</b></p>
+<div class="fpNaming">
+{{ range $.Scratch.Get "example" }}{{ . }}{{ end }}
+</div>

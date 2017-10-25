@@ -10,18 +10,17 @@ brief = "Fuse naming conventions"
 
 Examples of `Fuse Type` field:
 
-* Automotive fuses
+* Automotive fuses:
 ** Automotive-Micro2
 ** Automotive-Micro3
 ** Automotive-LowProfile
 ** Automotive-Mini
-** Automotive-Regular
+** Automotive-ATO
 ** Automotive-Maxi
-** Automotive-Bosh
+** Automotive-Bosch
 ** Automotive-SFE-[SizeCode]
 * Industrial fuses
 ** Cylinder-[diameter]x[length]mm
-
 
 == Fuses
 
@@ -31,4 +30,4 @@ Examples of `Fuse Type` field:
 
 === Rectangular SMD Fuses
 
-{{< fp_code name="smd_chip" prefix="Fuse_" >}}
+{{< fp_code name="fuse_smd" >}}

@@ -1,0 +1,26 @@
+name: conn_generic
+entries:
+    - code: Connector type
+      title: Generic connector style (see notes below)
+      example: PinHeader
+    - code: Pin layout
+      title: Pin configuration layout (see notes below)
+      example: 1x10
+    - code: Pitch
+      title: Pin pitch
+      example: 2.54mm
+      prefix: P
+    - code: Drill
+      prefix: Drill
+      title: Drill diameter
+      optional: 1
+    - code: Pad options
+      prefix: Pad
+      title: Pad dimensions (if non standard)
+      optional: 1
+    - code: Orientation
+      title: Connector orientation
+      example: Vertical
+    - code: Options
+      title: Extra footprint options
+      optional: 1
