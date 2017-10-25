@@ -27,6 +27,8 @@ In conjunction with the KiCad v5 software release, the libraries will be reorgan
 * kicad-packages3d
 * kicad-templates
 
+After the v5 release, further information on downloading KiCad library data will be placed here.
+
 == Updating Library Data
 
 Users who wish to keep their libraries up to date with the latest additions should link:https://help.github.com/articles/cloning-a-repository/[clone] the library repositories using Git. Tracking the library repositories using Git means that only the __changes__ to the libraries need to be downloaded, rather than retrieving the entire library set each time.
