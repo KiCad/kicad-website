@@ -24,12 +24,16 @@ For installing please read further.
 
 == Debian Stable (Stretch)
 
-Stretch Backports Version: currently none, but planned
+Stretch Backports Version: *4.0.7* (KiCad actual version)
+
+or
 
 Stretch Release Version: *4.0.5*
 
 The release 4.0.5 is available for Debian
-https://packages.debian.org/stretch/kicad[stable/stretch].
+https://packages.debian.org/stretch/kicad[stable/stretch], the backported
+version 4.0.7 is available in
+https://packages.debian.org/stretch-backports/kicad[stretch-backports].
 
 You can install it with the following commands in a terminal, otherwise you can
 use any of the package managers you like:
@@ -48,7 +52,7 @@ apt-cache search kicad-doc
 
 == Debian Old-Stable (Jessie)
 
-Jessie Backport Version: *4.0.5*
+Jessie Backport Version: *4.0.7* (KiCad actual version)
 
 or
 
@@ -60,7 +64,7 @@ It is not recommended for new designs. Please use the packages from the
 backport repository for actual versions. Follow the instructions on the
 https://wiki.debian.org/Backports[Debian Wiki] to add the Backport repository
 to your sources and install the KiCad packages from
-https://packages.debian.org/jessie-backports/kicad[jessie-backports].
+https://packages.debian.org/jessie-backports-sloppy/kicad[jessie-backports-sloppy].
 
 == Debian Old-Old-Stable (Wheezy)
 
