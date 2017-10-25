@@ -33,8 +33,8 @@ Therefore, categorization of connector footprints is given special consideration
 
 . Connector libraries can also be split by manufacturer and series, _for multi-purpose connectors_
 
-* `Conn_TerminalBlock_Phoenix_MKDS`
-* `Conn_TerminalBlock_Phoenix_PT`
-* `Conn_TerminalBlock_Wago`
+* `TerminalBlock_Phoenix_MKDS`
+* `TerminalBlock_Phoenix_PT`
+* `TerminalBlock_Wago`
 * `Conn_JST`
 * `Conn_Hirose_DF13`
