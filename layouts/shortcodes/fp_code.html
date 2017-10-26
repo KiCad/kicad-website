@@ -4,59 +4,59 @@
 {{- $prefix := .Get "prefix" }}
 {{- $found := false -}}
 {{- range .Site.Data.fpnaming -}}
-{{- if eq .name $name -}}
-{{- $.Scratch.Set "data" . -}}
-{{- end -}}
+    {{- if eq .name $name -}}
+        {{- $.Scratch.Set "data" . -}}
+    {{- end -}}
 {{- end -}}
 {{ $data := $.Scratch.Get "data" }}
 {{- $n := sub (len $data.entries) 1 -}}
 <div class="fpNaming">
 {{- if $prefix }}
-{{- $prefix -}}
-{{ $.Scratch.Add "example" (slice $prefix) }}
+    {{- $prefix -}}
+    {{ $.Scratch.Add "example" (slice $prefix) }}
 {{- end -}}
 {{- range $i, $d := $data.entries -}}
-{{- if $d.delimiter }}{{ $.Scratch.Set "delim" $d.delimiter }}{{ else }}{{ $.Scratch.Set "delim" "_" }}{{ end -}}
-{{ $delim := $.Scratch.Get "delim" }}
-{{- if $d.example -}}
-{{- if $.Scratch.Get "example" -}}{{- $.Scratch.Add "example" (slice $delim) -}}{{- end -}}
-{{- if $d.prefix }}{{ $.Scratch.Add "example" (slice $d.prefix) }}{{ end -}}
-{{- $.Scratch.Add "example" (slice $d.example) -}}
-{{- if $d.suffix }}{{ $.Scratch.Add "example" (slice $d.suffix) }}{{ end -}}
-{{ end -}}
-{{- if $d.title -}}
-{{- $.Scratch.Add "code" (slice $d.code) }}
-{{- $.Scratch.Add "title" (slice $d.title) }}
-{{- if $d.optional }}
-{{- $.Scratch.Add "optional" (slice "yes") -}}
-{{- else -}}
-{{- $.Scratch.Add "optional" (slice "no") -}}
-{{- end -}}
-<span class="fpNamingSpan" title="{{ if $d.optional}}(Optional) {{ end }}{{ $d.title }}" style=
-{{- if $d.optional -}}"color: {{ $colorOptional }}">{{ else }}"color: {{ $colorMandatory }}">{{- end -}}
-{{- if gt $i 0 }}{{ $delim }}{{ end -}}
-{{- if $d.prefix -}}<b>{{- $d.prefix -}}</b>{{- end -}}[<i>{{- $d.code -}}</i>]
-{{- if $d.suffix -}}<b>{{- $d.suffix -}}</b>{{ end -}}
-</span>
-{{- else -}}
-{{- if gt $i 0 }}{{ $delim }}{{ end -}}
-<b>{{- $d.code -}}</b>
-{{- end -}}
+    {{- if $d.delimiter }}{{ $.Scratch.Set "delim" $d.delimiter }}{{ else }}{{ $.Scratch.Set "delim" "_" }}{{ end -}}
+    {{ $delim := $.Scratch.Get "delim" }}
+    {{- if $d.example -}}
+        {{- if $.Scratch.Get "example" -}}{{- $.Scratch.Add "example" (slice $delim) -}}{{- end -}}
+        {{- if $d.prefix }}{{ $.Scratch.Add "example" (slice $d.prefix) }}{{ end -}}
+        {{- $.Scratch.Add "example" (slice $d.example) -}}
+        {{- if $d.suffix }}{{ $.Scratch.Add "example" (slice $d.suffix) }}{{ end -}}
+    {{ end -}}
+    {{- if $d.title -}}
+        {{- $.Scratch.Add "code" (slice $d.code) }}
+        {{- $.Scratch.Add "title" (slice $d.title) }}
+        {{- if $d.optional }}
+        {{- $.Scratch.Add "optional" (slice "yes") -}}
+    {{- else -}}
+        {{- $.Scratch.Add "optional" (slice "no") -}}
+    {{- end -}}
+    <span class="fpNamingSpan" title="{{ if $d.optional}}(Optional) {{ end }}{{ $d.title }}" style=
+    {{- if $d.optional -}}"color: {{ $colorOptional }}">{{ else }}"color: {{ $colorMandatory }}">{{- end -}}
+    {{- if gt $i 0 }}{{ $delim }}{{ end -}}
+    {{- if $d.prefix -}}<b>{{- $d.prefix -}}</b>{{- end -}}[<i>{{- $d.code -}}</i>]
+    {{- if $d.suffix -}}<b>{{- $d.suffix -}}</b>{{ end -}}
+    </span>
+    {{- else -}}
+        {{- if gt $i 0 }}{{ $delim }}{{ end -}}
+        <b>{{- $d.code -}}</b>
+    {{- end -}}
 {{- end -}}
 </div>
 {{- $titles := $.Scratch.Get "title" -}}
 {{- $codes := $.Scratch.Get "code" -}}
 {{- $optionals := $.Scratch.Get "optional" -}}
 {{- if gt (len $codes) 0 }}
-<p><ul>
-{{- range $i, $code := $codes -}}
-{{- $title := index $titles $i -}}
-{{- $optional := index $optionals $i }}
-<li><span style=
-{{- if eq $optional "yes" -}}"color: {{ $colorOptional }}">{{- else -}}"color: {{ $colorMandatory }}">{{- end -}}
-<b>{{- $code }}</b> - {{ $title -}}
-{{- if eq $optional "yes" }} (Optional){{ end -}}
-</span></li>
+    <p><ul>
+    {{- range $i, $code := $codes -}}
+    {{- $title := index $titles $i -}}
+    {{- $optional := index $optionals $i }}
+    <li><span style=
+    {{- if eq $optional "yes" -}}"color: {{ $colorOptional }}">{{- else -}}"color: {{ $colorMandatory }}">{{- end -}}
+    <b>{{- $code }}</b> - {{ $title -}}
+    {{- if eq $optional "yes" }} (Optional){{ end -}}
+    </span></li>
 {{- end }}
 </ul></p>
 {{ end -}}
