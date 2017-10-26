@@ -1,7 +1,7 @@
 {{- $title := .Get "title" -}}
 {{- $filter := .Get "filter" }}
 {{- $f := strings.TrimSuffix "." $filter -}}
-<h3 id="{{ lower $f }}">{{ $f }} - {{ $title }}</h3>
+<hr><h3 id="{{ lower $f }}">{{ $f }} - {{ $title }}</h3>
 {{ range $rule := where .Site.Pages "Section" "klc" -}}
 {{- $filename := $rule.File.LogicalName -}}
 {{- if and (hasPrefix $filename $filter) (in $filename ".adoc") -}}
@@ -11,8 +11,12 @@
 {{- $.Scratch.SetInMap "rules" $rulenumstring $rule -}}
 {{- end -}}
 {{- end -}}
-<ul>
 {{- range $rule := $.Scratch.GetSortedMapValues "rules" -}}
 {{- $rulename := strings.TrimSuffix ".adoc" $rule.File.LogicalName -}}
-<li><a href="/libraries/klc/{{ $rulename }}/">{{- $rulename }} - {{ $rule.Params.brief -}}</a></li>
+<p>
+<h4><u><a id="{{ $rulename }}" href="/libraries/klc/{{ $rulename }}/">{{- $rulename }} - {{ $rule.Params.brief -}}</a></u></h4>
+<div class="klcRule">
+{{ $rule.Content }}
+</div>
+</p>
 {{- end -}}

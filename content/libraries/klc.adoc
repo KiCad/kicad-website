@@ -20,12 +20,16 @@ Refer to the link:/libraries/contribute/[contribution guidelines] for introducto
 ---
 == General Library Guidelines
 
+The general library guidelines apply to all library elements (symbols / footprints / models). However, these guidelines may be overridden in some cases by specific exceptions described in further sections.
+
 {{< klc_list title="General Guidelines" filter="G1.">}}
 
 {{< klc_list title="Atomic and Generic Parts" filter="G2." >}}
 
 ---
 == Symbol Guidelines
+
+The following guidelines apply to schematic symbols and symbol library files.
 
 {{< klc_list title="Symbol Libraries" filter="S1.">}}
 
@@ -44,6 +48,8 @@ Refer to the link:/libraries/contribute/[contribution guidelines] for introducto
 ---
 
 == Footprint Guidelines
+
+The following guidelines apply to PCB footprints and footprint libraries.
 
 {{< klc_list title="Footprint Libraries" filter="F1.">}}
 
@@ -66,6 +72,8 @@ Refer to the link:/libraries/contribute/[contribution guidelines] for introducto
 ---
 
 == 3D Model Guidelines
+
+The following guidelines apply to contribution of 3D model data.
 
 {{< klc_list title="Contributing Models" filter="M1.">}}
 

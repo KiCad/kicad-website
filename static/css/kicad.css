@@ -426,3 +426,17 @@ code {
 .fpNamingSpan {
     white-space: pre-line;
 }
+
+.klcRule {
+    background-color: #FAFAFA;
+    border: 1px solid #AAa;
+    padding: 10px;
+}
+
+.klcimg {
+    border: 2px solid #aaa;
+}
+
+.klcimg:hover {
+    opacity: 0.7;
+}
