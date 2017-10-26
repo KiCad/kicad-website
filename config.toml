@@ -77,33 +77,6 @@ disablePathToLower = true
     weight = 550
 
 [[menu.main]]
-    parent = "Libraries"
-    name = "Download"
-    url = "/libraries/download/"
-    identifier = "libraries_download"
-    weight = 10
-
-[[menu.main]]
-    parent = "Libraries"
-    name = "License"
-    url = "/libraries/license/"
-    identifier = "libraries_license"
-    weight = 20
-
-[[menu.main]]
-    parent = "Libraries"
-    name = "Contribute"
-    url = "/libraries/contribute"
-    identifier = "libraries_contribute"
-    weight = 30
-
-[[menu.main]]
-    parent = "Libraries"
-    name = "KLC"
-    url = "/libraries/klc"
-    weight = 40
-
-[[menu.main]]
     name   = "Download"
     url = "/download/"
     weight = 600

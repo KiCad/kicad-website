@@ -1,5 +1,11 @@
 +++
 title = "Download Libraries"
+[menu.main]
+    parent = "Libraries"
+    name = "Download"
+    url = "/libraries/download/"
+    identifier = "libraries_download"
+    weight = 10
 +++
 
 == KiCad Libraries

@@ -1,5 +1,10 @@
 +++
 title = "Contribute"
+[menu.main]
+    parent = "Libraries"
+    name = "Contribute"
+    identifier = "libraries_contribute"
+    weight = 30
 +++
 :toc: macro
 :toc-title:

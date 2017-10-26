@@ -1,6 +1,11 @@
 +++
 title = "KiCad Library Convention"
 aliases = [ "/klc/" ]
+[menu.main]
+    parent = "Libraries"
+    name = "KLC"
+    url = "/libraries/klc"
+    weight = 40
 +++
 
 **link:/libraries/klc/history/[Revision: 3.0.0]**
