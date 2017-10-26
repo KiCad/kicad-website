@@ -4,9 +4,9 @@ iconhtml = "<div><i class='fa fa-apple'></i></div>"
 weight = 2
 +++
 
-KiCad for MacOS is available as two disk images (dmg). You usually want to install both.
+KiCad for macOS is available as two disk images (dmg). You usually want to install both.
 
-KiCad is supported on MacOS 10.7 through MacOS 10.13.
+KiCad is supported on Mac OS X 10.7 through macOS 10.13.
 
 - *KiCad main package* contains the KiCad suite, documentation, schematic symbols, translations, and some templates. It gets footprints from the internet.
 
