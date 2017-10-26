@@ -8,6 +8,11 @@ aliases = [ "/klc/" ]
     weight = 40
 +++
 
+:toc: macro
+:toclevels: 3
+toc::[]
+
+
 **link:/libraries/klc/history/[Revision: 3.0.0]**
 
 ---
