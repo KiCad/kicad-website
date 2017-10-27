@@ -4,7 +4,7 @@ brief = "THT IC package naming conventions"
 
 {{< fp_naming_header type="THT IC package" >}}
 
-**Through Hole Packages (DIP)**
+== Through Hole Packages (DIP)
 
 {{< fp_code name="ic_tht_dip" >}}
 
@@ -12,7 +12,7 @@ Notes:
 
 . Drill size (if specified) must be given in `mm`
 
-**Through Hole Packages (TO)**
+== Through Hole Packages (TO)
 
 {{< fp_code name="ic_tht_to" >}}
 

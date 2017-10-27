@@ -4,7 +4,7 @@ brief = "SMD IC package naming conventions"
 
 {{< fp_naming_header type="SMD IC package" >}}
 
-**Gullwing Packages**
+== Gullwing Packages
 
 The format below provides a guide for naming Gullwing IC packages.
 
@@ -13,16 +13,23 @@ Examples:
 * SOIC
 * SOP
 * QFP
+* J-Lead
+
 
 {{< fp_code name="ic_gull" >}}
 
 Notes:
 
-. The package name (`PKG`) refers to the name most commonly used in the industry. Generally this implies JEDEC naming but some other standard may be used as required.
-. Pin count is the number of _uniquely numbered_ pads (excluding any exposed pads under the device)
-. Pad modifiers may vary for individual IC footprint types.
+. [`PKG`] - refers to the name most commonly used in the industry. Generally this implies JEDEC naming but some other standard may be used as required.
+. [`Pin count`] - the number of _uniquely numbered_ pads (excluding any exposed pads under the device)
+. [`Modifiers`] - may vary for individual IC footprint types. Includes:
+* Clearance
+* Lead size
+* Pad size
+* Exposed pad size
+* Soldermask expansion
 
-**No-Lead Packages**
+== No-Lead Packages
 
 Examples:
 
@@ -37,15 +44,15 @@ Notes:
 . The lead length is the nominal lead length for which the footprint is designed
 . Optionally the nominal lead with can also be provided
 
-**Ball Grid Array Packages**
+== Ball Grid Array Packages
 
 {{< fp_code name="ic_bga" >}}
 
 Notes:
 
-. For BGA simply providing the pin count is not sufficient. It is also necessary to provide the number of columns (x direction) and rows (y direction).
-. Some BGA packages have different pitch in x and y directions. If this is the case then both pitch dimensions need to be provided
-. The ball diameter for which the footprint is designed needs to be provided
-. NSMD/SMD
+. For BGA simply providing the pin count is not sufficient. It is also necessary to provide the number of [`Columns`] (x direction) and [`Rows`] (y direction).
+. Some BGA packages have different pitch in x and y directions. If this is the case then both [`Pitch`] dimensions need to be provided
+. The [`Ball`] diameter for which the footprint is designed needs to be provided
+. [`NSMD/SMD`]
   * NSMD means the footprint is designed for `non solder mask defined` (mask cutout is larger than copper pad)
   * SMD means the footprint is designed for `solder mask defined` (mask cutout is smaller than copper pad)

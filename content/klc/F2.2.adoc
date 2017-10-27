@@ -1,5 +1,5 @@
 +++
-brief = "Footprint naming prefix abbreviations"
+brief = "Footprint naming field prefixes"
 +++
 
 A footprint name has to convey a lot of information to clearly specify the purpose and parameters of the footprint. Some fields in footprint names are _common_ to many footprints and can be shortened using special abbreviations.
@@ -14,9 +14,13 @@ Refer to the table below for accepted prefix abbreviations.
 
 {{< fp_prefix >}}
 
-If the parameter is not found in the table above, the name of the parameter should be entered in full.
-
 *Examples:*
 
 * `LQFP-32_4x4x1.1mm_P1.65mm` - LQFP package, 32 pins, 4x4mm body, 1.1mm height, 1.65mm pitch
 * `CP_Radial_D4.5mm_P2.5mm_H10mm` - Radial capacitor, 4.5mm diameter, 2.5mm pitch, 10mm height
+
+If the parameter is not found in the table above, the name of the parameter should be entered in full.
+
+Following is a list of examples of (non-abbreviated) parameter names used in footprint naming
+
+{{< fp_prefix_long >}}

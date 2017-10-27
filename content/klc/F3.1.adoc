@@ -6,7 +6,7 @@ brief = "SMD chip package naming conventions"
 
 {{< fp_code name="smd_chip" >}}
 
-**Notes:**
+Notes:
 
 The prefix is determined by the default reference designator of the device, e.g.
 
@@ -15,7 +15,7 @@ The prefix is determined by the default reference designator of the device, e.g.
 * Resistor = `R`
 * Diode = `D`
 
-**Case size codes:**
+Case size codes:
 
 [.library]
 |===

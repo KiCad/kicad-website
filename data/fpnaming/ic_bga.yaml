@@ -46,6 +46,9 @@ entries:
     - code: NSMD/SMD
       example: NSMD
       title: Solder Mask Defined or Non Solder Mask Defined
+    - code: Modifiers
+      title: Footprint modifiers
+      optional: 1
     - code: Options
       title: Extra footprint options
       optional: 1

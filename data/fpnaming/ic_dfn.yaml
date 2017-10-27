@@ -30,21 +30,8 @@ entries:
       example: 0.5mm
       prefix: P
       title: Lead pitch
-    - code: Lead size
-      prefix: Lead
-      optional: 1
-      title: Dimensions of leads if non standard
-    - code: EP size
-      prefix: EP
-      title: Dimensions of exposed pad if non standard
-      optional: 1
-    - code: Mask size
-      prefix: Mask
-      title: Dimensions of soldermask exposure if non standard
-      optional: 1
-    - code: Pad modifiers
-      prefix: Pad
-      title: Pad modifiers if non standard pads
+    - code: Modifiers
+      title: Footprint modifiers
       optional: 1
     - code: Options
       title: Extra footprint options

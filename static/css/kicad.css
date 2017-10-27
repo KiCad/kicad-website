@@ -330,6 +330,11 @@ table p {
   padding-bottom: 2px;
 }
 
+.library td.last {
+    width: 1px;
+    white-space: nowrap;
+}
+
 .library tr:nth-child(even) {
   background: #EEE;
 }

@@ -9,10 +9,8 @@ entries:
       title: Number of (unique) pins
       delimiter: "-"
     - code: X
-      optional: 1
       title: Major dimension of part on x axis
     - code: "Y"
-      optional: 1
       title: Major dimension of part on y axis
       delimiter: x
     - code: Z
