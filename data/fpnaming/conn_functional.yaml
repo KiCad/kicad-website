@@ -1,11 +1,13 @@
-name: conn_usb
+name: conn_func
 
 entries:
-    - code: USB
+    - code: Function
+      title: Functional purpose of the connector
       example: USB
     - code: Standard
-      title: USB standard (only required for USB 3)
+      title: Standard to which the connector complies, if applicable
       optional: 1
+      example:
     - code: Size
       example: Micro
       title: Connector size (e.g. Micro/Mini)
@@ -13,7 +15,7 @@ entries:
     - code: Type
       example: B
       delimiter: "-"
-      title: Connector type (e.g. A/B/C)
+      title: Connector sub-type (e.g. A/B/C)
       optional: 1
     - code: MAN
       example: Molex
@@ -22,6 +24,9 @@ entries:
     - code: MPN
       example: 105133-0001
       title: Manufacturer part number
+      optional: 1
+    - code: Modifiers
+      title: Footprint modifiers
       optional: 1
     - code: Orientation
       title: Connector orientation

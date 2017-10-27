@@ -4,6 +4,6 @@ brief = "Resistor naming conventions"
 
 {{< fp_naming_header type="resistor" >}}
 
-== Axial Resistors
+**Axial Resistors**
 
 {{< fp_code name="r_axial" >}}
