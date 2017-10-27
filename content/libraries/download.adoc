@@ -8,17 +8,20 @@ title = "Download Libraries"
     weight = 10
 +++
 
-== KiCad Libraries
+== Library Archives
 
-KiCad libraries are community contributed and available for download on  link:https://github.com/kicad"[GitHub]. If you wish to contribute to the libraries, refer to the link:/libraries/contribute/[contribution guide].
+Archived copies of the symbol and footprint libraries can be link:http://downloads.kicad-pcb.org/libraries/[downloaded here]. Each archive corresponds to a released version of KiCad software.
 
-**Archived Content:**
+* `kicad-library` archives contain schematic symbol and 3D model data
+* `kicad-footprints` archives contain PCB footprints
 
-Archived copies of the symbol and footprint libraries can be link:http://downloads.kicad-pcb.org/libraries/[downloaded here].
+== GitHub Libraries
 
-== Library Organisation
+KiCad libraries are community contributed and hosted on GitHub at link:https://github.com/kicad[github.com/kicad]. If you wish to contribute to the libraries, refer to the link:/libraries/contribute/[contribution guide].
 
-The set of libraries corresponding to v4.xx of KiCad software are organised on GitHub as follows:
+=== Library Repositories
+
+The set of libraries corresponding to `v4.xx` of KiCad software are organised on GitHub as follows:
 
 **Symbols**, **3D models** and **project templates** are stored together in the link:https://github.com/kicad/kicad-library[kicad-library] repository.
 
@@ -26,14 +29,12 @@ The set of libraries corresponding to v4.xx of KiCad software are organised on G
 
 === Future of the Libraries
 
-In conjunction with the KiCad v5 software release, the libraries will be reorganised into four separate repositories:
+In conjunction with the KiCad v5 software release, the libraries will be reorganised into four separate repositories (on GitHub).
 
-* kicad-symbols
-* kicad-footprints
-* kicad-packages3d
-* kicad-templates
-
-After the v5 release, further information on downloading KiCad library data will be placed here.
+* `kicad-symbols` - Schematic symbol libraries
+* `kicad-footprints` - PCB footprint libraries
+* `kicad-packages3d` - 3D model data
+* `kicad-templates` - Project templates
 
 == Updating Library Data
 
