@@ -4,7 +4,7 @@ brief = "SMD IC package naming conventions"
 
 {{< fp_naming_header type="SMD IC package" >}}
 
-== Gullwing Packages
+**Gullwing Packages**
 
 The format below provides a guide for naming Gullwing IC packages.
 
@@ -22,7 +22,7 @@ Notes:
 . Pin count is the number of _uniquely numbered_ pads (excluding any exposed pads under the device)
 . Pad modifiers may vary for individual IC footprint types.
 
-== No-Lead Packages
+**No-Lead Packages**
 
 Examples:
 
@@ -37,7 +37,7 @@ Notes:
 . The lead length is the nominal lead length for which the footprint is designed
 . Optionally the nominal lead with can also be provided
 
-== Ball Grid Array Packages
+**Ball Grid Array Packages**
 
 {{< fp_code name="ic_bga" >}}
 

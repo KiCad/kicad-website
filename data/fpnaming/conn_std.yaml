@@ -5,9 +5,9 @@ entries:
       title: Generic connector standard (see notes below)
     - code: Pins
       example: 15
-      title: Pin configuration
+      title: Number of pins
       delimiter: "-"
-    - code: Modifier
+    - code: Series modifier
       title: Series Modifier (see notes below)
       example: HighDensity
     - code: MAN
@@ -19,12 +19,15 @@ entries:
     - code: MPN
       title: Manufacturer part number
       optional: 1
+    - code: Pin Layout
+      optional: 1
+      title: Pin configuration, if not fully defined by applicable standard
     - code: Pitch
       prefix: P
-      title: Pin pitch
+      title: Pin pitch, if not fully defined by applicable standard
       optional: 1
-    - code: Pad size
-      title: Pad dimensions (if non standard)
+    - code: Modifiers
+      title: Footprint modifier field(s)
       optional: 1
     - code: Orientation
       example: Vertical

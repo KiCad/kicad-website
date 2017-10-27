@@ -3,6 +3,9 @@ entries:
     - code: Connector type
       title: Generic connector style (see notes below)
       example: PinHeader
+    - code: MPN
+      title: Manufacturer specific identifier
+      optional: 1
     - code: Pin layout
       title: Pin configuration layout (see notes below)
       example: 1x10
@@ -10,17 +13,13 @@ entries:
       title: Pin pitch
       example: 2.54mm
       prefix: P
-    - code: Drill
-      prefix: Drill
-      title: Drill diameter
+    - code: Modifiers
+      title: Modifiers to connector specifications (pad size, etc)
       optional: 1
-    - code: Pad options
-      prefix: Pad
-      title: Pad dimensions (if non standard)
-      optional: 1
+      example: Drill1.25mm
     - code: Orientation
-      title: Connector orientation
-      example: Vertical
+      title: Orientation of connector relative to board
+      example: Horizontal
     - code: Options
       title: Extra footprint options
       optional: 1

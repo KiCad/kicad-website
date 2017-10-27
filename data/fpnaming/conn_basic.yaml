@@ -1,0 +1,32 @@
+name: conn_basic
+skip_example: 1
+entries:
+    - code: Series
+      optional: 1
+      title: Generic series name
+    - code: Subseries
+      optional: 1
+      title: Series secondary identifier
+    - code: Pins
+      delimiter: "-"
+      title: Pin count
+      optional: 1
+    - code: MPN
+      optional: 1
+      title: Manufacturer specific identifier
+    - code: Pin Layout
+      optional: 1
+      title: Pin configuration, specific to connector type
+    - code: Pitch
+      prefix: P
+      title: Pin pitch, if not implied by connector standard
+      optional: 1
+    - code: Modifiers
+      title: Modifiers to connector specifications (pad size, etc)
+      optional: 1
+    - code: Orientation
+      title: Orientation of connector relative to board
+      optional: 1
+    - code: Options
+      title: Extra footprint options
+      optional: 1

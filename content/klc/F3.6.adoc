@@ -4,29 +4,58 @@ brief = "Connector naming conventions"
 
 {{< fp_naming_header type="connector" >}}
 
-== Manufacturer Series Connectors
+== Conventions for Connectors
 
-Manufacturer series connectors are those which do not have a specific _purpose_ or adhere to a particular _physical_ standard.
+Connector footprints are extremely diverse and the naming conventions for connectors can be complicated. This section details some examples of naming schemes for various connector types. While there are variations between connectors, the general format for naming connectors is as follows:
 
-{{< fp_code name="conn_manu" >}}
+{{< fp_code name="conn_basic" >}}
 
 Notes:
 
-. If the footprint is located in a library dedicated to a single manufacturer, then the `MAN` prefix is not required
-. The pin configuration field is dependent on the connector type.
+. [`Series`] - a versatile field which could contain:
+* Functional description (e.g. `USB`)
+* Connector type (e.g. `PinHeader` or `TerminalBlock`)
+* Industry standard (e.g. `DSUB-15`)
+* Manufacturer specific series (e.g. `Hirose_DF13`)
+. [`MPN`] (manufacturer part number) - uniquely identifiers a connector according to that manufacturer's internal naming conventions
+. [`Pin layout`] - dependent on the connector type
 * Single row connectors: 1x[`number of pins`]
 * Multi row connectors with equal number of pins in each row: [`number of rows`]x[`number of pins per row]`
-* Other connectors: [`number of `rows]Rows_[`number of pins`]
-* Connectors for standardized interfaces do not need to include the pin configuration information. (Example USB)
+* Other connectors: [`number of rows`]Rows_[`number of pins`]
+* Connectors for standardized interfaces do not need to include the pin configuration information (e.g. USB)
 . Number format:
 * [`number of rows`] number of rows no leading zero.
 * [`number of pins per row`] and [`number of pins`] two digit number with leading zero. (can have more digits for connectors with > 100 pins)
-. The [`manufacturer series name`] is defined by the manufacturer
-. [`Orientation`] of connector is determined by the direction of the plug relative to the board plane (see image below).
+. [`Pitch`] - if the connector standard does not imply the pin pitch, then this field is required
+. [`Modifiers`] - multiple fields may be added here, detailing modifications or devations from the standard footprint design. Examples include:
+* Pad size variation
+* Drill size variation
+. [`Orientation`] - The orientation of the connector with reference to the board plane
 
 {{< klcimg_full_width src="connector_orientation" title="The orientation of connectors is determined by the plug direction." >}}
 
-== Connectors with Standardised Shape
+[start = 7]
+. [`Options`] - Extra footprint options
+
+In addition to these conventions, additional schemes are employed for specific connector types - these are detailed below.
+
+=== Connectors for Specific Functions
+
+Many connectors are designed for specific functions (e.g. USB, HDMI, SD-Card, etc). In these cases, specific naming conventions should be followed:
+
+{{< fp_code name="conn_func" >}}
+
+Notes:
+
+. Some _examples_ of functional connector naming are provided below:
+* `USB_Micro-B_Wuerth-614105150721_Vertical_CircularHoles`
+* `HDMI_Micro-D_Molex_46765-2x0x`
+* `MicroSD_Wurth_693072010801`
+. In most cases, pin layout does not need to be explicitly specified
+
+=== Connectors with Standardised Shape
+
+Many connectors are provided by multiple manufacturers in an industry standard package or physical layout. These connectors should use the accepted industry naming at the beginning of the footprint name:
 
 {{< fp_code name="conn_standard" >}}
 
@@ -35,76 +64,22 @@ Notes:
 . The generic connector type [`Standard`] defines the shape of the connector
 * e.g. `DSUB` `Tab` `Circular`
 
-== Connectors for Specific Functions
+=== Generic Connector Types
 
-Many connectors are designed for specific functions (e.g. USB, HDMI, SD-Card, etc). In these cases, specific naming conventions should be followed:
+Examples of generic arrayed connectors:
 
-=== USB
-
-{{< fp_code name="conn_usb" >}}
-
-=== HDMI
-
-{{< fp_code name="conn_hdmi" >}}
-
-Notes:
-
-. [`Type`]
-* Type A = Normal
-* Type B = Dual Link,
-* Type C = Mini
-* Type D = Micro
-* Type E = Automotive
-
-=== DVI
-
-{{< fp_code name="conn_dvi" >}}
-
-Notes:
-
-. [`Type`]
-* Type I = integrated
-* Type D = digital only
-* Type A = analog only
-. [`Size`]
-* Omit for standard size
-* `Mini`, `Micro`
-
-=== SD Card
-
-{{< fp_code name="conn_sd_card" >}}
-
-Notes:
-
-. [`Standard`]
-* `SC`, `HC`, `XC`, `IO`
-* Specify the highest compatible standard
-. [`Size`]
-* Omit for standard size
-* `Mini`, `Micro`
-. [`UHS`]
-* For UHS enabled cards, the UHS type needs to be specified
-
-
-=== Generic connector footprints
-
-Generic connector naming covers footprints for connectors such as:
-
-* Pin headers
-* Socket strips
+* PinHeader
+* PinSocket
+* TerminalBlock
 
 {{< fp_code name="conn_generic" >}}
 
-Notes:
+=== Manufacturer Specific Connectors
 
-=== Terminal Blocks
+Manufacturer series connectors are those which are particular to a particular manufacturer standard.
 
-Terminal blocks
-
-{{< fp_code name="conn_terminal" >}}
+{{< fp_code name="conn_manu" >}}
 
 Notes:
 
-* For terminal blocks, the [`Orientation`] is determined by the direction of the cable slot.
-
-{{< klcimg_full_width src="terminal_block_orientation" title="For terminal Blocks the orientation is determined by the direction of the cable slot." >}}
+. If the footprint is located in a library dedicated to a single manufacturer, then the `MAN` prefix is not required

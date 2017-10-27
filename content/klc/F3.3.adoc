@@ -4,7 +4,7 @@ brief = "Capacitor naming conventions"
 
 {{< fp_naming_header type="capacitor" >}}
 
-== SMD Chip Capacitor
+**SMD Chip Capacitor**
 
 {{< fp_code name="cap_chip" >}}
 
@@ -13,7 +13,7 @@ Notes:
 . At least one case size (either imperial or metric) must be specified
 . Metric case size must have the suffix `Metric`
 
-== SMD Tantalum Capacitor
+**SMD Tantalum Capacitor**
 
 {{< fp_code name="cap_tant_smd" >}}
 
@@ -46,11 +46,11 @@ Notes:
 | 7361-438 | 7,3 x 6,1 x 4,3 mm   | — | U
 |===
 
-== SMD Electrolytic Capacitor
+**SMD Electrolytic Capacitor**
 
 {{< fp_code name="cap_elec_smd" >}}
 
-== THT Capacitor
+**THT Capacitor**
 
 {{< fp_code name="cap_tht" >}}
 
