@@ -88,6 +88,16 @@ DRC. This is an issue not seen in wxGTK 3.0.2, so it seems to be fixed
 upstream. More details can be found in
 link:https://bugs.launchpad.net/kicad/+bug/1442909[Bug# 1442909].
 
+=== Wayland
+It is known that KiCad does not work well under Wayland, see this bug
+link:https://bugs.launchpad.net/kicad/+bug/1725920[Bug# 1725920]. Feel
+free to give useful input to mitigate this issue. It is not yet known
+if it is a bug in KiCad, WxWidgets or Wayland.
+
+This affects recent desktops that have started to default to Wayland
+as their desktop e.g. Ubuntu 17.10. A workaround is to choose X11 when
+logging in to the desktop.
+
 == Windows
 === wxWidgets 3.0.2
 
