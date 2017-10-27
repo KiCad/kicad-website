@@ -34,19 +34,9 @@ entries:
     - code: Stagger
       title: Pin staggering options
       optional: 1
-    - code: Lead length
-      prefix: Lead
-      title: Lead length (if non standard)
+    - code: Modifiers
+      title: Footprint modifiers
       optional: 1
-    - code: Drill size
-      prefix: Drill
-      title: Drill diameter (if non standard)
-      suffix: mm
-      optional: 1
-    - code: Pad size
-      prefix: Pad
-      optional: 1
-      title: Pad dimensions (if non standard)
     - code: Orientation
       example: Vertical
       title: Component orientation (see notes below)
