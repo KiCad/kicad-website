@@ -3,7 +3,7 @@ title = "KiCad Library Convention"
 aliases = [ "/klc/" ]
 [menu.main]
     parent = "Libraries"
-    name = "KLC"
+    name = "Library Conventions"
     url = "/libraries/klc"
     weight = 40
 +++
