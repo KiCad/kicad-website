@@ -11,10 +11,12 @@ entries:
       title: Metric case size
       suffix: Metric
       optional: 1
-    - code: Pad modifiers
-      title: Pad modifiers if non standard
+    - code: Modifiers
+      title: Footprint  modifiers if non standard
       optional: 1
-      prefix: Pad
+    - code: Orientation
+      title: Orientation with respect to board plane
+      optional: 1
     - code: Options
       title: Footprint options
       optional: 1

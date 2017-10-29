@@ -16,9 +16,8 @@ entries:
       optional: 1
     - code: Body size
       title: Major fuse dimensions
-    - code: Pad dimensions
-      prefix: Pad
-      title: Pad dimensions if non standard
+    - code: Modifiers
+      title: Footprint modifiers if non standard
       optional: 1
     - code: Orientation
       title: Orientation of fuse, if multiple orientations are available

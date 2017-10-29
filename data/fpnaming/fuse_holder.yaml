@@ -18,6 +18,9 @@ entries:
       optional: 1
       example: "395"
       title: Manufacturer part number
+    - code: Modifiers
+      title: Footprint modifiers if non-standard
+      optional: 1
     - code: Orientation
       title: Orientation of fuse, if multiple orientations are available
       optional: 1

@@ -22,9 +22,9 @@ entries:
       prefix: P
       title: Lead spacing
       optional: 1
-    - code: Pad dimensions
-      prefix: Pad
-      title: Dimensions of pad (if non standard)
+    - code: Modifiers
+      title: Footprint modifiers if non-standard
+      optional: 1
     - code: Options
       title: Footprint options
       optional: 1

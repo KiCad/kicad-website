@@ -11,17 +11,16 @@ entries:
     - code: "MPN"
       example: S12B-EH
       title: "Manufacturer part number"
-    - code: "Pin configuration"
+    - code: "Pin layout"
       example: "1x13"
       title: "Pin layout information (see notes below)"
     - code: Pitch
       example: 2.50mm
       prefix: P
       title: Pad pitch
-    - code: Pad size
-      prefix: Pad
-      optional: 1
-      title: Pad dimensions if non standard
+    - code: Modifiers
+      title: Modifiers to connector specifications (pad size, etc)
+      example: Pad1.80mm
     - code: Orientation
       example: Horizontal
       title: Direction of connector insertion relative to board plane

@@ -18,15 +18,15 @@ entries:
       example: 26.0mm
       optional: 1
     - code: Width
+      prefix: W
       title: Body width
       optional: 1
     - code: Pitch
       title: Lead spacing
       prefix: P
       example: 75.0mm
-    - code: Pad options
-      prefix: Pad
-      title: Pad dimensions if non standard
+    - code: Modifiers
+      title: Footprint modifiers if non-standard
     - code: Options
       title: Footprint options
       optional: 1

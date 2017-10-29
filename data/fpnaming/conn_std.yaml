@@ -19,7 +19,7 @@ entries:
     - code: MPN
       title: Manufacturer part number
       optional: 1
-    - code: Pin Layout
+    - code: Pin layout
       optional: 1
       title: Pin configuration, if not fully defined by applicable standard
     - code: Pitch
