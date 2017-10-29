@@ -24,22 +24,9 @@ entries:
     - code: Pitch
       prefix: P
       title: Lead pitch
-    - code: Lead size
-      prefix: Lead
-      optional: 1
-      title: Dimensions of leads if non standard
-    - code: Drill size
-      prefix: Drill
-      suffix: mm
-      title: Drill size (if non standard)
-      optional: 1
-    - code: Pad modifiers
-      prefix: Pad
-      title: Pad modifiers if non standard pads
-      optional: 1
-    - code: Clearance
-      prefix: Clearance
-      example: 9mm
+    - code: Modifiers
+      title: Modifiers to footprint specifications
+      example: Clearance
     - code: Options
       title: Extra footprint options
       optional: 1

@@ -25,7 +25,7 @@ Notes:
 * Connectors for standardized interfaces do not need to include the pin configuration information (e.g. USB)
 . Number format:
 * [`number of rows`] number of rows no leading zero.
-* [`number of pins per row`] and [`number of pins`] two digit number with leading zero. (can have more digits for connectors with > 100 pins)
+* [`number of pins per row`] and [`number of pins`] two digit number with leading zero. (can have more digits for connectors with > 99 pins)
 . [`Pitch`] - if the connector standard does not imply the pin pitch, then this field is required
 . [`Modifiers`] - multiple fields may be added here, detailing modifications or devations from the standard footprint design. Examples include:
 * Pad size variation

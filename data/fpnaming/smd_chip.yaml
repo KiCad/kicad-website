@@ -10,12 +10,13 @@ entries:
       optional: 1
     - code: Metric size
       title: Metric case size
+      example: "2012"
       suffix: Metric
       optional: 1
-    - code: Pad modifiers
-      title: Pad modifiers if non standard
+    - code: Modifiers
+      title: Modifiers to footprint if non standard
       optional: 1
-      prefix: Pad
     - code: Options
-      title: Footprint options
+      title: Extra footprint options
       optional: 1
+      example: ReverseMount

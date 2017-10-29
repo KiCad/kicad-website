@@ -14,10 +14,9 @@ entries:
       prefix: "EIA-"
       example: "3126-18"
       title: EIA metric size code
-    - code: Pad modifiers
-      title: Pad modifiers if non standard
+    - code: Modifiers
+      title: Footprint modifiers if non standard
       optional: 1
-      prefix: Pad
     - code: Options
       title: Footprint options
       optional: 1

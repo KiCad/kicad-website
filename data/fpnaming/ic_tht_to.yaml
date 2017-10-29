@@ -35,7 +35,7 @@ entries:
       title: Pin staggering options
       optional: 1
     - code: Modifiers
-      title: Footprint modifiers
+      title: Modifiers to footprint specifications
       optional: 1
     - code: Orientation
       example: Vertical

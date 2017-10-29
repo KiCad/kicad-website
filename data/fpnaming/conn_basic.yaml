@@ -14,7 +14,7 @@ entries:
     - code: MPN
       optional: 1
       title: Manufacturer specific identifier
-    - code: Pin Layout
+    - code: Pin layout
       optional: 1
       title: Pin configuration, specific to connector type
     - code: Pitch

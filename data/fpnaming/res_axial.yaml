@@ -15,14 +15,14 @@ entries:
       prefix: P
       example: 2.54mm
       title: Lead spacing
-    - code: Pad modifiers
-      title: Pad dimensions if non-standard
-      prefix: Pad
+    - code: Modifiers
       optional: 1
+      title: Modifiers to footprint specifications
     - code: Orientation
       example: Vertical
       title: Resistor orientation (Vertical / Horizontal)
       optional: 1
+      example: Vertical
     - code: Options
       title: Extra footprint options
       optional: 1
