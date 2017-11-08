@@ -1,0 +1,7 @@
++++
+title = "KiCad 5 -- a new generation"
+date = "2017-11-29"
+draft = true
++++
+[Kicad-developers] [Feature] Position Relative to
+[Kicad-developers] [PATCH] GerbView GAL support

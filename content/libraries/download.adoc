@@ -8,12 +8,15 @@ title = "Download Libraries"
     weight = 10
 +++
 
-== Library Archives
+== Library Downloads
 
-Archived copies of the symbol and footprint libraries can be link:http://downloads.kicad-pcb.org/libraries/[downloaded here]. Each archive corresponds to a released version of KiCad software.
+The official KiCad libraries are available for download at link:https://kicad.github.io[https://kicad.github.io]. Library data are provided as compressed archives of the individual libraries within the following categories:
 
-* `kicad-library` archives contain schematic symbol and 3D model data
-* `kicad-footprints` archives contain PCB footprints
+* Schematic symbols: link:https://kicad.github.io/symbols[https://kicad.github.io/symbols]
+* PCB footprints: link:https://kicad.github.io/footprints[https://kicad.github.io/footprints]
+* 3D models: link:https://kicad.github.io/packages3d[https://kicad.github.io/packages3d]
+
+Library data are updated weekly, and track the link:https://github.com/KiCad[KiCad GitHub repositories].
 
 == GitHub Libraries
 

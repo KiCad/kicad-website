@@ -8,6 +8,8 @@ Filenames, symbol names, footprint names and model names must contain only valid
 . Underscore `_`
 . Hyphen / dash `-`
 . Period / dot `.`
+. Comma `,`
+. Plus symbol `+`
 
 This character set ensures that symbols will be compatible with all filesytems, and will not cause any issues due to character rendering.
 
