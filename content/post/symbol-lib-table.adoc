@@ -1,0 +1,94 @@
++++
+title = "Testing: Symbol Library Table Released"
+date = "2017-11-08"
+draft = false
++++
+
+The KiCad project recently merged the symbol library table code for
+accessing symbol libraries into the master branch.  This represents
+a significant change in the way symbol libraries are defined and
+accessed.  It is similar in design and function of the footprint
+library table and will resolve the long standing issue with symbol
+library ordering in Eeschema along with some new features such as
+platform independence and lazy library loading.  KiCad users should
+be familiar with the design and concept so this is not a tutorial
+on how to configure your symbol library table.  It is important
+information that you need to understand in order to properly
+convert your existing schematics to use the symbol library table.
+
+Much like the conversion over to the footprint library table, there
+will be issues and a learning curve.  Hopefully, familiarity with
+the footprint library table will minimize the learning curve.  The
+biggest issues will be with existing projects and users with custom
+symbol library configurations.  Some of these issue will be mitigated
+by a new symbol library table remapping feature.  This feature will
+be executed whenever a schematic is opened that has not yet been
+remapped.  There are a few steps you should take ahead of time in
+order for the remapping to be the most effective.
+
+[WARNING]
+Please note, the remapped schematics will not be compatible with older
+version of KiCad so make sure to back your project schematic and project
+files before remapping a schematic just in case things go wrong.
+
+
+1. If you get warning about missing libraries when you start your current
+   version of Eeschema, make sure to fix the missing libraries if they
+   contained symbols that are in the schematic before you attempt to
+   remap your schematic.  Otherwise, the correct symbol will not be found
+   and you will end up with broken symbol links in your schematic.  You
+   can test this by left clicking on a symbol in the schematic and verifying
+   that the symbol is not being loaded from the cache library.  If a
+   symbol is being loaded from the cache library, you are already skating
+   on thin ice.
+
+2. If you have been using a development build of KiCad, copy the full
+   default global symbol library table (sym-lib-table) file from the
+   template folder installed with the KiCad libraries or from the
+   https://github.com/KiCad/kicad-library/blob/master/template/sym-lib-table[KiCad library repo]
+   to your KiCad user configuration folder.  This will replace the
+   empty one (most likely) created by Eeschema.  If you do not do
+   this, you will most likely end up with a bunch of broken symbol
+   links.
+
+3. Make sure your default KiCad template project file (kicad.pro) has
+   no entries in the [eeschema/libraries] section or get a copy from
+   the
+   https://git.launchpad.net/kicad/tree/template/kicad.pro[KiCad source repo].
+   If you build from source or are using a nightly build, the update
+   project template file has already been installed.  It is imperative
+   that you do not have any symbol libraries in your project files.
+   Otherwise, you could possible be effect by
+   https://bugs.launchpad.net/kicad/+bug/937445[this] bug which the
+   symbol library table is designed to resolve.
+
+4. During the remapping process, symbol libraries not found in the global
+   symbol library table will be used to create a project specific symbol
+   library table.  You will have to move them manually to the global symbol
+   library table if that is your preference.
+
+5. For the most accurate remapping you should create a project library
+   by copying the project cache file (project-name-cache.lib) to a different
+   file and add it to the top of the symbol library list.  You must use a
+   version of KiCad prior to the symbol library table implementation in
+   order to do this.
+
+Please be aware that there are also some minor behavioral changes with the
+introduction of the symbol library table.
+
+1. When removing the symbol from a library currently being edited in the
+   library editor, the next symbol in the library is not automatically
+   loaded so the canvas will be empty.  You will have to select a new symbol
+   to edit.
+
+2. The cache library is not longer shown in either the symbol library viewer
+   or the symbol library editor.  The cache should have never be editable
+   because any edits would get overwritten by the next schematic save.  The
+   cache being removed from the symbol library viewer is a minor issue.
+   Given that the cache library is going away when the new schematic file
+   format is completed it was decided that it adding a lot of extra code for
+   something that will soon be obsolete didn't make much sense.
+
+This will be one of the last major code changes before the stable 5 release
+feature freeze so please help test it so we can get the stable 5 release
+out as soon as possible.  Thank you for your patience during this transition.
