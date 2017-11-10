@@ -6,6 +6,10 @@ url = "/libraries/klc/history/"
 
 ---
 
+== 3.0.2 - 2017-11-10
+* Require `Layout` field in BGA packages to have prefix
+* Body size must be first parameter for BGA packages
+
 == 3.0.1 - 2017-11-08
 * Added allowance for `+` character in filenames
 * Added allowance for `,` character in filenames
