@@ -6,6 +6,10 @@ url = "/libraries/klc/history/"
 
 ---
 
+== 3.0.1 - 2017-11-08
+* Added allowance for `+` character in filenames
+* Added allowance for `,` character in filenames
+
 == 3.0.0 - 2017-10-22
 * KLC moved from GitHub wiki to KiCad website
 * KLC rules organized into logical groups, rather than single sequential set of rule numbers
