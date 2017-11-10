@@ -8,15 +8,7 @@ entries:
       title: Number of (unique) pins
       delimiter: "-"
       example: 24
-    - code: Columns
-      title: Number of ball columns
-      example: 3
-    - code: Rows
-      title: Number of ball rows
-      delimiter: x
-      example: 4
     - code: X
-      prefix: B
       example: 3.2
       title: Major dimension of part on x axis
     - code: "Y"
@@ -27,6 +19,14 @@ entries:
       title: Major dimension of part on z axis
       delimiter: x
       optional: 1
+    - code: Columns
+      title: Number of ball columns
+      example: 3
+      prefix: Layout
+    - code: Rows
+      title: Number of ball rows
+      delimiter: x
+      example: 4
     - code: Pitch X
       prefix: P
       example: 0.5mm
