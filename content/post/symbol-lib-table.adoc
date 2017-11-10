@@ -1,7 +1,7 @@
 +++
 title = "Testing: Symbol Library Table Released"
 date = "2017-11-08"
-draft = true
+draft = false
 +++
 
 The KiCad project recently merged the symbol library table code for
@@ -30,7 +30,6 @@ order for the remapping to be the most effective.
 Please note, the remapped schematics will not be compatible with older
 version of KiCad so make sure to back your project schematic and project
 files before remapping a schematic just in case things go wrong.
-
 
 1. If you get warning about missing libraries when you start your current
    version of Eeschema, make sure to fix the missing libraries if they
