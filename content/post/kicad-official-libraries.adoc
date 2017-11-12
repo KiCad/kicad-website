@@ -4,7 +4,7 @@ date = "2017-11-10"
 draft = false
 +++
 
-The KiCad project is proud to announce that the official KiCad libraries
+The KiCad project are proud to announce that the official KiCad libraries
 are now featured on the link:/libraries/download[KiCad website].
 
 The library team has invested a large amount of time improving the
