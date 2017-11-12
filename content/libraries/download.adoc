@@ -36,7 +36,7 @@ The set of libraries corresponding to `v4.xx` of KiCad software are organised on
 
 In conjunction with the KiCad v5 software release, the libraries will be reorganised into four separate repositories (on GitHub).
 
-* `kicad-symbols` - Schematic symbol libraries
-* `kicad-footprints` - PCB footprint libraries
-* `kicad-packages3d` - 3D model data
-* `kicad-templates` - Project templates
+* `link:https://github.com/KiCad/kicad-symbols[kicad-symbols]` - Schematic symbol libraries
+* `link:https://github.com/KiCad/kicad-footprints[kicad-footprints]` - PCB footprint libraries
+* `link:https://github.com/KiCad/kicad-packages3d[kicad-packages3d]` - 3D model data (3D sources in `link:https://github.com/KiCad/kicad-packages3d-source[kicad-packages3d-source]`)
+* `link:https://github.com/KiCad/kicad-templates[kicad-templates]` - Project templates
