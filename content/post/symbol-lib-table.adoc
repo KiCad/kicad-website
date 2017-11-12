@@ -4,6 +4,9 @@ date = "2017-11-08"
 draft = false
 +++
 
+:icons: fonts
+:iconsdir: /img/icons/
+
 The KiCad project recently merged the symbol library table code for
 accessing symbol libraries into the master branch.  This represents
 a significant change in the way symbol libraries are defined and
