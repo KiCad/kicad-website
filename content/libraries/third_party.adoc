@@ -1,8 +1,8 @@
 +++
-title = "External Libraries"
+title = "Third Party Libraries"
 [menu.main]
     parent = "Libraries"
-    name = "External Libraries"
+    name = "Third Party Libraries"
     identifier = "libraries_external"
     weight = 50
 +++
@@ -10,7 +10,7 @@ title = "External Libraries"
 :toc: macro
 toc::[]
 
-In addition to the official KiCad libraries, there are other external sources for KiCad library data.
+In addition to the official KiCad libraries, there are other third party sources for KiCad library data.
 
 While the following links may be useful sources of library data, they are not maintained or endorsed by the KiCad project.
 
