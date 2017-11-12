@@ -10,10 +10,10 @@ title = "Third Party Libraries"
 :toc: macro
 toc::[]
 
-In addition to the official KiCad libraries, there are other third party sources for KiCad library data.
+In addition to the official KiCad libraries, there are other, third party sources for KiCad library packages.
 
-While the following links may be useful sources of library data, they are not maintained or endorsed by the KiCad project.
+While the following links may be useful sources of library packages, they are not maintained or endorsed by the KiCad project.
 
 == Digi-Key
 
-link:https://www.digikey.com[Digi-Key] maintains an atomic parts library for KiCad on their link:https://github.com/digikey/digikey-kicad-library/[GitHub page]. Library data are licensed under a similar structure as the official libraries.
+link:https://www.digikey.com[Digi-Key] maintains an atomic parts library for KiCad on their link:https://github.com/digikey/digikey-kicad-library/[GitHub page]. These libraries are licensed under an agreement similar to the official libraries.
