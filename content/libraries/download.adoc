@@ -34,7 +34,7 @@ The set of libraries corresponding to `v4.xx` of KiCad software are organised on
 
 === Future of the Libraries
 
-In conjunction with the KiCad v5 software release, the libraries will be reorganised into four separate repositories (on GitHub).
+In conjunction with the KiCad v5 software release, the libraries will be reorganised into four separate repositories (on GitHub). These repositories are currently a work in progress.
 
 * `link:https://github.com/KiCad/kicad-symbols[kicad-symbols]` - Schematic symbol libraries
 * `link:https://github.com/KiCad/kicad-footprints[kicad-footprints]` - PCB footprint libraries
