@@ -6,6 +6,9 @@ url = "/libraries/klc/history/"
 
 ---
 
+== 3.0.3 - 2017-11-14
+* Allow pin name offset values less than 20mils (`must` -> `should`)
+
 == 3.0.2 - 2017-11-10
 * Require `Layout` field in BGA packages to have prefix
 * Body size must be first parameter for BGA packages
