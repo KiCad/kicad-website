@@ -2,7 +2,8 @@
 brief = "Pin name position offset"
 +++
 
-. Pin name position offset must be set between `20mil` (`0.508`) and `50mil` (`1.27mm`) (inclusive)
+. Pin name position offset must not exceed `50mil` (`1.27mm`)
+. Pin name position offset should not be set less than `20mil` (`0.508mm`)
 . Preferred value is `20mil`
 . Larger offset allowed to accomodate particular symbol geometry
 

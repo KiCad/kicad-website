@@ -1,0 +1,23 @@
++++
+title = "Testing: Eagle import plugins"
+date = "2017-10-20"
+draft = false
++++
+
+The KiCad project is proud to announce the support for importing Eagle
+projects. This is the outcome of work to complete the Eagle schematic file
+plugin and integrate it with the Eagle board file plugin.
+
+From the new "Import Project" menu entry in the KiCad launcher users may now
+select an Eagle schematic or board file and the new project name and location,
+after which the corresponding Eagle files will be imported respectively into
+EEschema and PcbNew.
+
+The import plugins are now available for testing in the nightly builds and will
+be included in the version 5 release.
+
+This work has been made possible by generous donations to the
+link:https://giving.web.cern.ch/civicrm/contribute/transact?reset=1&id=6[CERN &
+Society Foundation] in support of the KiCad Project. Special acknowledgements go
+to Alejandro Garcia Montoro and Russell Oliver for the effort they put into the
+development.
