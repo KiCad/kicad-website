@@ -93,11 +93,11 @@ introduction of the symbol library table.
 
 3. Symbol naming now follows the same convention as footprint naming.  The
    colon ':' and forward slash '/' characters are illegal and will cause
-   issues with broken symbol links.  Please fix you symbol names that have
-   these characters.  It is also a good idea to no use any characters that
-   are not valid file characters on both Posix and Windows file systems.
-   When the new symbol library file format is implemented, illegal file
-   system characters will cause issues.
+   issues with broken symbol links.  Please fix any symbol names that contain
+   these characters.  It is also a good idea to not use any characters that
+   are not valid file name characters on both Posix and Windows file systems.
+   When the new symbol library file format is implemented, illegal file name
+   characters will cause issues.
 
 This will be one of the last major code changes before the stable 5 release
 feature freeze so please help test it so we can get the stable 5 release
