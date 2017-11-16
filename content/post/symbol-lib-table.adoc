@@ -32,7 +32,7 @@ order for the remapping to be the most effective.
 [WARNING]
 Please note, the remapped schematics will not be compatible with older
 version of KiCad so make sure to back your project schematic and project
-files before remapping a schematic just in case things go wrong.
+files before remapping a schematic just in case things go wrong. +
 
 1. If you get warning about missing libraries when you start your current
    version of Eeschema, make sure to fix the missing libraries if they
@@ -90,6 +90,14 @@ introduction of the symbol library table.
    Given that the cache library is going away when the new schematic file
    format is completed it was decided that it adding a lot of extra code for
    something that will soon be obsolete didn't make much sense.
+
+3. Symbol naming now follows the same convention as footprint naming.  The
+   colon ':' and forward slash '/' characters are illegal and will cause
+   issues with broken symbol links.  Please fix you symbol names that have
+   these characters.  It is also a good idea to no use any characters that
+   are not valid file characters on both Posix and Windows file systems.
+   When the new symbol library file format is implemented, illegal file
+   system characters will cause issues.
 
 This will be one of the last major code changes before the stable 5 release
 feature freeze so please help test it so we can get the stable 5 release
