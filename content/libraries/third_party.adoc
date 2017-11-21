@@ -17,3 +17,7 @@ While the following links may be useful sources of library packages, they are no
 == Digi-Key
 
 link:https://www.digikey.com[Digi-Key] maintains an atomic parts library for KiCad on their link:https://github.com/digikey/digikey-kicad-library/[GitHub page]. These libraries are licensed under an agreement similar to the official libraries.
+
+== SparkFun
+
+link:https://sparkfun.com[SparkFun Electronics] provide KiCad library files for many of their products on their link:https://github.com/sparkfun/SparkFun-KiCad-Libraries[GitHub page]. These libraries are based on the SparkFun Eagle libraries.
