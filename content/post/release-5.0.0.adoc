@@ -6,3 +6,30 @@ draft = true
 [Kicad-developers] [Feature] Position Relative to
 [Kicad-developers] [PATCH] GerbView GAL support
 [Kicad-developers] [FEATURE] Eeschema Line Styles
+[Kicad-developers] [RFC] new connectivity algorithm - testers needed
+
+
+New features in KiCad 5.0.0
+
+- Autoplace for eeschema labels (https://www.youtube.com/watch?v=32FKnrKxe4Y)
+- New 3D viewer
+- New 3D model plugin archetecture
+ -- Now supports STEP and IGES viewer
+ -- STEP assembly export from STEP and IGES inputs
+ -- Otherwise support for VRML as before
+- Flip board option
+- Spread out when loading netlist with new parts in pcbnew
+- SPICE via ngspice
+- New component chooser in eescheme, see email  [Kicad-developers] Pushed new component selector
+- Selection of nets on a sheet [Kicad-developers] Selection tool that selects components and local connections
+- Many tool fixes to GAL
+  - Grid option works
+  - Caliper tool in GAL
+- [Kicad-developers] [PATCH] [RFC] Get rid of boost::context
+- [Kicad-developers] [FEATURE] Component table viewer
+
+
+possible new features, needs to be verified
+- custom rastnet highlighting
+
+
