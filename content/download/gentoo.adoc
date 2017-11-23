@@ -5,7 +5,10 @@ weight = 95
 +++
 
 == Stable Release
-KiCad 4.0.4 is available in in the
+
+{{< repology gentoo >}}
+
+KiCad is available in in the
 link:https://packages.gentoo.org/packages/sci-electronics/kicad[official
 gentoo packages]. You can install it via command line:
 

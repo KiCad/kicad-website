@@ -5,6 +5,13 @@ weight = 20
 +++
 
 == Stable Release
+
+{{< repology fedora_27 >}}
+
+{{< repology fedora_26 >}}
+
+{{< repology fedora_25 >}}
+
 In general, latest Fedora releases ship the stable versions KiCad as they are
 released.
 
