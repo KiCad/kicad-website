@@ -176,6 +176,44 @@ Afterwards you may mark commits using 'git fixes' command:
     git commit -a -m "Fixed a memleak"
     git fixes 12345678
 
+==== Changelog tags ====
+
+To facilitate following the code changes, please include a changelog tag to
+indicate modifications observable by the users. There are three types of
+changelog tags:
+
+- `NEW` to denote a new feature
+- `CHANGED` to indicate a modification of an existing feature
+- `REMOVED` to inform about removal of an existing feature
+
+There is no need to add changelog tags for commits that do not modify the way
+users interact with the software, such as code refactoring.
+
+When a commit with changelog tags is pushed, the committer should create a new
+issue in the link:https://github.com/KiCad/kicad-doc/issues[documentation
+repository] to notify the documentation maintainers. It is best to include a
+link to the commit containing the reported changes.
+
+An example commit message containing changelog tags (and bug fixes):
+....
+Eeschema: Adding line styling options
+
+NEW: Adds support in eeschema for changing the default line style,
+width and color on a case-by-case basis.
+
+CHANGED: "Wire" lines now optionally include data on the line style,
+width and color if they differ from the default.
+
+Fixes: lp:594059
+* https://bugs.launchpad.net/kicad/+bug/594059
+
+Fixes: lp:1405026
+* https://bugs.launchpad.net/kicad/+bug/1405026
+....
+
+It is easy to extract the changelog using git commands:
+
+    git log -E --grep="ADD:|NEW:|REMOVE[D]?:|CHANGE[D]?:" --since="1 Jan 2017"
 
 === Pulling changes and rebasing
 
