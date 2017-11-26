@@ -8,6 +8,7 @@ title = "In the Media"
 
 
 **KiCad has been featured in the following blog posts, press and media:**
+https://giving.web.cern.ch/content/kicad-development-1[KiCad: A commitment to freedom] (12-OCT-2017)
 
 https://hackaday.com/2016/11/17/creating-a-pcb-in-everything-kicad-part-1/[Creating A PCB In Everything: KiCad, Part 1] (17-NOV-2016), http://hackaday.com/2016/12/09/creating-a-pcb-in-everything-kicad-part-2/[Part 2] (09-DEC-2016), http://hackaday.com/2016/12/23/creating-a-pcb-in-everything-kicad-part-3/[Part 3] (23-DEC-2016)
 
