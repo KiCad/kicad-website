@@ -58,6 +58,8 @@ link:http://bazaar.launchpad.net/~stambaughw/kicad/doc-read-only/download/head:/
 
 * `fp-lib-table`: Footprint library list (_footprint libraries table_): list of footprint libraries (various formats) which are loaded by the board or the footprint editor or CvPcb.
 
+* `sym-lib-table`: Symbol library list (_symbol libraries table_): list of symbol libraries which are loaded by the schematic editor.
+
 * `.kicad_wks`: The page layout description files, for people who want a worksheet with a custom look.
 
 * `.rpt`: report file, for documentation.
