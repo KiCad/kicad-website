@@ -158,62 +158,16 @@ changes and then run `git commit --amend`, this will show you the
 commit log from the last commit, let you edit it and will replace the
 old commit with the fixed one.
 
-==== Bug fixes ====
+=== Commit message format ===
 
-Patches meant to fix a bug reported on the bug tracker need to be marked as such.
-Currently it is done by appending the following formula to a commit message:
+There are a few basic rules regarding the
+link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/commit_messages.html[commit messages format].
+Following them helps the developers understand the intention of your patch and
+get the changes reviewed sooner.
 
-    Fixes: lp:12345678
-    * https://bugs.launchpad.net/kicad/+bug/12345678
-
-To simplify the process, one can configure git to include an extra alias which
-marks commits as bug fixes. To enable it, run in the KiCad source directory:
-
-    git config --add include.path "$(pwd)/helpers/git/fixes_alias"
-
-Afterwards you may mark commits using 'git fixes' command:
-
-    git commit -a -m "Fixed a memleak"
-    git fixes 12345678
-
-==== Changelog tags ====
-
-To facilitate following the code changes, please include a changelog tag to
-indicate modifications observable by the users. There are three types of
-changelog tags:
-
-- `NEW` to denote a new feature
-- `CHANGED` to indicate a modification of an existing feature
-- `REMOVED` to inform about removal of an existing feature
-
-There is no need to add changelog tags for commits that do not modify the way
-users interact with the software, such as code refactoring.
-
-When a commit with changelog tags is pushed, the committer should create a new
-issue in the link:https://github.com/KiCad/kicad-doc/issues[documentation
-repository] to notify the documentation maintainers. It is best to include a
-link to the commit containing the reported changes.
-
-An example commit message containing changelog tags (and bug fixes):
-....
-Eeschema: Adding line styling options
-
-NEW: Adds support in eeschema for changing the default line style,
-width and color on a case-by-case basis.
-
-CHANGED: "Wire" lines now optionally include data on the line style,
-width and color if they differ from the default.
-
-Fixes: lp:594059
-* https://bugs.launchpad.net/kicad/+bug/594059
-
-Fixes: lp:1405026
-* https://bugs.launchpad.net/kicad/+bug/1405026
-....
-
-It is easy to extract the changelog using git commands:
-
-    git log -E --grep="ADD:|NEW:|REMOVE[D]?:|CHANGE[D]?:" --since="1 Jan 2017"
+Descriptive commit message is also invaluable source of information for future
+developers who look for additional explanations regarding certain parts of the
+code.
 
 === Pulling changes and rebasing
 
