@@ -3,21 +3,17 @@ name: cap_tant_smd
 entries:
     - code: "CP_Tantalum"
       example: "CP_Tantalum"
-    - code: Manufacturer
-      title: Manufacturer name
-      optional: 1
-      example: Kemet
-    - code: Size code
-      example: A
-      title: Manufacturer size code
     - code: Metric size
       prefix: "EIA-"
       example: "3126-18"
       title: EIA metric size code
+    - code: Size code
+      example: Kemet-A
+      title: Letter size code including naming standard ([Standard]-[Letter])
     - code: Modifiers
       title: Footprint modifiers if non standard
       optional: 1
     - code: Options
       title: Footprint options
       optional: 1
-      example: Reflow
+      example: Pad1.53x1.40mm_HandSolder
