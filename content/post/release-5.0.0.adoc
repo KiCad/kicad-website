@@ -17,9 +17,6 @@ draft = true
 ** Now supports STEP and IGES viewer
 ** STEP assembly export from STEP and IGES inputs
 ** Otherwise support for VRML as before
-* Many tool fixes to GAL
-** Grid option works
-** Caliper tool in GAL
 * Support for arbitrary color schemes (GerbView and PcbNew: in OpenGL/Cairo canvases only)
 * New highlighting style for disambiguating selections for greater clarity
 * Improved zoom behavior when using trackpads in MacOS
@@ -37,6 +34,24 @@ draft = true
 
 * Flip board option
 * Spread out when loading netlist with new parts
+* You can now specify a reference point when using the Move Exactly feature
+* Many enhancements to the GAL (OpenGL and Cairo) canvases, including:
+** New measurement tool added
+** Vias can now be placed freely (for stitching, etc)
+** Improvements to drag selection:
+*** A drag from left to right will select items that are completely enclosed
+*** A drag from right to left will select any items that are partially touched by the selection rectangle
+*** You can hold the SHIFT key while dragging to add items to the current selection
+*** You can hold the CTRL key while dragging to remove items from the current selection
+** Grid settings are now fully functional
+** Always-on Cursor feature now available
+** Local Ratsnest feature now available
+** Microwave tools now available
+** Change Layer with Via feature now available
+** Exchange Footprint feature now available
+** Improvements to the array tool
+** Improvements to the arc drawing tool
+** Improvements to the zone drawing and editing tools
 
 === GerbView
 
