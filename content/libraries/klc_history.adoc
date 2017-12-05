@@ -6,6 +6,9 @@ url = "/libraries/klc/history/"
 
 ---
 
+== 3.0.5 - 2017-12-05
+* Fix examples in connector naming convention
+
 == 3.0.4 - 2017-11-30
 * Fix naming convention for tantal caps
 ** move size code towards the back to avoid impression that these are manufacturer specific

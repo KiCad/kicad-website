@@ -48,9 +48,9 @@ Many connectors are designed for specific functions (e.g. USB, HDMI, SD-Card, et
 Notes:
 
 . Some _examples_ of functional connector naming are provided below:
-* `USB_Micro-B_Wuerth-614105150721_Vertical_CircularHoles`
+* `USB_Micro-B_Wuerth_614105150721_Vertical_CircularHoles`
 * `HDMI_Micro-D_Molex_46765-2x0x`
-* `MicroSD_Wurth_693072010801`
+* `MicroSD_Wurth_WR-CRD_693072010801`
 . In most cases, pin layout does not need to be explicitly specified
 
 === Connectors with Standardised Shape
