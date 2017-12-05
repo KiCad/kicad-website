@@ -29,12 +29,14 @@ draft = true
 * SPICE simulation support via ngspice
 * New component chooser, see email  [Kicad-developers] Pushed new component selector
 * Selection of nets on a sheet [Kicad-developers] Selection tool that selects components and local connections
+* Partial clipboard support that allows moving symbols and nets between hierarchical sheets
 
 === PcbNew
 
 * Flip board option
 * Spread out when loading netlist with new parts
 * You can now specify a reference point when using the Move Exactly feature
+* Clipboard support that allows copying selections between boards or as text
 * Many enhancements to the GAL (OpenGL and Cairo) canvases, including:
 ** New measurement tool added
 ** Vias can now be placed freely (for stitching, etc)
