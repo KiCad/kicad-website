@@ -1,0 +1,18 @@
++++
+title = "Flatpak"
+iconhtml = "<div class='fl-flathub'></div>"
+weight = 30
++++
+
+== Stable Release
+
+To install KiCad using the Software app, click link:https://flathub.org/repo/appstream/org.kicad_pcb.KiCad.flatpakref[here].
+
+Alternatively, you can use the Terminal to install using `flatpak` command:
+
+[source,bash]
+flatpak install --from https://flathub.org/repo/appstream/org.kicad_pcb.KiCad.flatpakref
+
+== Flathub source
+
+You can find the build manifest to build from source link:https://github.com/flathub/org.kicad_pcb.KiCad[here].
