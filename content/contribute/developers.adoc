@@ -6,7 +6,7 @@ categories = [ "Contribute" ]
     name   = "Developers"
 weight = 20
 +++
-:toc: macro 
+:toc: macro
 :toc-title:
 
 toc::[]
@@ -14,10 +14,10 @@ toc::[]
 == Getting Started
 
 link:https://launchpad.net/kicad[KiCad uses Launchpad]
-for bug reporting and tracking, source code hosting, 
-and creating blueprints (roadmaps) of new features. The project is 
+for bug reporting and tracking, source code hosting,
+and creating blueprints (roadmaps) of new features. The project is
 essentially managed through Launchpad.
-The first thing to do before anything is to join the 
+The first thing to do before anything is to join the
 link:https://launchpad.net/~kicad-developers[KiCad Developers Mailing List].
 You can also join the link:/community/irc[IRC channel]
 if you have questions. Usually, there are multiple KiCad developers in the channel.
@@ -74,7 +74,7 @@ page for you.
 There are multiple ways of contributing to the future success of
 KiCad, one could contribute on the
 link:/contribute/docs-team/[documentation],
-link:/contribute/librarians/[libraries] or actual code contributions
+link:/libraries/contribute/[libraries] or actual code contributions
 to the codebase.
 
 === Read the Code Style Policy
@@ -256,12 +256,12 @@ the developer docs].
 
 If you are the kind of person wanting to help improve KiCad by internationalizing it, you should probably have a look at the
 link:http://docs.kicad-pcb.org/stable/en/gui_translation_howto.html[GUI translating howto]. +
-Also you are encouraged to contribute to the 
+Also you are encouraged to contribute to the
 link:/contribute/docs-team/[KiCad Documentation]
 
 === Contribute to the Official Libraries
 
-If you wish to contribute eeschema, pcbnew or 3dviewer libraries, please see the link:/contribute/librarians/[Librarians] page.
+If you wish to contribute to the symbol, footprint or 3D model libraries, please see the link:/libraries/contribute/[Librarians] page.
 
 === Internet Relay Chat (_IRC_)
 
