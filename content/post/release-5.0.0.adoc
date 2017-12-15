@@ -37,6 +37,7 @@ draft = true
 * Spread out when loading netlist with new parts
 * You can now specify a reference point when using the Move Exactly feature
 * Clipboard support that allows copying selections between boards or as text
+* Custom pad shapes
 * Many enhancements to the GAL (OpenGL and Cairo) canvases, including:
 ** New measurement tool added
 ** Vias can now be placed freely (for stitching, etc)
