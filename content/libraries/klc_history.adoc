@@ -6,6 +6,9 @@ url = "/libraries/klc/history/"
 
 ---
 
+== 3.0.6 - 2017-12-05
+* Clarification of courtyard clearance.
+
 == 3.0.5 - 2017-12-05
 * Fix examples in connector naming convention
 

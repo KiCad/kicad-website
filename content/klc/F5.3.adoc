@@ -2,7 +2,12 @@
 brief = "Courtyard layer requirements"
 +++
 
-The component courtyard provides physical component boundaries to ensure that components do not interfere when placed on the board. The courtyard should also include any extra required clearance for mating connectors (for example).
+The component courtyard is defined as the smallest rectangular area that provides a
+minimum electrical and mechanical clearance around the combined component body and land
+pattern boundaries.
+It is allowed to create a contoured courtyard area using a polygon instead of a simple rectangle. (IPC-7351C)
+
+The courtyard should include any extra required clearance for mating connectors (for example).
 
 KiCad refers to the courtyard layers as:
 
@@ -26,3 +31,8 @@ Courtyard clearance should adhere to the following requirements:
 . BGA devices should have a clearance of `1.0mm`
 
 {{< klcimg src="F4.3a" title="Courtyard layer" >}}
+
+Example for courtyard clearance when applied to the contoured courtyard outline of a QFP-64 package.
+(Shown are courtyard, fab-outline and copper pads.)
+
+{{< klcimg src="crtyd_clearance_example" title="Courtyard clearance" >}}
