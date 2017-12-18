@@ -29,7 +29,7 @@ before you start.
 The KiCad libraries are hosted on https://github.com/kicad[GitHub] - users can submit their contributions using the *Pull Request* mechanism. Instructions for submitting a pull request are provided below.
 
 . If you do not have one, create an account on https://github.com/join[GitHub]
-. link:https://help.github.com/articles/fork-a-repo[**Fork**] the repository you wish to contribue to
+. link:https://help.github.com/articles/fork-a-repo[**Fork**] the repository you wish to contribute to
 . link:https://help.github.com/articles/fetching-a-remote[**Clone**] your newly created fork to your local machine
 . Create a new link:https://help.github.com/articles/github-glossary/#branch[**branch**] in your local repository. This ensures that any local changes are not mixed with the master copy of the library until they are checked and merged by a librarian.
 . Perform any necessary modifications to the library repository. Refer to the link:/libraries/klc[KLC] for contribution guidelines.
