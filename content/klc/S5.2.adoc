@@ -15,6 +15,7 @@ Filter conventions:
 . Filters should end with a `*` wildcard to allow matching of modified footprint suffixes
 . Filters should match the dimensional information (where required) to be as specific as necessary:
 * `DIP*W7.62mm*` to match `DIP-22_W7.62mm` but not `DIP-22_W9.3mm`
+. Filters should not contain the pin count if the pin-count in the symbol matches the pin count in the footprint. In those cases the foorprint is matched by KiCADs pin count filter. If not all pins are present in the symbol (e.g. NC-pins) the pin-count has to be part of the footprint filter (see link:/klc/S4.5[requirements for NC pins]). Then e.g. `SOT?23?5` might be used instead of simply `SOT?23*` to match `SOT-23-5`.
 . By default, the footprint search does _not_ include the name of the footprint library in the. To force the library name to be included, add the `:` (colon) character to the filter. Text appearing before the `:` will match the library name. Text appearing after the `:` will match the footprint name.
 * `Conn*:*Pitch?1.25mm*` will match any footprint with '1.25mm' pitch, only in libraries that begin with the text 'Conn'
 
