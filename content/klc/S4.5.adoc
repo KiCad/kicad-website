@@ -6,6 +6,6 @@ Often a component has pins that are not physically connected, and in such cases,
 
 . Pins may only be ommitted if they are never to be connected _under any circumstances_
 . If pins are designated `NC` but the datasheet specifies that these must be pulled to ground or otherwise connected to a specific net, then these **must** be shown on the schematic symbol
-. If the pin-count in the schematic does not match the pad-count on the footprint, the footprint filter must include the pad-count of the footprint
+. If the pin-count in the schematic does not match the pad-count on the footprint, the footprint filter must include the pad-count of the footprint (see also link:/klc/S5.2[requirements for footprint filters])
 * `SOT?23?5`
 * `SOIC?8`
