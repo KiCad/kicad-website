@@ -6,6 +6,9 @@ url = "/libraries/klc/history/"
 
 ---
 
+== 3.0.7 - 2017-12-29
+* Clarification/Correction of NC-pin rules
+
 == 3.0.6 - 2017-12-05
 * Clarification of courtyard clearance.
 
