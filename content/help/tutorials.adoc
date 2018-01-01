@@ -19,7 +19,7 @@ Several text-based tutorials as well as video tutorials have been put together b
 - link:/help/documentation/#_getting_started[KiCad Getting Started Tutorial]
 - http://www.wayneandlayne.com/blog/category/kicad-tutorials/[Wayne and Layne's Tutorials]
 - http://store.curiousinventor.com/guides/kicad[Curious Inventor's Tutorials]
-- http://teholabs.com/knowledge/kicad.html[Teho Labs' Tutorial]
+- http://babryce.com/kicad/tutorial.html[B. A. Bryce's Tutorial]
 - http://happyrobotlabs.com/posts/tutorials/tutorial-3d-kicad-parts-using-openscad-and-wings3d/[Happy Robot Labs: 3D KiCad Parts Using OpenSCAD and Wings3D]
 - http://stffrdhrn.github.io/electronics/2015/04/28/simulating_kicad_schematics_in_spice.html[Simulating KiCad Schematics in Spice]
 - https://www.mikrocontroller.net/wikifiles/a/ab/HierarchicalSchematicsAsBuildingblocksAtKiCad_RevC-EN_06May2015.pdf[Hierarchical schematics as schematic buildingblocks] by Bernd Wiebus. (https://www.mikrocontroller.net/wikifiles/7/79/HierarchischeSchaltplaeneAlsBausteineInKicad_RevC_23Dec2013.pdf[Original in german])
