@@ -14,4 +14,4 @@ Examples of virtual components include:
 
 Virtual components must be indicated by setting the the *Placement type* to `Virtual` in the *Footprint Properties* dialog.
 
-{{< klcimg src="F3.7a" title="Set Placement type to 'Virtual' for footprints without physical components" >}}
+{{< klcimg src="F8.1a" title="Set Placement type to 'Virtual' for footprints without physical components" >}}

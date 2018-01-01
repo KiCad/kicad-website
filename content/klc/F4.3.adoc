@@ -8,4 +8,4 @@ Footprints that contain multiple pads or conductive elements that are *physicall
 . Thermal vias (if present) must share the same number as the thermal pad to which they are connected
 
 
-{{< klcimg src="F3.3a" title="Connected copper areas must have same pad number" >}}
+{{< klcimg src="F4.3a" title="Connected copper areas must have same pad number" >}}

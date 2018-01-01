@@ -30,7 +30,7 @@ Courtyard clearance should adhere to the following requirements:
 . Crystals should have a clearance of `0.5mm`
 . BGA devices should have a clearance of `1.0mm`
 
-{{< klcimg src="F4.3a" title="Courtyard layer" >}}
+{{< klcimg src="F5.3a" title="Courtyard layer" >}}
 
 Example for courtyard clearance when applied to the contoured courtyard outline of a QFP-64 package.
 (Shown are courtyard, fab-outline and copper pads.)

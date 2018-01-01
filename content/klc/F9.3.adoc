@@ -16,4 +16,4 @@ brief = "Footprint 3D model requirements"
 . Filetype must be `.wrl`
 . If the 3D model is _missing_ (does not yet exist), the 3D model reference should still be added. This means that the footprint does not have to be edited again once the 3D model is added.
 
-{{< klcimg src="F8.3a" title="3D Settings" >}}
+{{< klcimg src="F9.3a" title="3D Settings" >}}

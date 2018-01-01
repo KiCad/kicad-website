@@ -6,8 +6,8 @@ The footprint *placement type* must be set to `Through Hole` for THT footprints.
 
 This can be selected in the *Footprint Properties* window
 
-{{< klcimg src="F6.1" title="Set placement type to 'Through hole' for THT footprints" >}}
+{{< klcimg src="F7.1" title="Set placement type to 'Through hole' for THT footprints" >}}
 
 In KiCad 4.x, *Placement type* is called *Attributes* and *Through hole* is called *Normal*.
 
-{{< klcimg src="F6.1b" title="Set Attributes to 'Normal'" >}}
+{{< klcimg src="F7.1b" title="Set Attributes to 'Normal'" >}}

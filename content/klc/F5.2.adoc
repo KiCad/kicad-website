@@ -31,4 +31,4 @@ The following elements must be provided on the fabrication layer(s)
 .. Allowable text size = {`0.1mm` to `2.0mm`}
 .. Allowable text thickness = {`0.01mm` to `0.20mm`} (should be approximately `15%` of text size, with allowances for variation for aesthetic reasons)
 
-{{< klcimg src="F4.2a" title="Fabrication layer" >}}
+{{< klcimg src="F5.2a" title="Fabrication layer" >}}

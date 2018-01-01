@@ -20,7 +20,7 @@ Most often, custom stencil openings are required for the exposed pads on large I
 
 The image below shows an example stencil design found in a footprint datasheet. The superimposed blue square represents the shape of the exposed copper pad. The green squares are the required openings in the stencil.
 
-{{< klcimg src="F5.3a" title="Refer to footprint datasheet for precise stencil requirements" >}}
+{{< klcimg src="F6.3a" title="Refer to footprint datasheet for precise stencil requirements" >}}
 
 Custom stencil openings are accommodated as follows:
 
@@ -30,5 +30,5 @@ Custom stencil openings are accommodated as follows:
 
 *Result:* _(note: this footprint does not correspond to the example shown above)_
 
-{{< klcimg src="F5.3b" title="Resulting stencil openings shown in footprint editor" >}}
-{{< klcimg src="F5.3c" title="Result stencil openings shown in 3D viewer">}}
+{{< klcimg src="F6.3b" title="Resulting stencil openings shown in footprint editor" >}}
+{{< klcimg src="F6.3c" title="Result stencil openings shown in 3D viewer">}}

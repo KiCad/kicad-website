@@ -25,5 +25,5 @@ The following elements must be provided on the silkscreen.
 . Pin-1 designator is provided on the `F.SilkS` layer
 . Pin-1 designator must be visible after board assembly
 
-{{< klcimg src="F4.1a" title="Silkscreen layer examples" >}}
-{{< klcimg src="F4.1b" title="More silkscreen layer examples" >}}
+{{< klcimg src="F5.1a" title="Silkscreen layer examples" >}}
+{{< klcimg src="F5.1b" title="More silkscreen layer examples" >}}

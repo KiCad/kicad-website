@@ -17,7 +17,7 @@ _Example: LTC3638_
 
 The LTC3638 comes in an `MSOP-16` package which has four missing pins, for increased voltage isolation.
 
-{{< klcimg src="F2.6a" title="MSOP-16 package with 4 missing pins" >}}
+{{< klcimg src="F2.4a" title="MSOP-16 package with 4 missing pins" >}}
 
 In this case, the numbers for the missing pins are *skipped* and the normal pin numbers are assigned to the remaining pins.
 
@@ -34,4 +34,4 @@ In the LTC3638 example above, this would result in:
 
 The footprint pads should be numbered like so:
 
-{{< klcimg src="F2.6b" title="MSOP-12-16 footprint in KiCad" >}}
+{{< klcimg src="F2.4b" title="MSOP-12-16 footprint in KiCad" >}}

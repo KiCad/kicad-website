@@ -4,6 +4,6 @@ brief = "Minimum hole diameter"
 
 For drilled through-holes, minimum drilled hole diameter is the maximum lead diameter plus `0.2mm` (IPC-2222 class 2)
 
-{{< klcimg src="F6.6a" title="Drill diameter must be at least lead size + 0.2mm" >}}
+{{< klcimg src="F7.6a" title="Drill diameter must be at least lead size + 0.2mm" >}}
 
 Maximum lead diameter is obtained from the device datasheet.

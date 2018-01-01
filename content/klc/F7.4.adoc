@@ -10,4 +10,4 @@ Through hole pads must have soldermask pulled back to allow soldering. However t
 .. `B.Mask` (back mask)
 . Pads must **not** have the silkscreen layers active
 
-{{< klcimg src="F6.4a" title="Pad settings for THT pads" >}}
+{{< klcimg src="F7.4a" title="Pad settings for THT pads" >}}
