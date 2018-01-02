@@ -6,6 +6,9 @@ url = "/libraries/klc/history/"
 
 ---
 
+== 3.0.8 - 2017-01-02
+* extended S5.2 to explain pin-count in FPFilters
+
 == 3.0.7 - 2017-12-29
 * Clarification/Correction of NC-pin rules
 
