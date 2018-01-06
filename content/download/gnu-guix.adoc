@@ -8,7 +8,7 @@ weight = 95
 {{< repology gnuguix >}}
 
 The stable release of KiCad is available as
-link:https://www.gnu.org/software/guix/packages/k.html[package in guix].
+link:https://www.gnu.org/software/guix/packages/[package in guix].
  You can install it with:
 
 ```
