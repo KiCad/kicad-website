@@ -22,6 +22,8 @@ draft = true
 * Improved zoom behavior when using trackpads in MacOS
 * [Kicad-developers] [PATCH] [RFC] Get rid of boost::context
 * [Kicad-developers] [FEATURE] Component table viewer
+* Some improvements with hidpi support
+* Simple math equations in some input fields
 
 === Eeschema
 
