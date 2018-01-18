@@ -6,6 +6,9 @@ url = "/libraries/klc/history/"
 
 ---
 
+== 3.0.9 - 2017-01-19
+* Specify solderpaste coverage for exposed pads
+
 == 3.0.8 - 2017-01-02
 * extended S5.2 to explain pin-count in FPFilters
 
