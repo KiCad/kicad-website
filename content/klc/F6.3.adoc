@@ -27,6 +27,7 @@ Custom stencil openings are accommodated as follows:
 [loweralpha]
 . Construct copper shape with pad(s) with only copper layers (`F.Cu` and/or `B.Cu`) as appropriate. These copper pads should not have the `F.Paste` or `B.Paste` layers checked.
 . Add stencil opening(s) with pad(s) which only use solderpaste layers (`F.Paste` and/or `B.Paste`) as required. These pads _do not have a pad number_.
+. The solderpaste should cover between 50% and 80% of the soldermask free pad area.
 
 *Result:* _(note: this footprint does not correspond to the example shown above)_
 
