@@ -8,7 +8,14 @@ title = "Download Libraries"
     weight = 10
 +++
 
-== Library Downloads
+== Library Downloads for KiCad Version 4
+Snapshots of the libraries aligned with the minor KiCad 4 releases link:http://downloads.kicad-pcb.org/libraries/[can be found here].
+
+
+KiCad 4.0.x releases come with local symbol and 3d model libraries included. The footprint libraries are special cases in most installation. They are setup to use on demand download from github (via the github plugin). This might not be right for every user. For these users it is advisable to download a library snapshot and add these libs to kicad via the footprint library manager found in the preferences menu of pcb_new and the footprint editor. For the best results it is recommended to ensure KiCad does use all types of libraries from the same snapshot.
+
+
+== Library Downloads for the Future KiCad Version 5
 
 The official KiCad libraries are available for download at link:https://kicad.github.io[https://kicad.github.io]. Library data are provided as compressed archives of the individual libraries within the following categories:
 
@@ -24,7 +31,7 @@ At the moment, libraries are included along with KiCad installation. You will on
 
 KiCad libraries are community contributed and hosted on GitHub at link:https://github.com/kicad[github.com/kicad]. If you wish to contribute to the libraries, refer to the link:/libraries/contribute/[contribution guide].
 
-=== Library Repositories
+=== Library Repositories for KiCad Version 4
 
 The set of libraries corresponding to `v4.xx` of KiCad software are organised on GitHub as follows:
 
@@ -32,9 +39,9 @@ The set of libraries corresponding to `v4.xx` of KiCad software are organised on
 
 **Footprint** libraries are stored as link:https://github.com/kicad?&q=.pretty[individual repositories] with the `.pretty` extension.
 
-=== Future of the Libraries
+=== Library Repositories for the Future KiCad Version 5
 
-In conjunction with the KiCad v5 software release, the libraries will be reorganised into four separate repositories (on GitHub). These repositories are currently a work in progress.
+In conjunction with the KiCad v5 software release, the libraries will be reorganised into four separate repositories (on GitHub). **These repositories are currently a work in progress.**
 
 * `link:https://github.com/KiCad/kicad-symbols[kicad-symbols]` - Schematic symbol libraries
 * `link:https://github.com/KiCad/kicad-footprints[kicad-footprints]` - PCB footprint libraries
