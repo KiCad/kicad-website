@@ -6,16 +6,16 @@ url = "/libraries/klc/history/"
 
 ---
 
-== 3.0.11 - 2017-01-25
+== 3.0.11 - 2018-01-25
 * Remove mentions of ThermalPad(s) suffix from all rules. (The only thermals related suffix is ThermalVias)
 
-== 3.0.10 - 2017-01-24
+== 3.0.10 - 2018-01-24
 * Clarification of fontsize requirements for symbol fields (S3.2)
 
-== 3.0.9 - 2017-01-19
+== 3.0.9 - 2018-01-19
 * Specify solderpaste coverage for exposed pads
 
-== 3.0.8 - 2017-01-02
+== 3.0.8 - 2018-01-02
 * extended S5.2 to explain pin-count in FPFilters
 
 == 3.0.7 - 2017-12-29
