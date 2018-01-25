@@ -6,6 +6,9 @@ url = "/libraries/klc/history/"
 
 ---
 
+== 3.0.11 - 2017-01-25
+* Remove mentions of ThermalPad(s) suffix from all rules. (The only thermals related suffix is ThermalVias)
+
 == 3.0.10 - 2017-01-24
 * Clarification of fontsize requirements for symbol fields (S3.2)
 

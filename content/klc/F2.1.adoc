@@ -28,6 +28,6 @@ Each footprint is a `.kicad_mod` file (stored within a `.pretty` directory). The
 . Orientation e.g. `Horizontal`, `Vertical`
 . Any modification to the original footprint, indicated by appending the reason
   * `_HandSoldering`
-  * `_ThermalPad`
+  * `_ThermalVias`
 
 Not all of the fields defined above are strictly required for a particular footprint. Additional fields may also be added as needed.

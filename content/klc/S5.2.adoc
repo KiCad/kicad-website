@@ -2,7 +2,7 @@
 brief = "Footprint filters should match all appropriate footprints"
 +++
 
-Footprint filters are used to help match appropriate footprints to a given symbol. This is important even for _atomic_ symbols (symbols with only one matching footprint), as there still may be multiple compatible footprints with different variants or options (e.g. `_HandSoldering`, `_Heatsink`, `_ThermalPads`).
+Footprint filters are used to help match appropriate footprints to a given symbol. This is important even for _atomic_ symbols (symbols with only one matching footprint), as there still may be multiple compatible footprints with different variants or options (e.g. `_HandSoldering`, `_Heatsink`, `_ThermalVias`).
 
 Footprint filters use wildcard pattern matching, and allow the following wildcards:
 
