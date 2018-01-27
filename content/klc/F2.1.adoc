@@ -22,7 +22,7 @@ Each footprint is a `.kicad_mod` file (stored within a `.pretty` directory). The
 . Pitch is specified with a leading `P`:
   * `P1.27mm` - 1.27mm pitch
   * `P5.0mm` - 5.0mm pitch
-. Modifiers to standard footprint values`
+. Modifiers to standard footprint values
   * `Drill1.25mm`
   * `Pad2.4x5.2mm`
 . Orientation e.g. `Horizontal`, `Vertical`

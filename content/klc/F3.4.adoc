@@ -42,7 +42,7 @@ Examples:
 Notes:
 
 . The lead length is the nominal lead length for which the footprint is designed
-. Optionally the nominal lead with can also be provided
+. Optionally the nominal lead width can also be provided
 
 == Ball Grid Array Packages
 

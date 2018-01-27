@@ -14,7 +14,7 @@ KiCad refers to the courtyard layers as:
 * `F.CrtYd` - Front courtyard layer
 * `B.CrtYd` - Back courtyard layer
 
-A fully enlosed Component courtyard must be drawn on the `F.CrtYd` layer, with the following parameters:
+A fully enclosed Component courtyard must be drawn on the `F.CrtYd` layer, with the following parameters:
 
 . Courtyard uses `0.05mm` line width
 . All courtyard line elements are placed on a `0.01mm` grid

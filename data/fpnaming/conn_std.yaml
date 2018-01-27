@@ -11,7 +11,7 @@ entries:
       title: Series Modifier (see notes below)
       example: HighDensity
     - code: MAN
-      title: Manufactuer name
+      title: Manufacturer name
       optional: 1
     - code: Series
       title: Manufacturer series name

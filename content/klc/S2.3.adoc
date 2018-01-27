@@ -21,7 +21,7 @@ Thus, two symbols must be drawn:
 
 Where possible, the symbols should be drawn such that they can be swapped in the schematic with minimal disruption to wire connections.
 
-As a further example we shall consider the comparator **MCP6566** which is available in three SOT-23-3 versions, _each with a different pinout_.
+As a further example we shall consider the comparator **MCP6566** which is available in three SOT-23-5 versions, _each with a different pinout_.
 
 In this case, a separate symbol must again be drawn for each version, and named according to the convention called out in the datasheet.
 

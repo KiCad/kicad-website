@@ -12,6 +12,6 @@ Where footprints cannot be oriented with pin 1 in the top-left quadrant, pin 1 s
 
 {{< klcimg src="F4.2a" title="Align to top if top-left not possible" >}}
 
-Two terminal footpints should be aligned with pin 1 on the left side
+Two terminal footprints should be aligned with pin 1 on the left side
 
 {{< klcimg src="F4.2b" title="Two terminal footprints align pin 1 on left" >}}

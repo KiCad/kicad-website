@@ -2,7 +2,7 @@
 brief = "Datasheet recommendations take priority"
 +++
 
-Where conflict exists between datasheet recommendations and KLC requirements, then (in the general case) the datasheet shold take priority.
+Where conflict exists between datasheet recommendations and KLC requirements, then (in the general case) the datasheet should take priority.
 
 It is important when designing footprints that they adhere to requirements for soldering and assembly - often these requirements have very small tolerance for variation.
 

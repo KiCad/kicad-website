@@ -4,7 +4,7 @@ brief = "Pin electrical type"
 
 Pin `Electrical type` should be set to match the appropriate pin function
 
-. Power and ground pins should be set to either `Power Input` or `Power Outpu`
+. Power and ground pins should be set to either `Power Input` or `Power Output`
 . Logic pins should be set according to datasheet requirements
 . Pins with programmable functionality (e.g. MCU I/O ports) should be set to `Bidirectional`
 . Pins must not be 'double inverted' by assigning the inverting graphical symbol and also having a bar above the name of the pin

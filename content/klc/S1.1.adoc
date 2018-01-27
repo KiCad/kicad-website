@@ -6,7 +6,7 @@ Symbol libraries are individual `.lib` files, which have a corresponding `.dcm` 
 
 Symbol library names must be defined based on the priority list below, with each element separated by the underscore (`_`) character:
 
-. Function (e.g. `Sensor`, `Amplifier` `MCU`)
+. Function (e.g. `Sensor`, `Amplifier`, `MCU`)
 . Sub-function (e.g. `Temperature`, `CurrentSense`)
 . Tertiary qualifier (e.g. `CMOS`)
 . Manufacturer name (e.g. `Atmel`, `Infineon`)

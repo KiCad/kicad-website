@@ -10,6 +10,6 @@ brief = "Capitalization conventions"
   * `ROHM`
   * `Texas`
   * `NEC`
-. Unless separated by delimters such as `_`, `-`, `.`, words should be separated using __CamelCase__ convention, with the first letter of each word capitalised
+. Unless separated by delimiters such as `_`, `-`, `.`, words should be separated using __CamelCase__ convention, with the first letter of each word capitalised
   * `TestPoint`
   * `BatteryHolder`

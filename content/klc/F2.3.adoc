@@ -9,6 +9,6 @@ If a manufacturer footprint deviates from the "standard" footprints available, t
 * `Texas_S-PVQFN-N48_`
 
 [start=2]
-. Sometimes the component datasheet will have specific requirements which do not comform to KLC requirements. A common example is specific requirements for the shape of stencil (solder paste layer).
+. Sometimes the component datasheet will have specific requirements which do not conform to KLC requirements. A common example is specific requirements for the shape of stencil (solder paste layer).
 
-In such cases, the KLC requirements can be superceded by the datasheet requirements, at the discretion of the KiCad library team.
+In such cases, the KLC requirements can be superseded by the datasheet requirements, at the discretion of the KiCad library team.

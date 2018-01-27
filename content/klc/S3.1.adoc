@@ -6,6 +6,6 @@ For symmetrical symbols, the symbol must be centered around the origin (`0`, `0`
 
 *Exception:*
 
-For non-symmetrical symbols, or symbols where this requirement would move pins off the `100mil` grid, then the symbol shold be placed _as close to the origin as possible_ while observing the pin grid alignment requirements.
+For non-symmetrical symbols, or symbols where this requirement would move pins off the `100mil` grid, then the symbol should be placed _as close to the origin as possible_ while observing the pin grid alignment requirements.
 
 {{< klcimg src="S3.1a" title="Center symbols around the origin" >}}
