@@ -62,7 +62,7 @@ Notes:
 * Disc: Disc shaped body (sometimes enclosed), leads enter tangent to the inner disc
 * Rect: Box shaped body (Bottom face in contact with the board)
 . Body size:
-* For Axial body styles: L[lenght]_D[diameter]
+* For Axial body styles: L[length]_D[diameter]
 * For Radial body style: D[diameter]{_H[height]}
 * For Disc body style: D[diameter]_W[width]{_H[overall height]}
 * For box shaped body styles: [X]x[Y]{x[Z]}

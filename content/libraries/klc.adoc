@@ -95,7 +95,7 @@ The following guidelines apply to contribution of 3D model data.
 
 The KiCad library team have developed a set of link:https://github.com/kicad/kicad-library-utils[Python scripts] which can be used to help test if library components conform to the KLC requirements.
 
-When a pull request is made to the libraries, the contributed files are automatically checked using these scripts. It can be helpful to run these scripts on you local machine before submitting a PR, as it will help speed up the process of merging your contribution(s) into the library.
+When a pull request is made to the libraries, the contributed files are automatically checked using these scripts. It can be helpful to run these scripts on your local machine before submitting a PR, as it will help speed up the process of merging your contribution(s) into the library.
 
 __Note: While many of the KLC guidelines are checked by these scripts, there are some which are not covered. Additionally, any PR requires manual checking by a member of the library team.__
 

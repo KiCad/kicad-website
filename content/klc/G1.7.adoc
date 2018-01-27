@@ -8,7 +8,7 @@ KiCad library files must be compatible across multiple operating systems, and us
 
 When using the KiCad libraries on a Windows PC, the line endings in the library files may be automatically converted to **CR+LF**. This is fine, as long as any contributions made to the libraries observe the **LF** line ending requirements.
 
-This issue is address by insisting that all KiCad libraries include a link:https://git-scm.com/docs/gitattributes[.gitattributes] file. This file ensures that the line endings are automatically converted by Git.
+This issue is addressed by insisting that all KiCad libraries include a link:https://git-scm.com/docs/gitattributes[.gitattributes] file. This file ensures that the line endings are automatically converted by Git.
 
 An example of a simple .gitattributes file which ensures footprint files have correct line endings is as follows:
 
@@ -16,4 +16,4 @@ An example of a simple .gitattributes file which ensures footprint files have co
 *.kicad_mod text=auto
 ```
 
-_Note: The KiCad library repositories should already have the correct .gitattributes file in place to achive this_
+_Note: The KiCad library repositories should already have the correct .gitattributes file in place to achieve this_

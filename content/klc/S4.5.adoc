@@ -4,7 +4,7 @@ brief = "Pins not connected on the footprint may be omitted from the symbol"
 
 Often a component has pins that are not physically connected, and in such cases, unconnected pins may be omitted from the schematic symbol.
 
-. Pins may only be ommitted if they are never to be connected _under any circumstances_
+. Pins may only be omitted if they are never to be connected _under any circumstances_
 . If pins are designated `NC` but the datasheet specifies that these must be pulled to ground or otherwise connected to a specific net, then these **must** be shown on the schematic symbol
 . If the pin-count in the schematic does not match the pad-count on the footprint, the footprint filter must include the pad-count of the footprint (see also link:/libraries/klc/S5.2[requirements for footprint filters])
 * `SOT?23?5`

@@ -10,4 +10,4 @@ brief = "Dimensional units"
 . Metric units are preferred, where appropriate
 . Linear dimensions should be specified in millimeters
 . Angular dimensions should be specified in degrees
-. Temperature should be specified in degrees Celcius
+. Temperature should be specified in degrees Celsius

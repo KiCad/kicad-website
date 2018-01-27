@@ -8,11 +8,11 @@ Examples:
 
 * Temperature rating of the component
 * Packaging information (e.g. reel, tray, tape)
-* RoHs / PbFree information
+* RoHS / PbFree information
 
 To capture every possible combination of part variation requires a large number of symbol aliases - this is to be avoided.
 
-Where a MPN has options for such non-functional variations, these portions of the MPN should be replaced with a wildcard character (`x`).
+Where an MPN has options for such non-functional variations, these portions of the MPN should be replaced with a wildcard character (`x`).
 
 **Rule of thumb**
 

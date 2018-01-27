@@ -17,7 +17,7 @@ Notes:
 * Connector type (e.g. `PinHeader` or `TerminalBlock`)
 * Industry standard (e.g. `DSUB-15`)
 * Manufacturer specific series (e.g. `Hirose_DF13`)
-. [`MPN`] (manufacturer part number) - uniquely identifiers a connector according to that manufacturer's internal naming conventions
+. [`MPN`] (manufacturer part number) - uniquely identifies a connector according to that manufacturer's internal naming conventions
 . [`Pin layout`] - dependent on the connector type
 * Single row connectors: 1x[`number of pins`]
 * Multi row connectors with equal number of pins in each row: [`number of rows`]x[`number of pins per row]`
