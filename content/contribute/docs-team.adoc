@@ -7,12 +7,17 @@ categories = [ "Contribute" ]
 weight = 10
 +++
 
-The Docs Team works on writing and maintaining documentation. Documentation includes both the KiCad application and the website.
+The Docs Team works on writing and maintaining documentation.
+Documentation includes both the KiCad application and the website.
 
-We are always looking for volunteers who are interested in contributing to the KiCad documentation project.
+We are always looking for volunteers who are interested in
+contributing to the KiCad documentation project.
 
-The first thing to do before anything is to join the link:https://launchpad.net/~kicad-doc-devs[KiCad Documentation Mailing List].
-You can also join the link:/community/irc[IRC channel] if you have questions. Usually, there are multiple KiCad developers/documenters in the channel.
+The first thing to do before anything is to join the
+link:https://launchpad.net/~kicad-doc-devs[KiCad Documentation Mailing
+List].  You can also join the link:/community/irc[IRC channel] if you
+have questions. Usually, there are multiple KiCad developers,
+documenters and users in the channel.
 
 Most of the action takes place on two repositories on GitHub.
 
@@ -27,6 +32,9 @@ What are the tasks we are working on?
  - Translating
  - Documenting new features
 
-We welcome everyone who can contribute in a positive way to the official documentation. This could be any of the above mentioned points.
+We welcome everyone who can contribute in a positive way to the
+official documentation. This could be any of the above mentioned
+points.
 
-Simply fork the repositories linked above on GitHub and submit a pull request with changes for review.
+Simply fork the repositories linked above on GitHub and submit a pull
+request with changes for review.
