@@ -11,6 +11,9 @@ The Docs Team works on writing and maintaining documentation. Documentation incl
 
 We are always looking for volunteers who are interested in contributing to the KiCad documentation project.
 
+The first thing to do before anything is to join the link:https://launchpad.net/~kicad-doc-devs[KiCad Documentation Mailing List].
+You can also join the link:/community/irc[IRC channel] if you have questions. Usually, there are multiple KiCad developers/documenters in the channel.
+
 Most of the action takes place on two repositories on GitHub.
 
  - link:https://github.com/KiCad/kicad-doc[Official Documentation]
