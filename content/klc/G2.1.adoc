@@ -1,21 +1,47 @@
 +++
-brief = "Defining generic and atomic parts"
+brief = "Generic, fully specified and atomic parts."
 +++
 
-In general terms, the _symbols_ in the KiCad library can be categorized into two groups:
+KiCad is flexible with how symbols and footprints can be connected. In general there are at least two workflows:
+. Generic symbol: Assign the footprint after (or during) symbol placement in eeschema.
+.. Footprint filters may be used to reduce the set of possible footprints.
+. Fully specified symbol: Assign a default footprint in the symbol.
+.. Footprint field is set for one footprint
+.. Footprint filters allow selection of slight variations of this footprint
+
+The later workflow can be split up further
+. Symbol represents a family of parts produced by many manufacturers
+.. Symbol name is the base part number plus a suffix for communicating the connected footprint
+. Symbol represents one part but does use a generic footprint
+.. Symbol name is the full manufacturer part number
+. Both symbol and footprint are specific to one part (= atomic part)
+.. Both symbol and footprint name contain the manufacturer part number
+
+Details about symbol naming can be found in link:/libraries/klc/#s2/[KLC 2.x]
 
 **Generic symbols**
 
 Generic symbols can be used with multiple footprints, and _do not_ have a default footprint assigned. Generic symbols allow flexibility in the design workflow. Symbols are first added to the schematic, and the footprint is selected before PCB layout. Using generic symbols allows a small number of library symbol elements to represent a _very large number_ of possible component combinations.
 
-An example of the use of generic symbols is the **Resistor** and **Capacitor** symbols available in the KiCad library. These symbols do not have an assigned default footprint, as there are _many_ possible compatible footprints.
+Generic symbols are limited to the following libraries:
+. Device
+. Connector and all Connector_Generic derivatives
+. Switch
+. And to some extend the Logic libs.
+
+An example of the use of generic symbols are the **Resistor** and **Capacitor** symbols available in the KiCad library. These symbols do not have an assigned default footprint, as there are _many_ possible compatible footprints.
 
 {{< klcimg src="G2.1a" title="Single schematic symbol" >}} {{< klcimg src="G2.1b" title="Associated with multiple footprints" >}}
 
-**Atomic Parts**
+**Fully specified symbols or atomic parts**
 
-Atomic parts fully define a component, specifying a matching footprint, and are named based on the `MPN` (manufacturer part number). Atomic parts are ready to be placed onto the PCB as they are already associated with a footprint.
+These fully define a component, specifying a matching footprint, and are named based on the `MPN` (manufacturer part number). They are ready to be placed onto the PCB as they are already associated with a footprint.
 
 {{< klcimg src="G2.1c" title="Atomic symbol" >}}
 
+**Preference in the library**
 
+The preferred option are fully specified symbols with symbol name equal to the manufacturer part number and a generic footprint assigned to it.
+Where a part is produced in a compatible form by many manufactuers it is allowed to create a more generic variation with the footprint indicated via a suffix.
+Atomic parts rarely make sense for the official library. It is allowed to be used where a component has a footprint that is highly specialized to this component. (Example are some relays)
+Generic symbols should only be used where it does not make sense to have a specialized symbol for every possible variation.

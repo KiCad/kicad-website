@@ -34,7 +34,7 @@ The general library guidelines apply to all library elements (symbols / footprin
 
 {{< klc_list title="General Guidelines" filter="G1.">}}
 
-{{< klc_list title="Atomic and Generic Parts" filter="G2." >}}
+{{< klc_list title="Symbol - Footprint Connection Styles" filter="G2." >}}
 
 ---
 == Symbol Guidelines
