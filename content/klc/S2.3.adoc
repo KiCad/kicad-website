@@ -1,5 +1,5 @@
 +++
-brief = "Where atomic parts are available in multiple footprint options, a separate symbol must be drawn for each footprint"
+brief = "Where fully specified parts are available in multiple footprint options, a separate symbol must be drawn for each footprint"
 +++
 
 Many electronic components are provided in multiple footprint (package) options. These _may or may not_ be pin compatible.
@@ -14,6 +14,8 @@ The naming of the symbols must match the manufacturer naming convention for the 
 
 * `DCB` - 6-lead DFN
 * `MS8` - 8-lead MSOP
+
+Exception: Symbols representing a part produced by many manufacturers. (A suffix is used to communicate the connected footprint.)
 
 Thus, two symbols must be drawn:
 
