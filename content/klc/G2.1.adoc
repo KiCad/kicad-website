@@ -13,7 +13,7 @@ The later workflow can be split up further
 . Symbol represents a family of parts produced by many manufacturers
 .. Symbol name is the base part number plus a suffix for communicating the connected footprint
 . Symbol represents one part but does use a generic footprint
-.. Symbol name is the full manufacturer part number
+.. Symbol name is the manufacturer part number
 . Both symbol and footprint are specific to one part (= atomic part)
 .. Both symbol and footprint name contain the manufacturer part number
 
@@ -41,7 +41,7 @@ These fully define a component, specifying a matching footprint, and are named b
 
 **Preference in the library**
 
-The preferred option are fully specified symbols with symbol name equal to the manufacturer part number and a generic footprint assigned to it.
-Where a part is produced in a compatible form by many manufactuers it is allowed to create a more generic variation with the footprint indicated via a suffix.
-Atomic parts rarely make sense for the official library. It is allowed to be used where a component has a footprint that is highly specialized to this component. (Example are some relays)
+Fully specified symbols representing one part are the preferred method.
+Where a part is produced in a compatible form by many manufactures, it is allowed to create a more generic variation with the footprint indicated via a suffix.
+Atomic parts rarely make sense for the official library. It is allowed to be used where a component has a footprint that is highly specialized to this component. (Example are some relays and RF_Modules)
 Generic symbols should only be used where it does not make sense to have a specialized symbol for every possible variation.
