@@ -16,4 +16,4 @@ Where a MPN has options for such non-functional variations, these portions of th
 
 **Rule of thumb**
 
-A single symbol should be drawn for each footprint variation of a fully specified symbol (or atomic part). Other variations (as listed above) do not require their own symbol but should be added as an alias.
+A single symbol should be drawn for each footprint variations of a fully specified symbol (or atomic part). Other variations (as listed above) do not require their own symbol but should be added as an alias.
