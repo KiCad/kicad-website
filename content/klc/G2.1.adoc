@@ -3,21 +3,14 @@ brief = "Generic, fully specified and atomic parts."
 +++
 
 KiCad is flexible with how symbols and footprints can be connected. In general there are at least two workflows:
+
 . Generic symbol: Assign the footprint after (or during) symbol placement in eeschema.
-.. Footprint filters may be used to reduce the set of possible footprints.
-. Fully specified symbol: Assign a default footprint in the symbol.
-.. Footprint field is set for one footprint
-.. Footprint filters allow selection of slight variations of this footprint
+  - Footprint filters may be used to reduce the set of possible footprints.
+. Fully specified symbol: Default footprint setup in library.
+  - Footprint field is set for one footprint.
+  - Footprint filters allow selection of slight variations of this footprint.
 
-The later workflow can be split up further
-. Symbol represents a family of parts produced by many manufacturers
-.. Symbol name is the base part number plus a suffix for communicating the connected footprint
-. Symbol represents one part but does use a generic footprint
-.. Symbol name is the manufacturer part number
-. Both symbol and footprint are specific to one part (= atomic part)
-.. Both symbol and footprint name contain the manufacturer part number
-
-Details about symbol naming can be found in link:/libraries/klc/#s2/[KLC 2.x]
+Details about footprint filters and default footprints can be found in link:/libraries/klc/#anchor-S5.x[KLC S5.x]
 
 **Generic symbols**
 
@@ -29,19 +22,55 @@ Generic symbols are limited to the following libraries:
 . Switch
 . And to some extend the Logic libs.
 
-An example of the use of generic symbols are the **Resistor** and **Capacitor** symbols available in the KiCad library. These symbols do not have an assigned default footprint, as there are _many_ possible compatible footprints.
+---
 
-{{< klcimg src="G2.1a" title="Single schematic symbol" >}} {{< klcimg src="G2.1b" title="Associated with multiple footprints" >}}
+An example of a generic symbol is the capacitor symbol.
+
+* Symbol name is `C`
+* Footprint filter set to `C_*` which does match non polarized capacitor footprints in all libs.
+
+{{< klcimg src="G2.1_example_cap_sch" title="Single schematic symbol" >}} {{< klcimg src="G2.1_example_cap_3d" title="Associated with multiple footprints" >}}
+
+////
+The generic connector symbol is another example.
+
+* Symbol name is `Conn_01x05`
+* Footprint filter set to `Connector*:*_1x??_*` which does match single row footprints (`\*\_1x??_*`) in Connector libs.
+
+{{< klcimg src="G2.1_example_conn_sch" title="Single schematic symbol" >}} {{< klcimg src="G2.1_example_conn_3d" title="Associated with multiple footprints" >}}
+////
 
 **Fully specified symbols or atomic parts**
 
-These fully define a component, specifying a matching footprint, and are named based on the `MPN` (manufacturer part number). They are ready to be placed onto the PCB as they are already associated with a footprint.
+Fully specified symbols are ready to be placed onto the PCB as they are already associated with a footprint.
 
-{{< klcimg src="G2.1c" title="Atomic symbol" >}}
+This workflow can be further split up into:
 
-**Preference in the library**
+. Symbol represents a family of parts produced by many manufacturers
+  - Symbol name is the base part number plus a suffix for communicating the connected footprint
+. Symbol represents one part but does use a generic footprint
+  - Symbol name is the manufacturer part number
+. Both symbol and footprint are specific to one part (= atomic part)
+  - Both symbol and footprint name contain the manufacturer part number
 
-Fully specified symbols representing one part are the preferred method.
-Where a part is produced in a compatible form by many manufactures, it is allowed to create a more generic variation with the footprint indicated via a suffix.
-Atomic parts rarely make sense for the official library. It is allowed to be used where a component has a footprint that is highly specialized to this component. (Example are some relays and RF_Modules)
-Generic symbols should only be used where it does not make sense to have a specialized symbol for every possible variation.
+Details about symbol naming can be found in link:/libraries/klc/#anchor-S2.x[KLC S2.x]
+
+---
+An example of a fully specified symbol.
+
+{{< klcimg src="G2.1_example_fully_specified" title="Fully specified" >}}
+
+An example of a fully specified symbol compatible with parts produced by many manufacturers.
+
+{{< klcimg src="G2.1_example_fully_specified_series" title="Fully specified multiple manufacturers" >}}
+
+An example of an atomic part.
+
+{{< klcimg src="G2.1_example_atomic" title="Atomic Part" >}}
+
+**Preference in the official library**
+
+* Fully specified symbols representing one part are the preferred method.
+* Where a part is produced in a compatible form by many manufactures, it is allowed to create a more generic variation with the footprint indicated via a suffix.
+* Atomic parts rarely make sense for the official library. It is allowed to be used where a component has a footprint that is highly specialized to this component. (Example are some relays and RF_Modules)
+* Generic symbols should only be used where it does not make sense to have a specialized symbol for every possible variation.

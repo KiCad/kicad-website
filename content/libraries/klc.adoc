@@ -32,8 +32,10 @@ Refer to the link:/libraries/contribute/[contribution guidelines] for introducto
 
 The general library guidelines apply to all library elements (symbols / footprints / models). However, these guidelines may be overridden in some cases by specific exceptions described in further sections.
 
+[[anchor-G1.x]]
 {{< klc_list title="General Guidelines" filter="G1.">}}
 
+[[anchor-G2.x]]
 {{< klc_list title="Symbol - Footprint Connection Styles" filter="G2." >}}
 
 ---
@@ -41,18 +43,25 @@ The general library guidelines apply to all library elements (symbols / footprin
 
 The following guidelines apply to schematic symbols and symbol library files.
 
+[[anchor-S1.x]]
 {{< klc_list title="Symbol Libraries" filter="S1.">}}
 
+[[anchor-S2.x]]
 {{< klc_list title="Symbol Naming" filter="S2.">}}
 
+[[anchor-S3.x]]
 {{< klc_list title="General Symbol Requirements" filter="S3.">}}
 
+[[anchor-S4.x]]
 {{< klc_list title="Pin Requirements" filter="S4.">}}
 
+[[anchor-S5.x]]
 {{< klc_list title="Footprint Association" filter="S5.">}}
 
+[[anchor-S6.x]]
 {{< klc_list title="Symbol Metadata" filter="S6.">}}
 
+[[anchor-S7.x]]
 {{< klc_list title="Special Symbols" filter="S7.">}}
 
 ---
@@ -61,22 +70,31 @@ The following guidelines apply to schematic symbols and symbol library files.
 
 The following guidelines apply to PCB footprints and footprint libraries.
 
+[[anchor-F1.x]]
 {{< klc_list title="Footprint Libraries" filter="F1.">}}
 
+[[anchor-F2.x]]
 {{< klc_list title="General Footprint Naming Guidelines" filter="F2.">}}
 
+[[anchor-F3.x]]
 {{< klc_list title="Specific Footprint Naming Guidelines" filter="F3.">}}
 
+[[anchor-F4.x]]
 {{< klc_list title="General Footprint Requirements" filter="F4.">}}
 
+[[anchor-F5.x]]
 {{< klc_list title="Layer Requirements" filter="F5.">}}
 
+[[anchor-F6.x]]
 {{< klc_list title="Surface Mount Components" filter="F6.">}}
 
+[[anchor-F7.x]]
 {{< klc_list title="Through Hole Components" filter="F7.">}}
 
+[[anchor-F8.x]]
 {{< klc_list title="Virtual Components" filter="F8.">}}
 
+[[anchor-F9.x]]
 {{< klc_list title="Footprint Properties" filter="F9.">}}
 
 ---
@@ -85,8 +103,10 @@ The following guidelines apply to PCB footprints and footprint libraries.
 
 The following guidelines apply to contribution of 3D model data.
 
+[[anchor-M1.x]]
 {{< klc_list title="Contributing Models" filter="M1.">}}
 
+[[anchor-M3.x]]
 {{< klc_list title="3D File Requirements " filter="M2.">}}
 
 ---
