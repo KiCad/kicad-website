@@ -6,23 +6,28 @@ KiCad is flexible with how symbols and footprints can be connected. In general t
 
 . Generic symbol: Assign the footprint after (or during) symbol placement in eeschema.
   - Footprint filters may be used to reduce the set of possible footprints.
-. Fully specified symbol: Default footprint setup in library.
-  - Footprint field is set for one footprint.
+  - Generic descriptive symbol name
+. Fully specified symbol: Default footprint set in library.
+  - Footprint field is set for the footprint fitting the component.
   - Footprint filters allow selection of slight variations of this footprint.
+  - Named via the manufacturer part number
 
-Details about footprint filters and default footprints can be found in link:/libraries/klc/#anchor-S5.x[KLC S5.x]
+Details about footprint filters and default footprints can be found in link:/libraries/klc/#anchor-S5.x[KLC S5.x].
+Symbol naming guidelines are detailed in link:/libraries/klc/#anchor-S2.x[KLC S2.x].
+
+---
 
 **Generic symbols**
 
 Generic symbols can be used with multiple footprints, and _do not_ have a default footprint assigned. Generic symbols allow flexibility in the design workflow. Symbols are first added to the schematic, and the footprint is selected before PCB layout. Using generic symbols allows a small number of library symbol elements to represent a _very large number_ of possible component combinations.
 
 Generic symbols are limited to the following libraries:
-. Device
-. Connector and all Connector_Generic derivatives
-. Switch
-. And to some extend the Logic libs.
 
----
+* Device
+* Connector and all Connector_Generic derivatives
+* Switch
+* And to some extend the libs holding the generic IC families (74xx and 40xx).
+
 
 An example of a generic symbol is the capacitor symbol.
 
@@ -31,40 +36,30 @@ An example of a generic symbol is the capacitor symbol.
 
 {{< klcimg src="G2.1_example_cap_sch" title="Single schematic symbol" >}} {{< klcimg src="G2.1_example_cap_3d" title="Associated with multiple footprints" >}}
 
-////
-The generic connector symbol is another example.
-
-* Symbol name is `Conn_01x05`
-* Footprint filter set to `Connector*:*_1x??_*` which does match single row footprints (`\*\_1x??_*`) in Connector libs.
-
-{{< klcimg src="G2.1_example_conn_sch" title="Single schematic symbol" >}} {{< klcimg src="G2.1_example_conn_3d" title="Associated with multiple footprints" >}}
-////
-
 **Fully specified symbols or atomic parts**
 
 Fully specified symbols are ready to be placed onto the PCB as they are already associated with a footprint.
-
-This workflow can be further split up into:
-
-. Symbol represents a family of parts produced by many manufacturers
-  - Symbol name is the base part number plus a suffix for communicating the connected footprint
-. Symbol represents one part but does use a generic footprint
-  - Symbol name is the manufacturer part number
-. Both symbol and footprint are specific to one part (= atomic part)
-  - Both symbol and footprint name contain the manufacturer part number
-
-Details about symbol naming can be found in link:/libraries/klc/#anchor-S2.x[KLC S2.x]
+This does remove one point where errors could be introduced. BOM creation is also made easier as such symbols typically represent one part.
 
 ---
-An example of a fully specified symbol.
+
+A fully specified symbol typically represents a single component produced by one manufacturer. The manufacturer part number is used for the symbol name. A generic footprint is used as the default footprint.
 
 {{< klcimg src="G2.1_example_fully_specified" title="Fully specified" >}}
 
-An example of a fully specified symbol compatible with parts produced by many manufacturers.
+---
+
+Only one symbol is needed to represent compatible parts produced by many manufacturers.
+In such cases the base part number is used to identify the symbol.
+A suffix is added to communicate the footprint.
 
 {{< klcimg src="G2.1_example_fully_specified_series" title="Fully specified multiple manufacturers" >}}
 
-An example of an atomic part.
+
+---
+
+If both the symbol and footprint are unique to one component then this pair is called `atomic part`.
+In this case both the symbol and footprint contain the manufacturer part number.
 
 {{< klcimg src="G2.1_example_atomic" title="Atomic Part" >}}
 
