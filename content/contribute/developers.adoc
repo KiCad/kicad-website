@@ -161,7 +161,7 @@ old commit with the fixed one.
 === Commit message format ===
 
 There are a few basic rules regarding the
-link:http://ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/commit_messages.html[commit messages format].
+link:http://docs.kicad-pcb.org/doxygen/commit_messages.html[commit messages format].
 Following them helps the developers understand the intention of your patch and
 get the changes reviewed sooner.
 
