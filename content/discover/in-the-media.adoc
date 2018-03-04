@@ -15,6 +15,8 @@ https://www.sfcircuits.com/pcb-school/pcb-design-software-comparison-guide[The U
 
 https://giving.web.cern.ch/content/kicad-development-1[KiCad: A commitment to freedom] (12-OCT-2017)
 
+https://home.cern/cern-people/updates/2017/07/kicad-reaches-new-heights[KiCad reaches new heights ] (3-JUL-2017)
+
 https://hackaday.com/2016/11/17/creating-a-pcb-in-everything-kicad-part-1/[Creating A PCB In Everything: KiCad, Part 1] (17-NOV-2016), http://hackaday.com/2016/12/09/creating-a-pcb-in-everything-kicad-part-2/[Part 2] (09-DEC-2016), http://hackaday.com/2016/12/23/creating-a-pcb-in-everything-kicad-part-3/[Part 3] (23-DEC-2016)
 
 https://www.sparkfun.com/news/2041[Enginursday: KiCad and Open-Source Design (Sparkfun Blog)] (25-FEB-2016)
