@@ -2,12 +2,12 @@
 brief = "Generic, fully specified and atomic parts."
 +++
 
-KiCad is flexible with how symbols and footprints can be connected. In general there are at least two workflows:
+KiCad is flexible with how a footprint for a symbol can be selected. In general there are at least two workflows:
 
-. Generic symbol: Assign the footprint after (or during) symbol placement in eeschema.
+. Generic symbol: The user assigns the footprint after (or during) symbol placement in Eeschema.
   - Footprint filters may be used to reduce the set of possible footprints.
-  - Generic descriptive symbol name
-. Fully specified symbol: Default footprint set in library.
+  - Generic descriptive name
+. Fully specified symbol: Footprint pre designed as part of the symbol.
   - Footprint field is set for the footprint fitting the component.
   - Footprint filters allow selection of slight variations of this footprint.
   - Named via the manufacturer part number
@@ -26,20 +26,20 @@ Generic symbols are limited to the following libraries:
 * Device
 * Connector and all Connector_Generic derivatives
 * Switch
-* And to some extend the libs holding the generic IC families (74xx and 40xx).
+* And to some extent the libraries holding the generic IC families (74xx and 40xx).
 
 
 An example of a generic symbol is the capacitor symbol.
 
 * Symbol name is `C`
-* Footprint filter set to `C_*` which does match non polarized capacitor footprints in all libs.
+* Footprint filter set to `C_*` which does match non polarized capacitor footprints in all libraries.
 
 {{< klcimg src="G2.1_example_cap_sch" title="Single schematic symbol" >}} {{< klcimg src="G2.1_example_cap_3d" title="Associated with multiple footprints" >}}
 
 **Fully specified symbols or atomic parts**
 
 Fully specified symbols are ready to be placed onto the PCB as they are already associated with a footprint.
-This does remove one point where errors could be introduced. BOM creation is also made easier as such symbols typically represent one part.
+This removes one opportunity for errors. BOM creation is also made easier as such symbols typically represent one part.
 
 ---
 
@@ -50,15 +50,14 @@ A fully specified symbol typically represents a single component produced by one
 ---
 
 Only one symbol is needed to represent compatible parts produced by many manufacturers.
-In such cases the base part number is used to identify the symbol.
-A suffix is added to communicate the footprint.
+In such cases the base part number is used to identify the symbol and the package name is added as a suffix
 
 {{< klcimg src="G2.1_example_fully_specified_series" title="Fully specified multiple manufacturers" >}}
 
 
 ---
 
-If both the symbol and footprint are unique to one component then this pair is called `atomic part`.
+If both the symbol and footprint are unique to one component then this pairing is called an `atomic part`.
 In this case both the symbol and footprint contain the manufacturer part number.
 
 {{< klcimg src="G2.1_example_atomic" title="Atomic Part" >}}
@@ -67,5 +66,5 @@ In this case both the symbol and footprint contain the manufacturer part number.
 
 * Fully specified symbols representing one part are the preferred method.
 * Where a part is produced in a compatible form by many manufactures, it is allowed to create a more generic variation with the footprint indicated via a suffix.
-* Atomic parts rarely make sense for the official library. It is allowed to be used where a component has a footprint that is highly specialized to this component. (Example are some relays and RF_Modules)
+* Atomic parts rarely make sense for the official library. It is allowed to be used where a component has a footprint that is highly specialized to this component. (Examples are some relays and RF_Modules)
 * Generic symbols should only be used where it does not make sense to have a specialized symbol for every possible variation.
