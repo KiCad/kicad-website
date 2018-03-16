@@ -6,7 +6,7 @@ aliases = [ "/post/known-system-related-issues/" ]
     name   = "Known System Related Issues"
 weight = 50
 +++
-:toc: macro 
+:toc: macro
 :toc-title:
 
 toc::[]
@@ -24,7 +24,7 @@ distributions. Don't be confused when you see wxGTK 3.0.0 in your
 package manager, this is usually referring to the wxWidgets version,
 and not whether or not it is built against GTK3.
 
-It has been seen that Fedora 20, 21 and 22, builds against GTK3. 
+It has been seen that Fedora 20, 21 and 22, builds against GTK3.
 The problem manifests in eeschema  with slow zooming, and the graphics
 are not quite exact (try looking at the grid dots). And in pcbnew, the
 canvas does not really draw properly at all.
@@ -38,7 +38,7 @@ can coexist.
 === Bad Graphics Cards
 
 There are a few older cards that seem to not behave properly with the
-OpenGL canvas used in the new GAL canvas. 
+OpenGL canvas used in the new GAL canvas.
 The list below includes the faulty cards identified thus far:
 
 - Intel Graphics Media Accelerator (GMA) 4500M / Windows 7 64bit / crash
@@ -52,7 +52,7 @@ not display line rounded line ends
 
 
 === Boost minimum version
-There have previously been problems with bugs in the boost libraries. 
+There have previously been problems with bugs in the boost libraries.
 A minimum version of boost 1.56 is currently required as it has fixes the majority of
 bugs previously encountered.
 
@@ -94,6 +94,12 @@ link:https://bugs.launchpad.net/kicad/+bug/1725920[Bug# 1725920]. Feel
 free to give useful input to mitigate this issue. It is not yet known
 if it is a bug in KiCad, WxWidgets or Wayland.
 
+The Modern Toolset (Accelerated) mode in PcbNew and GerbView does not
+work in Wayland at the moment, and attempting to enable accelerated
+graphics on a system using Wayland may result in a crash.  Until this
+issue with wxWidgets is resolved, users who use Wayland are advised
+to select Modern Toolset (Fallback) in the preferences menu.
+
 This affects recent desktops that have started to default to Wayland
 as their desktop e.g. Ubuntu 17.10. A workaround is to choose X11 when
 logging in to the desktop.
@@ -101,7 +107,7 @@ logging in to the desktop.
 == Windows
 === wxWidgets 3.0.2
 
-Mirror printing can be broken because of a bug in wxWidgets version 3.0.2, 
+Mirror printing can be broken because of a bug in wxWidgets version 3.0.2,
 see link:https://bugs.launchpad.net/kicad/+bug/1463406[Bug# 1463406].
 
 === Boost 1.59
