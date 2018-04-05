@@ -9,7 +9,7 @@ title = "In the Media"
 
 **KiCad has been featured in the following blog posts, press and media:**
 
-https://www.digikey.com/en/blog/interview-with-wayne-stambaugh-pt1[Interview with Wayne Stambaugh about KiCad, Part 1] (13-MAR-2018) https://www.digikey.com/en/blog/interview-with-wayne-stambaugh-pt2[Part 2] (19-MAR-2018) https://www.digikey.com/en/blog/interview-with-wayne-stambaugh-pt2[Part 3] (26-MAR-2018)
+https://www.digikey.com/en/blog/interview-with-wayne-stambaugh-pt1[Interview with Wayne Stambaugh about KiCad, Part 1] (13-MAR-2018) https://www.digikey.com/en/blog/interview-with-wayne-stambaugh-pt2[Part 2] (19-MAR-2018) https://www.digikey.com/en/blog/interview-with-wayne-stambaugh-pt3[Part 3] (26-MAR-2018)
 
 https://www.electronicsweekly.com/news/kicad-big-news-schematic-capture-says-digi-key-2018-02/[KiCad is big news for schematic capture, says Digi-Key] (20-FEB-2018)
 
