@@ -5,7 +5,11 @@ brief = "General symbol naming guidelines"
 . Library naming should not be duplicated in symbol name
 . Symbol representing one specific component
 .. The manufacturer part number is used as the symbol name (More detail see link:/libraries/klc/S2.2/[KLC 2.2])
-.. If a symbol with the same name exists for multiple manufacturers, the manufacturer name is written first
+.. If a symbol with the same name exists (in the same library) for multiple manufacturers, the manufacturer name is included as a prefix to avoid collisions.
+. Symbol representing a series of parts
+.. The part of the manufacturer part number that identifies the series is used as the symbol name.
+.. Parts of the MPN that are not necessary do identify the series are replaced with a wildcard char ('X'). If the unnecessary chars are on the end of the MPN is it allowed to cut them off instead of replacing them with a wildcard char.
+.. Example: `BLE03XXXXXXX1X`
 . Symbol representing a compatible part produced by multiple manufacturers:
 .. Symbol name is the base part number. (The element of the part number shared by all manufacturers.)
 .. A suffix indicating the connected footprint is added
