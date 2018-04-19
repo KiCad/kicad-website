@@ -26,7 +26,7 @@ Generic symbols are limited to the following libraries:
 * Device
 * Connector and all Connector_Generic derivatives
 * Switch
-* And to some extent the libraries holding the generic IC families (74xx and 40xx).
+* Libraries holding the generic IC families (74xx and 40xx).
 
 
 An example of a generic symbol is the capacitor symbol.
@@ -36,35 +36,55 @@ An example of a generic symbol is the capacitor symbol.
 
 {{< klcimg src="G2.1_example_cap_sch" title="Single schematic symbol" >}} {{< klcimg src="G2.1_example_cap_3d" title="Associated with multiple footprints" >}}
 
-**Fully specified symbols or atomic parts**
+Another example is the symbol for one of the logic chips.
+
+* Base Part Number is used as the symbol name
+* Multiple footprint filters allow one symbol to be used for all possible packaging variants
+
+{{< klcimg src="G2.1_example_ic" title="Example of a generic symbol representing a logic IC" >}}
+
+---
+
+**Fully specified symbols vs. atomic parts**
 
 Fully specified symbols are ready to be placed onto the PCB as they are already associated with a footprint.
 This removes one opportunity for errors. BOM creation is also made easier as such symbols typically represent one part.
 
----
+An atomic part has a footprint specific to this one component (The footprint is meant for only one symbol. There is a 1:1 relation.) Yes this means a symbol for an atomic part is fully specified. (But a fully specified symbol is not necessarily atomic.)
 
-A fully specified symbol typically represents a single component produced by one manufacturer. The manufacturer part number is used for the symbol name. A generic footprint is used as the default footprint.
+The manufacturer part number is used for the symbol name for both of these.
 
 {{< klcimg src="G2.1_example_fully_specified" title="Fully specified" >}}
 
+{{< klcimg src="G2.1_example_atomic" title="Atomic Part" >}}
+
 ---
+
+**Exceptions**
+
+The above categories represent the extreme ends of possible workflows.
+It makes sense to allow for some middle ground.
+
+_Exception for compatible parts produced by multiple manufacturers_
 
 Only one symbol is needed to represent compatible parts produced by many manufacturers.
 In such cases the base part number is used to identify the symbol and the package name is added as a suffix
 
-{{< klcimg src="G2.1_example_fully_specified_series" title="Fully specified multiple manufacturers" >}}
+{{< klcimg src="G2.1_example_exception_man" title="Exception symbol for multiple manufacturers" >}}
 
+
+_Exception for a series of parts_
+
+For parts like inductors or ferrite beads it does not really make sense to have one fully specified symbol for every possible value. Including a symbol with an already assigned footprint representing a series of them is still useful.
+For such a symbol the parts of the MPN that represent the value of it are replaced by a wildcard character ('X').
+
+{{< klcimg src="G2.1_example_exception_series" title="Exception symbol for a series of parts." >}}
 
 ---
-
-If both the symbol and footprint are unique to one component then this pairing is called an `atomic part`.
-In this case both the symbol and footprint contain the manufacturer part number.
-
-{{< klcimg src="G2.1_example_atomic" title="Atomic Part" >}}
 
 **Preference in the official library**
 
 * Fully specified symbols representing one part are the preferred method.
-* Where a part is produced in a compatible form by many manufactures, it is allowed to create a more generic variation with the footprint indicated via a suffix.
+** If the part falls under one of the exceptions listed above, this method should be used instead.
 * Atomic parts rarely make sense for the official library. It is allowed to be used where a component has a footprint that is highly specialized to this component. (Examples are some relays and RF_Modules)
 * Generic symbols should only be used where it does not make sense to have a specialized symbol for every possible variation.
