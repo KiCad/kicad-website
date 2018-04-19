@@ -54,8 +54,10 @@ An atomic part has a footprint specific to this one component (The footprint is 
 
 The manufacturer part number is used for the symbol name for both of these.
 
+An example for a fully specified symbol. Note that it points to a generic TO-252 footprint.
 {{< klcimg src="G2.1_example_fully_specified" title="Fully specified" >}}
 
+An example for an atomic part. Note that both the footprint and symbol include the part number.
 {{< klcimg src="G2.1_example_atomic" title="Atomic Part" >}}
 
 ---
@@ -65,7 +67,7 @@ The manufacturer part number is used for the symbol name for both of these.
 The above categories represent the extreme ends of possible workflows.
 It makes sense to allow for some middle ground.
 
-_Exception for compatible parts produced by multiple manufacturers_
+**_Exception for compatible parts produced by multiple manufacturers_**
 
 Only one symbol is needed to represent compatible parts produced by many manufacturers.
 In such cases the base part number is used to identify the symbol and the package name is added as a suffix
@@ -73,7 +75,7 @@ In such cases the base part number is used to identify the symbol and the packag
 {{< klcimg src="G2.1_example_exception_man" title="Exception symbol for multiple manufacturers" >}}
 
 
-_Exception for a series of parts_
+**_Exception for a series of parts_**
 
 For parts like inductors or ferrite beads it does not really make sense to have one fully specified symbol for every possible value. Including a symbol with an already assigned footprint representing a series of them is still useful.
 For such a symbol the parts of the MPN that represent the value of it are replaced by a wildcard character ('X').
@@ -85,6 +87,6 @@ For such a symbol the parts of the MPN that represent the value of it are replac
 **Preference in the official library**
 
 * Fully specified symbols representing one part are the preferred method.
-** If the part falls under one of the exceptions listed above, this method should be used instead.
-* Atomic parts rarely make sense for the official library. It is allowed to be used where a component has a footprint that is highly specialized to this component. (Examples are some relays and RF_Modules)
+** If the part falls under one of the exceptions listed above, that method should be used instead.
+* Atomic parts rarely make sense for the official library. Using them is allowed for a component that requires a highly specialized footprint. (Examples are some relays and RF_Modules)
 * Generic symbols should only be used where it does not make sense to have a specialized symbol for every possible variation.
