@@ -1,16 +1,24 @@
+sudo: false
 # Install the apt prerequisites
 addons:
   apt:
     packages:
       - ruby
+      - ruby-dev
       - wget
-
+      - libcurl4-openssl-dev # required to avoid SSL errors with htmlproofer
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+  
 # We need asciidoctor and exact hugo version
 before_install:
-  - sudo gem install asciidoctor
-  - wget https://github.com/gohugoio/hugo/releases/download/v0.30/hugo_0.30_Linux-64bit.deb
-  - sudo dpkg -i hugo_0.30_Linux-64bit.deb
+  - gem install asciidoctor
+  - gem install html-proofer
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.30.2/hugo_0.30.2_Linux-64bit.tar.gz
+  - tar -xzvf hugo_0.30.2_Linux-64bit.tar.gz
 
 # Build the website
 script:
-  - hugo
+  - ./hugo
+  - htmlproofer ./public --external_only --only_4xx
