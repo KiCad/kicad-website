@@ -46,6 +46,7 @@ Several text-based tutorials as well as video tutorials have been put together b
 == Tutorials in Greek
 
 - https://github.com/ellak-monades-aristeias/KiCad_EDA_Greece[KiCad 4.0.0 Greek tutorial by Michael Misirlis]
+- http://acomelectronics.com/forum/viewtopic.php?t=8[KiCad tutorial & support page by GeorgeVita]
 
 == Tutorials in Polish
 
