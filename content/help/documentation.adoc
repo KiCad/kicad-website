@@ -159,3 +159,4 @@ Description of the new plugin system currently used to handle 3D models. Not ava
 
 |English | link:http://docs.kicad-pcb.org/master/en/plugins.html[HTML] link:http://docs.kicad-pcb.org/master/en/plugins.pdf[PDF] link:http://docs.kicad-pcb.org/master/en/plugins.epub[ePub]
 |Русский | link:http://docs.kicad-pcb.org/master/ru/plugins.html[HTML] link:http://docs.kicad-pcb.org/master/ru/plugins.pdf[PDF] link:http://docs.kicad-pcb.org/master/ru/plugins.epub[ePub]
+|===
