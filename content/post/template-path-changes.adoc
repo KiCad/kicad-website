@@ -1,0 +1,31 @@
++++
+title = "Template Folder Changes"
+date = "2018-05-19"
+draft = false
++++
+
+As of version 5.0.0-rc2 (commit be0978f3 to be precise), there was a
+change made to the way the template path is determined.  The ambiguous
+environment variable KICAD_PTEMPLATES has been depricated and replaced
+by KICAD_TEMPLATE_DIR which by default should point to the template
+folder installed with KiCad.  This path may not always be correct
+depending upon how KiCad was installed.  At least it can be configured
+by the user if the default path is incorrect.  Prior to this, the system
+install path was a hard coded internal path that was unknown (unless you
+dug through the user's manual).
+
+A new environment variable KICAD_USER_TEMPLATE_DIR was added so users
+can change the location of their personal templates.  This also existed
+as a hard coded value.
+
+These paths will also influence which default project file (kicad.pro)
+is used when creating new projects.  The order of presedence is as
+follows:
+
+* KICAD_USER_TEMPLATE_DIR
+* KICAD_TEMPLATE_DIR
+* The previous search list.
+
+Thank you for your patience during this transition.
+
+**The KiCad Development Team**
