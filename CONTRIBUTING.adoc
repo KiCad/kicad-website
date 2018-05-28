@@ -55,6 +55,10 @@ must meet one of the requirements below:
 *Preferred:* The entire project should be made available for download and
 KiCad should be mentioned on the project website.
 
+*Note*: We strive for diveristy to showcase KiCad and acknowledge your
+project. If you have many similar designs, please only submit the
+design your are proudest of.
+
 ==== Proprietary Projects/Products:
 
 Proprietary projects or products have a choice of one of these criteria:
