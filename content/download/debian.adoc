@@ -16,12 +16,7 @@ For installing please read further.
 
 == Debian Testing (Buster)
 
-{{< repology debian_testing >}}
-
-The current upstream release is available for Debian
-https://packages.debian.org/testing/kicad[testing/buster].
-
-For installing please read further.
+Currently not available until KiCad 5.0 is released upstream.
 
 == Debian Stable (Stretch)
 
