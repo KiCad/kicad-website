@@ -16,7 +16,7 @@ For installing please read further.
 
 == Debian Testing (Buster)
 
-Currently not available until KiCad 5.0 is released upstream.
+Currently not available until KiCad 5.0 is released.
 
 == Debian Stable (Stretch)
 
