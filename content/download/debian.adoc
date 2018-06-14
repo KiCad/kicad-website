@@ -4,20 +4,6 @@ iconhtml = "<div class='fl-debian'></div>"
 weight = 10
 +++
 
-== Debian Unstable (Sid)
-
-{{< repology debian_unstable >}}
-
-
-The current upstream release is available for Debian
-https://packages.debian.org/sid/kicad[unstable/sid].
-
-For installing please read further.
-
-== Debian Testing (Buster)
-
-Currently not available until KiCad 5.0 is released.
-
 == Debian Stable (Stretch)
 
 {{< repology debian_stable_backports >}}
@@ -44,6 +30,7 @@ apt search kicad-doc
 # or alternatively if you are on wheezy
 apt-cache search kicad-doc
 
+
 == Debian Old-Stable (Jessie)
 
 Jessie Backport Version: *4.0.7* (KiCad actual version)
@@ -60,22 +47,20 @@ https://wiki.debian.org/Backports[Debian Wiki] to add the Backport repository
 to your sources and install the KiCad packages from
 https://packages.debian.org/jessie-backports-sloppy/kicad[jessie-backports-sloppy].
 
-== Debian Old-Old-Stable (Wheezy)
+== Debian Unstable (Sid)
 
-Wheezy Backport Version: *bzr4027*
+{{< repology debian_unstable >}}
 
-or
 
-Wheezy Release Version: *bzr3261* (KiCad stable release 2012)
+The current upstream release is available for Debian
+https://packages.debian.org/sid/kicad[unstable/sid].
 
-Unfortunately there is no newer version for the Wheezy release available so you
-need to stay with bzr3261 from 2012 in the old-old-stable repository or version
-bzr4027 from the
-https://packages.debian.org/wheezy-backports/kicad[wheezy-backport] repository
-then. As for Debian old-stable, they are not recommended for new designs. So
-you really better upgrade your Debian installation at least to Debian
-Old-Stable (Jessie) or better to Stable (Stretch) and use the version there
-from backport.
+For installing please read further.
+
+== Debian Testing (Buster)
+
+Currently not available until KiCad 5.0 is released.
+
 
 == Build from Source
 You can find the instructions to build from source
