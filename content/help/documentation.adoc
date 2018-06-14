@@ -24,11 +24,11 @@ Essential and concise guide to mastering KiCad.
 |Deutsch | link:http://docs.kicad-pcb.org/stable/de/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/stable/de/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/stable/de/getting_started_in_kicad.epub[ePub]
 |Español | link:http://docs.kicad-pcb.org/stable/es/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/stable/es/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/stable/es/getting_started_in_kicad.epub[ePub]
 |Français | link:http://docs.kicad-pcb.org/stable/fr/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/stable/fr/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/stable/fr/getting_started_in_kicad.epub[ePub]
+|Indonesian | link:http://docs.kicad-pcb.org/stable/id/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/stable/id/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/stable/id/getting_started_in_kicad.epub[ePub]
 |Italiano | link:http://docs.kicad-pcb.org/stable/it/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/stable/it/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/stable/it/getting_started_in_kicad.epub[ePub]
 |日本語 | link:http://docs.kicad-pcb.org/stable/ja/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/stable/ja/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/stable/ja/getting_started_in_kicad.epub[ePub]
 |Polski | link:http://docs.kicad-pcb.org/stable/pl/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/stable/pl/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/stable/pl/getting_started_in_kicad.epub[ePub]
 |Русский | link:http://docs.kicad-pcb.org/stable/ru/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/stable/ru/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/stable/ru/getting_started_in_kicad.epub[ePub]
-|Bahasa Indonesia | link:http://docs.kicad-pcb.org/stable/id/getting_started_in_kicad.html[HTML] link:http://docs.kicad-pcb.org/stable/id/getting_started_in_kicad.pdf[PDF] link:http://docs.kicad-pcb.org/stable/id/getting_started_in_kicad.epub[ePub]
 |===
 
 == KiCad
@@ -43,11 +43,11 @@ Project manager window.
 |Deutsch | link:http://docs.kicad-pcb.org/stable/de/kicad.html[HTML] link:http://docs.kicad-pcb.org/stable/de/kicad.pdf[PDF] link:http://docs.kicad-pcb.org/stable/de/kicad.epub[ePub]
 |Español | link:http://docs.kicad-pcb.org/stable/es/kicad.html[HTML] link:http://docs.kicad-pcb.org/stable/es/kicad.pdf[PDF] link:http://docs.kicad-pcb.org/stable/es/kicad.epub[ePub]
 |Français | link:http://docs.kicad-pcb.org/stable/fr/kicad.html[HTML] link:http://docs.kicad-pcb.org/stable/fr/kicad.pdf[PDF] link:http://docs.kicad-pcb.org/stable/fr/kicad.epub[ePub]
+|Indonesian | link:http://docs.kicad-pcb.org/stable/id/kicad.html[HTML] link:http://docs.kicad-pcb.org/stable/id/kicad.pdf[PDF] link:http://docs.kicad-pcb.org/stable/id/kicad.epub[ePub]
 |Italiano | link:http://docs.kicad-pcb.org/stable/it/kicad.html[HTML] link:http://docs.kicad-pcb.org/stable/it/kicad.pdf[PDF] link:http://docs.kicad-pcb.org/stable/it/kicad.epub[ePub]
 |日本語 | link:http://docs.kicad-pcb.org/stable/ja/kicad.html[HTML] link:http://docs.kicad-pcb.org/stable/ja/kicad.pdf[PDF] link:http://docs.kicad-pcb.org/stable/ja/kicad.epub[ePub]
 |Polski | link:http://docs.kicad-pcb.org/stable/pl/kicad.html[HTML] link:http://docs.kicad-pcb.org/stable/pl/kicad.pdf[PDF] link:http://docs.kicad-pcb.org/stable/pl/kicad.epub[ePub]
 |Русский | link:http://docs.kicad-pcb.org/stable/ru/kicad.html[HTML] link:http://docs.kicad-pcb.org/stable/ru/kicad.pdf[PDF] link:http://docs.kicad-pcb.org/stable/ru/kicad.epub[ePub]
-|Bahasa Indonesia | link:http://docs.kicad-pcb.org/stable/id/kicad.html[HTML] link:http://docs.kicad-pcb.org/stable/id/kicad.pdf[PDF] link:http://docs.kicad-pcb.org/stable/id/kicad.epub[ePub]
 |===
 
 
