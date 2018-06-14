@@ -33,14 +33,13 @@ apt-cache search kicad-doc
 
 == Debian Old-Stable (Jessie)
 
-Jessie Backport Version: *4.0.7* (KiCad actual version)
+{{< repology debian_oldstable_backports >}}
 
-or
-
-Jessie Release Version: *bzr4027* (KiCad stable release 2014)
+{{< repology debian_oldstable >}} (KiCad's 2014 stable release)
 
 The 2014 stable release bzr4027 of KiCad is available in the official Debian
 repositories for https://packages.debian.org/jessie/kicad[oldstable/jessie].
+
 It is not recommended for new designs. Please use the packages from the
 backport repository for actual versions. Follow the instructions on the
 https://wiki.debian.org/Backports[Debian Wiki] to add the Backport repository
