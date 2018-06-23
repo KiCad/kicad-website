@@ -1,0 +1,9 @@
+<h4 class="sidebar-widget-title">Latest Blog Posts</h4>
+<ul class="list-unstyled list-group" id="latest-blog-posts">
+	{{ range first 5 (where .Site.RegularPages "Section" "post") }}
+	<li class="list-group-item">
+		<a href="{{ .Permalink }}/index.html">{{ .Title }}</a><br />
+		{{ .Date.Format "Mon, Jan 2, 2006" }}
+	</li>
+	{{ end }}
+</ul>
