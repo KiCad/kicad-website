@@ -15,6 +15,7 @@ disablePathToLower = true
 
 [permalinks]
     klc = "/libraries/klc/:filename/"
+    blog = "blog/:year/:month/:slug"
 
 [[params.social]]
   title = "twitter"
@@ -29,7 +30,7 @@ disablePathToLower = true
 
 [[menu.main]]
     name   = "Blog"
-    url    = "/post/"
+    url    = "/blog/"
     weight = 1
 
 [[menu.main]]

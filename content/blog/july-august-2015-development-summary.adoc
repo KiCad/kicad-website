@@ -1,6 +1,9 @@
 +++
 title = "July and August 2015 Development Summary"
 date = "2015-09-07"
+aliases = [
+    "/post/july-august-2015-development-summary/"
+]
 +++
 
 In the spirit of providing insight on KiCad's development, this report covers some of the development work within July and August. 

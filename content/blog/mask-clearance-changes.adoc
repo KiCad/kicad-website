@@ -2,6 +2,12 @@
 title = "Mask Clearance Generation Changes"
 date = "2018-05-01"
 draft = false
+aliases = [
+    "/post/mask-clearance-changes/"
+]
+categories = [
+    "Upcoming Changes"
+]
 +++
 
 As of version 5.0.0-rc2 (commit 93c7f65d to be precise), there is a change

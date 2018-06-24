@@ -2,6 +2,12 @@
 title = "KiCad Hackathon At CERN"
 date = "2016-07-06"
 draft = false
+aliases = [
+    "/post/kicad-hackathon-july-2016-at-cern/"
+]
+categories = [
+    "Events"
+]
 +++
 
 A cadre of KiCad developers including Wayne Stambaugh, Tom Wlostowski,

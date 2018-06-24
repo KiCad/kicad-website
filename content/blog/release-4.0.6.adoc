@@ -2,6 +2,12 @@
 title = "KiCad 4.0.6 Stable Release"
 date = "2017-03-07"
 draft = false
+aliases = [
+    "/post/release-4.0.6/"
+]
+categories = [
+    "Release Notes"
+]
 +++
 
 The KiCad project is proud to announce the latest stable release of KiCad.

@@ -2,6 +2,12 @@
 title = "KiCad 5 -- a new generation"
 date = "2017-11-29"
 draft = true
+aliases = [
+    "/post/release-5.0.0/"
+]
+categories = [
+    "Release Notes"
+]
 +++
 [Kicad-developers] [Feature] Position Relative to
 [Kicad-developers] [FEATURE] Eeschema Line Styles

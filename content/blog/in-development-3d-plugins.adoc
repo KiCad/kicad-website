@@ -2,6 +2,12 @@
 title = "In Development: 3D Plugins"
 date = "2016-04-08"
 draft = false
+aliases = [
+    "/post/in-development-3d-plugins/"
+]
+categories = [
+    "New Features"
+]
 +++
 
 Seasoned KiCad users are familiar with the venerable 3DViewer tool

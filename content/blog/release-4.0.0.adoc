@@ -1,6 +1,12 @@
 +++
 title = "KiCad 4.0.0 is Out!"
 date = "2015-11-29"
+aliases = [
+    "/post/release-4.0.0/"
+]
+categories = [
+    "Release Notes"
+]
 +++
 
 We've just released the long-awaited KiCad _stable release, version_ *_4.0.0_*! The announcement can be read on the link:https://lists.launchpad.net/kicad-developers/msg21441.html[developer's mailing list archive].

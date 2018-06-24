@@ -2,6 +2,9 @@
 title = "Testing: Eagle import plugins"
 date = "2017-10-20"
 draft = false
+aliases = [
+    "/post/eagle-import/"
+]
 +++
 
 The KiCad project is proud to announce the support for importing Eagle

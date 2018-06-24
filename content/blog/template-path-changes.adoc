@@ -2,6 +2,12 @@
 title = "Template Folder Changes"
 date = "2018-05-19"
 draft = false
+aliases = [
+    "/post/template-path-changes/"
+]
+categories = [
+    "Upcoming Changes"
+]
 +++
 
 As of version 5.0.0-rc2 (commit be0978f3 to be precise), there was a

@@ -1,6 +1,9 @@
 +++
 title = "Announcing the new website"
 date = "2015-08-25"
+aliases = [
+    "/post/new-website-anno-2015/"
+]
 +++
 
 We are happy to announce a new website for KiCad, this instead of the

@@ -2,6 +2,12 @@
 title = "New 3DViewer"
 date = "2016-07-26"
 draft = false
+aliases = [
+    "/post/new-3d-viewer/"
+]
+categories = [
+    "New Features"
+]
 +++
 
 After almost 15 months in development and testing, the new 3DViewer

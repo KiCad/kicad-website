@@ -1,6 +1,12 @@
 +++
 title = "KiCad 4.0.4 Stable Release"
 date = "2016-08-29"
+aliases = [
+    "/post/release-4.0.4/"
+]
+categories = [
+    "Release Notes"
+]
 +++
 
 Hot on the heels of stable release 4.0.3, there is a new stable release of KiCad.

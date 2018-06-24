@@ -2,6 +2,9 @@
 title = "KiCad Official Libraries"
 date = "2017-11-10"
 draft = false
+aliases = [
+    "/post/kicad-official-libraries/"
+]
 +++
 
 The KiCad project is proud to announce that the official KiCad libraries

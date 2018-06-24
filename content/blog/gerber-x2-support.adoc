@@ -1,6 +1,9 @@
 +++
 title = "Gerber X2 Support"
 date = "2016-11-18"
+aliases = [
+    "/post/gerber-x2-support/"
+]
 +++
 
 The KiCad project is pleased to announce that it is the first electronic development

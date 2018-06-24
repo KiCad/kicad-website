@@ -1,6 +1,12 @@
 +++
 title = "KiCad 4.0.1 minor bugfixes"
 date = "2015-12-12"
+aliases = [
+    "/post/release-4.0.1/"
+]
+categories = [
+    "Release Notes"
+]
 +++
 
 A new release of KiCad has been made, containing some minor bug fixes.

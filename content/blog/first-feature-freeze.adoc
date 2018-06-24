@@ -1,6 +1,9 @@
 +++
 title = "First Feature Freeze"
 date = "2015-03-30"
+aliases = [
+    "/post/first-feature-freeze/"
+]
 +++
 
 It is time. Wayne, the current project leader, has now called the

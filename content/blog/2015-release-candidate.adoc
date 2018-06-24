@@ -1,6 +1,9 @@
 +++
 title = "2015 Release Candidate Branch and RC1"
 date = "2015-09-13"
+aliases = [
+    "/post/2015-release-candidate/"
+]
 +++
 
 We are pleased to announce that
