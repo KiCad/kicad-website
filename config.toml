@@ -7,25 +7,25 @@ pluralizelisttitles = false
 disablePathToLower = true
 
 [params]
-	DateForm = "2006-01-02"
-	Description = "A Cross Platform and Open Source Electronics Design Automation Suite"
-	Author = "The KiCad editors"
-	Forum = "https://forum.kicad.info/"
-	Ganalytics = "UA-3810500-6"
+    DateForm = "2006-01-02"
+    Description = "A Cross Platform and Open Source Electronics Design Automation Suite"
+    Author = "The KiCad editors"
+    Forum = "https://forum.kicad.info/"
+    Ganalytics = "UA-3810500-6"
 
 [permalinks]
     klc = "/libraries/klc/:filename/"
     blog = "blog/:year/:month/:slug"
 
 [[params.social]]
-  title = "twitter"
-  url = "https://twitter.com/kicad_pcb"
+    title = "twitter"
+    url = "https://twitter.com/kicad_pcb"
 [[params.social]]
-  title = "github"
-  url = "https://github.com/KiCad"
+    title = "github"
+    url = "https://github.com/KiCad"
 [[params.social]]
-  title = "google-plus"
-  url = "https://plus.google.com/111133613917552048578"
+    title = "google-plus"
+    url = "https://plus.google.com/111133613917552048578"
 
 
 [[menu.main]]
