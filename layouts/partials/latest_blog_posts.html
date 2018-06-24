@@ -2,7 +2,7 @@
 <ul class="list-unstyled list-group" id="latest-blog-posts">
 	{{ range first 5 (where .Site.RegularPages "Section" "blog") }}
 	<li class="list-group-item">
-		<a href="{{ .Permalink }}/index.html">{{ .Title }}</a><br />
+		<a href="{{ .Permalink }}">{{ .Title }}</a><br />
 		{{ .Date.Format "Mon, Jan 2, 2006" }}
 	</li>
 	{{ end }}
