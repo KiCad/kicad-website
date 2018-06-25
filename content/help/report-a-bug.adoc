@@ -10,6 +10,7 @@ weight = 35
 
 toc::[]
 
+== Issues with KiCad (the application)
 If you think you found a bug, what information should you include in
 your bug report to give as much helpful information to developers as
 possible?
@@ -27,7 +28,7 @@ Launchpad bug status reporting only allows for a single status
 condition per bug report. Submitting a good bug report requires you to
 do some information gathering before submitting your bug.
 
-== Content of a bug report
+=== Content of a bug report
 
 In which KiCad application did the problem occur? KiCad is made up of
 several individual programs. If you are not sure which program you are
@@ -79,7 +80,7 @@ bug tracker].
 
 The KiCad developer team thanks you for your efforts.
 
-== Auxiliary help with launchpad
+=== Auxiliary help with launchpad
 
 You can track the status of your bug with the
 https://help.launchpad.net/Bugs/Subscriptions[launchpad bug
@@ -92,7 +93,7 @@ the launchpad blog].
 
 == Issues with the kicad-pcb.org website
 
-If you think there is an issue or you want to add something to the
+If you have any kind of feedback from issue to suggestions, or you want to add something to the
 website, go the the
 link:https://github.com/KiCad/kicad-website[kicad-website] repo on
 github and report it as an
