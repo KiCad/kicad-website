@@ -4,13 +4,9 @@ iconhtml = "<div><i class='fa fa-apple'></i></div>"
 weight = 2
 +++
 
-KiCad for macOS is available as two disk images (dmg). You usually want to install both.
+KiCad is supported on Mac OS X 10.11 through macOS 10.13.
 
-KiCad is supported on Mac OS X 10.7 through macOS 10.13.
-
-- *KiCad main package* contains the KiCad suite, documentation, schematic symbols, translations, and some templates. It gets footprints from the internet.
-
-- *KiCad extras* contains the footprints and all the instructions you need for making printed circuit board layouts while offline.
+*kicad-unified* is the default package that most people should install.  *kicad-unified* contains everything: the KiCad suite, documentation, schematic symbols, footprints, translations, templates, demos, and 3D models.
 
 == Stable Release
 
@@ -21,6 +17,10 @@ Current Version: *4.0.7*
 
 == Nightly Development Builds
 
-The _nightly_ builds are snapshots of the codebase at a specific time. They may contain more bugs than usual, although we try our best. Use them for testing the newest features:
+The _nightly_ builds are snapshots of the codebase at a specific time. They may contain more bugs than usual, although we try our best.  If you need to test features in active development, the nightly can be faster to download, and extras can be used to turn a nightly into a full install. 
+
+- *kicad-nightly* does not contain the 3D models.  It contains the KiCad suite, documentation, schematic symbols, footprints, translations, templates, and demos.
+
+- *kicad-extras contains the 3D models.
 
 http://downloads.kicad-pcb.org/osx/nightly/
