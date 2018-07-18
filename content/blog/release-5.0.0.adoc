@@ -1,6 +1,6 @@
 +++
 title = "KiCad 5 -- a new generation"
-date = "2017-11-29"
+date = "2018-07-20"
 draft = true
 aliases = [
     "/post/release-5.0.0/"
@@ -9,6 +9,11 @@ categories = [
     "Release Notes"
 ]
 +++
+After almost a year after the latest update the the last stable release
+of kicad we now present to you a new and far better KiCad.
+
+
+
 [Kicad-developers] [Feature] Position Relative to
 [Kicad-developers] [FEATURE] Eeschema Line Styles
 [Kicad-developers] [RFC] new connectivity algorithm - testers needed
@@ -73,4 +78,4 @@ categories = [
 === Possible new features, needs to be verified
 * custom rastnet highlighting
 
-
+**The KiCad Development Team**
