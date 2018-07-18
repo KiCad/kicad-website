@@ -15,14 +15,16 @@ in way the solder mask and solder paste clearances are determined.  For
 pads defined with copper layers, the solder mask and solder paste clearance
 calculations remain the same.  For pads defined with no copper layers
 (referred to as aperture pads), the inherited clearance and ratio settings
-are no longer applied and the pad is plotted as defined.  This was done to
-allow for complex and accurate mask and paste layer generation without
-requiring changes to the existing file format and not requiring the KiCad
-footprint libraries to use extremely small clearances and/or ratios to
-prevent the board and footprint level clearances from being applied to the
-solder mask and solder paste layers. If you have any existing aperture pads
-defined in your boards, please be aware that the next time you plot them,
-they will *not* have the clearance settings applied to them.
+are no longer applied and the pad is plotted as defined.
+
+This was done to allow for complex and accurate mask and paste layer
+generation without requiring changes to the existing file format and
+not requiring the KiCad footprint libraries to use extremely small
+clearances and/or ratios to prevent the board and footprint level
+clearances from being applied to the solder mask and solder paste
+layers. If you have any existing aperture pads defined in your boards,
+please be aware that the next time you plot them, they will *not* have
+the clearance settings applied to them.
 
 Thank you for your patience during this transition.
 
