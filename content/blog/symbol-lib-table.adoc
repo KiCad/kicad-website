@@ -50,7 +50,7 @@ files before remapping a schematic just in case things go wrong. +
 2. If you have been using a development build of KiCad, copy the full
    default global symbol library table (sym-lib-table) file from the
    template folder installed with the KiCad libraries or from the
-   https://github.com/KiCad/kicad-library/blob/master/template/sym-lib-table[KiCad library repo]
+   https://github.com/KiCad/kicad-symbols/blob/master/sym-lib-table[KiCad library repo]
    to your KiCad user configuration folder.  This will replace the
    empty one (most likely) created by Eeschema.  If you do not do
    this, you will most likely end up with a bunch of broken symbol
