@@ -9,8 +9,8 @@ categories = [
     "Release Notes"
 ]
 +++
-After almost a year after the latest update the the last stable release
-of kicad we now present to you a new and far better KiCad.
+
+After almost a year after the last released update of KiCad 4.0.7, we would now like to present a new and improved KiCad 5.0 release!
 
 
 
