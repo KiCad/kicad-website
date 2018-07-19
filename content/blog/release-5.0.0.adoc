@@ -17,7 +17,7 @@ of kicad we now present to you a new and far better KiCad.
 [Kicad-developers] [Feature] Position Relative to
 [Kicad-developers] [FEATURE] Eeschema Line Styles
 [Kicad-developers] [RFC] new connectivity algorithm - testers needed
-
+Hotkey dialogs makeover?
 
 == New features in KiCad 5.0.0
 
@@ -35,6 +35,7 @@ of kicad we now present to you a new and far better KiCad.
 * [Kicad-developers] [FEATURE] Component table viewer
 * Some improvements with hidpi support
 * Simple math equations in some input fields
+* Crossprobing with highlighting
 
 === Eeschema
 
