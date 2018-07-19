@@ -1,20 +1,30 @@
 +++
-title = "Migration from old stable"
+title = "Migration"
 [menu.main]
     parent = "Help"
-    name   = "Migration from old stable"
+    name   = "Migration"
 weight = 40
 +++
 
+Newer versions of KiCad bring changes to file formats and functionality. While effort is made to maintain compatibility, there may ultimately be changes that must made
+in existing projects to adapt to the changes.
+
+== Migration from 4.0 to 5.0
+Information on upgrading from 4.0 to 5.0 can be found in the 
+http://docs.kicad-pcb.org/master/en/kicad.html#_upgrading_from_version_4_to_version_5[KiCad help manual].
+
+
+== Migration from any version before 4.0 to 4.0
+
 There is likely to be some issues if you want to migrate designs from the old stable, revision around bzr revision 4022, which had a particular annoying bug, where layer names were translated, which they should never have been.
 
-== Layernames are translated
+=== Layernames are translated
 
 This issue arises if you used the old stable version with a language other than English.
 
 You need to edit all `.kicad_pcb` files with a text editor (notepad, ...) and change the layer names from Italian/French to their English counterparts. Below is the correspondance of the layer names. Caution: there are more instances to replace than just the layer list. Be sure that you don't miss any.
 
-=== New English names
+==== New English names
 ----
 (layers
   (15 F.Cu signal)
@@ -35,7 +45,7 @@ You need to edit all `.kicad_pcb` files with a text editor (notepad, ...) and ch
 )
 ----
 
-=== Obsolete Italian names
+==== Obsolete Italian names
 ----
 (layers
   (15 Rame.Fronte signal)
@@ -56,7 +66,7 @@ You need to edit all `.kicad_pcb` files with a text editor (notepad, ...) and ch
 )
 ----
 
-=== Obsolete French names
+==== Obsolete French names
 ----
 (layers
   (15 Front signal)
@@ -77,7 +87,7 @@ You need to edit all `.kicad_pcb` files with a text editor (notepad, ...) and ch
 )
 ----
 
-== Schematic libraries are updated
+=== Schematic libraries are updated
 
 Be aware that the schematic libries has gotten an overhaul (still in
 progress), which means that it will easily break your schematics,
