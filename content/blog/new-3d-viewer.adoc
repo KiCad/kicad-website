@@ -59,28 +59,28 @@ ambient occlusion and global illumination. See the figures 4 to 8.
 
 '''
 .Model shown in the 3D model file selector in KiCad
-image::../../img/post/select_3dpreview.png[align=center, width=80%, alt="Model shown in the 3D model file selector in KiCad", link=../../img/post/select_3dpreview.png]
+image::/img/post/select_3dpreview.png[align=center, width=80%, alt="Model shown in the 3D model file selector in KiCad", link=/img/post/select_3dpreview.png]
 '''
 [[img-sunset]]
 .The footprint 3D properties dialog now with the new 3D previewer. Also including the preview of the footprint to assist in alignment.
-image::../../img/post/footprint_3dpreview.png[align=center, width=80%, alt="The footprint 3D properties dialog now with the new 3D previewer. Also including the preview of the footprint to assist in alignment.", link=../../img/post/footprint_3dpreview.png]
+image::/img/post/footprint_3dpreview.png[align=center, width=80%, alt="The footprint 3D properties dialog now with the new 3D previewer. Also including the preview of the footprint to assist in alignment.", link=/img/post/footprint_3dpreview.png]
 '''
 .Marker for the setpoint of the pivot point used for the rotation center by pressing spacebar.
-image::../../img/post/pivot_rotation.png[align=center, width=80%, alt="Marker for the setpoint of the pivot point used for the rotation center by pressing spacebar.", link=../../img/post/pivot_rotation.png]
+image::/img/post/pivot_rotation.png[align=center, width=80%, alt="Marker for the setpoint of the pivot point used for the rotation center by pressing spacebar.", link=/img/post/pivot_rotation.png]
 '''
 .Image rendered with the ray tracer.
-image::../../img/post/bm_01.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/bm_01.jpg]
+image::/img/post/bm_01.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=/img/post/bm_01.jpg]
 '''
 .Image rendered with the ray tracer.
-image::../../img/post/hack-master-r3.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/hack-master-r3.jpg]
+image::/img/post/hack-master-r3.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=/img/post/hack-master-r3.jpg]
 '''
 .Image rendered with the ray tracer.
-image::../../img/post/GB1601-InEarSys-RX_1.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/GB1601-InEarSys-RX_1.jpg]
+image::/img/post/GB1601-InEarSys-RX_1.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=/img/post/GB1601-InEarSys-RX_1.jpg]
 '''
 .Image rendered with the ray tracer.
-image::../../img/post/GB1601-InEarSys-RX_3.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/GB1601-InEarSys-RX_3.jpg]
+image::/img/post/GB1601-InEarSys-RX_3.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=/img/post/GB1601-InEarSys-RX_3.jpg]
 '''
 .Image rendered with the ray tracer.
-image::../../img/post/GB1601-InEarSys-RX_6.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=../../img/post/GB1601-InEarSys-RX_6.jpg]
+image::/img/post/GB1601-InEarSys-RX_6.jpg[align=center, width=80%, alt="Image rendered with the ray tracer.", link=/img/post/GB1601-InEarSys-RX_6.jpg]
 '''
 

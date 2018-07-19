@@ -47,7 +47,7 @@ files via OpenCASCADE Community Edition (OCE) and is available at
 https://github.com/cbernardo/kicad_oce_3D[kicad_oce_3D].
 
 .STEP file shown in the 3D previewer in KiCad
-image::../../img/post/oce_step_20160313.png[width=100%, alt="STEP file shown in the 3D previewer in KiCad", link=../../img/post/oce_step_20160313.png]
+image::/img/post/oce_step_20160313.png[width=100%, alt="STEP file shown in the 3D previewer in KiCad", link=/img/post/oce_step_20160313.png]
 
 The code today gives users a view of what's to come. At the moment the
 3DViewer cannot handle the new data formats used to visualize the

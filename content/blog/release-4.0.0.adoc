@@ -14,10 +14,10 @@ We've just released the long-awaited KiCad _stable release, version_ *_4.0.0_*! 
 Version 4.0.0 is made from the product branch BZR 6336. This is 148 commits after the last release candidate, RC2.  These are all changes to improve stability and usability of KiCad.
 
 KiCad binaries will be available for download for Windows, OSX and
-Linux in the near future, see the link:../../download[download page]
+Linux in the near future, see the link:/download[download page]
 for guidance.
 
-Instructions for packagers can be found on link:../../download/source/[the download page describing how to build from source] and its subpages.
+Instructions for packagers can be found on link:/download/source/[the download page describing how to build from source] and its subpages.
 
 
 == Changes Brief

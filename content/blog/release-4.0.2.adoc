@@ -21,11 +21,11 @@ link:https://code.launchpad.net/~stambaughw/kicad/4.0[lp:kicad/4.0]
 branch with some cherry picked changes from the development branch.
 
 KiCad binaries will be available for download for Windows, OSX and
-Linux in the near future, see the link:../../download[download page]
+Linux in the near future, see the link:/download[download page]
 for guidance.
 
 Instructions for packagers can be found on
-link:../../download/source/[the download page describing how to build from source] and its subpages.
+link:/download/source/[the download page describing how to build from source] and its subpages.
 
 == Changes
 
