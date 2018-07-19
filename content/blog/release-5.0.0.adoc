@@ -22,7 +22,7 @@ Hotkey dialogs makeover?
 == New features in KiCad 5.0.0
 
 === Project-wide
-
+* New libraries for symbols, footprints and 3D models (parts adhere to the KiCad Library Convention (KLC) and are organized differently than in V4 libraries)
 * New 3D viewer
 * New 3D model plugin archetecture
 ** Now supports STEP and IGES viewer
