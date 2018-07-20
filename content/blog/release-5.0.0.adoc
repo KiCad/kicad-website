@@ -1,5 +1,5 @@
 +++
-title = "KiCad 5 -- a new generation"
+title = "KiCad 5 – a new generation"
 date = "2018-07-20"
 draft = true
 aliases = [
@@ -10,7 +10,24 @@ categories = [
 ]
 +++
 
-After almost a year after the last released update of KiCad 4.0.7, we would now like to present a new and improved KiCad 5.0 release!
+After almost a year after the last released update of KiCad 4.0.7, we
+would now like to present a new and improved KiCad 5.0 release!
+
+The stable release verison 5.0.0 is made from the
+https://git.launchpad.net/kicad/log/?h=5.0[stable 5.0] branch.
+
+KiCad binaries should be available in the very near future for
+download for Windows, Macos and Linux, see the
+http://kicad-pcb.org/download/[download page] for guidance.
+
+Instructions for packagers can be found on
+http://kicad-pcb.org/download/source/[the download page describing how
+to build from source ]. Below are also some packaging
+<<packaging-changes,packaging related hanges>> related changes
+mentioned in comparison to the 4.0 releases.
+
+Thank you to all developers, packagers, librarians, document writers,
+translators, and everyone else who helped make this release possible.
 
 
 
@@ -76,7 +93,11 @@ Hotkey dialogs makeover?
 * New measurement tool
 * Ability to pan using a drag of the right mouse button
 
+
 === Possible new features, needs to be verified
 * custom rastnet highlighting
+
+[[packaging-changes]]
+== Packaging changes
 
 **The KiCad Development Team**
