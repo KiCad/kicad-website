@@ -65,6 +65,7 @@ Schematic editor and component editor.
 |Italiano | link:http://docs.kicad-pcb.org/stable/it/eeschema.html[HTML] link:http://docs.kicad-pcb.org/stable/it/eeschema.pdf[PDF] link:http://docs.kicad-pcb.org/stable/it/eeschema.epub[ePub]
 |日本語 | link:http://docs.kicad-pcb.org/stable/ja/eeschema.html[HTML] link:http://docs.kicad-pcb.org/stable/ja/eeschema.pdf[PDF] link:http://docs.kicad-pcb.org/stable/ja/eeschema.epub[ePub]
 |Polski | link:http://docs.kicad-pcb.org/stable/pl/eeschema.html[HTML] link:http://docs.kicad-pcb.org/stable/pl/eeschema.pdf[PDF] link:http://docs.kicad-pcb.org/stable/pl/eeschema.epub[ePub]
+|Русский | link:http://docs.kicad-pcb.org/stable/ru/eeschema.html[HTML] link:http://docs.kicad-pcb.org/stable/ru/eeschema.pdf[PDF] link:http://docs.kicad-pcb.org/stable/ru/eeschema.epub[ePub]
 |===
 
 
@@ -82,6 +83,7 @@ Circuit board layout editor and footprint editor.
 |Italiano | link:http://docs.kicad-pcb.org/stable/it/pcbnew.html[HTML] link:http://docs.kicad-pcb.org/stable/it/pcbnew.pdf[PDF] link:http://docs.kicad-pcb.org/stable/it/pcbnew.epub[ePub]
 |日本語 | link:http://docs.kicad-pcb.org/stable/ja/pcbnew.html[HTML] link:http://docs.kicad-pcb.org/stable/ja/pcbnew.pdf[PDF] link:http://docs.kicad-pcb.org/stable/ja/pcbnew.epub[ePub]
 |Polski | link:http://docs.kicad-pcb.org/stable/pl/pcbnew.html[HTML] link:http://docs.kicad-pcb.org/stable/pl/pcbnew.pdf[PDF] link:http://docs.kicad-pcb.org/stable/pl/pcbnew.epub[ePub]
+|Русский | link:http://docs.kicad-pcb.org/stable/ru/pcbnew.html[HTML] link:http://docs.kicad-pcb.org/stable/ru/pcbnew.pdf[PDF] link:http://docs.kicad-pcb.org/stable/ru/pcbnew.epub[ePub]
 |===
 
 == CvPcb
