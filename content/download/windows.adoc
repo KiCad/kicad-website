@@ -24,10 +24,3 @@ http://downloads.kicad-pcb.org/windows/nightly/
 Previous releases should be available for download on:
 
 http://downloads.kicad-pcb.org/windows/stable/
-
-=== Old Stable
-
-The
-http://downloads.kicad-pcb.org/archive/KiCad_stable-2013.07.07-BZR4022_Win_full_version.exe[2013
-old stable release] installer is not recommended for new projects.
-Please use the new stable release.
