@@ -24,8 +24,13 @@ http://kicad-pcb.org/download/[download page] for guidance.
 Instructions for packagers can be found on
 http://kicad-pcb.org/download/source/[the download page describing how
 to build from source ]. Below are also some packaging
-<<packaging-changes,packaging related hanges>> related changes
-mentioned in comparison to the 4.0 releases.
+<<packaging-changes,packaging related changes>> mentioned in
+comparison to the 4.0 releases.
+
+The official KiCad libraries have also seen a lot of improvement in
+managment, style and consistency by the librarians, read more about
+this on the http://kicad-pcb.org/libraries/download/[new library
+section on the website.]
 
 Thank you to all developers, packagers, librarians, document writers,
 translators, and everyone else who helped make this release possible.
@@ -56,6 +61,7 @@ We hope you enjoy version 5 of KiCad
 * Custom color picker dialog
 
 === KiCad
+
 * Direct import of Eagle projects
 
 === Eeschema
@@ -72,8 +78,12 @@ We hope you enjoy version 5 of KiCad
 * Completely redesigned symbol library editor
 * Direct update of board without need for intermediate netlist
 * Unified configuration dialog
+* Copy/cut/paste between schematic library symbols
+* Tree widget to browse symbols in the symbol editor
+* Dashed, dotted and dash-dot line support to DXF plot in eeschema
+* File browser for the Symbol Library Table dialog
 
-  === PcbNew
+=== PcbNew
 
 * Flip board option
 * Spread out when loading netlist with new parts (Modern canvas only)
@@ -115,3 +125,19 @@ We hope you enjoy version 5 of KiCad
 * Ability to pan using a drag of the right mouse button
 * Support for loading gerber X2 extensions
 * Support for loading gerber job files
+
+[[packaging-changes]]
+== Packaging Changes
+In regard to packaging the KiCad binary, not a lot has changes, you
+should mostly be able to bump the pkgver, but some new major
+dependencies have been added with the SPICE similation and support for
+IGES and STEP 3D models. Meaning that we depend on Open Cascade, by
+default OCE, but OCCT should also work. And the other dependency is
+ngspice built as a library.
+
+On top of that the library has had a major restructuring such that the
+footprints are in one git repo and the templates have been seperated
+out to its own repo as well. See http://kicad-pcb.org/download/source/
+for all relevant information.
+
+
