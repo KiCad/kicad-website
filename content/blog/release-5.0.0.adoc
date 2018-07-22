@@ -9,9 +9,8 @@ categories = [
 ]
 +++
 
-After almost a year after the release of KiCad 4.0.7, the KiCad
-development team is proud to present a new and improved KiCad 5.0
-release!
+Almost a year after the release of KiCad 4.0.7, the KiCad development
+team is proud to present a new and improved KiCad 5.0 release!
 
 The stable release version 5.0.0 is made from the
 https://git.launchpad.net/kicad/log/?h=5.0[stable 5.0] branch.
@@ -26,28 +25,28 @@ to build from source ]. Below are also some packaging
 <<packaging-changes,packaging related changes>> since the 4.0 releases.
 
 The official KiCad libraries have also seen a lot of improvement in
-managment, style and consistency by the librarians.  Read more about
+management, style and consistency by the librarians.  Read more about
 this on the http://kicad-pcb.org/libraries/download/[new library
 section on the website.]
 
 Thank you to all developers, packagers, librarians, document writers,
 translators, and everyone else who helped make this release possible.
 
-We hope you enjoy version 5 of KiCad.
-
 NOTE: The macOS installer is not quite ready. There are a few minor
 issues that needs to be addressed.
-
 
 == New features in KiCad 5.0.0
 
 === Project-wide
-* New libraries for symbols, footprints and 3D models (parts adhere to the KiCad Library Convention (KLC) and are organized differently than in V4 libraries)
+* New libraries for symbols, footprints and 3D models (parts adhere to the KiCad
+  Library Convention (KLC) and are organized differently than in V4 libraries)
+** Library changes automatically updated on the
+   http://kicad-pcb.org/libraries/download/[library page of the KiCad website]
 * New 3D viewer
 * New 3D model plugin architecture
 ** Now supports STEP and IGES viewer
 ** STEP assembly export from STEP and IGES inputs
-* Support for arbitrary color schemes (GerbView and PcbNew: in OpenGL/Cairo canvases only)
+* Support for arbitrary color schemes (GerbView and PcbNew: in modern canvases only)
 * New highlighting style for disambiguating selections for greater clarity
 * Improved zoom behavior when using trackpads in MacOS
 * Some improvements with hidpi support
@@ -57,7 +56,7 @@ issues that needs to be addressed.
 * More templates for common development platforms such as Arduino and Raspberry Pi
 * Environment variable editor for managing internal environment variables
 * Icon improvements
-* Footprint libraries installed locally and Github plugin is no longer the default
+* Footprint libraries installed locally and the Github plugin is no longer the default
 * Custom color picker dialog
 
 === KiCad
@@ -80,7 +79,7 @@ issues that needs to be addressed.
 * Unified configuration dialog
 * Copy/cut/paste between schematic library symbols
 * Tree widget to browse symbols in the symbol editor
-* Dashed, dotted and dash-dot line support to DXF plot in eeschema
+* Dashed, dotted and dash-dot line support to DXF plot in Eeschema
 * File browser for the Symbol Library Table dialog
 
 === PcbNew
@@ -91,7 +90,7 @@ issues that needs to be addressed.
 * Clipboard support that allows copying selections between boards or as text
 * Rounded rectangle pad support.
 * Custom pad shapes
-* Many enhancements to the GAL (OpenGL and Cairo) canvases, including:
+* Many enhancements to the modern (formerly OpenGL and Cairo) canvases, including:
 ** New measurement tool
 ** Vias can now be placed freely (for stitching, etc)
 ** Improvements to drag selection:
@@ -131,14 +130,15 @@ issues that needs to be addressed.
 In regard to packaging the KiCad binaries, not a lot has changed.  You
 should mostly be able to bump the package version, but some new major
 dependencies have been added with the SPICE similation and support for
-IGES and STEP 3D models. We now depend on Open Cascade (by
-default OCE, but OCCT should also work.) We also now depend upon 
-ngspice built as a library.
+IGES and STEP 3D models. We now depend on Open Cascade (by default OCE,
+but OCCT should also work.) We also now depend upon ngspice built as a
+library.
 
 Beyond dependencies, the library has had a major restructuring such that the
-footprints are in one git repository and the templates have been seperated
+footprints are in one git repository and the templates have been separated
 out to its own repo as well. See http://kicad-pcb.org/download/source/
 for all relevant information.
 
+We hope you enjoy version 5 of KiCad.
 
 **The KiCad Development Team**
