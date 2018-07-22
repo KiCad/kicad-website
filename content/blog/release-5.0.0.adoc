@@ -10,10 +10,11 @@ categories = [
 ]
 +++
 
-After almost a year after the last released update of KiCad 4.0.7, we
-would now like to present a new and improved KiCad 5.0 release!
+After almost a year after the release of KiCad 4.0.7, the KiCad
+development team is proud to present a new and improved KiCad 5.0
+release!
 
-The stable release verison 5.0.0 is made from the
+The stable release version 5.0.0 is made from the
 https://git.launchpad.net/kicad/log/?h=5.0[stable 5.0] branch.
 
 KiCad binaries should be available in the very near future for
@@ -29,75 +30,88 @@ mentioned in comparison to the 4.0 releases.
 Thank you to all developers, packagers, librarians, document writers,
 translators, and everyone else who helped make this release possible.
 
+We hope you enjoy version 5 of KiCad
 
-
-[Kicad-developers] [Feature] Position Relative to
-[Kicad-developers] [FEATURE] Eeschema Line Styles
-[Kicad-developers] [RFC] new connectivity algorithm - testers needed
-Hotkey dialogs makeover?
+**The KiCad Development Team**
 
 == New features in KiCad 5.0.0
 
 === Project-wide
 
 * New 3D viewer
-* New 3D model plugin archetecture
+* New 3D model plugin architecture
 ** Now supports STEP and IGES viewer
 ** STEP assembly export from STEP and IGES inputs
-** Otherwise support for VRML as before
 * Support for arbitrary color schemes (GerbView and PcbNew: in OpenGL/Cairo canvases only)
 * New highlighting style for disambiguating selections for greater clarity
 * Improved zoom behavior when using trackpads in MacOS
-* [Kicad-developers] [PATCH] [RFC] Get rid of boost::context
-* [Kicad-developers] [FEATURE] Component table viewer
 * Some improvements with hidpi support
 * Simple math equations in some input fields
 * Crossprobing with highlighting
+* Significant improvements in symbol, footprint and 3D model libraries
+* More templates for common development platforms such as Arduino and Raspberry Pi
+* Environment variable editor for managing internal environment variables
+* Icon improvements
+* Footprint libraries installed locally and Github plugin is no longer the default
+* Custom color picker dialog
+
+=== KiCad
+* Direct import of Eagle projects
 
 === Eeschema
 
-* Autoplace for eeschema labels (https://www.youtube.com/watch?v=32FKnrKxe4Y)
+* Autoplace for fields (https://www.youtube.com/watch?v=32FKnrKxe4Y)
 * SPICE simulation support via ngspice
-* New component chooser, see email  [Kicad-developers] Pushed new component selector
-* Selection of nets on a sheet [Kicad-developers] Selection tool that selects components and local connections
+* New symbol chooser with optional footprint viewer
 * Partial clipboard support that allows moving symbols and nets between hierarchical sheets
+* Improved wire, bus, and junction handling
+* Net highlighting with same net highlighting in board editor (modern canvas only)
+* Table view for editing symbol fields
+* Symbol library management with library table to eliminate symbol name clashes
+* Custom graphic line type and color support
+* Completely redesigned symbol library editor
+* Direct update of board without need for intermediate netlist
+* Unified configuration dialog
 
-=== PcbNew
+  === PcbNew
 
 * Flip board option
-* Spread out when loading netlist with new parts
+* Spread out when loading netlist with new parts (Modern canvas only)
 * You can now specify a reference point when using the Move Exactly feature
 * Clipboard support that allows copying selections between boards or as text
+* Rounded rectangle pad support.
 * Custom pad shapes
 * Many enhancements to the GAL (OpenGL and Cairo) canvases, including:
-** New measurement tool added
+** New measurement tool
 ** Vias can now be placed freely (for stitching, etc)
 ** Improvements to drag selection:
 *** A drag from left to right will select items that are completely enclosed
-*** A drag from right to left will select any items that are partially touched by the selection rectangle
-*** You can hold the SHIFT key while dragging to add items to the current selection
-*** You can hold the CTRL key while dragging to remove items from the current selection
+*** A drag from right to left will select any items that are partially touched by the
+    selection rectangle
+*** Hold the SHIFT key while dragging to add items to the current selection
+*** Hold the CTRL key while dragging to remove items from the current selection
 ** Grid settings are now fully functional
-** Always-on Cursor feature now available
-** Local Ratsnest feature now available
+** Always-on cursor feature now available
+** Local ratsnest feature now available
 ** Microwave tools now available
-** Change Layer with Via feature now available
-** Exchange Footprint feature now available
+** Change layer with via feature now available
+** Change Footprint feature now available
 ** Improvements to the array tool
 ** Improvements to the arc drawing tool
 ** Improvements to the zone drawing and editing tools
+* Net highlight mode highlights net in schematic editor (Modern canvas only),
+* Transparency support in modern canvases
+* Update changes from schematic editor without intermediate netlist file
+* Anti-aliased fonts (modern canvas only)
+* Improved Python console
+* Support for gerber X2 extensions
+* Support for gerber job files
 
 === GerbView
 
-* Support for new GAL (OpenGL and Cairo) canvases
+* Support for modern (OpenGL and Cairo) canvases
+* Transparency support in modern canvases
 * New measurement tool
 * Ability to pan using a drag of the right mouse button
-
-
-=== Possible new features, needs to be verified
-* custom rastnet highlighting
-
-[[packaging-changes]]
-== Packaging changes
-
-**The KiCad Development Team**
+* Support for loading gerber X2 extensions
+* Support for loading gerber job files
