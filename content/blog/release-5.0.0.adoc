@@ -17,26 +17,25 @@ The stable release version 5.0.0 is made from the
 https://git.launchpad.net/kicad/log/?h=5.0[stable 5.0] branch.
 
 KiCad binaries should be available now or in the very near future for
-download for Windows, Macos and Linux, see the
+download for Windows, macOS and Linux.  See the
 http://kicad-pcb.org/download/[download page] for guidance.
 
 Instructions for packagers can be found on
 http://kicad-pcb.org/download/source/[the download page describing how
 to build from source ]. Below are also some packaging
-<<packaging-changes,packaging related changes>> mentioned in
-comparison to the 4.0 releases.
+<<packaging-changes,packaging related changes>> since the 4.0 releases.
 
 The official KiCad libraries have also seen a lot of improvement in
-managment, style and consistency by the librarians, read more about
+managment, style and consistency by the librarians.  Read more about
 this on the http://kicad-pcb.org/libraries/download/[new library
 section on the website.]
 
 Thank you to all developers, packagers, librarians, document writers,
 translators, and everyone else who helped make this release possible.
 
-We hope you enjoy version 5 of KiCad
+We hope you enjoy version 5 of KiCad.
 
-NOTE: The macOS installer is not quite ready, there are a few minor
+NOTE: The macOS installer is not quite ready. There are a few minor
 issues that needs to be addressed.
 
 
@@ -129,15 +128,15 @@ issues that needs to be addressed.
 
 [[packaging-changes]]
 == Packaging Changes
-In regard to packaging the KiCad binary, not a lot has changes, you
-should mostly be able to bump the pkgver, but some new major
+In regard to packaging the KiCad binaries, not a lot has changed.  You
+should mostly be able to bump the package version, but some new major
 dependencies have been added with the SPICE similation and support for
-IGES and STEP 3D models. Meaning that we depend on Open Cascade, by
-default OCE, but OCCT should also work. And the other dependency is
+IGES and STEP 3D models. We now depend on Open Cascade (by
+default OCE, but OCCT should also work.) We also now depend upon 
 ngspice built as a library.
 
-On top of that the library has had a major restructuring such that the
-footprints are in one git repo and the templates have been seperated
+Beyond dependencies, the library has had a major restructuring such that the
+footprints are in one git repository and the templates have been seperated
 out to its own repo as well. See http://kicad-pcb.org/download/source/
 for all relevant information.
 
