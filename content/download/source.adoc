@@ -49,6 +49,9 @@ it on a case by case basis]. If you package for linux you are
 link:https://www.mail-archive.com/kicad-developers@lists.launchpad.net/msg15700.html[expected
 to enable python scripting].
 
+Due to API instability in the Boost.Context library, KiCad 5.0.0 ships with
+a replacement implementation, which is partially written in assembler
+language. Because of this, several platforms may fail to compile.
 
 == Building KiCad
 
