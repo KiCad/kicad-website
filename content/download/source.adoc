@@ -18,24 +18,30 @@ https://bugs.launchpad.net/kicad/[bug-fixes].
 Other than the source code itself there are some other distibruted
 elements that make up the full KiCad package, which is the KiCad
 documentation (kicad-doc), the user interface translations
-(kicad-i18n), and the schematic, footprint and 3D model libraries.
+(kicad-i18n), and the schematic, footprint, 3D model libraries and
+project templates.
 
 == Stable Release
 
-Current Version: *4.0.7*
+Current Version: *5.0.0*
 
 Tarballs intended to be used by packagers:
 
-* link:https://launchpad.net/kicad/4.0/4.0.7/+download/kicad-4.0.7.tar.xz[Source code]
-* link:http://downloads.kicad-pcb.org/docs/kicad-doc-4.0.7.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/4.0.7[doc sources]
-* link:https://github.com/KiCad/kicad-i18n/releases/tag/4.0.7[Kicad-i18n]
-* link:http://downloads.kicad-pcb.org/libraries/kicad-library-4.0.7.tar.gz[Kicad-library repo]
-* link:http://downloads.kicad-pcb.org/libraries/kicad-footprints-4.0.7.tar.gz[Footprint repos]
+* link:https://launchpad.net/kicad/5.0/5.0.0/+download/kicad-5.0.0.tar.xz[Source code]
+* link:http://downloads.kicad-pcb.org/docs/kicad-doc-5.0.0.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/5.0.0[doc sources]
+* link:https://github.com/KiCad/kicad-i18n/releases/tag/5.0.0[i18n (translations)]
+* link:https://github.com/KiCad/kicad-symbols/releases/tag/5.0.0[symbols]
+* link:https://github.com/KiCad/kicad-footprints/releases/tag/5.0.0[footprints]
+* link:https://github.com/KiCad/kicad-packages3D/releases/tag/5.0.0[packages3D]
+* link:https://github.com/KiCad/kicad-templates/releases/tag/5.0.0[templates]
 
-You encouraged to enable the python scripting, even though it is
-not enabled by default with the following additional Cmake options.
+With never linux releases it might be easiest to disable the wxpython
+option. This is becasue there is an incompatability between wxwidgets
+which is not complied with gtk3 instead of gtk2, while wxpython does
+not support gtk3 before it's phoenix release, which does not yet work
+with KiCad. Help needed.
 
-  -DKICAD_SCRIPTING=ON -DKICAD_SCRIPTING_MODULES=ON -DKICAD_SCRIPTING_WXPYTHON=ON
+  -DKICAD_SCRIPTING_WXPYTHON=OFF
 
 It has been decided to do so such that packagers will
 link:https://www.mail-archive.com/kicad-developers@lists.launchpad.net/msg15686.html[enable
@@ -43,24 +49,20 @@ it on a case by case basis]. If you package for linux you are
 link:https://www.mail-archive.com/kicad-developers@lists.launchpad.net/msg15700.html[expected
 to enable python scripting].
 
-Before version 4.0.5 you were supposed to use the following options to set
-the version string:
-
-  -DKICAD_REPO_NAME=stable -DKICAD_BUILD_VERSION=4.0.4
-
-This is not longer needed. This note is kept until the next release.
-
 
 == Building KiCad
 
-Instructions can be found in compiling.md which is located in the kicad source code under /Documentation/development folder.
+Instructions can be found in compiling.md which is located in the
+kicad source code under `/Documentation/development` folder.
 
-Alternatively, you can view it online here: link:http://docs.kicad-pcb.org/doxygen/md_Documentation_development_compiling.html[Building KiCad from Source]
+Alternatively, you can view it online here:
+link:http://docs.kicad-pcb.org/doxygen/md_Documentation_development_compiling.html[Building
+KiCad from Source]
 
-KiCad 4.0.5, 4.0.6, and 4.0.7 cannot be compiled with boost 1.61 and higher
-since the latter requires C{plus}{plus}11. If you insist to use boost 1.61 and
-higher, you can apply link:http://kicad-pcb.org/boost-1.61.patch[this patch]
-manually and compile with a C{plus}{plus}11 capable compiler and its appropriate
+KiCad 4.0.5, 4.0.6, and 5.0.0 cannot be compiled with boost 1.61 and
+higher since the latter requires C{plus}{plus}11. If you insist to use
+boost 1.61 and higher, you can apply
+link:http://kicad-pcb.org/boost-1.61.patch[this patch] manually and
+compile with a C{plus}{plus}11 capable compiler and its appropriate
 compiler switches.
 
-Do not use the https://github.com/KiCad/KicadOSXBuilder[KicadOSXBuilder] as it is outdated.
