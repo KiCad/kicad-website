@@ -1,7 +1,6 @@
 +++
 title = "KiCad 5 – a new generation"
-date = "2018-07-20"
-draft = true
+date = "2018-07-22"
 aliases = [
     "/post/release-5.0.0/"
 ]
@@ -17,7 +16,7 @@ release!
 The stable release version 5.0.0 is made from the
 https://git.launchpad.net/kicad/log/?h=5.0[stable 5.0] branch.
 
-KiCad binaries should be available in the very near future for
+KiCad binaries should be available now or in the very near future for
 download for Windows, Macos and Linux, see the
 http://kicad-pcb.org/download/[download page] for guidance.
 
@@ -37,7 +36,9 @@ translators, and everyone else who helped make this release possible.
 
 We hope you enjoy version 5 of KiCad
 
-**The KiCad Development Team**
+NOTE: The macOS installer is not quite ready, there are a few minor
+issues that needs to be addressed.
+
 
 == New features in KiCad 5.0.0
 
@@ -141,3 +142,4 @@ out to its own repo as well. See http://kicad-pcb.org/download/source/
 for all relevant information.
 
 
+**The KiCad Development Team**
