@@ -32,9 +32,6 @@ section on the website.]
 Thank you to all developers, packagers, librarians, document writers,
 translators, and everyone else who helped make this release possible.
 
-NOTE: The macOS installer is not quite ready. There are a few minor
-issues that needs to be addressed.
-
 == New features in KiCad 5.0.0
 
 === Project-wide
