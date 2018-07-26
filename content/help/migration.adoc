@@ -11,16 +11,16 @@ in existing projects to adapt to the changes.
 
 == Migration from 4.0 to 5.0
 Information on upgrading from 4.0 to 5.0 can be found in the 
-http://docs.kicad-pcb.org/master/en/kicad.html#_upgrading_from_version_4_to_version_5[KiCad help manual].
+http://docs.kicad-pcb.org/stable/en/kicad.html#_upgrading_from_version_4_to_version_5[KiCad help manual].
 
 
-== Migration from any version before 4.0 to 4.0
+== Migration from any version before 4.0 (also known as "old-stable") to 4.0
 
 There is likely to be some issues if you want to migrate designs from the old stable, revision around bzr revision 4022, which had a particular annoying bug, where layer names were translated, which they should never have been.
 
 === Layernames are translated
 
-This issue arises if you used the old stable version with a language other than English.
+This issue arises if you used a "old stable" version with a language other than English.
 
 You need to edit all `.kicad_pcb` files with a text editor (notepad, ...) and change the layer names from Italian/French to their English counterparts. Below is the correspondance of the layer names. Caution: there are more instances to replace than just the layer list. Be sure that you don't miss any.
 
