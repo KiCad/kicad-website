@@ -29,7 +29,7 @@ http://www.rocketscream.com/blog/2016/02/19/from-diptrace-to-kicad/[From Diptrac
 
 http://hackaday.com/2016/02/11/kicad-traducido-al-espanol[Hackaday features KiCad Spanish translation (in Spanish)] (11-FEB-2016)
 
-http://knowledgetransfer.web.cern.ch/sites/knowledgetransfer.web.cern.ch/files/Knowledge-Transfer-2015.pdf[KiCad is mentioned in the CERN Knowledge Transfer 2015 paperwork] (01-JAN-2016)
+http://cds.cern.ch/record/1746337/files/Knowledge-Transfer-2015.pdf[KiCad is mentioned in the CERN Knowledge Transfer 2015 paperwork] (01-JAN-2016)
 
 https://cds.cern.ch/journal/CERNBulletin/2015/09/News%20Articles/1988318[KiCad Challenges the Big Ones] (16-FEB-2015)
 
