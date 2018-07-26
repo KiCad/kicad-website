@@ -1,9 +1,9 @@
 +++
 title = "KiCost"
 toolimage = "/img/external-tools/kicost.png"
-tooldeveloper = "Dave Vandenbout"
+tooldeveloper = "Dave Vandenbout (author), Hildo Guillardi Jr. (main collaborator)"
 toolurl = "https://github.com/xesscorp/KiCost"
 +++
 
-KiCost is intended to be run as a script for generating part-cost spreadsheets for circuit boards developed with KiCad.
-
+KiCost is intended to run as an script for generating part-cost spreadsheets for circuit boards developed with KiCad scrapping web distributors to get the parts cost. Nowdays KiCost also support other EDAs BoM files (useful for yours older projects and handle made list on CSV), also have a graphical interface for the users (type `kicost` on terminal to access it).
+KiCost can be installed on python via `pip install kicost`.
