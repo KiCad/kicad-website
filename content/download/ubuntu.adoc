@@ -4,6 +4,9 @@ iconhtml = "<div class='fl-ubuntu'></div>"
 weight = 1
 +++
 
+:icons: fonts
+:iconsdir: /img/icons/
+
 == 5.0.0 Stable Release
 
 KiCad 5.0.0 is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-5[js-reynaud's KiCad 5.0 PPA].
@@ -48,9 +51,9 @@ sudo apt update
 sudo apt install kicad
 
 == 4.0 Stable
+CAUTION: This version is not recommended for new designs
 
-KiCad 4.0 is still available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-4[js-reynaud's KiCad 4.0 PPA],
-but it is not recommended for new projects.
+KiCad 4.0 is still available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-4[js-reynaud's KiCad 4.0 PPA]
 
 == Translations
 If you want KiCad to be translated, you also need to install the dedicated localization package.
