@@ -32,9 +32,6 @@ section on the website.]
 Thank you to all developers, packagers, librarians, document writers,
 translators, and everyone else who helped make this release possible.
 
-NOTE: The macOS installer is not quite ready. There are a few minor
-issues that needs to be addressed.
-
 == New features in KiCad 5.0.0
 
 === Project-wide
@@ -129,7 +126,7 @@ issues that needs to be addressed.
 == Packaging Changes
 In regard to packaging the KiCad binaries, not a lot has changed.  You
 should mostly be able to bump the package version, but some new major
-dependencies have been added with the SPICE similation and support for
+dependencies have been added with the SPICE simulation and support for
 IGES and STEP 3D models. We now depend on Open Cascade (by default OCE,
 but OCCT should also work.) We also now depend upon ngspice built as a
 library.

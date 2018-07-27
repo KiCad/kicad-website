@@ -4,6 +4,9 @@ iconhtml = "<div class='fl-ubuntu'></div>"
 weight = 1
 +++
 
+:icons: fonts
+:iconsdir: /img/icons/
+
 == 5.0.0 Stable Release
 
 === Installation

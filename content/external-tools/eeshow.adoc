@@ -2,7 +2,7 @@
 title = "eeshow"
 toolimage = "/img/external-tools/eeshow.png"
 tooldeveloper = "Werner Almesberger"
-toolurl = "https://neo900.org/stuff/eeshow/"
+toolurl = "http://neo900.org/stuff/eeshow/"
 +++
 
 Eeshow is a collection of programs that read schematics made by

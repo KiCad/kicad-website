@@ -54,11 +54,12 @@ https://packages.debian.org/jessie-backports-sloppy/kicad[jessie-backports-slopp
 The current upstream release is available for Debian
 https://packages.debian.org/sid/kicad[unstable/sid].
 
-For installing please follow the directions for stable.
-
 == Debian Testing (Buster)
 
-Currently not available until KiCad 5.0 is released.
+{{< repology debian_testing >}}
+
+The current upstream release is available for Debian
+https://packages.debian.org/testing/kicad[testing/buster].
 
 
 == Build from Source
