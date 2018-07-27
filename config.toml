@@ -62,7 +62,7 @@ disablePathToLower = true
 [[menu.main]]
     parent = "Community"
     name   = "User Mailing List"
-    url    = "http://groups.yahoo.com/group/kicad-users/"
+    url    = "https://groups.yahoo.com/neo/groups/kicad-users/info"
     weight = 15
 
 [[menu.main]]
