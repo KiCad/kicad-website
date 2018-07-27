@@ -126,7 +126,7 @@ translators, and everyone else who helped make this release possible.
 == Packaging Changes
 In regard to packaging the KiCad binaries, not a lot has changed.  You
 should mostly be able to bump the package version, but some new major
-dependencies have been added with the SPICE similation and support for
+dependencies have been added with the SPICE simulation and support for
 IGES and STEP 3D models. We now depend on Open Cascade (by default OCE,
 but OCCT should also work.) We also now depend upon ngspice built as a
 library.
