@@ -46,7 +46,7 @@ sudo apt-get remove kicad-symbols kicad-templates  kicad-packages3d
 sudo apt-get remove kicad-doc-* kicad-locale-*
 sudo add-apt-repository -r ppa:js-reynaud/ppa-kicad
 
-Then perform the installation as previously described
+Then perform the installation of the stable released as described above this section
 
 == Nightly Development Builds
 Nightly builds are provided in a separate installation directory. It is
@@ -99,7 +99,7 @@ sudo add-apt-repository ppa:js-reynaud/ppa-kicad
 sudo apt-get update
 sudo apt install kicad
 
-CAUTION: This ppa don't allow you to install a stable version at same time
+CAUTION: This ppa don't allow you to install a stable version at the same time
 
 == 4.0 old stable
 
