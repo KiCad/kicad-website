@@ -35,10 +35,10 @@ sudo apt install kicad
 
 === Migration from legacy nightly build
 
-For legacy nightly build user, you have to remove KiCad packages before
-trying to install v5.0. Legacy nightly build will be always newer than
-v5.0 and you will not stay in v5.0.
-To remove legacy nightly build:
+Users of the legacy nightly build have to remove KiCad packages before
+trying to install version 5.0. The legacy nightly build will be always newer than
+version 5.0.
+To remove the legacy nightly build:
 
 [source,bash]
 sudo apt-get remove kicad kicad-footprints kicad-libraries
@@ -46,12 +46,11 @@ sudo apt-get remove kicad-symbols kicad-templates  kicad-packages3d
 sudo apt-get remove kicad-doc-* kicad-locale-*
 sudo add-apt-repository -r ppa:js-reynaud/ppa-kicad
 
-Then make the installation as previously described
+Then perform the installation as previously described
 
 == Nightly Development Builds
-Nightly build are provided on a separate installation directory. It is
-possible to install in same time stable version (v5.0 for example)
-and nightly build.
+Nightly builds are provided in a separate installation directory. It is
+possible to install nightly builds at the same time as a stable version (5.0 for example).
 
 Nightly development builds are available in
 https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-dev-nightly[js-reynaud's nightly PPA].
@@ -100,7 +99,7 @@ sudo add-apt-repository ppa:js-reynaud/ppa-kicad
 sudo apt-get update
 sudo apt install kicad
 
-CAUTION: This ppa don't allow you to install stable version in same time
+CAUTION: This ppa don't allow you to install a stable version at same time
 
 == 4.0 old stable
 
