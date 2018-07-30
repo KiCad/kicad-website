@@ -1,0 +1,35 @@
++++
+title = "Post 5.0 notes"
+date = "2018-07-30"
+draft = false
+aliases = [
+    "/post/post-5.0/"
+]
+categories = [
+    "Release Notes"
+]
++++
+
+It is already a week since 5.0 has been released, meaning it is a good moment
+to sum up the release.
+
+Many Windows users have reported problems, most frequently related to wxWidgets
+assert dialogs showing up in pcbnew. The problem has been resolved, therefore
+if you still experience any issues please reinstall KiCad using the current
+Windows installer.
+
+There is still one problem that has appeared very late in the 5.0 release
+cycle: Python scripting support in recent Linux systems. Since some time
+wxPython packages are based on GTK3 which causes a lot of problems in KiCad.
+Due to that, we were forced to disable Python scripting in many KiCad packages.
+We feel sorry about that, but we want you to know that fixing the scripting
+support has received top priority. This is the main goal of the 5.1 release
+that we estimate to have ready around November. After that we will start
+merging feature branches in the 6.0 development cycle.
+
+Last, but not least: the donation campaign. It was hard to miss it, and frankly
+speaking - we are amazed by the donation flow! We have already reached our goal
+in a week time and the donor counter does not stop. It is another time when
+KiCad community proves to be very active and caring. Thank you all!
+
+**The KiCad Development Team**
