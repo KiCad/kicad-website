@@ -9,6 +9,8 @@ title = "In the Media"
 
 **KiCad has been featured in the following blog posts, press and media:**
 
+https://joinup.ec.europa.eu/news/special-kind-economic-actor[CERN contribution to KiCad aids Open Source Hardware and knowledge transfer] (31-JUL-2018)
+
 https://www.digikey.com/en/blog/the-start-of-the-digi-key-kicad-library?utm_source=twitter&utm_medium=Social&utm_campaign=posts[The Start of the Digi-Key KiCad Library] (15-MAY-2018)
 
 https://www.digikey.com/en/blog/interview-with-wayne-stambaugh-pt1[Interview with Wayne Stambaugh about KiCad, Part 1] (13-MAR-2018) https://www.digikey.com/en/blog/interview-with-wayne-stambaugh-pt2[Part 2] (19-MAR-2018) https://www.digikey.com/en/blog/interview-with-wayne-stambaugh-pt3[Part 3] (26-MAR-2018)
