@@ -4,7 +4,7 @@ entries:
     - code: Fuse
       example: Fuse
     - code: MAN
-      example: Littlefuse
+      example: Littelfuse
       title: Manufacturer name
       optional: 1
     - code: Series
