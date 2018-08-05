@@ -7,7 +7,7 @@ entries:
       optional: 1
       title: Type of fuse
     - code: MAN
-      example: Littlefuse
+      example: Littelfuse
       optional: 1
       title: Manufacturer name
     - code: Series
