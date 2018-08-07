@@ -12,9 +12,7 @@ weight = 20
 
 {{< repology fedora_27 >}}
 
-{{< repology fedora_26 >}}
-
-In general, latest Fedora releases ship the stable versions KiCad as they are
+In general, latest Fedora releases ship the stable versions of KiCad as they are
 released.
 
 To install the most recent stable KiCad package on Fedora simply search for it
@@ -30,29 +28,40 @@ to install a testing package:
 [source,bash]
 dnf --enablerepo=updates-testing install kicad
 
+As of KiCad 5.0.0, the 3D models have been moved to a separate package and can
+be installed with:
+
+[source,bash]
+dnf install kicad-packages3d
+
 == Nightly Development Builds
 
 Nightly development builds for Fedora are available via the
-link:https://copr.fedorainfracloud.org/coprs/g/kicad/kicad/[copr build
-service].
+link:https://copr.fedorainfracloud.org/coprs/g/kicad/kicad/[copr build service].
 
 This build can be installed on Fedora with:
 
-----
+[source,bash]
 dnf copr enable @kicad/kicad
 dnf install kicad
-----
+
+The kicad package includes the latest revision of all libraries except for the
+3D models from the
+link:https://github.com/KiCad/kicad-packages3D[kicad-packages3D] repository.
+Because of their size of more than 4 GB on disk they have been moved to a
+separate package and can be installed with:
+
+[source,bash]
+dnf install kicad-packages3d
 
 The `@kicad/kicad` repository replaces the `mangelajo/kicad` repository that was
 previously used to deliver the development builds. If you've previously used it
 you can safely remove it now:
 
-----
+[source,bash]
 dnf copr remove mangelajo/kicad
-----
 
 If you don't have copr install with:
 
-----
+[source,bash]
 dnf install dnf-plugins-core
-----
