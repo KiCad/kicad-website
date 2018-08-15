@@ -6,12 +6,11 @@ A footprint name has to convey a lot of information to clearly specify the purpo
 
 Not all footprints will require the use of these abbreviations - they are provided as a method of standardising the manner in which footprint parameters are called out when encountered.
 
-In many cases, the major dimensions (x/y/z) of a footprint may be specified without a prefix, as the body dimensions are assumed to have the greatest priority in the footprint name. In cases where potential conflicts exist, the body dimensions must be explicitly named with the prefix `B`.
+In many cases, the major dimensions (x/y/z) of a footprint may be specified without a prefix, as the body dimensions are assumed to have the greatest priority in the footprint name. 
 
-Here is an example. Note, however, that in this case the B is not necessary since it can be inferred from context, and the Pitch (pin spacing) is already explicitly preceded by a 'P', making it clearly distinguishable as well.
-e.g. `SOIC-8_B3.2x5.7mm_P1.27mm`
+e.g. `SOIC-8_3.2x5.7mm_P1.27mm`
 
-Therefore, in this case just use: `SOIC-8_3.2x5.7mm_P1.27mm`.
+In cases where potential conflicts exist, however, the body dimensions must be explicitly named with the prefix `B`.
 
 Refer to the table below for accepted prefix abbreviations.
 
