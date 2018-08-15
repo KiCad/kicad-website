@@ -8,7 +8,10 @@ Not all footprints will require the use of these abbreviations - they are provid
 
 In many cases, the major dimensions (x/y/z) of a footprint may be specified without a prefix, as the body dimensions are assumed to have the greatest priority in the footprint name. In cases where potential conflicts exist, the body dimensions must be explicitly named with the prefix `B`.
 
-e.g. `SOIC-8_3.2x5.7mm_P1.27mm`
+Here is an example. Note, however, that in this case the B is not necessary since it can be inferred from context, and the Pitch (pin spacing) is already explicitly preceded by a 'P', making it clearly distinguishable as well.
+e.g. `SOIC-8_B3.2x5.7mm_P1.27mm`
+
+Therefore, in this case just use: `SOIC-8_3.2x5.7mm_P1.27mm`.
 
 Refer to the table below for accepted prefix abbreviations.
 
@@ -17,7 +20,7 @@ Refer to the table below for accepted prefix abbreviations.
 *Examples:*
 
 * `LQFP-32_4x4x1.1mm_P1.65mm` - LQFP package, 32 pins, 4x4mm body, 1.1mm height, 1.65mm pitch
-* `CP_Radial_D4.5mm_P2.5mm_H10mm` - Radial capacitor, 4.5mm diameter, 2.5mm pitch, 10mm height
+* `CP_Radial_D4.5mm_P2.5mm_H10mm` - Radial polarized capacitor, 4.5mm diameter, 2.5mm pitch, 10mm height
 
 If the parameter is not found in the table above, the name of the parameter should be entered in full.
 
