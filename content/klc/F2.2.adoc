@@ -6,7 +6,7 @@ A footprint name has to convey a lot of information to clearly specify the purpo
 
 Not all footprints will require the use of these abbreviations - they are provided as a method of standardising the manner in which footprint parameters are called out when encountered.
 
-In many cases, the major dimensions (x/y/z) of a footprint may be specified without a prefix, as the body dimensions are assumed to have the greatest priority in the footprint name. 
+In many cases, the major dimensions (x/y/z) of a footprint may be specified without a prefix, as the body dimensions are assumed to have the greatest priority in the footprint name. Therefore, the "3.2x5.7mm" part of the example name below requires no 'B' prefix, and is not required to be written as "B3.2x5.7mm". 
 
 e.g. `SOIC-8_3.2x5.7mm_P1.27mm`
 
