@@ -1,8 +1,10 @@
 +++
-brief = "Pin 1 should be rectangular, and other pads circular or oval"
+brief = "Pin 1 should be rectangular or a rounded rectangle. Other pads circular or oval"
 +++
 
-Through hole components should set the shape of Pin 1 to `Rectangular`, and all other pads to either `Circular` or `Oval`. This aids in orienting the component during placement and also for locating Pin 1 for circuit troubleshooting.
+Through hole components should set the shape of Pin 1 to `Rectangular` or `Rounded Rectangle`, and all other pads to either `Circular` or `Oval`.
+This aids in orienting the component during placement and also for locating Pin 1 for circuit troubleshooting.
+For rounded rectangle pads the corner size should be 25% with a maximum radius of 0.25mm.
 
 Pad shape can be adjusted in the *Pad Properties* dialog:
 
