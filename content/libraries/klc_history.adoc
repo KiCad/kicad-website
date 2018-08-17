@@ -6,6 +6,9 @@ url = "/libraries/klc/history/"
 
 ---
 
+== 3.0.13 - 2018-08-17
+* Clarify footprint naming and pin numbers for parts with shield or mounting pins.
+
 == 3.0.12 - 2018-08-17
 * Allow the use of rounded rectangle pads for marking pin 1 in THT parts.
 

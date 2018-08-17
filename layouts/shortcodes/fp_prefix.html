@@ -13,14 +13,6 @@
   </td></ul>
 </tr>
 <tr>
-  <td>EP</td><td>Exposed pad</td>
-  <td><ul>
-    <li>Only used if there is one more more exposed pads under a component</li>
-    <li>If there is more than one exposed pad, prepend with the pad count (e.g. <code>3EP</code>)</li>
-    <li>If exposed pad dimensions need to be added, append them here e.g. <code>EP2.4x3.6</code> - 2.4mm x 3.6mm</li>
-  </ul></td>
-</tr>
-<tr>
 <td>D</td><td>Diameter</td>
 <td><ul>
   <li>Diameter of major axis for cylindrical component</li>
@@ -42,13 +34,6 @@
   <li>Body size <code>B</code> should be used in preference, where possible</li>
   <li>e.g. <code>L15.3mm</code> - 15mm length</li>
 </ul></td>
-  </tr>
-<tr>
-  <td>P</td><td>Pad pitch</td>
-  <td><ul>
-    <li>Pitch (distance) between pins, pads or leads</li>
-    <li>e.g. <code>P0.63mm</code> - 0.63mm pitch between pads</li>
-  </ul></td>
 </tr>
 <tr>
   <td>W</td><td>Width</td>
@@ -56,6 +41,19 @@
     <li>Width along minor axis of component</li>
     <li>Body size <code>B</code> should be used in preference, where possible</li>
     <li>e.g. <code>W4.75mm</code> - 4.75mm width</li>
+  </ul></td>
+</tr>
+<tr>
+  <td>EP</td><td>Exposed pad dimensions</td>
+  <td><ul>
+    <li>Packages that include a single exposed pad include the size of this pad. e.g. <code>EP2.4x3.6</code> - for a single 2.4mm x 3.6mm pad.</li>
+  </ul></td>
+</tr>
+<tr>
+  <td>P</td><td>Pad pitch</td>
+  <td><ul>
+    <li>Pitch (distance) between pins, pads or leads</li>
+    <li>e.g. <code>P0.63mm</code> - 0.63mm pitch between pads</li>
   </ul></td>
 </tr>
 <tr>

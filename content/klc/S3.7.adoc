@@ -1,7 +1,17 @@
 +++
-brief = "Pin numbering for exposed pads"
+brief = "Pin numbering for specialized pads"
 +++
 
 For IC components with exposed pads, the number of the exposed pad should start one greater than the pin-count of the footprint.
 
 For a SOIC-8 package with a single exposed pad, the exposed pad will be assigned the number `9`
+
+---
+
+Shielded components use "SH" as the pin number for connecting the shield.
+For a pin to qualify as the shield pin it must be connected to a metal enclosure.
+For connectors it must connect to the shield of the cable.
+
+Parts that include mechanical mounting pads without electrical use, get the pin number "MP".
+Non plated through holes do not get any pad number assigned. (They do not get a pin in the symbol.)
+An example for such a pure mechanical mounting pad would be the pads for the two metal leads on the side of Molex picoblade smd connectors.
