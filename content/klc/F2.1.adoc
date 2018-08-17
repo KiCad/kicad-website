@@ -11,6 +11,15 @@ Each footprint is a `.kicad_mod` file (stored within a `.pretty` directory). The
   * `TO-90`
   * `QFN-48`
   * `DIP-20`
+. Packages with special pads add an identifier to the pin count field separated by a hyphen
+  * The field includes the count of uniquely numberd pads of this type.
+  ** For exposed pads (large copper pad below the part) `[count]EP`
+  ** For shield pads `[count]SH` (Unless such a pin is already expected for the part. An example would be a HDMI connector.)
+  ** For pads connecting pure mechanical mounting leads `[count]MP`
+  * Examples from the library.
+  ** `DFN-6-1EP_2x2mm_P0.5mm_EP0.61x1.42mm`
+  ** `Samtec_LSHM-110-xx.x-x-DV-S_2x10-1SH_P0.50mm_Vertical`
+  ** `Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal`
 . Unique _fields_ (parameters) in the footprint name are separated by `_` character.
 . Package dimensions are specified as `length` x `width` (and optionally `height`)
   * `3.5x3.5x0.2mm`
