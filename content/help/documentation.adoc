@@ -92,7 +92,6 @@ Footprint selector helper (always run from Eeschema).
 [role="table table-striped table-condensed"]
 |===
 |Language |Format
-
 |English | link:http://docs.kicad-pcb.org/stable/en/cvpcb.html[HTML] link:http://docs.kicad-pcb.org/stable/en/cvpcb.pdf[PDF] link:http://docs.kicad-pcb.org/stable/en/cvpcb.epub[ePub]
 |Deutsch | link:http://docs.kicad-pcb.org/stable/de/cvpcb.html[HTML] link:http://docs.kicad-pcb.org/stable/de/cvpcb.pdf[PDF] link:http://docs.kicad-pcb.org/stable/de/cvpcb.epub[ePub]
 |Español | link:http://docs.kicad-pcb.org/stable/es/cvpcb.html[HTML] link:http://docs.kicad-pcb.org/stable/es/cvpcb.pdf[PDF] link:http://docs.kicad-pcb.org/stable/es/cvpcb.epub[ePub]
@@ -101,6 +100,7 @@ Footprint selector helper (always run from Eeschema).
 |日本語 | link:http://docs.kicad-pcb.org/stable/ja/cvpcb.html[HTML] link:http://docs.kicad-pcb.org/stable/ja/cvpcb.pdf[PDF] link:http://docs.kicad-pcb.org/stable/ja/cvpcb.epub[ePub]
 |Polski | link:http://docs.kicad-pcb.org/stable/pl/cvpcb.html[HTML] link:http://docs.kicad-pcb.org/stable/pl/cvpcb.pdf[PDF] link:http://docs.kicad-pcb.org/stable/pl/cvpcb.epub[ePub]
 |Русский | link:http://docs.kicad-pcb.org/stable/ru/cvpcb.html[HTML] link:http://docs.kicad-pcb.org/stable/ru/cvpcb.pdf[PDF] link:http://docs.kicad-pcb.org/stable/ru/cvpcb.epub[ePub]
+|简体中文 | link:http://docs.kicad-pcb.org/stable/zh/cvpcb.html[HTML] link:http://docs.kicad-pcb.org/stable/zh/cvpcb.pdf[PDF] link:http://docs.kicad-pcb.org/stable/zh/cvpcb.epub[ePub]
 |===
 
 
@@ -118,6 +118,7 @@ Gerber viewer
 |日本語 | link:http://docs.kicad-pcb.org/stable/ja/gerbview.html[HTML] link:http://docs.kicad-pcb.org/stable/ja/gerbview.pdf[PDF] link:http://docs.kicad-pcb.org/stable/ja/gerbview.epub[ePub]
 |Polski | link:http://docs.kicad-pcb.org/stable/pl/gerbview.html[HTML] link:http://docs.kicad-pcb.org/stable/pl/gerbview.pdf[PDF] link:http://docs.kicad-pcb.org/stable/pl/gerbview.epub[ePub]
 |Русский | link:http://docs.kicad-pcb.org/stable/ru/gerbview.html[HTML] link:http://docs.kicad-pcb.org/stable/ru/gerbview.pdf[PDF] link:http://docs.kicad-pcb.org/stable/ru/gerbview.epub[ePub]
+|简体中文 | link:http://docs.kicad-pcb.org/stable/zh/gerbview.html[HTML] link:http://docs.kicad-pcb.org/stable/zh/gerbview.pdf[PDF] link:http://docs.kicad-pcb.org/stable/zh/cvpcb.epub[ePub]
 |===
 
 == Utilities
