@@ -28,6 +28,19 @@ Where the KLC is unclear, users should attempt to match the convention of existi
 Refer to the link:/libraries/contribute/[contribution guidelines] for introductory information on contributing to the KiCad libraries.
 
 ---
+
+== KLC Helper Scripts
+
+The KiCad library team has developed a set of link:https://github.com/kicad/kicad-library-utils[Python scripts] which can be used to help test if library components conform to the KLC requirements.
+
+When a pull request is made to the libraries, the contributed files are automatically checked using these scripts. It can be helpful to run these scripts on your local machine before submitting a PR, as it will help speed up the process of merging your contribution(s) into the library.
+
+To run the footprint checker script, for instance, `cd` into the "kicad-library-utils/pcb" directory, then run the Python script `./check_kicad_mod.py path_to_fp1.kicad_mod path_to_fp2.kicad_mod -vv`. This will carefully check your footprint according to the KLC requirements laid out below, notifying you of any discrepancies, errors, or violations. See more usage examples in the readme at the link above.
+
+__Note: While many of the KLC guidelines are checked by these scripts, there are some which are not covered. Additionally, any PR requires manual checking by a member of the library team.__
+
+---
+
 == General Library Guidelines
 
 The general library guidelines apply to all library elements (symbols / footprints / models). However, these guidelines may be overridden in some cases by specific exceptions described in further sections.
@@ -37,6 +50,7 @@ The general library guidelines apply to all library elements (symbols / footprin
 {{< klc_list title="Atomic and Generic Parts" filter="G2." >}}
 
 ---
+
 == Symbol Guidelines
 
 The following guidelines apply to schematic symbols and symbol library files.
@@ -90,14 +104,6 @@ The following guidelines apply to contribution of 3D model data.
 {{< klc_list title="3D File Requirements " filter="M2.">}}
 
 ---
-
-== KLC Helper Scripts
-
-The KiCad library team have developed a set of link:https://github.com/kicad/kicad-library-utils[Python scripts] which can be used to help test if library components conform to the KLC requirements.
-
-When a pull request is made to the libraries, the contributed files are automatically checked using these scripts. It can be helpful to run these scripts on your local machine before submitting a PR, as it will help speed up the process of merging your contribution(s) into the library.
-
-__Note: While many of the KLC guidelines are checked by these scripts, there are some which are not covered. Additionally, any PR requires manual checking by a member of the library team.__
 
 == KLC Revision History
 
