@@ -12,11 +12,11 @@ KiCad is known to work on Mac OS X 10.11 through macOS 10.13.  It may work on la
 
 Current Version: *5.0.0*
 
-- http://downloads.kicad-pcb.org/osx/stable/kicad-unified-5.0.0-1.dmg[KiCad]
+- http://downloads.kicad-pcb.org/osx/stable/kicad-unified-5.0.0-1.dmg[KiCad] http://www2.futureware.at/~nickoe/kicad-downloads-mirror/osx/stable/kicad-unified-5.0.0-1.dmg[mirror]
 
 == Nightly Development Builds
 
-The _nightly_ builds are snapshots of the codebase at a specific time. They may contain more bugs than usual, although we try our best.  If you need to test features in active development, the nightly can be faster to download, and extras can be used to turn a nightly into a full install. 
+The _nightly_ builds are snapshots of the codebase at a specific time. They may contain more bugs than usual, although we try our best.  If you need to test features in active development, the nightly can be faster to download, and extras can be used to turn a nightly into a full install.
 
 - *kicad-nightly* does not contain the 3D models.  It contains the KiCad suite, documentation, schematic symbols, footprints, translations, templates, and demos.
 
