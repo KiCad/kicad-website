@@ -5,6 +5,8 @@ url = "/libraries/klc/history/"
 +++
 
 ---
+== 3.0.14 - 2018-09-16
+* Clarify active low pins in symbols (S4.7).
 
 == 3.0.13 - 2018-08-17
 * Clarify footprint naming and pin numbers for parts with shield or mounting pins.
