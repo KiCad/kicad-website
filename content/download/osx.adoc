@@ -4,7 +4,7 @@ iconhtml = "<div><i class='fa fa-apple'></i></div>"
 weight = 2
 +++
 
-KiCad is known to work on Mac OS X 10.11 through macOS 10.13.  It may work on later versions, and if it does not, it is a bug and will be fixed.
+KiCad is known to work on Mac OS X 10.11 through macOS 10.13.  It may work on newer versions.  If it does not, it is a bug and will be fixed.
 
 *kicad-unified* is the default package that most people should install.  *kicad-unified* contains everything: the KiCad suite, documentation, schematic symbols, footprints, translations, templates, demos, and 3D models.
 
