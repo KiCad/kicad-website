@@ -12,7 +12,7 @@ weight = 10
 
 The release 4.0.5 is available for Debian
 https://packages.debian.org/stretch/kicad[stable/stretch], the backported
-version 4.0.7 is available in
+version 5.0.0 is available in
 https://packages.debian.org/stretch-backports/kicad[stretch-backports].
 
 You can install it with the following commands in a terminal, otherwise you can
