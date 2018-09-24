@@ -2,43 +2,39 @@
 
 <!-- Page Header -->
 <header class="intro-header" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url('/img/frontpage/banner.jpg');">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6">
-				<div class="site-heading" style="padding: 100px 0 50px;">
-					<h1>{{ title .Site.Title }}</h1>
-					<h3>{{ $.Site.Params.description }}</h3>
-					<hr class="intro-divider">
-					<ul class="list-inline intro-social-buttons">
-					<li>
-						<a href="/help/documentation/" class="btn btn-default"><i class="fa fa-book fa-fw"></i> <span class="network-name">Docs</span></a>
-					</li>
-					<li>
-						<a href="/download/" class="btn btn-default btn-primary">
-						<i class="fa fa-download fa-fw"></i> <span class="network-name">Download</span>
-						<i class="fa fa-linux"></i>
-						<i class="fa fa-apple"></i>
-						<i class="fa fa-windows"></i>
-						</a>
-					</li>
-					<li>
-						<a href="/libraries/download/" class="btn btn-default">
-						<i class="fa fa-download fa-fw"></i><span class="network-name">Libraries</span>
-						</a>
-					</ul>
-				</div>
-			</div>
-			<div class="col-lg-6">
-				<div class="site-heading" style="padding: 100px 0 50px;">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/uhcMGQ32Xw0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="site-heading">
+            <h1>{{ title .Site.Title }}</h1>
+            <h3>{{ $.Site.Params.description }}</h3>
+            <hr class="intro-divider">
+            <ul class="list-inline intro-social-buttons">
+            <li>
+                <a href="/help/documentation/" class="btn btn-default"><i class="fa fa-book fa-fw"></i> <span class="network-name">Docs</span></a>
+            </li>
+            <li>
+                <a href="/download/" class="btn btn-default btn-primary">
+                <i class="fa fa-download fa-fw"></i> <span class="network-name">Download</span>
+                <i class="fa fa-linux"></i>
+                <i class="fa fa-apple"></i>
+                <i class="fa fa-windows"></i>
+                </a>
+            </li>
+            <li>
+                <a href="/libraries/download/" class="btn btn-default">
+                <i class="fa fa-download fa-fw"></i><span class="network-name">Libraries</span>
+                </a>
+            </ul>
+        </div>
+        </div>
+    </div>
+    </div>
 </header>
 
-<!-- Page Content -->
-<a name="features"></a>
+    <!-- Page Content -->
+    <!-- These content sections could potentially be adoc's later on for easy translation. We could then place them in a folder an loop through that to add it here. The image can be specified in the adoc also. Maybe even show some of the latests posts? -->
+<a  name="services"></a>
 <div class="container">
     <div class="row">
         <div class="col-md-9">
