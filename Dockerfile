@@ -53,4 +53,10 @@ COPY ./.docker/default.conf /etc/nginx/conf.d/default.conf
 #copy over the built website from the build environment docker
 COPY --from=build-env /site/public /usr/share/nginx/html
 
-# we now assume the default nginx container config startups nginx on port 80
+# change permissions to allow running as arbitrary user
+RUN chmod -R 777 /var/log/nginx /var/cache/nginx /var/run \
+     && chgrp -R 0 /etc/nginx \
+     && chmod -R g+rwX /etc/nginx
+
+#expose 8081 as we cant use port 80 on openshift (non-root restriction)
+EXPOSE 8081
