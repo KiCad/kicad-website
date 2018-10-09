@@ -1,0 +1,24 @@
++++
+title = "Testing: Eeschema Advanced Canvas Released"
+date = "2018-09-10"
+draft = false
+aliases = [
+    "/post/eeschema-gal/"
+]
++++
+
+The KiCad project recently merged the Eeschema modern canvas code into
+the development branch.  This represents a significant change in the way
+the schematics and symbols are rendered by using the same modern canvas
+code used in Pcbnew.  The schematic and symbol editing tools will not
+use the advanced tool framework used in Pcbnew so there will be no new
+editing features such as advanced selection, snapping, etc.  The advanced
+tool framework features will be introduced into Eeschema during version 6
+development.
+
+This will be one of the last major code changes before the stable 5.1
+release feature freeze so please help test it so we can get the stable
+5.1 release out as soon as possible.  Thank you for your patience during
+this transition.
+
+The KiCad Development Team
