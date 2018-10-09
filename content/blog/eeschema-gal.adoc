@@ -1,6 +1,6 @@
 +++
 title = "Testing: Eeschema Advanced Canvas Released"
-date = "2018-09-10"
+date = "2018-10-09"
 draft = false
 aliases = [
     "/post/eeschema-gal/"
