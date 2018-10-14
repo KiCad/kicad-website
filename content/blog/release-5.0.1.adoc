@@ -1,0 +1,41 @@
++++
+title = "KiCad 5.0.1 Release"
+date = "2018-10-14"
+aliases = [
+    "/post/release-5.0.1/"
+]
+categories = [
+    "Release Notes"
+]
++++
+
+:icons: fonts
+:iconsdir: /img/icons/
+
+The KiCad project is proud to announce the latest series 5 stable
+release of KiCad.  The 5.0.1 stable version contains critical bug
+fixes and other minor improvements since the 5.0.0 release.  It
+also includes improved footprint, symbol, and 3D model libraries,
+translations, and documentation.  A list of all of the fixed bugs
+since the 5.0.0 release can be found on the
+link:https://launchpad.net/kicad/5.0/5.0.1[KiCad 5.0.1 milestone page].
+This release contains several critical bug fixes so please consider
+upgrading as soon as possible.
+
+[WARNING]
+Please note that a last minute bug was found in the Eagle schematic
+import feature too late to be fixed in this release which is expected
+to be fixed in release 5.0.2.  If you need to convert Eagle schematics
+you may want to hold off upgrading until 5.0.2.
+
+Version 5.0.1 is made from the
+link:https://git.launchpad.net/kicad/log/?h=5.0[lp:kicad/5.0]
+branch with some cherry picked changes from the development branch.
+
+KiCad binaries will be available for download for Windows, MacOS, and
+Linux are available or will be in the very near future.  See the
+link:/download[download page] for guidance.
+
+Thank you to all developers, packagers, librarians, document writers,
+translators, and everyone else who helped make this release possible.
+
