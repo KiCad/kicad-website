@@ -361,6 +361,10 @@ table p {
 	margin-top: 0;
 }
 
+.admonitionblock {
+    color: rgba(0,0,0,.6);
+}
+
 /* asciidoctor styling output styling */
 .admonitionblock>table td.icon {
     text-align: center;
@@ -371,7 +375,12 @@ table p {
     padding-left: 1.125em;
     padding-right: 1.25em;
     border-left: 1px solid #ddddd8;
-    color: rgba(0,0,0,.6);
+}
+
+.admonitionblock.warning {
+    color:#8a6d3b;
+    background-color:#fcf8e3;
+    border-color:#faebcc
 }
 
 /* side bar adjustment */
