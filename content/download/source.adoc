@@ -23,17 +23,17 @@ project templates.
 
 == Stable Release
 
-Current Version: *5.0.0*
+Current Version: *5.0.1*
 
 Tarballs intended to be used by packagers:
 
-* link:https://launchpad.net/kicad/5.0/5.0.0/+download/kicad-5.0.0.tar.xz[Source code]
-* link:http://downloads.kicad-pcb.org/docs/kicad-doc-5.0.0.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/5.0.0[doc sources]
-* link:https://github.com/KiCad/kicad-i18n/releases/tag/5.0.0[i18n (translations)]
-* link:https://github.com/KiCad/kicad-symbols/releases/tag/5.0.0[symbols]
-* link:https://github.com/KiCad/kicad-footprints/releases/tag/5.0.0[footprints]
-* link:https://github.com/KiCad/kicad-packages3D/releases/tag/5.0.0[packages3D]
-* link:https://github.com/KiCad/kicad-templates/releases/tag/5.0.0[templates]
+* link:https://launchpad.net/kicad/5.0/5.0.1/+download/kicad-5.0.1.tar.xz[Source code]
+* link:http://downloads.kicad-pcb.org/docs/kicad-doc-5.0.1.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/5.0.1[doc sources]
+* link:https://github.com/KiCad/kicad-i18n/releases/tag/5.0.1[i18n (translations)]
+* link:https://github.com/KiCad/kicad-symbols/releases/tag/5.0.1[symbols]
+* link:https://github.com/KiCad/kicad-footprints/releases/tag/5.0.1[footprints]
+* link:https://github.com/KiCad/kicad-packages3D/releases/tag/5.0.1[packages3D]
+* link:https://github.com/KiCad/kicad-templates/releases/tag/5.0.1[templates]
 
 With never linux releases it might be easiest to disable the wxpython
 option. This is becasue there is an incompatability between wxwidgets
@@ -49,7 +49,7 @@ it on a case by case basis]. If you package for linux you are
 link:https://www.mail-archive.com/kicad-developers@lists.launchpad.net/msg15700.html[expected
 to enable python scripting].
 
-Due to API instability in the Boost.Context library, KiCad 5.0.0 ships with
+Due to API instability in the Boost.Context library, KiCad 5.0.1 ships with
 a replacement implementation, which is partially written in assembler
 language. Because of this, several platforms may fail to compile.
 
