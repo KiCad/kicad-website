@@ -10,9 +10,9 @@ KiCad is known to work on Mac OS X 10.11 through macOS 10.13.  It may work on ne
 
 == Stable Release
 
-Current Version: *5.0.0*
+Current Version: *5.0.1*
 
-- http://downloads.kicad-pcb.org/osx/stable/kicad-unified-5.0.0-1.dmg[KiCad] http://www2.futureware.at/~nickoe/kicad-downloads-mirror/osx/stable/kicad-unified-5.0.0-1.dmg[[mirror]]
+- http://downloads.kicad-pcb.org/osx/stable/kicad-unified-5.0.1.dmg[KiCad] http://www2.futureware.at/~nickoe/kicad-downloads-mirror/osx/stable/kicad-unified-5.0.1.dmg[[mirror]]
 
 == Nightly Development Builds
 
