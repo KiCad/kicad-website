@@ -3,6 +3,8 @@ title = "Arch Linux"
 iconhtml = "<div class='fl-archlinux'></div>"
 weight = 20
 +++
+:icons: fonts
+:iconsdir: /img/icons/
 
 == Stable Release
 {{< repology arch >}}

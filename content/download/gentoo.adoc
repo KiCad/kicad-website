@@ -3,6 +3,8 @@ title = "Gentoo"
 iconhtml = "<div class='fl-gentoo'></div>"
 weight = 95
 +++
+:icons: fonts
+:iconsdir: /img/icons/
 
 == Stable Release
 

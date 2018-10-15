@@ -3,6 +3,8 @@ title = "Sabayon"
 iconhtml = "<div class='fl-sabayon'></div>"
 weight = 95
 +++
+:icons: fonts
+:iconsdir: /img/icons/
 
 == Stable Release
 KiCad 4.0.7 is available in in the

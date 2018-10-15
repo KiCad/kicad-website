@@ -3,6 +3,8 @@ title = "openSUSE"
 iconhtml = "<div class='fl-opensuse'></div>"
 weight = 20
 +++
+:icons: fonts
+:iconsdir: /img/icons/
 
 == Stable release
 {{< repology opensuse_tumbleweed >}}

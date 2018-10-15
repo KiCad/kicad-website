@@ -3,6 +3,8 @@ title = "MacOS"
 iconhtml = "<div><i class='fa fa-apple'></i></div>"
 weight = 2
 +++
+:icons: fonts
+:iconsdir: /img/icons/
 
 KiCad is known to work on Mac OS X 10.11 through macOS 10.13.  It may work on newer versions.  If it does not, it is a bug and will be fixed.
 

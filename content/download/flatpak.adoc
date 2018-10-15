@@ -3,6 +3,8 @@ title = "Flatpak"
 iconhtml = "<div class='fl-flathub'></div>"
 weight = 30
 +++
+:icons: fonts
+:iconsdir: /img/icons/
 
 == Stable Release
 

@@ -3,6 +3,8 @@ title = "Snappy"
 iconhtml = "<div class='fl-snappy'></div>"
 weight = 30
 +++
+:icons: fonts
+:iconsdir: /img/icons/
 
 == Stable Release
 

@@ -3,6 +3,8 @@ title = "GNU Guix"
 iconhtml = "<div class='fl-gnu-guix'></div>"
 weight = 95
 +++
+:icons: fonts
+:iconsdir: /img/icons/
 
 === Stable Release
 {{< repology gnuguix >}}

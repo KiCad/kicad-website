@@ -3,6 +3,8 @@ title = "Source Code"
 iconhtml = "<div><i class='fa fa-code'></i></div>"
 weight = 100
 +++
+:icons: fonts
+:iconsdir: /img/icons/
 
 
 The most recent source code for KiCad can be downloaded from the

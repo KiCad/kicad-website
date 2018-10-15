@@ -3,6 +3,8 @@ title = "Debian"
 iconhtml = "<div class='fl-debian'></div>"
 weight = 10
 +++
+:icons: fonts
+:iconsdir: /img/icons/
 
 == Debian Stable (Stretch)
 
