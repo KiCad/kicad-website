@@ -39,3 +39,6 @@ browser will autorefresh once the rebuild completes successfully.
 
 == Contributing
 Please read the link:CONTRIBUTING.adoc[CONTRIBUTING Guidelines]
+
+== Docker
+A dockerfile is included that builds and packages the website with an nginx instance
