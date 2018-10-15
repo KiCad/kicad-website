@@ -58,5 +58,9 @@ RUN chmod -R 777 /var/log/nginx /var/cache/nginx /var/run \
      && chgrp -R 0 /etc/nginx \
      && chmod -R g+rwX /etc/nginx
 
+# use a different user as open shift wants non-root containers
+# do it at the end here as it'll block our "root" commands to set the container up
+USER 1000
+
 #expose 8081 as we cant use port 80 on openshift (non-root restriction)
 EXPOSE 8081
