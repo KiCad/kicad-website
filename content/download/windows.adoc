@@ -16,8 +16,8 @@ import feature too late to be fixed in this release which is expected
 to be fixed in release 5.0.2.  If you need to convert Eagle schematics
 you may want to hold off upgrading until 5.0.2.
 
-- http://downloads.kicad-pcb.org/windows/stable/kicad-5.0.1_1-x86_64.exe[Windows 64-bit (x86_64)] http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.0.1_1-x86_64.exe[[mirror]]
-- http://downloads.kicad-pcb.org/windows/stable/kicad-5.0.1_1-i686.exe[Windows 32-bit (i686)] http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.0.1_1-i686.exe[[mirror]]
+- http://downloads.kicad-pcb.org/windows/stable/kicad-5.0.1_3-x86_64.exe[Windows 64-bit (x86_64)] http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.0.1_3-x86_64.exe[[mirror]]
+- http://downloads.kicad-pcb.org/windows/stable/kicad-5.0.1_3-i686.exe[Windows 32-bit (i686)] http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.0.1_3-i686.exe[[mirror]]
 
 == Nightly Development Builds
 
