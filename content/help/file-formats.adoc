@@ -72,6 +72,8 @@ link:http://bazaar.launchpad.net/~stambaughw/kicad/doc-read-only/download/head:/
 
 * `.wrl`: VRML 3D model used in the 3D viewer to represent parts.
 
+* `.step`: STEP 3D model used for integration with MCAD software packages. KiCad supports STEP file integration and can export board and component models into an integrated STEP file.
+
 KiCad uses a few temporary file formats internally. The files it creates with these extensions (marked above with "^*^" ) can be excluded from version control software since they can be automatically regenerated from the source files when necessary.
 
 == Dedicated file formats
