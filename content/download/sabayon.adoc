@@ -7,8 +7,8 @@ weight = 95
 :iconsdir: /img/icons/
 
 == Stable Release
-KiCad 4.0.7 is available in in the
-link:https://packages.sabayon.org/show/kicad,207803,sabayon-weekly,amd64,5,standard[official
+KiCad 5.0.0 is available in in the
+link:https://packages.sabayon.org/quicksearch?q=kicad[official
 sabayon packages]. 
 
 You can install it via the package manager Rigo
