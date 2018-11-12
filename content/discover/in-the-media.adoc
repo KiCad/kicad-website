@@ -9,6 +9,8 @@ title = "In the Media"
 
 **KiCad has been featured in the following blog posts, press and media:**
 
+https://blog.system76.com/post/179897016318/system76-provides-funds-to-open-source-projects[System76 Provides Funds to Open Source Projects] (8-NOV-2018)
+
 https://joinup.ec.europa.eu/news/special-kind-economic-actor[CERN contribution to KiCad aids Open Source Hardware and knowledge transfer] (31-JUL-2018)
 
 https://www.digikey.com/en/blog/the-start-of-the-digi-key-kicad-library?utm_source=twitter&utm_medium=Social&utm_campaign=posts[The Start of the Digi-Key KiCad Library] (15-MAY-2018)
