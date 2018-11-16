@@ -14,7 +14,7 @@ weight = 10
 
 The release 4.0.5 is available for Debian
 https://packages.debian.org/stretch/kicad[stable/stretch], the backported
-version 5.0.0 is available in
+version 5.0.1 is available in
 https://packages.debian.org/stretch-backports/kicad[stretch-backports].
 
 You can install it with the following commands in a terminal, otherwise you can
@@ -24,14 +24,13 @@ use any of the package managers you like:
 sudo apt update
 sudo apt install kicad
 
-Offline docs are available in seperate packages named for example
+Offline docs are available in separate packages named for example
 `kicad-doc-en`. You can search for them with _apt_ or _apt-cache_ for example.
 
 [source.bash]
 apt search kicad-doc
 # or alternatively if you are on wheezy
 apt-cache search kicad-doc
-
 
 == Debian Old-Stable (Jessie)
 
@@ -51,7 +50,6 @@ https://packages.debian.org/jessie-backports-sloppy/kicad[jessie-backports-slopp
 == Debian Unstable (Sid)
 
 {{< repology debian_unstable >}}
-
 
 The current upstream release is available for Debian
 https://packages.debian.org/sid/kicad[unstable/sid].
