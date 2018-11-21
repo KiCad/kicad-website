@@ -19,10 +19,12 @@ A fully enclosed Component courtyard must be drawn on the `F.CrtYd` layer, with 
 . Courtyard uses `0.05mm` line width
 . All courtyard line elements are placed on a `0.01mm` grid
 . If the component requires a courtyard on the back of the PCB, a corresponding courtyard must be provided on the `B.CrtYd` layer.
+. Where the courtyard depends on the dimensions of the physical part body,
+  clearance is calculated from the nominal part dimensions.
 
 Courtyard clearance should adhere to the following requirements:
 
-[start=4]
+[start=5]
 . Unless otherwise specified, clearance is `0.25mm`
 . Components smaller than `0603` should have a clearance of `0.15mm`
 . Connectors should have a clearance of `0.5mm`, in addition to the clearance required for mating of connector
