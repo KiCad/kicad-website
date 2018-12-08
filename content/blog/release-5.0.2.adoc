@@ -1,0 +1,34 @@
++++
+title = "KiCad 5.0.2 Release"
+date = "2018-12-09"
+aliases = [
+    "/post/release-5.0.2/"
+]
+categories = [
+    "Release Notes"
+]
++++
+
+:icons: fonts
+:iconsdir: /img/icons/
+
+The KiCad project is proud to announce the latest series 5 stable
+release of KiCad.  The 5.0.2 stable version contains critical bug
+fixes and other minor improvements since the 5.0.1 release.  It
+also includes improved footprint, symbol, and 3D model libraries,
+translations, and documentation.  A list of all of the fixed bugs
+since the 5.0.1 release can be found on the
+link:https://launchpad.net/kicad/5.0/5.0.2[KiCad 5.0.2 milestone page].
+This release contains several critical bug fixes so please consider
+upgrading as soon as possible.
+
+Version 5.0.2 is made from the
+link:https://git.launchpad.net/kicad/log/?h=5.0[lp:kicad/5.0]
+branch with some cherry picked changes from the development branch.
+
+KiCad binaries will be available for download for Windows, MacOS, and
+Linux are available or will be in the very near future.  See the
+link:/download[KiCad download page] for guidance.
+
+Thank you to all developers, packagers, librarians, document writers,
+translators, and everyone else who helped make this release possible.
