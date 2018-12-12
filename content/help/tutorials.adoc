@@ -5,7 +5,7 @@ title = "Tutorials"
     name   = "Tutorials"
 weight = 30
 +++
-:toc: macro 
+:toc: macro
 :toc-title:
 
 toc::[]
@@ -36,7 +36,6 @@ Several text-based tutorials as well as video tutorials have been put together b
 - https://www.youtube.com/playlist?list=PLmcDgdDpcaPjIBy60y22XzG036ckQI7bC[Fast screencasts without audio by Matt Venn], useful for workshops (5 parts ~15 mins)
 - https://www.youtube.com/playlist?list=PL67B2290F4C62B5F2[Lots of short videos by My 2µF], mostly on PCB layout
 - https://www.youtube.com/user/XploreLabz/videos[Videos by Xplore Labz] on creating an Arduino Uno
-- https://vimeo.com/user9565582/videos[Videos by Yoonseo Kang]
 
 === Reviews
 
