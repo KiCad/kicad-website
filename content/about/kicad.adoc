@@ -21,7 +21,7 @@ and is licensed under http://en.wikipedia.org/wiki/GNU_General_Public_License[GN
 The first release date was in 1992 by its original author, Jean-Pierre Charras,
 but is now currently under development by the https://launchpad.net/kicad[KiCad Developers Team].
 
-The name of KiCad comes from the first letters of a company of Jean-Pierre Charras' friend "Ki" being combined with "Cad". But it has no other meaning other now being the name of the software suite. https://lists.launchpad.net/kicad-developers/msg27528.html[Mentioned by Jean-Pierre in an email.]
+The name of KiCad comes from the first letters of a company of Jean-Pierre Charras' friend "Ki" being combined with "Cad". But it now has no meaning other than being the name of the software suite. https://lists.launchpad.net/kicad-developers/msg27528.html[Mentioned by Jean-Pierre in an email.]
 
 More KiCad history, general information, and advancements can be found in Wayne's 
 https://www.youtube.com/watch?v=wRolB1my6fI[2015], https://www.youtube.com/watch?v=yNe6g0OdGs4[2016], and https://www.youtube.com/watch?v=SlxpHWB_vb8[2017] FOSDEM presentations.
