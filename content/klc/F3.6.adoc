@@ -21,7 +21,7 @@ Notes:
 . [`Pin layout`] - dependent on the connector type
 * Single row connectors: 1x[`number of pins`]
 * Multi row connectors with equal number of pins in each row: [`number of rows`]x[`number of pins per row]`
-* Other connectors: [`number of rows`]Rows_[`number of pins`]
+* Other connectors: [`number of rows`]Rows_[`number of pins overall`]Pins
 * Connectors for standardized interfaces do not need to include the pin configuration information (e.g. USB)
 . Number format:
 * [`number of rows`] number of rows no leading zero.
