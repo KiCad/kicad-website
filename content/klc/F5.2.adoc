@@ -20,15 +20,17 @@ The following elements must be provided on the fabrication layer(s)
 .. For connectors, a small arrow indicator drawn next to pin-1 should be used
 . Component value (footprint name) must be displayed on the `F.Fab` layer
 .. Recommended text size = `1.0mm`
-.. Allowable text size = {`0.1mm` to `2.0mm`}
-.. Allowable text thickness = {`0.01mm` to `0.20mm`} (should be approximately `15%` of text size, with allowances for variation for aesthetic reasons)
-.. If there is enough space, it should be placed inside footprint boundaries
+.. Allowable text size = {`0.5mm` to `1.0mm`}
+.. Text thickness should be approximately `15%` of text size ( with allowances for variation for aesthetic reasons)
+.. Placed below (positive y direction) the part outline.
 . A second copy of the reference designator (RefDes) must be provided on the `F.Fab` layer. To add a second RefDes item, add a text object with the value `%R`
 .. RefDes must be centered on component body (inside component outline)
 .. Orientation of RefDes should match major component axis
 .. Size of text should be scaled to match component size
+... It is recommended to scale it such that 4 characters fit without overlapping other features of the same layer.
+... If it is not possible to fit at least 3 characters with the text size restrictions, then the reference should be moved outside (but scaled to smallest allowable text size)
 .. Recommended text size = `1.00mm`
-.. Allowable text size = {`0.1mm` to `2.0mm`}
-.. Allowable text thickness = {`0.01mm` to `0.20mm`} (should be approximately `15%` of text size, with allowances for variation for aesthetic reasons)
+.. Allowable text size = {`0.5mm` to `1.0mm`}
+.. Text thickness should be approximately `15%` of text size (with allowances for variation for aesthetic reasons)
 
 {{< klcimg src="F5.2a" title="Fabrication layer" >}}
