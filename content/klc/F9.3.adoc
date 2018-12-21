@@ -2,6 +2,7 @@
 brief = "Footprint 3D model requirements"
 +++
 
+. All non-virtual footprints must have 3D model references, even if the 3D model is missing (does not yet exist). This allows the 3D model to be added later without requiring the footprint to be edited again. (It is not required to supply a 3d model file.)
 . 3D model files must be placed in a library (directory) which has the same name as the footprint library, with the extension `.3dshapes`
 * `Capacitor_SMD.pretty` -> `Capacitor_SMD.3dshapes`
 * `Connector_USB.pretty` -> `Connector_USB.3dshapes`
@@ -12,8 +13,8 @@ brief = "Footprint 3D model requirements"
 * `R0805_HandSoldering.kicad_mod` -> `R0805.wrl`
 * `QFN-48_ThermalVias.kicad_mod` -> `QFN-48.wrl`
 . Model scaling must be 1:1:1 (model file should not require any scaling to correctly fit the footprint)
-. Path to 3D model should have `${KISYS3DMOD}/` prefix
-. Filetype must be `.wrl`
-. If the 3D model is _missing_ (does not yet exist), the 3D model reference should still be added. This means that the footprint does not have to be edited again once the 3D model is added.
+. Rotation and offset must be 0 (The model must be aligned correctly to the footprint within the 3d modeling software.)
+. Path to 3D model must have `${KISYS3DMOD}/` prefix
+. Filetype must be `.wrl` (KiCad replaces it with .step automatically for the step export.)
 
 {{< klcimg src="F9.3a" title="3D Settings" >}}
