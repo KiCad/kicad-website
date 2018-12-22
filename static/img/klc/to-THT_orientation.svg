@@ -14,7 +14,7 @@
    viewBox="0 0 79.717171 25.134979"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92+devel unknown"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="to-THT_orientation.svg"
    inkscape:export-filename="/home/rene/Dokumente/Hobby/kicad/KLC/TO-SOT/to-THT_orientation.png"
    inkscape:export-xdpi="300"
@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="28.421356"
-     inkscape:cy="18.156796"
+     inkscape:cx="129.84993"
+     inkscape:cy="21.013939"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -251,7 +251,7 @@
          id="tspan8313"
          x="3.9825251"
          y="29.201767"
-         style="stroke-width:0.19742996px">Tab-Down</tspan></text>
+         style="stroke-width:0.19742996px">TabDown</tspan></text>
     <text
        id="text8319"
        y="29.201767"
@@ -273,6 +273,6 @@
          id="tspan8321"
          x="66.150162"
          y="29.201767"
-         style="stroke-width:0.19742996px">Tab-Up</tspan></text>
+         style="stroke-width:0.19742996px">TabUp</tspan></text>
   </g>
 </svg>
