@@ -3,20 +3,19 @@ brief = "Rules for pin stacking"
 +++
 
 Many symbols have corresponding footprints where multiple physical pins are connected to a single logical net. It is desirable that in such cases the user only has to connect a single pin in the schematic, and it will automatically route to all the physical pins on the PCB.
+(This is not only done to reduce clutter in the schematic drawing. The main reason is to move some responsibility for correct connections from the circuit designer over to the library.)
 
 KiCad currently has no native method for designating that a particular symbol pin maps to multiple footprint pins. The following guide serves as a workaround for designing such symbols.
 
 In the schematic view, pins that share the same position are considered to be _connected_ by the KiCad routing algorithm. Thus, pins can only be placed in the same location under a very specific set of circumstances:
 
 . Pins must *not* be of type `No Connect` (these pins should never be connected together)
+. Power supply pins must be stacked unless the datasheet specifies the need for decoupling capacitors on every pin.
 . Pins are logically connected in the symbol
 . Pins must have the same name
 . Pins must have the same electrical type
 . One pin in the stack must be _visible_ (all other pins set to _invisible_)
 
-**Special Case:** Pins of electrical type [`Output`, `Power Output`, `Power Input`] are special cases. Connecting these pins together causes ERC (electrical rule check) errors and must be avoided.
-
-For pin stacks using these pin types:
-[start=6]
-. Visible pin must be set to correct electrical type
-. All invisible pins must have electrical type set to `Passive`
+**Special Case:** Pins of electrical type [`Output`, `Power Output`, `Power Input`] are special cases.
+. Connecting `Output` or `Power Output` pins would result in an ERC error. Output pins that always need to be connected together must therefore be stacked. The invisible pins get the pin type `passive` in this case.
+. Invisible `Power Input` pins are global labels. This is to be avoided. For this reason the electrical type `pasive` is to be used for the invisible pins in such stacks.
