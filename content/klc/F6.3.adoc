@@ -14,6 +14,8 @@ Surface mount pads have specific requirements for PCB design.
 .. `B.Paste` - Back solderpaste (stencil openings)
 . Pads with specific stencil aperture design requirements require special attention (see details below)
 
+## Requirements for solderpaste
+
 Many components (IC packages in particular) have specific design requirements for solderpaste (stencil) design. These requirements are often found in the footprint datasheet or an associated technical document.
 
 Most often, custom stencil openings are required for the exposed pads on large IC packages to reduce the amount of solderpaste that is applied during stencil application.
@@ -27,9 +29,18 @@ Custom stencil openings are accommodated as follows:
 [loweralpha]
 . Construct copper shape with pad(s) with only copper layers (`F.Cu` and/or `B.Cu`) as appropriate. These copper pads should not have the `F.Paste` or `B.Paste` layers checked.
 . Add stencil opening(s) with pad(s) which only use solderpaste layers (`F.Paste` and/or `B.Paste`) as required. These pads _do not have a pad number_.
-. The solderpaste should cover between 50% and 80% of the soldermask free pad area.
+. The solderpaste should cover between 50% and 80% of the soldermask free pad area. (recommendation: 65%)
 
 *Result:* _(note: this footprint does not correspond to the example shown above)_
 
 {{< klcimg src="F6.3b" title="Resulting stencil openings shown in footprint editor" >}}
 {{< klcimg src="F6.3c" title="Result stencil openings shown in 3D viewer">}}
+
+## Size of exposed pads
+
+The following rules apply for finding the correct pad size for parts including an exposed pad.
+
+. By default the nominal size of the package pad is used.
+. Variation within the tolerance ranges of said package pad are allowed if the manufacturers suggested footprint suggest it that way.
+.. It is not allowed to use a footprint pad smaller than the minimum size of the package pad.
+.. Soldermask defined pas are to be used if the suggested footprint uses a pad larger than the maximum size of the package pad. (Meaning: copper can cover a larger area, but the exposed copper is still within the package pads tolerance range.)
