@@ -95,3 +95,12 @@ Hosting provider for some of the servers used on the Jenkins CI.
 
 Digi-Key Electronics purchased the kicad.org domain name, which was being used by its previous
 owner to serve malware, and redirected it to the main KiCad website at kicad-pcb.org.
+
+
+=== AISLER
+
+AISLER believes that a PCB Design Tool like KiCad should participate financially when a
+customer let’s that design become a reality.  That is why AISLER allows its users to easily
+donate to the KiCad project during the ordering process.
+
+{{< aboutlink "/img/about/aisler-logo.png" "https://aisler.net/partners/kicad" >}}
