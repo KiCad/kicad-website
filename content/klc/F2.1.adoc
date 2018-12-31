@@ -12,7 +12,7 @@ Each footprint is a `.kicad_mod` file (stored within a `.pretty` directory). The
   * `QFN-48`
   * `DIP-20`
 . Packages with special pads add an identifier to the pin count field separated by a hyphen
-  * The field includes the count of uniquely numberd pads of this type.
+  * The field includes the count of uniquely numbered pads of this type.
   ** For exposed pads (large copper pad below the part) `[count]EP`
   ** For shield pads `[count]SH` (Unless such a pin is already expected for the part. An example would be a HDMI connector.)
   ** For pads connecting pure mechanical mounting leads `[count]MP`
