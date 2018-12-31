@@ -6,15 +6,9 @@ weight = 11
 :icons: fonts
 :iconsdir: /img/icons/
 
-== 5.0.1 Stable Release
+== 5.0.2 Stable Release
 
-[WARNING]
-Please note that a last minute bug was found in the Eagle schematic
-import feature too late to be fixed in this release which is expected
-to be fixed in release 5.0.2.  If you need to convert Eagle schematics
-you may want to hold off upgrading until 5.0.2.
-
-KiCad 5.0.1 is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-5[js-reynaud's KiCad 5.0 PPA].
+KiCad 5.0.2 is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-5[js-reynaud's KiCad 5.0 PPA].
 
 To install KiCad via the PPA, you can use the Software Manager:
 
