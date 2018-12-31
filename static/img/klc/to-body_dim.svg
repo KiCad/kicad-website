@@ -16,7 +16,10 @@
    height="1244"
    viewBox="0 0 1489.3333 1244"
    sodipodi:docname="to-body_dim.svg"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   inkscape:export-filename="/home/rene/Dokumente/Hobby/kicad/10_documentation/webside/my_fork_kicad-website/static/img/klc/to-body_dim.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -392,9 +395,9 @@
      inkscape:window-height="1138"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.58762058"
-     inkscape:cx="802.00046"
-     inkscape:cy="600.53843"
+     inkscape:zoom="0.83102099"
+     inkscape:cx="1033.6406"
+     inkscape:cy="473.42751"
      inkscape:window-x="40"
      inkscape:window-y="26"
      inkscape:window-maximized="1"
@@ -736,11 +739,15 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="653.41315"
-       y="1210.3065"
+       y="1163.9779"
        id="text4978"><tspan
          sodipodi:role="line"
          id="tspan4976"
          x="653.41315"
-         y="1210.3065">Lead Lenghts is always measured with respect to Pad 1</tspan></text>
+         y="1163.9779">Lead Lenghts is always measured with respect </tspan><tspan
+         sodipodi:role="line"
+         x="653.41315"
+         y="1188.9779"
+         id="tspan4978">to the pad furthest away from the body</tspan></text>
   </g>
 </svg>
