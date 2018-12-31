@@ -44,3 +44,9 @@ The following rules apply for finding the correct pad size for parts including a
 . Variation within the tolerance ranges of said package pad are allowed if the manufacturers suggested footprint suggest it that way.
 .. It is not allowed to use a footprint pad smaller than the minimum size of the package pad.
 .. Soldermask defined pas are to be used if the suggested footprint uses a pad larger than the maximum size of the package pad. (Meaning: copper can cover a larger area, but the exposed copper is still within the package pads tolerance range.)
+
+## Clearance requirement between exposed pads and normal pads
+
+. There should be clearnace of at least 0.2mm between the exposed pad an the normal pads.
+. This clearance applies only to the area free of soldermask. (For soldermask defined pads the clearance is between the normal pads and the soldermask cutout of the exposed pad.)
+. The heel fillet of the normal pads is to be decreased if necessary to achieve this clearance.
