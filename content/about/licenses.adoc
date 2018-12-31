@@ -13,9 +13,7 @@ toc::[]
 
 == Program License
 
-KiCad is free software. The majority of KiCad's source code is developed and distributed under the GNU General Public License(GPL) version 3 or greater. However some third party code is included that that causes the combined KiCad distribution to be governed under AGPVL v3 or later. Additional third party licenses may also exist in the code base such as the MIT License, see the source code for complete and up to date details.
-
-There is no requirement to assign your copyright to anyone to get code included into KiCad. The only thing we do require is complying with the GPLv3+ license both in the code you may write and code you may import from others.
+KiCad is free software. The majority of KiCad's source code is developed and distributed under the GNU General Public License(GPL) version 3 or greater. However some third party code is included that that causes the combined KiCad release to be governed under the GNU Affero General Public License (AGPL) v3 or later. Additional third party licenses may also exist in the code base such as the MIT License, see the source code for complete and up to date details.
 
 == Documentation License
 
