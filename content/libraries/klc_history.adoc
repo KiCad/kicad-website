@@ -9,6 +9,7 @@ url = "/libraries/klc/history/"
 * Correct Pin length definition for staggered TO (image in F3.5)
 * Document rules for handling oval holes (new rule F7.7)
   * Document circular hole suffix (F2.1)
+* Document suffix for multi unit parts (S2.1)
 
 == 3.0.16 - 2018-12-22
 * Remove inverse 45-degree direction for connectors. (image in F3.6)
