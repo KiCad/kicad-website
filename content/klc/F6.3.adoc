@@ -47,6 +47,6 @@ The following rules apply for finding the correct pad size for parts including a
 
 ## Clearance requirement between exposed pads and normal pads
 
-. There should be clearnace of at least 0.2mm between the exposed pad an the normal pads.
-. This clearance applies only to the area free of soldermask. (For soldermask defined pads the clearance is between the normal pads and the soldermask cutout of the exposed pad.)
+. There should be clearance of at least 0.2mm between the exposed pad and the normal pads.
+. This clearance applies only to the area free of soldermask. (The clearance for soldermask defined pads is the spacing between the normal pads and the soldermask cutout of the exposed pad.)
 . The heel fillet of the normal pads is to be decreased if necessary to achieve this clearance.

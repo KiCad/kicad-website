@@ -2,8 +2,8 @@
 brief = "Oval holes (Plated Milled Slots)"
 +++
 
-For oval holes the minimum size ensures 0.2mm size increase compared to maximum lead dimensions in both directions.
-Oval holes are only allowed if the lead length to with ratio is greater than 2. (Lead cross section is at least twice as long as wide)
+The sizes for oval holes must be chosen such that there is 0.2mm clearance between the maximum lead size and the hole in all directions.
+Oval holes are only allowed if the lead length to width ratio is greater than 2. (Lead cross section is at least twice as long as wide)
 
 {{< klcimg src="hole_size_oval" title="Dimensions for oval holes: Ensure at least 0.2mm clearance all around" >}}
 
