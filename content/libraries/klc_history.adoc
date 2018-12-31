@@ -5,6 +5,8 @@ url = "/libraries/klc/history/"
 +++
 
 ---
+== 3.0.17 - 2018-12-31
+* Correct Pin length definition for staggered TO (image in F3.5)
 == 3.0.16 - 2018-12-22
 * Remove inverse 45-degree direction for connectors. (image in F3.6)
 * Clarify footprint filter rules. Especially regarding exposed pads. (S5.2)
