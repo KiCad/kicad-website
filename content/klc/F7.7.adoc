@@ -1,0 +1,21 @@
++++
+brief = "Oval holes (Plated Milled Slots)"
++++
+
+For oval holes the minimum size ensures 0.2mm size increase compared to maximum lead dimensions in both directions.
+Oval holes are only allowed if the lead length to with ratio is greater than 2. (Lead cross section is at least twice as long as wide)
+
+{{< klcimg src="hole_size_oval" title="Dimensions for oval holes: Ensure at least 0.2mm clearance all around" >}}
+
+Maximum lead dimensions are obtained from the device datasheet.
+
+---
+
+Some PCB manufacturers are not able to produce milled slots.
+It is allowed to add an alternative footprint using only circular holes.
+These need to follow the same drill size increase as all other holes.
+The equivalent lead diameter should be rounded up to the next 0.01mm increment.
+
+The footprint name of such an alternative is marked with the suffix `_CircularHoles`.
+
+{{< klcimg src="hole_size_rectangle_lead" title="Getting to the equivalent lead diameter for rectangular leads" >}}
