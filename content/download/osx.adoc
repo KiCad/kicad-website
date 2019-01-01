@@ -12,15 +12,10 @@ KiCad is known to work on Mac OS X 10.11 through macOS 10.14.  It may work on ne
 
 == Stable Release
 
-Current Version: *5.0.1*
+Current Version: *5.0.2*
 
-[WARNING]
-Please note that a last minute bug was found in the Eagle schematic
-import feature too late to be fixed in this release which is expected
-to be fixed in release 5.0.2.  If you need to convert Eagle schematics
-you may want to hold off upgrading until 5.0.2.
-
-- http://downloads.kicad-pcb.org/osx/stable/kicad-unified-5.0.1.dmg[KiCad] http://www2.futureware.at/~nickoe/kicad-downloads-mirror/osx/stable/kicad-unified-5.0.1.dmg[[mirror]]
+- http://downloads.kicad-pcb.org/osx/stable/kicad-unified-5.0.2-10_14.dmg[KiCad]
+- http://downloads.kicad-pcb.org/osx/stable/kicad-unified-5.0.2.dmg[KiCad]
 
 == Nightly Development Builds
 
