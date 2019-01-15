@@ -27,6 +27,7 @@ Several text-based tutorials as well as video tutorials have been put together b
 - https://flyingcarsandstuff.com/2016/10/kicad-techniques-tips-and-work-arounds/[Kicad: Techniques, Tips and Work-arounds]
 - https://kicad.mmccoo.com/kicad-scripting-table-of-contents/[KiCad Scripting Examples]
 - http://kicadhowto.org/[KiCadHowTo.com from SheepdogGuides]
+- https://forum.kicad.info/t/faq-index-thread/8890[User Forum FAQ]
 
 === Video Tutorials
 
