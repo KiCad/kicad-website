@@ -1,5 +1,6 @@
 {
-	"name": "KiCad Website",
+	"name": "KiCad EDA",
+	"theme_color": "#2d4bb1",
 	"icons": [
 		{
 			"src": "\/android-chrome-36x36.png",
