@@ -2,5 +2,5 @@
 title = "Documentation"
 +++
 
-The documentation index have moved to its own domain on
+The documentation index have moved to a new location at:
 http://docs.kicad-pcb.org
