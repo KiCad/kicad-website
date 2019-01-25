@@ -47,4 +47,4 @@ to the documentation effort translating the program and/or the
 documentation.
 
 We suggest to start translating the program. There is also a very nice
-link:http://docs.kicad-pcb.org/stable/en/gui_translation_howto.html[KiCad GUI Translation HOWTO].
+link:https://github.com/KiCad/kicad-doc/blob/master/src/gui_translation_howto/gui_translation_howto.adoc[KiCad GUI Translation HOWTO].

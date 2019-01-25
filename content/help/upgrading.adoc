@@ -14,7 +14,7 @@ in existing projects to adapt to the changes.
 
 == Upgrade from 4.0 to 5.0
 Information on upgrading from 4.0 to 5.0 can be found in the 
-http://docs.kicad-pcb.org/stable/en/kicad.html#_upgrading_from_version_4_to_version_5[KiCad help manual].
+http://docs.kicad-pcb.org/5.0.2/en/kicad/kicad.html#upgrading_from_version_4_to_version_5[KiCad help manual].
 
 
 == Upgrade from any version before 4.0 (also known as "old-stable") to 4.0
