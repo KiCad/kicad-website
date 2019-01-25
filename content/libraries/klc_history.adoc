@@ -5,6 +5,10 @@ url = "/libraries/klc/history/"
 +++
 
 ---
+== 3.0.18 - 2019-01-25
+* Clarify rules regarding NC pins
+   * Clarify when they may be omitted
+   * Clarify that they must be hidden when included.
 == 3.0.17 - 2018-12-31
 * Correct Pin length definition for staggered TO (image in F3.5)
 * Document rules for handling oval holes (new rule F7.7)

@@ -1,14 +1,15 @@
 +++
-brief = "Hidden pins"
+brief = "Symbol pins must not be hidden unless they are not connected, part of a stack or power symbols"
 +++
 
-Hidden connection pins are generally not allowed for schematic symbols. Any connection point must be visible, otherwise unexpected net connections can occur.
+Hidden symbol pins are generally not allowed for schematic symbols. Any connection point must be visible, otherwise unexpected net connections can occur.
 
-Hidden power pins are also not allowed.
 
 **Exceptions**
 
-. Unused NC pins can be set to invisible. In this case the electrical type must be `Not Connected`. The end of the pin should lie on the symbols outline box to prevent unwanted connections to the invisible pin (see screenshot below).
+. Power input pins must not be invisible unless used in power symbols. (Hidden power input pins are global labels.) Refer to the link:/libraries/klc/S4.3[requirements for pin stacking]
+. Pins that are not intended to be connected must be set to invisible. In this case the electrical type must be `Not Connected`. The end of the pin should lie on the symbols outline box to prevent unwanted connections to the invisible pin (see screenshot below).
+* Pins specified as not connected may be shown if they are expected to be connected in a significant number of use-cases.
 . Invisible pins may be used in a pin stack to allow one-to-many connections. Refer to the link:/libraries/klc/S4.3[requirements for pin stacking]
 
 {{< klcimg src="S4.6" title="Hidden NC-pins in a symbol and hidden pins as part of a power-pin-stack" >}}
