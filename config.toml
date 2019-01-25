@@ -6,6 +6,10 @@ layoutdir = "layouts"
 pluralizelisttitles = false
 disablePathToLower = true
 
+[outputs]
+  home     = ["HTML"]
+  section  = ["HTML", "RSS"]
+
 [params]
     DateForm = "2006-01-02"
     Description = "A Cross Platform and Open Source Electronics Design Automation Suite"
