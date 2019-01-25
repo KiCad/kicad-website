@@ -3,7 +3,7 @@ FROM alpine:3.8 as build-env
 WORKDIR /site
 
 #build
-ENV HUGO_VERSION=0.30.2
+ENV HUGO_VERSION=0.53
 ENV HUGO_DOWNLOAD_URL=https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
 
 RUN apk add --update --no-cache --virtual build-dependencies
@@ -36,7 +36,7 @@ RUN gem install \
 RUN wget "$HUGO_DOWNLOAD_URL" && \
 	tar xzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
 	mv hugo /usr/bin/hugo && \
-	rm hugo_${HUGO_VERSION}_Linux-64bit.tar.gz LICENSE.md README.md
+	rm hugo_${HUGO_VERSION}_Linux-64bit.tar.gz LICENSE README.md || true
 
 #copy the entire website folder into the build environment container
 COPY . ./
