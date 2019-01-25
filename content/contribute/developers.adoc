@@ -255,7 +255,7 @@ the developer docs].
 === Translating GUI and Docs
 
 If you are the kind of person wanting to help improve KiCad by internationalizing it, you should probably have a look at the
-link:http://docs.kicad-pcb.org/stable/en/gui_translation_howto.html[GUI translating howto]. +
+link:https://github.com/KiCad/kicad-doc/blob/master/src/gui_translation_howto/gui_translation_howto.adoc[GUI translating howto]. +
 Also you are encouraged to contribute to the
 link:/contribute/docs-team/[KiCad Documentation]
 
