@@ -30,7 +30,7 @@ Current Version: *5.0.2*
 Tarballs intended to be used by packagers:
 
 * link:https://launchpad.net/kicad/5.0/5.0.2/+download/kicad-5.0.2.tar.xz[Source code]
-* link:http://downloads.kicad-pcb.org/docs/kicad-doc-5.0.2.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/5.0.2[doc sources]
+* link:https://kicad-downloads.s3.cern.ch/docs/kicad-doc-5.0.2.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/5.0.2[doc sources]
 * link:https://github.com/KiCad/kicad-i18n/releases/tag/5.0.2[i18n (translations)]
 * link:https://github.com/KiCad/kicad-symbols/releases/tag/5.0.2[symbols]
 * link:https://github.com/KiCad/kicad-footprints/releases/tag/5.0.2[footprints]

@@ -10,8 +10,8 @@ weight = 2
 
 Current Version: *5.0.2*
 
-- http://downloads.kicad-pcb.org/windows/stable/kicad-5.0.2_1-x86_64.exe[Windows 64-bit (x86_64)] http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.0.2_1-x86_64.exe[[mirror]]
-- http://downloads.kicad-pcb.org/windows/stable/kicad-5.0.2_1-i686.exe[Windows 32-bit (i686)] http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.0.2_1-i686.exe[[mirror]]
+- https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.0.2_1-x86_64.exe[Windows 64-bit (x86_64)] http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.0.2_1-x86_64.exe[[mirror]]
+- https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.0.2_1-i686.exe[Windows 32-bit (i686)] http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.0.2_1-i686.exe[[mirror]]
 
 == Nightly Development Builds
 
@@ -19,10 +19,10 @@ The _nightly_ builds are snapshots of the codebase at a specific time.
 They may contain more bugs than usual, although we try our best. Use
 them for testing the newest features:
 
-http://downloads.kicad-pcb.org/windows/nightly/
+https://kicad-downloads.s3.cern.ch/index.html?prefix=windows/nightly/
 
 == Previous Releases
 
 Previous releases should be available for download on:
 
-http://downloads.kicad-pcb.org/windows/stable/
+https://kicad-downloads.s3.cern.ch/index.html?prefix=windows/stable/

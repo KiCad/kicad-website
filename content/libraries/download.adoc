@@ -23,7 +23,7 @@ At the moment, libraries are included along with KiCad installation. You will on
 
 
 == Library Downloads for KiCad 4.0
-Snapshots of the libraries aligned with the minor KiCad 4 releases link:http://downloads.kicad-pcb.org/libraries/[can be found here].
+Snapshots of the libraries aligned with the minor KiCad 4 releases link:https://kicad-downloads.s3.cern.ch/index.html?prefix=libraries/[can be found here].
 
 
 KiCad 4.0.x releases come with local symbol and 3d model libraries included. The footprint libraries are special cases in most installation. They are setup to use on demand download from github (via the github plugin). This might not be right for every user. For these users it is advisable to download a library snapshot and add these libs to kicad via the footprint library manager found in the preferences menu of pcb_new and the footprint editor. For the best results it is recommended to ensure KiCad does use all types of libraries from the same snapshot.
