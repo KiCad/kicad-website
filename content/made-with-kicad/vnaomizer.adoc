@@ -1,0 +1,5 @@
+
+
+title = "VNA-O-Mizer" projectimage = "/img/madewithkicad/vna-o-mizer.jpg" projectdeveloper = "Daniel Marks" projecturl = "http://github.com/profdc9/VNA/"
+
+The VNA-O-Mizer is a 2 port vector network analyzer/antenna analyzer based on the STM32F103C8T6 Bluepill and SI5351A frequency synthesizer for the 200 kHz to 450-500 MHz frequencies, and can be used as an antenna analyzer for amateur radio.  Hardware and software is open source, and there are both through-hole and SMT layouts.  A ILI9341 touch screen is supported as well as USB serial control.
