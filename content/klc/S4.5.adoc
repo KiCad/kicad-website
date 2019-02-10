@@ -3,7 +3,7 @@ brief = "Pins not connected on the footprint may be omitted from the symbol"
 +++
 
 Often a component has pins that are not physically connected.
-Even these pins should be included in the symbol. Refer to the link:/libraries/klc/S4.3[requirements for hidden pins].
+Even these pins should be included in the symbol. Refer to the link:/libraries/klc/S4.6[requirements for hidden pins].
 
 However in some cases unconnected pins may be omitted from the schematic symbol.
 
