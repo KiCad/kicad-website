@@ -32,8 +32,4 @@ The _nightly_ builds are snapshots of the codebase at a specific time. They may 
 
 - *kicad-extras* contains the 3D models.
 
-[NOTE]
-The nightlies for macOS are probably not avialable for some time, but
-the goal is to get them available ASAP.
-
 https://kicad-downloads.s3.cern.ch/index.html?prefix=osx/nightly/
