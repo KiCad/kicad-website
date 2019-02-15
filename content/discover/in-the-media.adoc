@@ -9,7 +9,7 @@ title = "In the Media"
 
 **KiCad has been featured in the following blog posts, press and media:**
 
-https://blog.aisler.net/supporting-kicad-d94ea84eb87?fbclid=IwAR17m6vuxNntbYNC_65gknUnfm0urGvC3jN9kRATw69AUboUdH3OvoRE-8U[Supporting KiCad]
+https://blog.aisler.net/supporting-kicad-d94ea84eb87?fbclid=IwAR17m6vuxNntbYNC_65gknUnfm0urGvC3jN9kRATw69AUboUdH3OvoRE-8U[Aisler Supporting KiCad] (4-FEB-2019)
 
 https://blog.system76.com/post/179897016318/system76-provides-funds-to-open-source-projects[System76 Provides Funds to Open Source Projects] (8-NOV-2018)
 
