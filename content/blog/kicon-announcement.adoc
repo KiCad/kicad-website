@@ -1,0 +1,38 @@
++++
+title = "First Annual KiCad Conference Announcement"
+date = "2019-02-14"
+draft = false
+aliases = [
+    "/post/kicon-announcement/"
+]
++++
+
+The KiCad project is excited to announce the first ever KiCad Conference
+https://kicad-kicon.com/[(KiCon)] in Chicago from April 26th through the
+27th.  The conference will be held at the https://mhubchicago.com/[mHub].
+This conference is geared towards KiCad users.  There will be lots of
+talks from users of all skill levels as well as some of the members of the
+https://launchpad.net/~kicad-product-committers[KiCad Lead Development Team].
+The conference keynote talk will be given by the KiCad project leader.
+
+Come join enthusiastic KiCad users and developers from all over the world
+for a fun and informative two full days of all things KiCad.  On top of
+interesting and insightful talks, there will be plenty of time to share
+ideas and get to know other users and members of the development team.
+Attendees can expect to receive an excellent badge and some nifty swag.
+
+If you are interested in sponsoring the event, please go to the
+https://kicad-kicon.com/sponsors/[sponsors page] to donate.  If you are
+interested in volunteering please go to the
+https://docs.google.com/forms/d/e/1FAIpQLSdI5k4_8tfl8UaIDghO6lezD_QGg3pLlAUlTdlluOfQuST9dA/viewform[volunteers page]
+to sign up.  Any help is greatly appreciated.  Don't forget to thank all
+our sponsors and volunteers when you attend KiCon.  It's thanks to their
+efforts that an event like KiCon can even happen.
+
+Tickets went on sale on February 13th.  Get your tickets today and come
+join us for two days of fun and learning with KiCad.  All are welcome to
+the first annual and hopefully many more to come KiCad conference.
+
+We are looking forward to seeing you at KiCon!
+
+The KiCad Project.
