@@ -3,12 +3,4 @@ brief = "Elements on the graphic layer should not overlap"
 +++
 
 Footprints should not have overlapping or duplicate graphic elements. This includes lines, arcs and circles.
-
-This rule applies to the following layers:
-
-* `F.SilkS` - Front silkscreen layer
-* `B.SilkS` - Back silkscreen layer
-* `F.Fab` - Front fabrication layer
-* `B.Fab` - Back fabrication layer
-* `F.CrtYd` - Front courtyard layer
-* `B.CrtYd` - Back courtyard layer
+Touching endpoints or intersections are not considered as overlapping.
