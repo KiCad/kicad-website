@@ -6,6 +6,9 @@ weight = 2
 :icons: fonts
 :iconsdir: /img/icons/
 
+KiCad is supported for Windows 7, 8.1 and 10.  See
+link:/help/system-requirements/[System Requirements] for more details.
+
 == Stable Release
 
 Current Version: *5.0.2*

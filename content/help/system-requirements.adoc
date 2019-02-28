@@ -6,7 +6,7 @@ aliases = [ "/post/system-requirements/" ]
     name   = "System Requirements"
 weight = 50
 +++
-:toc: macro 
+:toc: macro
 :toc-title:
 
 toc::[]
@@ -40,25 +40,79 @@ See: http://kicad-pcb.org/help/known-system-related-issues/ for software specifi
 
 == Specific System Requirements
 
+KiCad supports major operating systems that remain supported by their developers.  After the operating systems'
+respective companies stop releasing updates for the system, KiCad will not be specifically tested with the
+old system.  Older operating systems may continue to work with KiCad beyond this time but bugs must be reproduced on a supported operating system before they will be addressed by KiCad.
+
 === Windows
 
-The software and hardware prerequisites for installing KiCad on a Windows
+The software prerequisites for installing KiCad on a Windows
 system are as follows:
 
-Vista, Windows Server 2008, Windows 7, Windows 8, Windows Server 2012, or Windows 10;
+[%header,width="50%",cols="10,^2"]
+|===
+|Operating System|End of Support
+|Windows 7|14-Jan-2020
+|Windows 8|Unsupported
+|Windows 8.1|10-Jan-2023
+|Windows Server 2012|10-Oct-2023
+|Windows Server 2016|10-Oct-2027
+|Windows 10|9-Jan-2029
+|===
 
+[%hardbreaks]
 === Apple - macOS
 
-The software and hardware prerequisites for installing on a Apple macOS computer are as follows:
+The software prerequisites for installing on a macOS system are as follows:
 
-Mac OS X 10.11 (El Capitan) or higher;
+[%header,width="50%",cols="10,^2"]
+|===
+|Operating System|End of Support:
+|macOS 10.12|1-Aug-2019
+|macOS 10.13|1-Aug-2020
+|macOS 10.14|1-Aug-2021
+|===
 
+[%hardbreaks]
 === GNU/Linux
 
-The software and hardware prerequisites for installing on Linux are as
-follows:
+The following Linux distribution versions have been tested and are known to be working.
+Issues or bugs that occur on an unsupported platform must be
+reproduced on an officially supported distribution and window manager before they will
+be addressed by KiCad.
 
-Any modern Linux distro with OpenGl 2.0 or higher support should work fine. For example Ubuntu 16.04 or higher.
+==== Tested Distributions
+
+[%header,width="50%",cols="10,^2"]
+|===
+|Operating System|End of Support:
+|Ubuntu 16.04|1-Apr-2019
+|Ubuntu 17.10|Not Supported
+|Ubuntu 18.04|1-Apr-2023
+|Ubuntu 18.10|1-Apr-2019
+|Debian 9 (Stretch)|approx 2020
+|Debian 10 (Buster)|approx 2022
+|Fedora 29|approx May 2019
+|===
+
+[%hardbreaks]
+==== Additional Linux Considerations
+Linux also allows the user to select their window manager.  There are many esoteric
+window managers available for Linux and some may have unexpected behavior.  KiCad officially
+supports the following window managers:
+
+* Metacity (used by GNOME 2 and GNOME flashback)
+* Mutter (when used with an X11 backend)
+* KWin (when used with an X11 backend)
+* Xfwm (used by XFCE)
+
+==== Graphical Windowing Backend
+KiCad officially supports the X11 backend.  Users who choose to use Wayland will run in
+a compatibility layer called link:https://wayland.freedesktop.org/xserver.html[XWayland].
+
+Issues or bugs encountered while using XWayland must be reproduced under X11 before they
+will be addressed by KiCad.
+
 
 === Other OSes
 
