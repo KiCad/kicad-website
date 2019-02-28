@@ -6,7 +6,10 @@ weight = 2
 :icons: fonts
 :iconsdir: /img/icons/
 
-KiCad is known to work on Mac OS X 10.11 through macOS 10.14.  It may work on newer versions.  If it does not, it is a bug and will be fixed.   If you are going to use macOS 10.14, use the download with 10_14 in its name. If you are going to use 10.11-10.13, use the download without 10_14 in its name.
+KiCad is known to work on Mac OS X 10.12 through macOS 10.14.  See
+link:/help/system-requirements/[System Requirements] for more details.
+
+If you run macOS 10.14, use the download with 10_14 in its name. If you run 10.12 or 10.13, use the download without 10_14 in its name.
 
 *kicad-unified* is the default package that most people should install.  *kicad-unified* contains everything: the KiCad suite, documentation, schematic symbols, footprints, translations, templates, demos, and 3D models.
 
