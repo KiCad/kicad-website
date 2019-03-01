@@ -1,6 +1,6 @@
 +++
 title = "Librem 5 Dev Kit"
-projectimage = "/img/madewithkicad/librem_5_dev_kit.jpg"
+projectimage = "/img/madewithkicad/librem_5_dev_kit.png"
 projectdeveloper = "Purism"
 projecturl = "https://source.puri.sm/Librem5/dvk-mx8m-bsb/"
 +++
