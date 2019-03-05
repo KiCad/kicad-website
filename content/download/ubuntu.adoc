@@ -6,11 +6,55 @@ weight = 1
 :icons: fonts
 :iconsdir: /img/icons/
 
+== 5.1.0 Stable Release
+
+=== Installation
+
+KiCad 5.1.0 is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-5.1[PPA for KiCad: 5.1 releases ].
+
+To install KiCad via the PPA, you can use the Software Manager:
+
+1. Open the Ubuntu Software Manager.
+2. Select 'Edit' -> 'Software Sources...'.
+3. Open the 'Other Software' tab.
+4. Click 'Add...', and enter the PPA address: `ppa:js-reynaud/kicad-5.1` and then click the 'Add Source' button.
+5. When prompted insert the administrator user password.
+6. Return to the Software Manager and view the Progress tab to see when the cache has finished updating.
+7. Return to the Software Manager main screen, search for 'kicad', and install it.
+
+The KiCad schematic library and docs are in separate packages. If you want either of these install kicad-library and kicad-doc respectively.
+
+If you prefer to use the shell, you can enter these commands into a terminal:
+
+[source,bash]
+sudo add-apt-repository --yes ppa:js-reynaud/kicad-5.1
+sudo apt update
+sudo apt install --install-suggests kicad
+
+This will perform a full installation of KiCad. If you don't want to install all packages you can use:
+
+[source,bash]
+sudo apt install kicad
+
+If you don't do a "full installation" you should be interested to install also:
+
+* kicad-libraries: a virtual package that will recommend you to install footprints, symbols, templates and 3D
+* kicad-symbols, kicad-templates, kicad-footprints, kicad-packages3d: if you want to manually select what library to install.
+
+Additionnal packages can be also installed according your language:
+
+* kicad-locale-XX: locales for your language (XX is your contry code. see apt search kicad-locale to find available languages)
+* kicad-doc-XX: documentation in your language. Same remark than kicad-locale-XX
+
+=== Migration from legacy nightly build
+
+Follow migration instructions on the 5.0 release
+
 == 5.0.2 Stable Release
 
 === Installation
 
-KiCad 5.0.2 is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-5[js-reynaud's KiCad 5.0 PPA].
+KiCad 5.0.2 is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-5[PPA for KiCad: 5.0 releases].
 
 To install KiCad via the PPA, you can use the Software Manager:
 
@@ -30,6 +74,15 @@ If you prefer to use the shell, you can enter these commands into a terminal:
 sudo add-apt-repository --yes ppa:js-reynaud/kicad-5
 sudo apt update
 sudo apt install kicad
+You can also install suggested package to have a full install:
+sudo apt install --install-suggests kicad
+
+If you don't do a "full installation" you should be interested to install also:
+
+* kicad-libraries: a virtual package that will recommend you to install footprints, symbols, templates and 3D
+* kicad-symbols, kicad-templates, kicad-footprints, kicad-packages3d: if you want to manually select what library to install.
+* kicad-locale-XX: locales for your language (XX is your contry code. see apt search kicad-locale to find available languages)
+* kicad-doc-XX: documentation in your language. Same remark than kicad-locale-XX
 
 === Migration from legacy nightly build
 
