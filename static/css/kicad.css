@@ -492,11 +492,18 @@ code {
 }
 
 
-.download-list-group > .list-group-item {    
+.download-list-group > .list-group-item,
+.download-list-group > .list-group-item:hover {    
     padding: 10px 15px;
     min-height: 68px;
     line-height: 44px;
     font-size: 18px;
+
+    background-image: linear-gradient(to right,rgba(0,0,0,0.0),rgb(57, 57, 57)),url(/img/frontpage/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: 113% 40%;
+    background-color: #393939;
+    color: #FFF;
 }
 
 .download-list-group > .list-group-item img {    
