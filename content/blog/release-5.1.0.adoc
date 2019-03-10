@@ -1,0 +1,54 @@
++++
+title = "KiCad 5.1.0 Release"
+date = "2018-03-10"
+draft = true
+aliases = [
+    "/post/release-5.1.0/"
+]
+categories = [
+    "Release Notes"
+]
++++
+
+:icons: fonts
+:iconsdir: /img/icons/
+
+The KiCad project is proud to announce the latest stable release of
+KiCad.  Version 5.1.0 is a first for KiCad in that it is the first
+time the project has release a minor stable release version.  This
+release is primarily to resolve legacy canvas rendering issues on
+Linux when http://wxwidgets.org/[wxWidgets] is built against version
+3 of https://www.gtk.org/[GTK].  This release does not contain any
+new editing features but there have been many important changes that
+make this release a substantial improvement over the 5.0 series.
+
+- Cairo canvas is now used for printing support on all platforms.
+- Schematic editor rendering now uses the modern canvases.
+- Pcbnew scripting support for Python 3 has been added.
+- Significant user interface improvements.
+- Dialog box improvements.
+- Both the footprint and symbol library editors now share the same
+  user interface paradigm.
+- Symbol, footprint, and 3D model library improvements.
+- Documentation and translation improvements.
+
+Of course no new stable version of KiCad would be complete without
+https://launchpad.net/kicad/5.0/5.1.0-rc2[many],
+https://launchpad.net/kicad/5.0/5.1.0[many] bug fixes so please
+consider upgrading as soon as possible.  This version will be
+the only supported version of KiCad moving forward.  There will
+be no further releases of the 5.0 series.
+
+Version 5.1.0 is built from the source code in the
+link:https://git.launchpad.net/kicad/log/?h=5.1[lp:kicad/5.1]
+branch.
+
+KiCad binaries will be available for download for Windows, MacOS, and
+Linux are available or will be in the very near future.  See the
+link:/download[KiCad download page] for guidance.
+
+Thank you to all developers, packagers, librarians, document writers,
+translators, and everyone else who helped make this release possible.
+We hope you enjoy the latest release of KiCad.
+
+The KiCad Development Team
