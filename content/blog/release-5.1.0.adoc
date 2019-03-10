@@ -45,7 +45,7 @@ branch.
 
 KiCad binaries will be available for download for Windows, MacOS, and
 Linux are available or will be in the very near future.  See the
-link:/download[KiCad download page] for guidance.
+http://www.kicad-pcb.org/download/[KiCad download page] for guidance.
 
 Thank you to all developers, packagers, librarians, document writers,
 translators, and everyone else who helped make this release possible.
