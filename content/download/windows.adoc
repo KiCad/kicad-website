@@ -12,9 +12,32 @@ link:/help/system-requirements/[System Requirements] for more details.
 == Stable Release
 
 Current Version: *5.0.2*
+++++
+<h3>64-bit (recommended)</h3>
+<h4>Download mirrors</h4>
+<div class="list-group download-list-group">
+	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.0.2_1-x86_64.exe">
+		<img src="/img/about/cern-logo.png" /> CERN
+	</a>
+	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.0.2_1-x86_64.exe">
+		Futureware
+	</a>
+</div>
+++++
 
-- https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.0.2_1-x86_64.exe[Windows 64-bit (x86_64)] http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.0.2_1-x86_64.exe[[mirror]]
-- https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.0.2_1-i686.exe[Windows 32-bit (i686)] http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.0.2_1-i686.exe[[mirror]]
+
+++++
+<h3>32-bit</h3>
+<h4>Download mirrors</h4>
+<div class="list-group download-list-group">
+	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.0.2_1-i686.exe">
+		<img src="/img/about/cern-logo.png" /> CERN
+	</a>
+	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.0.2_1-i686.exe">
+		Futureware
+	</a>
+</div>
+++++
 
 == Nightly Development Builds
 

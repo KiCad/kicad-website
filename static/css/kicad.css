@@ -490,3 +490,15 @@ code {
 .klcimg:hover {
     opacity: 0.7;
 }
+
+
+.download-list-group > .list-group-item {    
+    padding: 10px 15px;
+    min-height: 68px;
+    line-height: 44px;
+    font-size: 18px;
+}
+
+.download-list-group > .list-group-item img {    
+    height: 48px;
+}
