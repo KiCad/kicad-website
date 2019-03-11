@@ -13,14 +13,14 @@ categories = [
 :icons: fonts
 :iconsdir: /img/icons/
 
-The KiCad project is proud to announce the latest stable release of
-KiCad.  Version 5.1.0 is a first for KiCad in that it is the first
-time the project has release a minor stable release version.  This
-release is primarily to resolve legacy canvas rendering issues on
-Linux when http://wxwidgets.org/[wxWidgets] is built against version
-3 of https://www.gtk.org/[GTK].  This release does not contain any
-new editing features but there have been many important changes that
-make this release a substantial improvement over the 5.0 series.
+The KiCad project is proud to announce the release of version 5.1.0.
+This is the first ever minor version release of KiCad and was developed
+primarily to resolve compatibility issues with Linux GTK3.
+
+In addition to the primary focus, there have been many important changes that
+make this release a substantial improvement over the 5.0 series and
+a worthwhile upgrade for users on all platforms.  Included in the
+improvements are:
 
 - Cairo canvas is now used for printing support on all platforms.
 - Schematic editor rendering now uses the modern canvases.
@@ -31,6 +31,9 @@ make this release a substantial improvement over the 5.0 series.
   user interface paradigm.
 - Symbol, footprint, and 3D model library improvements.
 - Documentation and translation improvements.
+
+Additionally, files created by KiCad version 5.1 remain 100%
+compatible with files created by version 5.0.
 
 Of course no new stable version of KiCad would be complete without
 https://launchpad.net/kicad/5.0/5.1.0-rc2[many],
