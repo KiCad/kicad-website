@@ -74,7 +74,9 @@ If you prefer to use the shell, you can enter these commands into a terminal:
 sudo add-apt-repository --yes ppa:js-reynaud/kicad-5
 sudo apt update
 sudo apt install kicad
+
 You can also install suggested package to have a full install:
+[source,bash]
 sudo apt install --install-suggests kicad
 
 If you don't do a "full installation" you should be interested to install also:
