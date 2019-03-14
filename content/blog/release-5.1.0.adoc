@@ -17,18 +17,22 @@ The KiCad project is proud to announce the release of version 5.1.0.
 This is the first ever minor version release of KiCad and was developed
 primarily to resolve compatibility issues with Linux GTK3.
 
-In addition to the primary focus, there have been many important changes that
-make this release a substantial improvement over the 5.0 series and
+In addition to the primary focus, there have been many important changes
+that make this release a substantial improvement over the 5.0 series and
 a worthwhile upgrade for users on all platforms.  Included in the
 improvements are:
 
+- Improved 3D model library path configuration.
 - Cairo canvas is now used for printing support on all platforms.
-- Schematic editor rendering now uses the modern canvases.
+- Schematic and symbol library editors now use the modern canvases for
+  rendering.
+- Symbol pin table is now editable.
 - Pcbnew scripting support for Python 3 has been added.
+- Snapping for graphical object drawing in board and footprint editors.
 - Significant user interface improvements.
-- Dialog box improvements.
+- Major dialog box improvements.
 - Both the footprint and symbol library editors now share the same
-  user interface paradigm.
+  user interface paradigm with a library tree view pane.
 - Symbol, footprint, and 3D model library improvements.
 - Documentation and translation improvements.
 
