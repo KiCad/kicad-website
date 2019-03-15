@@ -2,7 +2,16 @@
 title = "KiCad StepUp"
 toolimage = "/img/external-tools/stepup.png"
 tooldeveloper = "easyw"
-toolurl = "http://sourceforge.net/projects/kicadstepup/"
+toolurl = "https://github.com/easyw/kicadStepUpMod/"
 +++
 
-KiCad StepUp allows exporting KiCad 3D board and components to FreeCad which allows further export options.
+KiCad StepUp is a FreeCAD Workbench aimed at helping both KiCad and FreeCAD users in collaborating with electrical (ECAD) and mechanical (MCAD) design.
+Main features: load kicad board and parts in FreeCAD and export it to STEP (or IGES) for a full ECAD MCAD collaboration, 
+load kicad_mod footprint in FreeCAD to easy and precisely align the mechanical model to kicad footprint, 
+convert the STEP 3D model of parts, board, enclosure to VRML with Materials properties for the best use in kicad, 
+check interference and collisions for enclosure and footprint design, 
+design a new pcb Edge with FreeCAD Sketcher and PUSH it to an existing kicad_pcb Board, 
+PULL a pcb Edge from a kicad_pcb Board, edit it in FC Sketcher and PUSH it back to kicad, 
+PUSH & PULL 3D models positions between FreeCAD and KiCAD, 
+ECAD / MCAD Collaboration and Synchronization, 
+footprint generation even for complex pads and shapes.
