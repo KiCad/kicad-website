@@ -58,3 +58,6 @@ https://kicad-downloads.s3.cern.ch/index.html?prefix=windows/nightly/
 Previous releases should be available for download on:
 
 https://kicad-downloads.s3.cern.ch/index.html?prefix=windows/stable/
+
+== KiCad Mirrors
+东莞理工 GNU/Linux 协会: http://mirrors.dgut.edu.cn/kicad/
