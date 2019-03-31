@@ -59,5 +59,6 @@ Previous releases should be available for download on:
 
 https://kicad-downloads.s3.cern.ch/index.html?prefix=windows/stable/
 
-== KiCad Mirrors
+== KiCad Mirrors Site
 东莞理工 GNU/Linux 协会: http://mirrors.dgut.edu.cn/kicad/
+TUNA 清华大学开源软件镜像站: https://mirror.tuna.tsinghua.edu.cn/kicad/
