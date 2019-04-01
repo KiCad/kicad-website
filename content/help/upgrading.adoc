@@ -17,42 +17,40 @@ Information on upgrading from 4.0 to 5.0 can be found in the
 http://docs.kicad-pcb.org/5.0.2/en/kicad/kicad.html#upgrading_from_version_4_to_version_5[KiCad help manual].
 
 
-== Upgrade from any version before 4.0 (also known as "old-stable") to 4.0
+== Upgrade from any version before 4.0 (also known as "old-stable")
 
-There is likely to be some issues if you want to migrate designs from the old stable, revision around bzr revision 4022, which had a particular annoying bug, where layer names were translated, which they should never have been.
+=== Issues are fixed in 5.1.1
+
+Note that the issues referenced below are resolved by the upcoming KiCad version 5.1.1.  Layer names will be translated to the standard English names on opening and will be written out as English when the file is saved.
 
 === Layernames are translated
 
-This issue arises if you used a "old stable" version with a language other than English.
+There is a known issue when migrating designs from the old stable, revision around bzr revision 4022, where layer names were translated, which they should never have been.  This issue arises if you used KiCad localized for Italian, French or Polish.
 
-You need to edit all `.kicad_pcb` files with a text editor (notepad, ...) and change the layer names from Italian/French to their English counterparts. Below is the correspondance of the layer names. Caution: there are more instances to replace than just the layer list. Be sure that you don't miss any.
+To resolve this issue, you will to edit all `.kicad_pcb` files with a text editor (notepad, ...) and change the layer names from Italian/French/Polish to their English counterparts. Below is the correspondance of the layer names. Caution: there are more instances to replace than just the layer list. Be sure that you don't miss any.
 
 ==== New English names
 ----
 (layers
-  (15 F.Cu signal)
-  (0 B.Cu signal)
-  (16 B.Adhes user)
-  (17 F.Adhes user)
-  (18 B.Paste user)
-  (19 F.Paste user)
-  (20 B.SilkS user)
-  (21 F.SilkS user)
-  (22 B.Mask user)
-  (23 F.Mask user)
-  (24 Dwgs.User user)
-  (25 Cmts.User user)
-  (26 Eco1.User user)
-  (27 Eco2.User user)
-  (28 Edge.Cuts user)
+  (32 B.Adhes user)
+  (33 F.Adhes user)
+  (34 B.Paste user)
+  (35 F.Paste user)
+  (36 B.SilkS user)
+  (37 F.SilkS user)
+  (38 B.Mask user)
+  (39 F.Mask user)
+  (40 Dwgs.User user)
+  (41 Cmts.User user)
+  (42 Eco1.User user)
+  (43 Eco2.User user)
+  (44 Edge.Cuts user)
 )
 ----
 
 ==== Obsolete Italian names
 ----
 (layers
-  (15 Rame.Fronte signal)
-  (0 Rame.Retro signal)
   (16 Adesivo.Retro user)
   (17 Adesivo.Fronte user)
   (18 Pasta.Retro user)
@@ -72,8 +70,6 @@ You need to edit all `.kicad_pcb` files with a text editor (notepad, ...) and ch
 ==== Obsolete French names
 ----
 (layers
-  (15 Front signal)
-  (0 Back signal)
   (16 Dessous.Adhes user)
   (17 Dessus.Adhes user)
   (18 Dessous.Pate user)
@@ -87,6 +83,25 @@ You need to edit all `.kicad_pcb` files with a text editor (notepad, ...) and ch
   (26 Eco1.User user)
   (27 Eco2.User user)
   (28 Contours.Ci user)
+)
+----
+
+==== Obsolete Polish names
+----
+(layers
+  (16 Kleju_Dolna user)
+  (17 Kleju_Gorna user)
+  (18 Pasty_Dolna user)
+  (19 Pasty_Gorna user)
+  (20 Opisowa_Dolna user)
+  (21 Opisowa_Gorna user)
+  (22 Maski_Dolna user)
+  (23 Maski_Gorna user)
+  (24 Rysunkowa user)
+  (25 Komentarzy user)
+  (26 ECO1 user)
+  (27 ECO2 user)
+  (28 Krawedziowa user)
 )
 ----
 
