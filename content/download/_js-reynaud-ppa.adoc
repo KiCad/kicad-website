@@ -22,6 +22,11 @@ sudo add-apt-repository --yes ppa:js-reynaud/kicad-5.1
 sudo apt update
 sudo apt install --install-suggests kicad
 
+For Linux Mint you should use:
+
+[source,bash]
+sudo apt install --install-suggests --install-recommends kicad
+
 This will perform a full installation of KiCad. If you don't want to install all packages you can use:
 
 [source,bash]
@@ -69,6 +74,11 @@ sudo apt install kicad
 You can also install suggested package to have a full install:
 [source,bash]
 sudo apt install --install-suggests kicad
+
+For Linux Mint you should use:
+
+[source,bash]
+sudo apt install --install-suggests --install-recommends kicad
 
 If you don't do a "full installation" you should be interested to install also:
 
