@@ -9,5 +9,5 @@ KiCad StepUp is a FreeCAD Workbench aimed at helping both KiCad and FreeCAD user
 Main features: 
 load kicad board and parts in FreeCAD and export it to STEP (or IGES), 
 load kicad_mod footprint in FreeCAD to easy and precisely align the mechanical model to kicad footprint, 
-PULL a pcb Edge from a kicad_pcb Board, edit it in FC Sketcher and PUSH it back to kicad, 
+PULL a pcb Edge from a kicad_pcb Board, edit it in FC Sketcher and PUSH it back to kicad,
 PUSH & PULL 3D models positions between FreeCAD and KiCAD.
