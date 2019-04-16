@@ -1,9 +1,0 @@
-+++
-title = "Makerville Knit"
-projectimage = "/img/madewithkicad/makerville-knit.jpg"
-projectdeveloper = "Makerville Solutions Inc."
-projecturl = "https://makerville.io/knit"
-+++
-
-Makerville Knit is Knit is an industrial grade Wi-Fi development board to build secure connected applications. 
-It is based on the 88MW300 SoC from Marvell.
