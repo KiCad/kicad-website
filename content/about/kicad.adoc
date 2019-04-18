@@ -73,14 +73,14 @@ Abstraction Layer and introduced Push and Shove router capabilities.
 
 === The Raspberry Pi Foundation
 
-Donated to the https://giving.web.cern.ch[CERN and Society Foundation] for the development
+Donated to the https://cernandsocietyfoundation.cern/projects/kicad[CERN and Society Foundation] for the development
 of KiCad's differential pair routing and track length control features.
 
 {{< aboutlink "/img/about/arduino-logo.png" "http://www.arduino.cc" >}}
 
 === Arduino LLC
 
-Donated to the https://giving.web.cern.ch[CERN and Society Foundation] to support CERN's
+Donated to the https://cernandsocietyfoundation.cern/projects/kicad[CERN and Society Foundation] to support CERN's
 efforts in Open Source Hardware.
 
 {{< aboutlink "/img/about/glesys.png" "http://glesys.se" >}}

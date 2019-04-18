@@ -20,7 +20,7 @@ The import plugins are now available for testing in the nightly builds and will
 be included in the version 5 release.
 
 This work has been made possible by generous donations to the
-link:https://giving.web.cern.ch/civicrm/contribute/transact?reset=1&id=6[CERN &
+link:https://cernandsocietyfoundation.cern/projects/kicad[CERN &
 Society Foundation] in support of the KiCad Project. Special acknowledgements go
 to Alejandro Garcia Montoro and Russell Oliver for the effort they put into the
 development.
