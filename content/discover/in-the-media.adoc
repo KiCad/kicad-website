@@ -23,7 +23,7 @@ https://www.electronicsweekly.com/news/kicad-big-news-schematic-capture-says-dig
 
 https://www.sfcircuits.com/pcb-school/pcb-design-software-comparison-guide[The Ultimate PCB Design Software Comparison Guide] (26-JAN-2017)
 
-https://giving.web.cern.ch/content/kicad-development-1[KiCad: A commitment to freedom] (12-OCT-2017)
+https://cernandsocietyfoundation.cern/projects/kicad[KiCad: A commitment to freedom] (12-OCT-2017)
 
 https://home.cern/cern-people/updates/2017/07/kicad-reaches-new-heights[KiCad reaches new heights ] (3-JUL-2017)
 
