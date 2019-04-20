@@ -25,6 +25,9 @@ Current Version: *5.1.0*
 	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.0_1-x86_64.exe">
 		Futureware
 	</a>
+	<a class="list-group-item" href="https://mirrors.tuna.tsinghua.edu.cn/kicad/windows/stable/kicad-5.1.0_1-x86_64.exe">
+		清华大学开源镜像站
+	</a>
 </div>
 ++++
 
@@ -42,6 +45,9 @@ Current Version: *5.1.0*
 	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.0_1-i686.exe">
 		Futureware
 	</a>
+	<a class="list-group-item" href="https://mirrors.tuna.tsinghua.edu.cn/kicad/windows/stable/kicad-5.1.0_1-i686.exe">
+		清华大学开源镜像站
+	</a>
 </div>
 ++++
 
@@ -52,6 +58,10 @@ They may contain more bugs than usual, although we try our best. Use
 them for testing the newest features:
 
 https://kicad-downloads.s3.cern.ch/index.html?prefix=windows/nightly/
+
+Chinese users can use TUNA mirror to get _nightly_ builds
+
+https://mirrors.tuna.tsinghua.edu.cn/kicad/windows/nightly/
 
 == Previous Releases
 

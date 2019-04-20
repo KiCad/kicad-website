@@ -28,6 +28,9 @@ Current Version: *5.1.0*
 	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/osx/stable/kicad-unified-5.1.0-10_14.dmg">
 		Futureware
 	</a>
+	<a class="list-group-item" href="https://mirrors.tuna.tsinghua.edu.cn/kicad/osx/stable/kicad-unified-5.1.0-10_14.dmg">
+    清华大学开源镜像站
+	</a>
 </div>
 ++++
 
@@ -41,6 +44,9 @@ Current Version: *5.1.0*
 	</a>
 	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/osx/stable/kicad-unified-5.1.0.dmg">
 		Futureware
+	</a>
+	<a class="list-group-item" href="https://mirrors.tuna.tsinghua.edu.cn/kicad/osx/stable/kicad-unified-5.1.0.dmg">
+    清华大学开源镜像站
 	</a>
 </div>
 ++++
