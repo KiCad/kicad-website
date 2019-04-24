@@ -1,9 +1,9 @@
 +++
-title = "KiCad 5.1.1 Release"
-date = "2019-04-21"
+title = "KiCad 5.1.2 Release"
+date = "2019-04-24"
 draft = true
 aliases = [
-    "/post/release-5.1.1/"
+    "/post/release-5.1.2/"
 ]
 categories = [
     "Release Notes"
