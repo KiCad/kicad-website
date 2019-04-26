@@ -1,7 +1,7 @@
-== 5.1.0 Stable Release
+== 5.1.2 Stable Release
 
 === Installation
-KiCad 5.1.0 is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-5.1[PPA for KiCad: 5.1 releases ].
+KiCad 5.1.2 is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-5.1[PPA for KiCad: 5.1 releases ].
 
 To install KiCad via the PPA, you can use the Software Manager:
 
