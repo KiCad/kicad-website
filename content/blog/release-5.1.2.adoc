@@ -35,8 +35,8 @@ Version 5.1.2 is made from the
 https://code.launchpad.net/~kicad-product-committers/kicad/+git/product-git/+ref/5.1[lp:kicad/5.1]
 branch with some cherry picked changes from the development branch.
 
-KiCad binaries will be available for download for Windows, MacOS, and
-Linux are available or will be in the very near future.  See the
+Packages for Windows, MacOS, and Linux are available or will be
+in the very near future.  See the
 link:/download[KiCad download page] for guidance.
 
 Thank you to all developers, packagers, librarians, document writers,
