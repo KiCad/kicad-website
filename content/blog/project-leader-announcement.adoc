@@ -1,0 +1,24 @@
++++
+title = "Full Time Project Leader Announcement"
+date = "2019-04-30"
+aliases = [
+    "/post/project-leader-announement/"
+]
+categories = [
+    "News"
+]
++++
+
+:icons: fonts
+:iconsdir: /img/icons/
+
+For those of you who did not have the good fortune to attend
+https://kicad-kicon.com/[KiCon], (more on that in a later post) there was
+a major project announcement made by the project leader during the
+https://www.youtube.com/watch?v=nL0yTvJKA5c&feature=youtu.be[keynote talk].
+The KiCad project is excited to announce that the lead developer, Wayne
+Stambaugh has been hired by https://www.wit.com[WIT] to work full time
+on KiCad.  On behalf of The KiCad development team and it's users, we
+would like to say thank you to WIT for it's commitment to the project.
+We are looking forward to the additional development manpower this will
+provide and we hope we can help WIT achieve it's goals.
