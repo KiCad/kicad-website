@@ -1,0 +1,40 @@
++++
+title = "First Annual KiCad Conference (KiCon) Wrap Up"
+date = "2019-04-30"
+draft = false
+aliases = [
+    "/post/kicon-wrap-up/"
+]
+categories = [
+    "News"
+]
++++
+
+:icons: fonts
+:iconsdir: /img/icons/
+
+For those of you who did not have the good fortune of being able to attend
+https://kicad-kicon.com/[KiCon], you missed a great conference.  If this
+years conference was any indication, you will not want to miss the next one.
+The conference completely sold out with 220 registrations.  Attendees from
+all over the world gathered to share their experiences with KiCad.  There
+were high quality talks, the badges were cool, everything ran smoothly,
+https://mhubchicago.com/[mHUB] was the ideal venue, and the after hours
+events were a whole lot of (maybe too much) fun.  There was a tremendous
+amount of excitement about all things KiCad which bodes well for the future.
+
+If you couldn't attend, the https://youtu.be/nL0yTvJKA5c[keynote talk] and
+https://youtu.be/NRwTyBX2BFk[developer panel talk] have been uploaded to
+YouTube.  All of the talk videos are in the process of being uploaded so
+you will be able to view all of them.  You should also take a look at
+https://hackaday.com/2019/04/30/kicad-community-shines-at-first-ever-kicon/[Mike Szczys' Hack-A-Day Post]
+for a nice write up on KiCon.
+
+The KiCad project would like to thank Chris Gammel for all of the hard work
+he did to make KiCon happen.  We would also like to thank all of our
+https://kicad-kicon.com/sponsors/[sponsors], presenters, and volunteers who
+made KiCon possible.
+
+The first KiCon was so good that you may want to get your tickets early for
+the next KiCon before it sells out.  We hope to see all of you at the next
+KiCon.
