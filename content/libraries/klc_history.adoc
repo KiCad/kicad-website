@@ -5,6 +5,11 @@ url = "/libraries/klc/history/"
 +++
 
 ---
+== 3.0.19 - 2019-05-04
+* Clarified KiCad footprint assignment work-flows as generic vs fully specified symbols (G2.1)
+  * Avoid using the word atomic as it does not really specify what is really used.
+  * Added a small definition where generic symbols are to be found
+
 == 3.0.17 - 2018-12-31
 * Correct Pin length definition for staggered TO (image in F3.5)
 * Document rules for handling oval holes (new rule F7.7)
