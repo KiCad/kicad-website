@@ -5,7 +5,7 @@ url = "/libraries/klc/history/"
 +++
 
 ---
-== 3.0.18 - 2019-01-25
+== 3.0.18 - 2019-05-04
 * Clarify rules regarding NC pins
    * Clarify when they may be omitted
    * Clarify that they must be hidden when included.
