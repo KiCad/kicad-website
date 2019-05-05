@@ -1,0 +1,10 @@
++++
+title = "Librem 5 Dev Kit"
+projectimage = "/img/madewithkicad/librem_5_dev_kit.png"
+projectdeveloper = "Purism"
+projecturl = "https://source.puri.sm/Librem5/dvk-mx8m-bsb/"
++++
+
+The link:https://puri.sm/posts/how-we-designed-the-librem-5-dev-kit-with-100-free-software//[Librem 5 Dev Kit] is a smartphone developer kit that is used by software developers to create apps and other software for the final Librem 5 GNU/Linux smartphone.
+The baseboard design uses an i.MX 8M System-On-Module (SOM), a SIMCom SIM7100A/E baseband modem mPCIe module, and a RedPine RS9116 WiFi+BT M.2 module.
+It includes a 720x1440 capacitive touch LCD, a dual-role capable USB-C port, a Mini-HDMI port, an RJ45 ethernet port, a 3.5mm headset audio jack, a microSD slot, a 3FF micro-SIM card slot, a 2FF smartcard slot, a GSM/3G/LTE WWAN SMD antenna, a GNSS/GPS module and SMD antenna, two WLAN SMD antennas including one for diversity, a 5MP camera, an earpiece speaker, a microphone, a 9-axis IMU, an ambient light+proximity sensor, a haptic motor, a user-controllable indication LED, an 18650 li-ion battery holder for use with an on-board charge controller, and kill switches for WWAN, WiFi+BT, & camera+mic.

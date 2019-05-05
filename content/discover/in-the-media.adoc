@@ -9,6 +9,10 @@ title = "In the Media"
 
 **KiCad has been featured in the following blog posts, press and media:**
 
+https://hackaday.com/2019/04/30/kicad-community-shines-at-first-ever-kicon/[KiCad Community Shines at First Ever KiCon] (30-APR-2019)
+
+https://blog.aisler.net/supporting-kicad-d94ea84eb87?fbclid=IwAR17m6vuxNntbYNC_65gknUnfm0urGvC3jN9kRATw69AUboUdH3OvoRE-8U[Aisler Supporting KiCad] (4-FEB-2019)
+
 https://blog.system76.com/post/179897016318/system76-provides-funds-to-open-source-projects[System76 Provides Funds to Open Source Projects] (8-NOV-2018)
 
 https://joinup.ec.europa.eu/news/special-kind-economic-actor[CERN contribution to KiCad aids Open Source Hardware and knowledge transfer] (31-JUL-2018)
@@ -21,7 +25,7 @@ https://www.electronicsweekly.com/news/kicad-big-news-schematic-capture-says-dig
 
 https://www.sfcircuits.com/pcb-school/pcb-design-software-comparison-guide[The Ultimate PCB Design Software Comparison Guide] (26-JAN-2017)
 
-https://giving.web.cern.ch/content/kicad-development-1[KiCad: A commitment to freedom] (12-OCT-2017)
+https://cernandsocietyfoundation.cern/projects/kicad[KiCad: A commitment to freedom] (12-OCT-2017)
 
 https://home.cern/cern-people/updates/2017/07/kicad-reaches-new-heights[KiCad reaches new heights ] (3-JUL-2017)
 

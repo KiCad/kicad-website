@@ -6,12 +6,44 @@ weight = 2
 :icons: fonts
 :iconsdir: /img/icons/
 
+KiCad is supported for Windows 7, 8.1 and 10.  See
+link:/help/system-requirements/[System Requirements] for more details.
+
 == Stable Release
 
-Current Version: *5.0.2*
+Current Version: *5.1.2*
+++++
+<h3>64-bit (recommended)</h3>
+<h4>Download mirrors</h4>
+<div class="list-group download-list-group">
+	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.2_1-x86_64.exe">
+		<img src="/img/about/cern-logo.png" /> CERN
+	</a>
+	<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.2/kicad-5.1.2_1-x86_64.exe">
+		GitHub
+	</a>
+	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.2_1-x86_64.exe">
+		Futureware
+	</a>
+</div>
+++++
 
-- http://downloads.kicad-pcb.org/windows/stable/kicad-5.0.2_1-x86_64.exe[Windows 64-bit (x86_64)] http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.0.2_1-x86_64.exe[[mirror]]
-- http://downloads.kicad-pcb.org/windows/stable/kicad-5.0.2_1-i686.exe[Windows 32-bit (i686)] http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.0.2_1-i686.exe[[mirror]]
+
+++++
+<h3>32-bit</h3>
+<h4>Download mirrors</h4>
+<div class="list-group download-list-group">
+	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.2_1-i686.exe">
+		<img src="/img/about/cern-logo.png" /> CERN
+	</a>
+	<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.2/kicad-5.1.2_1-i686.exe">
+		GitHub
+	</a>
+	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.2_1-i686.exe">
+		Futureware
+	</a>
+</div>
+++++
 
 == Nightly Development Builds
 
@@ -19,10 +51,10 @@ The _nightly_ builds are snapshots of the codebase at a specific time.
 They may contain more bugs than usual, although we try our best. Use
 them for testing the newest features:
 
-http://downloads.kicad-pcb.org/windows/nightly/
+https://kicad-downloads.s3.cern.ch/index.html?prefix=windows/nightly/
 
 == Previous Releases
 
 Previous releases should be available for download on:
 
-http://downloads.kicad-pcb.org/windows/stable/
+https://kicad-downloads.s3.cern.ch/index.html?prefix=windows/stable/

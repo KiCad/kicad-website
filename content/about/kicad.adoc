@@ -73,14 +73,14 @@ Abstraction Layer and introduced Push and Shove router capabilities.
 
 === The Raspberry Pi Foundation
 
-Donated to the https://giving.web.cern.ch[CERN and Society Foundation] for the development
+Donated to the https://cernandsocietyfoundation.cern/projects/kicad[CERN and Society Foundation] for the development
 of KiCad's differential pair routing and track length control features.
 
 {{< aboutlink "/img/about/arduino-logo.png" "http://www.arduino.cc" >}}
 
 === Arduino LLC
 
-Donated to the https://giving.web.cern.ch[CERN and Society Foundation] to support CERN's
+Donated to the https://cernandsocietyfoundation.cern/projects/kicad[CERN and Society Foundation] to support CERN's
 efforts in Open Source Hardware.
 
 {{< aboutlink "/img/about/glesys.png" "http://glesys.se" >}}
@@ -103,3 +103,13 @@ owner to serve malware, and redirected it to the main KiCad website at kicad-pcb
 AISLER believes that a PCB Design Tool like KiCad should participate financially when a
 customer let’s that design become a reality.  That is why AISLER allows its users to easily
 donate to the KiCad project during the ordering process.
+
+{{< aboutlink "/img/about/tech-explorations-logo.png" "https://techexplorations.com/" >}}
+
+=== Tech Explorations
+
+https://techexplorations.com[Tech Explorations] is a technology education company for
+Makers, STEM educators, and students.  Peter Dalmaris, the company co-founder recently
+wrote and published 
+https://techexplorations.com/product/kicad-like-a-pro-2nd-edition-special-kicad-fundraising-edition-ebook-bundle/[“KiCad Like a Pro, 2nd edition”] which donates 50% of the book sale
+profits to the KiCad project.

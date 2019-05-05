@@ -1,0 +1,63 @@
++++
+title = "KiCad 5.1.0 Release"
+date = "2019-03-14"
+aliases = [
+    "/post/release-5.1.0/"
+]
+categories = [
+    "Release Notes"
+]
++++
+
+:icons: fonts
+:iconsdir: /img/icons/
+
+The KiCad project is proud to announce the release of version 5.1.0.
+This is the first ever minor version release of KiCad and was developed
+primarily to resolve compatibility issues with Linux GTK3 and long
+awaited support for python3.
+
+In addition to the primary focus, there have been many important changes
+that make this release a substantial improvement over the 5.0 series and
+a worthwhile upgrade for users on all platforms.  Included in the
+improvements are:
+
+- Improved 3D model library path configuration.
+- Cairo canvas is now used for printing support on all platforms.
+- Schematic and symbol library editors now use the modern canvases for
+  rendering.
+- Symbol pin table is now editable.
+- Pcbnew scripting support for Python 3 has been added.
+- Snapping for graphical object drawing in board and footprint editors.
+- Significant user interface improvements.
+- Major dialog box improvements.
+- Both the footprint and symbol library editors now share the same
+  user interface paradigm with a library tree view pane.
+- Symbol, footprint, and 3D model library improvements.
+- Documentation and translation improvements.
+- Less pain for Linux package maintainers, now all features should be
+  easy to support.
+
+Additionally, files created by KiCad version 5.1 remain 100%
+compatible with files created by version 5.0.
+
+Of course no new stable version of KiCad would be complete without
+https://launchpad.net/kicad/5.0/5.1.0-rc2[many],
+https://launchpad.net/kicad/5.0/5.1.0[many] bug fixes so please
+consider upgrading as soon as possible.  This version will be
+the only supported version of KiCad moving forward.  There will
+be no further releases of the 5.0 series.
+
+Version 5.1.0 is built from the source code in the
+link:https://git.launchpad.net/kicad/log/?h=5.1[lp:kicad/5.1]
+branch.
+
+KiCad binaries will be available for download for Windows, MacOS, and
+Linux are available or will be in the very near future.  See the
+http://www.kicad-pcb.org/download/[KiCad download page] for guidance.
+
+Thank you to all developers, packagers, librarians, document writers,
+translators, and everyone else who helped make this release possible.
+We hope you enjoy the latest release of KiCad.
+
+The KiCad Development Team

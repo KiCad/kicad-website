@@ -25,7 +25,9 @@
 			<ul class="list-unstyled side-links list-group download-sidebar">
 				{{ range where .Site.Sections "Title" "Download" }}
 					{{ range .Pages }}
+						{{ if .Title }}
 						<li class="list-group-item{{ if  eq $currentNode . }} active{{ end }}"><a href="{{ .RelPermalink }}">{{  safeHTML .Params.iconhtml }} {{ .Title }}</a></li>
+						{{ end }}
 					{{ end }}
 				{{ end }}
 			</ul>

@@ -6,23 +6,44 @@ weight = 2
 :icons: fonts
 :iconsdir: /img/icons/
 
-KiCad is known to work on Mac OS X 10.11 through macOS 10.14.  It may work on newer versions.  If it does not, it is a bug and will be fixed.   If you are going to use macOS 10.14, use the download with 10_14 in its name. If you are going to use 10.11-10.13, use the download without 10_14 in its name.
+KiCad is known to work on Mac OS X 10.12 through macOS 10.14.  See
+link:/help/system-requirements/[System Requirements] for more details.
+
+If you run macOS 10.14, use the download with 10_14 in its name. If you run 10.12 or 10.13, use the download without 10_14 in its name.
 
 *kicad-unified* is the default package that most people should install.  *kicad-unified* contains everything: the KiCad suite, documentation, schematic symbols, footprints, translations, templates, demos, and 3D models.
 
 
 == Stable Release
 
-Current Version: *5.0.2*
+Current Version: *5.1.2*
 
-[NOTE]
-For the time being there have been some packaging related issues with
-5.0.2 for macOS, so please get 5.0.1 from
-http://downloads.kicad-pcb.org/osx/stable/[http://downloads.kicad-pcb.org/osx/stable/]
-or hold back upgrading on macOS.
+++++
+<h3>macOS 10.14</h3>
+<h4>Download mirrors</h4>
+<div class="list-group download-list-group">
+	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/osx/stable/kicad-unified-5.1.2-1-10_14.dmg">
+		<img src="/img/about/cern-logo.png" /> CERN
+	</a>
+	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/osx/stable/kicad-unified-5.1.2-1-10_14.dmg">
+		Futureware
+	</a>
+</div>
+++++
 
-//- For macOS 10.14: http://downloads.kicad-pcb.org/osx/stable/kicad-unified-5.0.2-10_14.dmg[KiCad] http://www2.futureware.at/~nickoe/kicad-downloads-mirror/osx/stable/kicad-unified-5.0.2-10_14.dmg[[mirror]]
-//- For macOS 10.11-10.13: http://downloads.kicad-pcb.org/osx/stable/kicad-unified-5.0.2.dmg[KiCad] http://www2.futureware.at/~nickoe/kicad-downloads-mirror/osx/stable/kicad-unified-5.0.2.dmg[[mirror]]
+
+++++
+<h3>macOS 10.11-10.13</h3>
+<h4>Download mirrors</h4>
+<div class="list-group download-list-group">
+	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/osx/stable/kicad-unified-5.1.2-1.dmg">
+		<img src="/img/about/cern-logo.png" /> CERN
+	</a>
+	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/osx/stable/kicad-unified-5.1.2-1.dmg">
+		Futureware
+	</a>
+</div>
+++++
 
 == Nightly Development Builds
 
@@ -32,4 +53,4 @@ The _nightly_ builds are snapshots of the codebase at a specific time. They may 
 
 - *kicad-extras* contains the 3D models.
 
-http://downloads.kicad-pcb.org/osx/nightly/
+https://kicad-downloads.s3.cern.ch/index.html?prefix=osx/nightly/

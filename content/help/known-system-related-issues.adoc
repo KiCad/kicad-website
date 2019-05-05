@@ -89,20 +89,12 @@ upstream. More details can be found in
 link:https://bugs.launchpad.net/kicad/+bug/1442909[Bug# 1442909].
 
 === Wayland
-It is known that KiCad does not work well under Wayland, see this bug
-link:https://bugs.launchpad.net/kicad/+bug/1725920[Bug# 1725920]. Feel
-free to give useful input to mitigate this issue. It is not yet known
-if it is a bug in KiCad, WxWidgets or Wayland.
+It is known that KiCad does not work well under Wayland. There are a number
+of known issues with wxWidgets and Wayland.  link:https://trac.wxwidgets.org/query?status=!closed&keywords=~Wayland[See the wxWidgets bug tracker for details]. 
 
-The Modern Toolset (Accelerated) mode in PcbNew and GerbView does not
-work in Wayland at the moment, and attempting to enable accelerated
-graphics on a system using Wayland may result in a crash.  Until this
-issue with wxWidgets is resolved, users who use Wayland are advised
-to select Modern Toolset (Fallback) in the preferences menu.
-
-This affects recent desktops that have started to default to Wayland
-as their desktop e.g. Ubuntu 17.10. A workaround is to choose X11 when
-logging in to the desktop.
+KiCad requests the XWayland compatibility layer when starting, however this is
+an emulation mode and issues arising while using this mode need to be recreated
+under X11 before they will be addressed.
 
 == Windows
 === wxWidgets 3.0.2

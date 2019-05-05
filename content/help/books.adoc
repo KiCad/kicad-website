@@ -1,0 +1,17 @@
++++
+title = "Books"
+[menu.main]
+    parent = "Help"
+    name   = "Books"
+weight = 50
++++
+
+== KiCad Like a Pro
+
+"KiCad Like a Pro, 2nd Edition" written by Dr. Peter Dalmaris from
+https://techexplorations.com[Tech Explorations] is great reference for
+KiCad users of all skill levels.  This book covers everything from getting
+started using KiCad to using git for project version control.  A
+https://techexplorations.com/product/kicad-like-a-pro-2nd-edition-special-kicad-fundraising-edition-ebook-bundle/[special edition] of this book has been created of which half
+of the profits from each sale will be donated to the CERN & Society
+Foundation for KiCad development.
