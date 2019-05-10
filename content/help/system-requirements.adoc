@@ -23,7 +23,7 @@ toc::[]
   with at least 16K colors (with 1024x768 some buttons may result hidden but
   corresponding commands should be reachable via menu anyway).
 
-* Graphic card with at least OpenGL 2.1, with hardware shaders. Check
+* Graphics card with OpenGL 2.1 or greater that supports hardware shaders. Check
   the OpenGL specs of the card:
 ** Intel: no cards that came before the HD-Graphics series, regardless of the name including "HD".
    Intel cards that are reported working starts from model HD2000 and higher.
@@ -40,14 +40,15 @@ See: http://kicad-pcb.org/help/known-system-related-issues/ for software specifi
 
 == Specific System Requirements
 
-KiCad supports major operating systems that remain supported by their developers.  After the operating systems'
-respective companies stop releasing updates for the system, KiCad will not be specifically tested with the
-old system.  Older operating systems may continue to work with KiCad beyond this time but bugs must be reproduced on a supported operating system before they will be addressed by KiCad.
+KiCad supports major operating systems that remain supported by their developers.  After the
+operating systems' respective organizations stop releasing updates for the system, KiCad will
+not be specifically tested with the unsupported system.  Unsupported operating systems may
+continue to work with KiCad beyond this time but bugs must be reproduced on a supported operating
+system before they will be addressed by KiCad.
 
 === Windows
 
-The software prerequisites for installing KiCad on a Windows
-system are as follows:
+The software prerequisites for installing KiCad on a Windows system are as follows:
 
 [%header,width="50%",cols="10,^2"]
 |===
@@ -77,9 +78,8 @@ The software prerequisites for installing on a macOS system are as follows:
 === GNU/Linux
 
 The following Linux distribution versions have been tested and are known to be working.
-Issues or bugs that occur on an unsupported platform must be
-reproduced on an officially supported distribution and window manager before they will
-be addressed by KiCad.
+Issues or bugs that occur on an unsupported platform must be reproduced on an officially
+supported distribution and window manager before they will be addressed by KiCad.
 
 ==== Tested Distributions
 
@@ -97,21 +97,25 @@ be addressed by KiCad.
 
 [%hardbreaks]
 ==== Additional Linux Considerations
-Linux also allows the user to select their window manager.  There are many esoteric
-window managers available for Linux and some may have unexpected behavior.  KiCad officially
-supports the following window managers:
+Linux allows users to select their preferred window manager.  There are many esoteric window
+managers available for Linux and some may have unexpected behavior.  KiCad officially supports
+the following window managers:
 
 * Metacity (used by GNOME 2 and GNOME flashback)
-* Mutter (when used with an X11 backend)
-* KWin (when used with an X11 backend)
+* Mutter (GNOME 3)
+* KWin (KDE)
 * Xfwm (used by XFCE)
+* i3 (Arch Linux)
+* Unity (Ubuntu prior to 18.04)
 
 ==== Graphical Windowing Backend
-KiCad officially supports the X11 backend.  Users who choose to use Wayland will run in
-a compatibility layer called link:https://wayland.freedesktop.org/xserver.html[XWayland].
+Regardless of the window manager, KiCad officially only supports the X11 backend.  Users who
+choose to use Wayland will have to run KiCad in the compatibility layer
+link:https://wayland.freedesktop.org/xserver.html[XWayland].
 
 Issues or bugs encountered while using XWayland must be reproduced under X11 before they
-will be addressed by KiCad.
+will be addressed by KiCad.  Bugs that cannot be reproduced on X11 should be reported to
+the link:https://gitlab.freedesktop.org/wayland/wayland/issues[Wayland bug tracker].
 
 
 === Other OSes
