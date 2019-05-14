@@ -1,9 +1,0 @@
-+++
-title = "Electrosmart ECG"
-projectimage = "/img/madewithkicad/ElectrosmartECG.jpg"
-projectdeveloper = "Palta Tech"
-projecturl = "http://www.paltatech.com/electrosmart/"
-type = "made-with-kicad"
-+++
-
-12 lead ECG with an ARM Cortex M3, USB and Bluetooth, developed and sold in partnership with Eccosur.
