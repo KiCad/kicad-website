@@ -13,15 +13,19 @@ toc::[]
 
 == Common System Requirements (hardware specs)
 
-* Pentium-compatible PC (Pentium IV, Athlon or more-recent system recommended);
+* Supported Processor Architectures
+** Intel (or compatible) 32 and 64 bit.
+** PowerPC 32 and 64 bit.
+** ARM 32 and 64 bit.
+** MIPS 64 bit.
 
-* 512 MB RAM (1024 MB RAM recommended);
+* 1GB RAM (2G RAM recommended);
 
-* Up to 5GB available hard disk space;
+* Up to 10GB available hard disk space;
 
-* Screen resolution of 1024x768 works but, 1280x1024 or higher is recommended,
-  with at least 16K colors (with 1024x768 some buttons may result hidden but
-  corresponding commands should be reachable via menu anyway).
+* Screen resolution of 1280x1024 works but 1920x1080 or higher is recommended, with at
+  least 16K colors.  At lower resolutions toolbar buttons may be hidden but corresponding
+  commands should be reachable via menu.
 
 * Graphics card with OpenGL 2.1 or greater that supports hardware shaders. Check
   the OpenGL specs of the card:
