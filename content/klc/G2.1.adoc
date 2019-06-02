@@ -2,13 +2,13 @@
 brief = "Defining generic and fully specified symbols"
 +++
 
-KiCad generally has two work-flows with regards to assign a footprint to a symbol. It can be done in the library or using the "assign footprints tool" at the end of the design process.
+KiCad generally has two workflows with regards to assign a footprint to a symbol. It can be done in the library or using the "assign footprints tool" at the end of the design process.
 
 **Generic symbols**
 
-Generic symbols can be used with multiple footprints, and _do not_ have a default footprint assigned. Generic symbols allow flexibility in the design work-flow. Symbols are first added to the schematic, and the footprint is selected before PCB layout. Using generic symbols allows a small number of library symbol elements to represent a _very large number_ of possible component combinations.
+Generic symbols can be used with multiple footprints, and _do not_ have a default footprint assigned. Generic symbols allow flexibility in the design workflow. Symbols are first added to the schematic, and the footprint is selected before PCB layout. Using generic symbols allows a small number of library symbol elements to represent a _very large number_ of possible component combinations.
 
-An example of the use of generic symbols is the **Resistor** and **Capacitor** symbols available in the KiCad library. But also the logic family symbols which are pin compatible to a huge number of packages. These symbols do not have an assigned default footprint, as there are _many_ possible compatible footprints.
+An example of the use of generic symbols are the **Resistor** and **Capacitor** symbols available in the KiCad library. These symbols do not have an assigned default footprint, as there are _many_ possible compatible footprints.
 
 {{< klcimg src="G2.1a" title="Single schematic symbol" >}} {{< klcimg src="G2.1b" title="Associated with multiple footprints" >}}
 
@@ -22,7 +22,7 @@ Some users refer to fully specified symbols as atomic parts or a library of such
 
 **Where to use which type**
 
-The official library generally uses fully specified symbols where feasible. Generic symbols are limited to a small number of libraries that contain only generic symbols. These generic libraries are:
+The official library requires fully specified symbols except for a small number of libraries that contain only generic symbols. These generic libraries are:
 
 * `Device`
 * All `Connector` libraries

@@ -13,7 +13,3 @@ Examples:
 To capture every possible combination of part variation requires a large number of symbol aliases - this is to be avoided.
 
 Where an MPN has options for such non-functional variations, these portions of the MPN should be replaced with a wildcard character (`x`).
-
-**Rule of thumb**
-
-A single symbol should be drawn for each footprint variation of an atomic part. Other variations (as listed above) do not require their own symbol alias.
