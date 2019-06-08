@@ -5,6 +5,9 @@ url = "/libraries/klc/history/"
 +++
 
 ---
+== 3.0.20 - 2019-06-30
+* Update F9.1 screenshots and terms to match current GUI
+
 == 3.0.19 - 2019-06-19
 * Clarify symbol naming for symbols with multiple manufactureres with different package suffixes (S2.1)
 * Added more details on silk-to-pad clearance (F5.1)
