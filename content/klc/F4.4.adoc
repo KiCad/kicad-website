@@ -9,7 +9,7 @@ In such cases the datasheet will usually specify the quantity, size and position
 In addition to manufacturer requirements, a number of extra conventions should be followed when creating thermal vias.
 
 . Thermal vias must share the same pad number as the pad on which they are placed
-. Where thermal vias are connected to a pad on the `F.Cu` layer, a copper pad on the `B.Cu` layer should be added, to provide thermal relief for the via. This pad must be large enough to fully surround the via(s) with a margin of `>= 0.5mm`. __Note: If the datasheet gives conflicting advice to the placement of this pad on the `B.Cu` layer, then the datasheet instruction should be given preference.__
+. Where thermal vias are connected to a pad on the `F.Cu` layer, a copper pad on the `B.Cu` layer should be added, to provide thermal relief for the via. `B.Mask` is not to be enabled on the `B.Cu` pad so mask is present. This pad must be large enough to fully surround the via(s) with a margin of `>= 0.5mm`. __Note: If the datasheet gives conflicting advice to the placement of this pad on the `B.Cu` layer, then the datasheet instruction should be given preference.__
 
 [start=3]
 . Unless instructed by the datasheet, solder paste must not be placed over the thermal via(s). This can cause solder to wick into the via during reflow, and cause solder joint issues.
