@@ -14,7 +14,7 @@ Surface mount pads have specific requirements for PCB design.
 .. `B.Paste` - Back solderpaste (stencil openings)
 . Pads with specific stencil aperture design requirements require special attention (see details below)
 
-## Requirements for solderpaste
+*Requirements for solderpaste*
 
 Many components (IC packages in particular) have specific design requirements for solderpaste (stencil) design. These requirements are often found in the footprint datasheet or an associated technical document.
 
@@ -36,7 +36,7 @@ Custom stencil openings are accommodated as follows:
 {{< klcimg src="F6.3b" title="Resulting stencil openings shown in footprint editor" >}}
 {{< klcimg src="F6.3c" title="Result stencil openings shown in 3D viewer">}}
 
-## Size of exposed pads
+*Size of exposed pads*
 
 The following rules apply for finding the correct pad size for parts including an exposed pad.
 
@@ -45,7 +45,7 @@ The following rules apply for finding the correct pad size for parts including a
 .. It is not allowed to use a footprint pad smaller than the minimum size of the package pad.
 .. Soldermask defined pas are to be used if the suggested footprint uses a pad larger than the maximum size of the package pad. (Meaning: copper can cover a larger area, but the exposed copper is still within the package pads tolerance range.)
 
-## Clearance requirement between exposed pads and normal pads
+*Clearance requirement between exposed pads and normal pads*
 
 . There should be clearance of at least 0.2mm between the exposed pad and the normal pads.
 . This clearance applies only to the area free of soldermask. (The clearance for soldermask defined pads is the spacing between the normal pads and the soldermask cutout of the exposed pad.)
