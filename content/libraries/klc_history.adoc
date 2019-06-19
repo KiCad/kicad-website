@@ -5,6 +5,13 @@ url = "/libraries/klc/history/"
 +++
 
 ---
+== 3.0.19 - 2019-06-19
+* Clarify symbol naming for symbols with multiple manufactureres with different package suffixes (S2.1)
+* Added more details on silk-to-pad clearance (F5.1)
+* Specified that thermal pads with vias need a bottom copper pad (F4.4)
+* Expanded details for selecting pin length (S4.1)
+* Minor edits for style, wording, and grammar
+
 == 3.0.18 - 2019-02-15
 * Document rules for overlapping/duplicate graphic elements (new rule F5.4)
 
