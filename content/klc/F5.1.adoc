@@ -19,7 +19,8 @@ The following elements must be provided on the silkscreen.
   * `0.1mm` is allowed for high density designs
   * `0.15mm` is allowed for low density designs
 . Silkscreen must not be placed over pads or areas of exposed copper
-  * Clearance between silkscreen and exposed copper elements must be at least the silkscreen line width or more than the pad mask expansion, whichever is greater.
+  * Clearance between silkscreen and exposed copper elements is recommended to be 0.2mm.
+  * Clearance must be at least the silkscreen line width or more than the pad mask expansion, whichever is greater.
 . For SMD footprints, silkscreen must be fully visible after boards assembly (no silkscreen allowed under component)
 . For THT components, silkscreen may be placed under component to aid in assembly process
 . Pin-1 designator is provided on the `F.SilkS` layer
