@@ -5,7 +5,8 @@ brief = "General pin requirements"
 . Using a `100mil` (`2.54mm`) grid, pin origin must lie on a grid node (IEC-60617)
 . Pins should have a length of at least `100mil` (`2.54mm`)
 * Pin length can be increased in steps of `50mil` (`1.27mm`)
-* Lengthing pins is done based on the number of characters in the pin number. For two characters in the pin number then 100mil long pins should be used, for three characters then 150mil long pins should be used, etc.
+* The number of characters in the pin number determine a pin's length. When there are two characters in the pin number then 100mil (`2.54mm`) long pins should be used, when three characters then 150mil (`3.81mm`) long pins should be used, etc.
 * Pin length must not exceed 300mil (7.62mm)
 * Shorter pins are allowed on simple symbols for discrete devices such as resistors, capacitors, etc.
+* All pins on a symbol must have the same length
 . Pin numbers must be unique (no two pins may have the same number)
