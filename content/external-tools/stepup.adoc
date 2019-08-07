@@ -12,4 +12,4 @@ Main features:
 * Load kicad board and parts in FreeCAD and export it to STEP (or IGES) models
 * Load `kicad_mod` footprint in FreeCAD to easy and precisely align the mechanical model to kicad footprint
 * Pull a pcb edge from a `kicad_pcb` board, edit it in FreeCAD Sketcher and push it back to kicad
-* Pusk & pull 3D models positions between FreeCAD and KiCAD
+* Push & pull 3D models positions between FreeCAD and KiCAD
