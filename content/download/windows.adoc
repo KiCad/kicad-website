@@ -45,9 +45,6 @@ Current Version: *5.1.4*
 </div>
 ++++
 
-NOTE: KiCad 5.1.2 for Windows has been re-built with ngspice version
-30 as 5.1.2_2. There are no other changes.
-
 == Nightly Development Builds
 
 The _nightly_ builds are snapshots of the codebase at a specific time.
