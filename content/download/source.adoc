@@ -35,7 +35,7 @@ Tarballs intended to be used by packagers:
 * link:https://github.com/KiCad/kicad-symbols/releases/tag/5.1.4[symbols]
 * link:https://github.com/KiCad/kicad-footprints/releases/tag/5.1.4[footprints]
 * link:https://github.com/KiCad/kicad-packages3D/releases/tag/5.1.4[packages3D]
-* link:https://github.com/KiCad/kicad-templates/releases/tag/5.1.0[templates]
+* link:https://github.com/KiCad/kicad-templates/releases/tag/5.1.4[templates]
 
 As a packager, please work to enable all the build options, that is
 all the scripting options, OCE or OCC and ngspice. With recent
