@@ -25,16 +25,16 @@ project templates.
 
 == Stable Release
 
-Current Version: *5.1.0*
+Current Version: *5.1.4*
 
 Tarballs intended to be used by packagers:
 
-* link:https://launchpad.net/kicad/5.0/5.1.0/+download/kicad-5.1.0.tar.xz[Source code]
-* link:https://kicad-downloads.s3.cern.ch/docs/kicad-doc-5.1.0.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/5.1.0[doc sources]
-* link:https://github.com/KiCad/kicad-i18n/releases/tag/5.1.0[i18n (translations)]
-* link:https://github.com/KiCad/kicad-symbols/releases/tag/5.1.0[symbols]
-* link:https://github.com/KiCad/kicad-footprints/releases/tag/5.1.0[footprints]
-* link:https://github.com/KiCad/kicad-packages3D/releases/tag/5.1.0[packages3D]
+* link:https://launchpad.net/kicad/5.0/5.1.4/+download/kicad-5.1.4.tar.xz[Source code]
+* link:https://kicad-downloads.s3.cern.ch/docs/kicad-doc-5.1.4.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/5.1.4[doc sources]
+* link:https://github.com/KiCad/kicad-i18n/releases/tag/5.1.4[i18n (translations)]
+* link:https://github.com/KiCad/kicad-symbols/releases/tag/5.1.4[symbols]
+* link:https://github.com/KiCad/kicad-footprints/releases/tag/5.1.4[footprints]
+* link:https://github.com/KiCad/kicad-packages3D/releases/tag/5.1.4[packages3D]
 * link:https://github.com/KiCad/kicad-templates/releases/tag/5.1.0[templates]
 
 As a packager, please work to enable all the build options, that is
