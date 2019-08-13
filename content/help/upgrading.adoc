@@ -1,12 +1,12 @@
 +++
 title = "Upgrading"
-[menu.main]
-    parent = "Help"
-    name   = "Upgrading"
-weight = 40
 aliases = [
     "/help/migration/"
 ]
+[menu.main]
+    parent = "Help"
+    name   = "Upgrading"
+    weight = 40
 +++
 
 Newer versions of KiCad bring changes to file formats and functionality. While effort is made to maintain compatibility, there may ultimately be changes that must made
