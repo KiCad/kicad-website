@@ -33,7 +33,7 @@ Current Version: *5.1.4*
 
 
 ++++
-<h3>macOS 10.11-10.13</h3>
+<h3>macOS 10.12-10.13</h3>
 <h4>Download mirrors</h4>
 <div class="list-group download-list-group">
 	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/osx/stable/kicad-unified-5.1.4-0.dmg">
