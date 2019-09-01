@@ -6,63 +6,194 @@ weight = 10
 :icons: fonts
 :iconsdir: /img/icons/
 
-== Debian Stable (Stretch)
+== Basic Information
 
-{{< repology debian_stable_backports >}}
+The information further down about the available KiCad packages might not
+always be fully up to date and correct due ongoing development. For getting an
+overview about the current most recent version for the KiCad packages within
+the various Debian releases please have a look at
+https://packages.debian.org/search?lang=en&keywords=kicad[package.debian.org].
 
-{{< repology debian_stable >}}
+Please note that Debian stable releases don't get updates for existing
+packages except security updates. Packages within the Stable releases usually
+get newer and recent versions through backports repositories. KiCad is
+here no special case.
 
-The release 4.0.5 is available for Debian
-https://packages.debian.org/stretch/kicad[stable/stretch], the backported
-version 5.0.1 is available in
-https://packages.debian.org/stretch-backports/kicad[stretch-backports].
-
-You can install it with the following commands in a terminal, otherwise you can
-use any of the package managers you like:
+To be able to install versions from a official Debian Backport repository you
+need to extend your `sources.list` configuration if not yet happen. If you are
+running Debian Buster please create a file
+`/etc/apt/sources.lists.d/buster-backports.list` if you don't have an similar
+entry already.
 
 [source,bash]
-sudo apt update
-sudo apt install kicad
+----
+# /etc/apt/sources.lists.d/buster-backports.list
+deb http://deb.debian.org/debian buster-backports main contrib non-free
+----
 
-Offline docs are available in separate packages named for example
-`kicad-doc-en`. You can search for them with _apt_ or _apt-cache_ for example.
+If your system is still running Debian Stretch create a similar file (if not
+done somehow already or created by the installer similar)
+`/etc/apt/sources.lists.d/stretch-backports.list`
+like above except the content is pointing to stretch-backports.
+
+[source,bash]
+----
+# /etc/apt/sources.lists.d/stretch-backports.list
+deb http://deb.debian.org/debian stretch-backports main contrib non-free
+----
+
+Once you've added one of these files you need to update the database of the
+package managing system so your preferred package manager is knowing about
+the new added source and the package versions from there.
+
+[source,bash]
+----
+sudo apt update
+----
+
+For more information about backports you might want to visit the Debian Wiki
+site about https://wiki.debian.org/Backports[Backports] and / or also the
+https://backports.debian.org/Instructions/[Backports website].
+
+=== Other KiCad related packages and their relations
+
+For more flexibility the various KiCad packages are provided by also various
+binary packages you might want need to install beside the `kicad` main package
+that is containing the KiCad applications. For example there are existing
+dedicated packages for the footprints, symbols, templates and 3D-models and
+also KiCad documentation related packages which aren't necessarily
+automatically get installed (depends on the configuration of your system) if
+you install the `kicad` package.
+
+If you are looking for all KiCad related packages you can search for them
+simply by your preferred package manager tool, e.g. by `apt`.
+
+[source,bash]
+----
+sudo apt search kicad*
+----
+
+For a useful working with KiCad you will need to have installed the following
+packages: `kicad` and `kicad-libraries` and sometimes also the package
+`kicad-demos`.
+Typically these packages get installed automatically if you haven't changed the
+system default on installing of recommended packages. Please don't install the
+package `kicad-common` directly, it's a transitional package and will go away,
+it can get removed if you've installed this.
+
+You can get more information about the relation between the various `kicad`
+packages in Debian please have a look at a graphic on the
+https://wiki.debian.org/KiCad[Debian wiki page] for KiCad packages.
+
+'''
+
+=== KiCad packages within the Debian releases
+
+==== Debian Old-Old-Stable (Codename Jessie)
+
+WARNING: The Jessie release isn't supported any more and wont get updates, please
+upgrade your system to at least Debian Stretch!
+
+'''
+
+==== Debian Old-Stable (Codename Stretch)
+
+===== https://packages.debian.org/stretch-backports-sloppy/kicad[*Old-Stable* (Backports)]
+
+Version: 5.1.4
+
+====== Installation
 
 [source.bash]
-apt search kicad-doc
-# or alternatively if you are on wheezy
-apt-cache search kicad-doc
+----
+sudo apt install -t stretch-backports kicad
+----
 
-== Debian Old-Stable (Jessie)
+Please ensure you have updated the local database of the package management
+system before installing!
 
-{{< repology debian_oldstable_backports >}}
+TIP: Keep in mind that this version can't provide all functions of KiCad as
+the required packages for this are too old in Stretch or not available!
+Especially the support for Python scripting is limited to Python 2! Some
+external AddOns wont work.
 
-{{< repology debian_oldstable >}} (KiCad's 2014 stable release)
+'''
 
-The 2014 stable release bzr4027 of KiCad is available in the official Debian
-repositories for https://packages.debian.org/jessie/kicad[oldstable/jessie].
+===== https://packages.debian.org/stretch/kicad[*Old-Stable* (Release)]
 
-It is not recommended for new designs. Please use the packages from the
-backport repository for actual versions. Follow the instructions on the
-https://wiki.debian.org/Backports[Debian Wiki] to add the Backport repository
-to your sources and install the KiCad packages from
-https://packages.debian.org/jessie-backports-sloppy/kicad[jessie-backports-sloppy].
+Version: {{< repology debian_oldstable >}}
 
-== Debian Unstable (Sid)
+====== Installation
 
-{{< repology debian_unstable >}}
+[source.bash]
+----
+sudo apt install kicad
+----
 
-The current upstream release is available for Debian
-https://packages.debian.org/sid/kicad[unstable/sid].
+''''
 
-== Debian Testing (Buster)
+==== Debian Stable (Codename Buster)
 
-{{< repology debian_testing >}}
+===== https://packages.debian.org/buster/kicad[Stable (Backports)]
 
-The current upstream release is available for Debian
-https://packages.debian.org/testing/kicad[testing/buster].
+Version: {{< repology debian_stable_backports >}}
 
+====== Installation
 
-== Build from Source
+Please ensure you have updated the local database of the package management
+system before proceed.
+
+[source.bash]
+----
+sudo apt install -t buster-backports kicad
+----
+
+===== https://packages.debian.org/buster/kicad[Stable (Release)]
+
+Version: {{< repology debian_stable >}}
+
+'''
+
+====== Installation
+
+[source.bash]
+----
+sudo apt install kicad
+----
+
+'''
+
+==== Debian Testing (Bulleseye)
+
+Version: {{< repology debian_testing >}}
+
+===== Installation
+
+[source.bash]
+----
+sudo apt install kicad
+----
+
+'''
+
+==== Debian Unstable (Sid)
+
+Version: {{< repology debian_unstable >}}
+
+===== Installation
+
+[source.bash]
+sudo apt install kicad
+
+'''
+
+==== Debian Experimental
+
+There might sometimes some pre versions of upcoming releases available in
+experimental. These are usually no nightly but a RC (Release Candidate)
+versions!
+
+=== Build KiCad from Source
 You can find the instructions to build from source
 link:http://docs.kicad-pcb.org/doxygen/md_Documentation_development_compiling.html#build_linux[here].
 If you use Debian stable with actual packages from Backports or you working
@@ -74,8 +205,10 @@ Ensure you have installed some build dependencies at least before you try to
 start own builds:
 
 [source.bash]
+----
 sudo apt install cmake doxygen libboost-context-dev libboost-dev \
 libboost-system-dev libboost-test-dev libcairo2-dev libcurl4-openssl-dev \
 libgl1-mesa-dev libglew-dev libglm-dev libngspice-dev liboce-foundation-dev \
 liboce-ocaf-dev libssl-dev libwxbase3.0-dev libwxgtk3.0-dev python-dev \
 python-wxgtk3.0-dev swig wx-common
+----

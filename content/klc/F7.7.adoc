@@ -1,5 +1,5 @@
 +++
-brief = "Oval holes (Plated Milled Slots)"
+brief = "Oval holes (plated milled slots)"
 +++
 
 The sizes for oval holes must be chosen such that there is 0.2mm clearance between the maximum lead size and the hole in all directions.

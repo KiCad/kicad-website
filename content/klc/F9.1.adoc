@@ -2,9 +2,9 @@
 brief = "Footprint meta-data is filled in as appropriate"
 +++
 
-. **Documentation** field contains comma-separated device information. Where appropriate, a URL to the footprint datasheet should be included.
+. **Reference** field must be set to `REF**`
+. **Value** and **Footprint Name** fields must match footprint filename (ignoring the `.kicad_mod` extension)
+. **Description** field contains comma-separated device information. Where appropriate, a URL to the footprint datasheet should be included.
 . **Keywords** field contains space-separated keyword values
-. **Ref** field must be set to `REF**`
-. **Value** field must match footprint filename (ignoring the `.kicad_mod` extension)
 
 {{< klcimg src="F9.1a" title="Footprint Properties dialog" >}}

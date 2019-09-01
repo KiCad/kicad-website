@@ -26,10 +26,6 @@ disablePathToLower = true
 [[params.social]]
     title = "github"
     url = "https://github.com/KiCad"
-[[params.social]]
-    title = "google-plus"
-    url = "https://plus.google.com/111133613917552048578"
-
 
 [[menu.main]]
     name   = "Blog"

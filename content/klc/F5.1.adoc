@@ -14,14 +14,15 @@ The following elements must be provided on the silkscreen.
 . Reference Designator must be drawn on `F.SilkS` layer
 .. Text size = `1.00mm`
 .. Text thickness = `0.15mm`
+. Silkscreen line width is between {`0.10mm` and `0.15mm`} as per IPC-7351C:
+.. Silkscreen line width should nominally be `0.12mm`
+.. `0.1mm` is allowed for high density designs
+.. `0.15mm` is allowed for low density designs
 . Silkscreen must not be placed over pads or areas of exposed copper
-  * Clearance between silkscreen and exposed copper elements must be at least `0.2mm` or more than the pad mask expansion (whichever is greater).
+.. Clearance between silkscreen and exposed copper elements is recommended to be 0.2mm.
+.. Clearance must be at least the silkscreen line width or pad mask expansion, whichever is greater.
 . For SMD footprints, silkscreen must be fully visible after boards assembly (no silkscreen allowed under component)
 . For THT components, silkscreen may be placed under component to aid in assembly process
-. Silkscreen line width is between {`0.10mm` and `0.15mm`} as per IPC-7351C:
-  * Silkscreen line width should nominally be `0.12mm`
-  * `0.1mm` is allowed for high density designs
-  * `0.15mm` is allowed for low density designs
 . Pin-1 designator is provided on the `F.SilkS` layer
 . Pin-1 designator must be visible after board assembly
 

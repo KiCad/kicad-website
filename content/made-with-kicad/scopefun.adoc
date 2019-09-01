@@ -1,0 +1,8 @@
++++
+title = "ScopeFun"
+projectimage = "/img/madewithkicad/scopefun.jpg"
+projectdeveloper = "Dejan Priversek and David Kosenina"
+projecturl = "https://www.scopefun.com"
++++
+
+ScopeFun in an open source, all-in-one instrumentation platform. It includes an oscilloscope, arbitrary waveform generator, spectrum analyzer, logic analyzer, and digital pattern generator.

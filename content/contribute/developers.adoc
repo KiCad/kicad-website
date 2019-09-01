@@ -30,8 +30,8 @@ are available in the
 link:https://help.launchpad.net/YourAccount/NewAccount[Launchpad user tutorial].
 
 The official road map is available online as the
-http://docs.kicad-pcb.org/doxygen/v5_road_map.html[version
-5 road map] in the doxygen docs. The CERN team also have their own
+http://docs.kicad-pcb.org/doxygen/v6_road_map.html[version
+6 road map] in the doxygen docs. The CERN team also have their own
 road map available at
 http://www.ohwr.org/projects/cern-kicad/wiki/WorkPackages[CERN KiCad
 work packages]. You might use this to get a feeling of where KiCad is
@@ -148,10 +148,10 @@ mean helps you keep control of that. Please refrain of doing
 `git commit -a` or `git add .` unless you know exactly what you changed.
 
 It is also useful to run `git diff --cached` to see what's staged for
-commit before commiting, if you added files you didn't mean to you can
+commit before committing, if you added files you didn't mean to you can
 remove them from the staging area by running `git reset bad-file.cpp`
 
-If you realized a mistake right after you commited, be it in a file
+If you realized a mistake right after you committed, be it in a file
 change, or you forgot a file, or the description has an error or a
 typo, as long as you haven't pushed your changes yet you can make your
 changes and then run `git commit --amend`, this will show you the
@@ -173,7 +173,7 @@ code.
 
 It will often happen that someone else with push access to the
 official KiCad repository will push changes in between the time you
-commited your changes and you decide to push/submit yours for
+committed your changes and you decide to push/submit yours for
 consideration. In that case if you try to run `git pull`, by default
 git will generate a merge commit, which is undesirable fluff and tends
 to pollute the commit history. In those cases you want to run
