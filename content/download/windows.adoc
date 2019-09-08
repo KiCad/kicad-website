@@ -11,18 +11,18 @@ link:/help/system-requirements/[System Requirements] for more details.
 
 == Stable Release
 
-Current Version: *5.1.2*
+Current Version: *5.1.4*
 ++++
 <h3>64-bit (recommended)</h3>
 <h4>Download mirrors</h4>
 <div class="list-group download-list-group">
-	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.2_1-x86_64.exe">
+	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.4_1-x86_64.exe">
 		<img src="/img/about/cern-logo.png" /> CERN
 	</a>
-	<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.2/kicad-5.1.2_1-x86_64.exe">
+	<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.4/kicad-5.1.4_1-x86_64.exe">
 		GitHub
 	</a>
-	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.2_1-x86_64.exe">
+	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.4_1-x86_64.exe">
 		Futureware
 	</a>
 </div>
@@ -33,13 +33,13 @@ Current Version: *5.1.2*
 <h3>32-bit</h3>
 <h4>Download mirrors</h4>
 <div class="list-group download-list-group">
-	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.2_1-i686.exe">
+	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.4_1-i686.exe">
 		<img src="/img/about/cern-logo.png" /> CERN
 	</a>
-	<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.2/kicad-5.1.2_1-i686.exe">
+	<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.4/kicad-5.1.4_1-i686.exe">
 		GitHub
 	</a>
-	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.2_1-i686.exe">
+	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.4_1-i686.exe">
 		Futureware
 	</a>
 </div>

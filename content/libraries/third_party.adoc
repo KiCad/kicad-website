@@ -21,3 +21,10 @@ link:https://www.digikey.com[Digi-Key] maintains an atomic parts library for KiC
 == SparkFun
 
 link:https://sparkfun.com[SparkFun Electronics] provide KiCad library files for many of their products on their link:https://github.com/sparkfun/SparkFun-KiCad-Libraries[GitHub page]. These libraries are based on the SparkFun Eagle libraries.
+
+== SnapEDA
+
+link:https://www.snapeda.com[SnapEDA] provides KiCad symbol and footprint libraries for their
+customers.  The libraries are freely available and can be found on their
+link:https://www.snapeda.com/kicad[KiCad library page].  The library license can be found on their
+link:https://www.snapeda.com/about/terms[terms of service page].

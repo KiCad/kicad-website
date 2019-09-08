@@ -22,6 +22,8 @@ Several text-based tutorials as well as video tutorials have been put together b
 - http://babryce.com/kicad/tutorial.html[B. A. Bryce's Tutorial]
 - http://happyrobotlabs.com/posts/tutorials/tutorial-3d-kicad-parts-using-openscad-and-wings3d/[Happy Robot Labs: 3D KiCad Parts Using OpenSCAD and Wings3D]
 - http://stffrdhrn.github.io/electronics/2015/04/28/simulating_kicad_schematics_in_spice.html[Simulating KiCad Schematics in Spice]
+- https://thestumbler.io/projs/modelrr/03-spice-and-kicad.html[Spice and Kicad - Making Kicad 5.0 play nice with Spice]
+- https://www.woolseyworkshop.com/2019/07/01/performing-a-circuit-simulation-in-kicad/[Performing A Circuit Simulation In KiCad]
 - https://www.mikrocontroller.net/wikifiles/a/ab/HierarchicalSchematicsAsBuildingblocksAtKiCad_RevC-EN_06May2015.pdf[Hierarchical schematics as schematic buildingblocks] by Bernd Wiebus. (https://www.mikrocontroller.net/wikifiles/7/79/HierarchischeSchaltplaeneAlsBausteineInKicad_RevC_23Dec2013.pdf[Original in german])
 - https://www.mikrocontroller.net/wikifiles/6/64/Kicad-Wings3D_Leaflet_25April2013.pdf[Notes on using Wings3D] by Bernd Wiebus (https://www.mikrocontroller.net/wikifiles/0/02/Kicad-Wings3D_Merkzettel_29November2012.pdf[Original in german])
 - https://flyingcarsandstuff.com/2016/10/kicad-techniques-tips-and-work-arounds/[Kicad: Techniques, Tips and Work-arounds]

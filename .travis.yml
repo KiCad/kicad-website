@@ -21,4 +21,4 @@ before_install:
 # Build the website
 script:
   - ./hugo
-  - htmlproofer ./public --external_only --only_4xx
+  - htmlproofer ./public --external_only --only_4xx --url-ignore "/www.digikey.com/"
