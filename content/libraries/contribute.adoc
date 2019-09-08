@@ -31,13 +31,14 @@ The KiCad libraries are hosted on https://github.com/kicad[GitHub] - users can s
 . If you do not have one, create an account on https://github.com/join[GitHub]
 . link:https://help.github.com/articles/fork-a-repo[**Fork**] the repository you wish to contribute to
 . link:https://help.github.com/articles/fetching-a-remote[**Clone**] your newly created fork to your local machine
-. Create a new link:https://help.github.com/articles/github-glossary/#branch[**branch**] in your local repository. This ensures that any local changes are not mixed with the master copy of the library until they are checked and merged by a librarian.
+. Create a new link:https://help.github.com/articles/github-glossary/#branch[**branch**] in your local repository. This allows you to work on multiple contributions at the same time.
+.. Make sure the branch starts from the current HEAD of the master.
 . Perform any necessary modifications to the library repository. Refer to the link:/libraries/klc[KLC] for contribution guidelines.
 . link:https://help.github.com/articles/github-glossary/#commit[**Commit**] your changes to the local repository, with a message describing the changes you have made. Complex changes may require multiple commits.
 . link:https://help.github.com/articles/github-glossary/#push[**Push**] your local changes to the GitHub remote.
 . Create a link:https://help.github.com/articles/using-pull-requests[**pull request**] (PR) to merge your branch into the KiCad libraries. Include links to reference documents (e.g. datasheets) in the comments, in addition to a description of the changes you have made.
 . A librarian will review the changes - discussion and further work may be required.
-. If further changes are needed, *do not create a new branch*. Simply make any further changes to the same branch, and push these changes upstream. They will be automatically added to the PR.
+. Should further changes be required then push to the same branch as connected to the pull request.
 
 It is very helpful to the library team if you can include a description of your contribution and also a screenshot of your contributed file(s) (symbols / footprints / models).
 
@@ -67,17 +68,14 @@ link:https://github.com/easyw/kicad-3d-models-in-freecad[kicad-3d-models-in-free
 == Become a librarian
 
 If the 'pull request' world is too small for you, feel invited to join the librarians
-team. Contact the librarians team leader by sending an email to the mailing list telling
-about your interest to join us.
+team. The easiest option is to simply start reviewing a few pull requests. Maybe tag the library leader to make them aware of your intention. Or open an issue on one of the library repos informing the team about your intentions. Alternatively sent an e-mail to one of the librarians.
 
-Currently KiCad librarians team counts with just a few people against a lot of pull requests
-and work to do, having your help would be very appreciated.
+Currently KiCad librarians team counts with just a few people against a lot of pull requests and work to do, having your help would be very appreciated.
 
 == Contacting librarians
 
-If you have any doubt or suggestion, please consider joining the
-link:https://launchpad.net/~kicad-lib-committers[KiCad library mailing list].
+The best option is to create an issue on the github repo that best fits your question. If you want to have a private conversation then send an e-mail to one of the existing librarians.
 
-You can also try to reach a librarian via IRC at irc://irc.freenode.net/#kicad[#kicad@freenode].
+You can also use the link:https://launchpad.net/~kicad-lib-committers[KiCad library mailing list] but be aware that it is not closely followed.
 
 Many of the librarians can also be contacted on the link:https://forum.kicad.info/[KiCad user forums].
