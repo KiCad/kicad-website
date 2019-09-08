@@ -6,7 +6,7 @@ KiCad generally has two workflows with regards to assign a footprint to a symbol
 
 **Generic symbols**
 
-Generic symbols can be used with multiple footprints, and _do not_ have a default footprint assigned. Generic symbols allow flexibility in the design workflow. Symbols are first added to the schematic, and the footprint is selected before PCB layout. Using generic symbols allows a small number of library symbol elements to represent a _very large number_ of possible component combinations.
+Generic symbols can be used with multiple footprints, and _do not_ have a default footprint assigned. Generic symbols allow flexibility in the design workflow. For this workflow the symbol placed into the schematic is typically selected to fit the intended function. The footprint assignment happens later when the exact part number is selected. (At the latest when starting with the layout) Using generic symbols allows a small number of library symbol elements to represent a _very large number_ of possible component combinations.
 
 An example of the use of generic symbols are the **Resistor** and **Capacitor** symbols available in the KiCad library. These symbols do not have an assigned default footprint, as there are _many_ possible compatible footprints.
 
