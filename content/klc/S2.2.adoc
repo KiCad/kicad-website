@@ -12,4 +12,4 @@ Examples of parameters considered non-functional:
 
 To capture every possible combination of part variation would require a large number of symbol aliases - this is to be avoided.
 
-Where an MPN has options for such non-functional variations, these portions of the MPN should be replaced with a wildcard character (`x`). If these non-functionl parts of the MPN are at the ond of it then these have to be removed instead.
+Where an MPN has options for such non-functional variations, these portions of the MPN should be replaced with a wildcard character (`x`). If these non-functionl parts of the MPN are at the end of it then these have to be omitted.
