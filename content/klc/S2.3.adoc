@@ -4,7 +4,7 @@ brief = "Where parts are available in multiple footprint options, a separate sym
 
 Many electronic components are provided in multiple packaging variants. These _may or may not_ be pin compatible.
 
-KiCad is not able to assign different footprints for aliases. Fully specified symbols therefore require a separate symbol for every package variant.
+KiCad is not able to assign different footprints for aliases. Fully specified symbols therefore require a separate symbol for every package variant. Similarly kicad is not able to define different 3d models other than having a separate footprint. This means a part needs a separate footprint even if the land pattern is the same if the 3d model has functional differences (example different height).
 
 e.g. **LTC4357**
 
