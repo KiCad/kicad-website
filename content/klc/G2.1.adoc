@@ -14,7 +14,7 @@ An example of the use of generic symbols are the **Resistor** and **Capacitor** 
 
 **Fully specified symbols**
 
-Fully specified symbols define a matching footprint, and are named based on the `MPN` (manufacturer part number). Such symbols do not depend on the user to select the correct footprint later but can have alternative footprints defined using footprint filters such that the user can define it later.
+Fully specified symbols define a matching footprint, and are named based on the `MPN` (manufacturer part number). Such symbols do not depend on the user to select the correct footprint later but can have alternative footprints defined using footprint filters such that the user can select an alternate footprint.
 
 {{< klcimg src="G2.1c" title="Atomic symbol" >}}
 

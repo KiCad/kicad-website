@@ -4,12 +4,12 @@ brief = "Non-functional variations in part number should be replaced with wildca
 
 Manufacturer Part Numbers (MPN) often include variations that are _non-functional_.
 
-Examples:
+Examples of parameters considered non-functional:
 
 * Temperature rating of the component
 * Packaging information (e.g. reel, tray, tape)
 * RoHS / PbFree information
 
-To capture every possible combination of part variation requires a large number of symbol aliases - this is to be avoided.
+To capture every possible combination of part variation would require a large number of symbol aliases - this is to be avoided.
 
-Where an MPN has options for such non-functional variations, these portions of the MPN should be replaced with a wildcard character (`x`).
+Where an MPN has options for such non-functional variations, these portions of the MPN should be replaced with a wildcard character (`x`). If these non-functionl parts of the MPN are at the ond of it then these have to be removed instead.
