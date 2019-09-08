@@ -1,21 +1,18 @@
 +++
-brief = "Where atomic parts are available in multiple footprint options, a separate symbol must be drawn for each footprint"
+brief = "Where parts are available in multiple footprint options, a separate symbol must be drawn for each footprint"
 +++
 
-Many electronic components are provided in multiple footprint (package) options. These _may or may not_ be pin compatible.
+Many electronic components are provided in multiple packaging variants. These _may or may not_ be pin compatible.
+
+KiCad is not able to assign different footprints for aliases. Fully specified symbols therefore require a separate symbol for every package variant.
 
 e.g. **LTC4357**
 
 {{< klcimg src="S2.4a" title="Multiple footprint options" >}}
 
-Here there is a requirement for two separate symbols, one corresponding to each available footprint.
+This part comes in two distinct packages each requiring a separate footprint. Hence a symbol for each variant must be drawn.
 
-The naming of the symbols must match the manufacturer naming convention for the footprint variants. In the image above (taken from the datasheet) the footprints are defined as follows:
-
-* `DCB` - 6-lead DFN
-* `MS8` - 8-lead MSOP
-
-Thus, two symbols must be drawn:
+For naming of the symbols refer to link:/libraries/klc/S2.1[General symbol naming guidelines]
 
 {{< klcimg src="S2.4b" title="Symbol for each footprint" >}}
 
