@@ -68,7 +68,7 @@ link:https://github.com/easyw/kicad-3d-models-in-freecad[kicad-3d-models-in-free
 == Become a librarian
 
 If the 'pull request' world is too small for you, feel invited to join the librarians
-team. The easiest option is to simply start reviewing a few pull requests. Maybe tag the library leader to make them aware of your intention. Or open an issue on one of the library repos informing the team about your intentions. Alternatively sent an e-mail to one of the librarians.
+team. The easiest option is to simply start reviewing a few pull requests. Maybe tag the library leader to make them aware of your intention. Or open an issue on one of the library repos informing the team about your intentions. Alternatively send an e-mail to one of the librarians.
 
 Currently KiCad librarians team counts with just a few people against a lot of pull requests and work to do, having your help would be very appreciated.
 
