@@ -10,6 +10,6 @@ However in some cases unconnected pins may be omitted from the schematic symbol.
 . Pins may only be omitted if they are never to be connected _under any circumstances_
 . Unconnected pins may only be omitted if including them would make the symbol unnecessarily large.
 . If pins are designated `NC` but the datasheet specifies that these must be pulled to ground or otherwise connected to a specific net, then these **must** be shown on the schematic symbol
-. The footprint filter must include the pad-count of the footprint if the pin-count in the schematic does not match the pad-count of the footprint (see also link:/libraries/klc/S5.2[requirements for footprint filters])
+. The footprint filter must include the pad count of the footprint if the symbol has omitted pins (see also link:/libraries/klc/S5.2[requirements for footprint filters])
 * `BGA?144`
 * `QFN?20`
