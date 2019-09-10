@@ -6,7 +6,7 @@ KiCad generally has two workflows with regards to assign a footprint to a symbol
 
 **Generic symbols**
 
-Generic symbols can be used with multiple footprints, and _do not_ have a default footprint assigned. Generic symbols allow flexibility in the design workflow. For this workflow the symbol placed into the schematic is typically selected to fit the intended function. The footprint assignment happens later when the exact part number is selected. (At the latest when starting with the layout) Using generic symbols allows a small number of library symbol elements to represent a _very large number_ of possible component combinations.
+Generic symbols can be used with multiple footprints. They _do not_ have a default footprint assigned. Generic symbols allow flexibility in the design workflow. For this workflow the symbol placed into the schematic is typically selected to fit the intended function instead of fitting a particular part. The footprint assignment happens later when the exact part number is selected. Using generic symbols allows a small number of library symbol elements to represent a _very large number_ of possible component combinations.
 
 An example of the use of generic symbols are the **Resistor** and **Capacitor** symbols available in the KiCad library. These symbols do not have an assigned default footprint, as there are _many_ possible compatible footprints.
 
@@ -16,9 +16,9 @@ An example of the use of generic symbols are the **Resistor** and **Capacitor** 
 
 Fully specified symbols define a matching footprint, and are named based on the `MPN` (manufacturer part number). Such symbols do not depend on the user to select the correct footprint later but can have alternative footprints defined using footprint filters such that the user can select an alternate footprint.
 
-{{< klcimg src="G2.1c" title="Atomic symbol" >}}
+{{< klcimg src="G2.1c" title="Fully specified symbol" >}}
 
-Some users refer to fully specified symbols as atomic parts or a library of such components as atomic library. Atomic implies a one to one inseparable connection between assets. The closest that KiCad can get to is a fully specified symbol that points to a footprint specialized to the same component.
+_A fully specified symbol together with a footprint specialized to one component are called an atomic part. A library of only such parts is called an atomic library. Confusingly some users refer to a fully specified symbol as an atomic symbol._
 
 **Where to use which type**
 
