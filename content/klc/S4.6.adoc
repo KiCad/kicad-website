@@ -1,5 +1,5 @@
 +++
-brief = "Symbol pins must not be hidden unless they are of type 'Not Connected', part of a stack or the label pin of a power symbol"
+brief = "Hidden pins"
 +++
 
 Hidden symbol pins are generally not allowed for schematic symbols. Any connection point must be visible, otherwise unexpected net connections can occur.
