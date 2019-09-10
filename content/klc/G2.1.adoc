@@ -2,7 +2,7 @@
 brief = "Definition of terms: Generic and fully specified symbols"
 +++
 
-KiCad has two workflows regarding what a symbol represents and when it is assigned a footprint. It can be done in the library in which case the symbol represents an exact part or using the "assign footprints tool" at the end of the design process.
+KiCad has two workflows regarding what a symbol represents and when it is assigned a footprint. It can be done in the library in which case the symbol represents an exact part or using the "Assign Footprints" tool at the end of the design process.
 
 **Generic symbols**
 
