@@ -5,7 +5,7 @@ brief = "General symbol naming guidelines"
 . Library naming should not be duplicated in footprint name
 . If symbol with same name exists for multiple manufacturers, the manufacturer name is written first
 . Fully specified symbols are named based on the manufacturer part number
-.. If and only if multiple manufacturers build compatible devices then the common base part number is used with clear name suffix for the footprint (e.g. `L78L05_TO92`)
+.. If multiple manufacturers produce compatible parts but their part number suffixes for specifying the package differ, then the common base part number is used with clear name suffix for the footprint (e.g. `L78L05_TO92`)
 .. Non-functional parts of the MPN must be replaced with a wildcard. (Refer to link:/libraries/klc/S2.2[requirements for the use of wildcards in MPN])
 . Generic symbols use the device type
 .. May be shortened for common components (e.g. `Conn` for `Connector`)
