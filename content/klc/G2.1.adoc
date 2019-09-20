@@ -18,7 +18,7 @@ Fully specified symbols define a matching footprint, and are named based on the 
 
 {{< klcimg src="G2.1c" title="Fully specified symbol" >}}
 
-_A fully specified symbol together with a footprint specialized to one component are called an atomic part. A library of only such parts is called an atomic library. Confusingly some users refer to a fully specified symbol as an atomic symbol._
+_A fully specified symbol together with a footprint specialized to one component are called an atomic part. A library of only such parts is called an atomic library. Confusingly, some users refer to a fully specified symbol as an atomic symbol._
 
 **Where to use which type**
 
