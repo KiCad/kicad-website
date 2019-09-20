@@ -1,21 +1,29 @@
 +++
-brief = "Defining generic and atomic parts"
+brief = "Definition of terms: Generic and fully specified symbols"
 +++
 
-In general terms, the _symbols_ in the KiCad library can be categorized into two groups:
+KiCad has two workflows regarding what a symbol represents and when it is assigned a footprint. It can be done in the library in which case the symbol represents an exact part or using the "Assign Footprints" tool at the end of the design process.
 
 **Generic symbols**
 
-Generic symbols can be used with multiple footprints, and _do not_ have a default footprint assigned. Generic symbols allow flexibility in the design workflow. Symbols are first added to the schematic, and the footprint is selected before PCB layout. Using generic symbols allows a small number of library symbol elements to represent a _very large number_ of possible component combinations.
+Generic symbols can be used with multiple footprints. They _do not_ have a default footprint assigned. Generic symbols allow flexibility in the design workflow. For this workflow the symbol placed into the schematic is typically selected to fit the intended function instead of fitting a particular part. The footprint assignment happens later when the exact part number is selected. Using generic symbols allows a small number of library symbol elements to represent a _very large number_ of possible component combinations.
 
-An example of the use of generic symbols is the **Resistor** and **Capacitor** symbols available in the KiCad library. These symbols do not have an assigned default footprint, as there are _many_ possible compatible footprints.
+An example of the use of generic symbols are the **Resistor** and **Capacitor** symbols available in the KiCad library. These symbols do not have an assigned default footprint, as there are _many_ possible compatible footprints.
 
 {{< klcimg src="G2.1a" title="Single schematic symbol" >}} {{< klcimg src="G2.1b" title="Associated with multiple footprints" >}}
 
-**Atomic Parts**
+**Fully specified symbols**
 
-Atomic parts fully define a component, specifying a matching footprint, and are named based on the `MPN` (manufacturer part number). Atomic parts are ready to be placed onto the PCB as they are already associated with a footprint.
+Fully specified symbols define a matching footprint, and are named based on the `MPN` (manufacturer part number). Such symbols do not depend on the user to select the correct footprint later but can have alternative footprints defined using footprint filters such that the user can select an alternate footprint.
 
-{{< klcimg src="G2.1c" title="Atomic symbol" >}}
+{{< klcimg src="G2.1c" title="Fully specified symbol" >}}
 
+_A fully specified symbol together with a footprint specialized to one component are called an atomic part. A library of only such parts is called an atomic library. Confusingly, some users refer to a fully specified symbol as an atomic symbol._
 
+**Where to use which type**
+
+The official library requires fully specified symbols except for a small number of libraries that contain only generic symbols. These generic libraries are:
+
+* `Device`
+* All `Connector` libraries
+* The logic family libraries like `74xx`, `4xxx`, ...
