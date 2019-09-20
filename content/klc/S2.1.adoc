@@ -2,7 +2,7 @@
 brief = "General symbol naming guidelines"
 +++
 
-. Library naming should not be duplicated in footprint name
+. Library naming should not be duplicated in symbol name
 . If symbol with same name exists for multiple manufacturers, the manufacturer name is written first
 . Fully specified symbols are named based on the manufacturer part number
 .. If multiple manufacturers produce compatible parts but their part number suffixes for specifying the package differ, then the common base part number is used with clear name suffix for the footprint (e.g. `L78L05_TO92`)

@@ -6,10 +6,10 @@ url = "/libraries/klc/history/"
 
 ---
 == 3.0.22 - 2019-09-20
-* Clarified KiCad footprint assignment work-flows as generic vs fully specified symbols (G2.1)
-  * Replace the word atomic with fully specified as this term better fits the used methodology.
-  * Added a small definition where generic symbols are to be used
-  * Specified when a separate symbol needs to be drawn vs when an alias is enough
+* Clarified KiCad footprint assignment workflows as generic vs fully specified symbols (G2.1)
+  * Replace the word atomic with fully specified as this term better fits the used methodology (G2.1, S2.x)
+  * Added a small definition where generic symbols are to be used (G2.1)
+  * Specified when a separate symbol needs to be drawn vs when an alias is enough (S2.3)
 
 == 3.0.21 - 2019-09-01
 * Clarify rules regarding NC pins
