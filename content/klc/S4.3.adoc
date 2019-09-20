@@ -17,5 +17,6 @@ In the schematic view, pins that share the same position are considered to be _c
 . One pin in the stack must be _visible_ (all other pins set to _invisible_)
 
 **Special Case:** Pins of electrical type [`Output`, `Power Output`, `Power Input`] are special cases.
+[start=7]
 . Connecting `Output` or `Power Output` pins would result in an ERC error. Output pins that always need to be connected together must therefore be stacked. The invisible pins get the pin type `passive` in this case.
-. Invisible `Power Input` pins are global labels. This is to be avoided. For this reason the electrical type `pasive` is to be used for the invisible pins in such stacks.
+. Invisible `Power Input` pins are global labels. This is to be avoided. For this reason the electrical type `passive` is to be used for the invisible pins in such stacks.
