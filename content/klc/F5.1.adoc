@@ -26,5 +26,10 @@ The following elements must be provided on the silkscreen.
 . Pin-1 designator is provided on the `F.SilkS` layer
 . Pin-1 designator must be visible after board assembly
 
-{{< klcimg src="F5.1a" title="Silkscreen layer examples" >}}
-{{< klcimg src="F5.1b" title="More silkscreen layer examples" >}}
+Examples of silk for non polarized components
+
+{{< klcimg src="silk_non_polarized" title="Silkscreen for non polarized" >}}
+
+Examples of silk for polarized components
+
+{{< klcimg src="silk_polarized" title="Silkscreen for polarized" >}}
