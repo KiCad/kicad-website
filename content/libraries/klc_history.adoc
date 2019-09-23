@@ -5,6 +5,9 @@ url = "/libraries/klc/history/"
 +++
 
 ---
+== 3.0.23 - 2019-09-23
+* Clarify that the silk below tht exception is only for additional silk markings
+
 == 3.0.22 - 2019-09-20
 * Clarified KiCad footprint assignment workflows as generic vs fully specified symbols (G2.1)
   * Replace the word atomic with fully specified as this term better fits the used methodology (G2.1, S2.x)
