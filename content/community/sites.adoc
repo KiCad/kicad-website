@@ -31,6 +31,7 @@ These are websites that have KiCad content. They may or may not have forums but 
 | Language | URL
 
 | 日本語  | link:http://kicad.jp[kicad.jp]
+| English  | link:https://www.eevblog.com/forum/kicad/[EEVblog Forum KiCAD Section]
 |===
 
 
