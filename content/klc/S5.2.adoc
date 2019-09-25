@@ -16,7 +16,7 @@ Filter conventions:
 . Filters must end with a `*` wildcard to allow matching of modified footprint suffixes
 . Filters must match the dimensional information (where required) to be as specific as necessary:
 * `DIP*W7.62mm*` to match `DIP-22_W7.62mm` but not `DIP-22_W9.3mm`
-* Neighter the size of the exposed pad nor the size of the mask cutout are included.
+* Neither the size of the exposed pad nor the size of the mask cutout are included.
 . Filters must not contain the pin count if the pin-count in the symbol matches the pin count in the footprint. In those cases the footprint is matched by KiCad's pin count filter. If not all pins are present in the symbol (e.g. NC-pins) the pin-count has to be part of the footprint filter (see link:/libraries/klc/S4.5[requirements for NC pins]). Then e.g. `SOT?23?5` might be used instead of simply `SOT?23*` to match `SOT-23-5`.
 * Special pin specifiers are always included. Meaning the specifier for Exposed pads `EP`, Mounting pad `MP` and Shield `SH` including their count must be included if the symbol uses these pins. (Filter for QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm would be `QFN*1EP*3x3mm*P0.5mm*`)
 . By default, the footprint search does _not_ include the name of the footprint library. To force the library name to be included, add the `:` (colon) character to the filter. Text appearing before the `:` will match the library name. Text appearing after the `:` will match the footprint name.
