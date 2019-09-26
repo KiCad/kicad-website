@@ -16,6 +16,22 @@ experienced with KiCad in relation to the systems that it runs on. This
 means that this page does not describe KiCad functional bugs.
 
 == All Platforms
+
+=== High DPI Screens
+
+There are some issues with detecting the proper scaling of the canvas
+on High DPI screens. This mainly seems to affect Linux installs, and
+results in the canvas only using 1/4 of the screen and a constant
+offset between the cursor and crosshairs https://bugs.launchpad.net/kicad/+bug/1841423[(see Bug #1841423)].
+To fix this, disable the automatic canvas scaling in the preferences
+window and enter a custom scale factor. In most cases a scaling factor
+of 2 seems to fix the issue.
+
+The grid dots may be difficult to see due to their smaller size on
+these displays. On the modern canvas, their size can be increased
+in the preferences window https://bugs.launchpad.net/kicad/+bug/1660560[(see Bug #1660560)]
+
+
 === Legacy Canvas and wxGTK
 
 The legacy canvas has problems with wxWidgets 3.0 built with GTK3,
@@ -90,7 +106,7 @@ link:https://bugs.launchpad.net/kicad/+bug/1442909[Bug# 1442909].
 
 === Wayland
 It is known that KiCad does not work well under Wayland. There are a number
-of known issues with wxWidgets and Wayland.  link:https://trac.wxwidgets.org/query?status=!closed&keywords=~Wayland[See the wxWidgets bug tracker for details]. 
+of known issues with wxWidgets and Wayland.  link:https://trac.wxwidgets.org/query?status=!closed&keywords=~Wayland[See the wxWidgets bug tracker for details].
 
 KiCad requests the XWayland compatibility layer when starting, however this is
 an emulation mode and issues arising while using this mode need to be recreated
