@@ -22,10 +22,14 @@ means that this page does not describe KiCad functional bugs.
 There are some issues with detecting the proper scaling of the canvas
 on High DPI screens. This mainly seems to affect Linux installs, and
 results in the canvas only using 1/4 of the screen and a constant
-offset between the cursor and crosshairs https://bugs.launchpad.net/kicad/+bug/1841423[(see Bug #1841423)].
+offset between the cursor and crosshairs https://bugs.launchpad.net/kicad/+bug/1841423[(see Bug #1841423]
+and https://bugs.launchpad.net/kicad/+bug/1797308[Bug #1797308)].
 To fix this, disable the automatic canvas scaling in the preferences
 window and enter a custom scale factor. In most cases a scaling factor
 of 2 seems to fix the issue.
+
+Icons may also appear smaller on high DPI screens, but their size
+can be scaled in the preferences window as well.
 
 The grid dots may be difficult to see due to their smaller size on
 these displays. On the modern canvas, their size can be increased
