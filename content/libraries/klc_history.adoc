@@ -5,6 +5,9 @@ url = "/libraries/klc/history/"
 +++
 
 ---
+== 3.0.25 - 2019-10-06
+* Update section about symbol documentation to KiCad 5.1 GUI (combined S6.2 and S6.3)
+
 == 3.0.24 - 2019-11-16
 * Clarify rule for parts with toleranced dimensions
   * Fab comes from the nominal component dimensions (F5.2)
