@@ -5,6 +5,9 @@ url = "/libraries/klc/history/"
 +++
 
 ---
+== 3.0.25 - 2019-10-06
+* Update section about symbol documentation to KiCad 5.1 GUI (combined S6.2 and S6.3)
+
 == 3.0.23 - 2019-09-23
 * Clarify that the silk below tht exception is only for additional silk markings
 * Clearer screenshots for polarized and non polarized silk markings

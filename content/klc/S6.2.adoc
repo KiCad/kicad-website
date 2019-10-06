@@ -1,9 +1,24 @@
 +++
-brief = "Component fields must be filled appropriately"
+brief = "Symbol and alias fields and metadata filled out as required"
 +++
 
 . *Reference* field is selected appropriately for the symbol and is _visible_
 . *Value* field contains the name of the symbol and is _visible_
-. *Footprint* field contains footprint link for atomic parts, and is empty for generic parts. It must be _invisible_
-. *Datasheet* field is left empty, and is _invisible_
+. *Footprint* field contains footprint link for fully specified symbols, and is empty for generic symbols. It must be _invisible_
+. *Datasheet* entry [1] is filled out, and is _invisible_
 . The symbol contains no other custom fields
+
+Additional documentation is provided via
+[start=6]
+. **Description** field contains comma-separated device information
+.. For symbols with a default footprint, the simplified footprint name should be appended to the description e.g. `SOIC-8`
+.. Part name should not be duplicated in the description field
+. **Keywords** field contains space-separated keyword values. These values are used to assist in part searching and should not include filler words
+
+{{< klcimg src="symbol_metadata" title="Symbol metadata example" >}}
+
+_[1]: KiCad 5.x and earlier have two places to store the datasheet link. It can be in the `.lib` file once per symbol or in the `.dcm` file allowing different datasheets per alias. Having different datasheets for aliases only works if the `.lib` entry is left empty. This is the default in version 5.1.x._
+
+Aliases define their own values for the datasheet link, description and keyword entries.
+
+{{< klcimg src="alias_metadata" title="Alias metadata example" >}}
