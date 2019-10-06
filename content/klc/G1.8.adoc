@@ -1,7 +1,8 @@
 +++
-brief = "Components can only contain features supported in latest stable release"
+brief = "Contributions to the official lib must be made using the current stable version"
 +++
 
-KiCad library components (symbols, footprints) may only contain features that are supported by the latest __stable__ KiCad software release.
+Contributions of library assets (symbols and footprints) must be created in the latest **stable** version of KiCad.
 
-Features introduced in nightly builds are not allowed in official KiCad library files.
+This is to avoid problems caused by changes in how assets are stored in different versions of KiCad. (Changes in how line ordering is determined, how strings are escaped, ...)
+Another reason is to avoid including features not supported by the latest stable release.
