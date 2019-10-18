@@ -3,7 +3,7 @@ title = "KiCad Lead Developer Announcement"
 date = "2019-10-18"
 draft = false
 aliases = [
-    "/post/kicon-announcement/"
+    "/post/lead-developer-announcement/"
 ]
 +++
 
