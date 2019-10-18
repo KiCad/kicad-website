@@ -1,0 +1,25 @@
++++
+title = "KiCad Lead Developer Announcement"
+date = "2019-10-18"
+draft = false
+aliases = [
+    "/post/kicon-announcement/"
+]
++++
+
+I don't normally post blog announcements in the first person but I'm going to make an
+exception since this is rather important.  This will also be my first blog post that isn't
+good news.  I guess it was bound to happen sooner or later.  I regret to inform everyone
+that I found out earlier this month that my employment with WIT will be terminated effective
+October 31st.  I am not at liberty to discuss the details as to why my employment was terminated
+but can say that I had nothing to do with the decision.  I know that it's not the best situation
+in the world for the project or me personally but I am going to do everything in my power to
+continue to work full time on KiCad.  In the short term, I will continue working on KiCad while
+pursuing as many avenues as possible to generate enough revenue to allow me to continue to work
+full time on KiCad.  You should expect more announcements in the not to distant future.  The
+long term prospects are not as clear so I will keep everyone informed as I know more.  Thank
+you everyone for your continued support of the KiCad project.
+
+Cheers,
+
+Wayne
