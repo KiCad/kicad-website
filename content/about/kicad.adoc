@@ -14,17 +14,24 @@ KiCad is an http://en.wikipedia.org/wiki/Open_source[open source] software suite
 http://en.wikipedia.org/wiki/Electronic_design_automation[Electronic Design Automation] (EDA).
 The programs handle http://en.wikipedia.org/wiki/Schematic_capture[Schematic Capture],
 and http://en.wikipedia.org/wiki/Printed_circuit_board[PCB] Layout with
-http://en.wikipedia.org/wiki/Gerber_format[Gerber] output. The suite runs on Windows, Linux and macOS
-and is licensed under http://en.wikipedia.org/wiki/GNU_General_Public_License[GNU GPL v3].
+http://en.wikipedia.org/wiki/Gerber_format[Gerber] output. The suite runs on Windows, Linux
+and macOS and is licensed under http://en.wikipedia.org/wiki/GNU_General_Public_License[GNU GPL v3].
 
 == History
 The first release date was in 1992 by its original author, Jean-Pierre Charras,
 but is now currently under development by the https://launchpad.net/kicad[KiCad Developers Team].
 
-The name of KiCad comes from the first letters of a company of Jean-Pierre Charras' friend "Ki" being combined with "Cad". But it now has no meaning other than being the name of the software suite. https://lists.launchpad.net/kicad-developers/msg27528.html[Mentioned by Jean-Pierre in an email.]
+The name of KiCad comes from the first letters of a company of Jean-Pierre Charras' friend "Ki"
+being combined with "Cad". But it now has no meaning other than being the name of the software
+suite. https://lists.launchpad.net/kicad-developers/msg27528.html[Mentioned by Jean-Pierre in an email.]
 
-More KiCad history, general information, and advancements can be found in Wayne's 
-https://www.youtube.com/watch?v=wRolB1my6fI[2015], https://www.youtube.com/watch?v=yNe6g0OdGs4[2016], and https://www.youtube.com/watch?v=SlxpHWB_vb8[2017] FOSDEM presentations.
+More KiCad history, general information, and advancements can be found in Wayne's
+https://www.youtube.com/watch?v=wRolB1my6fI[2015],
+https://www.youtube.com/watch?v=yNe6g0OdGs4[2016],
+https://www.youtube.com/watch?v=SlxpHWB_vb8[2017],
+https://www.youtube.com/watch?v=wWpeDpDTvUU&t=14s[2018], and
+https://www.youtube.com/watch?v=qsjU7Rcs3vA&t=7s[2019]
+FOSDEM presentations.
 
 
 == Main Authors
@@ -32,7 +39,7 @@ https://www.youtube.com/watch?v=wRolB1my6fI[2015], https://www.youtube.com/watch
 [options="header"]
 |===
 |Name | Email
-|Jean-Pierre Charras | jean-pierre.charras[at]gipsa-lab-dot-inpg-dot-fr
+|Jean-Pierre Charras | jp.charras[at]wanadoo-dot-fr
 |Dick Hollenbeck | dick[at]softplc-dot-com
 |Wayne Stambaugh (Project Leader) | stambaughw[at]gmail-dot-com
 |===
@@ -110,6 +117,6 @@ donate to the KiCad project during the ordering process.
 
 https://techexplorations.com[Tech Explorations] is a technology education company for
 Makers, STEM educators, and students.  Peter Dalmaris, the company co-founder recently
-wrote and published 
+wrote and published
 https://techexplorations.com/product/kicad-like-a-pro-2nd-edition-special-kicad-fundraising-edition-ebook-bundle/[“KiCad Like a Pro, 2nd edition”] which donates 50% of the book sale
 profits to the KiCad project.
