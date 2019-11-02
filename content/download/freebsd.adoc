@@ -1,0 +1,18 @@
++++
+title = "FreeBSD"
+iconhtml = "<div class='fl-freebsd'></div>"
+weight = 105
++++
+:icons: fonts
+:iconsdir: /img/icons/
+
+== Stable Release
+
+{{< repology freebsd >}}
+
+KiCad is available in in the
+link:https://www.freshports.org/cad/kicad[FreeBSD ports]. You can install it via command line:
+
+```
+pkg install kicad
+```
