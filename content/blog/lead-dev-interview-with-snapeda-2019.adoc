@@ -1,0 +1,15 @@
++++
+title = "KiCad Lead Developer Interview"
+date = "2019-11-04"
+draft = false
+aliases = [
+    "/post/lead-developer-snapeda-interview/"
+]
++++
+
+The KiCad Project Leader was recently
+http://blog.snapeda.com/2019/10/28/an-interview-with-wayne-stambaugh-of-kicad/[interviewed]
+by the founder of https://www.snapeda.com/[SnapEDA].  Take a look at the
+http://blog.snapeda.com/2019/10/28/an-interview-with-wayne-stambaugh-of-kicad/[interview] if
+you are interested in the origins of the KiCad project, the current development, and some of
+the project goals for the future.
