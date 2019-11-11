@@ -10,6 +10,8 @@ weight = 20
 
 {{< repology fedora_rawhide >}}
 
+{{< repology fedora_31 >}}
+
 {{< repology fedora_30 >}}
 
 {{< repology fedora_29 >}}

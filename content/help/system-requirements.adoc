@@ -98,6 +98,7 @@ supported distribution and window manager before they will be addressed by KiCad
 |Debian 10 (Buster)|approx 2022
 |Fedora 29|approx November 2019
 |Fedora 30|approx May 2020
+|Fedora 31|approx November 2020
 |===
 
 [%hardbreaks]
