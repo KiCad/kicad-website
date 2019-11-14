@@ -6,4 +6,8 @@ weight = 11
 :icons: fonts
 :iconsdir: /img/icons/
 
+=== Linux Mint Debian Incompatibility
+Linux Mint Debian does not work with the PPA listed below.  Only Linux Mint Ubuntu and its derivatives have been 
+reported to work with this PPA.
+
 include::./content/download/_js-reynaud-ppa.adoc[]
