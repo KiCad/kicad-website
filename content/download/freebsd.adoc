@@ -5,6 +5,9 @@ weight = 96
 +++
 :icons: fonts
 :iconsdir: /img/icons/
+:dist: FreeBSD
+
+include::./content/download/_supported-note.adoc[]
 
 == Stable Release
 
