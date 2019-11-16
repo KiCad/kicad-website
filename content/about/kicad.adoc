@@ -120,3 +120,11 @@ Makers, STEM educators, and students.  Peter Dalmaris, the company co-founder re
 wrote and published
 https://techexplorations.com/product/kicad-like-a-pro-2nd-edition-special-kicad-fundraising-edition-ebook-bundle/[“KiCad Like a Pro, 2nd edition”] which donates 50% of the book sale
 profits to the KiCad project.
+
+{{< aboutlink "/img/about/nextpcb-logo.png" "https://www.nextpcb.com/" >}}
+
+== NextPCB
+
+https://www.nextpcb.com/[NextPCB] is dedicated to one stop solutions for PCB prototyping,
+small batch, and mass production PCB assembly which donates a percentage of the profit
+from each order designed with KiCad to the KiCad project.
