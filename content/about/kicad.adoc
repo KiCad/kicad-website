@@ -126,5 +126,5 @@ profits to the KiCad project.
 == NextPCB
 
 https://www.nextpcb.com/[NextPCB] has donated to KiCad and is dedicated to one stop solutions
-for PCB prototyping, small batch, and mass production PCB assembly, sourcing and BOM ordering
-of electronics components, and SMT PCB assembly.
+for PCB prototyping, small batch and mass production, selling and sourcing of electronics
+components, SMT and PCB assembly.
