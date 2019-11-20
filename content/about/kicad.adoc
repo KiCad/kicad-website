@@ -126,5 +126,15 @@ profits to the KiCad project.
 == NextPCB
 
 https://www.nextpcb.com/[NextPCB] has donated to KiCad and is dedicated to one stop solutions
-for PCB prototyping, small batch and mass production, selling and sourcing of electronics
+for PCB prototyping, small batch and mass production, selling and sourcing of electronic
 components, SMT and PCB assembly.
+
+{{< aboutlink "/img/about/system76-logo.png" "https://system76.com/" >}}
+
+== System76
+
+https://system76.com/[System76] manufactures powerful Linux laptops, desktops, and servers
+for the creators, builders, and innovators of tomorrow.  Because our computers are powered
+by open source software, customers instantly have access to a plethora of free software and
+tools.  We're proud to support KiCad's open source project, via our financial support through
+the CERN and Society Foundation.
