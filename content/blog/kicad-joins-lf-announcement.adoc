@@ -16,7 +16,7 @@ will continue as it always has so you can continue to donate via CERN if you
 prefer.  This will give donors a choice of donation platforms.  If you are
 interested in donating to KiCad via the Linux Foundation, please donate
 through our
-https://funding.communitybridge.org/projects/06d36004-70a3-4f1f-8ae3-d0b2dd98815d/payments[Linux Foundation Community Bridge Portal].
+https://funding.communitybridge.org/projects/kicad[Linux Foundation Community Bridge Portal].
 
 Thank you for your continued support of the KiCad project as we explore this
 new avenue to fund development of KiCad.
