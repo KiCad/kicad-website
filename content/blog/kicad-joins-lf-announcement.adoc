@@ -1,0 +1,24 @@
++++
+title = "KiCad Joins the Linux Foundation"
+date = "2019-11-22"
+draft = false
+aliases = [
+    "/post/kicad-joins-lf-announcement/"
+]
++++
+
+The KiCad project is excited to announce that the project has joined the
+https://www.linuxfoundation.org/[Linux Foundation].  This has the potential
+to provide additional avenues for donations to the KiCad project.  It will
+also allow the project to use donations for services other than software
+development.  Our current donation arrangement with https://home.cern/[CERN]
+will continue as it always has so you can continue to donate via CERN if you
+prefer.  This will give donors a choice of donation platforms.  If you are
+interested in donating to KiCad via the Linux Foundation, please donate
+through our
+https://funding.communitybridge.org/projects/06d36004-70a3-4f1f-8ae3-d0b2dd98815d/payments[Linux Foundation Community Bridge Portal].
+
+Thank you for your continued support of the KiCad project as we explore this
+new avenue to fund development of KiCad.
+
+The KiCad Project.
