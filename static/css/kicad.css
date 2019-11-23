@@ -510,3 +510,7 @@ code {
 .download-list-group > .list-group-item img {    
     height: 48px;
 }
+
+a.plain-link {
+    text-decoration: none;
+}

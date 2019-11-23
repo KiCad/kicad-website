@@ -83,10 +83,24 @@
         </div>
         <!-- /.container -->
     </nav>
-    
 <!--- next version of hugo adds .IsHome the if statement can be simplified after 0.15 is released -->
-{{ if eq .URL "/" }}
+{{ if .IsHome }}
 {{else}}
     <header class="intro-header page-header-decor">
     </header>
 {{end}}
+
+<!-- Donate -->
+<div class="modal fade" id="donate-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Donate to KiCad Development!</h4>
+            </div>
+            <div class="modal-body">
+                    {{ partial "donate.html" . }}
+            </div>
+        </div>
+    </div>
+</div>
