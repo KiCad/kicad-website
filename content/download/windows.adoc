@@ -64,6 +64,11 @@ However, they may be useful for users in regions with poor connectivity to the o
 </div>
 ++++
 
+== Download Verification
+All installer binaries will a code signed digital signature attached. Windows will automatically verify the signature is valid, however you may want
+to ensure it isn't just any valid digital signature.
+A valid official KiCad signature has the signer name of *Simon Richter*, issuer of *DigiCert SHA2 Assured ID Code Signing CA* and certificate serial number *08d72a8ce400d3b9384a263511bac45d*.
+
 
 == Nightly Development Builds
 
