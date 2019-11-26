@@ -69,8 +69,14 @@ However, they may be useful for users in regions with poor connectivity to the o
 
 == Download Verification
 All installer binaries will have a code signed digital signature attached. Windows will automatically verify the signature is valid, however you may want
-to ensure it actually is present and the correct signer.
-A valid official KiCad signature has the signer name of *Simon Richter*, issuer of *DigiCert SHA2 Assured ID Code Signing CA* and certificate serial number *08d72a8ce400d3b9384a263511bac45d*.
+to ensure it actually is present and the correct signer. A guide on how to verify the installer is available here: link:/help/windows-download-verification/[Windows Installer Verification Guide]
+
+A valid official KiCad signature has:
+
+[horizontal]
+Signer Name:: *Simon Richter*
+Issuer:: *DigiCert SHA2 Assured ID Code Signing CA* 
+Serial Number:: *08d72a8ce400d3b9384a263511bac45d*.
 
 
 == Nightly Development Builds
