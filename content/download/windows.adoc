@@ -17,13 +17,13 @@ Current Version: *5.1.4*
 <h4>Download mirrors</h4>
 <div class="list-group download-list-group">
 	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.4_1-x86_64.exe">
-		<img src="/img/about/cern-logo.png" /> CERN
+		<img src="/img/about/cern-logo.png" /> CERN - Switzerland
 	</a>
 	<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.4/kicad-5.1.4_1-x86_64.exe">
-		GitHub
+		GitHub - Global
 	</a>
 	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.4_1-x86_64.exe">
-		Futureware
+		Futureware - Austria
 	</a>
 </div>
 ++++
@@ -34,16 +34,36 @@ Current Version: *5.1.4*
 <h4>Download mirrors</h4>
 <div class="list-group download-list-group">
 	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.4_1-i686.exe">
-		<img src="/img/about/cern-logo.png" /> CERN
+		<img src="/img/about/cern-logo.png" /> CERN - Switzerland
 	</a>
 	<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.4/kicad-5.1.4_1-i686.exe">
-		GitHub
+		GitHub - Global
 	</a>
 	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.4_1-i686.exe">
-		Futureware
+		Futureware - Austria
 	</a>
 </div>
 ++++
+
+=== Third Party Mirrors
+
+CAUTION: These mirrors are maintained by third parties.
+The KiCad development team does not maintain or control these mirrors. 
+However, they may be useful for users in regions with poor connectivity to the official mirrors. +
+**Use at your own risk**
+
+
+++++
+<div class="list-group download-list-group">
+	<a class="list-group-item" href="https://mirror.tuna.tsinghua.edu.cn/kicad/">
+		Tsinghua University Open Source Software Mirror - China
+	</a>
+	<a class="list-group-item" href="https://mirrors.cqu.edu.cn/kicad/">
+		Chongqing University Open Source Software Mirror - China
+	</a>
+</div>
+++++
+
 
 == Nightly Development Builds
 

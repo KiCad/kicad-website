@@ -23,10 +23,10 @@ Current Version: *5.1.4*
 <h4>Download mirrors</h4>
 <div class="list-group download-list-group">
 	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/osx/stable/kicad-unified-5.1.4-0-10_14.dmg">
-		<img src="/img/about/cern-logo.png" /> CERN
+		<img src="/img/about/cern-logo.png" /> CERN - Switzerland
 	</a>
 	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/osx/stable/kicad-unified-5.1.4-0-10_14.dmg">
-		Futureware
+		Futureware - Austria
 	</a>
 </div>
 ++++
@@ -37,10 +37,29 @@ Current Version: *5.1.4*
 <h4>Download mirrors</h4>
 <div class="list-group download-list-group">
 	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/osx/stable/kicad-unified-5.1.4-0.dmg">
-		<img src="/img/about/cern-logo.png" /> CERN
+		<img src="/img/about/cern-logo.png" /> CERN - Switzerland
 	</a>
 	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/osx/stable/kicad-unified-5.1.4-0.dmg">
-		Futureware
+		Futureware - Austria
+	</a>
+</div>
+++++
+
+=== Third Party Mirrors
+
+CAUTION: These mirrors are maintained by third parties.
+The KiCad development team does not maintain or control these mirrors. 
+However, they may be useful for users in regions with poor connectivity to the official mirrors. +
+**Use at your own risk**
+
+
+++++
+<div class="list-group download-list-group">
+	<a class="list-group-item" href="https://mirror.tuna.tsinghua.edu.cn/kicad/">
+		Tsinghua University Open Source Software Mirror - China
+	</a>
+	<a class="list-group-item" href="https://mirrors.cqu.edu.cn/kicad/">
+		Chongqing University Open Source Software Mirror - China
 	</a>
 </div>
 ++++
