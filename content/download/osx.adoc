@@ -55,11 +55,14 @@ However, they may be useful for users in regions with poor connectivity to the o
 
 ++++
 <div class="list-group download-list-group">
-	<a class="list-group-item" href="https://mirror.tuna.tsinghua.edu.cn/kicad/">
-		Tsinghua University Open Source Software Mirror - China
-	</a>
 	<a class="list-group-item" href="https://mirrors.cqu.edu.cn/kicad/">
 		Chongqing University Open Source Software Mirror - China
+	</a>
+	<a class="list-group-item" href="https://mirrors.dgut.edu.cn/kicad/">
+		 Dongguan University of Technology Open-source Software Mirror - China
+	</a>
+	<a class="list-group-item" href="https://mirror.tuna.tsinghua.edu.cn/kicad/">
+		Tsinghua University Open Source Software Mirror - China
 	</a>
 </div>
 ++++
