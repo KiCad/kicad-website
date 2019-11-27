@@ -14,8 +14,6 @@ weight = 20
 
 {{< repology fedora_30 >}}
 
-{{< repology fedora_29 >}}
-
 In general, latest Fedora releases ship the stable versions of KiCad as they are
 released.
 
