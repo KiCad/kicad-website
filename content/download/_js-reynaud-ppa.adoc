@@ -1,10 +1,10 @@
 :icons: fonts
 :iconsdir: /img/icons/
 
-== 5.1.4 Stable Release
+== 5.1.5 Stable Release
 
 === Installation
-KiCad 5.1.4 is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-5.1[PPA for KiCad: 5.1 releases ].
+KiCad 5.1.5 is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-5.1[PPA for KiCad: 5.1 releases ].
 
 To install KiCad via the PPA, you can use the Software Manager:
 
