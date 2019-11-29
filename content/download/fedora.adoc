@@ -56,14 +56,7 @@ separate package and can be installed with:
 [source,bash]
 dnf install kicad-packages3d
 
-The `@kicad/kicad` repository replaces the `mangelajo/kicad` repository that was
-previously used to deliver the development builds. If you've previously used it
-you can safely remove it now:
-
-[source,bash]
-dnf copr remove mangelajo/kicad
-
-If you don't have copr install with:
+If you don't have copr, install it with:
 
 [source,bash]
 dnf install dnf-plugins-core
