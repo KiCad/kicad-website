@@ -26,13 +26,16 @@ If you prefer to use the shell, you can enter these commands into a terminal:
 [source,bash]
 sudo add-apt-repository --yes ppa:js-reynaud/kicad-5.1
 sudo apt update
-sudo apt install --install-suggests kicad
+sudo apt install --install-recommends kicad
+# If you want demo projects
+sudo apt install kicad-demo
+
 
 This will perform a full installation of KiCad. If you don't want to install all packages you
 can use:
 
 [source,bash]
-sudo apt install kicad
+sudo apt install --no-install-recommends kicad
 
 If you don't do a "full installation" you should be interested to install also:
 
@@ -77,11 +80,14 @@ If you prefer to use the shell, you can enter these commands into a terminal:
 [source,bash]
 sudo add-apt-repository --yes ppa:js-reynaud/kicad-5
 sudo apt update
-sudo apt install kicad
+sudo apt install kicad --install-recommends kicad
+# If you want demo projects
+sudo apt install kicad-demo
 
-You can also install suggested package to have a full install:
+This will perform a full installation of KiCad. If you don't want to install all packages you can use:
+
 [source,bash]
-sudo apt install --install-suggests kicad
+sudo apt install --no-install-recommends kicad
 
 If you don't do a "full installation" you should be interested to install also:
 
