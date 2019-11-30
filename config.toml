@@ -24,8 +24,8 @@ disablePathToLower = true
     title = "twitter"
     url = "https://twitter.com/kicad_pcb"
 [[params.social]]
-    title = "github"
-    url = "https://github.com/KiCad"
+    title = "gitlab"
+    url = "https://gitlab.com/KiCad"
 
 [[menu.main]]
     name   = "Blog"

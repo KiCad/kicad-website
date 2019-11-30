@@ -514,3 +514,10 @@ code {
 a.plain-link {
     text-decoration: none;
 }
+
+/* Weight and italics. BS4 */
+
+.font-weight-light  { font-weight: 300 !important; }
+.font-weight-normal { font-weight: 400 !important; }
+.font-weight-bold   { font-weight: 800 !important; }
+.font-italic        { font-style: italic !important; }

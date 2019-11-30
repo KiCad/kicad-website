@@ -1,6 +1,6 @@
 +++
 title = "MacOS"
-iconhtml = "<div><i class='fa fa-apple'></i></div>"
+iconhtml = "<div><i class='fab fa-apple'></i></div>"
 weight = 2
 +++
 :icons: fonts

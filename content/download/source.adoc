@@ -8,14 +8,14 @@ weight = 100
 
 
 The most recent source code for KiCad can be downloaded from the
-https://code.launchpad.net/kicad[launchpad repository] or the
-https://github.com/KiCad/kicad-source-mirror[github source mirror].
+https://gitlab.com/kicad/code/kicad[gitlab repository] or the
+https://github.com/KiCad/kicad-source-mirror[github mirror].
 
 This source contains the most recent patches and is useful for
 debugging and testing. If you build KiCad from source consider
 joining the https://launchpad.net/~kicad-developers/[developer mailing
 list] to post your improvements and
-https://bugs.launchpad.net/kicad/[bug-fixes].
+https://gitlab.com/kicad/code/kicad/issues[bug-fixes to issues].
 
 Other than the source code itself there are some other distibruted
 elements that make up the full KiCad package, which is the KiCad
