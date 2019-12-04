@@ -16,13 +16,13 @@ Current Version: *5.1.5*
 <h3>64-bit (recommended)</h3>
 <h4>Download mirrors</h4>
 <div class="list-group download-list-group">
-	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.5_2-x86_64.exe">
+	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.5_3-x86_64.exe">
 		<img src="/img/about/cern-logo.png" /> CERN - Switzerland
 	</a>
-	<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.5/kicad-5.1.5_2-x86_64.exe">
+	<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.5/kicad-5.1.5_3-x86_64.exe">
 		GitHub - Global
 	</a>
-	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.5_2-x86_64.exe">
+	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.5_3-x86_64.exe">
 		Futureware - Austria
 	</a>
 </div>
@@ -33,13 +33,13 @@ Current Version: *5.1.5*
 <h3>32-bit</h3>
 <h4>Download mirrors</h4>
 <div class="list-group download-list-group">
-	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.5_2-i686.exe">
+	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.5_3-i686.exe">
 		<img src="/img/about/cern-logo.png" /> CERN - Switzerland
 	</a>
-	<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.5/kicad-5.1.5_2-i686.exe">
+	<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.5/kicad-5.1.5_3-i686.exe">
 		GitHub - Global
 	</a>
-	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.5_2-i686.exe">
+	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.5_3-i686.exe">
 		Futureware - Austria
 	</a>
 </div>
