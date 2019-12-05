@@ -13,21 +13,17 @@ toc::[]
 
 == Getting Started
 
-link:https://launchpad.net/kicad[KiCad uses Launchpad]
+link:https://gitlab.com/kicad/code/kicad[KiCad uses GitLab]
 for bug reporting and tracking, source code hosting,
 and creating blueprints (roadmaps) of new features. The project is
-essentially managed through Launchpad.
+essentially managed through GitLab.
 The first thing to do before anything is to join the
 link:https://launchpad.net/~kicad-developers[KiCad Developers Mailing List].
 You can also join the link:/community/irc[IRC channel]
 if you have questions. Usually, there are multiple KiCad developers in the channel.
 
 To report bugs and help with technical subjects you
-will need a Launchpad account. To commit source code,
-you will additionally need to set up SSH keys for your
-account. Detailed instructions for setting up an account
-are available in the
-link:https://help.launchpad.net/YourAccount/NewAccount[Launchpad user tutorial].
+will need a GitLab account, this can be created manually or you can login using your GitHub, Google or Twitter account.
 
 The official road map is available online as the
 http://docs.kicad-pcb.org/doxygen/v6_road_map.html[version
@@ -51,11 +47,11 @@ Windows, you'll need to download and execute the installer.
 Once you have git installed, you just need to clone the official
 repository, like so:
 
- git clone https://git.launchpad.net/kicad
+ git clone https://gitlab.com/kicad/code/kicad.git
 
 You can pull the latest changes in your clone with:
 
- git pull
+ git pull --rebase
 
 === Build it!
 
@@ -112,12 +108,11 @@ related pages].
 
 === Starter Patches
 
-If you are new to KiCad development you might want to look into link:https://bugs.launchpad.net/kicad/+bugs?field.status%3Alist=NEW&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&field.tag=starter&field.omit_dupes=on&field.has_branches=on&field.has_no_branches=on[bugs tagged as 'starter'].
+If you are new to KiCad development you might want to look into link:https://gitlab.com/groups/kicad/code/kicad/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=starter[issues labeled as 'starter'].
 
 Or for example if you are an macOS user, you might want to check the
 following
-link:https://bugs.launchpad.net/kicad/+bugs?field.searchtext=&orderby=-date_last_updated&search=Search&field.status%3Alist=NEW&field.status%3Alist=CONFIRMED&field.status%3Alist=TRIAGED&field.status%3Alist=INPROGRESS&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&assignee_option=any&field.assignee=&field.bug_reporter=&field.bug_commenter=&field.subscriber=&field.structural_subscriber=&field.tag=osx&field.tags_combinator=ANY&field.has_cve.used=&field.omit_dupes.used=&field.omit_dupes=on&field.affects_me.used=&field.has_patch.used=&field.has_branches.used=&field.has_branches=on&field.has_no_branches.used=&field.has_no_branches=on&field.has_blueprints.used=&field.has_blueprints=on&field.has_no_blueprints.used=&field.has_no_blueprints=on[bugs
-tagged as 'osx'].
+link:https://gitlab.com/groups/kicad/code/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=macos[issues tagged as 'osx'].
 
 === Commit your changes
 
