@@ -24,7 +24,7 @@ Filing high quality bug reports is important to help the KiCad
 developers fix bugs and improve the quality of KiCad. Good bug reports
 allow developers to quickly find and resolve bugs which save limited
 developer time. Bug reports should only contain one issue. The
-Launchpad bug status reporting only allows for a single status
+Gitlab bug status reporting only allows for a single status
 condition per bug report. Submitting a good bug report requires you to
 do some information gathering before submitting your bug.
 
@@ -75,21 +75,10 @@ what steps you performed.  If the problem occurs with a specific file
 or library, please attach it to your bug report if possible.
 
 Now with all your information in hand head on over the the
-https://bugs.launchpad.net/KiCad/+bugs?orderby=-date_last_updated&start=0[KiCad
+https://gitlab.com/kicad/code/kicad/issues[KiCad
 bug tracker].
 
 The KiCad developer team thanks you for your efforts.
-
-=== Auxiliary help with launchpad
-
-You can track the status of your bug with the
-https://help.launchpad.net/Bugs/Subscriptions[launchpad bug
-subscriptions].
-
-The details on the fields in a bug report and the meanings of their
-allowed values are described on
-http://blog.launchpad.net/general/of-bugs-and-statuses[this page of
-the launchpad blog].
 
 == Issues with the kicad-pcb.org website
 
