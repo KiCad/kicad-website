@@ -22,9 +22,8 @@ before starting a new issue.
 +
 image::/img/help/new-issue-form-desc.png[alt="Example of new issue form description field"]
 +
-Please do your absolute best to fill in the issue per contents of the description. 
+Please do your absolute best to fill in the issue per contents of the description and respond to any additional requests for information.
 It helps both you and developers to resolve issues.
-Incomplete issues may be ignored or closed outright.
 
 
 == Repositories
