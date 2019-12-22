@@ -9,12 +9,12 @@ aliases = [ "/help/report-a-bug/" ]
 
 == Before you begin
 KiCad is composed of a few separate parts that come together as the application.
-To report a bug, you must identify where the issue lies.
+Each part resides in what is known as a repository and you must identify the correct one to post a issue to.
 
 
 However, before reporting a issue in any repository:
 
-. Please make best effort to locate any existing issue that may be a duplicate of your bug
+. Please make best effort to locate any existing issue that may be a duplicate of your problem
 before starting a new issue.
 
 
