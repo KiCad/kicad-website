@@ -4,7 +4,7 @@ aliases = [ "/post/known-system-related-issues/" ]
 [menu.main]
     parent = "Help"
     name   = "Known System Related Issues"
-weight = 50
+  weight = 50
 +++
 :toc: macro
 :toc-title:

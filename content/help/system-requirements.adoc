@@ -4,7 +4,7 @@ aliases = [ "/post/system-requirements/" ]
 [menu.main]
     parent = "Help"
     name   = "System Requirements"
-weight = 50
+    weight = 50
 +++
 :toc: macro
 :toc-title:
