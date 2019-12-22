@@ -521,3 +521,8 @@ a.plain-link {
 .font-weight-normal { font-weight: 400 !important; }
 .font-weight-bold   { font-weight: 800 !important; }
 .font-italic        { font-style: italic !important; }
+
+/* Forces asciidoctor embedded images not to go past the content column */
+.imageblock img {
+    max-width: 100%;
+}
