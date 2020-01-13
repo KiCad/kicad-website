@@ -14,6 +14,7 @@ The following elements must be provided on the fabrication layer(s)
 . Simplified component outline must be provided on `F.Fab` layer
 .. Outline uses line width between {`0.10mm` and `0.15mm`} (recommended `0.10mm`)
 .. Outline should be simplified and not display complex features
+.. For outlines based on the component body shape, the nominal size is used
 . Footprint polarisation / location of pin-1 is drawn
 .. For IC packages, bevel is drawn at corner next to pin-1
 .. Bevel should be `1mm` or `25% of package size` (whichever is smaller)

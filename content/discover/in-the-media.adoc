@@ -9,6 +9,10 @@ title = "In the Media"
 
 **KiCad has been featured in the following blog posts, press and media:**
 
+https://www.linuxfoundation.org/press-release/2019/11/kicad-joins-linux-foundation-to-advance-electronic-design-automation/[KiCad joins the Linux Foundation] (22-NOV-2019)
+
+http://blog.snapeda.com/2019/10/28/an-interview-with-wayne-stambaugh-of-kicad/[Why open hardware needs open software – and more from Wayne Stambaugh of KiCad] (28-OCT-2019)
+
 https://techexplorations.com/blog-wayne-stambaugh/[Tech Explorations Interview with KiCad Project Lead Developer] (9-MAY-2019)
 
 https://hackaday.com/2019/04/30/kicad-community-shines-at-first-ever-kicon/[KiCad Community Shines at First Ever KiCon] (30-APR-2019)

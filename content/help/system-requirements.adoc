@@ -4,7 +4,7 @@ aliases = [ "/post/system-requirements/" ]
 [menu.main]
     parent = "Help"
     name   = "System Requirements"
-weight = 50
+    weight = 50
 +++
 :toc: macro
 :toc-title:
@@ -96,8 +96,8 @@ supported distribution and window manager before they will be addressed by KiCad
 |Ubuntu 18.10|1-Apr-2019
 |Debian 9 (Stretch)|approx 2020
 |Debian 10 (Buster)|approx 2022
-|Fedora 29|approx November 2019
 |Fedora 30|approx May 2020
+|Fedora 31|approx November 2020
 |===
 
 [%hardbreaks]

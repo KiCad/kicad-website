@@ -1,9 +1,16 @@
 +++
 title = "Linux Mint"
 iconhtml = "<div class='fl-linuxmint'></div>"
-weight = 11
+weight = 21
 +++
 :icons: fonts
 :iconsdir: /img/icons/
+:dist: Linux Mint
+
+include::./content/download/_supported-note.adoc[]
+
+=== Linux Mint Debian Incompatibility
+Linux Mint Debian does not work with the PPA listed below.  Only Linux Mint Ubuntu and its derivatives have been 
+reported to work with this PPA.
 
 include::./content/download/_js-reynaud-ppa.adoc[]

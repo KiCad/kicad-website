@@ -9,23 +9,26 @@ title = "Sites"
 
 == Forums
 
-These are forums run by KiCad users for the general KiCad community to ask questions and help each other.
+These are forums run by KiCad users for the general KiCad community to ask questions and help
+each other.
 
 [role="table table-striped table-condensed"]
 |===
 | Language               | URL
 
-| English (most active) | link:https://forum.kicad.info/[kicad.info]
+| English (most active)  | link:https://forum.kicad.info/[kicad.info]
 | English                | link:https://www.reddit.com/r/KiCad/[kicad subreddit]
 | English                | link:https://www.eevblog.com/forum/kicad/[EEVblog Forum KiCAD Section]
 | Español                | link:http://www.elektroquark.com/forokicad/index.php[El foro de KiCad en castellano]
 | Español                | link:https://kicad.es/[Foro de KiCad en español (discourse)]
+| Chinese(中文论坛)        | http://bbs.elecfans.com/zhuti_kicad_1.html[KiCad on elecfans.com]
 |===
 
 
 == Sites
 
-These are websites that have KiCad content. They may or may not have forums but can still be very helpful.
+These are websites that have KiCad content. They may or may not have forums but can still be
+very helpful.
 
 [role="table table-striped table-condensed"]
 |===
@@ -42,5 +45,7 @@ Submit a pull-request to the kicad website repository as long as you meet the fo
 
 - Your site must be open and cannot charge for access
 - You do not misrepresent yourself as being an official KiCad entity
-- There is a primary focus on KiCad content. i.e. your personal blog that has some KiCad related posts is not valid, a forum dedicated to KiCad or a blog *only* with kicad posts does
-- You accept your site can be removed from listing at any time at the discretion of the KiCad website maintainers
+- There is a primary focus on KiCad content. i.e. your personal blog that has some KiCad related
+  posts is not valid, a forum dedicated to KiCad or a blog *only* with kicad posts does
+- You accept your site can be removed from listing at any time at the discretion of the KiCad
+  website maintainers

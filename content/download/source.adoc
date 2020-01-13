@@ -8,14 +8,14 @@ weight = 100
 
 
 The most recent source code for KiCad can be downloaded from the
-https://code.launchpad.net/kicad[launchpad repository] or the
-https://github.com/KiCad/kicad-source-mirror[github source mirror].
+https://gitlab.com/kicad/code/kicad[gitlab repository] or the
+https://github.com/KiCad/kicad-source-mirror[github mirror].
 
 This source contains the most recent patches and is useful for
 debugging and testing. If you build KiCad from source consider
 joining the https://launchpad.net/~kicad-developers/[developer mailing
 list] to post your improvements and
-https://bugs.launchpad.net/kicad/[bug-fixes].
+https://gitlab.com/kicad/code/kicad/issues[bug-fixes to issues].
 
 Other than the source code itself there are some other distibruted
 elements that make up the full KiCad package, which is the KiCad
@@ -25,17 +25,17 @@ project templates.
 
 == Stable Release
 
-Current Version: *5.1.4*
+Current Version: *5.1.5*
 
 Tarballs intended to be used by packagers:
 
-* link:https://launchpad.net/kicad/5.0/5.1.4/+download/kicad-5.1.4.tar.xz[Source code]
-* link:https://kicad-downloads.s3.cern.ch/docs/kicad-doc-5.1.4.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/5.1.4[doc sources]
-* link:https://github.com/KiCad/kicad-i18n/releases/tag/5.1.4[i18n (translations)]
-* link:https://github.com/KiCad/kicad-symbols/releases/tag/5.1.4[symbols]
-* link:https://github.com/KiCad/kicad-footprints/releases/tag/5.1.4[footprints]
-* link:https://github.com/KiCad/kicad-packages3D/releases/tag/5.1.4[packages3D]
-* link:https://github.com/KiCad/kicad-templates/releases/tag/5.1.4[templates]
+* link:https://launchpad.net/kicad/5.0/5.1.5/+download/kicad-5.1.5.tar.xz[Source code]
+* link:https://kicad-downloads.s3.cern.ch/docs/kicad-doc-5.1.5.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/5.1.5[doc sources]
+* link:https://github.com/KiCad/kicad-i18n/releases/tag/5.1.5[i18n (translations)]
+* link:https://github.com/KiCad/kicad-symbols/releases/tag/5.1.5[symbols]
+* link:https://github.com/KiCad/kicad-footprints/releases/tag/5.1.5[footprints]
+* link:https://github.com/KiCad/kicad-packages3D/releases/tag/5.1.5[packages3D]
+* link:https://github.com/KiCad/kicad-templates/releases/tag/5.1.5[templates]
 
 As a packager, please work to enable all the build options, that is
 all the scripting options, OCE or OCC and ngspice. With recent

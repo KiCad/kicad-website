@@ -5,8 +5,16 @@ url = "/libraries/klc/history/"
 +++
 
 ---
-== 3.0.25 - 2019-10-06
+== 3.0.25 - 2020-01-13
 * Update section about symbol documentation to KiCad 5.1 GUI (combined S6.2 and S6.3)
+
+
+== 3.0.24 - 2019-11-16
+* Clarify rule for parts with toleranced dimensions
+  * Fab comes from the nominal component dimensions (F5.2)
+  * Courtyards, where based on component sizes (as opposed to where the
+    courtyard comes from the pads), are referenced to the nominal body size.
+    This is an IPC rule. (F5.3)
 
 == 3.0.23 - 2019-09-23
 * Clarify that the silk below tht exception is only for additional silk markings

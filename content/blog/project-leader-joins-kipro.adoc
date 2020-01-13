@@ -1,0 +1,24 @@
++++
+title = "Project Leader Joins KiCad Services Corporation"
+date = "2019-12-02"
+aliases = [
+    "/post/project-leader-joins-kipro/"
+]
+categories = [
+    "News"
+]
++++
+
+:icons: fonts
+:iconsdir: /img/icons/
+
+The KiCad project is excited to announce the project leader, Wayne Stambaugh,
+has joined the https://www.kipro-pcb.com/[KiCad Services Corporation].  A
+https://youtu.be/X4wMtCqVUQE[video interview] with KiCad Services Corporation
+founder Seth Hillbrand is available for viewing.  This new position will allow
+the project leader to continue work on KiCad as much as possible when not
+working on behalf of the corporation.  On behalf of The KiCad development team
+and its users, we would like to say thank you to the KiCad Services Corporation
+for its commitment to the project.  We are looking forward to the continue
+development manpower this will provide and we hope we can help the KiCad Services
+Corporation achieve its goals.

@@ -5,6 +5,9 @@ weight = 30
 +++
 :icons: fonts
 :iconsdir: /img/icons/
+:dist: Flatpak
+
+include::./content/download/_supported-note.adoc[]
 
 == Stable Release
 

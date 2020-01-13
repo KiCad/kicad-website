@@ -5,6 +5,9 @@ weight = 20
 +++
 :icons: fonts
 :iconsdir: /img/icons/
+:dist: openSUSE
+
+include::./content/download/_supported-note.adoc[]
 
 == Stable release
 {{< repology opensuse_tumbleweed >}}

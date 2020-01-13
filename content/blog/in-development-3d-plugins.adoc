@@ -10,6 +10,9 @@ categories = [
 ]
 +++
 
+:icons: fonts
+:iconsdir: /img/icons/
+
 Seasoned KiCad users are familiar with the venerable 3DViewer tool
 which has traditionally been used to help verify design by visual
 inspection and to create images of what a project may look like

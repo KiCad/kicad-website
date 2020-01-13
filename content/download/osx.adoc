@@ -1,6 +1,6 @@
 +++
 title = "MacOS"
-iconhtml = "<div><i class='fa fa-apple'></i></div>"
+iconhtml = "<div><i class='fab fa-apple'></i></div>"
 weight = 2
 +++
 :icons: fonts
@@ -16,17 +16,17 @@ If you run macOS 10.14, use the download with 10_14 in its name. If you run 10.1
 
 == Stable Release
 
-Current Version: *5.1.4*
+Current Version: *5.1.5*
 
 ++++
 <h3>macOS 10.14</h3>
 <h4>Download mirrors</h4>
 <div class="list-group download-list-group">
-	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/osx/stable/kicad-unified-5.1.4-0-10_14.dmg">
-		<img src="/img/about/cern-logo.png" /> CERN
+	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/osx/stable/kicad-unified-5.1.5-0-10_14.dmg">
+		<img src="/img/about/cern-logo.png" /> CERN - Switzerland
 	</a>
-	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/osx/stable/kicad-unified-5.1.4-0-10_14.dmg">
-		Futureware
+	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/osx/stable/kicad-unified-5.1.5-0-10_14.dmg">
+		Futureware - Austria
 	</a>
 </div>
 ++++
@@ -36,11 +36,33 @@ Current Version: *5.1.4*
 <h3>macOS 10.12-10.13</h3>
 <h4>Download mirrors</h4>
 <div class="list-group download-list-group">
-	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/osx/stable/kicad-unified-5.1.4-0.dmg">
-		<img src="/img/about/cern-logo.png" /> CERN
+	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/osx/stable/kicad-unified-5.1.5-0.dmg">
+		<img src="/img/about/cern-logo.png" /> CERN - Switzerland
 	</a>
-	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/osx/stable/kicad-unified-5.1.4-0.dmg">
-		Futureware
+	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/osx/stable/kicad-unified-5.1.5-0.dmg">
+		Futureware - Austria
+	</a>
+</div>
+++++
+
+=== Third Party Mirrors
+
+CAUTION: These mirrors are maintained by third parties.
+The KiCad development team does not maintain or control these mirrors.
+However, they may be useful for users in regions with poor connectivity to the official mirrors. +
+**Use at your own risk**
+
+
+++++
+<div class="list-group download-list-group">
+	<a class="list-group-item" href="https://mirrors.cqu.edu.cn/kicad/">
+		Chongqing University Open Source Software Mirror - China
+	</a>
+	<a class="list-group-item" href="https://mirrors.dgut.edu.cn/kicad/">
+		 Dongguan University of Technology Open-source Software Mirror - China
+	</a>
+	<a class="list-group-item" href="https://mirror.tuna.tsinghua.edu.cn/kicad/">
+		Tsinghua University Open Source Software Mirror - China
 	</a>
 </div>
 ++++

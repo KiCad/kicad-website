@@ -5,9 +5,12 @@ weight = 95
 +++
 :icons: fonts
 :iconsdir: /img/icons/
+:dist: Sabayon
+
+include::./content/download/_supported-note.adoc[]
 
 == Stable Release
-KiCad 5.0.0 is available in in the
+KiCad 5.1.4 is available in in the
 link:https://packages.sabayon.org/quicksearch?q=kicad[official
 sabayon packages]. 
 

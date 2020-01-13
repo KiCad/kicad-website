@@ -1,0 +1,44 @@
++++
+title = "Windows Installer Verification"
++++
+
+== Introduction
+All KiCad Windows installers have a digital signature attached. This signature comes from a code signing certificate issued by a trusted root certificate authority 
+that is bundled by Microsoft in Windows.
+
+== Verification Steps
+
+. Begin by downloading the KiCad installer of choice.
+. Browse to the file in File Explorer.
+. Right click on the file and Open Properties 
++
+image::/img/help/right-click-prop.png[alt="Right click menu for file properties"]
+
+. Now click the *Digital Signatures* tab
++
+image::/img/help/digital-sigs.png[alt="Digital Signatures tab of file properties modal"]
+
+. Select the only signature that should be present. If there is no signature at all, this installer is invalid.
+Click details on the signature
++
+image::/img/help/click-details.png[alt="Details button for a digital signature"]
+
+. Observe the General tab that will appear. The exact text "This digital signature is OK" must be present. The signer *Name* should also match the one
+described on the downloads page.
++
+image::/img/help/digital-sig-details.png[alt="Details button for a digital signature"]
+
+. Click the Advanced tab. The installer and signature are only valid if the *Issuer* and *Serial Number* match the one described on the downloads page.
++
+image::/img/help/digital-sig-advanced.png[alt="Details button for a digital signature"]
+
+
+
+== Summary
+A installer can be concluded as safe and intact only if the following criteria are met:
+
+- Digital signature must be present
+- Digital signature must report "This digital signature is OK"
+- *Issuer* of the digital signature must be as described on the downloads page
+- *Serial Number* of the digital signature must be as described on the downloads page
+- (Signer) *Name* of the digital signature must be as described on the downloads page

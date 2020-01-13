@@ -45,7 +45,7 @@
 
     <!-- Custom Fonts -->
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300,300italic,400italic,700italic,800italic" rel="stylesheet" type="text/css">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet" type="text/css">
     {{ if $.Scratch.Get "additional_head_tags" }}{{ $.Scratch.Get "additional_head_tags" | safeHTML }}{{ end }}
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -83,10 +83,24 @@
         </div>
         <!-- /.container -->
     </nav>
-    
 <!--- next version of hugo adds .IsHome the if statement can be simplified after 0.15 is released -->
-{{ if eq .URL "/" }}
+{{ if .IsHome }}
 {{else}}
     <header class="intro-header page-header-decor">
     </header>
 {{end}}
+
+<!-- Donate -->
+<div class="modal fade" id="donate-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Donate to KiCad Development!</h4>
+            </div>
+            <div class="modal-body">
+                    {{ partial "donate.html" . }}
+            </div>
+        </div>
+    </div>
+</div>
