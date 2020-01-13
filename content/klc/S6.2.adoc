@@ -4,7 +4,8 @@ brief = "Symbol and alias fields and metadata filled out as required"
 
 . *Reference* field is selected appropriately for the symbol and is _visible_
 . *Value* field contains the name of the symbol and is _visible_
-. *Footprint* field contains footprint link for fully specified symbols, and is empty for generic symbols. It must be _invisible_
+. *Footprint* field contains footprint link for fully specified symbols and must be _invisible_
+.. The footprint field must be empty for generic symbols
 . *Datasheet* entry [1] is filled out, and is _invisible_
 . The symbol contains no other custom fields
 
