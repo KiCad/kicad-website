@@ -9,7 +9,7 @@ brief = "Symbol and alias fields and metadata filled out as required"
 . *Datasheet* entry [1] is filled out, and is _invisible_
 . The symbol contains no other custom fields
 
-Additional documentation is provided via
+Additional documentation is provided via,
 [start=6]
 . **Description** field contains comma-separated device information
 .. For symbols with a default footprint, the simplified footprint name should be appended to the description e.g. `SOIC-8`
