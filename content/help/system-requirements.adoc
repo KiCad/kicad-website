@@ -56,13 +56,13 @@ The software prerequisites for installing KiCad on a Windows system are as follo
 
 [%header,width="50%",cols="10,^2"]
 |===
-|Operating System|End of Support
-|Windows 7|14-Jan-2020
-|Windows 8|Unsupported
-|Windows 8.1|10-Jan-2023
-|Windows Server 2012|10-Oct-2023
-|Windows Server 2016|10-Oct-2027
-|Windows 10|9-Jan-2029
+|Operating System       |End of Support
+|Windows 7              | Unsupported
+|Windows 8              | Unsupported
+|Windows 8.1            | 10-Jan-2023
+|Windows Server 2012    | 10-Oct-2023
+|Windows Server 2016    | 10-Oct-2027
+|Windows 10             | 9-Jan-2029
 |===
 
 [%hardbreaks]
