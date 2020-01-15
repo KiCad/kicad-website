@@ -56,13 +56,14 @@ The software prerequisites for installing KiCad on a Windows system are as follo
 
 [%header,width="50%",cols="10,^2"]
 |===
-|Operating System       |End of Support
-|Windows 7              | Unsupported
-|Windows 8              | Unsupported
+|Operating System       | Support Status
+|Windows 7              | Unsupported, will most likely still function
+|Windows 8              | Unsupported, will most likely still function
 |Windows 8.1            | 10-Jan-2023
 |Windows Server 2012    | 10-Oct-2023
 |Windows Server 2016    | 10-Oct-2027
-|Windows 10             | 9-Jan-2029
+|Windows Server 2019    | 09-Jan-2029
+|Windows 10             | 09-Jan-2029
 |===
 
 [%hardbreaks]
@@ -72,10 +73,10 @@ The software prerequisites for installing on a macOS system are as follows:
 
 [%header,width="50%",cols="10,^2"]
 |===
-|Operating System|End of Support:
-|macOS 10.12|1-Aug-2019
-|macOS 10.13|1-Aug-2020
-|macOS 10.14|1-Aug-2021
+|Operating System | End of Support:
+|macOS 10.12      | Unsupported
+|macOS 10.13      | 1-Aug-2020
+|macOS 10.14      | 1-Aug-2021
 |===
 
 [%hardbreaks]
@@ -89,15 +90,15 @@ supported distribution and window manager before they will be addressed by KiCad
 
 [%header,width="50%",cols="10,^2"]
 |===
-|Operating System|End of Support:
-|Ubuntu 16.04|1-Apr-2019
-|Ubuntu 17.10|Not Supported
-|Ubuntu 18.04|1-Apr-2023
-|Ubuntu 18.10|1-Apr-2019
-|Debian 9 (Stretch)|approx 2020
-|Debian 10 (Buster)|approx 2022
-|Fedora 30|approx May 2020
-|Fedora 31|approx November 2020
+|Operating System       |End of Support:
+|Ubuntu 16.04           |Not Supported
+|Ubuntu 17.10           |Not Supported
+|Ubuntu 18.04           |1-Apr-2023
+|Ubuntu 18.10           |1-Apr-2019
+|Debian 9 (Stretch)     |approx 2020
+|Debian 10 (Buster)     |approx 2022
+|Fedora 30              |approx May 2020
+|Fedora 31              |approx November 2020
 |===
 
 [%hardbreaks]
