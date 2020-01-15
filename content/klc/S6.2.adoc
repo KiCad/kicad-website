@@ -18,8 +18,10 @@ Additional documentation is provided via two other fields:
 
 {{< klcimg src="symbol_metadata" title="Symbol metadata example" >}}
 
-_[1]: KiCad 5.x and earlier have two places to store the datasheet link. It can be in the `.lib` file once per symbol or in the `.dcm` file allowing different datasheets per alias. Having different datasheets for aliases only works if the `.lib` entry is left empty. This is the default in version 5.1.x._
-
-Aliases define their own values for the datasheet link, description and keyword entries.
+**Aliases** define their own values for the datasheet link, description and keyword entries.
 
 {{< klcimg src="alias_metadata" title="Alias metadata example" >}}
+
+---
+
+_[1]: KiCad 5.x and earlier have two places to store the datasheet link. It can be in the `.lib` file once per symbol or in the `.dcm` file allowing different datasheets per alias. Having different datasheets for aliases only works if the `.lib` entry is left empty. This is the default in version 5.1.x._
