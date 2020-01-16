@@ -54,7 +54,7 @@ system before they will be addressed by KiCad.
 
 The software prerequisites for installing KiCad on a Windows system are as follows:
 
-[%header,width="50%",cols="10,^2"]
+[%header,width="75%",cols="^2,4"]
 |===
 |Operating System       | Support Status
 |Windows 7              | Unsupported, will most likely still function
@@ -82,24 +82,60 @@ The software prerequisites for installing on a macOS system are as follows:
 [%hardbreaks]
 === GNU/Linux
 
-The following Linux distribution versions have been tested and are known to be working.
+The following Linux distributions have been tested and are known to be working with
+KiCad version 5.1.
 Issues or bugs that occur on an unsupported platform must be reproduced on an officially
 supported distribution and window manager before they will be addressed by KiCad.
 
-==== Tested Distributions
+*Note:* Development versions of the next KiCad release (version 6) may not function
+on some of the older distributions listed below.
 
-[%header,width="50%",cols="10,^2"]
+
+==== Ubuntu
+
+[%header,width="75%",cols="^2,4"]
 |===
 |Operating System       |End of Support:
-|Ubuntu 16.04           |Not Supported
-|Ubuntu 17.10           |Not Supported
-|Ubuntu 18.04           |1-Apr-2023
-|Ubuntu 18.10           |1-Apr-2019
-|Debian 9 (Stretch)     |approx 2020
-|Debian 10 (Buster)     |approx 2022
+|Ubuntu 16.04 (LTS)     |Unsupported, will most likely still function
+|Ubuntu 18.04 (LTS)     |1-Apr-2021
+|Ubuntu 18.10           |Unsupported, will most likely still function
+|Ubuntu 19.04           |Unsupported, will most likely still function
+|Ubuntu 19.10           |1-July-2020
+|===
+
+Long Term Support (LTS) releases of Ubuntu will be supported for 1 year after the next
+LTS version is released (for a total of 3 years of support).
+
+Non-LTS releases of Ubuntu will be supported while the version
+is under https://wiki.ubuntu.com/Releases[standard support] from Ubuntu.
+
+
+==== Fedora
+
+[%header,width="75%",cols="^2,4"]
+|===
+|Operating System       |End of Support:
+|Fedora 29              |Unsupported, will most likely still function
 |Fedora 30              |approx May 2020
 |Fedora 31              |approx November 2020
 |===
+
+Fedora releases will be supported for as long as they are supported by the Fedora Project
+(usually for 1 year after release).
+
+
+==== Debian
+
+[%header,width="75%",cols="^2,4"]
+|===
+|Operating System       |End of Support:
+|Debian 9 (Stretch)     |approx 2020
+|Debian 10 (Buster)     |approx 2022
+|===
+
+Debian releases will be supported for as long as they are https://wiki.debian.org/DebianReleases#Production_Releases[supported]
+by Debian.
+
 
 [%hardbreaks]
 ==== Additional Linux Considerations
