@@ -24,4 +24,4 @@ Additional documentation is provided via two other fields:
 
 ---
 
-_[1]: KiCad 5.x and earlier have two places to store the datasheet link. It can be in the `.lib` file once per symbol or in the `.dcm` file allowing different datasheets per alias. Having different datasheets for aliases only works if the `.lib` entry is left empty. The datasheet entry in the main symbol metadata view is linkded to the dcm entry since version 5.1.x._
+_[1]: KiCad 5.x and earlier have two places to store the datasheet link. It can be in the `.lib` file once per symbol or in the `.dcm` file allowing different datasheets per alias. Having different datasheets for aliases only works if the `.lib` entry is left empty. The datasheet entry in the main symbol metadata view is linked to the dcm entry since version 5.1.x._
