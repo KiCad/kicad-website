@@ -1,8 +1,8 @@
 +++
-brief = "Contributions to the official lib must be made using the current stable version"
+brief = "Contributions to the official library must be made using the current stable version"
 +++
 
-Contributions of library assets (symbols and footprints) must be created in the latest **stable** version of KiCad.
+Contributions of library assets must be created in the latest **stable** version of KiCad.
 
-This is to avoid problems caused by changes in how assets are stored in different versions of KiCad. (Changes in how line ordering is determined, how strings are escaped, ...)
+This is to avoid problems caused by changes in how assets are stored in different versions of KiCad. (Changes in how line ordering is determined, how strings are escaped, etc.)
 Another reason is to avoid including features not supported by the latest stable release.
