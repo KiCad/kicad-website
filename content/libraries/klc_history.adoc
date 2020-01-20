@@ -5,6 +5,9 @@ url = "/libraries/klc/history/"
 +++
 
 ---
+== 3.0.26 - 2020-01-18
+* Clarify that contributions must be made with the current stable version (G1.8)
+
 == 3.0.25 - 2020-01-18
 * Update section about symbol documentation to KiCad 5.1 GUI (combined S6.2 and S6.3)
 
