@@ -1,9 +1,9 @@
 +++
-title = "Report a Issue"
-aliases = [ "/help/report-a-bug/" ]
+title = "Report an Issue"
+aliases = [ "/help/report-a-bug/", "/help/report-a-issue/" ]
 [menu.main]
     parent = "Help"
-    name   = "Report a Issue"
+    name   = "Report an Issue"
     weight = 35
 +++
 
