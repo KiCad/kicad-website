@@ -32,8 +32,13 @@ To fix this, disable the automatic canvas scaling in the preferences
 window and enter a custom scale factor. In most cases a scaling factor
 of 2 seems to fix the issue.
 
-Icons may also appear smaller on high DPI screens, but their size
+Toolbar icons may also appear smaller on high DPI screens, but their size
 can be scaled in the preferences window as well.
+
+Menu items may have inconsistent vertical sizing, causing the bottom part of
+the text to be cutoff. Disabling "Show icons in menus" in the Preferences
+dialog will make all menu items a uniform height and fix the cutoff text
+(see https://gitlab.com/kicad/code/kicad/issues/3785[GitLab Bug #3785]).
 
 The grid dots may be difficult to see due to their smaller size on
 these displays. On the modern canvas, their size can be increased
