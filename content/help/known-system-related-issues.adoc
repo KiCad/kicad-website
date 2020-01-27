@@ -26,8 +26,8 @@ crosshairs, check to ensure that automatic canvas scaling is enabled on the
 common settings page of the Preferences dialog.
 
 There are some known issues that can cause the canvas to not automatically scale
-properly, primarily on Linux installations (https://bugs.launchpad.net/kicad/+bug/1841423[see Bug #1841423]
-and https://bugs.launchpad.net/kicad/+bug/1797308[Bug #1797308)].
+properly, primarily on Linux installations (see https://bugs.launchpad.net/kicad/+bug/1841423[Launchpad Bug #1841423]
+and https://gitlab.com/kicad/code/kicad/issues/54[GitLab Bug #54]).
 To fix this, disable the automatic canvas scaling in the preferences
 window and enter a custom scale factor. In most cases a scaling factor
 of 2 seems to fix the issue.
@@ -37,7 +37,7 @@ can be scaled in the preferences window as well.
 
 The grid dots may be difficult to see due to their smaller size on
 these displays. On the modern canvas, their size can be increased
-in the preferences window https://bugs.launchpad.net/kicad/+bug/1660560[(see Bug #1660560)].
+in the preferences window (see https://gitlab.com/kicad/code/kicad/issues/444[GitLab Bug #444]).
 
 
 === Legacy Canvas and wxGTK
