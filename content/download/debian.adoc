@@ -22,23 +22,23 @@ here no special case.
 To be able to install versions from a official Debian Backport repository you
 need to extend your `sources.list` configuration if not yet happen. If you are
 running Debian Buster please create a file
-`/etc/apt/sources.lists.d/buster-backports.list` if you don't have an similar
+`/etc/apt/sources.list.d/buster-backports.list` if you don't have an similar
 entry already.
 
 [source,bash]
 ----
-# /etc/apt/sources.lists.d/buster-backports.list
+# /etc/apt/sources.list.d/buster-backports.list
 deb http://deb.debian.org/debian buster-backports main contrib non-free
 ----
 
 If your system is still running Debian Stretch create a similar file (if not
 done somehow already or created by the installer similar)
-`/etc/apt/sources.lists.d/stretch-backports.list`
+`/etc/apt/sources.list.d/stretch-backports.list`
 like above except the content is pointing to stretch-backports.
 
 [source,bash]
 ----
-# /etc/apt/sources.lists.d/stretch-backports.list
+# /etc/apt/sources.list.d/stretch-backports.list
 deb http://deb.debian.org/debian stretch-backports main contrib non-free
 ----
 
