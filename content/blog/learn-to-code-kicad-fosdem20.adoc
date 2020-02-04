@@ -23,7 +23,7 @@ a motivated team of future contributors.
 .Learn To Code KiCad Participants, FOSDEM 2020
 image::ltck_fosdem20.jpg[LtCK,600]
 
-=== Coming up Next
+== Coming up Next
 
 Our next Learn to Code KiCad event will be at the
 https://summit.fossasia.org/[FOSSASIA 2020 Summit] in
