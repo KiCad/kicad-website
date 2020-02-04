@@ -1,0 +1,33 @@
++++
+title = "Learn to Code KiCad - FOSDEM 2020"
+date = "2020-02-01"
+draft = false
+aliases = [
+    "/post/ltck-fosdem20/"
+]
++++
+:imagesdir: /img/post/
+
+The first ever Learn to Code KiCad event happened in Brussels, BE
+on Friday, Jan 31.  We had 15 new KiCad developers from Europe and
+the United States in attendance.  12 unique issues were addressed
+by the participants, ranging from OpenGL display on ARM hardware
+to cursor offset bugs to Eeschema rubberbanding.
+
+Wayne, Ian, Jon and Seth served as sounding boards for user questions
+and provided some guidance on where to find needed information.
+
+At the end, we had a couple of merge requests and much progress from
+a motivated team of future contributors.
+
+.Learn To Code KiCad Participants, FOSDEM 2020
+image::ltck_fosdem20.jpg[LtCK,600]
+
+=== Coming up Next
+
+Our next Learn to Code KiCad event will be at the
+https://summit.fossasia.org/[FOSSASIA 2020 Summit] in
+Singapore, March 22nd.  Please
+https://forms.gle/dyXXsZCmUGVneNjj6[fill out this form]
+if you'd like to participate!  We look forward to seeing
+you in Singapore.
