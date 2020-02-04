@@ -16,7 +16,7 @@ listing on what the different files are used for.
 
 The `.sch`, `.lib`, `.brd`, `.kicad_pcb` and `.kicad_wks` file formats
 are
-link:http://bazaar.launchpad.net/~stambaughw/kicad/doc-read-only/download/head:/1115%4016bec504-3128-0410-b3e8-8e38c2123bca:trunk%252Fkicad-doc%252Fdoc%252Fhelp%252Ffile_formats%252Ffile_formats.pdf/file_formats.pdf[specified in this PDF] (click on "download file"). The other file format documentation is _Work In Progress_.
+link:https://bazaar.launchpad.net/~stambaughw/kicad/doc-read-only/view/head:/doc/help/file_formats/file_formats.pdf[specified in this PDF] (click on "download file"). The other file format documentation is _Work In Progress_.
 
 * `.pro`: project file. Holds parameters that apply to the entire project (schematic and PCB layout).
 
@@ -35,7 +35,7 @@ link:http://bazaar.launchpad.net/~stambaughw/kicad/doc-read-only/download/head:/
 * `.pretty`: footprint library folders. The folder itself is the library.
 
 * `.kicad_mod`: footprint files, containing one footprint description each.
-      
+
 * `.000`: ^*^ temporary file.
 
 * `.bak`: backup of schematic file.
@@ -85,7 +85,7 @@ KiCad writes and reads some file formats dedicated to certain operation in colla
 * `.idf`: IDFv3 files used to generate lightweight 3D model exports for the mechanical CAD designer of the board and parts.
 
 * `.wings`: 3D model editable by link:http://www.wings3d.com/[Wings3D], used to generate the `.wrl` files.
-      
+
 * `.svg`: plot files (svg format), for documentation.
 
 * `.ps`: plot files (postscript), for documentation.
@@ -110,11 +110,11 @@ link:http://www.freerouting.net/[FreeRouting]).
 
 * EDIF (_Electronic Design Interchange Format_) netlist format.
 link:https://en.wikipedia.org/wiki/EDIF[Wikipedia]
-      
+
 * `.png`: The link:http://www.w3.org/Graphics/PNG/[W3C recommended] portable network graphics format is a
 good format for posting a section of a schematic (or a section of a PCB layout) to a web page, so people can see it immediately
 in a web browser without manually "downloading" or "installing" anything.
-      
+
 * `.adoc`: All those `.pdf` files and `.html` files are automatically generated from source files in link:http://en.wikipedia.org/wiki/AsciiDoc[AsciiDoc format].
 The link:http://github.com/KiCad/kicad-doc/blob/master/doc_alternatives/README.adoc["KiCad Documentation Status Report"]
 persuaded us to switch from `.odt` format to `.adoc` on 2015-02-09.
