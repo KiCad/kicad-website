@@ -21,7 +21,7 @@ At the end, we had a couple of merge requests and much progress from
 a motivated team of future contributors.
 
 .Learn To Code KiCad Participants, FOSDEM 2020
-image::ltck_fosdem20.jpg[LtCK,600]
+image::ltck_fosdem20.jpg[width=100%, LtCK]
 
 == Coming up Next
 
