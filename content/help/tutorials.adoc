@@ -27,7 +27,7 @@ Several text-based tutorials as well as video tutorials have been put together b
 - https://www.mikrocontroller.net/wikifiles/a/ab/HierarchicalSchematicsAsBuildingblocksAtKiCad_RevC-EN_06May2015.pdf[Hierarchical schematics as schematic buildingblocks] by Bernd Wiebus. (https://www.mikrocontroller.net/wikifiles/7/79/HierarchischeSchaltplaeneAlsBausteineInKicad_RevC_23Dec2013.pdf[Original in german])
 - https://www.mikrocontroller.net/wikifiles/6/64/Kicad-Wings3D_Leaflet_25April2013.pdf[Notes on using Wings3D] by Bernd Wiebus (https://www.mikrocontroller.net/wikifiles/0/02/Kicad-Wings3D_Merkzettel_29November2012.pdf[Original in german])
 - https://flyingcarsandstuff.com/2016/10/kicad-techniques-tips-and-work-arounds/[Kicad: Techniques, Tips and Work-arounds]
-- https://kicad.mmccoo.com/kicad-scripting-table-of-contents/[KiCad Scripting Examples]
+- https://kicad.mmccoo.com/[KiCad Scripting Examples]
 - http://kicadhowto.org/[KiCadHowTo.com from SheepdogGuides]
 - https://forum.kicad.info/t/faq-index-thread/8890[User Forum FAQ]
 
