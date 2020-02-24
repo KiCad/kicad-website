@@ -5,6 +5,9 @@ url = "/libraries/klc/history/"
 +++
 
 ---
+== 3.0.27 - 2020-02-24
+* Add rule for duplicate graphical elements in symbols (S3.9)
+
 == 3.0.26 - 2020-01-18
 * Clarify that contributions must be made with the current stable version (G1.8)
 
