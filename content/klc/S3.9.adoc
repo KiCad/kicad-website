@@ -2,5 +2,5 @@
 brief = "Elements on the graphic layer should not overlap"
 +++
 
-Symbols should not have overlapping or duplicate graphic elements. This includes lines, arcs, text and circles.
+Symbols must not have overlapping or duplicate graphic elements. This includes lines, arcs, text and circles.
 
