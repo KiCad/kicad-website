@@ -33,12 +33,17 @@ The KiCad libraries are hosted on https://github.com/kicad[GitHub] - users can s
 . link:https://help.github.com/articles/fetching-a-remote[**Clone**] your newly created fork to your local machine
 . Create a new link:https://help.github.com/articles/github-glossary/#branch[**branch**] in your local repository. This allows you to work on multiple contributions at the same time.
 .. Make sure the branch starts from the current HEAD of the master.
+.. Don't add unrelated changes into the same branch
 . Perform any necessary modifications to the library repository. Refer to the link:/libraries/klc[KLC] for contribution guidelines.
 . link:https://help.github.com/articles/github-glossary/#commit[**Commit**] your changes to the local repository, with a message describing the changes you have made. Complex changes may require multiple commits.
 . link:https://help.github.com/articles/github-glossary/#push[**Push**] your local changes to the GitHub remote.
-. Create a link:https://help.github.com/articles/using-pull-requests[**pull request**] (PR) to merge your branch into the KiCad libraries. Include links to reference documents (e.g. datasheets) in the comments, in addition to a description of the changes you have made.
+. Create a link:https://help.github.com/articles/using-pull-requests[**pull request**] (PR) to merge your branch into the KiCad libraries. Include links to reference documents (e.g. datasheets) in the comments, in addition to a description of the changes you have made. Follow the instructions given in the PR template.
 . A librarian will review the changes - discussion and further work may be required.
 . Should further changes be required then push to the same branch as connected to the pull request.
+.. Small, individual commits are prefered since they are easy to review.
+.. Please do not alter the history of that branch once a review has started (no force-push).
+.. However, if there is a conflict preventing your changes from being merged into master a rebase or merge is accepted.
+
 
 It is very helpful to the library team if you can include a description of your contribution and also a screenshot of your contributed file(s) (symbols / footprints / models).
 
@@ -60,6 +65,7 @@ EDA library elements can be highly repetitive, and can benefit greatly from scri
 === Footprint Creation Scripts
 
 link:https://github.com/pointhi/kicad-footprint-generator[kicad-footprint-generator] is a very comprehensive footprint generation tool written in Python. The script toolset contains comprehensive examples and a large array of scripts used to generate many footprints that can be found in the KiCad libraries.
+Scripted footprints are easier to review for the librarian team since only the parameters need a review. Please always check if there is a generator suitable for your contribution.
 
 === Parameteric 3D Model Generation
 
