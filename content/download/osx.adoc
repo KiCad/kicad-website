@@ -69,7 +69,13 @@ However, they may be useful for users in regions with poor connectivity to the o
 
 == Nightly Development Builds
 
-The _nightly_ builds are snapshots of the codebase at a specific time. They may contain more bugs than usual, although we try our best.  If you need to test features in active development, the nightly can be faster to download, and extras can be used to turn a nightly into a full install.
+The _nightly development_ builds are snapshots of the development (master branch) codebase at a specific time.
+This codebase is under active development, and while we try our best, may contain more bugs than usual.
+New features added to KiCad can be tested in these builds.
+
+WARNING: These builds may be unstable, and projects edited with these may not be usable with the current stable release. **Use at your own risk**
+
+If you need to test features in active development, the _kicad-nightly_ version can be faster to download, and _kicad-extras_ can be used to turn a _kicad-nightly_ install into a full install.
 
 - *kicad-nightly* does not contain the 3D models.  It contains the KiCad suite, documentation, schematic symbols, footprints, translations, templates, and demos.
 

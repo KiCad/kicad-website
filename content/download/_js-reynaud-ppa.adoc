@@ -115,12 +115,18 @@ sudo add-apt-repository -r ppa:js-reynaud/ppa-kicad
 Then perform the installation of the stable released as described above this section
 
 == Nightly Development Builds
-Nightly builds are provided in a separate installation directory. It is
-possible to install nightly builds at the same time as a stable version (5.0 for example).
+
+The _nightly development_ builds are snapshots of the development (master branch) codebase at a specific time.
+This codebase is under active development, and while we try our best, may contain more bugs than usual.
+New features added to KiCad can be tested in these builds.
+
+WARNING: These builds may be unstable, and projects edited with these may not be usable with the current stable release. **Use at your own risk**
+
+TIP: Nightly builds are provided in a separate installation directory. It is
+possible to install nightly builds at the same time as a stable version.
 
 Nightly development builds are available in
 https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-dev-nightly[js-reynaud's nightly PPA].
-These provide the latest, unreleased preview of KiCad.
 To install KiCad via the PPA, you can use the Ubuntu Software Manager:
 
 1. Open the Software Manager.
