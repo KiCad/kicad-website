@@ -101,6 +101,7 @@ on some of the older distributions listed below.
 |Ubuntu 18.10           |Unsupported, will most likely still function
 |Ubuntu 19.04           |Unsupported, will most likely still function
 |Ubuntu 19.10           |1-July-2020
+|Ubuntu 20.04 (LTS)     |approx May 2023
 |===
 
 Long Term Support (LTS) releases of Ubuntu will be supported for 1 year after the next
@@ -118,6 +119,7 @@ is under https://wiki.ubuntu.com/Releases[standard support] from Ubuntu.
 |Fedora 29              |Unsupported, will most likely still function
 |Fedora 30              |approx May 2020
 |Fedora 31              |approx November 2020
+|Fedora 32              |approx May 2021
 |===
 
 Fedora releases will be supported for as long as they are supported by the Fedora Project
