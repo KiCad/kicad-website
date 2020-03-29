@@ -10,9 +10,9 @@ weight = 95
 include::./content/download/_supported-note.adoc[]
 
 == Stable Release
-KiCad 5.1.4 is available in in the
+KiCad 5.1.5 is available in in the
 link:https://packages.sabayon.org/quicksearch?q=kicad[official
-sabayon packages]. 
+sabayon packages].
 
 You can install it via the package manager Rigo
 

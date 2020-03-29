@@ -10,6 +10,8 @@ weight = 20
 
 {{< repology fedora_rawhide >}}
 
+{{< repology fedora_32 >}}
+
 {{< repology fedora_31 >}}
 
 {{< repology fedora_30 >}}
@@ -36,12 +38,19 @@ be installed with:
 [source,bash]
 dnf install kicad-packages3d
 
+
 == Nightly Development Builds
 
-Nightly development builds for Fedora are available via the
-link:https://copr.fedorainfracloud.org/coprs/g/kicad/kicad/[copr build service].
+The _nightly development_ builds are snapshots of the development (master branch) codebase at a specific time.
+This codebase is under active development, and while we try our best, may contain more bugs than usual.
+New features added to KiCad can be tested in these builds.
 
-This build can be installed on Fedora with:
+WARNING: These builds may be unstable, and projects edited with these may not be usable with the current stable release. **Use at your own risk**
+
+IMPORTANT: Stable and nightly builds cannot be installed on the same Fedora system.
+
+Nightly development builds for Fedora are available via the
+link:https://copr.fedorainfracloud.org/coprs/g/kicad/kicad/[copr build service], and can be installed on Fedora with:
 
 [source,bash]
 dnf copr enable @kicad/kicad

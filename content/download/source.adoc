@@ -38,9 +38,9 @@ Tarballs intended to be used by packagers:
 * link:https://github.com/KiCad/kicad-templates/releases/tag/5.1.5[templates]
 
 As a packager, please work to enable all the build options, that is
-all the scripting options, OCE or OCC and ngspice. With recent
+all the scripting options, OCC (prefered) or OCE, and ngspice. With recent
 versions of ngspice and wxPython Phoenix this should be easily
-possible on recenty distributions
+possible on recent distributions
 
 Due to API instability in the Boost.Context library, KiCad 5 ships with
 a replacement implementation, which is partially written in assembler
