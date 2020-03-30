@@ -322,7 +322,9 @@ table p {
 
 /* Additional styling for library related tables */
 
-.library table, th, td {
+.library table, 
+.library th, 
+.library td {
   border: 1px solid #aaa;
   padding-left: 10px;
   padding-right: 10px;
@@ -363,6 +365,7 @@ table p {
 
 .admonitionblock {
     color: rgba(0,0,0,.6);
+    padding: 20px;
 }
 
 /* asciidoctor styling output styling */
@@ -411,9 +414,18 @@ table p {
     border-left: 1px solid #ddddd8;
 }
 
-.admonitionblock.warning {
+.admonitionblock.warning,
+.admonitionblock.caution,
+.admonitionblock.important {
     color:#8a6d3b;
     background-color:#fcf8e3;
+    border-color:#faebcc
+}
+
+.admonitionblock.tip,
+.admonitionblock.note {
+    color:#31708f;
+    background-color:#d9edf7;
     border-color:#faebcc
 }
 
