@@ -364,6 +364,7 @@ table p {
 }
 
 .admonitionblock {
+    margin-top: 10px;
     color: rgba(0,0,0,.6);
     padding: 20px;
 }
