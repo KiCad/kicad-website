@@ -415,7 +415,13 @@ table p {
     border-left: 1px solid #ddddd8;
 }
 
-.admonitionblock.warning,
+
+.admonitionblock.warning {
+    color:#8a6d3b;
+    background-color:#ffd3d3;
+    border-color:#faebcc
+}
+
 .admonitionblock.caution,
 .admonitionblock.important {
     color:#8a6d3b;
