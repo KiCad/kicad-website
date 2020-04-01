@@ -467,7 +467,7 @@ nav.secondary a {
 }
 #toc ul ul {
     font-size: 13px;
-    list-style-type: lower-roman;
+    list-style-type: lower-alpha;
 }
 #toc ul ul ul {
     list-style-type: none;
