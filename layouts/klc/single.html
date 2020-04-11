@@ -14,12 +14,16 @@
 
 </style>
 
+{{- $rulename := "??.??" -}}
+{{ with .File }}
+{{- $rulename = (replace .LogicalName ".adoc" "") -}}
+{{ end }}
+
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 {{ if .Scratch.Get "sidemenu" }}col-md-10 col-sm-9{{ else }}col-sm-12{{ end }} post-full">
       {{ partial "breadcrumb.html" . }}
       <header>
-      {{- $rulename := (replace .File.LogicalName ".adoc" "") -}}
       <h2>KLC {{ $rulename }}</h2>
       {{ .Params.brief }}
       <hr>

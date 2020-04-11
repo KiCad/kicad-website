@@ -3,20 +3,24 @@
 {{- $f := strings.TrimSuffix "." $filter -}}
 <hr><h3 id="{{ lower $f }}">{{ $f }} - {{ $title }}</h3>
 {{ range $rule := where .Site.Pages "Section" "klc" -}}
-    {{- $filename := $rule.File.LogicalName -}}
-    {{- if and (hasPrefix $filename $filter) (in $filename ".adoc") -}}
-        {{- $rulename := strings.TrimSuffix ".adoc" $filename -}}
-        {{- $rulenum := index (last 1 (split $rulename ".")) 0 -}}
-        {{- $rulenumstring := printf "%04d" (int $rulenum) -}}
-        {{- $.Scratch.SetInMap "rules" $rulenumstring $rule -}}
+    {{ with $rule.File }}
+        {{- $filename := .LogicalName -}}
+        {{- if and (hasPrefix $filename $filter) (in $filename ".adoc") -}}
+            {{- $rulename := strings.TrimSuffix ".adoc" $filename -}}
+            {{- $rulenum := index (last 1 (split $rulename ".")) 0 -}}
+            {{- $rulenumstring := printf "%04d" (int $rulenum) -}}
+            {{- $.Scratch.SetInMap "rules" $rulenumstring $rule -}}
+        {{- end -}}
     {{- end -}}
 {{- end -}}
 {{- range $rule := $.Scratch.GetSortedMapValues "rules" -}}
-    {{- $rulename := strings.TrimSuffix ".adoc" $rule.File.LogicalName -}}
+    {{ with $rule.File }}
+    {{- $rulename := strings.TrimSuffix ".adoc" .LogicalName -}}
     <p>
-    <h4><a id="{{ $rulename }}" href="/libraries/klc/{{ $rulename }}/">{{- $rulename }} - {{ $rule.Params.brief -}}</a></h4>
-    <div class="klcRule">
-    {{ $rule.Content }}
-    </div>
-    </p>
+        <h4><a id="{{ $rulename }}" href="/libraries/klc/{{ $rulename }}/">{{- $rulename }} - {{ $rule.Params.brief -}}</a></h4>
+        <div class="klcRule">
+        {{ $rule.Content }}
+        </div>
+        </p>
+    {{ end }}
 {{- end -}}
