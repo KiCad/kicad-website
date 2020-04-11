@@ -15,8 +15,8 @@ env:
 before_install:
   - gem install asciidoctor
   - gem install html-proofer -v 3.13.0
-  - wget https://github.com/gohugoio/hugo/releases/download/v0.30.2/hugo_0.30.2_Linux-64bit.tar.gz
-  - tar -xzvf hugo_0.30.2_Linux-64bit.tar.gz
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.69.0/hugo_0.69.0_Linux-64bit.tar.gz
+  - tar -xzvf hugo_0.69.0_Linux-64bit.tar.gz
 
 # Build the website
 script:
