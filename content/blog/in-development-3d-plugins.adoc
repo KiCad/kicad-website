@@ -10,7 +10,7 @@ categories = [
 ]
 +++
 
-:icons: fonts
+:icons: 
 :iconsdir: /img/icons/
 
 Seasoned KiCad users are familiar with the venerable 3DViewer tool

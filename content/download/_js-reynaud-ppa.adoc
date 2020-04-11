@@ -1,4 +1,4 @@
-:icons: fonts
+:icons: 
 :iconsdir: /img/icons/
 
 == 5.1.5 Stable Release

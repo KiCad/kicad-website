@@ -3,7 +3,7 @@ title = "Linux Mint"
 iconhtml = "<div class='fl-linuxmint'></div>"
 weight = 21
 +++
-:icons: fonts
+:icons: 
 :iconsdir: /img/icons/
 :dist: Linux Mint
 

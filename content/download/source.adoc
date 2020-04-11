@@ -3,7 +3,7 @@ title = "Source Code"
 iconhtml = "<div><i class='fa fa-code'></i></div>"
 weight = 100
 +++
-:icons: fonts
+:icons: 
 :iconsdir: /img/icons/
 
 

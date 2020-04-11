@@ -3,7 +3,7 @@ title = "Debian"
 iconhtml = "<div class='fl-debian'></div>"
 weight = 10
 +++
-:icons: fonts
+:icons: 
 :iconsdir: /img/icons/
 
 == Basic Information

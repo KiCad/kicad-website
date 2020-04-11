@@ -3,7 +3,7 @@ title = "Fedora"
 iconhtml = "<div class='fl-fedora'></div>"
 weight = 20
 +++
-:icons: fonts
+:icons: 
 :iconsdir: /img/icons/
 
 == Stable Release

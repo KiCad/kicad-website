@@ -7,7 +7,7 @@ aliases = [
 ]
 +++
 
-:icons: fonts
+:icons: 
 :iconsdir: /img/icons/
 
 The KiCad project recently merged the symbol library table code for

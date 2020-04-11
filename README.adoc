@@ -42,3 +42,12 @@ Please read the link:CONTRIBUTING.adoc[CONTRIBUTING Guidelines]
 
 == Docker
 A dockerfile is included that builds and packages the website with an nginx instance
+
+== Hints
+=== Admonition icons
+For icons to appear in admonition blocks, you must add 
+```
+:icons: 
+:iconsdir: /img/icons/
+```
+at the top of the asciidoc file but below the hugo template header.

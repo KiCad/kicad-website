@@ -3,7 +3,7 @@ title = "Flatpak"
 iconhtml = "<div class='fl-flathub'></div>"
 weight = 30
 +++
-:icons: fonts
+:icons: 
 :iconsdir: /img/icons/
 :dist: Flatpak
 

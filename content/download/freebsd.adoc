@@ -3,7 +3,7 @@ title = "FreeBSD"
 iconhtml = "<div class='fl-freebsd'></div>"
 weight = 96
 +++
-:icons: fonts
+:icons: 
 :iconsdir: /img/icons/
 :dist: FreeBSD
 

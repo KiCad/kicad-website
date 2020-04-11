@@ -10,7 +10,7 @@ categories = [
 ]
 +++
 
-:icons: fonts
+:icons: 
 :iconsdir: /img/icons/
 
 For those of you who did not have the good fortune of being able to attend

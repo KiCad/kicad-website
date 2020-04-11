@@ -10,7 +10,7 @@ categories = [
 ]
 +++
 
-:icons: fonts
+:icons: 
 :iconsdir: /img/icons/
 
 The KiCad project is proud to announce the latest series 5 stable

@@ -6,7 +6,7 @@ title = "Getting Started"
 weight = 1
 +++
 
-:icons: fonts
+:icons: 
 :iconsdir: /img/icons/
 
 A full link:/help/documentation/#_getting_started[Getting Started guide] is included in the KiCad documentation, in multiple languages.

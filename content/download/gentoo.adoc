@@ -3,7 +3,7 @@ title = "Gentoo"
 iconhtml = "<div class='fl-gentoo'></div>"
 weight = 95
 +++
-:icons: fonts
+:icons: 
 :iconsdir: /img/icons/
 :dist: Gentoo
 

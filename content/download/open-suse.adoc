@@ -3,7 +3,7 @@ title = "openSUSE"
 iconhtml = "<div class='fl-opensuse'></div>"
 weight = 20
 +++
-:icons: fonts
+:icons: 
 :iconsdir: /img/icons/
 :dist: openSUSE
 
