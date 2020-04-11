@@ -2,8 +2,9 @@ FROM alpine:3.8 as build-env
 
 WORKDIR /site
 
-#build
-ENV HUGO_VERSION=0.56.3
+#build env
+ENV ASCIIDOCTOR_VERSION=1.5.7.1
+ENV HUGO_VERSION=0.69.0
 ENV HUGO_DOWNLOAD_URL=https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
 
 RUN apk add --update --no-cache --virtual build-dependencies
@@ -26,7 +27,7 @@ RUN apk add --update --no-cache \
 
 # install gems
 RUN gem install \
-		asciidoctor:1.5.7.1 \
+		asciidoctor:${ASCIIDOCTOR_VERSION} \
 		html-proofer \
 		nokogiri \
 	--no-document && \

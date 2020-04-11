@@ -15,7 +15,7 @@ version 3 or later, or the Creative Commons Attribution License
 == Prerequisites
 You will need these packages:
 
-- http://gohugo.io/[hugo] version 0.56.3 (you must use this version!)
+- http://gohugo.io/[hugo] version 0.69.0 (you must use this version!)
 - https://www.ruby-lang.org[ruby] (to use asciidoctor)
 - http://asciidoctor.org/[asciidoctor] version 1.5.7.1
 
