@@ -59,8 +59,7 @@
 
 <body>
     <!-- Navigation -->
-    <!--- next version of hugo adds .IsHome the if statement can be simplified after 0.15 is released -->
-    <nav class="navbar navbar-default navbar-custom navbar-fixed-top {{ if eq .URL "/" }}transparent{{ end }}">
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top {{ if .IsHome }}transparent{{ end }}">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -79,9 +78,7 @@
         </div>
         <!-- /.container -->
     </nav>
-<!--- next version of hugo adds .IsHome the if statement can be simplified after 0.15 is released -->
-{{ if .IsHome }}
-{{else}}
+{{ if not .IsHome }}
     <header class="intro-header page-header-decor">
     </header>
 {{end}}
