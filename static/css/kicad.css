@@ -545,3 +545,16 @@ a.plain-link {
 .imageblock img {
     max-width: 100%;
 }
+
+/* Fix modal causing page shifts, may affect mobile experience but condition dependent (should be fine for us) */
+.modal {
+    overflow-y: auto;
+}
+
+.modal-open {
+    overflow: auto;
+}
+
+.modal-open[style] {
+    padding-right: 0px !important;
+}
