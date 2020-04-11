@@ -17,7 +17,7 @@ You will need these packages:
 
 - http://gohugo.io/[hugo] version 0.69.0 (you must use this version!)
 - https://www.ruby-lang.org[ruby] (to use asciidoctor)
-- http://asciidoctor.org/[asciidoctor] version 1.5.7.1
+- http://asciidoctor.org/[asciidoctor] version 2.0.10
 
 Using asciidoctor is a requirement, because the original asciidoc
 runs into trouble parsing the adoc files with TOML headers in them.
