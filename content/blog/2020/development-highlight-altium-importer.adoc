@@ -1,0 +1,26 @@
++++
+title = "Development Highlight: Altium Pcb Importer"
+date = "2020-04-26"
+draft = false
++++
+
+:icons: 
+:iconsdir: /img/icons/
+
+As a preview of a feature coming in the next major release, the ability to import Altium PcbDoc files is now
+available in the latest nightly builds. This was thanks to the work of https://gitlab.com/pointhi[Thomas Pointhuber
+] in https://gitlab.com/kicad/code/kicad/-/merge_requests/60[MR#60]
+
+The board import option can be found under the File > Import Non-Kicad Board File option and changing the file type filter
+
+image::/img/blog/2020/import-non-kicad.png[align=center, width=30%, alt="Import non kicad option in menu shown", link=/img/blog/2020/import-non-kicad.png]
+
+image::/img/blog/2020/import-non-kicad-filter.png[align=center, width=80%, alt="Altium PcbDoc selector shown in file open explorer", link=/img/blog/2020/import-non-kicad-filter.png]
+
+After selecting your PcbDoc file and a short delay. Pcbnew will display it's best attempt at a import and provide warnings if it had any difficulties importing the file.
+
+image::/img/blog/2020/import-non-kicad-pcbdoc-complete.png[align=center, width=80%, alt="Altium PcbDoc selector shown in file open explorer", link=/img/blog/2020/import-non-kicad-pcbdoc-complete.png]
+
+If you want to give the board import a spin, simply download the latest KiCad nightly and take it for a spin. Feel free to link:help/report-an-issue/[report any issues].   
+
+NOTE: Both this feature and nightly builds are in development, please only use them for testing and experimentation
