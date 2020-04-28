@@ -3,7 +3,7 @@ title = "Windows"
 iconhtml = "<div><i class='fab fa-windows'></i></div>"
 weight = 2
 +++
-:icons: 
+:icons:
 :iconsdir: /img/icons/
 
 KiCad is supported for 8.1 and 10.  See
@@ -94,7 +94,7 @@ These contain the most recent bugfixes that will be included in the next stable 
 https://kicad-downloads.s3.cern.ch/index.html?prefix=windows/testing/5.1/
 
 
-== Nightly Develpment Builds
+== Nightly Development Builds
 
 The _nightly development_ builds are snapshots of the development (master branch) codebase at a specific time.
 This codebase is under active development, and while we try our best, may contain more bugs than usual.
