@@ -11,9 +11,9 @@ As a preview of a feature coming in the next major release, the ability to impor
 available in the latest nightly builds. This was thanks to the work of https://gitlab.com/pointhi[Thomas Pointhuber
 ] in https://gitlab.com/kicad/code/kicad/-/merge_requests/60[MR#60]
 
-The board import option can be found under the File > Import Non-Kicad Board File option and changing the file type filter
+The board import option can be found under the *_File > Import > Non-Kicad Board File_* option and changing the file type filter
 
-image::/img/blog/2020/import-non-kicad.png[align=center, width=30%, alt="Import non kicad option in menu shown", link=/img/blog/2020/import-non-kicad.png]
+image::/img/blog/2020/import-non-kicad.png[align=center, width=80%, alt="Import non kicad option in menu shown", link=/img/blog/2020/import-non-kicad.png]
 
 image::/img/blog/2020/import-non-kicad-filter.png[align=center, width=80%, alt="Altium PcbDoc selector shown in file open explorer", link=/img/blog/2020/import-non-kicad-filter.png]
 
