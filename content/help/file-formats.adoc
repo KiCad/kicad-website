@@ -22,7 +22,9 @@ link:https://bazaar.launchpad.net/~stambaughw/kicad/doc-read-only/view/head:/doc
 
 ** `-save.pro`: ... backup of the project file.
 
-* `.sch`: schematic file.
+* `.sch`: legacy schematic file.
+
+* `.kicad_sch`: the new schematic layout file.
 
 * `.lib`: schematic symbols library file.
 
