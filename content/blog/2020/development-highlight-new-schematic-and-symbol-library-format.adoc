@@ -1,0 +1,77 @@
++++
+title = "Development Highlight: New schematic and symbol library file formats are now the default"
+date = "2020-05-05"
+draft = false
++++
+
+:icons:
+:iconsdir: /img/icons/
+
+
+The new s-expression schematic and symbol library file formats are now
+the default and should be available as soon as the nightly builds are
+complete. All new schematics and symbol libraries will be created
+using the new file formats. All existing schematics will be converted
+to the new file format on the first load and all subsequent changes
+will be made to the new file format. The old schematic files remain
+unchanged and no further edits will be made made. It is still a good
+idea to make a backup of all existing schematic files just in case
+something goes wrong.
+
+There are a few things to be aware of when switching between the 5.1
+and development branches:
+
+Please allow all library symbol rescuing and remapping to complete to
+ensure that the library symbols will be saved to the schematic files.
+If either of these steps are aborted, saving the schematic will
+certainly result in broken symbol links which will require manual
+intervention to resolve.
+
+The symbol library cache is no longer required for the new file
+format. Converting back to the legacy file format may result in broken
+symbol links so avoid converting between formats. Schematics are now
+fully portable without the cache library.
+
+Version control software users must add the new schematic files
+(*.kicad_sch) to ensure change control is maintained.
+
+In the short term, the ability to save schematics and symbol libraries
+to the old file format will be maintained for testing purposes. Once
+new schematic and/or symbol library features are added, saving to the
+old file format will be deprecated to prevent data loss between format
+conversions.
+
+The new schematic file format fixes a long standing bug when sharing
+schematic files between projects. Prior to the new file format,
+sharing files between projects in a simple hierarchical design
+required the symbol annotation to be maintained in the shared file(s).
+This limitation has been removed and the annotation can be changed in
+the shared file because annotations for the entire project are saved
+in the root schematic file. Root schematics can also be shared by
+other projects as well because annotations in hierarchical sheet
+schematic files are ignored and are not changed by the project.
+
+Sheet and symbol time stamps are converted to UUIDs which changes the
+sheet paths of the schematic. You must update the board from the
+schematic using references before making any changes to the schematic
+to ensure the symbol links are updated correctly. If you do not have a
+fully annotated board, it is highly recommend that you update with an
+older nightly build to ensure the symbol links do not get corrupted
+before converting to the new format.
+
+If you want to give the board import a spin, simply download the
+latest KiCad nightly. Feel free to link:/help/report-an-issue/[report
+any issues] you may find.
+
+Thank you for your patience as we work through any issues with the new
+file formats. Once the existing feature set is stable, expect to see
+new schematic and symbol library features added fairly quickly.
+
+If you want to join in on a discussion on this feature, you may find a
+forum thread with the developer
+https://forum.kicad.info/t/kicad-nightly-v5-99-new-schematic-and-symbol-library-file-formats-are-now-the-default/22655[here]
+
+NOTE: Both this feature and nightly builds are in development, please
+only use them for testing and experimentation
+
+**KiCad Development Team**
