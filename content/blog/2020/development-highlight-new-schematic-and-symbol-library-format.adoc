@@ -7,41 +7,90 @@ draft = false
 :icons:
 :iconsdir: /img/icons/
 
+Since KiCad 4.0, work has been progressing to overhaul all the various project 
+file formats that among many benefits, make them far more human friendly, easier to parse and allow easier addition of new features.
 
-The new s-expression schematic and symbol library file formats are now
-the default and should be available as soon as the nightly builds are
-complete. All new schematics and symbol libraries will be created
+For example, the schematic file format used to look like this
+```
+EESchema Schematic File Version 5
+EELAYER 33 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 8
+Title "Video"
+Date "Sun 22 Mar 2015"
+Rev "2.0B"
+Comp "Kicad EDA"
+Comment1 ""
+$EndDescr
+Connection ~ 2500 1800
+NoConn ~ 2600 3000
+Wire Wire Line
+	950  3200 950  3450
+Text Label 1250 2200 0    60   ~ 0
+ADR[2..6]
+```
+
+As part of the transition and eventually the future KiCad 6.0, schematic and symbol library finally 
+have been transitioned to new file formats and made the default formats.
+
+The schematic file format now looks like this:
+```
+(kicad_sch (version 20200310) (host eeschema "(5.99.0-1467-g4b4952b09)")
+
+  (page "A3")
+
+  (title_block
+    (title "Video")
+    (date "Sun 22 Mar 2015")
+    (rev "2.0B")
+    (company "Kicad EDA")
+    (comment 1 "Main sheet")
+  )
+
+  (junction (at 375.92 107.95))
+
+  (wire (pts (xy 31.75 49.53) (xy 49.53 49.53)))
+  
+  (label "ADR[2..6]" (at 31.75 55.88 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+  )
+)
+```
+
+All new schematics and symbol libraries will be created
 using the new file formats. All existing schematics will be converted
 to the new file format on the first load and all subsequent changes
 will be made to the new file format. The old schematic files remain
-unchanged and no further edits will be made made. It is still a good
+unchanged and no further changes will be made. It is still a good
 idea to make a backup of all existing schematic files just in case
 something goes wrong.
 
 There are a few things to be aware of when switching between the 5.1
 and development branches:
 
-Please allow all library symbol rescuing and remapping to complete to
+* Please allow all library symbol rescuing and remapping to complete to
 ensure that the library symbols will be saved to the schematic files.
 If either of these steps are aborted, saving the schematic will
 certainly result in broken symbol links which will require manual
 intervention to resolve.
 
-The symbol library cache is no longer required for the new file
+* The symbol library cache is no longer required for the new file
 format. Converting back to the legacy file format may result in broken
 symbol links so avoid converting between formats. Schematics are now
 fully portable without the cache library.
 
-Version control software users must add the new schematic files
+* Version control software users must add the new schematic files
 (*.kicad_sch) to ensure change control is maintained.
 
-In the short term, the ability to save schematics and symbol libraries
+* In the short term, the ability to save schematics and symbol libraries
 to the old file format will be maintained for testing purposes. Once
 new schematic and/or symbol library features are added, saving to the
 old file format will be deprecated to prevent data loss between format
 conversions.
 
-The new schematic file format fixes a long standing bug when sharing
+* The new schematic file format fixes a long standing bug when sharing
 schematic files between projects. Prior to the new file format,
 sharing files between projects in a simple hierarchical design
 required the symbol annotation to be maintained in the shared file(s).
@@ -51,7 +100,7 @@ in the root schematic file. Root schematics can also be shared by
 other projects as well because annotations in hierarchical sheet
 schematic files are ignored and are not changed by the project.
 
-Sheet and symbol time stamps are converted to UUIDs which changes the
+* Sheet and symbol time stamps are converted to UUIDs which changes the
 sheet paths of the schematic. You must update the board from the
 schematic using references before making any changes to the schematic
 to ensure the symbol links are updated correctly. If you do not have a
@@ -66,6 +115,10 @@ any issues] you may find.
 Thank you for your patience as we work through any issues with the new
 file formats. Once the existing feature set is stable, expect to see
 new schematic and symbol library features added fairly quickly.
+
+Documentation on the link:https://docs.google.com/document/d/1AiPZvWT_QBPyVQSyn3ISl6jVntjrrtATEYxzBFJM1HU/edit[schematic file format] 
+and link:https://docs.google.com/document/d/1lyL_8FWZRouMkwqLiIt84rd2Htg4v1vz8_2MzRKHRkc/edit[symbol library format] are available 
+but have not yet been absorbed into the codebase's documentation.
 
 If you want to join in on a discussion on this feature, you may find a
 forum thread with the developer
