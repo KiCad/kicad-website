@@ -7,7 +7,7 @@ draft = false
 :icons:
 :iconsdir: /img/icons/
 
-Since KiCad 4.0, work has been progressing to overhaul all the various project 
+Since KiCad 4.0, work has been progressing to overhaul all the various project
 file formats that among many benefits, make them far more human friendly, easier to parse and allow easier addition of new features.
 
 For example, the schematic file format used to look like this
@@ -32,7 +32,7 @@ Text Label 1250 2200 0    60   ~ 0
 ADR[2..6]
 ```
 
-As part of the transition and eventually the future KiCad 6.0, schematic and symbol library finally 
+As part of the transition and eventually the future KiCad 6.0, schematic and symbol library finally
 have been transitioned to new file formats and made the default formats.
 
 The schematic file format now looks like this:
@@ -52,7 +52,7 @@ The schematic file format now looks like this:
   (junction (at 375.92 107.95))
 
   (wire (pts (xy 31.75 49.53) (xy 49.53 49.53)))
-  
+
   (label "ADR[2..6]" (at 31.75 55.88 0)
       (effects (font (size 1.524 1.524)) (justify left bottom))
   )
@@ -100,14 +100,6 @@ in the root schematic file. Root schematics can also be shared by
 other projects as well because annotations in hierarchical sheet
 schematic files are ignored and are not changed by the project.
 
-* Sheet and symbol time stamps are converted to UUIDs which changes the
-sheet paths of the schematic. You must update the board from the
-schematic using references before making any changes to the schematic
-to ensure the symbol links are updated correctly. If you do not have a
-fully annotated board, it is highly recommend that you update with an
-older nightly build to ensure the symbol links do not get corrupted
-before converting to the new format.
-
 If you want to give the board import a spin, simply download the
 latest KiCad nightly. Feel free to link:/help/report-an-issue/[report
 any issues] you may find.
@@ -116,9 +108,9 @@ Thank you for your patience as we work through any issues with the new
 file formats. Once the existing feature set is stable, expect to see
 new schematic and symbol library features added fairly quickly.
 
-Documentation on the link:https://docs.google.com/document/d/1AiPZvWT_QBPyVQSyn3ISl6jVntjrrtATEYxzBFJM1HU/edit[schematic file format] 
-and link:https://docs.google.com/document/d/1lyL_8FWZRouMkwqLiIt84rd2Htg4v1vz8_2MzRKHRkc/edit[symbol library format] are available 
-but have not yet been absorbed into the codebase's documentation.
+Documentation on the link:https://docs.google.com/document/d/1AiPZvWT_QBPyVQSyn3ISl6jVntjrrtATEYxzBFJM1HU/edit[schematic file format]
+and link:https://docs.google.com/document/d/1lyL_8FWZRouMkwqLiIt84rd2Htg4v1vz8_2MzRKHRkc/edit[symbol library format] are available
+but have not yet been absorbed into the code base's documentation.
 
 If you want to join in on a discussion on this feature, you may find a
 forum thread with the developer
