@@ -4,7 +4,8 @@ date = "2015-12-12"
 aliases = [
     "/post/release-4.0.1/"
 ]
-categories = [
+
+"blog/categories" = [
     "Release Notes"
 ]
 +++

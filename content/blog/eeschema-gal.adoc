@@ -5,6 +5,9 @@ draft = false
 aliases = [
     "/post/eeschema-gal/"
 ]
+"blog/categories" = [
+    "Development Highlight"
+]
 +++
 
 The KiCad project recently merged the Eeschema modern canvas code into

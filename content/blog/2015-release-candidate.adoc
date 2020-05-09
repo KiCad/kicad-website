@@ -4,6 +4,9 @@ date = "2015-09-13"
 aliases = [
     "/post/2015-release-candidate/"
 ]
+"blog/categories" = [
+    "Status Update"
+]
 +++
 
 We are pleased to announce that

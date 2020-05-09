@@ -5,7 +5,7 @@ draft = false
 aliases = [
     "/post/kicon-wrap-up/"
 ]
-categories = [
+"blog/categories" = [
     "News"
 ]
 +++

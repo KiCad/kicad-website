@@ -7,8 +7,12 @@ pluralizelisttitles = false
 disablePathToLower = true
 
 [outputs]
-  home     = ["HTML"]
-  section  = ["HTML", "RSS"]
+    home     = ["HTML"]
+    section  = ["HTML", "RSS"]
+
+[taxonomies]
+    category = "categories"
+    blog_categories = "blog/categories"
 
 [params]
     DateForm = "2006-01-02"

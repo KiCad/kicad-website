@@ -4,6 +4,9 @@ date = "2015-03-30"
 aliases = [
     "/post/first-feature-freeze/"
 ]
+"blog/categories" = [
+    "News"
+]
 +++
 
 It is time. Wayne, the current project leader, has now called the

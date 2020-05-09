@@ -5,6 +5,9 @@ draft = false
 aliases = [
     "/post/lead-developer-announcement/"
 ]
+"blog/categories" = [
+    "News"
+]
 +++
 
 I don't normally post blog announcements in the first person but I'm going to make an

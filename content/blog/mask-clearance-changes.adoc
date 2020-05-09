@@ -5,7 +5,7 @@ draft = false
 aliases = [
     "/post/mask-clearance-changes/"
 ]
-categories = [
+"blog/categories" = [
     "Upcoming Changes"
 ]
 +++

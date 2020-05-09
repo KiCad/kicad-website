@@ -5,6 +5,9 @@ draft = false
 aliases = [
     "/post/kicad-joins-lf-announcement/"
 ]
+"blog/categories" = [
+    "News"
+]
 +++
 
 The KiCad project is excited to announce that the project has joined the

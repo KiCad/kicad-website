@@ -5,6 +5,9 @@ draft = false
 aliases = [
     "/post/kicon-announcement/"
 ]
+"blog/categories" = [
+    "Announcement"
+]
 +++
 
 The KiCad project is excited to announce the first ever KiCad Conference

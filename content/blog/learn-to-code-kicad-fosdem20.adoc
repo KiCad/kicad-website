@@ -5,6 +5,9 @@ draft = false
 aliases = [
     "/post/ltck-fosdem20/"
 ]
+"blog/categories" = [
+    "Events"
+]
 +++
 :imagesdir: /img/post/
 

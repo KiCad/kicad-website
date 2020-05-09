@@ -4,7 +4,7 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 {{ if .Scratch.Get "sidemenu" }}col-md-10 col-sm-9{{ else }}col-sm-12{{ end }}">
+		<div class="col-md-9 post-full">
 			{{ partial "breadcrumb.html" . }}
 
 			{{ range .Paginator.Pages }}
@@ -15,6 +15,9 @@
 			<p class="post-preview-intro" style="text-align: center">
 				For even fresher news, look at the <a href="https://lists.launchpad.net/kicad-developers/">kicad-developers mailing-list</a>.
 			</p>
+		</div>
+		<div class="col-md-3">
+			{{ partial "blog_categories.html" . }}
 		</div>
 	</div>
 

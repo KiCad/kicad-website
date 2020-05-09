@@ -5,6 +5,9 @@ draft = false
 aliases = [
     "/post/symbol-lib-table/"
 ]
+"blog/categories" = [
+    "Development Highlight"
+]
 +++
 
 :icons: 

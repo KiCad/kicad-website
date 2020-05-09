@@ -5,7 +5,7 @@ draft = false
 aliases = [
     "/post/kicad-hackathon-july-2016-at-cern/"
 ]
-categories = [
+"blog/categories" = [
     "Events"
 ]
 +++

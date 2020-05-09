@@ -4,7 +4,7 @@ date = "2019-04-30"
 aliases = [
     "/post/project-leader-announement/"
 ]
-categories = [
+"blog/categories" = [
     "News"
 ]
 +++

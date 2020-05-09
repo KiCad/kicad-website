@@ -5,6 +5,9 @@ draft = false
 aliases = [
     "/post/git-announcement/"
 ]
+"blog/categories" = [
+    "Project Announcement"
+]
 +++
 
 The moment all of you https://git-scm.com/[Git] fans have been waiting for

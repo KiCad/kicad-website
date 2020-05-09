@@ -5,6 +5,9 @@ draft = false
 aliases = [
     "/post/eagle-import/"
 ]
+"blog/categories" = [
+    "Development Highlight"
+]
 +++
 
 The KiCad project is proud to announce the support for importing Eagle

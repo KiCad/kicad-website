@@ -5,6 +5,9 @@ draft = false
 aliases = [
     "/post/kicad-official-libraries/"
 ]
+"blog/categories" = [
+    "News"
+]
 +++
 
 The KiCad project is proud to announce that the official KiCad libraries

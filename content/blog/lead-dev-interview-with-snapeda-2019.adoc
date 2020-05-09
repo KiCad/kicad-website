@@ -5,6 +5,9 @@ draft = false
 aliases = [
     "/post/lead-developer-snapeda-interview/"
 ]
+"blog/categories" = [
+    "Media"
+]
 +++
 
 The KiCad Project Leader was recently

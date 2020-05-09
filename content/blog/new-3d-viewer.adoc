@@ -5,8 +5,8 @@ draft = false
 aliases = [
     "/post/new-3d-viewer/"
 ]
-categories = [
-    "New Features"
+"blog/categories" = [
+    "Development Highlight"
 ]
 +++
 

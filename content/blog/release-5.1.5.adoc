@@ -5,7 +5,8 @@ draft = false
 aliases = [
     "/post/release-5.1.5/"
 ]
-categories = [
+
+"blog/categories" = [
     "Release Notes"
 ]
 +++

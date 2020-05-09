@@ -5,6 +5,9 @@ aliases = [
     "/post/gerber-x2-support/"
 ]
 +++
+"blog/categories" = [
+    "Upcoming Changes"
+]
 
 The KiCad project is pleased to announce that it is the first electronic development
 application to fully support the Gerber X2 extensions.  See the

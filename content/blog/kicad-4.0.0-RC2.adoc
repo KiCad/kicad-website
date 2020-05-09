@@ -4,7 +4,7 @@ date = "2015-11-09"
 aliases = [
     "/post/kicad-4.0.0-RC2/"
 ]
-categories = [
+"blog/categories" = [
     "Release Notes"
 ]
 +++

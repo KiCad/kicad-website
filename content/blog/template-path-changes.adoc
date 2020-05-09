@@ -5,7 +5,7 @@ draft = false
 aliases = [
     "/post/template-path-changes/"
 ]
-categories = [
+"blog/categories" = [
     "Upcoming Changes"
 ]
 +++

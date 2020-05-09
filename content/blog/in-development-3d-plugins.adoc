@@ -5,8 +5,8 @@ draft = false
 aliases = [
     "/post/in-development-3d-plugins/"
 ]
-categories = [
-    "New Features"
+"blog/categories" = [
+    "Development Highlight"
 ]
 +++
 

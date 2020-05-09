@@ -9,16 +9,17 @@
         <h1>{{ title .Title }}</h1>
         <div class="post-meta">{{ dateFormat .Site.Params.DateForm .Date }}</div>
       </header>
-
       <article>
         {{ .Content }}
         <p>
           <a href="/blog/"><span class="fa fa-arrow-left"></span> Back</a>
         </p>
       </article>
+      
     </div>
     <div class="col-md-3">
         {{ partial "latest_blog_posts.html" . }}
+        {{ partial "blog_categories.html" . }}
     </div>
   </div>
 </div>
