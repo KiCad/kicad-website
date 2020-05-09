@@ -6,7 +6,7 @@ aliases = [
     "/post/kicon-announcement/"
 ]
 "blog/categories" = [
-    "Announcement"
+    "News"
 ]
 +++
 
