@@ -1,5 +1,5 @@
 +++
-title = "KiCad 5.1.5 Release"
+title = "KiCad 5.1.6 Release"
 date = "2020-05-15"
 draft = true
 aliases = [
