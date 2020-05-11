@@ -1,0 +1,40 @@
++++
+title = "KiCad 5.1.5 Release"
+date = "2020-05-15"
+draft = true
+aliases = [
+    "/post/release-5.1.6/"
+]
+
+"blog/categories" = [
+    "Release Notes"
+]
++++
+
+:icons:
+:iconsdir: /img/icons/
+
+The KiCad project is proud to announce the latest series 5 stable
+release.  The 5.1.6 stable version contains critical bug fixes and
+other minor improvements since the 5.1.5 release.  It also includes
+improved footprint, symbol, and 3D model libraries, translations,
+and documentation.
+
+This is also the first stable point release made since switching to
+gitlab for https://gitlab.com/kicad[main kicad source code hosting].
+
+A list of all of the fixed bugs since the 5.1.5 release can be found
+on the https://gitlab.com/groups/kicad/code/-/milestones/1[KiCad 5.1.6
+milestone page].  This release contains several critical bug fixes so
+please consider upgrading as soon as possible.
+
+Version 5.1.6 is made from the
+https://gitlab.com/kicad/code/kicad/-/commits/5.1/[5.1] branch with
+some cherry picked changes from the development branch.
+
+Packages for Windows, MacOS, and Linux are available or will be
+in the very near future.  See the
+link:/download[KiCad download page] for guidance.
+
+Thank you to all developers, packagers, librarians, document writers,
+translators, and everyone else who helped make this release possible.
