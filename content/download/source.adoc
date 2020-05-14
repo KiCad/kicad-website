@@ -25,17 +25,17 @@ project templates.
 
 == Stable Release
 
-Current Version: *5.1.5*
+Current Version: *5.1.6*
 
 Tarballs intended to be used by packagers:
 
-* link:https://launchpad.net/kicad/5.0/5.1.5/+download/kicad-5.1.5.tar.xz[Source code]
-* link:https://kicad-downloads.s3.cern.ch/docs/kicad-doc-5.1.5.tar.gz[Precompiled docs], https://github.com/KiCad/kicad-doc/releases/tag/5.1.5[doc sources]
-* link:https://github.com/KiCad/kicad-i18n/releases/tag/5.1.5[i18n (translations)]
-* link:https://github.com/KiCad/kicad-symbols/releases/tag/5.1.5[symbols]
-* link:https://github.com/KiCad/kicad-footprints/releases/tag/5.1.5[footprints]
-* link:https://github.com/KiCad/kicad-packages3D/releases/tag/5.1.5[packages3D]
-* link:https://github.com/KiCad/kicad-templates/releases/tag/5.1.5[templates]
+* link:https://gitlab.com/kicad/code/kicad-i18n/-/archive/5.1.6/kicad-5.1.6.tar.gz[Source code]
+* link:https://kicad-downloads.s3.cern.ch/docs/kicad-doc-5.1.6.tar.gz[Precompiled docs], https://gitlab.com/kicad/services/kicad-doc/-/tags/5.1.6[doc sources]
+* link:https://gitlab.com/kicad/code/kicad-i18n/-/tags/5.1.6[i18n (translations)]
+* link:https://github.com/KiCad/kicad-symbols/releases/tag/5.1.6[symbols]
+* link:https://github.com/KiCad/kicad-footprints/releases/tag/5.1.6[footprints]
+* link:https://github.com/KiCad/kicad-packages3D/releases/tag/5.1.6[packages3D]
+* link:https://github.com/KiCad/kicad-templates/releases/tag/5.1.6[templates]
 
 As a packager, please work to enable all the build options, that is
 all the scripting options, OCC (prefered) or OCE, and ngspice. With recent
