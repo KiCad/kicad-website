@@ -7,17 +7,28 @@
         "articleSection" : "{{ .Section }}",
         "name" : "{{ .Title }}",
         "headline" : "{{ .Title }}",
-        "description" : "{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}",
+        "description" : "{{ if .Description }}{{ .Description | plainify }}{{ else }}{{if .IsPage}}{{ .Summary | plainify }}{{ end }}{{ end }}",
         "inLanguage" : "en-US",
         "author": {
           "@type": "Person",
           "name": {{ .Site.Params.author }}
         },
+        "image": "https://kicad-pcb.org/img/kicad_logo_small.png",
+        "publisher": {
+          "@type": "Organization",
+          "name": "KiCad EDA",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://kicad-pcb.org/img/kicad_logo_small.png"
+          }
+        },
         "datePublished": "{{ .PublishDate.Format $.Site.Params.ISO8601Format }}",
         "dateModified" : "{{ .Date.Format $.Site.Params.ISO8601Format }}",
         "url" : "{{ .Permalink }}",
         "wordCount" : "{{ .WordCount }}",
-        "image" : [ {{ range $i, $e := .Params.images }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} ],
+        "mainEntityOfPage": {
+          "@type": "WebPage"
+        },
         "keywords" : [ {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} ]
     }
     {{ end }}
