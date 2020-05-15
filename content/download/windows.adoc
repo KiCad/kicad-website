@@ -6,66 +6,106 @@ weight = 2
 :icons:
 :iconsdir: /img/icons/
 
-KiCad is supported for 8.1 and 10.  See
+KiCad supports  Windows 8.1 and 10.  See
 link:/help/system-requirements/[System Requirements] for more details.
 
 == Stable Release
 
 Current Version: *5.1.5*
 ++++
-<h3>64-bit (recommended)</h3>
-<h4>Download mirrors</h4>
-<div class="list-group download-list-group">
-	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.5_3-x86_64.exe">
-		<img src="/img/about/cern-logo.png" /> CERN - Switzerland
-	</a>
-	<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.5/kicad-5.1.5_3-x86_64.exe">
-		GitHub - Global
-	</a>
-	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.5_3-x86_64.exe">
-		Futureware - Austria
-	</a>
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+	<div class="panel panel-default">
+		<div class="panel-heading" role="tab" id="mirrors-64bit-heading">
+			<h3 class="panel-title">
+				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#mirrors-64bit" aria-expanded="true" aria-controls="mirrors-64bit">
+					64-bit (recommended)
+				</a>
+			</h3>
+		</div>
+		<div id="mirrors-64bit" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="mirrors-64bit-heading">
+			<div class="panel-body">
+				<div class="list-group download-list-group">
+					<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.5_3-x86_64.exe">
+						<img src="/img/about/cern-logo.png" /> CERN - Switzerland
+					</a>
+					<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.5/kicad-5.1.5_3-x86_64.exe">
+						GitHub - Global
+					</a>
+					<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.5_3-x86_64.exe">
+						Futureware - Austria
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="panel panel-default">
+		<div class="panel-heading" role="tab" id="mirrors-32bit-heading">
+			<h3 class="panel-title">
+				<a role="button"class="collapsed"  data-toggle="collapse" data-parent="#accordion" href="#mirrors-32bit" aria-expanded="false" aria-controls="mirrors-32bit">
+					32-bit
+				</a>
+			</h3>
+		</div>
+		<div id="mirrors-32bit" class="panel-collapse collapse" role="tabpanel" aria-labelledby="mirrors-32bit-heading">
+			<div class="panel-body">
+				<div class="list-group download-list-group">
+					<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.5_3-i686.exe">
+						<img src="/img/about/cern-logo.png" /> CERN - Switzerland
+					</a>
+					<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.5/kicad-5.1.5_3-i686.exe">
+						GitHub - Global
+					</a>
+					<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.5_3-i686.exe">
+						Futureware - Austria
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading" role="tab" id="mirrors-3p-heading">
+			<h3 class="panel-title">
+				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#mirrors-3p" aria-expanded="false" aria-controls="mirrors-3p">
+					Third Party Mirrors
+				</a>
+			</h3>
+		</div>
+		<div id="mirrors-3p" class="panel-collapse collapse" role="tabpanel" aria-labelledby="mirrors-3p-heading">
+			<div class="panel-body">
+				<div class="admonitionblock caution">
+					<table>
+						<tr>
+							<td class="icon">
+								<img src="/img/icons/caution.png" alt="Caution">
+							</td>
+							<td class="content">
+								These mirrors are maintained by third parties.
+								The KiCad development team does not maintain or control these mirrors.
+								However, they may be useful for users in regions with poor connectivity to the official mirrors.<br>
+								<strong>Use at your own risk</strong>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="list-group download-list-group">
+					<a class="list-group-item" href="https://mirrors.cqu.edu.cn/kicad/windows/stable/">
+						Chongqing University Open Source Software Mirror - China
+					</a>
+					<a class="list-group-item" href="https://mirrors.dgut.edu.cn/kicad/windows/stable/">
+						Dongguan University of Technology Open-source Software Mirror - China
+					</a>
+					<a class="list-group-item" href="https://mirror.tuna.tsinghua.edu.cn/kicad/windows/stable/">
+						Tsinghua University Open Source Software Mirror - China
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 ++++
 
 
-++++
-<h3>32-bit</h3>
-<h4>Download mirrors</h4>
-<div class="list-group download-list-group">
-	<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.5_3-i686.exe">
-		<img src="/img/about/cern-logo.png" /> CERN - Switzerland
-	</a>
-	<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.5/kicad-5.1.5_3-i686.exe">
-		GitHub - Global
-	</a>
-	<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.5_3-i686.exe">
-		Futureware - Austria
-	</a>
-</div>
-++++
-
-=== Third Party Mirrors
-
-CAUTION: These mirrors are maintained by third parties.
-The KiCad development team does not maintain or control these mirrors.
-However, they may be useful for users in regions with poor connectivity to the official mirrors. +
-**Use at your own risk**
-
-
-++++
-<div class="list-group download-list-group">
-	<a class="list-group-item" href="https://mirrors.cqu.edu.cn/kicad/">
-		Chongqing University Open Source Software Mirror - China
-	</a>
-	<a class="list-group-item" href="https://mirrors.dgut.edu.cn/kicad/">
-		 Dongguan University of Technology Open-source Software Mirror - China
-	</a>
-	<a class="list-group-item" href="https://mirror.tuna.tsinghua.edu.cn/kicad/">
-		Tsinghua University Open Source Software Mirror - China
-	</a>
-</div>
-++++
 
 == Download Verification
 All installer binaries will have a code signed digital signature attached. Windows will automatically verify the signature is valid, however you may want
