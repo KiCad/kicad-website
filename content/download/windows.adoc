@@ -11,7 +11,7 @@ link:/help/system-requirements/[System Requirements] for more details.
 
 == Stable Release
 
-Current Version: *5.1.5*
+Current Version: *5.1.6*
 ++++
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 	<div class="panel panel-default">
@@ -25,20 +25,20 @@ Current Version: *5.1.5*
 		<div id="mirrors-64bit" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="mirrors-64bit-heading">
 			<div class="panel-body">
 				<div class="list-group download-list-group">
-					<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.5_3-x86_64.exe">
+					<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.6_1-x86_64.exe">
 						<img src="/img/about/cern-logo.png" /> CERN - Switzerland
 					</a>
-					<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.5/kicad-5.1.5_3-x86_64.exe">
+					<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.5/kicad-5.1.6_1-x86_64.exe">
 						GitHub - Global
 					</a>
-					<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.5_3-x86_64.exe">
+					<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.6_1-x86_64.exe">
 						Futureware - Austria
 					</a>
 				</div>
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="panel panel-default">
 		<div class="panel-heading" role="tab" id="mirrors-32bit-heading">
 			<h3 class="panel-title">
@@ -50,13 +50,13 @@ Current Version: *5.1.5*
 		<div id="mirrors-32bit" class="panel-collapse collapse" role="tabpanel" aria-labelledby="mirrors-32bit-heading">
 			<div class="panel-body">
 				<div class="list-group download-list-group">
-					<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.5_3-i686.exe">
+					<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.6_1-i686.exe">
 						<img src="/img/about/cern-logo.png" /> CERN - Switzerland
 					</a>
-					<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.5/kicad-5.1.5_3-i686.exe">
+					<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.5/kicad-5.1.6_1-i686.exe">
 						GitHub - Global
 					</a>
-					<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.5_3-i686.exe">
+					<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.6_1-i686.exe">
 						Futureware - Austria
 					</a>
 				</div>
