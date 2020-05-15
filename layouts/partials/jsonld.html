@@ -1,0 +1,35 @@
+<script type="application/ld+json">
+    {{ if .IsPage }}
+    {{ if eq .Section "blog" }}
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "articleSection" : "{{ .Section }}",
+        "name" : "{{ .Title }}",
+        "headline" : "{{ .Title }}",
+        "description" : "{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}",
+        "inLanguage" : "en-US",
+        "author": {
+          "@type": "Person",
+          "name": {{ .Site.Params.author }}
+        },
+        "datePublished": "{{ .PublishDate.Format $.Site.Params.ISO8601Format }}",
+        "dateModified" : "{{ .Date.Format $.Site.Params.ISO8601Format }}",
+        "url" : "{{ .Permalink }}",
+        "wordCount" : "{{ .WordCount }}",
+        "image" : [ {{ range $i, $e := .Params.images }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} ],
+        "keywords" : [ {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} ]
+    }
+    {{ end }}
+    {{ end }}
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "KiCad EDA",
+      "url": {{ .Site.BaseURL }},
+      "sameAs": [
+        "https://twitter.com/kicad_pcb",
+        "https://gitlab.com/KiCad"
+      ]
+    }
+    </script>

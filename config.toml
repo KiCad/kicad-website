@@ -16,6 +16,7 @@ disablePathToLower = true
 
 [params]
     DateForm = "2006-01-02"
+    ISO8601Format = "2006-01-02T15:04:05JST"
     Description = "A Cross Platform and Open Source Electronics Design Automation Suite"
     Author = "The KiCad editors"
     Forum = "https://forum.kicad.info/"
