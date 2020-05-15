@@ -23,7 +23,7 @@ and all versions of KiCad thus far wanted to write to the exact same versions. T
 older config files sometimes had bad settings for the newer version.
 
 With this change, settings are now stored in 
-`%APPDATA%\<version>\`
+`%APPDATA%\kicad\<version>\`
 
 Additonally, there is now a upgrade wizard that will open if you are opening a version of KiCad for the first time.
 
