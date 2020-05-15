@@ -22,8 +22,8 @@
             "url": "https://kicad-pcb.org/img/kicad_logo_small.png"
           }
         },
-        "datePublished": "{{ .PublishDate.Format $.Site.Params.ISO8601Format }}",
-        "dateModified" : "{{ .Date.Format $.Site.Params.ISO8601Format }}",
+        "datePublished": "{{ dateFormat $.Site.Params.ISO8601Format .PublishDate.UTC }}",
+        "dateModified" : "{{ dateFormat $.Site.Params.ISO8601Format .Date.UTC }}",
         "url" : "{{ .Permalink }}",
         "wordCount" : "{{ .WordCount }}",
         "mainEntityOfPage": {
