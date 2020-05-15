@@ -13,6 +13,7 @@ draft = false
 Since KiCad 4.0, work has been progressing to overhaul all the various project
 file formats that among many benefits, make them far more human friendly, easier to parse and allow easier addition of new features.
 
+<!--more-->
 For example, the schematic file format used to look like this
 ```
 EESchema Schematic File Version 5

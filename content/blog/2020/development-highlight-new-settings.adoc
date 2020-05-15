@@ -13,7 +13,7 @@ draft = false
 As a preview of a feature available in the nighty builds, a large change was made to how KiCad stores and loads settings that not only fixes a few headaches with the old system but lays the groundwork for more customization in KiCad such as color themes.
 This was thanks to the work of https://gitlab.com/craftyjon[Jon Evans] in https://gitlab.com/kicad/code/kicad/-/merge_requests/68[MR#68]
 
-
+<!--more-->
 == New Settings Save Location and Wizard
 Settings are now stored on a versioned basis on all platforms. 
 
