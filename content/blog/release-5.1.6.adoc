@@ -20,6 +20,8 @@ other minor improvements since the 5.1.5 release.  It also includes
 improved footprint, symbol, and 3D model libraries, translations,
 and documentation.
 
+<!--more-->
+
 This is also the first stable point release made since switching to
 gitlab for https://gitlab.com/kicad[main kicad source code hosting].
 
