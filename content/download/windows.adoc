@@ -28,9 +28,6 @@ Current Version: *5.1.6*
 					<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.6_1-x86_64.exe">
 						<img src="/img/about/cern-logo.png" /> CERN - Switzerland
 					</a>
-					<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.5/kicad-5.1.6_1-x86_64.exe">
-						GitHub - Global
-					</a>
 					<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.6_1-x86_64.exe">
 						Futureware - Austria
 					</a>
@@ -52,9 +49,6 @@ Current Version: *5.1.6*
 				<div class="list-group download-list-group">
 					<a class="list-group-item" href="https://kicad-downloads.s3.cern.ch/windows/stable/kicad-5.1.6_1-i686.exe">
 						<img src="/img/about/cern-logo.png" /> CERN - Switzerland
-					</a>
-					<a class="list-group-item" href="https://github.com/KiCad/kicad-winbuilder/releases/download/5.1.5/kicad-5.1.6_1-i686.exe">
-						GitHub - Global
 					</a>
 					<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/windows/stable/kicad-5.1.6_1-i686.exe">
 						Futureware - Austria
