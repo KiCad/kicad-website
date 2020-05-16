@@ -7,7 +7,17 @@
       {{ partial "breadcrumb_blog.html" . }}
       <header>
         <h1>{{ title .Title }}</h1>
+        
         <section class="post-meta">
+          {{ if isset .Params "blog/categories" }}
+          <span class="pull-left">
+            {{ $tax := index .Params "blog/categories" }}
+              {{ range $tax }}
+                <a href="{{ delimit (slice "/blog/categories/" (urlize .) $.Site.Params.ugly) "" | relURL }}">{{ . }}</a>
+              {{ end }}
+          </span>
+          {{ end }}
+
           Published <time datetime="{{ dateFormat .Site.Params.DateForm .Date }}">
           {{ dateFormat .Site.Params.DateForm .Date }}</time>
         </section>
