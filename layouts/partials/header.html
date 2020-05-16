@@ -8,9 +8,13 @@
     <link href="/blog/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="KiCad is an open source EDA software for Windows, OSX and Linux. Create PCB circuits for free with the most advanced features.">
     
-    <!-- Generated with http://realfavicongenerator.net/ -->
+    {{ if or ( .IsHome ) ( and (not .Description) (not .Summary) )}}
+    <meta name="description" content="{{ .Site.Params.Description }}">
+    {{ else }}
+    <meta name="description" content="{{ if .Description }}{{ .Description | plainify }}{{ else }}{{if .IsPage}}{{ .Summary | plainify }}{{ end }}{{ end }}">
+    {{ end }}
+
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">

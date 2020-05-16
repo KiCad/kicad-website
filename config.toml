@@ -20,6 +20,7 @@ disablePathToLower = true
     Description = "A Cross Platform and Open Source Electronics Design Automation Suite"
     Author = "The KiCad editors"
     Forum = "https://forum.kicad.info/"
+    images = ["/img/kicad_logo_small.png"]
 
 [permalinks]
     klc = "/libraries/klc/:filename/"

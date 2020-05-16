@@ -3,20 +3,19 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-9 post-full">
+    <article class="col-md-9 post-full">
       {{ partial "breadcrumb_blog.html" . }}
       <header>
         <h1>{{ title .Title }}</h1>
-        <div class="post-meta">Published {{ dateFormat .Site.Params.DateForm .Date }}</div>
+        <section class="post-meta">Published <time datetime="{{ dateFormat .Site.Params.DateForm .Date }}">{{ dateFormat .Site.Params.DateForm .Date }}</time></section>
       </header>
-      <article>
+      <section>
         {{ .Content }}
-        <p>
+        <footer>
           <a href="/blog/"><span class="fa fa-arrow-left"></span> Back</a>
-        </p>
-      </article>
-      
-    </div>
+        </footer>
+      </section>
+    </article>
     <div class="col-md-3">
         {{ partial "latest_blog_posts.html" . }}
         {{ partial "blog_categories.html" . }}

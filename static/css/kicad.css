@@ -214,7 +214,7 @@ hr.small {
     text-align: justify;
     margin-bottom: 5px;
 }
-.post-full p {
+.post-full section p {
     text-align: justify;
 }
 header .post-full {
@@ -237,14 +237,14 @@ header .post-full {
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
-footer {
+body > footer {
 	background-color: #333537;
 }
-footer .list-inline {
+body > footer .list-inline {
     margin: 0;
     padding: 0;
 }
-footer .copyright {
+body > footer .copyright {
     font-size: 14px;
     text-align: center;
     margin-bottom: 0;
