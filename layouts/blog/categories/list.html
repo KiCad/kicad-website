@@ -1,0 +1,23 @@
+{{ partial "header.html" . }}
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-9 post-full">
+			{{ partial "breadcrumb.html" . }}
+
+			<div class="page-heading">
+				<h1>{{ title .Title }} Category</h1>
+			</div>
+
+            {{ range .Paginator.Pages }}
+                {{ .Render "summary" }}
+            {{ end }}
+            {{ template "_internal/pagination.html" . }}
+        </div>
+        <div class="col-md-3">
+            {{ partial "blog_categories.html" . }}
+        </div>
+	</div>
+</div>
+
+{{ partial "footer.html" . }}

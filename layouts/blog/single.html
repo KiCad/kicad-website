@@ -7,7 +7,10 @@
       {{ partial "breadcrumb_blog.html" . }}
       <header>
         <h1>{{ title .Title }}</h1>
-        <section class="post-meta">Published <time datetime="{{ dateFormat .Site.Params.DateForm .Date }}">{{ dateFormat .Site.Params.DateForm .Date }}</time></section>
+        <section class="post-meta">
+          Published <time datetime="{{ dateFormat .Site.Params.DateForm .Date }}">
+          {{ dateFormat .Site.Params.DateForm .Date }}</time>
+        </section>
       </header>
       <section>
         {{ .Content }}
