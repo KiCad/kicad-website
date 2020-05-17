@@ -64,8 +64,7 @@ link:https://bazaar.launchpad.net/~stambaughw/kicad/doc-read-only/view/head:/doc
 
 * `sym-lib-table`: Symbol library list (_symbol libraries table_): list of symbol libraries which are loaded by the schematic editor.
 
-* `drc-rules`: S-expression file containing design rule checking
-* constraints. Introduced in v6.
+* `drc-rules`: S-expression file containing design rule checking constraints. Introduced in v6.
 
 * `.kicad_wks`: The page layout description files, for people who want a worksheet with a custom look.
 
