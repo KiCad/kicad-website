@@ -3,7 +3,7 @@ title = "Source Code"
 iconhtml = "<div><i class='fa fa-code'></i></div>"
 weight = 100
 +++
-:icons: 
+:icons:
 :iconsdir: /img/icons/
 
 
@@ -29,9 +29,9 @@ Current Version: *5.1.6*
 
 Tarballs intended to be used by packagers:
 
-* link:https://gitlab.com/kicad/code/kicad-i18n/-/archive/5.1.6/kicad-5.1.6.tar.gz[Source code]
+* link:https://gitlab.com/kicad/code/kicad/-/archive/5.1.6/kicad-5.1.6.tar.gz[Source code]
 * link:https://kicad-downloads.s3.cern.ch/docs/kicad-doc-5.1.6.tar.gz[Precompiled docs], https://gitlab.com/kicad/services/kicad-doc/-/tags/5.1.6[doc sources]
-* link:https://gitlab.com/kicad/code/kicad-i18n/-/tags/5.1.6[i18n (translations)]
+* link:https://gitlab.com/kicad/code/kicad-i18n/-/archive/5.1.6/kicad-i18n-5.1.6.tar.gz[i18n (translations)]
 * link:https://github.com/KiCad/kicad-symbols/releases/tag/5.1.6[symbols]
 * link:https://github.com/KiCad/kicad-footprints/releases/tag/5.1.6[footprints]
 * link:https://github.com/KiCad/kicad-packages3D/releases/tag/5.1.6[packages3D]
