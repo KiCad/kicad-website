@@ -7,7 +7,7 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <ul class="list-inline text-center">
                         <li>
-                            <a href="{{ .Site.Params.Forum }}">
+                            <a href="{{ .Site.Params.Forum }}" aria-label="KiCad user forum">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fab fa-discourse fa-stack-1x fa-inverse"></i>
@@ -16,7 +16,7 @@
                         </li>
                         {{ range .Site.Params.social }}
                         <li>
-                            <a href="{{ .url }}">
+                            <a href="{{ .url }}" aria-label="{{ .label }}">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fab fa-{{ .title }} fa-stack-1x fa-inverse"></i>
@@ -25,10 +25,11 @@
                         </li>
                         {{ end }}
                     </ul>
-                    <p class="copyright text-muted">{{ .Site.Copyright }} Unless otherwise stated, all text and images on this website are licensed under either a choice of the
-                    <a href="/about/licenses/#_creative_commons_attribution_3_0_unported">Creative Commons Attributions License</a>, version 3.0 or later;
-                    or the <a href="/about/licenses/#_gnu_general_public_license_v3">General Public License version</a> 3 or later. This does not include
-                    the KiCad source code, libraries, documentation, and any third party tools or products mentioned on the website.
+                    <p class="copyright">
+                        {{ .Site.Copyright }} Unless otherwise stated, all text and images on this website are licensed under either a choice of the
+                        <a href="/about/licenses/#_creative_commons_attribution_3_0_unported">Creative Commons Attributions License</a>, version 3.0 or later;
+                        or the <a href="/about/licenses/#_gnu_general_public_license_v3">General Public License version</a> 3 or later. This does not include
+                        the KiCad source code, libraries, documentation, and any third party tools or products mentioned on the website.
                     </p>
                 </div>
             </div>

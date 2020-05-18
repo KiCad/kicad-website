@@ -239,6 +239,10 @@ header .post-full {
 }
 body > footer {
 	background-color: #333537;
+    color: #a1a1a1;
+}
+body > footer a {
+    color: #a1a1a1; /* ensure links also made the same color */
 }
 body > footer .list-inline {
     margin: 0;
