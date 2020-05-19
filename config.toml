@@ -18,6 +18,7 @@ disablePathToLower = true
     DateForm = "2006-01-02"
     ISO8601Format = "2006-01-02T15:04:05Z"
     Description = "A Cross Platform and Open Source Electronics Design Automation Suite"
+	HeaderDescription = "Open source EDA / CAD software for Windows, macOS and Linux. Use schematic capture, create PCB layouts and view them in 3D, all forever free, and never lose access."
     Author = "The KiCad editors"
     Forum = "https://forum.kicad.info/"
     images = ["/img/kicad_logo_small.png"]
