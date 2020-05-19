@@ -153,6 +153,15 @@ hr.small {
     padding: 100px 0 50px;
     color: #fff;
 }
+
+.intro-header {
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url('/img/frontpage/banner.jpg');
+}
+
+.webp .intro-header {
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url('/img/frontpage/banner.webp');
+}
+
 @media only screen and (min-width:768px) {
     .intro-header .site-heading,
     .intro-header .post-heading,
@@ -358,10 +367,15 @@ table p {
 
 .page-header-decor {
 	background-position:top;
-	background-image:url('/img/frontpage/banner.jpg');
+	background-image:url('/img/frontpage/banner.webp');
 	height: 80px;
 	margin-top: 40px;
 }
+
+.webp .page-header-decor {
+	background-image:url('/img/frontpage/banner.webp');
+}
+
 
 .page-header-decor-no-margin {
 	margin-top: 0;
@@ -523,10 +537,9 @@ code {
     line-height: 44px;
     font-size: 18px;
 
-    background-image: linear-gradient(to right,rgba(0,0,0,0.0),rgb(57, 57, 57)),url(/img/frontpage/banner.jpg);
     background-repeat: no-repeat;
     background-position: 113% 92%;
-    background-color: #393939;
+    background-color: #337ab7;
     color: #FFF;
 }
 
