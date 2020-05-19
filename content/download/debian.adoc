@@ -100,7 +100,7 @@ upgrade your system to at least Debian Stretch!
 
 ===== https://packages.debian.org/stretch-backports-sloppy/kicad[*Old-Stable* (Backports)]
 
-Version: 5.1.4
+Version: 5.1.6
 
 ====== Installation
 
