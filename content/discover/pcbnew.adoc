@@ -1,10 +1,26 @@
 +++
 title = "PcbNew Features"
+tags = ["pcb layout", 
+        "pcbnew", 
+        "eagle pcb", 
+        "push and shove router", 
+        "length tuning", 
+        "footprint editor"
+        ]
 [menu.main]
     parent = "Discover"
     name   = "PcbNew"
 	weight = 2
 +++
+
+=== Pcb Layout Creation
+Create PCB layouts with a wide array of tools from both KiCad schematics and third party sources such as EAGLE.
+<!--more-->
+
+==== Supported third party formats
+
+* EAGLE
+* P-CAD 200x ASCII
 
 === Push and shove router
 

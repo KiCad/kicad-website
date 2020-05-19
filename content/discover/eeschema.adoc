@@ -1,5 +1,8 @@
 +++
 title = "Eeschema Features"
+tags = ["schematic capture",
+        "eagle schematic"
+        ]
 [menu.main]
     parent = "Discover"
     name   = "Eeschema"
@@ -8,11 +11,12 @@ title = "Eeschema Features"
 
 === Schematic capture
 
-Schematic capture is efficient, with all the tools you can expect for
+KiCad's schematic capture is efficient, with all the tools you can expect for
 such a task. The interface focuses on productivity. There are no complexity
 limits, as large designs can be divided into hierarchical subsheets.
 Various export options are available (PDF, SVG, HPGL, Postscript).
 
+<!--more-->
 video::H46n91Akxf0[youtube,role="embed-responsive embed-responsive-16by9"]
 
 === Electrical Rules Check

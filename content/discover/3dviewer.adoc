@@ -1,12 +1,16 @@
 +++
 title = "3DViewer Features"
+tags = ["3d pcb viewer"
+        ]
 [menu.main]
     parent = "Discover"
     name   = "3DViewer"
 	weight = 3
 +++
 
-When laying out your PCB, you can instantly inspect your design in an interactive 3D view.
+View your PCB designs in 3D with KiCad's integrated 3D Viewer! Coupled with a large library of
+3D models, you can instantly inspect your design in an interactive 3D view.
 Rotate and pan around to inspect details easier than with a 2D display.
+<!--more-->
 
 video::D3it8wyJef0[youtube,role="embed-responsive embed-responsive-16by9"]
