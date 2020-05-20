@@ -11,10 +11,10 @@ draft = true
 :iconsdir: /img/icons/
 
 The KiCad project is proud of our roll as the electronic design application
-use by the [Open Ventilator](https://gitlab.com/openventilator) project.
+use by the https://gitlab.com/openventilator[Open Ventilator] project.
 The Open Ventilator project is based on a release of the Medtronic PB560
 ventilator mentioned in
-[this Maker article](https://makezine.com/2020/04/02/kicad-medtronic-pb560-ventilator-schematics/).
+https://makezine.com/2020/04/02/kicad-medtronic-pb560-ventilator-schematics/[this Maker article].
 Even though the ventilator shortage never materialized in most parts of the
 world, the Open Ventilator project clearly demonstrates the potential of
 open hardware.  The project was started by KiCad lead developer Seth
