@@ -1,0 +1,29 @@
++++
+title = "KiCad and the Open Ventilator Project"
+date = "2020-05-20"
+draft = true
+"blog/categories" = [
+    "News"
+]
++++
+
+:icons:
+:iconsdir: /img/icons/
+
+The KiCad project is proud of our roll as the electronic design application
+use by the [Open Ventilator](https://gitlab.com/openventilator) project.
+The Open Ventilator project is based on a release of the Medtronic PB560
+ventilator mentioned in
+[this Maker article](https://makezine.com/2020/04/02/kicad-medtronic-pb560-ventilator-schematics/).
+Even though the ventilator shortage never materialized in most parts of the
+world, the Open Ventilator project clearly demonstrates the potential of
+open hardware.  The project was started by KiCad lead developer Seth
+Hillbrand early in the COVID-19 pandemic.  It quickly gain dozens of
+contributors from all over the world.  The project has progressed to the
+point where prototypes have been ordered and are currently being evaluated.
+Once the design is finalized, there will be permanent open ventilator design
+resource for future needs as they arise.  KiCad hopes to continue to push
+the benefits of open hardware designs into many other areas.  Like open
+software designs, there is no limit to what is possible with open hardware
+designs.
+
