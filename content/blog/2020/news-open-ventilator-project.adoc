@@ -1,7 +1,7 @@
 +++
 title = "KiCad and the Open Ventilator Project"
 date = "2020-05-20"
-draft = true
+draft = false
 "blog/categories" = [
     "News"
 ]
@@ -17,14 +17,13 @@ ventilator mentioned in
 https://makezine.com/2020/04/02/kicad-medtronic-pb560-ventilator-schematics/[this Make article].
 
 The Open Ventilator project clearly demonstrates the potential of
-open hardware.  The project was started by https://kipro-pcb.com/[KiCad Services] lead developer Seth Hillbrand early in the COVID-19 pandemic.  It quickly gained more than 100
-contributors from all over the world.  
+open hardware.  The project was started by https://kipro-pcb.com/[KiCad Services] lead developer
+Seth Hillbrand early in the COVID-19 pandemic.  It quickly gained more than 100 contributors
+from all over the world.
 
 The project updated circuit designs and bills of material to support current
-production.  Currently, prototypes have been ordered and are currently being 
+production.  Currently, prototypes have been ordered and are currently being
 evaluated for use in the United States, Europe, the Middle East and Africa.
 
-KiCad hopes to continue to push the benefits of open hardware designs into many other areas.  Like open
-software designs, there is no limit to what is possible with open hardware
-designs.
-
+KiCad hopes to continue to push the benefits of open hardware designs into many other areas.
+Like open software designs, there is no limit to what is possible with open hardware designs.
