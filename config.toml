@@ -15,6 +15,7 @@ disablePathToLower = true
     blog_categories = "blog/categories"
 
 [params]
+    HomeTitle = "KiCad EDA - Schematic Capture & PCB Design Software"
     DateForm = "2006-01-02"
     ISO8601Format = "2006-01-02T15:04:05Z"
     Description = "A Cross Platform and Open Source Electronics Design Automation Suite"
