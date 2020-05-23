@@ -41,7 +41,7 @@
     
 
     <!-- Bootstrap Core CSS -->
-    {{ $style := resources.Get "css/bootstrap.min.css" | fingerprint }}
+    {{ $style := resources.Get "css/bootstrap.css" | minify | fingerprint }}
     <link href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" rel="stylesheet">
 
     {{ $style := resources.Get "css/kicad.css" | minify | fingerprint }}

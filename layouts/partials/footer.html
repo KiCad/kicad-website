@@ -37,11 +37,11 @@
     </footer>
     
     <!-- jQuery -->
-    {{ $js := resources.Get "js/jquery.min.js" | fingerprint }}
+    {{ $js := resources.Get "js/jquery-3.5.1.js" | minify | fingerprint }}
     <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    {{ $js := resources.Get "/js/bootstrap.min.js" | fingerprint }}
+    {{ $js := resources.Get "/js/bootstrap.js" | minify | fingerprint }}
     <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
     {{ $js := resources.Get "js/kicad.js" | minify | fingerprint }}
