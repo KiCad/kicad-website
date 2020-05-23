@@ -35,14 +35,17 @@
             </div>
         </div>
     </footer>
-    <!-- /.banner -->
+    
     <!-- jQuery -->
-    <script src="/js/jquery.min.js"></script>
+    {{ $js := resources.Get "js/jquery.min.js" | fingerprint }}
+    <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="/js/bootstrap.min.js"></script>
+    {{ $js := resources.Get "/js/bootstrap.min.js" | fingerprint }}
+    <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
-    <script src="/js/kicad.js"></script>
+    {{ $js := resources.Get "js/kicad.js" | minify | fingerprint }}
+    <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
     {{ partial "donate-modal.html" . }}
 </body>
