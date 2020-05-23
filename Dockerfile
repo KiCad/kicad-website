@@ -43,7 +43,7 @@ RUN wget "$HUGO_DOWNLOAD_URL" && \
 COPY . ./
 
 #actually build the site
-RUN hugo -b https://kicad-pcb.org/
+RUN hugo
 
 # lets create the actual deployment image
 FROM nginx:alpine
