@@ -1,15 +1,18 @@
 +++
-title = "Eeschema Features"
+title = "Schematic Capture in Eeschema"
 tags = ["schematic capture",
         "eagle schematic"
         ]
+aliases = [
+    "/discover/eeschema/"
+]
 [menu.main]
     parent = "Discover"
-    name   = "Eeschema"
+    name   = "Schematic Capture"
 	weight = 1
 +++
 
-=== Schematic capture
+=== Overview
 
 KiCad's schematic capture is efficient, with all the tools you can expect for
 such a task. The interface focuses on productivity. There are no complexity

@@ -1,5 +1,5 @@
 +++
-title = "PcbNew Features"
+title = "PCB Design in PcbNew"
 tags = ["pcb layout", 
         "pcbnew", 
         "eagle pcb", 
@@ -7,13 +7,16 @@ tags = ["pcb layout",
         "length tuning", 
         "footprint editor"
         ]
+aliases = [
+    "/discover/pcbnew/"
+]
 [menu.main]
     parent = "Discover"
-    name   = "PcbNew"
+    name   = "Pcb Design"
 	weight = 2
 +++
 
-=== Pcb Layout Creation
+=== Overview
 Create PCB layouts with a wide array of tools from both KiCad schematics and third party sources such as EAGLE.
 <!--more-->
 
