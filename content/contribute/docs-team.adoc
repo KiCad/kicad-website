@@ -1,6 +1,7 @@
 +++
 title = "Docs Team"
 categories = [ "Contribute" ]
+summary = "The basics of contributing to KiCad documentation"
 [menu.main]
     parent = "Contribute"
     name   = "Docs Team"

@@ -1,5 +1,6 @@
 +++
 title = "Contribute"
+summary = "The basics of contributing to KiCad libraries"
 [menu.main]
     parent = "Libraries"
     name = "Contribute"

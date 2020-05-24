@@ -1,10 +1,11 @@
 +++
 title = "Developers"
 categories = [ "Contribute" ]
+summary = "The basics of contributing to KiCad application development"
 [menu.main]
     parent = "Contribute"
     name   = "Developers"
-weight = 20
+    weight = 20
 +++
 
 == Contributing to KiCad (application) development

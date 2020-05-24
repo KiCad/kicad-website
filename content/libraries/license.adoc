@@ -15,7 +15,7 @@ The KiCad libraries are licensed under the link:https://creativecommons.org/lice
 _To the extent that the creation of electronic designs that use 'Licensed Material' can be considered to be 'Adapted Material', then the copyright holder waives article 3 of the license with respect to these designs and any generated files which use data provided as part of the 'Licensed Material'._
 
 '''
-
+<!--more-->
 **What does this mean?**
 
 KiCad libraries are licensed in such a way to ensure free use of library data for commercial, closed, and non-commercial projects without restriction. KiCad does not wish to exert any control over designs produced using the library data, or force users to reveal proprietary information contained in their designs. Neither do we wish to force users to attribute the KiCad libraries _within their design_.

@@ -14,6 +14,8 @@ In the interest of fostering an open and welcoming environment, we as
 contributors and maintainers of KiCad pledge to make participation in our
 project and our community a harassment-free experience for everyone.
 
+<!--more-->
+
 ## Our Standards
 
 Examples of behavior that contributes to creating a positive environment

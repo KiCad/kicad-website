@@ -1,7 +1,7 @@
 +++
 title = "KLC Revision History"
 url = "/libraries/klc/history/"
-
+summary = "Revision history of the KiCad Library Conventions"
 +++
 
 ---

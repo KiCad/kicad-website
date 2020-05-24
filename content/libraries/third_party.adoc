@@ -11,7 +11,7 @@ title = "Third Party Libraries"
 toc::[]
 
 In addition to the official KiCad libraries, there are other, third party sources for KiCad library packages.
-
+<!--more-->
 While the following links may be useful sources of library packages, they are not maintained or endorsed by the KiCad project.
 
 == Digi-Key

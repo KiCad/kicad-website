@@ -1,6 +1,7 @@
 +++
 title = "KiCad Library Convention"
 aliases = [ "/klc/" ]
+summary = "The KiCad Library Convention (KLC) is a set of requirements for contributing to the official KiCad libraries. "
 [menu.main]
     parent = "Libraries"
     name = "Library Conventions"
