@@ -1,6 +1,6 @@
 +++
 title = "MNT Reform"
-projectimage = "/img/madewithkicad/mnt-reform.png"
+projectimage = "/img/madewithkicad/mnt-reform.jpg"
 projectdeveloper = "MNT Research GmbH"
 projecturl = "https://mntre.com/reform"
 +++
