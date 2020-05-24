@@ -1,5 +1,6 @@
 +++
 title = "Source Code"
+summary = "Install instructions for KiCad from source code"
 iconhtml = "<div><i class='fa fa-code'></i></div>"
 weight = 100
 +++

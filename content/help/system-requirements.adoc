@@ -1,5 +1,6 @@
 +++
 title = "System Requirements"
+summary = "Detailed system requirements for the various platforms supported by KiCad"
 aliases = [ "/post/system-requirements/" ]
 [menu.main]
     parent = "Help"

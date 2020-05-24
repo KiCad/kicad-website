@@ -3,6 +3,7 @@ title = "About KiCad"
 date = "2014-04-09"
 aliases = [ "/about/" ]
 categories = [ "About" ]
+summary = "The history of KiCad and sponsers that have contributed to its development"
 [menu.main]
     parent = "About"
     name   = "KiCad"
@@ -17,6 +18,7 @@ and http://en.wikipedia.org/wiki/Printed_circuit_board[PCB] Layout with
 http://en.wikipedia.org/wiki/Gerber_format[Gerber] output. The suite runs on Windows, Linux
 and macOS and is licensed under http://en.wikipedia.org/wiki/GNU_General_Public_License[GNU GPL v3].
 
+<!--more-->
 == History
 The first release date was in 1992 by its original author, Jean-Pierre Charras,
 but is now currently under development by the https://launchpad.net/kicad[KiCad Developers Team].

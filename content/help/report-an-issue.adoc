@@ -1,5 +1,6 @@
 +++
 title = "Report an Issue"
+summary = "Guide on how to report issues to KiCad developers"
 aliases = [ "/help/report-a-bug/", "/help/report-a-issue/" ]
 [menu.main]
     parent = "Help"

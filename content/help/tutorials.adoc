@@ -1,9 +1,10 @@
 +++
 title = "Tutorials"
+summary = "Text based and video tutorials assembled by the KiCad community"
 [menu.main]
     parent = "Help"
     name   = "Tutorials"
-weight = 30
+    weight = 30
 +++
 :toc: macro
 :toc-title:

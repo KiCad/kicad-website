@@ -1,5 +1,6 @@
 +++
 title = "Windows Installer Verification"
+summary = "Guide on verifying a KiCad Windows download was securely downloaded"
 +++
 
 == Introduction

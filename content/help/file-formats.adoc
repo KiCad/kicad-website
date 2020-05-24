@@ -1,5 +1,6 @@
 +++
 title = "File Formats"
+summary = "List of file formats used by KiCad"
 aliases = [ "/display/KICAD/File+Formats" ]
 [menu.main]
     parent = "Help"

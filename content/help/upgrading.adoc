@@ -1,5 +1,6 @@
 +++
 title = "Upgrading"
+summary = "Upgrade guide on how to move between various KiCad versions"
 aliases = [
     "/help/migration/"
 ]

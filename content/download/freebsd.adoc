@@ -1,5 +1,6 @@
 +++
 title = "FreeBSD"
+summary = "Install instructions for KiCad on FreeBSD"
 iconhtml = "<div class='fl-freebsd'></div>"
 weight = 96
 +++

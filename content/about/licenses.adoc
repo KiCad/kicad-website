@@ -1,6 +1,7 @@
 +++
 title = "KiCad Licenses"
 categories = [ "About" ]
+summary = "Details on the various licenses used in the KiCad project such as GPLv3 and CC-BY-SA"
 [menu.main]
     parent = "About"
     name   = "Licenses"

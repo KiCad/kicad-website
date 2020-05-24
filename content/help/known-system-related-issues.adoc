@@ -1,5 +1,6 @@
 +++
 title = "Known System Related Issues"
+summary = "Known system related issues with KiCad on various platforms"
 aliases = [ "/post/known-system-related-issues/" ]
 [menu.main]
     parent = "Help"

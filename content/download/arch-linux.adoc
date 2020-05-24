@@ -1,5 +1,6 @@
 +++
 title = "Arch Linux"
+summary = "Install instructions for KiCad on Arch Linux"
 iconhtml = "<div class='fl-archlinux'></div>"
 weight = 20
 +++

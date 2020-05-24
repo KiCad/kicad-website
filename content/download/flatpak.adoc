@@ -1,5 +1,6 @@
 +++
 title = "Flatpak"
+summary = "Install instructions for KiCad on Linux using Flatpak"
 iconhtml = "<div class='fl-flathub'></div>"
 weight = 30
 +++
