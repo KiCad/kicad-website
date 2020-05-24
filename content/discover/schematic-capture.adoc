@@ -12,7 +12,6 @@ aliases = [
 	weight = 1
 +++
 
-=== Overview
 
 KiCad's schematic capture is efficient, with all the tools you can expect for
 such a task. The interface focuses on productivity. There are no complexity
@@ -22,14 +21,14 @@ Various export options are available (PDF, SVG, HPGL, Postscript).
 <!--more-->
 video::H46n91Akxf0[youtube,role="embed-responsive embed-responsive-16by9"]
 
-=== Electrical Rules Check
+== Electrical Rules Check
 
 The electrical rules check (ERC) automatically verifies your schematic connections.
 It checks for output pin conflicts, missing drivers and unconnected pins.
 
 video::F0Bgedjo5bc[youtube,role="embed-responsive embed-responsive-16by9"]
 
-=== Export Netlists
+== Export Netlists
 
 Exports netlists in formats such as
 
@@ -40,13 +39,13 @@ Exports netlists in formats such as
 
 video::fa5bU4zUQOU[youtube,role="embed-responsive embed-responsive-16by9"]
 
-=== Bill Of Materials
+== Bill Of Materials
 
 BOM generation is extensible via Python scripts or XSLT, which allows many configurable formats.
 
 video::xOTRn5Y1eAk[youtube,role="embed-responsive embed-responsive-16by9"]
 
-=== Integrated libraries
+== Integrated libraries
 
 KiCad comes bundled with a vast library of symbols, footprints, and
 matching 3D models. They are community maintained so they never stop

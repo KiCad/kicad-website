@@ -16,16 +16,15 @@ aliases = [
 	weight = 2
 +++
 
-=== Overview
 Create PCB layouts with a wide array of tools from both KiCad schematics and third party sources such as EAGLE.
 <!--more-->
 
-==== Supported third party formats
+== Supported third party formats
 
 * EAGLE
 * P-CAD 200x ASCII
 
-=== Push and shove router
+== Push and shove router
 
 This modern tool will help you lay out your board faster. As you draw 
 your track, it pushes forward traces that are in the way. If that is not 
@@ -34,12 +33,12 @@ router will make sure that your DRC constraints are respected.
 
 video::CCG4daPvuVI[youtube,role="embed-responsive embed-responsive-16by9"]
 
-=== Length tuning
+== Length tuning
 
 Tune trace lengths for high speed designs with the dedicated tool.
 
 video::chejn7dqpfQ[youtube,role="embed-responsive embed-responsive-16by9"]
 
-=== Footprint Editor (GAL)
+== Footprint Editor (GAL)
 
 video::99235812[vimeo,role="embed-responsive embed-responsive-16by9"]
