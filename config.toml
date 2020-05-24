@@ -5,6 +5,7 @@ canonifyurls = false
 layoutdir = "layouts"
 pluralizelisttitles = false
 disablePathToLower = true
+ignoreFiles = [ "_(.+).adoc$" ]
 
 [outputs]
     home     = ["HTML"]

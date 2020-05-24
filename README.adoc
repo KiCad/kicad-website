@@ -51,3 +51,7 @@ For icons to appear in admonition blocks, you must add
 :iconsdir: /img/icons/
 ```
 at the top of the asciidoc file but below the hugo template header.
+
+=== adoc partials
+Please name any reusable asciidoc files with a leading underscore in the filename and ending in .adoc.
+Hugo is configured to ignore such files on purpose.
