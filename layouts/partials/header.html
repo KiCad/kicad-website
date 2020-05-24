@@ -14,11 +14,11 @@
     
     {{ $description := $.Scratch.Get "description" }}
     {{ if $description }}
-    <meta name="description" content="{{ $description | plainify }}">
+    <meta name="description" content="{{- $description | plainify -}}">
     {{ else if (or ( .IsHome ) ( and (not .Description) (not .Summary) )) }}
-    <meta name="description" content="{{ .Site.Params.HeaderDescription }}">
+    <meta name="description" content="{{- .Site.Params.HeaderDescription -}}">
     {{ else }}
-    <meta name="description" content="{{ if .Description }}{{ .Description | plainify }}{{ else }}{{if .IsPage}}{{ .Summary | plainify }}{{ end }}{{ end }}">
+    <meta name="description" content="{{ if .Description }}{{- .Description | plainify -}}{{ else }}{{if .IsPage}}{{- .Summary | plainify -}}{{ end }}{{ end }}">
     {{ end }}
 
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
