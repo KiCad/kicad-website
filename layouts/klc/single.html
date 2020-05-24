@@ -22,7 +22,12 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 {{ if .Scratch.Get "sidemenu" }}col-md-10 col-sm-9{{ else }}col-sm-12{{ end }} post-full">
-      {{ partial "breadcrumb.html" . }}
+      <ol class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li><a href="/libraries/">Libraries</a></li>
+        <li><a href="/libraries/klc/">Kicad Library Conventions</a></li>
+        <li><a href="{{ .Permalink }}">KLC {{ $rulename }}</a></li>
+      </ol>
       <header>
       <h2>KLC {{ $rulename }}</h2>
       {{ .Params.brief }}
