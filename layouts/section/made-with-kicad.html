@@ -39,7 +39,10 @@
 				{{ range $paginator.Pages }}
 					<div class="row">
 						<div class="col-md-5">
-							<img class="img-responsive" src="{{ .Params.projectimage }}">
+							{{ $img := (.Resources.GetMatch "*.{jpg,png,gif}") }}
+							{{ if $img }}
+							<img class="img-responsive" src="{{ $img.Permalink }}">
+							{{ end  }}
 						</div>
 						<div class="col-md-7">
 							<h3>{{ .Title }}</h3>

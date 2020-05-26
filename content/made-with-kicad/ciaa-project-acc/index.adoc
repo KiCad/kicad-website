@@ -1,0 +1,9 @@
++++
+title = "CIAA-ACC (HPC)"
+projectdeveloper = "The CIAA Project"
+projecturl = "https://github.com/ciaa/Hardware/tree/master/PCB/ACC/CIAA_ACC"
++++
+
+The link:http://www.proyecto-ciaa.com.ar/index_en.html[CIAA Project] is 
+an open hardware and software project started to lever the argentinean industrial environment.
+The CIAA-ACC is a 12 layer PCB design for High Performance Computing. It has a Xilinx Zynq-7000 SoC with an ARM 2x Cortex A9 CPU and a Kintex-7 FPGA. The form factor is the expandable PCIe-104. Peripherals: 1GB DDR3 memory, Quad SPI Flash, Gbit Ethernet, Micro SDHC, USB 2.0, dual role HDMI, PCIe 1x.

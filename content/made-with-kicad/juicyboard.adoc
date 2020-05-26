@@ -1,8 +1,0 @@
-+++
-title = "JuicyBoard"
-projectimage = "/img/madewithkicad/juicyboard.jpg"
-projectdeveloper = "plugg.ee Labs"
-projecturl = "https://plugg.ee"
-+++
-
-JuicyBoard from plugg.ee Labs is an link:https://github.com/pluggee/R1000AX[open source] modular robotics platform that can be used to build custom 3D printers, CNC machines and more.

@@ -1,0 +1,7 @@
++++
+title = "Tiny Reflow Controller"
+projectdeveloper = "Rocket Scream Electronics"
+projecturl = "https://github.com/rocketscream/TinyReflowController"
++++
+
+An open source link:http://www.rocketscream.com/blog/product/tiny-reflow-controller/[all-in-one Arduino compatible reflow controller] powered by ATtiny1634R.

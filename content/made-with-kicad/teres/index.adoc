@@ -1,0 +1,9 @@
++++
+title = "TERES I"
+projectdeveloper = "Olimex"
+projecturl = "https://github.com/OLIMEX/DIY-LAPTOP/tree/master/HARDWARE/A64-TERES"
++++
+
+The
+link:https://olimex.wordpress.com/2017/02/01/teres-i-do-it-yourself-open-source-hardware-and-software-hackers-friendly-laptop-is-complete/[TERES I] is a Do-It-Yourself Open Source Hardware and Software Laptop with
+ARM64 and x86 processors including MCAD files.

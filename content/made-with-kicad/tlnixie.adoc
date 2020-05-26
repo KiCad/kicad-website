@@ -1,9 +1,0 @@
-+++
-title = "Turmlabor nixie clock"
-projectimage = "/img/madewithkicad/tlnixie.png"
-projectdeveloper = "Ludwig Tesar"
-projecturl = "https://github.com/ludwig1992/tlnixie"
-+++
-
-Another nixie clock joining the internet of things. Using IN14 nixie
-tubes, an ESP12e or alternatively a DS3231 RTC.

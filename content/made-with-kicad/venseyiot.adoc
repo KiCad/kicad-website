@@ -1,8 +1,0 @@
-+++
-title = "VB-IoT1"
-projectimage = "/img/madewithkicad/vbiot1.png"
-projectdeveloper = "VeNSeY"
-projecturl = "https://github.com/venseytech/VB-IoT1"
-+++
-
-link:http://www.vensey.de/board[VB-IoT1] aims at providing a compact all-in-one solution. Due to popularity and support of open source community (software and hardware), we equipped our board with a high speed ARM-core, SIM900 (or SIM800F) and Atmega processor. The board can be used as a Linux embedded platform with GSM connection, an Arduino board with SIM900 (or SIM800F) shield, a standalone GSM shield, a full scale Android board. Additionally it has the LCD connectors, and touch screen support.

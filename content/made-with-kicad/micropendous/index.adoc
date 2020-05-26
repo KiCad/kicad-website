@@ -1,0 +1,10 @@
++++
+title = "Micropendous"
+projectdeveloper = "Opendous Inc."
+projecturl = "https://code.google.com/p/micropendous/"
++++
+
+The Micropendous boards were Development Boards for Atmel's USB AVR
+Microcontrollers with a Free and Open Source Software (FOSS) hardware, firmware,
+and software development platform. They were designed for USB peripheral and hosting
+development.

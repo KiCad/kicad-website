@@ -1,0 +1,7 @@
++++
+title = "Upconverter"
+projectdeveloper = "Opendous Inc."
+projecturl = "https://code.google.com/p/opendous/wiki/Upconverter"
++++
+
+MF/HF Upconverter for Receivers

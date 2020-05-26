@@ -1,8 +1,0 @@
-+++
-title = "ANAVI Flex HAT"
-projectimage = "/img/madewithkicad/anavi-flex.jpg"
-projectdeveloper = "Leon Anavi"
-projecturl = "http://anavi.technology/"
-+++
-
-link:https://github.com/AnaviTechnology/anavi-flex/tree/master/RaspberryPI_Hat[ANAVI Flex] is an open source Raspberry Pi HAT for IoT prototyping and home automation applications. It has infrared receiver and transmitter, relay, buzzer, button, RGB LED and UART pins for debugging. The board also supports 1602 LCD display module and up to 5 I2C sensors.

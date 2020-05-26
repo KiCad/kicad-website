@@ -1,0 +1,9 @@
++++
+title = "CIAA-FSL"
+projectdeveloper = "The CIAA Project"
+projecturl = "https://github.com/ciaa/Hardware/tree/master/PCB/FSL"
++++
+
+The link:http://www.proyecto-ciaa.com.ar/index_en.html[CIAA Project] is 
+an open hardware and software project started to lever the argentinean industrial environment.
+The CIAA-FSL is a four layer PCB designed to be used for industrial applications, and includes high quality terminals, beside of several protections and safety considerations. It has a 32-bit processor K60 Kinetis (ARM Cortex-M4) with several communication ports, including USB OTG, Ethernet, RS485, RS232, CAN, SPI, I2C, SD, A/D, D/A and support for connection of LCD display and GPIO input/output.

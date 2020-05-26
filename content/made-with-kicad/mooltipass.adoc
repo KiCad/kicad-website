@@ -1,8 +1,0 @@
-+++
-title = "Mooltipass"
-projectimage = "/img/madewithkicad/Mooltipass.jpg"
-projectdeveloper = "Mathieu Stephan"
-projecturl = "https://hackaday.io/project/86-mooltipass"
-+++
-
-An offline password keeper project created by and for the Hackaday community.

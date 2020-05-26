@@ -1,0 +1,10 @@
++++
+title = "CIAA-EDU-NXP"
+projectdeveloper = "The CIAA Project"
+projecturl = "https://github.com/ciaa/Hardware/tree/master/PCB/EDU-NXP"
++++
+
+The link:http://www.proyecto-ciaa.com.ar/index_en.html[CIAA Project] is 
+an open hardware and software project started to lever the argentinean industrial environment.
+The EDU-CIAA-NXP was created specifically to be used in education, as an introductory board for the CIAA-NXP (also cheaper). 
+It has the same processor as the CIAA-NXP, an ARM Cortex-M4F/Cortex-M0 32-bit dual core, push buttons, several LEDs, ADC and DAC, many digital inputs and outputs, and is powered via USB.

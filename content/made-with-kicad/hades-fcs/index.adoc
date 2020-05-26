@@ -1,0 +1,7 @@
++++
+title = "HADES Flight Control System"
+projectdeveloper = "Philip Salmony"
+projecturl = "https://github.com/pms67/HadesFCS/"
++++
+
+link:https://github.com/pms67/HadesFCS[HADES FCS] is an open-source flight control system for unmanned aerial vehicles (UAVs) designed completely from scratch. This includes the hardware (custom flight-control PCBs), STM32 firmware (using FreeRTOS), Kalman filtering for state estimation, control algorithms, base station, communication protocol, flight simulator, signal processing, and much, much more.

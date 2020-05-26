@@ -1,0 +1,9 @@
++++
+title = "CIAA-picoCIAA"
+projectdeveloper = "The CIAA Project"
+projecturl = "https://github.com/ciaa/Hardware/tree/master/PCB/NXP"
++++
+
+The link:http://www.proyecto-ciaa.com.ar/index_en.html[CIAA Project] is 
+an open hardware and software project started to lever the argentinean industrial environment.
+Aimed at small footprint projects and also with PCI Express interface. It has a dual core 32-bit ARM Cortex M4F/M0+ @100 MHz CPU, with USB, PCI Express, UART, SPI, I2C, PWM and GPIOs.
