@@ -2,6 +2,9 @@
 title = "MNT Reform"
 projectdeveloper = "MNT Research GmbH"
 projecturl = "https://mntre.com/reform"
+"made-with-kicad/categories" = [
+    "Computer"
+]
 +++
 
 The https://mntre.com/[MNT Reform] is a modular laptop launched in 2020 featuring https://github.com/mntmn/reform[7 open hardware PCBs] made with KiCAD: motherboard (SoM carrier for Boundary Devices Nitrogen8M_SOM), mechanical keyboard, OLED, optical trackball, trackball sensor, trackpad, battery pack. STEP files for the CNC milled case and STL files for the 3D-printable parts are available as well. The goals of the project are to increase ownership, transparency, repairability and privacy of mobile computers.

@@ -1,4 +1,3 @@
-
 {{ $.Scratch.Set "description" "Showcase of various PCB designs Made with KiCad!" }}
 {{ partial "header.html" . }}
 
@@ -15,18 +14,18 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 {{ if .Scratch.Get "sidemenu" }}col-md-10 col-sm-9{{ else }}col-sm-12{{ end }}">
+		<div class="col-md-8 col-sm-9">
 			{{ partial "breadcrumb.html" . }}
 
 			<div class="page-heading">
 				<h1>Made With KiCad</h1>
-        <p>
-				These are some KiCad designed projects that have been made by users. If you want to
-				be featured along the other showcases on this page please submit a pull request
-				<a href="https://github.com/KiCad/kicad-website">on GitHub</a> if you meet
-			    the <a href="https://github.com/KiCad/kicad-website/blob/master/CONTRIBUTING.adoc">contributing guidelines</a>
-				for requirements on adding a project!
-        </p>
+				<p>
+						These are some KiCad designed projects that have been made by users. If you want to
+						be featured along the other showcases on this page please submit a pull request
+						<a href="https://github.com/KiCad/kicad-website">on GitHub</a> if you meet
+						the <a href="https://github.com/KiCad/kicad-website/blob/master/CONTRIBUTING.adoc">contributing guidelines</a>
+						for requirements on adding a project!
+				</p>
 			</div>
 
 			{{ $allSectionContent := where .Site.Pages "Section" "made-with-kicad" }}
@@ -37,27 +36,15 @@
 			<hr />
 			<div class="row">
 				{{ range $paginator.Pages }}
-					<div class="row">
-						<div class="col-md-5">
-							{{ $img := (.Resources.GetMatch "*.{jpg,png,gif}") }}
-							{{ if $img }}
-							<img class="img-responsive" src="{{ $img.Permalink }}">
-							{{ end  }}
-						</div>
-						<div class="col-md-7">
-							<h3>{{ .Title }}</h3>
-							<h4>{{ .Params.projectdeveloper }}</h4>
-							<p>{{ .Content }}</p>
-							<a class="btn btn-primary" href="{{ .Params.projecturl }}">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
-						</div>
-					</div>
-					<hr />
+					{{ partial "mwk_entry.html" . }}
 				{{ end }}
 			</div>
 			{{ template "_internal/pagination.html" . }}
 		</div>
 
-		{{ partial "sidebar.html" . }}
+        <div class="col-md-3">
+            {{ partial "mwk_categories.html" . }}
+        </div>
 	</div>
 </div>
 

@@ -2,6 +2,9 @@
 title = "ATMEGA328 Motor Board"
 projectdeveloper = "Antonio Morales"
 projecturl = "https://github.com/AntonioMR/ATMEGA328-Motor-Board"
+"made-with-kicad/categories" = [
+    "Motor Controller"
+]
 +++
 
 A general purpose motor controller designed with kicad around the

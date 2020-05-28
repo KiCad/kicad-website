@@ -1,0 +1,12 @@
+<div>
+    <h4 class="sidebar-widget-title">Categories</h4>
+    <ul>
+        {{ $tax := index .Site.Taxonomies "made-with-kicad/categories" }}
+        {{ range $key, $taxonomy := $tax }}
+        <li style="margin-top:5px;">
+            <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+            <span class="label label-default">{{ .Count }}</span>
+        </li>
+        {{ end }}
+    </ul>
+</div>

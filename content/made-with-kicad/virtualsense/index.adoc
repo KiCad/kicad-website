@@ -2,6 +2,9 @@
 title = "VirtualSense"
 projectdeveloper = "University of Urbino, Neunet"
 projecturl = "http://virtualsense.it"
+"made-with-kicad/categories" = [
+    "Wireless"
+]
 +++
 
 Open-Hardware Ultra-Low-Power Wireless Sensor Node

@@ -2,6 +2,9 @@
 title = "ANAVI Infrared pHAT"
 projectdeveloper = "Leon Anavi"
 projecturl = "http://anavi.technology/"
+"made-with-kicad/categories" = [
+    "Pi Hat"
+]
 +++
 
 link:https://github.com/AnaviTechnology/anavi-infrared[ANAVI Infrared pHAT] is an add-on board that converts Raspberry Pi in a powerful remote control. It features two IR transmitters, IR receiver, three slots for I2C sensor modules, UART pins for debugging and EEPROM with board manufacturer information.

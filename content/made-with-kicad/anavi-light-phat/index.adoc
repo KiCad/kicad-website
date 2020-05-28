@@ -2,6 +2,9 @@
 title = "ANAVI Light pHAT"
 projectdeveloper = "Leon Anavi"
 projecturl = "http://anavi.technology/"
+"made-with-kicad/categories" = [
+    "Pi Hat"
+]
 +++
 
 link:https://github.com/AnaviTechnology/anavi-light[ANAVI Light pHAT] is a Raspberry Pi add-on board for controlling 12V RGB LED strip. Furthermore, it has three slots for I2C sensor modules, slot for PIR motion sensor, UART pins for debugging and EEPROM with board manufacturer information.

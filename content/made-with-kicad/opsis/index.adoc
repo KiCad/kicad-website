@@ -2,6 +2,9 @@
 title = "Opsis"
 projectdeveloper = "Numato & TimVideos"
 projecturl = "http://opsis.hdmi2usb.tv"
+"made-with-kicad/categories" = [
+    "Development Board"
+]
 +++
 
 The Opsis is a powerful FPGA-based open source video platform for videographers

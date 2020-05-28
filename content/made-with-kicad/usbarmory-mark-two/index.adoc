@@ -2,6 +2,9 @@
 title = "USB armory Mk II"
 projectdeveloper = "Inverse Path / F-Secure"
 projecturl = "https://github.com/inversepath/usbarmory"
+"made-with-kicad/categories" = [
+    "USB Device"
+]
 +++
 
 The USB armory from Inverse Path is an link:https://github.com/inversepath/usbarmory/tree/master/hardware/mark-two[open source] hardware design, implementing a flash drive sized computer.

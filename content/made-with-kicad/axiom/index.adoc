@@ -2,6 +2,9 @@
 title = "Axiom motor controller"
 projectdeveloper = "EV Power Designs Inc."
 projecturl = "http://www.powerdesigns.ca"
+"made-with-kicad/categories" = [
+    "Motor Controller"
+]
 +++
 
 Axiom is a high power, high performance 100kW+ motor controller based upon the link:https://vesc-project.com/[VESC platform] for compatibility with firmware and GUI.

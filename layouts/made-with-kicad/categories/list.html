@@ -1,0 +1,24 @@
+{{ $.Scratch.Set "description" (printf "\"%s\" Projects that were Made with KiCad" .Title) }}
+{{ partial "header.html" . }}
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-9 post-full">
+			{{ partial "breadcrumb.html" . }}
+
+			<div class="page-heading">
+				<h1>"{{ title .Title }}" Projects</h1>
+			</div>
+
+            {{ range .Paginator.Pages }}
+                {{ partial "mwk_entry.html" . }}
+            {{ end }}
+            {{ template "_internal/pagination.html" . }}
+        </div>
+        <div class="col-md-3">
+            {{ partial "mwk_categories.html" . }}
+        </div>
+	</div>
+</div>
+
+{{ partial "footer.html" . }}

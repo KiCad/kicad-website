@@ -2,6 +2,9 @@
 title = "Saturn"
 projectdeveloper = "Numato"
 projecturl = "http://numato.cc/content/saturn-another-attempt-make-open-source-spartan-6-fpga-board-ddr-sdram"
+"made-with-kicad/categories" = [
+    "Development Board"
+]
 +++
 
 Saturn is an easy to use FPGA Development board featuring Xilinx Spartan-6 FPGA.

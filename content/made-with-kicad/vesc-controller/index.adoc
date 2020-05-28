@@ -2,6 +2,9 @@
 title = "VESC controller"
 projectdeveloper = "PALTA TECH S.A."
 projecturl = "https://github.com/paltatech/VESC-controller"
+"made-with-kicad/categories" = [
+    "Motor Controller"
+]
 +++
 
 link:http://www.paltatech.com/motores-trifasicos/[VESC controller] is a 3 phase motor controller.

@@ -2,6 +2,9 @@
 title = "CIAA-ACC (HPC)"
 projectdeveloper = "The CIAA Project"
 projecturl = "https://github.com/ciaa/Hardware/tree/master/PCB/ACC/CIAA_ACC"
+"made-with-kicad/categories" = [
+    "Single-board Computer"
+]
 +++
 
 The link:http://www.proyecto-ciaa.com.ar/index_en.html[CIAA Project] is 

@@ -2,6 +2,9 @@
 title = "Micropendous"
 projectdeveloper = "Opendous Inc."
 projecturl = "https://code.google.com/p/micropendous/"
+"made-with-kicad/categories" = [
+    "Development Board"
+]
 +++
 
 The Micropendous boards were Development Boards for Atmel's USB AVR

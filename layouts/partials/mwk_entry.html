@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-md-5">
+        {{ $img := (.Resources.GetMatch "*.{jpg,png,gif}") }}
+        {{ if $img }}
+        <img class="img-responsive" src="{{ $img.Permalink }}">
+        {{ end  }}
+    </div>
+    <div class="col-md-7">
+        <h3>{{ .Title }}</h3>
+        <h4>{{ .Params.projectdeveloper }}</h4>
+        <p>{{ .Content }}</p>
+        <a class="btn btn-primary" href="{{ .Params.projecturl }}">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+</div>
+<hr />

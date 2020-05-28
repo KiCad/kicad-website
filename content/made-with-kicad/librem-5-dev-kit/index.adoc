@@ -2,6 +2,9 @@
 title = "Librem 5 Dev Kit"
 projectdeveloper = "Purism"
 projecturl = "https://source.puri.sm/Librem5/dvk-mx8m-bsb/"
+"made-with-kicad/categories" = [
+    "Development Board"
+]
 +++
 
 The link:https://puri.sm/posts/how-we-designed-the-librem-5-dev-kit-with-100-free-software//[Librem 5 Dev Kit] is a smartphone developer kit that is used by software developers to create apps and other software for the final Librem 5 GNU/Linux smartphone.

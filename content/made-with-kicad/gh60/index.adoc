@@ -2,6 +2,9 @@
 title = "GH60"
 projectdeveloper = "Komar's techblog"
 projecturl = "http://blog.komar.be/projects/gh60-programmable-keyboard/"
+"made-with-kicad/categories" = [
+    "USB Device"
+]
 +++
 
 GH60 is a custom programmable mechanical keyboard designed for the geekhack community.

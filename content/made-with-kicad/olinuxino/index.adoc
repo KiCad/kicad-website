@@ -2,6 +2,9 @@
 title = "A64-OLinuXino"
 projectdeveloper = "Olimex"
 projecturl = "https://github.com/OLIMEX/OLINUXINO/tree/master/HARDWARE/A64-OLinuXino"
+"made-with-kicad/categories" = [
+    "Single-board Computer"
+]
 +++
 
 link:https://olimex.wordpress.com/2016/02/17/a64-olinuxino-64-bit-arm-oshw-designed-completely-with-kicad-is-live/[A64-OLinuXino] is a single-board computer running Linux & Android.

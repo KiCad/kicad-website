@@ -2,6 +2,9 @@
 title = "Mooltipass"
 projectdeveloper = "Mathieu Stephan"
 projecturl = "https://hackaday.io/project/86-mooltipass"
+"made-with-kicad/categories" = [
+    "USB Device"
+]
 +++
 
 An offline password keeper project created by and for the Hackaday community.

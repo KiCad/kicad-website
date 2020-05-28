@@ -2,6 +2,9 @@
 title = "Crazyflie 1.0"
 projectdeveloper = "Bitcraze AB"
 projecturl = "https://www.bitcraze.io"
+"made-with-kicad/categories" = [
+    "Drones"
+]
 +++
 
 The Crazyflie 1.0 is an open flying development platform. It is a versatile

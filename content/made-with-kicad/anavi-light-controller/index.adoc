@@ -2,6 +2,9 @@
 title = "ANAVI Light Controller"
 projectdeveloper = "Leon Anavi"
 projecturl = "http://anavi.technology/"
+"made-with-kicad/categories" = [
+    "Wireless"
+]
 +++
 
 link:https://github.com/AnaviTechnology/anavi-light-controller[ANAVI Light Controller] is a certified open source hardware WiFi device for controlling a 12 V RGB LED strip. It also supports I2C sensor modules for light, temperature, humidity, and gesture recognition.

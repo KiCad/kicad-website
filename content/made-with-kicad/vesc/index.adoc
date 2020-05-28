@@ -2,6 +2,9 @@
 title = "VESC"
 projectdeveloper = "Benjamin's robotics"
 projecturl = "http://vedder.se/2015/01/vesc-open-source-esc/"
+"made-with-kicad/categories" = [
+    "Motor Controller"
+]
 +++
 
 An link:https://github.com/vedderb/bldc[Open Source] ESC.
