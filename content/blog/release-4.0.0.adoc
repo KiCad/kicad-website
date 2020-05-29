@@ -45,7 +45,7 @@ A short summary of updates between KiCad 4.0.0 and the 'old stable' follows belo
 
 - New website
 - Continuous integration tools via Jenkins (http://ci.kicad-pcb.org )
-- Nightly builds for windows, OS X, fedora, ubuntu, and openSUSE (see link:http://kicad-pcb.org/download/[downloads] for information)
+- Nightly builds for windows, OS X, fedora, ubuntu, and openSUSE (see link:/download/[downloads] for information)
 
 === Minor Items
 

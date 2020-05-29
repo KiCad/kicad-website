@@ -18,16 +18,16 @@ https://git.launchpad.net/kicad/log/?h=5.0[stable 5.0] branch.
 
 KiCad binaries should be available now or in the very near future for
 download for Windows, macOS and Linux.  See the
-http://kicad-pcb.org/download/[download page] for guidance.
+link:/download/[download page] for guidance.
 
 Instructions for packagers can be found on
-http://kicad-pcb.org/download/source/[the download page describing how
+link:/download/source/[the download page describing how
 to build from source ]. Below are also some packaging
 <<packaging-changes,packaging related changes>> since the 4.0 releases.
 
 The official KiCad libraries have also seen a lot of improvement in
 management, style and consistency by the librarians.  Read more about
-this on the http://kicad-pcb.org/libraries/download/[new library
+this on the link:/libraries/download/[new library
 section on the website.]
 
 Thank you to all developers, packagers, librarians, document writers,
@@ -39,7 +39,7 @@ translators, and everyone else who helped make this release possible.
 * New libraries for symbols, footprints and 3D models (parts adhere to the KiCad
   Library Convention (KLC) and are organized differently than in V4 libraries)
 ** Library changes automatically updated on the
-   http://kicad-pcb.org/libraries/download/[library page of the KiCad website]
+   link:/libraries/download/[library page of the KiCad website]
 * New 3D viewer
 * New 3D model plugin architecture
 ** Now supports STEP and IGES viewer
@@ -134,7 +134,7 @@ library.
 
 Beyond dependencies, the library has had a major restructuring such that the
 footprints are in one git repository and the templates have been separated
-out to its own repo as well. See http://kicad-pcb.org/download/source/
+out to its own repo as well. See the link:/download/source/[source download page]
 for all relevant information.
 
 We hope you enjoy version 5 of KiCad.

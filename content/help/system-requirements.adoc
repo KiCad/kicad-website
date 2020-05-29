@@ -37,11 +37,11 @@ toc::[]
    GeForce FX (NV3x), GeForce 6 Series (NV4x), NV3xGL-based Quadro FX and NV4xGL-based
    Quadro FX GPUs, and all future NVIDIA GPUs support OpenGL 2.0.
 ** AMD/ATI: should work any modern Radeon GPU, but check for some issues here:
-   http://kicad-pcb.org/help/known-system-related-issues/#_bad_graphics_cards
+   link:/help/known-system-related-issues/#_bad_graphics_cards[Bad Graphics Cards]
 
 == Common System Requirements (software specs)
 
-See: http://kicad-pcb.org/help/known-system-related-issues/ for software specific issues.
+See: link:/help/known-system-related-issues/[Known system related issues] for software specific issues.
 
 == Specific System Requirements
 

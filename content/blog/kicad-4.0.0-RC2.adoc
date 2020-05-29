@@ -10,7 +10,7 @@ aliases = [
 +++
 
 Now, approximately two months after the
-link:http://kicad-pcb.org/post/2015-release-candidate/[first release
+link:/post/2015-release-candidate/[first release
 candidate] we can now
 link:https://lists.launchpad.net/kicad-developers/msg21192.html[announce
 the second release candidate, *4.0.0 RC2*], this is *BZR 6303* from

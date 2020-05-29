@@ -25,10 +25,10 @@ of KiCad.
 
 KiCad binaries are available or will be available in the near future
 for download for Windows, OSX and Linux, see the
-link:http://kicad-pcb.org/download/[download page] for guidance.
+link:/download/[download page] for guidance.
 
 Instructions for packagers can be found on
-http://kicad-pcb.org/download/source/[the download page describing how to build
+link:/download/source/[the download page describing how to build
 from source] and its subpages.
 
 Thank you to all developers, packagers, librarians, document writers,

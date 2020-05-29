@@ -1,5 +1,5 @@
 
 CAUTION: {dist} is not officially supported by the KiCad project.  This link is provided as a reference to {dist} users 
 but the KiCad project cannot guarantee that users will not encounter distribution-specific issues.  Issues encountered
-while using {dist} will need to be recreated in a http://kicad-pcb.org/help/system-requirements/#_gnulinux[supported distribution]
+while using {dist} will need to be recreated in a link:/help/system-requirements/#_gnulinux[supported distribution]
 before the KiCad developers can address it.

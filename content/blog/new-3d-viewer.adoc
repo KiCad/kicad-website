@@ -23,8 +23,7 @@ Features include:
 
 * Two new render targets: OpenGL (GPU accelerated), and ray tracing
 with post-processing effects.
-* Takes full advantage of the new 3D plugins
-<http://kicad-pcb.org/post/in-development-3d-plugins/> system - easier
+* Takes full advantage of the new link:/post/in-development-3d-plugins/[3D plugins system] - easier
 path search and file assignment using environment variables.
 * 3D model cache - fast 3D models loading.
 * Faster board loading.
