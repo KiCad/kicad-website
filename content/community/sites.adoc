@@ -1,5 +1,6 @@
 +++
 title = "Sites"
+summary = "Lists of community sites dedicated to KiCad"
 [menu.main]
     parent = "Community"
     name   = "Sites"
@@ -21,7 +22,7 @@ each other.
 | English                | link:https://www.eevblog.com/forum/kicad/[EEVblog Forum KiCAD Section]
 | Español                | link:http://www.elektroquark.com/forokicad/index.php[El foro de KiCad en castellano]
 | Español                | link:https://kicad.es/[Foro de KiCad en español (discourse)]
-| Chinese(中文论坛)        | http://bbs.elecfans.com/zhuti_kicad_1.html[KiCad on elecfans.com]
+| Chinese (中文论坛)      | http://bbs.elecfans.com/zhuti_kicad_1.html[KiCad on elecfans.com]
 |===
 
 

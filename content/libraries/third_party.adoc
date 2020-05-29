@@ -1,5 +1,6 @@
 +++
 title = "Third Party Libraries"
+summary = "A list notable Third Party Libraries available for use with KiCad"
 [menu.main]
     parent = "Libraries"
     name = "Third Party Libraries"

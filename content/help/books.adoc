@@ -1,9 +1,10 @@
 +++
 title = "Books"
+summary = "Various books written to help users learn KiCad"
 [menu.main]
     parent = "Help"
     name   = "Books"
-weight = 50
+    weight = 50
 +++
 
 == KiCad Like a Pro

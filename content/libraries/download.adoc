@@ -1,5 +1,6 @@
 +++
 title = "Download Libraries"
+summary = "Information on how to obtain KiCad library updates for various KiCad versions"
 [menu.main]
     parent = "Libraries"
     name = "Download"
