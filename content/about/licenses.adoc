@@ -29,6 +29,6 @@ The link:/libraries[KiCad libraries] are distributed under the CC-BY-SA 4.0 lice
 Unless otherwise stated, all text and images on this website are licensed under either a choice of the Creative Commons Attributions License, version 3.0 or later; or the General Public License version 3 or later. This does not include the KiCad source code, libraries, documentation, and any third party tools or products mentioned on the website.
 
 == Terms
-include::./content/about/licenses/agplv3.adoc[]
-include::./content/about/licenses/gplv3.adoc[]
-include::./content/about/licenses/cc-by-3.0.adoc[]
+include::./content/about/licenses/_agplv3.adoc[]
+include::./content/about/licenses/_gplv3.adoc[]
+include::./content/about/licenses/_cc-by-3.0.adoc[]
