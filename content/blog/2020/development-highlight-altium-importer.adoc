@@ -20,7 +20,7 @@ image::/img/blog/2020/import-non-kicad.png[align=center, width=80%, alt="Import 
 
 image::/img/blog/2020/import-non-kicad-filter.png[align=center, width=80%, alt="Altium PcbDoc selector shown in file open explorer", link=/img/blog/2020/import-non-kicad-filter.png]
 
-After selecting your PcbDoc file and a short delay. Pcbnew will display it's best attempt at a import and provide warnings if it had any difficulties importing the file.
+After selecting your PcbDoc file and a short delay. Pcbnew will display its best attempt at a import and provide warnings if it had any difficulties importing the file.
 
 image::/img/blog/2020/import-non-kicad-pcbdoc-complete.png[align=center, width=80%, alt="Altium PcbDoc selector shown in file open explorer", link=/img/blog/2020/import-non-kicad-pcbdoc-complete.png]
 
