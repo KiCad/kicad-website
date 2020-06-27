@@ -9,6 +9,8 @@ title = "In the Media"
 
 **KiCad has been featured in the following blog posts, press and media:**
 
+https://octopart.com/blog/archives/2020/06/over-850-000-free-kicad-models-now-on-octopart[Octopart Announces KiCad Library Support] (27-JUN-2020)
+
 https://www.linuxfoundation.org/press-release/2019/11/kicad-joins-linux-foundation-to-advance-electronic-design-automation/[KiCad joins the Linux Foundation] (22-NOV-2019)
 
 http://blog.snapeda.com/2019/10/28/an-interview-with-wayne-stambaugh-of-kicad/[Why open hardware needs open software – and more from Wayne Stambaugh of KiCad] (28-OCT-2019)
