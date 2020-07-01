@@ -1,6 +1,6 @@
 +++
-title = "MacOS"
-summary = "Downloads for MacOS 10.12 thru 10.15 on Linx Mint"
+title = "macOS Downloads"
+summary = "Downloads for macOS 10.12 thru 10.15"
 iconhtml = "<div><i class='fab fa-apple'></i></div>"
 weight = 2
 aliases = [
@@ -10,7 +10,7 @@ aliases = [
 :icons:
 :iconsdir: /img/icons/
 
-KiCad is known to work on Mac OS X 10.12 through macOS 10.15.  See
+KiCad is known to work on macOS 10.12 through macOS 10.15.  See
 link:/help/system-requirements/[System Requirements] for more details.
 
 == Stable Release
