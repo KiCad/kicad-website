@@ -1,5 +1,6 @@
 +++
-title = "Linux Mint"
+title = "Installon Linux Mint"
+distro = "Linux Mint"
 summary = "Install instructions for KiCad on Linx Mint"
 iconhtml = "<div class='fl-linuxmint'></div>"
 weight = 21

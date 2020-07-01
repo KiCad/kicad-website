@@ -21,12 +21,12 @@
 	<aside>
 		<nav class="secondary">
 			<!-- sidebar menu start-->
-			<h3>All&nbsp;Platforms</h3>
+			<h3>All Platforms</h3>
 			<ul class="list-unstyled side-links list-group download-sidebar">
 				{{ range where .Site.Sections "Title" "Download" }}
 					{{ range .Pages }}
-						{{ if .Title }}
-						<li class="list-group-item{{ if  eq $currentNode . }} active{{ end }}"><a href="{{ .RelPermalink }}">{{  safeHTML .Params.iconhtml }} {{ .Title }}</a></li>
+						{{ if .Params.distro }}
+						<li class="list-group-item{{ if  eq $currentNode . }} active{{ end }}"><a href="{{ .RelPermalink }}">{{  safeHTML .Params.iconhtml }} {{ .Params.distro }}</a></li>
 						{{ end }}
 					{{ end }}
 				{{ end }}

@@ -1,5 +1,6 @@
 +++
 title = "macOS Downloads"
+distro = "macOS"
 summary = "Downloads for macOS 10.12 thru 10.15"
 iconhtml = "<div><i class='fab fa-apple'></i></div>"
 weight = 2

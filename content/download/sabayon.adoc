@@ -1,5 +1,6 @@
 +++
-title = "Sabayon"
+title = "Install on Sabayon"
+distro = "Sabayon"
 summary = "Install instructions for KiCad on Sabayon"
 iconhtml = "<div class='fl-sabayon'></div>"
 weight = 95

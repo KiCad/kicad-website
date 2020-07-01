@@ -1,5 +1,6 @@
 +++
-title = "Debian"
+title = "Install on Debian"
+distro = "Debian"
 summary = "Install instructions for KiCad on Debian"
 iconhtml = "<div class='fl-debian'></div>"
 weight = 10

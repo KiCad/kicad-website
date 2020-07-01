@@ -29,11 +29,11 @@
 			<div class="row">
 				<ul class="col-xs-12">
 					{{ range .Data.Pages }}
-						{{ if .Title }}
+						{{ if .Params.distro }}
 						<li class="list-group-item col-md-4 col-xs-12 col-sm-6 download-os">
 							<a href="{{ .RelPermalink }}">
 								{{ .Params.iconhtml | safeHTML }}
-								{{ .Title }}
+								{{ .Params.distro }}
 							</a>
 						 </li>
 						{{end}}
