@@ -9,10 +9,17 @@
 		<div class="col-lg-8 col-lg-offset-2 {{ if .Scratch.Get "sidemenu" }}col-md-10 col-sm-9{{ else }}col-sm-12{{ end }}">
 			{{ partial "breadcrumb.html" . }}
 
+			{{ if .Params.single }}
+			<div class="page-heading">
+				<h1>{{ replace .Title "-" " " }}</h1>
+			</div>
+			{{ .Content }}
+			{{ else }}
 			<div class="page-heading">
 				<h1>{{ title .Title }}</h1>
 				<h4>{{ .Params.projectdeveloper }}</h4>
 			</div>
+
 			<div class="col-md-5">
 				{{ $img := (.Resources.GetMatch "*.{jpg,png,gif}") }}
 				{{ if $img }}
@@ -23,6 +30,7 @@
 				<p>{{ .Content }}</p>
 				<a class="btn btn-primary" href="{{ .Params.projecturl }}">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
 			</div>
+			{{ end }}
 		</div>
 
 	</div>

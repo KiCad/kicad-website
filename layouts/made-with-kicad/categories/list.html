@@ -6,7 +6,7 @@
 		<div class="col-md-9 post-full">
 			{{ partial "breadcrumb.html" . }}
 
-			<div class="page-heading">
+			<div class="page-heading my-3">
 				<h1>"{{ title .Title }}" Projects</h1>
 			</div>
 
@@ -17,6 +17,7 @@
         </div>
         <div class="col-md-3">
             {{ partial "mwk_categories.html" . }}
+			{{ partial "mwk_submit.html" . }}
         </div>
 	</div>
 </div>

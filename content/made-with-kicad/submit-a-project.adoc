@@ -1,0 +1,72 @@
++++
+title = "Submit a Project"
+summary = "How to submit a project to the Made with KiCad showcase"
+single = true
++++
+
+
+== Prerequisites
+
+If you wish to submit a project for the "Made with KiCad" section, the project
+must meet one of the requirements below:
+
+=== Open (by license) Hardware Projects:
+
+*Minimum:* The board file can be downloaded so that it can be modified.
+
+*Preferred:* The entire project should be made available for download and
+KiCad should be mentioned on the project website.
+
+*Note*: We strive for diveristy to showcase KiCad and acknowledge your
+project. If you have many similar designs, please only submit the
+design your are proudest of.
+
+=== Proprietary Projects/Products:
+
+Proprietary projects or products have a choice of one of these criteria:
+
+- Directly mention that KiCad was used to design the product
+- The project owner has contributed code to KiCad (i.e. developers submitted
+patches on behalf of a company), the developers with contribution history
+ must submit the pull request to add to "made with kicad" entry.
+- The project owner has donated to KiCad via CERN.
+
+
+== Submission Process
+
+. Fork the https://github.com/KiCad/kicad-website repository on GitHub
+. Add a new folder in your fork under the `/content/made-with-kicad/` folder such as `/content/made-with-kicad/my-project-a/`
+. Create a index.adoc in the newly created folder with the following template as a base
++
+```
++++
+title = "My Project A"
+projectdeveloper = "John Smith"
+projecturl = "https://example.com/url-to-project-repo-or-page"
+"made-with-kicad/categories" = [
+    "Drones"
+]
++++
+
+My project is totally cool and awesome
+```
+. Customize the template to replace the fields with the ones fitting your project
+.. The categories list is a comma deliminted list. Take a look at the existing categories on display at link:/made-with-kicad/[Made with KiCad]
+.. Add one or more categories like this
++
+```
+"made-with-kicad/categories" = [
+    "Drones"
+]
+```
++
+```
+"made-with-kicad/categories" = [
+    "Motor Controller", 
+    "Drones"
+]
+```
+. Create a image for the project. It should be in either `png` or `jpg` format and no larger than `800x600` in size. Add the image to the same folder as the index.adoc
+. Commit both the image and `index.adoc` to your fork of the repository and link:https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request[submit a pull-request] to the original KiCad repository
+
+*Don't be afraid to try your best and ask for help in the link:https://github.com/KiCad/kicad-website[repository]!*
