@@ -1,5 +1,5 @@
 +++
-title = "Installon Linux Mint"
+title = "Install on Linux Mint"
 distro = "Linux Mint"
 summary = "Install instructions for KiCad on Linx Mint"
 iconhtml = "<div class='fl-linuxmint'></div>"
