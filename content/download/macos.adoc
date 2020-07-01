@@ -11,7 +11,7 @@ aliases = [
 :icons:
 :iconsdir: /img/icons/
 
-KiCad is known to work on macOS 10.12 through macOS 10.15.  See
+KiCad runs on macOS 10.12 through macOS 10.15.  See
 link:/help/system-requirements/[System Requirements] for more details.
 
 == Stable Release
