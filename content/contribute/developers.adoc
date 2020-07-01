@@ -87,7 +87,7 @@ You might want to look into link:++https://gitlab.com/kicad/code/kicad/issues?sc
 
 Or for example if you are an macOS user, you might want to check the
 following
-link:++https://gitlab.com/kicad/code/kicad/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=macos++[issues tagged as 'osx'].
+link:++https://gitlab.com/kicad/code/kicad/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=macos++[issues tagged as 'macos'].
 
 
 == Internet Relay Chat (_IRC_)
