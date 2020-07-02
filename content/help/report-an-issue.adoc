@@ -7,6 +7,8 @@ aliases = [ "/help/report-a-bug/", "/help/report-a-issue/" ]
     name   = "Report an Issue"
     weight = 35
 +++
+:linkattrs:
+
 
 == Before you begin
 KiCad is composed of a few separate parts that come together as the application.
@@ -27,34 +29,42 @@ Please do your absolute best to fill in the issue per contents of the descriptio
 It helps both you and developers to resolve issues.
 
 
-== Repositories
+== Reporting Locations
 
 === KiCad (applications)
 If you have a functional issue with using any application be it the project launcher (KiCad),
 schematic editor (Eeschema), pcb editor (Pcbnew), Gerber viewer (gerbview) and other executables.
 
-The correct issue repository is located https://gitlab.com/kicad/code/kicad/issues[here] 
+link:https://gitlab.com/kicad/code/kicad/-/issues[I have an application issue^,role="btn btn-default btn-primary"] 
 
 === Translations (for the applications)
 KiCad applications by default have all of their interface text written in English. A group of contributors creates special translation files
 to convert the English text to other languages. 
 
-If there is any issue with a translation or even a missing translation, please report is https://gitlab.com/kicad/code/kicad-i18n/issues[here]
+
+link:https://gitlab.com/kicad/code/kicad-i18n/-/issues[I have a translation issue^,role="btn btn-default btn-primary"] 
 
 === Documentation (any language)
 All the documentation is made up a team of contributors that spend their time painstakingly keeping content up to date with KiCad's changes.
 Additionally contributors also spend time translating the same manuals into other languages.
 
-If there are issues with any content in a manual in any language including English, please report it https://gitlab.com/kicad/services/kicad-doc[here] 
+link:https://gitlab.com/kicad/services/kicad-doc/-/issues[I have a documentation issue^,role="btn btn-default btn-primary"] 
+
 
 === Website
-The website is maintained by another group of maintainers. 
-
-Any issues with the docs website (docs.kicad-pcb.org) should be reported https://github.com/KiCad/kicad-doc-website[here]
-Any issues with the main website (kicad-pcb.org) should be reported here https://github.com/KiCad/kicad-website[here]
+The website is maintained by another group of maintainers. The main website at kicad-pcb.org is separate from the documentation website
+docs.kicad-pcb.org. Please report any issues in the correct location.
 
 
-== Usage Support Requests
-Issue trackers are not for general support requests relating to how do you use or do something in KiCad.
 
-You should instead look at the link:/community/sites/[community forums links] for communities that can provide help.
+link:https://github.com/KiCad/kicad-website/issues[I have a kicad-pcb.org issue^,role="btn btn-default btn-primary"] 
+
+
+link:https://gitlab.com/kicad/services/kicad-doc-website/-/issues[I have a docs.kicad-pcb.org issue^,role="btn btn-default btn-primary"] 
+
+
+
+== Support/Help Requests
+Issue trackers are not for general support requests asking how do you use or do something in KiCad.
+
+We ask you instead look at the link:/community/sites/[community forums links] for communities that can provide help.

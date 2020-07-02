@@ -18,7 +18,13 @@ p {
 li p {
     margin: 0px 0;
 }
-p a { text-decoration: underline }
+p a { 
+    text-decoration: underline 
+}
+p a.btn {
+    text-decoration: none;
+}
+
 h1,
 h2,
 h3,
