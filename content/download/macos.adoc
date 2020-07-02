@@ -24,7 +24,7 @@ Current Version: *5.1.6*
 	<div class="panel panel-default">
 		<div class="panel-heading" role="tab" id="mirrors-macos14-heading">
 			<h3 class="panel-title">
-				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#mirrors-macos14" aria-expanded="true" aria-controls="mirrors-macos14">
+				<a role="button" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#mirrors-macos14" aria-expanded="true" aria-controls="mirrors-macos14">
 					macOS 10.14 and newer
 				</a>
 			</h3>
@@ -46,7 +46,7 @@ Current Version: *5.1.6*
 	<div class="panel panel-default">
 		<div class="panel-heading" role="tab" id="mirrors-macos12-heading">
 			<h3 class="panel-title">
-				<a role="button"class="collapsed"  data-toggle="collapse" data-parent="#accordion" href="#mirrors-macos12" aria-expanded="false" aria-controls="mirrors-macos12">
+				<a role="button" class="collapsed accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#mirrors-macos12" aria-expanded="false" aria-controls="mirrors-macos12">
 					macOS 10.12 and 10.13
 				</a>
 			</h3>
@@ -67,7 +67,7 @@ Current Version: *5.1.6*
 	<div class="panel panel-default">
 		<div class="panel-heading" role="tab" id="mirrors-3p-heading">
 			<h3 class="panel-title">
-				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#mirrors-3p" aria-expanded="false" aria-controls="mirrors-3p">
+				<a role="button" class="collapsed accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#mirrors-3p" aria-expanded="false" aria-controls="mirrors-3p">
 					Third Party Mirrors
 				</a>
 			</h3>

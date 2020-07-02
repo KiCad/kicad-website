@@ -581,3 +581,15 @@ a.plain-link {
 .modal-open[style] {
     padding-right: 0px !important;
 }
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: "Font Awesome 5 Free";
+    content: "\f0d8";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f0d7";    /* adjust as needed, taken from bootstrap.css */
+}
