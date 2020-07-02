@@ -11,9 +11,7 @@ aliases = [ "/help/report-a-bug/", "/help/report-a-issue/" ]
 
 
 == Before you begin
-KiCad is composed of a few separate parts that come together as the application.
-Each part resides in what is known as a repository and you must identify the correct one to post a issue to.
-
+Reporting an issue with KiCad requires identifying the correct location the issue belongs to known as a *repository* or *repo*.
 
 However, before reporting a issue in any repository:
 
