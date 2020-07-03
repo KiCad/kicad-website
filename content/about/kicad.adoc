@@ -37,8 +37,7 @@ FOSDEM presentations.
 
 
 == Main Authors
-
-[options="header"]
+[options="header",role="table table-striped table-condensed"]
 |===
 |Name | Email
 |Jean-Pierre Charras | jp.charras[at]wanadoo-dot-fr

@@ -593,3 +593,7 @@ a.plain-link {
     /* symbol for "collapsed" panels */
     content: "\f0d7";    /* adjust as needed, taken from bootstrap.css */
 }
+
+pre code {
+    white-space: inherit;
+}

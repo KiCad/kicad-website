@@ -13,9 +13,10 @@ To connect to our IRC channel, you can visit link:https://webchat.freenode.net/?
 
 For those who wish to use a traditional IRC client and already know what this means, the connection details are:
 
-|=======
+[role="table table-striped table-condensed",cols="1h,1"]
+|===
 | Network | link:https://freenode.net/[Freenode]
 | Server  | chat.freenode.net
 | Port    | 6667
 | Channel | `#kicad`
-|=======
+|===

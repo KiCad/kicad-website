@@ -109,11 +109,12 @@ to ensure it actually is present and the correct signer. A guide on how to verif
 
 A valid official KiCad signature has:
 
-[horizontal]
-Signer Name:: *Simon Richter*
-Issuer:: *DigiCert SHA2 Assured ID Code Signing CA*
-Serial Number:: *08d72a8ce400d3b9384a263511bac45d*.
-
+[role="table table-striped table-condensed"]
+|===
+|Signer Name|*Simon Richter*
+|Issuer|*DigiCert SHA2 Assured ID Code Signing CA*
+|Serial Number|*08d72a8ce400d3b9384a263511bac45d*.
+|===
 
 == Previous Releases
 
