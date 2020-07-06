@@ -62,7 +62,7 @@ files before remapping a schematic just in case things go wrong. +
 3. Make sure your default KiCad template project file (kicad.pro) has
    no entries in the [eeschema/libraries] section or get a copy from
    the
-   https://git.launchpad.net/kicad/tree/template/kicad.pro[KiCad source repo].
+   https://gitlab.com/kicad/code/kicad/-/blob/5.1/template/kicad.pro[KiCad source repo].
    If you build from source or are using a nightly build, the update
    project template file has already been installed.  It is imperative
    that you do not have any symbol libraries in your project files.
