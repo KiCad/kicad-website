@@ -6,7 +6,7 @@
     </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{if .IsHome }}{{ .Site.Params.HomeTitle }}{{ else }}{{ replace .Title "-" " " }}{{if ne .Site.Title .Title }} | {{ .Site.Title }} {{ end }}{{ end }}</title>
+    <title>{{if .IsHome }}{{ .Site.Params.HomeTitle }}{{ else }}{{ replace .Title "-" " " }}{{if ne .Site.Title .Title }} | {{ .Site.Title }}{{ end }}{{ end }}</title>
 
     <link href="/blog/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
     
