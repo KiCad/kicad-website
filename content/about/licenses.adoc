@@ -14,21 +14,29 @@ toc::[]
 
 == Program License
 
-KiCad is free software. The majority of KiCad's source code is developed and distributed under the GNU General Public License(GPL) version 3 or greater. However some third party code is included that that causes the combined KiCad release to be governed under the GNU Affero General Public License (AGPL) v3 or later. Additional third party licenses may also exist in the code base such as the MIT License, see the source code for complete and up to date details.
+KiCad is free software. The majority of KiCad's source code is developed and distributed under
+the GNU General Public License(GPL) version 3 or greater. Additional third party licenses may
+also exist in the code base such as the MIT License, see the source code for complete and up
+to date details.
 
 == Documentation License
 
-link:/help/documentation/[KiCad documentation] is distributed under a two license choice of either the GNU General Public License version 3 or later, or the Creative Commons Attribution License version 3.0 or later.
+link:/help/documentation/[KiCad documentation] is distributed under a two license choice of
+either the GNU General Public License version 3 or later, or the Creative Commons Attribution
+License version 3.0 or later.
 
 == Library License
 
-The link:/libraries[KiCad libraries] are distributed under the CC-BY-SA 4.0 license. Further information is link:/libraries/license[available here].
+The link:/libraries[KiCad libraries] are distributed under the CC-BY-SA 4.0 license. Further
+information is link:/libraries/license[available here].
 
 == Website License
 
-Unless otherwise stated, all text and images on this website are licensed under either a choice of the Creative Commons Attributions License, version 3.0 or later; or the General Public License version 3 or later. This does not include the KiCad source code, libraries, documentation, and any third party tools or products mentioned on the website.
+Unless otherwise stated, all text and images on this website are licensed under either a choice
+of the Creative Commons Attributions License, version 3.0 or later; or the General Public
+License version 3 or later. This does not include the KiCad source code, libraries, documentation,
+and any third party tools or products mentioned on the website.
 
 == Terms
-include::./content/about/licenses/_agplv3.adoc[]
 include::./content/about/licenses/_gplv3.adoc[]
 include::./content/about/licenses/_cc-by-3.0.adoc[]
