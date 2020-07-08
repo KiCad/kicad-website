@@ -132,7 +132,7 @@ Some versions of MATE (on Ubuntu or Linux Mint) together with GTK3 and wxWidgets
 and keyboard keys that do not work or can freeze the GUI input. They are potentially caused
 by the ibus. To solve it, install the packages ibus-gtk and ibus-gtk3, and restart the computer (or log out).
 Alternatively, you can quit the ibus calling in a terminal 'ibus exit' before starting KiCad.  
-link:https://gitlab.com/kicad/code/kicad/-/issues/4547[See the bug tracker for more details].
+More details can be found in link:https://gitlab.com/kicad/code/kicad/-/issues/4547[GitLab Bug# 4547].
 
 == Windows
 === wxWidgets 3.0.2
