@@ -1,21 +1,32 @@
-image: docker:19.03.12
-services:
-  - docker:19.03.12-dind
-
 variables:
     BASE_TAG: ${CI_REGISTRY}/${CI_PROJECT_NAMESPACE}/${CI_PROJECT_NAME}/${CI_COMMIT_REF_SLUG}
 
-before_script:
-  - docker info
-  - docker login -u gitlab-ci-token -p "$CI_BUILD_TOKEN" "$CI_REGISTRY"
-
 stages:
+  - test
   - build
 
-build_site:
+build_site_docker:
+  image: docker:19.03.12
+  services:
+    - docker:19.03.12-dind
   stage: build
+  before_script:
+    - docker info
+    - docker login -u gitlab-ci-token -p "$CI_BUILD_TOKEN" "$CI_REGISTRY"
   script:
     - docker build -t "$CI_REGISTRY_IMAGE:latest" .
     - docker push "$CI_REGISTRY_IMAGE:latest"
   only:
     - master
+
+test_build:
+  stage: test
+  image: ruby:2.7.1-buster
+  before_script:
+  - gem install asciidoctor -v 2.0.10
+  - gem install html-proofer -v 3.13.0
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.69.0/hugo_0.69.0_Linux-64bit.tar.gz
+  - tar -xzvf hugo_0.69.0_Linux-64bit.tar.gz
+  script:
+  - ./hugo
+  - htmlproofer ./public --external_only --only_4xx --url-ignore "/www.digikey.com/"
