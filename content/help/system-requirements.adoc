@@ -153,6 +153,9 @@ the following window managers:
 * i3 (Arch Linux)
 * Unity (Ubuntu prior to 18.04)
 
+In case you use MATE (not officially supported) and find rendering problems and keys that do not
+work or that freeze the input, you should check : link:/help/known-system-related-issues/#_mate[these solutions]. 
+
 ==== Graphical Windowing Backend
 Regardless of the window manager, KiCad officially only supports the X11 backend.  Users who
 choose to use Wayland will have to run KiCad in the compatibility layer
