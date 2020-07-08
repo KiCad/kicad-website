@@ -153,8 +153,8 @@ the following window managers:
 * i3 (Arch Linux)
 * Unity (Ubuntu prior to 18.04)
 
-In case you use MATE (not officially supported) and find rendering problems and keys that do not
-work or that freeze the input, you should check : link:/help/known-system-related-issues/#_mate[these solutions]. 
+MATE is not officially supported, but works well in most cases. Check for some issues  
+link:/help/known-system-related-issues/#_mate[here]. 
 
 ==== Graphical Windowing Backend
 Regardless of the window manager, KiCad officially only supports the X11 backend.  Users who
