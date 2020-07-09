@@ -126,6 +126,14 @@ KiCad requests the XWayland compatibility layer when starting, however this is
 an emulation mode and issues arising while using this mode need to be recreated
 under X11 before they will be addressed.
 
+=== MATE
+
+Some versions of MATE (on Ubuntu or Linux Mint) together with GTK3 and wxWidgets can lead to rendering problems
+and keyboard keys that do not work or can freeze the GUI input. They are potentially caused
+by the ibus. To solve it, install the packages ibus-gtk and ibus-gtk3, and restart the computer (or log out).
+Alternatively, you can quit the ibus calling in a terminal 'ibus exit' before starting KiCad.  
+More details can be found in link:https://gitlab.com/kicad/code/kicad/-/issues/4547[GitLab Bug# 4547].
+
 == Windows
 === wxWidgets 3.0.2
 
