@@ -153,9 +153,6 @@ the following window managers:
 * i3 (Arch Linux)
 * Unity (Ubuntu prior to 18.04)
 
-MATE is not officially supported. Check for related issues  
-link:/help/known-system-related-issues/#_mate[here]. 
-
 ==== Graphical Windowing Backend
 Regardless of the window manager, KiCad officially only supports the X11 backend.  Users who
 choose to use Wayland will have to run KiCad in the compatibility layer
