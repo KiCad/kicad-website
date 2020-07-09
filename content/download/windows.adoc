@@ -34,7 +34,7 @@ Current Version: *5.1.6*
 						Futureware - Austria
 					</a>
 					<a class="list-group-item" href="https://osdn.net/dl/kicad/kicad-5.1.6_1-x86_64.exe">
-						<img src="/img/download/osdn.png" /> OSDN - North America + Asia
+						<img src="/img/download/osdn.png" /> OSDN - Asia + North America
 					</a>
 				</div>
 			</div>
