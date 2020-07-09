@@ -569,7 +569,8 @@ code {
 }
 
 .download-list-group > .list-group-item img {    
-    height: 48px;
+    max-height: 48px;
+    max-width: 48px;
 }
 
 a.plain-link {

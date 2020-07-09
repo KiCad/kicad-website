@@ -38,6 +38,9 @@ Current Version: *5.1.6*
 					<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/osx/stable/kicad-unified-5.1.6-0-10_14.dmg">
 						Futureware - Austria
 					</a>
+					<a class="list-group-item" href="https://osdn.net/dl/kicad/kicad-unified-5.1.6-0-10_14.dmg">
+						<img src="/img/download/osdn.png" /> OSDN - Asia + North America
+					</a>
 				</div>
 			</div>
 		</div>
@@ -59,6 +62,9 @@ Current Version: *5.1.6*
 					</a>
 					<a class="list-group-item" href="http://www2.futureware.at/~nickoe/kicad-downloads-mirror/osx/stable/kicad-unified-5.1.6-0.dmg">
 						Futureware - Austria
+					</a>
+					<a class="list-group-item" href="https://osdn.net/dl/kicad/kicad-unified-5.1.6-0.dmg">
+						<img src="/img/download/osdn.png" /> OSDN - Asia + North America
 					</a>
 				</div>
 			</div>
