@@ -153,7 +153,7 @@ the following window managers:
 * i3 (Arch Linux)
 * Unity (Ubuntu prior to 18.04)
 
-MATE is not officially supported, but works well in most cases. Check for some issues  
+MATE is not officially supported. Check for related issues  
 link:/help/known-system-related-issues/#_mate[here]. 
 
 ==== Graphical Windowing Backend
