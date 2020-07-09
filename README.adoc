@@ -55,3 +55,13 @@ at the top of the asciidoc file but below the hugo template header.
 === adoc partials
 Please name any reusable asciidoc files with a leading underscore in the filename and ending in .adoc.
 Hugo is configured to ignore such files on purpose.
+
+== External resources
+To enhance security a little, we implement Content-Security-Policy headers which are set by nginx.
+These dictate to the browser what resource paths are allowable for scripts, videos, images, etc
+And while we do use HTTPS, CSP is just another tool to _potentially_ stop browser side and other attacks.
+
+This means:
+1. Please add any images, js and css directly to this repo. Its far better for us to mirror them lest they potentially go down in the future. Especially third party images
+2. Please make best effort to use existing "approved" remote resources as visibile in /.docker/default.conf
+3. If you notice a resource isn't loading on what you are editing, check the Developer Tools Console output for your respective browser, if it is blocked due to CSP, it will say so.
