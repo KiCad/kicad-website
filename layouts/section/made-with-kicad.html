@@ -29,6 +29,7 @@
 			</div>
 
 			{{ $allSectionContent := where .Site.Pages "Section" "made-with-kicad" }}
+			{{ $allSectionContent := where $allSectionContent "Params.projectdeveloper" "!=" nil }}
 			{{ $pagesOnlyInSection := where $allSectionContent "Kind" "page" }}
 
 			{{ $paginator := .Paginate $pagesOnlyInSection }}
