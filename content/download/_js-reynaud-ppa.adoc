@@ -4,14 +4,14 @@
 == 5.1.6 Stable Release
 
 === Installation
-KiCad 5.1.6 is available in https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-5.1[PPA for KiCad: 5.1 releases ].
+KiCad 5.1.6 is available in https://launchpad.net/~kicad/+archive/ubuntu/kicad-5.1-releases[PPA for KiCad: 5.1 releases ].
 
 To install KiCad via the PPA, you can use the Software Manager:
 
 1. Open the Software Manager.
 2. Select 'Edit' -> 'Software Sources...'.
 3. Open the 'Other Software' tab.
-4. Click 'Add...', and enter the PPA address: `ppa:js-reynaud/kicad-5.1` and then click the
+4. Click 'Add...', and enter the PPA address: `ppa:kicad/kicad-5.1-releases` and then click the
    'Add Source' button.
 5. When prompted insert the administrator user password.
 6. Return to the Software Manager and view the Progress tab to see when the cache has finished
@@ -24,7 +24,7 @@ install kicad-library and kicad-doc respectively.
 If you prefer to use the shell, you can enter these commands into a terminal:
 
 [source,bash]
-sudo add-apt-repository --yes ppa:js-reynaud/kicad-5.1
+sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases
 sudo apt update
 sudo apt install --install-recommends kicad
 # If you want demo projects
@@ -126,13 +126,13 @@ TIP: Nightly builds are provided in a separate installation directory. It is
 possible to install nightly builds at the same time as a stable version.
 
 Nightly development builds are available in
-https://launchpad.net/~js-reynaud/+archive/ubuntu/kicad-dev-nightly[js-reynaud's nightly PPA].
+https://launchpad.net/~kicad/+archive/ubuntu/kicad-dev-nightly[Nightly PPA].
 To install KiCad via the PPA, you can use the Ubuntu Software Manager:
 
 1. Open the Software Manager.
 2. Select 'Edit' -> 'Software Sources...'.
 3. Open the 'Other Software' tab.
-4. Click 'Add...', and enter the PPA address: `ppa:js-reynaud/kicad-dev-nightly` and then
+4. Click 'Add...', and enter the PPA address: `ppa:kicad/kicad-dev-nightly` and then
    click the 'Add Source' button.
 5. When prompted insert the administrator user password.
 6. Return to the Software Manager and view the Progress tab to see when the cache has
@@ -142,7 +142,7 @@ To install KiCad via the PPA, you can use the Ubuntu Software Manager:
 If you prefer to use the shell, you can enter these commands into a terminal:
 
 [source,bash]
-sudo add-apt-repository --yes ppa:js-reynaud/kicad-dev-nightly
+sudo add-apt-repository --yes ppa:kicad/kicad-dev-nightly
 sudo apt update
 sudo apt install kicad-nightly
 # You can also install debug symbols:
