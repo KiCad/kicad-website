@@ -6,6 +6,7 @@ Footprints that contain multiple pads or conductive elements that are *physicall
 
 . Multiple pads that are physically connected must share the same number
 . Thermal vias (if present) must share the same number as the thermal pad to which they are connected
-
+. Overlapping pads should be replaced with custom shapes
+. Pads and shapes should not be rotated arbitrarily. Ex: If you can swap width and height to avoid a 90deg rotation you should do so.
 
 {{< klcimg src="F4.3a" title="Connected copper areas must have same pad number" >}}
