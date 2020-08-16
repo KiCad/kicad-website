@@ -13,8 +13,11 @@ Where possible, pins should be grouped by similar function, rather than by their
 . *Negative power* and *ground* pins should be placed at the _bottom_ of a symbol
   * `GND`, `Vss`, `V-`, etc.
 . *Input/Control/Logic* pins should be placed on the _left_ of a symbol
-  * `UART Tx/Rx`
+  * `Enable`, `Sleep`
+  * `Iset`
 . *Output/Controlled/Driver* pins should be placed on the _right_ of a symbol
-  * `RS232 Tx/Rx`
+  * `Alarm`
+  * `ChargeFinished`
+  * `Q`, `!Q`
 
 {{< klcimg src="S4.2a" title="Pin grouping" >}}

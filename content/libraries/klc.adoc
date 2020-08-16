@@ -14,7 +14,7 @@ summary = "The KiCad Library Convention (KLC) is a set of requirements for contr
 toc::[]
 
 
-**link:/libraries/klc/history/[Revision: 3.0.26]**
+**link:/libraries/klc/history/[Revision: 3.0.27]**
 
 ---
 
