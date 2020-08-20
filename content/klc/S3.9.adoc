@@ -1,0 +1,6 @@
++++
+brief = "Elements on the graphic layer should not overlap"
++++
+
+Symbols must not have overlapping or duplicate graphic elements. This includes lines, arcs, text and circles.
+
