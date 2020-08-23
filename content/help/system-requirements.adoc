@@ -76,8 +76,9 @@ The software prerequisites for installing on a macOS system are as follows:
 |===
 |Operating System | End of Support
 |macOS 10.12      | Unsupported
-|macOS 10.13      | 1-Aug-2020
+|macOS 10.13      | Unsupported
 |macOS 10.14      | 1-Aug-2021
+|macOS 10.15      | 1-Aug-2022
 |===
 
 [%hardbreaks]
@@ -101,7 +102,7 @@ on some of the older distributions listed below.
 |Ubuntu 18.04 (LTS)     |1-Apr-2021
 |Ubuntu 18.10           |Unsupported, will most likely still function
 |Ubuntu 19.04           |Unsupported, will most likely still function
-|Ubuntu 19.10           |1-July-2020
+|Ubuntu 19.10           |Unsupported, will most likely still function
 |Ubuntu 20.04 (LTS)     |approx May 2023
 |===
 
@@ -118,7 +119,7 @@ is under https://wiki.ubuntu.com/Releases[standard support] from Ubuntu.
 |===
 |Operating System       |End of Support
 |Fedora 29              |Unsupported, will most likely still function
-|Fedora 30              |approx May 2020
+|Fedora 30              |Unsupported, will most likely still function
 |Fedora 31              |approx November 2020
 |Fedora 32              |approx May 2021
 |===
