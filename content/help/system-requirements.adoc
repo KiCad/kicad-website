@@ -119,7 +119,7 @@ is under https://wiki.ubuntu.com/Releases[standard support] from Ubuntu.
 |===
 |Operating System       |End of Support
 |Fedora 29              |Unsupported, will most likely still function
-|Fedora 30              |Unsupported
+|Fedora 30              |Unsupported, will most likely still function
 |Fedora 31              |approx November 2020
 |Fedora 32              |approx May 2021
 |===
