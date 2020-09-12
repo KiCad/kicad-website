@@ -44,7 +44,7 @@ __Note: While many of the KLC guidelines are checked by these scripts, there are
 
 == General Library Guidelines
 
-The general library guidelines apply to all library elements (symbols / footprints / models). However, these guidelines may be overridden in some cases by specific exceptions described in further sections.
+The general library guidelines apply to all library elements (symbols / footprints / models / templates / 3D models). However, these guidelines may be overridden in some cases by specific exceptions described in further sections.
 
 {{< klc_list title="General Guidelines" filter="G1.">}}
 

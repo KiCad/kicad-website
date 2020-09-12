@@ -34,7 +34,7 @@ patches on behalf of a company), the developers with contribution history
 
 == Submission Process
 
-. Fork the https://github.com/KiCad/kicad-website repository on GitHub
+. Fork the https://gitlab.com/kicad/services/kicad-website repository on GitHub
 . Add a new folder in your fork under the `/content/made-with-kicad/` folder such as `/content/made-with-kicad/my-project-a/`
 . Create a index.adoc in the newly created folder with the following template as a base
 +
@@ -69,4 +69,4 @@ My project is totally cool and awesome
 . Create a image for the project. It should be in either `png` or `jpg` format and no larger than `800x600` in size. Add the image to the same folder as the index.adoc
 . Commit both the image and `index.adoc` to your fork of the repository and link:https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request[submit a pull-request] to the original KiCad repository
 
-*Don't be afraid to try your best and ask for help in the link:https://github.com/KiCad/kicad-website[repository]!*
+*Don't be afraid to try your best and ask for help in the link:https://gitlab.com/kicad/services/kicad-website[repository]!*

@@ -55,7 +55,7 @@ docs.kicad-pcb.org. Please report any issues in the correct location.
 
 
 
-link:https://github.com/KiCad/kicad-website/issues[I have a kicad-pcb.org issue^,role="btn btn-default btn-primary"] 
+link:https://gitlab.com/kicad/services/kicad-website/issues[I have a kicad-pcb.org issue^,role="btn btn-default btn-primary"] 
 
 
 link:https://gitlab.com/kicad/services/kicad-doc-website/-/issues[I have a docs.kicad-pcb.org issue^,role="btn btn-default btn-primary"] 

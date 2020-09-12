@@ -2,7 +2,7 @@
 brief = "Only standard characters are used for naming libraries and components"
 +++
 
-Filenames, symbol names, footprint names and model names must contain only valid characters, as determined below:
+Filenames, symbol names, footprint names, model names, 3D model names, and template names must contain only valid characters, as determined below:
 
 . Alphanumeric characters (`A-Z`, `a-z`, `0-9`)
 . Underscore `_`

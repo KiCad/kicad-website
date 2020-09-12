@@ -23,7 +23,7 @@ documenters and users in the channel.
 Most of the action takes place on two repositories on GitHub.
 
  - link:https://github.com/KiCad/kicad-doc[Official Documentation]
- - link:https://github.com/KiCad/kicad-website[Website]
+ - link:https://gitlab.com/kicad/services/kicad-website[Website]
 
 What are the tasks we are working on?
 

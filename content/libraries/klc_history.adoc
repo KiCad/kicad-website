@@ -5,6 +5,9 @@ summary = "Revision history of the KiCad Library Conventions"
 +++
 
 ---
+== 3.0.27 - 2020-09-12
+* Change general guidelines (G) to mention templates and 3D models
+
 == 3.0.26 - 2020-01-18
 * Clarify that contributions must be made with the current stable version (G1.8)
 
