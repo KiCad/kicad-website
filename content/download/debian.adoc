@@ -150,6 +150,9 @@ system before proceed.
 sudo apt install -t buster-backports kicad
 ----
 
+TIP: This method of installing KiCad is also suitable for 
+Deepin/UOS Linux distributions based on Debian branches.
+
 ===== https://packages.debian.org/buster/kicad[Stable (Release)]
 
 Version: {{< repology debian_stable >}}
